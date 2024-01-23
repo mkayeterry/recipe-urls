@@ -1,11 +1,19 @@
 from recipe_urls.utils import categorize_url
+from recipe_urls.url_scrapers.afghankitchenrecipes_scraper import AfghanKitchenRecipesScraper
 from recipe_urls.url_scrapers.allrecipes_scraper import AllRecipesScraper
+# from recipe_urls.url_scrapers.averiecooks_scraper import AverieCooksScraper #TODO: fix regex
+from recipe_urls.url_scrapers.bakingsense_scraper import BakingSenseScraper
+# from recipe_urls.url_scrapers.bongeats_scraper import BongEatsScraper
+# from recipe_urls.url_scrapers.food52_scraper import Food52Scraper
+# from recipe_urls.url_scrapers.food_scraper import FoodScraper
+# from recipe_urls.url_scrapers.hellofresh_scraper import HelloFreshScraper
+# from recipe_urls.url_scrapers.nytimes_scraper import NyTimesScraper
 
 SCRAPER_CLASSES = {
-    # 'afghankitchenrecipes': AfghanKitchenRecipesScraper,
-    'allrecipes': AllRecipesScraper
-    # 'averiecooks': AverieCooksScraper,
-    # 'baking-sense': BakingSenseScraper,
+    'afghankitchenrecipes': AfghanKitchenRecipesScraper, 
+    'allrecipes': AllRecipesScraper, 
+    # 'averiecooks': AverieCooksScraper, #TODO: fix regex
+    'baking-sense': BakingSenseScraper
     # 'bongeats': BongEatsScraper,
     # 'food52': Food52Scraper,
     # 'food': FoodScraper,
@@ -51,10 +59,12 @@ def get_recipe_urls(base_urls):
         except KeyError:
             print(f"[main.py] Error: Scraper class not found for URL '{base_url}'.")
 
-    return recipe_urls
+    return compiled_recipe_urls
 
 
 
 # Testing 
-# url = "https://www.allrecipes1.com"
+# url = ['https://www.baking-sense.com', 'https://www.allrecipes.com', 'http://www.afghankitchenrecipes.com']
 # urls = get_recipe_urls(url)
+
+
