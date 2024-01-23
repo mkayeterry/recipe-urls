@@ -35,10 +35,6 @@ print(recipe_data)
 - [HelloFresh](https://www.hellofresh.com)
 - [NYT Cooking](https://cooking.nytimes.com/)
 
-## Acknowledgements
-
-This package is intended to be used in conjunction with the [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) package by hhursev. The inspiration for this project comes from the need to gather base URLs for recipe websites before utilizing recipe-scrapers for detailed recipe extraction.
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
