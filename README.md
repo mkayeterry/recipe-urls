@@ -19,7 +19,7 @@ from recipe_urls import main
 ```
 
 ## Example usage
-url = "https://www.allrecipes.com/recipe/12345/delicious-recipe/"
+url = "https://www.allrecipes.com/recipe/12345/delicious-recipe/" <br/>
 recipe_data = main.scrape_recipe(url)
 print(recipe_data)
 
