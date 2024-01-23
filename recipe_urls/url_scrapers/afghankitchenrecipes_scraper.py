@@ -1,8 +1,9 @@
 import re
+from typing import List
 from ..base_scraper import BaseScraper
 
 class AfghanKitchenRecipesScraper(BaseScraper):
-    def scrape(self):
+    def scrape(self) -> List[str]:
         # Call the base class to get the list of generalized href links
         href_links = super().scrape()
 
@@ -11,8 +12,8 @@ class AfghanKitchenRecipesScraper(BaseScraper):
 
         return recipe_links
 
-    def filter_recipe_links(self, href_links):
-        print('[afghankitchenrecipes_scraper.py] Filtering general href links using specififed regex pattern...')
+    def filter_recipe_links(self, href_links: List[str]) -> List[str]:
+        print('[afghankitchenrecipes_scraper.py] Filtering general href links using specified regex pattern...')
 
         # Site-specific regex for AfghanKitchenRecipes
         recipe_pattern = re.compile(r'http://www\.afghankitchenrecipes\.com/recipe/[\w-]+/')

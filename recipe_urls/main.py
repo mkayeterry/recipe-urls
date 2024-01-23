@@ -1,3 +1,4 @@
+from typing import List
 from recipe_urls.utils import categorize_url
 from recipe_urls.url_scrapers.afghankitchenrecipes_scraper import AfghanKitchenRecipesScraper
 from recipe_urls.url_scrapers.allrecipes_scraper import AllRecipesScraper
@@ -21,7 +22,7 @@ SCRAPER_CLASSES = {
     # 'nytimes': NyTimesScraper
 }
 
-def get_recipe_urls(base_url):
+def get_recipe_urls(base_url: str) -> List[str]:
     """
     Extracts recipe information from a list of base URLs using specific scraper classes.
 
@@ -29,7 +30,7 @@ def get_recipe_urls(base_url):
     - base_url (str): A single base URL to extract recipes from.
 
     Returns:
-    - list: A list of recipe URLs
+    - List[str]: A list of recipe URLs.
     """
 
     # Categorize the URL to determine the appropriate scraper class

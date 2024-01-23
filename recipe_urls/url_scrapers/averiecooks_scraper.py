@@ -1,8 +1,9 @@
 import re
+from typing import List
 from ..base_scraper import BaseScraper
 
 class AverieCooksScraper(BaseScraper):
-    def scrape(self):
+    def scrape(self) -> List[str]:
         # Call the base class to get the list of generalized href links
         href_links = super().scrape()
 
@@ -11,7 +12,7 @@ class AverieCooksScraper(BaseScraper):
 
         return recipe_links
 
-    def filter_recipe_links(self, href_links):
+    def filter_recipe_links(self, href_links: List[str]) -> List[str]:
         print('[averiecooks_scraper.py] Filtering general href links using specififed regex pattern...')
 
         # Site-specific regex for AverieCooks
