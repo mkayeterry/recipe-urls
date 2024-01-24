@@ -6,7 +6,7 @@
 
 ## Installation
 
-**Note: This package is currently under development and not available for installation through pip.**
+Note: This package is currently under development and not available for installation through pip.
 
 <!-- ```bash
 pip install recipe-urls
@@ -20,7 +20,7 @@ from recipe_urls import main
 
 ## Example usage
 
-```
+```python
 urls = ['https://bakingmischief.com', 'https://www.allrecipes.com']
 compiled_recipe_links = []
 
