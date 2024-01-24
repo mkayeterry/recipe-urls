@@ -10,6 +10,7 @@ def categorize_url(base_url: str) -> Optional[str]:
         'ambitiouskitchen', 
         'archanaskitchen', 
         'averiecooks',
+        'bakingmischief',
         'baking-sense',
         'barefootcontessa', 
         'bongeats',
