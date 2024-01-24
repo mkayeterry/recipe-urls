@@ -4,6 +4,7 @@ def categorize_url(base_url: str) -> Optional[str]:
     site_origins = [
         'abuelascounter', 
         'acouplecooks', 
+        'addapinch', 
         'afghankitchenrecipes', 
         'allrecipes', 
         'averiecooks',
