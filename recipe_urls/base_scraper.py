@@ -43,7 +43,7 @@ class BaseScraper:
 
 
 
-# url = 'https://altonbrown.com/cook?category=soups-sandwiches'
+# url = 'https://www.archanaskitchen.com'
 # response = httpx.get(url = url, headers = HEADERS)
 # html = response.content
 # soup = BeautifulSoup(html, "html.parser")
