@@ -32,21 +32,22 @@ for url in urls:
 ## Supported Websites (So Far!)
 
 - https://abuelascounter.com
-- http://www.afghankitchenrecipes.com
 - https://www.acouplecooks.com
+- https://addapinch.com//
+- http://www.afghankitchenrecipes.com
 - https://www.allrecipes.com
 - https://www.ambitiouskitchen.com
+- https://www.archanaskitchen.com
 - https://www.averiecooks.com
-- https://barefootcontessa.com
 - https://bakingmischief.com
 - https://www.baking-sense.com
+- https://barefootcontessa.com
+- https://www.bbc.co.uk/food/
 - https://www.bongeats.com
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes
 - https://cooking.nytimes.com
-- https://addapinch.com//
-- https://www.archanaskitchen.com
 
 
 ## License

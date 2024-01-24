@@ -11,6 +11,7 @@ from recipe_urls.url_scrapers.averiecooks_scraper import AverieCooksScraper
 from recipe_urls.url_scrapers.bakingmischief_scraper import BakingMischiefScraper
 from recipe_urls.url_scrapers.bakingsense_scraper import BakingSenseScraper
 from recipe_urls.url_scrapers.barefootcontessa_scraper import BarefootContessaScraper
+from recipe_urls.url_scrapers.bbc_scraper import BBCScraper
 from recipe_urls.url_scrapers.bongeats_scraper import BongEatsScraper
 from recipe_urls.url_scrapers.food_scraper import FoodScraper
 from recipe_urls.url_scrapers.food52_scraper import Food52Scraper
@@ -29,6 +30,7 @@ SCRAPER_CLASSES = {
     'bakingmischief': BakingMischiefScraper,
     'baking-sense': BakingSenseScraper, 
     'barefootcontessa': BarefootContessaScraper,
+    'bbc': BBCScraper,
     'bongeats': BongEatsScraper, 
     'food': FoodScraper, 
     'food52': Food52Scraper, 
@@ -69,13 +71,13 @@ def get_recipe_urls(base_url: str) -> List[str]:
 
 
 
-# Testing 
-urls = ['https://bakingmischief.com']
-compiled_urls = []
+# # Testing 
+# urls = ['https://www.bbc.co.uk/food/recipes/a-z/a/1#featured-content']
+# compiled_urls = []
 
-for url in urls:
-    recipes = get_recipe_urls(url)
-    compiled_urls.extend(recipes)
+# for url in urls:
+#     recipes = get_recipe_urls(url)
+#     compiled_urls.extend(recipes)
 
 
 # 'https://abuelascounter.com'
@@ -94,3 +96,4 @@ for url in urls:
 # 'https://www.archanaskitchen.com'
 # 'https://barefootcontessa.com'
 # 'https://bakingmischief.com'
+# 'https://www.bbc.co.uk/food/'

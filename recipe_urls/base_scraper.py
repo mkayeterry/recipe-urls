@@ -43,7 +43,7 @@ class BaseScraper:
 
 
 
-# url = 'https://www.archanaskitchen.com'
+# url = 'https://www.bbc.co.uk/food/'
 # response = httpx.get(url = url, headers = HEADERS)
 # html = response.content
 # soup = BeautifulSoup(html, "html.parser")
