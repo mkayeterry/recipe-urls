@@ -1,6 +1,7 @@
 from typing import List
 from recipe_urls.utils import categorize_url
 from recipe_urls.url_scrapers.abuelascounter_scraper import AbuelasCounterScraper
+from recipe_urls.url_scrapers.acouplecooks_scraper import ACoupleCooksScraper
 from recipe_urls.url_scrapers.afghankitchenrecipes_scraper import AfghanKitchenRecipesScraper
 from recipe_urls.url_scrapers.allrecipes_scraper import AllRecipesScraper
 from recipe_urls.url_scrapers.averiecooks_scraper import AverieCooksScraper
@@ -13,6 +14,7 @@ from recipe_urls.url_scrapers.nytimes_scraper import NyTimesScraper
 
 SCRAPER_CLASSES = {
     'abuelascounter': AbuelasCounterScraper,
+    'acouplecooks': ACoupleCooksScraper,
     'afghankitchenrecipes': AfghanKitchenRecipesScraper, 
     'allrecipes': AllRecipesScraper, 
     'averiecooks': AverieCooksScraper,
@@ -57,13 +59,13 @@ def get_recipe_urls(base_url: str) -> List[str]:
 
 
 
-# # Testing 
-# urls = ['https://www.baking-sense.com']
-# compiled_urls = []
+# Testing 
+urls = ['https://www.acouplecooks.com']
+compiled_urls = []
 
-# for url in urls:
-#     recipes = get_recipe_urls(url)
-#     compiled_urls.extend(recipes)
+for url in urls:
+    recipes = get_recipe_urls(url)
+    compiled_urls.extend(recipes)
 
 
 # 'https://abuelascounter.com'
@@ -76,4 +78,5 @@ def get_recipe_urls(base_url: str) -> List[str]:
 # 'https://food52.com'
 # 'https://www.hellofresh.com/recipes'
 # 'https://cooking.nytimes.com'
+# 'https://www.acouplecooks.com'
 
