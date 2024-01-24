@@ -8,7 +8,7 @@ from recipe_urls.url_scrapers.bongeats_scraper import BongEatsScraper
 from recipe_urls.url_scrapers.food_scraper import FoodScraper
 from recipe_urls.url_scrapers.food52_scraper import Food52Scraper
 from recipe_urls.url_scrapers.hellofresh_scraper import HelloFreshScraper
-# from recipe_urls.url_scrapers.nytimes_scraper import NyTimesScraper
+from recipe_urls.url_scrapers.nytimes_scraper import NyTimesScraper
 
 SCRAPER_CLASSES = {
     'afghankitchenrecipes': AfghanKitchenRecipesScraper, 
@@ -18,8 +18,8 @@ SCRAPER_CLASSES = {
     'bongeats': BongEatsScraper, 
     'food': FoodScraper, 
     'food52': Food52Scraper, 
-    'hellofresh': HelloFreshScraper
-    # 'nytimes': NyTimesScraper
+    'hellofresh': HelloFreshScraper, 
+    'nytimes': NyTimesScraper
 }
 
 def get_recipe_urls(base_url: str) -> List[str]:
@@ -56,7 +56,7 @@ def get_recipe_urls(base_url: str) -> List[str]:
 
 
 # Testing 
-urls = ['https://www.hellofresh.com/recipes']
+urls = ['https://cooking.nytimes.com']
 compiled_urls = []
 
 for url in urls:
@@ -71,3 +71,4 @@ for url in urls:
 'https://www.food.com'
 'https://food52.com'
 'https://www.hellofresh.com/recipes'
+'https://cooking.nytimes.com'
