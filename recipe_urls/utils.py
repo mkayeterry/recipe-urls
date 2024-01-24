@@ -2,6 +2,7 @@ from typing import Optional
 
 def categorize_url(base_url: str) -> Optional[str]:
     site_origins = [
+        'abuelascounter', 
         'afghankitchenrecipes', 
         'allrecipes', 
         'averiecooks',

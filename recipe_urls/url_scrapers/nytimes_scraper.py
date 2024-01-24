@@ -23,11 +23,12 @@ class NyTimesScraper(BaseScraper):
         # Site-specific regex for NYTimes
         recipe_pattern = re.compile(r'/recipes/\d+-[a-z-]+')
 
-        # Filter href links for recipe-specific ones
-        recipe_links = ["https://cooking.nytimes.com{}".format(link) for link in href_links if recipe_pattern.search(link)]
+        # Use a set to deduplicate the links while filtering href links for recipe-specific ones
+        unique_links_set = set("https://cooking.nytimes.com{}".format(link) for link in href_links if recipe_pattern.search(link))
 
         # Raise an error if no recipe links are found
-        if not recipe_links:
+        if not unique_links_set:
             raise ValueError("[nytimes_scraper.py] No recipe links matched the defined pattern for NYTimes.")
 
-        return recipe_links
+        # Convert the set back to a list
+        return list(unique_links_set)

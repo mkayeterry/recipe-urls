@@ -2,7 +2,7 @@ import re
 from typing import List
 from ..base_scraper import BaseScraper
 
-class BakingSenseScraper(BaseScraper):
+class AbuelasCounterScraper(BaseScraper):
     def scrape(self) -> List[str]:
         # Call the base class to get the list of beautiful soup items
         soup = super().scrape()
@@ -10,7 +10,7 @@ class BakingSenseScraper(BaseScraper):
         href_links = [a["href"] for a in soup.find_all("a", href=True)]
 
         if not href_links:
-            print(f"[bakingsense_scraper.py] Warning: href_links is empty for {self.base_url}")
+            print(f"[abuelascounter_scraper.py] Warning: href_links is empty for {self.base_url}")
 
         # Filter href links for recipe-specific ones using site-specific regex
         recipe_links = self.filter_recipe_links(href_links)
@@ -18,17 +18,17 @@ class BakingSenseScraper(BaseScraper):
         return recipe_links
 
     def filter_recipe_links(self, href_links: List[str]) -> List[str]:
-        print('[bakingsense_scraper.py] Filtering general href links using specififed regex pattern...')
+        print('[abuelascounter_scraper.py] Filtering general href links using specified regex pattern...')
 
-        # Site-specific regex for BakingSense
-        recipe_pattern = re.compile(r'https://www\.baking-sense\.com/\d+/\d+/\d+/(?!.*(?:baking-ingredient|baking-ingredients))[\w-]+/')
+        # Site-specific regex for AbuelasCounter
+        recipe_pattern = re.compile(r'https://abuelascounter\.com/([a-zA-Z]+-){2,}[a-zA-Z]+/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
 
         # Raise an error if no recipe links are found
         if not unique_links_set:
-            raise ValueError("[bakingsense_scraper.py] No recipe links matched the defined pattern for BakingSense.")
+            raise ValueError("[abuelascounter_scraper.py] No recipe links matched the defined pattern for AbuelasCounter.")
 
         # Convert the set back to a list
         return list(unique_links_set)

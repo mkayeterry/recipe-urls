@@ -23,11 +23,12 @@ class HelloFreshScraper(BaseScraper):
         # Site-specific regex for HelloFresh
         recipe_pattern = re.compile(r'https://www\.hellofresh\.com/recipes/[\d\w-]+-\w{24}')
 
-        # Filter href links for recipe-specific ones
-        recipe_links = [link for link in href_links if recipe_pattern.search(link)]
+        # Use a set to deduplicate the links while filtering href links for recipe-specific ones
+        unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
 
         # Raise an error if no recipe links are found
-        if not recipe_links:
+        if not unique_links_set:
             raise ValueError("[hellofresh_scraper.py] No recipe links matched the defined pattern for HelloFresh.")
 
-        return recipe_links
+        # Convert the set back to a list
+        return list(unique_links_set)

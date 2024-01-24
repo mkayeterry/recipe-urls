@@ -23,11 +23,12 @@ class Food52Scraper(BaseScraper):
         # Site-specific regex for Food52
         recipe_pattern = re.compile(r'/recipes/([^/]+)')
 
-        # Filter href links for recipe-specific ones
-        recipe_links = ["https://www.food52.com{}".format(link) for link in href_links if recipe_pattern.search(link)]
+        # Use a set to deduplicate the links while filtering href links for recipe-specific ones
+        unique_links_set = set("https://www.food52.com{}".format(link) for link in href_links if recipe_pattern.search(link))
 
         # Raise an error if no recipe links are found
-        if not recipe_links:
+        if not unique_links_set:
             raise ValueError("[food52_scraper.py] No recipe links matched the defined pattern for Food52.")
 
-        return recipe_links
+        # Convert the set back to a list
+        return list(unique_links_set)

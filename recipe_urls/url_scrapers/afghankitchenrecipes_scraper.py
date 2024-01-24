@@ -23,11 +23,12 @@ class AfghanKitchenRecipesScraper(BaseScraper):
         # Site-specific regex for AfghanKitchenRecipes
         recipe_pattern = re.compile(r'http://www\.afghankitchenrecipes\.com/recipe/[\w-]+/')
 
-        # Filter href links for recipe-specific ones
-        recipe_links = [link for link in href_links if recipe_pattern.search(link)]
+        # Use a set to deduplicate the links while filtering href links for recipe-specific ones
+        unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
 
         # Raise an error if no recipe links are found
-        if not recipe_links:
-            raise ValueError("[afghankitchenrecipes_scraper.py] No recipe links matched the defined pattern for AfghanKitchenRecipes.")
+        if not unique_links_set:
+            raise ValueError("[afghankitchenrecipes.py] No recipe links matched the defined pattern for AfghanKitchenRecipes.")
 
-        return recipe_links
+        # Convert the set back to a list
+        return list(unique_links_set)
