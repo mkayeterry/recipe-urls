@@ -4,6 +4,10 @@ import random
 import httpx
 from bs4 import BeautifulSoup
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
+}
+
 class BaseScraper:
     def __init__(self, base_url: str, random_sleeps: bool = True, lower_sleep: int = 1, upper_sleep: int = 3):
         self.base_url = base_url
@@ -19,7 +23,7 @@ class BaseScraper:
             time.sleep(sleep_time)
 
         try:
-            response = httpx.get(self.base_url)
+            response = httpx.get(url = self.base_url, headers = HEADERS)
             response.raise_for_status()  # Raise an HTTPError for bad responses
 
             html = response.content
@@ -39,3 +43,8 @@ class BaseScraper:
 
 
 
+# url = 'https://altonbrown.com/cook?category=soups-sandwiches'
+# response = httpx.get(url = url, headers = HEADERS)
+# html = response.content
+# soup = BeautifulSoup(html, "html.parser")
+# href_links = [a["href"] for a in soup.find_all("a", href=True)]
