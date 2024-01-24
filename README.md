@@ -2,7 +2,7 @@
 
 ## Overview
 
-`recipe-urls` is a Python package designed to gather base URLs from recipe websites.
+`recipe-urls` is a Python package designed to gather recipe URLs from a given base URL.
 
 ## Installation
 
@@ -19,21 +19,35 @@ from recipe_urls import main
 ```
 
 ## Example usage
-url = "https://www.allrecipes.com/recipe/12345/delicious-recipe/" <br/>
-recipe_data = main.scrape_recipe(url)
-print(recipe_data)
+
+```
+urls = ['https://bakingmischief.com', 'https://www.allrecipes.com']
+compiled_recipe_links = []
+
+for url in urls:
+    recipes = main.get_recipe_urls(url)
+    compiled_recipe_links.extend(recipes)
+```
 
 ## Supported Websites (So Far!)
 
-- [Afghan Kitchen Recipes](http://www.afghankitchenrecipes.com)
-- [AllRecipes](https://www.allrecipes.com)
-- [Averie Cooks](https://www.averiecooks.com)
-- [Baking Sense](https://www.baking-sense.com)
-- [Bong Eats](https://www.bongeats.com)
-- [Food52](https://food52.com)
-- [Food.com](https://www.food.com)
-- [HelloFresh](https://www.hellofresh.com)
-- [NYT Cooking](https://cooking.nytimes.com/)
+- https://abuelascounter.com
+- http://www.afghankitchenrecipes.com
+- https://www.acouplecooks.com
+- https://www.allrecipes.com
+- https://www.ambitiouskitchen.com
+- https://www.averiecooks.com
+- https://barefootcontessa.com
+- https://bakingmischief.com
+- https://www.baking-sense.com
+- https://www.bongeats.com
+- https://www.food.com
+- https://food52.com
+- https://www.hellofresh.com/recipes
+- https://cooking.nytimes.com
+- https://addapinch.com//
+- https://www.archanaskitchen.com
+
 
 ## License
 
