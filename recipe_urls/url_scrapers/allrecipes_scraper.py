@@ -4,8 +4,13 @@ from ..base_scraper import BaseScraper
 
 class AllRecipesScraper(BaseScraper):
     def scrape(self) -> List[str]:
-        # Call the base class to get the list of generalized href links
-        href_links = super().scrape()
+        # Call the base class to get the list of beautiful soup items
+        soup = super().scrape()
+
+        href_links = [a["href"] for a in soup.find_all("a", href=True)]
+
+        if not href_links:
+            print(f"[allrecipes_scraper.py] Warning: href_links is empty for {self.base_url}")
 
         # Filter href links for recipe-specific ones using site-specific regex
         recipe_links = self.filter_recipe_links(href_links)

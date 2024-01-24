@@ -32,11 +32,6 @@ class BaseScraper:
         if not soup:
             print(f"[base_scraper.py] Warning: Soup is empty for {self.base_url}")
 
-        href_links = [a["href"] for a in soup.find_all("a", href=True)]
-
-        if not href_links:
-            print(f"[base_scraper.py] Warning: href_links is empty for {self.base_url}")
-
-        return href_links
+        return soup
 
 
