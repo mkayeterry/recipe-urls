@@ -2,7 +2,7 @@ from typing import List
 from recipe_urls.utils import categorize_url
 from recipe_urls.url_scrapers.afghankitchenrecipes_scraper import AfghanKitchenRecipesScraper
 from recipe_urls.url_scrapers.allrecipes_scraper import AllRecipesScraper
-# from recipe_urls.url_scrapers.averiecooks_scraper import AverieCooksScraper #TODO: fix regex
+from recipe_urls.url_scrapers.averiecooks_scraper import AverieCooksScraper
 from recipe_urls.url_scrapers.bakingsense_scraper import BakingSenseScraper
 from recipe_urls.url_scrapers.bongeats_scraper import BongEatsScraper
 from recipe_urls.url_scrapers.food_scraper import FoodScraper
@@ -13,7 +13,7 @@ from recipe_urls.url_scrapers.nytimes_scraper import NyTimesScraper
 SCRAPER_CLASSES = {
     'afghankitchenrecipes': AfghanKitchenRecipesScraper, 
     'allrecipes': AllRecipesScraper, 
-    # 'averiecooks': AverieCooksScraper, #TODO: fix regex
+    'averiecooks': AverieCooksScraper,
     'baking-sense': BakingSenseScraper, 
     'bongeats': BongEatsScraper, 
     'food': FoodScraper, 
@@ -55,20 +55,21 @@ def get_recipe_urls(base_url: str) -> List[str]:
 
 
 
-# Testing 
-urls = ['https://cooking.nytimes.com']
-compiled_urls = []
+# # Testing 
+# urls = ['https://www.averiecooks.com']
+# compiled_urls = []
 
-for url in urls:
-    recipes = get_recipe_urls(url)
-    compiled_urls.extend(recipes)
+# for url in urls:
+#     recipes = get_recipe_urls(url)
+#     compiled_urls.extend(recipes)
 
 
-'https://www.baking-sense.com'
-'https://www.allrecipes.com'
-'http://www.afghankitchenrecipes.com'
-'https://www.bongeats.com'
-'https://www.food.com'
-'https://food52.com'
-'https://www.hellofresh.com/recipes'
-'https://cooking.nytimes.com'
+# 'https://www.baking-sense.com'
+# 'https://www.allrecipes.com'
+# 'http://www.afghankitchenrecipes.com'
+# 'https://www.bongeats.com'
+# 'https://www.food.com'
+# 'https://food52.com'
+# 'https://www.hellofresh.com/recipes'
+# 'https://cooking.nytimes.com'
+# 'https://www.averiecooks.com'
