@@ -21,7 +21,10 @@ class BaseScraper:
         try:
             response = httpx.get(self.base_url)
             response.raise_for_status()  # Raise an HTTPError for bad responses
+
             html = response.content
+            if not html:
+                print(f"[base_scraper.py] Warning: html is empty for {self.base_url}")
 
         except httpx.HTTPError as e:
             print(f"[base_scraper.py] HTTP error for {self.base_url}: {e}")
@@ -33,5 +36,6 @@ class BaseScraper:
             print(f"[base_scraper.py] Warning: Soup is empty for {self.base_url}")
 
         return soup
+
 
 
