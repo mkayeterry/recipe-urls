@@ -15,7 +15,7 @@ pip install recipe-urls
 ## Usage
 
 ```python
-from recipe_urls import main
+from recipe_urls import scrape_urls
 ```
 
 ## Example usage
@@ -25,7 +25,7 @@ urls = ['https://bakingmischief.com', 'https://www.allrecipes.com']
 compiled_recipe_links = []
 
 for url in urls:
-    recipes = main.get_recipe_urls(url)
+    recipes = scrape_urls(url)
     compiled_recipe_links.extend(recipes)
 ```
 
