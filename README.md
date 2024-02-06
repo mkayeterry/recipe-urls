@@ -44,6 +44,7 @@ for url in urls:
 - https://barefootcontessa.com
 - https://www.bbc.co.uk/food/
 - https://www.bettycrocker.com
+- https://www.bigoven.com
 - https://www.bongeats.com
 - https://www.food.com
 - https://food52.com

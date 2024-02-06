@@ -35,3 +35,13 @@ class AbstractScraper:
         
     def scrape(self) -> List[str]:
         raise NotImplementedError("[_abstract.py] Subclasses must implement the scrape method.")
+
+
+
+# base_url = 'https://www.bigoven.com'
+
+# response = httpx.get(url = base_url, headers = HEADERS)
+# response.raise_for_status()
+# html = response.content
+# soup = BeautifulSoup(html, "html.parser")
+# href_links = [a["href"] for a in soup.find_all("a", href=True)]

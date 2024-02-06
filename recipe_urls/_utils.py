@@ -15,6 +15,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'barefootcontessa',
         'bbc',  
         'bettycrocker', 
+        'bigoven', 
         'bongeats',
         'food52',
         'food',
