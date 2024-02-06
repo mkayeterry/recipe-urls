@@ -21,11 +21,11 @@ from recipe_urls import scrape_urls
 ## Example usage
 
 ```python
-urls = ['https://bakingmischief.com', 'https://www.allrecipes.com']
+base_urls = ['https://bakingmischief.com', 'https://www.allrecipes.com']
 compiled_recipe_links = []
 
-for url in urls:
-    recipes = scrape_urls(url)
+for base_url in base_urls:
+    recipes = scrape_urls(base_url)
     compiled_recipe_links.extend(recipes)
 ```
 

@@ -24,11 +24,11 @@ base_urls = [
     "https://cooking.nytimes.com"
 ]
 
-links = []
+compiled_recipe_links = []
 
 for base_url in base_urls:
-    links.extend(scrape_urls(base_url))
+    compiled_recipe_links.extend(scrape_urls(base_url))
 
-print(len(links))
+print(len(compiled_recipe_links))
 
 
