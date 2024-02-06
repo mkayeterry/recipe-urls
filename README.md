@@ -43,6 +43,7 @@ for url in urls:
 - https://www.baking-sense.com
 - https://barefootcontessa.com
 - https://www.bbc.co.uk/food/
+- https://www.bettycrocker.com
 - https://www.bongeats.com
 - https://www.food.com
 - https://food52.com
