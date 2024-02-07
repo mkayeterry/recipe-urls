@@ -22,28 +22,15 @@ class BowlOfDeliciousScraper(AbstractScraper):
 
         # Filter out unwanted url patterns
         unwanted_patterns = [
-            "about",
-            "budget",
-            "category",
-            "contact", 
-            "disclaimers",
-            "edition",
-            "faqs",
-            "for-one",
             "how-to",
-            "meals",
-            "or-less",
-            "press",
-            "quick-and-easy",
-            "recipes",
             "reports",
-            "shop",
             "why",
+            "privacy", 
             "work-with-me",
         ]
 
         # Site-specific regex for BowlOfDelicious
-        recipe_pattern = re.compile(r'https://www\.bowlofdelicious\.com/[\w-]+/')
+        recipe_pattern = re.compile(r'https://www\.bowlofdelicious\.com/[\w-]+-[\w-]+/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))
@@ -53,7 +40,7 @@ class BowlOfDeliciousScraper(AbstractScraper):
             raise ValueError("[bowlofdelicious.py] No recipe links matched the defined pattern for BowlOfDelicious.")
 
         else:
-            print(f"[bowlofdelicious.py] {len(unique_links_set)} recipe links found for {self.base_url}.")
+            print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list
         return list(unique_links_set)

@@ -22,24 +22,18 @@ class BudgetBytesScraper(AbstractScraper):
 
         # Filter out unwanted url patterns
         unwanted_patterns = [
-            "about", 
             "basics", 
-            "category", 
-            "contact", 
-            "extra-bytes", 
-            "faq", 
             "how-to", 
             "ideas", 
-            "pantry", 
-            "privacy", 
-            "random", 
+            "policy", 
             "recipes", 
             "terms", 
+            "welcome"
             "videos"
         ]
 
         # Site-specific regex for BudgetBytes
-        recipe_pattern = re.compile(r'https:\/\/www\.budgetbytes\.com/[\w-]+/')
+        recipe_pattern = re.compile(r'https:\/\/www\.budgetbytes\.com/[\w-]+-[\w-]+/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))
@@ -49,7 +43,7 @@ class BudgetBytesScraper(AbstractScraper):
             raise ValueError("[budgetbytes.py] No recipe links matched the defined pattern for BudgetBytes.")
 
         else:
-            print(f"[budgetbytes.py] {len(unique_links_set)} recipe links found for {self.base_url}.")
+            print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list
         return list(unique_links_set)

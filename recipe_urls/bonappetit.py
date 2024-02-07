@@ -31,7 +31,7 @@ class BonAppetitScraper(AbstractScraper):
             raise ValueError("[bonappetit.py] No recipe links matched the defined pattern for BonAppetit.")
 
         else:
-            print(f"[bonappetit.py] {len(unique_links_set)} recipe links found for {self.base_url}.")
+            print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list
         return list(unique_links_set)

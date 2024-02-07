@@ -29,9 +29,11 @@ class ACoupleCooksScraper(AbstractScraper):
             "dinner",
             "dinners",
             "dishes",
+            "desserts", 
             "how",
             "ideas",
             "lunch",
+            "meal-plan"
             "recipes",
             "snacks",
             "things", 
@@ -49,7 +51,7 @@ class ACoupleCooksScraper(AbstractScraper):
             raise ValueError("[acouplecooks.py] No recipe links matched the defined pattern for ACoupleCooks.")
 
         else:
-            print(f"[acouplecooks.py] {len(unique_links_set)} recipe links found for {self.base_url}.")
+            print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list
         return list(unique_links_set)

@@ -31,7 +31,7 @@ class BongEatsScraper(AbstractScraper):
             raise ValueError("[bongeats.py] No recipe links matched the defined pattern for BongEats.")
 
         else:
-            print(f"[bongeats.py] {len(unique_links_set)} recipe links found for {self.base_url}.")
+            print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list
         return list(unique_links_set)

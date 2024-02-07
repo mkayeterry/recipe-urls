@@ -22,8 +22,8 @@ class AverieCooksScraper(AbstractScraper):
         
         # Filter out unwanted url patterns
         unwanted_patterns = [
-            "/interview-with-averie/", 
-            "/work-with-me/"
+            "interview-with-averie", 
+            "work-with-me"
         ]
 
         # Site-specific regex for AverieCooks
@@ -37,7 +37,7 @@ class AverieCooksScraper(AbstractScraper):
             raise ValueError("[averiecooks.py] No recipe links matched the defined pattern for AverieCooks.")
 
         else:
-            print(f"[averiecooks.py] {len(unique_links_set)} recipe links found for {self.base_url}.")
+            print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list
         return list(unique_links_set)

@@ -31,7 +31,7 @@ class Food52Scraper(AbstractScraper):
             raise ValueError("[food52.py] No recipe links matched the defined pattern for Food52.")
 
         else:
-            print(f"[food52.py] {len(unique_links_set)} recipe links found for {self.base_url}.")
+            print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list
         return list(unique_links_set)
