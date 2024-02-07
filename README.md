@@ -48,6 +48,7 @@ for base_url in base_urls:
 - https://bluejeanchef.com/recipes/
 - https://www.bonappetit.com
 - https://www.bongeats.com
+- https://www.bowlofdelicious.com
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes
