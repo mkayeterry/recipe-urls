@@ -38,7 +38,7 @@ class AbstractScraper:
 
 
 
-# base_url = 'https://www.bigoven.com'
+# base_url = 'https://bluejeanchef.com/recipes/'
 
 # response = httpx.get(url = base_url, headers = HEADERS)
 # response.raise_for_status()
