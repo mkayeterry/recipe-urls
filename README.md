@@ -46,6 +46,7 @@ for base_url in base_urls:
 - https://www.bettycrocker.com
 - https://www.bigoven.com
 - https://bluejeanchef.com/recipes/
+- https://www.bonappetit.com
 - https://www.bongeats.com
 - https://www.food.com
 - https://food52.com

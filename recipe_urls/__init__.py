@@ -15,6 +15,7 @@ from recipe_urls.bbc import BBCScraper
 from recipe_urls.bettycrocker import BettyCrockerScraper
 from recipe_urls.bigoven import BigOvenScraper
 from recipe_urls.bluejeanchef import BlueJeanChefScraper
+from recipe_urls.bonappetit import BonAppetitScraper
 from recipe_urls.bongeats import BongEatsScraper
 from recipe_urls.food import FoodScraper
 from recipe_urls.food52 import Food52Scraper
@@ -40,6 +41,7 @@ SCRAPERS = {
     BettyCrockerScraper.host(): BettyCrockerScraper, 
     BigOvenScraper.host(): BigOvenScraper, 
     BlueJeanChefScraper.host(): BlueJeanChefScraper, 
+    BonAppetitScraper.host(): BonAppetitScraper, 
     BongEatsScraper.host(): BongEatsScraper, 
     FoodScraper.host(): FoodScraper, 
     Food52Scraper.host(): Food52Scraper, 

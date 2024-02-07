@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://bluejeanchef.com/recipes/')
+links = scrape_urls('https://www.bonappetit.com')
 
 base_urls = [
     "https://abuelascounter.com", 
@@ -18,6 +18,7 @@ base_urls = [
     "https://www.bettycrocker.com", 
     "https://www.bigoven.com", 
     "https://bluejeanchef.com/recipes/", 
+    "https://www.bonappetit.com", 
     "https://www.bongeats.com", 
     "https://www.food.com", 
     "https://food52.com", 
@@ -31,5 +32,4 @@ for base_url in base_urls:
     compiled_recipe_links.extend(scrape_urls(base_url))
 
 print(len(compiled_recipe_links))
-
 
