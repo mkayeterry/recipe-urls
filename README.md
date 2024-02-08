@@ -53,6 +53,7 @@ for base_url in base_urls:
 - https://carlsbadcravings.com
 - https://www.castironketo.net
 - https://www.cdkitchen.com
+- https://chefsavvy.com
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes
