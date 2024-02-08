@@ -22,6 +22,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'bowlofdelicious', 
         'budgetbytes', 
         'carlsbadcravings', 
+        'castironketo', 
         'food52',
         'food',
         'hellofresh',

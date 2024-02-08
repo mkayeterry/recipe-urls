@@ -51,6 +51,7 @@ for base_url in base_urls:
 - https://www.bowlofdelicious.com
 - https://www.budgetbytes.com
 - https://carlsbadcravings.com
+- https://www.castironketo.net
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes
