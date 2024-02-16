@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.closetcooking.com/top-recipes/')
+links = scrape_urls('https://cookieandkate.com/recipes/')
 
 base_urls = [
     "https://abuelascounter.com", 
@@ -17,7 +17,7 @@ base_urls = [
     "https://www.bbc.co.uk/food/", 
     "https://www.bettycrocker.com", 
     "https://www.bigoven.com", 
-    "https://bluejeanchef.com/recipes/", 
+    "https://bluejeanchef.com", 
     "https://www.bonappetit.com", 
     "https://www.bongeats.com", 
     "https://www.bowlofdelicious.com", 
@@ -27,6 +27,7 @@ base_urls = [
     "https://www.cdkitchen.com", 
     "https://chefsavvy.com",
     "https://www.closetcooking.com/top-recipes/",  
+    "https://cookieandkate.com/recipes/", 
     "https://www.food.com", 
     "https://food52.com", 
     "https://www.hellofresh.com/recipes", 

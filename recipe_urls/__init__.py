@@ -24,6 +24,7 @@ from recipe_urls.castironketo import CastIronKetoScraper
 from recipe_urls.cdkitchen import CdKitchenScraper
 from recipe_urls.chefsavvy import ChefSavvyScraper
 from recipe_urls.closetcooking import ClosetCookingScraper
+from recipe_urls.cookieandkate import CookieAndKateScraper
 from recipe_urls.food import FoodScraper
 from recipe_urls.food52 import Food52Scraper
 from recipe_urls.hellofresh import HelloFreshScraper
@@ -57,6 +58,7 @@ SCRAPERS = {
     CdKitchenScraper.host(): CdKitchenScraper, 
     ChefSavvyScraper.host(): ChefSavvyScraper, 
     ClosetCookingScraper.host(): ClosetCookingScraper, 
+    CookieAndKateScraper.host(): CookieAndKateScraper, 
     FoodScraper.host(): FoodScraper, 
     Food52Scraper.host(): Food52Scraper, 
     HelloFreshScraper.host(): HelloFreshScraper, 

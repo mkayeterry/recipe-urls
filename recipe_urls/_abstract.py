@@ -38,7 +38,7 @@ class AbstractScraper:
 
 
 
-# base_url = 'https://www.bonappetit.com'
+# base_url = 'https://cookieandkate.com/recipes/'
 
 # response = httpx.get(url = base_url, headers = HEADERS)
 # response.raise_for_status()
