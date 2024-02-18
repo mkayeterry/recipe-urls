@@ -56,6 +56,7 @@ for base_url in base_urls:
 - https://chefsavvy.com
 - https://www.closetcooking.com
 - https://cookieandkate.com
+- https://www.eatingwell.com/recipes/
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes
