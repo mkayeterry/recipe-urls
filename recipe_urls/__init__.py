@@ -30,6 +30,7 @@ from recipe_urls.countryliving import CountryLivingScraper
 from recipe_urls.creativecanning import CreativeCanningScraper
 from recipe_urls.davidlebovitz import DavidLebovitzScraper
 from recipe_urls.delish import DelishScraper
+from recipe_urls.domesticateme import DomesticateMeScraper
 from recipe_urls.eatingwell import EatingWellScraper
 from recipe_urls.food import FoodScraper
 from recipe_urls.food52 import Food52Scraper
@@ -71,6 +72,7 @@ SCRAPERS = {
     CreativeCanningScraper.host(): CreativeCanningScraper, 
     DavidLebovitzScraper.host(): DavidLebovitzScraper, 
     DelishScraper.host(): DelishScraper, 
+    DomesticateMeScraper.host(): DomesticateMeScraper, 
     EatingWellScraper.host(): EatingWellScraper,
     FoodScraper.host(): FoodScraper, 
     Food52Scraper.host(): Food52Scraper, 
