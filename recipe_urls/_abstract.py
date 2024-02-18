@@ -38,7 +38,7 @@ class AbstractScraper:
 
 # import re
 
-# base_url = 'https://www.countryliving.com/food-drinks/'
+# base_url = 'https://www.delish.com/cooking/recipe-ideas/'
 
 # response = httpx.get(url = base_url, headers = HEADERS)
 # response.raise_for_status()
@@ -47,7 +47,7 @@ class AbstractScraper:
 # href_links = [a["href"] for a in soup.find_all("a", href=True)]
 
 # # Site-specific regex for Cookpad
-# recipe_pattern = re.compile(r'/food-drinks/a\d+/\S+-recipe/$')
+# recipe_pattern = re.compile(r'/cooking/recipe-ideas/.*recipe.*')
 
 # # Use a set to deduplicate the links while filtering href links for recipe-specific ones
 # unique_links_set = set(link for link in href_links if recipe_pattern.search(link))

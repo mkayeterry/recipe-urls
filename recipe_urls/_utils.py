@@ -31,6 +31,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'countryliving',
         'creativecanning',  
         'davidlebovitz', 
+        'delish', 
         'eatingwell', 
         'food52',
         'food',
