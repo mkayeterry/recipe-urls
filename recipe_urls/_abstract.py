@@ -38,7 +38,7 @@ class AbstractScraper:
 
 # import re
 
-# base_url = 'https://www.delish.com/cooking/recipe-ideas/'
+# base_url = 'https://www.eatliverun.com/recipes/'
 
 # response = httpx.get(url = base_url, headers = HEADERS)
 # response.raise_for_status()

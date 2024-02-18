@@ -65,6 +65,7 @@ for base_url in base_urls:
 - https://downshiftology.com
 - https://www.eatingbirdfood.com
 - https://www.eatingwell.com/recipes/
+- https://www.eatliverun.com/recipes/
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes

@@ -36,6 +36,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'downshiftology', 
         'eatingbirdfood', 
         'eatingwell', 
+        'eatliverun', 
         'food52',
         'food',
         'hellofresh',
