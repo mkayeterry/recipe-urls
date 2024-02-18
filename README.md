@@ -62,6 +62,7 @@ for base_url in base_urls:
 - https://www.davidlebovitz.com
 - https://www.delish.com/cooking/recipe-ideas/
 - https://domesticate-me.com
+- https://downshiftology.com
 - https://www.eatingwell.com/recipes/
 - https://www.food.com
 - https://food52.com
