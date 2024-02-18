@@ -28,6 +28,7 @@ from recipe_urls.cookieandkate import CookieAndKateScraper
 from recipe_urls.food import FoodScraper
 from recipe_urls.food52 import Food52Scraper
 from recipe_urls.hellofresh import HelloFreshScraper
+from recipe_urls.ninjatestkitchen import NinjaTestKitchenScraper
 from recipe_urls.nytimes import NyTimesScraper
 
 from recipe_urls._abstract import AbstractScraper
@@ -62,6 +63,7 @@ SCRAPERS = {
     FoodScraper.host(): FoodScraper, 
     Food52Scraper.host(): Food52Scraper, 
     HelloFreshScraper.host(): HelloFreshScraper, 
+    NinjaTestKitchenScraper.host(): NinjaTestKitchenScraper, 
     NyTimesScraper.host(): NyTimesScraper
 }
 

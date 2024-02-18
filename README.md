@@ -59,6 +59,7 @@ for base_url in base_urls:
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes
+- https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
 
