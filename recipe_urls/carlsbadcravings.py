@@ -8,10 +8,10 @@ class CarlsbadCravingsScraper(AbstractScraper):
         return "carlsbadcravings"
 
     def scrape(self) -> List[str]:
-        href_links = [a["href"] for a in self.soup.find_all("a", href=True)]
-
-        if not href_links:
-            print(f"[carlsbadcravings.py] Warning: href_links is empty for {self.base_url}")
+        try:
+            href_links = [a["href"] for a in self.soup.find_all("a", href=True)]
+        except Exception as e:
+            raise Error(f"Failed to retrieve href_links for {self.base_url}. {str(e)}")
 
         # Filter href links for recipe-specific ones using site-specific regex
         recipe_links = self.filter_links(href_links)
@@ -35,7 +35,7 @@ class CarlsbadCravingsScraper(AbstractScraper):
 
         # Raise an error if no recipe links are found
         if not unique_links_set:
-            raise ValueError("[carlsbadcravings.py] No recipe links matched the defined pattern for CarlsbadCravings.")
+            raise ValueError("No recipe links matched the defined pattern for CarlsbadCravings.")
 
         else:
             print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")

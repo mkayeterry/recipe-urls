@@ -27,27 +27,27 @@ class AbstractScraper:
             self.soup = BeautifulSoup(self.html, "html.parser")
         
         except httpx.HTTPError as e:
-            print(f"[_abstract.py] HTTP error for {self.base_url}: {e}")
+            raise httpx.HTTPError(f"HTTP error for {self.base_url}. {str(e)}")
 
     @classmethod
     def host(cls) -> str:
-        raise NotImplementedError("[_abstract.py] This should be implemented.")
+        raise NotImplementedError("Subclasses must implement the host method. It should return the host of the base URL as a string (e.g. 'www.recipewebsite.com' returns 'recipewebsite).")
         
     def scrape(self) -> List[str]:
-        raise NotImplementedError("[_abstract.py] Subclasses must implement the scrape method.")
+        raise NotImplementedError("Subclasses must implement the scrape method. It should return a list of scraped recipe links.")
 
 # import re
 
-# base_url = 'https://www.eatliverun.com/recipes/'
+# base_url = 'https://eatsmarter.com/recipes/sugar-free-granola'
 
 # response = httpx.get(url = base_url, headers = HEADERS)
 # response.raise_for_status()
 # html = response.content
 # soup = BeautifulSoup(html, "html.parser")
-# href_links = [a["href"] for a in soup.find_all("a", href=True)]
+# div_links = [a["href"] for a in soup.find_all("a", href=True, attrs = {"class": "teaser-wrapper-link"})]
 
 # # Site-specific regex for Cookpad
-# recipe_pattern = re.compile(r'/cooking/recipe-ideas/.*recipe.*')
+# recipe_pattern = re.compile(r'/recipes/[\w-]+')
 
 # # Use a set to deduplicate the links while filtering href links for recipe-specific ones
-# unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
+# unique_links_set = set(link for link in div_links if recipe_pattern.search(link))

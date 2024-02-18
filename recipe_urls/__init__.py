@@ -35,6 +35,7 @@ from recipe_urls.downshiftology import DownshiftologyScraper
 from recipe_urls.eatingbirdfood import EatingBirdFoodScraper
 from recipe_urls.eatingwell import EatingWellScraper
 from recipe_urls.eatliverun import EatLiveRunScraper
+from recipe_urls.eatsmarter import EatSmarterScraper
 from recipe_urls.food import FoodScraper
 from recipe_urls.food52 import Food52Scraper
 from recipe_urls.hellofresh import HelloFreshScraper
@@ -80,6 +81,7 @@ SCRAPERS = {
     EatingBirdFoodScraper.host(): EatingBirdFoodScraper, 
     EatingWellScraper.host(): EatingWellScraper,
     EatLiveRunScraper.host(): EatLiveRunScraper,
+    EatSmarterScraper.host(): EatSmarterScraper,
     FoodScraper.host(): FoodScraper, 
     Food52Scraper.host(): Food52Scraper, 
     HelloFreshScraper.host(): HelloFreshScraper, 
@@ -89,11 +91,15 @@ SCRAPERS = {
 
 def scrape_urls(base_url: str) -> AbstractScraper:
     site_origin = get_site_origin(base_url)
+
+    if not site_origin:
+        raise ValueError(f'{site_origin} is not a valid.')
+
     scraper_class = SCRAPERS.get(site_origin)
 
-    if scraper_class:
+    try:
         scraper_instance = scraper_class(base_url)
         return scraper_instance.scrape()
-    else:
-        print(f"[__init__.py] Warning: No scraper found for {site_origin}.")
-        return []
+
+    except Exception as e:
+        raise Exception(f"No scraper found for {site_origin}. Please make sure the website is supported. {e}")

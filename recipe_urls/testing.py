@@ -1,6 +1,7 @@
 from recipe_urls import scrape_urls
+import warnings
 
-links = scrape_urls('https://www.eatliverun.com/recipes/')
+links = scrape_urls('https://www.bettycrocker.com')
 
 base_urls = [
     "https://abuelascounter.com", 
@@ -38,6 +39,7 @@ base_urls = [
     "https://www.eatingbirdfood.com", 
     "https://www.eatingwell.com/recipes/", 
     "https://www.eatliverun.com/recipes/", 
+    "https://eatsmarter.com", 
     "https://www.food.com", 
     "https://food52.com", 
     "https://www.hellofresh.com/recipes", 
@@ -48,7 +50,11 @@ base_urls = [
 compiled_recipe_links = []
 
 for base_url in base_urls:
-    compiled_recipe_links.extend(scrape_urls(base_url))
+    try:
+        compiled_recipe_links.extend(scrape_urls(base_url))
+    except:
+        warnings.warn(f'{base.url} was unsuccessful.')
+        continue
 
 print(len(compiled_recipe_links))
 

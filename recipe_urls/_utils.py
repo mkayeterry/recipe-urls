@@ -37,6 +37,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'eatingbirdfood', 
         'eatingwell', 
         'eatliverun', 
+        'eatsmarter', 
         'food52',
         'food',
         'hellofresh',
@@ -48,5 +49,5 @@ def get_site_origin(base_url: str) -> Optional[str]:
         if site_origin in base_url:
             return site_origin
 
-    print(f"[_utils.py] Warning: Unable to categorize URL '{base_url}'.")
-    return None
+    print(f"Error: Unable to categorize URL. The website associated with '{base_url}' is not supported by this package.")
+    return
