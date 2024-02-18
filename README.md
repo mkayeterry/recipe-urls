@@ -59,6 +59,7 @@ for base_url in base_urls:
 - https://copykat.com
 - https://www.countryliving.com/food-drinks/
 - https://creativecanning.com
+- https://www.davidlebovitz.com
 - https://www.eatingwell.com/recipes/
 - https://www.food.com
 - https://food52.com
