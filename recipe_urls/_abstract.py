@@ -36,12 +36,18 @@ class AbstractScraper:
     def scrape(self) -> List[str]:
         raise NotImplementedError("[_abstract.py] Subclasses must implement the scrape method.")
 
+# import re
 
-
-# base_url = 'https://cookieandkate.com/recipes/'
+# base_url = 'https://cookpad.com/us'
 
 # response = httpx.get(url = base_url, headers = HEADERS)
 # response.raise_for_status()
 # html = response.content
 # soup = BeautifulSoup(html, "html.parser")
 # href_links = [a["href"] for a in soup.find_all("a", href=True)]
+
+# # Site-specific regex for Cookpad
+# recipe_pattern = re.compile(r'/us/recipes/\d+-[\w-]')
+
+# # Use a set to deduplicate the links while filtering href links for recipe-specific ones
+# unique_links_set = set(link for link in href_links if recipe_pattern.search(link))

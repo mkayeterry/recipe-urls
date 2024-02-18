@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.eatingwell.com/recipes/')
+links = scrape_urls('https://copykat.com/100-favorite-copycat-recipes/')
 
 
 base_urls = [
@@ -29,6 +29,7 @@ base_urls = [
     "https://chefsavvy.com",
     "https://www.closetcooking.com/top-recipes/",  
     "https://cookieandkate.com/recipes/", 
+    "https://copykat.com/100-favorite-copycat-recipes/", 
     "https://www.eatingwell.com/recipes/", 
     "https://www.food.com", 
     "https://food52.com", 
