@@ -68,6 +68,7 @@ for base_url in base_urls:
 - https://www.eatliverun.com/recipes/
 - https://eatsmarter.com
 - https://www.eatwell101.com
+- https://eatwhattonight.com
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes

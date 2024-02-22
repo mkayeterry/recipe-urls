@@ -1,7 +1,7 @@
 from recipe_urls import scrape_urls
 import warnings
 
-links = scrape_urls('https://www.eatwell101.com')
+links = scrape_urls('https://eatwhattonight.com')
 
 base_urls = [
     "https://abuelascounter.com", 
@@ -40,6 +40,7 @@ base_urls = [
     "https://www.eatingwell.com/recipes/", 
     "https://www.eatliverun.com/recipes/", 
     "https://www.eatwell101.com", 
+    "https://eatwhattonight.com", 
     "https://eatsmarter.com", 
     "https://www.food.com", 
     "https://food52.com", 
