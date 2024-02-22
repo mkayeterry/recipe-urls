@@ -30,14 +30,8 @@ class EthanChlebowskiScraper(AbstractScraper):
         recipe_pattern = re.compile(r'/cooking-techniques-recipes/.*?')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
-        unique_links_set = set("https://www.ethanchlebowski.com{}".format(link) for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))
-
-        # Raise an error if no recipe links are found
-        if not unique_links_set:
-            raise ValueError("No recipe links matched the defined pattern for EthanChlebowski.")
-
-        else:
-            print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
+        unique_links_set = set(f'https://www.ethanchlebowski.com{link}' for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))
+        print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list
         return list(unique_links_set)

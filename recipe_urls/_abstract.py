@@ -28,10 +28,10 @@ class AbstractScraper:
             self.soup = BeautifulSoup(self.html, "html.parser")
 
         except httpx.HTTPError as e:
-            raise httpx.HTTPError(f"HTTP error for {self.base_url}: {e}") from e
+            raise httpx.HTTPError(f"HTTP error for {self.base_url}. {e}") from e
 
         except Exception as e:
-            raise RuntimeError(f"Unexpected error accessing {self.base_url}: {e}") from e
+            raise RuntimeError(f"Unexpected error accessing {self.base_url}. {e}") from e
 
     @classmethod
     def host(cls) -> Optional[str]:

@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.fifteenspatulas.com')
+links = scrape_urls('https://www.bigoven.com')
 print(links)
 
 base_urls = [
