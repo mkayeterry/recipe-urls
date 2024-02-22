@@ -77,6 +77,7 @@ for base_url in base_urls:
 - https://www.errenskitchen.com
 - https://www.ethanchlebowski.com/cooking-techniques-recipes
 - https://www.farmhouseonboone.com
+- https://www.fifteenspatulas.com
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes
