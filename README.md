@@ -42,7 +42,7 @@ for base_url in base_urls:
 - https://bakingmischief.com
 - https://www.baking-sense.com
 - https://barefootcontessa.com
-- https://www.bbc.co.uk/food/
+- https://www.bbc.co.uk/food
 - https://www.bettycrocker.com
 - https://www.bigoven.com
 - https://bluejeanchef.com/recipes/

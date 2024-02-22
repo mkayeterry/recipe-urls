@@ -102,4 +102,4 @@ def scrape_urls(base_url: str) -> AbstractScraper:
         return scraper_instance.scrape()
 
     except Exception as e:
-        raise Exception(f"No scraper found for {site_origin}. Please make sure the website is supported. {e}")
+        raise Exception(f"Error while creating or using scraper for {base_url}: {e}")
