@@ -70,6 +70,7 @@ for base_url in base_urls:
 - https://www.eatwell101.com
 - https://eatwhattonight.com
 - https://elavegan.com
+- https://www.epicurious.com
 - https://www.ethanchlebowski.com/cooking-techniques-recipes
 - https://www.food.com
 - https://food52.com

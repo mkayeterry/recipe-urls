@@ -1,21 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.ethanchlebowski.com/cooking-techniques-recipes')
-
-# import re
-
-# urls = [
-#     "https://www.ethanchlebowski.com/cooking-techniques-recipes/thai-sausage-stir-fry-amp-freezer-ground-sausage-meal-prep",
-#     "https://www.ethanchlebowski.com/cooking-techniques-recipes/creamy-mac-amp-cheese-template-w-any-cheeses",
-#     "https://www.ethanchlebowski.com/cooking-techniques-recipes/steak-amp-corn-salsa-tostada"
-# ]
-
-# recipe_pattern = re.compile(r'https://www\.ethanchlebowski\.com/.+/.+/.+/$')
-
-# recipe_urls = [url for url in urls if recipe_pattern.match(url)]
-# print(recipe_urls)
-
-
+links = scrape_urls('https://www.epicurious.com')
 
 base_urls = [
     "https://abuelascounter.com", 
@@ -57,6 +42,7 @@ base_urls = [
     "https://eatsmarter.com", 
     "https://eatwhattonight.com", 
     "https://elavegan.com", 
+    "https://www.epicurious.com", 
     "https://www.ethanchlebowski.com/cooking-techniques-recipes", 
     "https://www.food.com", 
     "https://food52.com", 

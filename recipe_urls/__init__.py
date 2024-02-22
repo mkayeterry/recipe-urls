@@ -40,6 +40,7 @@ from recipe_urls.eatsmarter import EatSmarterScraper
 from recipe_urls.eatwell101 import EatWell101Scraper
 from recipe_urls.eatwhattonight import EatWhatTonightScraper
 from recipe_urls.elavegan import ElaVeganScraper
+from recipe_urls.epicurious import EpicuriousScraper
 from recipe_urls.ethanchlebowski import EthanChlebowskiScraper
 from recipe_urls.food import FoodScraper
 from recipe_urls.food52 import Food52Scraper
@@ -90,6 +91,7 @@ SCRAPERS = {
     EatWell101Scraper.host(): EatWell101Scraper,
     EatWhatTonightScraper.host(): EatWhatTonightScraper, 
     ElaVeganScraper.host(): ElaVeganScraper,
+    EpicuriousScraper.host(): EpicuriousScraper,
     EthanChlebowskiScraper.host(): EthanChlebowskiScraper, 
     FoodScraper.host(): FoodScraper, 
     Food52Scraper.host(): Food52Scraper, 
