@@ -60,7 +60,6 @@ for base_url in base_urls:
         compiled_recipe_links.extend(scrape)
     except Exception as e:
         print(f'There was an error processing {base_url}. {e}')
-        continue
 
 print(len(compiled_recipe_links))
 

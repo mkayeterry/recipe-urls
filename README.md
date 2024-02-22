@@ -25,8 +25,11 @@ base_urls = ['https://bakingmischief.com', 'https://www.allrecipes.com']
 compiled_recipe_links = []
 
 for base_url in base_urls:
-    recipes = scrape_urls(base_url)
-    compiled_recipe_links.extend(recipes)
+    try:
+        scrape = scrape_urls(base_url)
+        compiled_recipe_links.extend(scrape)
+    except Exception as e:
+        print(f'There was an error processing {base_url}. {e}')
 ```
 
 ## Supported Websites (So Far!)
