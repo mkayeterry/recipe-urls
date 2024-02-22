@@ -40,6 +40,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'eatsmarter', 
         'eatwell101', 
         'eatwhattonight', 
+        'elavegan', 
         'food52',
         'food',
         'hellofresh',
