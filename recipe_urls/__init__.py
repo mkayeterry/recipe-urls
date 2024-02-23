@@ -46,6 +46,7 @@ from recipe_urls.ethanchlebowski import EthanChlebowskiScraper
 from recipe_urls.farmhouseonboone import FarmhouseOnBooneScraper
 from recipe_urls.fifteenspatulas import FifteenSpatulasScraper
 from recipe_urls.finedininglovers import FineDiningLoversScraper
+from recipe_urls.fitmencook import FitMenCookScraper
 from recipe_urls.food import FoodScraper
 from recipe_urls.food52 import Food52Scraper
 from recipe_urls.hellofresh import HelloFreshScraper
@@ -103,6 +104,7 @@ SCRAPERS = {
     FoodScraper.host(): FoodScraper, 
     Food52Scraper.host(): Food52Scraper, 
     FineDiningLoversScraper.host(): FineDiningLoversScraper,
+    FitMenCookScraper.host(): FitMenCookScraper,
     HelloFreshScraper.host(): HelloFreshScraper, 
     NinjaTestKitchenScraper.host(): NinjaTestKitchenScraper, 
     NyTimesScraper.host(): NyTimesScraper
