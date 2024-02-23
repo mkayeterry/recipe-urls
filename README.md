@@ -80,6 +80,7 @@ for base_url in base_urls:
 - https://www.fifteenspatulas.com
 - https://www.finedininglovers.com/recipes
 - https://fitmencook.com/recipes/
+- https://fitslowcookerqueen.com
 - https://www.food.com
 - https://food52.com
 - https://www.hellofresh.com/recipes
