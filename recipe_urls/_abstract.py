@@ -43,12 +43,13 @@ class AbstractScraper:
 
 # import re
 
-# base_url = 'https://eatsmarter.com/recipes/sugar-free-granola'
+# base_url = 'https://www.ethanchlebowski.com'
 
 # response = httpx.get(url = base_url, headers = HEADERS)
 # response.raise_for_status()
 # html = response.content
 # soup = BeautifulSoup(html, "html.parser")
+# href_links = [a["href"] for a in soup.find_all("a", href=True)]
 # div_links = [a["href"] for a in soup.find_all("a", href=True, attrs = {"class": "teaser-wrapper-link"})]
 
 # # Site-specific regex for Cookpad
