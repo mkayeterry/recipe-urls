@@ -1,10 +1,10 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://fitslowcookerqueen.com')
+links = scrape_urls('https://www.foodandwine.com/recipes')
 print(links)
 
 base_urls = [
-    "https://abuelascounter.com", 
+    "https://abuelascounter.com", # FILTER 
     "https://www.acouplecooks.com", 
     "https://addapinch.com", 
     "http://www.afghankitchenrecipes.com", 
@@ -53,6 +53,7 @@ base_urls = [
     "https://fitslowcookerqueen.com", 
     "https://www.food.com", 
     "https://food52.com", 
+    "https://www.foodandwine.com/recipes", 
     "https://www.hellofresh.com/recipes", 
     "https://ninjatestkitchen.eu", 
     "https://cooking.nytimes.com"
