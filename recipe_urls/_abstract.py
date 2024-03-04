@@ -38,20 +38,3 @@ class AbstractScraper:
 
     def scrape(self) -> List[str]:
         raise NotImplementedError("Subclasses must implement the scrape method.")
-
-
-import re
-
-base_url = 'https://www.foodandwine.com/recipes'
-
-response = httpx.get(url = base_url, headers = HEADERS)
-response.raise_for_status()
-html = response.content
-soup = BeautifulSoup(html, "html.parser")
-href_links = [a["href"] for a in soup.find_all(string=re.compile("mntl-card-list-items"), href=True)]
-
-# Site-specific regex for Cookpad
-recipe_pattern = re.compile(r'https://www\.foodandwine\.com/[\w/-]+-\d+')
-
-# Use a set to deduplicate the links while filtering href links for recipe-specific ones
-unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
