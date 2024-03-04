@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class AddAPinchScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "addapinch"
+        return "addapinch.com"
 
     def scrape(self) -> List[str]:
         try:

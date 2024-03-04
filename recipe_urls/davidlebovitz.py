@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class DavidLebovitzScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "davidlebovitz"
+        return "www.davidlebovitz.com"
 
     def scrape(self) -> List[str]:
         try:

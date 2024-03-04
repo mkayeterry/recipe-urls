@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class ElaVeganScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "elavegan"
+        return "elavegan.com"
 
     def scrape(self) -> List[str]:
         try:

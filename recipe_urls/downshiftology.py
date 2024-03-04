@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class DownshiftologyScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "downshiftology"
+        return "downshiftology.com"
 
     def scrape(self) -> List[str]:
         try:

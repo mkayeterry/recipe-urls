@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.foodandwine.com/recipes')
+links = scrape_urls('https://food52.com/recipes')
 print(links)
 
 base_urls = [
@@ -66,7 +66,7 @@ for base_url in base_urls:
         scrape = scrape_urls(base_url)
         compiled_recipe_links.extend(scrape)
     except Exception as e:
-        print(f'There was an error processing {base_url}. {e}')
+        print(e)
 
 print(len(compiled_recipe_links))
 
@@ -78,16 +78,99 @@ import httpx
 from bs4 import BeautifulSoup
 import re
 
-base_url = 'https://www.foodandwine.com/recipes'
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
+}
 
-response = httpx.get(url = base_url, headers = HEADERS)
-response.raise_for_status()
-html = response.content
-soup = BeautifulSoup(html, "html.parser")
-href_links = [a['href'] for a in soup.find_all('a', {'class': re.compile("comp mntl-card-list-items")})]
+base_url = 'https://food52.com/recipes'
 
-# Site-specific regex for Cookpad
-recipe_pattern = re.compile(r'https://www\.foodandwine\.com/[\w/-]+-\d+')
+try:
+    response = httpx.get(url=base_url, headers=HEADERS)
+    if response.status_code == 403:
+        raise httpx.HTTPError(f"Access to {base_url} is forbidden (403).")
+    html = response.content
+    soup = BeautifulSoup(html, "html.parser")
+
+except httpx.HTTPError as e:
+    raise httpx.HTTPError(f"HTTP error for {base_url}. {e}") from e
+
+except Exception as e:
+    raise RuntimeError(f"Unexpected error accessing {base_url}. {e}") from e
+
+href_links = [a["href"] for a in soup.find_all("a", href=True)]
+
+recipe_pattern = re.compile(r'/recipes/([^/]+)')
 
 # Use a set to deduplicate the links while filtering href links for recipe-specific ones
 unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
+
+
+###############################################################################################
+# _UTILS
+
+
+from urllib.parse import urlparse
+import re
+
+site_origins = [
+    'abuelascounter.com', 
+    'www.acouplecooks.com', 
+    'addapinch.com', 
+    'www.afghankitchenrecipes.com', 
+    'www.allrecipes.com', 
+    'www.ambitiouskitchen.com', 
+    'www.archanaskitchen.com', 
+    'www.averiecooks.com',
+    'bakingmischief.com',
+    'www.baking-sense.com',
+    'barefootcontessa.com',
+    'www.bbc.co.uk',  
+    'www.bettycrocker.com', 
+    'www.bigoven.com', 
+    'bluejeanchef.com', 
+    'www.bonappetit.com', 
+    'www.bongeats.com',
+    'www.bowlofdelicious.com', 
+    'www.budgetbytes.com', 
+    'carlsbadcravings.com', 
+    'www.castironketo.net', 
+    'www.cdkitchen.com', 
+    'chefsavvy.com', 
+    'www.closetcooking.com', 
+    'cookieandkate.com',
+    'copykat.com', 
+    'www.countryliving.com',
+    'creativecanning.com',  
+    'www.davidlebovitz.com', 
+    'www.delish.com', 
+    'domesticate-me.com', 
+    'downshiftology.com', 
+    'www.eatingbirdfood.com', 
+    'www.eatingwell.com', 
+    'www.eatliverun.com', 
+    'eatsmarter.com', 
+    'www.eatwell101.com', 
+    'eatwhattonight.com', 
+    'elavegan.com', 
+    'www.ethanchlebowski.com', 
+    'www.errenskitchen.com', 
+    'www.epicurious.com', 
+    'www.farmhouseonboone.com', 
+    'www.fifteenspatulas.com', 
+    'www.finedininglovers.com', 
+    'fitmencook.com', 
+    'fitslowcookerqueen.com', 
+    'www.foodandwine.com', 
+    'food52.com',
+    'www.food.com',
+    'www.hellofresh.com',
+    'ninjatestkitchen.eu', 
+    'cooking.nytimes.com'
+]
+
+for base_url in base_urls:
+    parsed_url = urlparse(base_url).hostname
+    match = re.match(r'(?:www\.)?([^.]+)\.(?:co\.)?[^.]+$', parsed_url)
+    if match:
+        host = match.group(1)
+        print(f'{host}')

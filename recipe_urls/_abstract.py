@@ -22,12 +22,18 @@ class AbstractScraper:
 
         try:
             response = httpx.get(url=self.base_url, headers=HEADERS)
+            response.raise_for_status()
 
             self.html = response.content
             self.soup = BeautifulSoup(self.html, "html.parser")
 
-        except httpx.HTTPError as e:
-            raise httpx.HTTPError(f"HTTP error for {self.base_url}. {e}") from e
+        except (httpx.HTTPError, httpx.ReadTimeout) as e:
+            if isinstance(e, httpx.HTTPError) and e.response.status_code == 403:
+                raise httpx.HTTPError(f"Access to {self.base_url} is forbidden (403).") from e
+            elif isinstance(e, httpx.ReadTimeout):
+                raise TimeoutError(f"Request timed out. {self.base_url}") from e
+            else:
+                raise
 
         except Exception as e:
             raise RuntimeError(f"Unexpected error accessing {self.base_url}. {e}") from e

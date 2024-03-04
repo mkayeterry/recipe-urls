@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class BigOvenScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "bigoven"
+        return "www.bigoven.com"
 
     def scrape(self) -> List[str]:
         try:

@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class NinjaTestKitchenScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "ninjatestkitchen"
+        return "ninjatestkitchen.eu"
 
     def scrape(self) -> List[str]:
         try:

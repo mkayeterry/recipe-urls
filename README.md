@@ -29,7 +29,7 @@ for base_url in base_urls:
         scrape = scrape_urls(base_url)
         compiled_recipe_links.extend(scrape)
     except Exception as e:
-        print(f'There was an error processing {base_url}. {e}')
+        print(e)
 ```
 
 ## Supported Websites (So Far!)

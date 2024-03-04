@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class BakingSenseScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "baking-sense"
+        return "www.baking-sense.com"
 
     def scrape(self) -> List[str]:
         try:

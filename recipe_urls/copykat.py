@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class CopyKatScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "copykat"
+        return "copykat.com"
 
     def scrape(self) -> List[str]:
         try:

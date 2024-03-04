@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class CdKitchenScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "cdkitchen"
+        return "www.cdkitchen.com"
 
     def scrape(self) -> List[str]:
         try:

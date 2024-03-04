@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class BBCScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "bbc"
+        return "www.bbc.co.uk"
 
     def scrape(self) -> List[str]:
         try:

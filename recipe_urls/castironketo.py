@@ -5,7 +5,7 @@ from recipe_urls._abstract import AbstractScraper
 class CastIronKetoScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "castironketo"
+        return "www.castironketo.net"
 
     def scrape(self) -> List[str]:
         try:
