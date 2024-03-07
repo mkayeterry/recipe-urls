@@ -55,6 +55,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'www.foodandwine.com', 
         'www.foodnetwork.com', 
         'www.foodrepublic.com', 
+        'www.forksoverknives.com', 
         'www.hellofresh.com',
         'ninjatestkitchen.eu', 
         'cooking.nytimes.com'
