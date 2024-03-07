@@ -23,7 +23,8 @@ class AbuelasCounterScraper(AbstractScraper):
         # Filter out unwanted url patterns
         unwanted_patterns = [
             "index",
-            "must-haves",  
+            "must-haves", 
+            "newsletter",  
             "policy"
         ]
 

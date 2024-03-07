@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.foodnetwork.com/recipes')
+links = scrape_urls('https://abuelascounter.com')
 print(links)
 
 base_urls = [
@@ -54,7 +54,7 @@ base_urls = [
     "https://www.food.com", 
     "https://food52.com", 
     "https://www.foodandwine.com/recipes", 
-    "https://www.foodnetwork.com/recipes", 
+    "https://www.foodnetwork.com/recipes", # 403 error
     "https://www.hellofresh.com/recipes", 
     "https://ninjatestkitchen.eu", 
     "https://cooking.nytimes.com"
