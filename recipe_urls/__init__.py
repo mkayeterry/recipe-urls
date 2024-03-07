@@ -51,6 +51,7 @@ from recipe_urls.fitslowcookerqueen import FitSlowCookerQueenScraper
 from recipe_urls.food import FoodScraper
 from recipe_urls.food52 import Food52Scraper
 from recipe_urls.foodandwine import FoodAndWineScraper
+from recipe_urls.foodnetwork import FoodNetworkScraper
 from recipe_urls.hellofresh import HelloFreshScraper
 from recipe_urls.ninjatestkitchen import NinjaTestKitchenScraper
 from recipe_urls.nytimes import NyTimesScraper
@@ -106,6 +107,7 @@ SCRAPERS = {
     FoodScraper.host(): FoodScraper, 
     Food52Scraper.host(): Food52Scraper, 
     FoodAndWineScraper.host(): FoodAndWineScraper,
+    FoodNetworkScraper.host(): FoodNetworkScraper,
     FineDiningLoversScraper.host(): FineDiningLoversScraper,
     FitMenCookScraper.host(): FitMenCookScraper,
     FitSlowCookerQueenScraper.host(): FitSlowCookerQueenScraper, 
