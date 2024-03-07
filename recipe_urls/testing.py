@@ -1,10 +1,10 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://abuelascounter.com')
+links = scrape_urls('https://www.foodrepublic.com/category/recipes/')
 print(links)
 
 base_urls = [
-    "https://abuelascounter.com", # FILTER 
+    "https://abuelascounter.com",
     "https://www.acouplecooks.com", 
     "https://addapinch.com", 
     "http://www.afghankitchenrecipes.com", 
@@ -55,6 +55,7 @@ base_urls = [
     "https://food52.com", 
     "https://www.foodandwine.com/recipes", 
     "https://www.foodnetwork.com/recipes", # 403 error
+    "https://www.foodrepublic.com/category/recipes/", 
     "https://www.hellofresh.com/recipes", 
     "https://ninjatestkitchen.eu", 
     "https://cooking.nytimes.com"
@@ -83,7 +84,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
 }
 
-base_url = 'https://www.foodnetwork.com'
+base_url = 'https://www.foodrepublic.com/category/recipes/'
 
 try:
     response = httpx.get(url=base_url, headers=HEADERS)
@@ -100,7 +101,7 @@ except Exception as e:
 
 href_links = [a["href"] for a in soup.find_all("a", href=True)]
 
-recipe_pattern = re.compile(r'https://www\.foodnetwork\.com/recipes/([a-zA-Z-]+/)?\w+(?:-\w+)+-\d+')
+recipe_pattern = re.compile(r'/\d+\/[\w-]+\/recipe\/')
 
 # Use a set to deduplicate the links while filtering href links for recipe-specific ones
 unique_links_set = set(link for link in href_links if recipe_pattern.search(link))

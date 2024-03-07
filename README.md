@@ -85,6 +85,7 @@ for base_url in base_urls:
 - food52.com
 - www.foodandwine.com
 - www.foodnetwork.com
+- www.foodrepublic.com
 - www.hellofresh.com
 - ninjatestkitchen.eu
 - cooking.nytimes.com
