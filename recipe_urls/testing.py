@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.gimmesomeoven.com')
+links = scrape_urls('https://goodfooddiscoveries.com')
 print(links)
 
 base_urls = [
@@ -59,6 +59,7 @@ base_urls = [
     "https://www.forksoverknives.com", 
     "https://forktospoon.com/category/recipes/", 
     "https://www.gimmesomeoven.com", 
+    "https://goodfooddiscoveries.com", 
     "https://www.hellofresh.com/recipes", 
     "https://ninjatestkitchen.eu", 
     "https://cooking.nytimes.com"

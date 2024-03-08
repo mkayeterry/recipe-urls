@@ -89,6 +89,7 @@ for base_url in base_urls:
 - www.forksoverknives.com
 - forktospoon.com
 - www.gimmesomeoven.com
+- goodfooddiscoveries.com
 - www.hellofresh.com
 - ninjatestkitchen.eu
 - cooking.nytimes.com
