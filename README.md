@@ -87,6 +87,7 @@ for base_url in base_urls:
 - www.foodnetwork.com
 - www.foodrepublic.com
 - www.forksoverknives.com
+- forktospoon.com
 - www.hellofresh.com
 - ninjatestkitchen.eu
 - cooking.nytimes.com

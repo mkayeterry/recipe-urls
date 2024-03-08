@@ -1,6 +1,9 @@
 from typing import Optional
 import httpx
 
+from recipe_urls._abstract import AbstractScraper
+from recipe_urls._utils import get_site_origin
+
 from recipe_urls.abuelascounter import AbuelasCounterScraper
 from recipe_urls.acouplecooks import ACoupleCooksScraper
 from recipe_urls.addapinch import AddAPinchScraper
@@ -54,12 +57,11 @@ from recipe_urls.foodandwine import FoodAndWineScraper
 from recipe_urls.foodnetwork import FoodNetworkScraper
 from recipe_urls.foodrepublic import FoodRepublicScraper
 from recipe_urls.forksoverknives import ForksOverKnivesScraper
+from recipe_urls.forktospoon import ForkToSpoonScraper
 from recipe_urls.hellofresh import HelloFreshScraper
 from recipe_urls.ninjatestkitchen import NinjaTestKitchenScraper
 from recipe_urls.nytimes import NyTimesScraper
 
-from recipe_urls._abstract import AbstractScraper
-from recipe_urls._utils import get_site_origin
 
 SCRAPERS = {
     AbuelasCounterScraper.host(): AbuelasCounterScraper, 
@@ -115,6 +117,7 @@ SCRAPERS = {
     FoodNetworkScraper.host(): FoodNetworkScraper,
     FoodRepublicScraper.host(): FoodRepublicScraper,
     ForksOverKnivesScraper.host(): ForksOverKnivesScraper, 
+    ForkToSpoonScraper.host(): ForkToSpoonScraper,
     HelloFreshScraper.host(): HelloFreshScraper, 
     NinjaTestKitchenScraper.host(): NinjaTestKitchenScraper, 
     NyTimesScraper.host(): NyTimesScraper
