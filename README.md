@@ -88,6 +88,7 @@ for base_url in base_urls:
 - www.foodrepublic.com
 - www.forksoverknives.com
 - forktospoon.com
+- www.gimmesomeoven.com
 - www.hellofresh.com
 - ninjatestkitchen.eu
 - cooking.nytimes.com
