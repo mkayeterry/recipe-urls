@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://goodfooddiscoveries.com')
+links = scrape_urls('https://www.goodhousekeeping.com/food-recipes/')
 print(links)
 
 base_urls = [
@@ -59,7 +59,8 @@ base_urls = [
     "https://www.forksoverknives.com", 
     "https://forktospoon.com/category/recipes/", 
     "https://www.gimmesomeoven.com", 
-    "https://goodfooddiscoveries.com", 
+    "https://goodfooddiscoveries.com",
+    "https://www.goodhousekeeping.com/food-recipes/", 
     "https://www.hellofresh.com/recipes", 
     "https://ninjatestkitchen.eu", 
     "https://cooking.nytimes.com"
@@ -88,7 +89,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
 }
 
-base_url = 'https://forktospoon.com/category/recipes/'
+base_url = 'https://www.goodhousekeeping.com/contenttype/recipe/'
 
 try:
     response = httpx.get(url=base_url, headers=HEADERS)
@@ -105,10 +106,10 @@ except Exception as e:
 
 href_links = [a["href"] for a in soup.find_all("a", href=True)]
 
-recipe_pattern = re.compile(r'https://forktospoon\.com/[^/]+/')
+recipe_pattern = re.compile(r'/food-recipes/\w+-?\w+/\w+-?\w+-?\w+/$')
 
 # Use a set to deduplicate the links while filtering href links for recipe-specific ones
 unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
-
+print(unique_links_set)
 
 ###############################################################################################

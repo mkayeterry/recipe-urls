@@ -90,6 +90,7 @@ for base_url in base_urls:
 - forktospoon.com
 - www.gimmesomeoven.com
 - goodfooddiscoveries.com
+- www.goodhousekeeping.com
 - www.hellofresh.com
 - ninjatestkitchen.eu
 - cooking.nytimes.com
