@@ -92,6 +92,7 @@ for base_url in base_urls:
 - www.gonnawantseconds.com
 - goodfooddiscoveries.com
 - www.goodhousekeeping.com
+- www.greatbritishchefs.com
 - www.hellofresh.com
 - ninjatestkitchen.eu
 - cooking.nytimes.com

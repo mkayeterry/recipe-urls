@@ -62,6 +62,7 @@ from recipe_urls.gimmesomeoven import GimmeSomeOvenScraper
 from recipe_urls.gonnawantseconds import GonnaWantSecondsScraper
 from recipe_urls.goodfooddiscoveries import GoodFoodDiscoveriesScraper
 from recipe_urls.goodhousekeeping import GoodHousekeepingScraper
+from recipe_urls.greatbritishchefs import GreatBritishChefsScraper
 from recipe_urls.hellofresh import HelloFreshScraper
 from recipe_urls.ninjatestkitchen import NinjaTestKitchenScraper
 from recipe_urls.nytimes import NyTimesScraper
@@ -125,7 +126,8 @@ SCRAPERS = {
     GimmeSomeOvenScraper.host(): GimmeSomeOvenScraper, 
     GonnaWantSecondsScraper.host(): GonnaWantSecondsScraper, 
     GoodFoodDiscoveriesScraper.host(): GoodFoodDiscoveriesScraper,
-    GoodHousekeepingScraper.host(): GoodHousekeepingScraper,  
+    GoodHousekeepingScraper.host(): GoodHousekeepingScraper, 
+    GreatBritishChefsScraper.host(): GreatBritishChefsScraper, 
     HelloFreshScraper.host(): HelloFreshScraper, 
     NinjaTestKitchenScraper.host(): NinjaTestKitchenScraper, 
     NyTimesScraper.host(): NyTimesScraper
