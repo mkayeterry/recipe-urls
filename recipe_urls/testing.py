@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://im-worthy.com')
+links = scrape_urls('https://insanelygoodrecipes.com')
 print(links)
 
 base_urls = [
@@ -71,6 +71,8 @@ base_urls = [
     "https://www.hersheyland.com/recipes",
     "https://hostthetoast.com/recipes/", 
     "https://im-worthy.com", 
+    "https://www.indianhealthyrecipes.com",
+    "https://insanelygoodrecipes.com",  
     "https://ninjatestkitchen.eu", 
     "https://cooking.nytimes.com"
 ]
@@ -98,7 +100,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
 }
 
-base_url = 'https://www.hersheyland.com/recipes'
+base_url = 'https://www.indianhealthyrecipes.com'
 
 try:
     response = httpx.get(url=base_url, headers=HEADERS)

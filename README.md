@@ -102,6 +102,7 @@ for base_url in base_urls:
 - https://hostthetoast.com
 - https://im-worthy.com
 - https://www.indianhealthyrecipes.com
+- https://insanelygoodrecipes.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
