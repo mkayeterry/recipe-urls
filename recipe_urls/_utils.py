@@ -73,6 +73,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'www.indianhealthyrecipes.com', 
         'insanelygoodrecipes.com', 
         'inspiralized.com', 
+        'izzycooking.com', 
         'ninjatestkitchen.eu', 
         'cooking.nytimes.com'
     ]
