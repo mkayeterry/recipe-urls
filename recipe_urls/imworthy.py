@@ -2,14 +2,14 @@ from typing import List
 import re
 from recipe_urls._abstract import AbstractScraper
 
-class HeadbangersKitchenScraper(AbstractScraper):
+class ImWorthyScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "headbangerskitchen.com"
+        return "im-worthy.com"
 
     def scrape(self) -> List[str]:
         try:
-            href_links = [a['href'] for a in self.soup.find_all('a', {'class': re.compile("post-thumbnail")})]
+            href_links = [a["href"] for a in self.soup.find_all("a", href=True)]
         except (TypeError, AttributeError) as e:
             raise ValueError(f"Failed to extract href links: {e}") from e
 
@@ -22,17 +22,11 @@ class HeadbangersKitchenScraper(AbstractScraper):
 
         # Filter out unwanted url patterns
         unwanted_patterns = [ 
-            "ketosis", 
-            "how-to", 
-            "recipes", 
-            "meal-plan", 
-            "mistakes", 
-            "policy", 
-            "vs"
+            "recipes"
         ]
 
-        # Site-specific regex for HeadbangersKitchen
-        recipe_pattern = re.compile(r'https://headbangerskitchen\.com/[\w-]+-[\w-]')
+        # Site-specific regex for ImWorthy
+        recipe_pattern = re.compile(r'https://im-worthy\.com/[\w-]+-[\w-]+/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))

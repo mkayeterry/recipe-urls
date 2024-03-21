@@ -67,8 +67,10 @@ from recipe_urls.halfbakedharvest import HalfbakedHarvestScraper
 from recipe_urls.handletheheat import HandleTheHeatScraper
 from recipe_urls.headbangerskitchen import HeadbangersKitchenScraper
 from recipe_urls.heatherchristo import HeatherChristoScraper
-from recipe_urls.hersheyland import HersheylandScraper
 from recipe_urls.hellofresh import HelloFreshScraper
+from recipe_urls.hersheyland import HersheylandScraper
+from recipe_urls.hostthetoast import HostTheToastScraper
+from recipe_urls.imworthy import ImWorthyScraper
 from recipe_urls.ninjatestkitchen import NinjaTestKitchenScraper
 from recipe_urls.nytimes import NyTimesScraper
 
@@ -136,9 +138,11 @@ SCRAPERS = {
     HalfbakedHarvestScraper.host(): HalfbakedHarvestScraper, 
     HandleTheHeatScraper.host(): HandleTheHeatScraper, 
     HeadbangersKitchenScraper.host(): HeadbangersKitchenScraper,
-    HeatherChristoScraper.host(): HeatherChristoScraper,
-    HersheylandScraper.host(): HersheylandScraper,   
+    HeatherChristoScraper.host(): HeatherChristoScraper,  
     HelloFreshScraper.host(): HelloFreshScraper, 
+    HersheylandScraper.host(): HersheylandScraper, 
+    HostTheToastScraper.host(): HostTheToastScraper, 
+    ImWorthyScraper.host(): ImWorthyScraper, 
     NinjaTestKitchenScraper.host(): NinjaTestKitchenScraper, 
     NyTimesScraper.host(): NyTimesScraper
 }

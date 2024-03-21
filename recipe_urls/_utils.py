@@ -65,9 +65,11 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'www.halfbakedharvest.com', 
         'handletheheat.com', 
         'headbangerskitchen.com', 
-        'heatherchristo.com', 
-        'www.hersheyland.com', 
+        'heatherchristo.com',  
         'www.hellofresh.com',
+        'www.hersheyland.com',
+        'hostthetoast.com', 
+        'im-worthy.com', 
         'ninjatestkitchen.eu', 
         'cooking.nytimes.com'
     ]
