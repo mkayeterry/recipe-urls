@@ -2,14 +2,14 @@ from typing import List
 import re
 from recipe_urls._abstract import AbstractScraper
 
-class HeatherChristoScraper(AbstractScraper):
+class HersheylandScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "heatherchristo.com"
+        return "www.hersheyland.com"
 
     def scrape(self) -> List[str]:
         try:
-            href_links = [a["href"] for a in self.soup.find_all("a", href=True)]
+            href_links = [a['href'] for a in self.soup.find_all('a', {'class': re.compile("item col")})]
         except (TypeError, AttributeError) as e:
             raise ValueError(f"Failed to extract href links: {e}") from e
 
@@ -20,11 +20,11 @@ class HeatherChristoScraper(AbstractScraper):
 
     def filter_links(self, href_links: List[str]) -> List[str]:
 
-        # Site-specific regex for HeatherChristo
-        recipe_pattern = re.compile(r'https://heatherchristo\.com/\d{4}/\d{2}/\d{2}/[\w-]+-[\w-]+/')
+        # Site-specific regex for Hersheyland
+        recipe_pattern = re.compile(r'/recipes/[\w-]+-[\w-]+\.html')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
-        unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
+        unique_links_set = set(f'https://www.hersheyland.com{link}' for link in href_links if recipe_pattern.search(link))
         print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list

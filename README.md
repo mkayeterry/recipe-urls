@@ -97,6 +97,7 @@ for base_url in base_urls:
 - https://handletheheat.com
 - https://headbangerskitchen.com
 - https://heatherchristo.com
+- https://www.hersheyland.com
 - https://www.hellofresh.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
