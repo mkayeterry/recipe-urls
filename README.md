@@ -103,6 +103,7 @@ for base_url in base_urls:
 - https://im-worthy.com
 - https://www.indianhealthyrecipes.com
 - https://insanelygoodrecipes.com
+- https://inspiralized.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 

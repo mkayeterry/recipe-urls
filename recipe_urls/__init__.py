@@ -73,6 +73,7 @@ from recipe_urls.hostthetoast import HostTheToastScraper
 from recipe_urls.imworthy import ImWorthyScraper
 from recipe_urls.indianhealthyrecipes import IndianHealthyRecipesScraper
 from recipe_urls.insanelygoodrecipes import InsanelyGoodRecipesScraper
+from recipe_urls.inspiralized import InspiralizedScraper
 from recipe_urls.ninjatestkitchen import NinjaTestKitchenScraper
 from recipe_urls.nytimes import NyTimesScraper
 
@@ -147,6 +148,7 @@ SCRAPERS = {
     ImWorthyScraper.host(): ImWorthyScraper, 
     IndianHealthyRecipesScraper.host(): IndianHealthyRecipesScraper, 
     InsanelyGoodRecipesScraper.host(): InsanelyGoodRecipesScraper, 
+    InspiralizedScraper.host(): InspiralizedScraper, 
     NinjaTestKitchenScraper.host(): NinjaTestKitchenScraper, 
     NyTimesScraper.host(): NyTimesScraper
 }
