@@ -101,6 +101,7 @@ for base_url in base_urls:
 - https://www.hersheyland.com
 - https://hostthetoast.com
 - https://im-worthy.com
+- https://www.indianhealthyrecipes.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 

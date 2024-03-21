@@ -70,6 +70,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'www.hersheyland.com',
         'hostthetoast.com', 
         'im-worthy.com', 
+        'www.indianhealthyrecipes.com', 
         'ninjatestkitchen.eu', 
         'cooking.nytimes.com'
     ]
