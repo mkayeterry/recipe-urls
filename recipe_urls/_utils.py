@@ -62,7 +62,8 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'www.goodhousekeeping.com', 
         'www.gonnawantseconds.com',
         'www.greatbritishchefs.com', 
-        'www.halfbakedharvest.com',  
+        'www.halfbakedharvest.com', 
+        'handletheheat.com', 
         'www.hellofresh.com',
         'ninjatestkitchen.eu', 
         'cooking.nytimes.com'

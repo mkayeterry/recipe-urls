@@ -94,6 +94,7 @@ for base_url in base_urls:
 - www.goodhousekeeping.com
 - www.greatbritishchefs.com
 - www.halfbakedharvest.com
+- handletheheat.com
 - www.hellofresh.com
 - ninjatestkitchen.eu
 - cooking.nytimes.com
