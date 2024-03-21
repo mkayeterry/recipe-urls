@@ -8,7 +8,7 @@
 
 Note: This package is currently under development and not available for installation through pip.
 
-<!-- ```bash
+<!-- https://```bash
 pip install recipe-urls
 ``` -->
 
@@ -34,73 +34,74 @@ for base_url in base_urls:
 
 ## Supported Websites (So Far!)
 
-- abuelascounter.com
-- www.acouplecooks.com
-- addapinch.com
-- www.afghankitchenrecipes.com
-- www.allrecipes.com
-- www.ambitiouskitchen.com
-- www.archanaskitchen.com
-- www.averiecooks.com
-- bakingmischief.com
-- www.baking-sense.com
-- barefootcontessa.com
-- www.bbc.co.uk
-- www.bettycrocker.com
-- www.bigoven.com
-- bluejeanchef.com
-- www.bonappetit.com
-- www.bongeats.com
-- www.bowlofdelicious.com
-- www.budgetbytes.com
-- carlsbadcravings.com
-- www.castironketo.net
-- www.cdkitchen.com
-- chefsavvy.com
-- www.closetcooking.com
-- cookieandkate.com
-- copykat.com 
-- www.countryliving.com
-- creativecanning.com
-- www.davidlebovitz.com
-- www.delish.com
-- domesticate-me.com
-- downshiftology.com
-- www.eatingbirdfood.com
-- www.eatingwell.com
-- www.eatliverun.com
-- eatsmarter.com
-- www.eatwell101.com
-- eatwhattonight.com
-- elavegan.com
-- www.ethanchlebowski.com
-- www.errenskitchen.com
-- www.epicurious.com
-- www.farmhouseonboone.com
-- www.fifteenspatulas.com
-- www.finedininglovers.com
-- fitmencook.com
-- fitslowcookerqueen.com
-- www.food.com
-- food52.com
-- www.foodandwine.com
-- www.foodnetwork.com
-- www.foodrepublic.com
-- www.forksoverknives.com
-- forktospoon.com
-- www.gimmesomeoven.com
-- www.gonnawantseconds.com
-- goodfooddiscoveries.com
-- www.goodhousekeeping.com
-- www.greatbritishchefs.com
-- www.halfbakedharvest.com
-- handletheheat.com
-- headbangerskitchen.com
-- www.hellofresh.com
-- ninjatestkitchen.eu
-- cooking.nytimes.com
+- https://abuelascounter.com
+- https:/www.acouplecooks.com
+- https://addapinch.com
+- https://www.afghankitchenrecipes.com
+- https://www.allrecipes.com
+- https://www.ambitiouskitchen.com
+- https://www.archanaskitchen.com
+- https://www.averiecooks.com
+- https://bakingmischief.com
+- https://www.baking-sense.com
+- https://barefootcontessa.com
+- https://www.bbc.co.uk
+- https://www.bettycrocker.com
+- https://www.bigoven.com
+- https://bluejeanchef.com
+- https://www.bonappetit.com
+- https://www.bongeats.com
+- https://www.bowlofdelicious.com
+- https://www.budgetbytes.com
+- https://carlsbadcravings.com
+- https://www.castironketo.net
+- https://www.cdkitchen.com
+- https://chefsavvy.com
+- https://www.closetcooking.com
+- https://cookieandkate.com
+- https://copykat.com 
+- https://www.countryliving.com
+- https://creativecanning.com
+- https://www.davidlebovitz.com
+- https://www.delish.com
+- https://domesticate-me.com
+- https://downshiftology.com
+- https://www.eatingbirdfood.com
+- https://www.eatingwell.com
+- https://www.eatliverun.com
+- https://eatsmarter.com
+- https://www.eatwell101.com
+- https://eatwhattonight.com
+- https://elavegan.com
+- https://www.ethanchlebowski.com
+- https://www.errenskitchen.com
+- https://www.epicurious.com
+- https://www.farmhouseonboone.com
+- https://www.fifteenspatulas.com
+- https://www.finedininglovers.com
+- https://fitmencook.com
+- https://fitslowcookerqueen.com
+- https://www.food.com
+- https://food52.com
+- https://www.foodandwine.com
+- https://www.foodnetwork.com
+- https://www.foodrepublic.com
+- https://www.forksoverknives.com
+- https://forktospoon.com
+- https://www.gimmesomeoven.com
+- https://www.gonnawantseconds.com
+- https://goodfooddiscoveries.com
+- https://www.goodhousekeeping.com
+- https://www.greatbritishchefs.com
+- https://www.halfbakedharvest.com
+- https://handletheheat.com
+- https://headbangerskitchen.com
+- https://heatherchristo.com
+- https://www.hellofresh.com
+- https://ninjatestkitchen.eu
+- https://cooking.nytimes.com
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - https://see the [LICENSE](LICENSE) file for details.
