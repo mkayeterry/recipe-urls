@@ -93,6 +93,7 @@ for base_url in base_urls:
 - goodfooddiscoveries.com
 - www.goodhousekeeping.com
 - www.greatbritishchefs.com
+- www.halfbakedharvest.com
 - www.hellofresh.com
 - ninjatestkitchen.eu
 - cooking.nytimes.com

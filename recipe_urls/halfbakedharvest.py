@@ -2,10 +2,10 @@ from typing import List
 import re
 from recipe_urls._abstract import AbstractScraper
 
-class GoodFoodDiscoveriesScraper(AbstractScraper):
+class HalfbakedHarvestScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "goodfooddiscoveries.com"
+        return "www.halfbakedharvest.com"
 
     def scrape(self) -> List[str]:
         try:
@@ -22,15 +22,19 @@ class GoodFoodDiscoveriesScraper(AbstractScraper):
 
         # Filter out unwanted url patterns
         unwanted_patterns = [ 
+            "accessibility", 
+            "archives", 
+            "available", 
+            "collections", 
+            "favorite-things",
             "index", 
-            "disclosure", 
-            "policy", 
-            "preferences", 
-            "terms"
+            "log-in", 
+            "policy",  
+            "tieghan"
         ]
 
-        # Site-specific regex for GoodFoodDiscoveries
-        recipe_pattern = re.compile(r'https://goodfooddiscoveries\.com/[\w-]+-[\w-]+/$')
+        # Site-specific regex for HalfbakedHarvest
+        recipe_pattern = re.compile(r'https://www\.halfbakedharvest\.com/[\w-]+-[\w-]')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))

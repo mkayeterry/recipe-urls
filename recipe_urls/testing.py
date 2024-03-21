@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.greatbritishchefs.com')
+links = scrape_urls('https://www.halfbakedharvest.com')
 print(links)
 
 base_urls = [
@@ -63,6 +63,7 @@ base_urls = [
     "https://goodfooddiscoveries.com",
     "https://www.goodhousekeeping.com/food-recipes/", 
     "https://www.greatbritishchefs.com", 
+    "https://www.halfbakedharvest.com", 
     "https://www.hellofresh.com/recipes", 
     "https://ninjatestkitchen.eu", 
     "https://cooking.nytimes.com"
@@ -91,7 +92,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
 }
 
-base_url = 'https://www.goodhousekeeping.com/contenttype/recipe/'
+base_url = 'https://grimgrains.com'
 
 try:
     response = httpx.get(url=base_url, headers=HEADERS)
