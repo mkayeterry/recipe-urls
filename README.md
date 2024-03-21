@@ -105,6 +105,7 @@ for base_url in base_urls:
 - https://insanelygoodrecipes.com
 - https://inspiralized.com
 - https://izzycooking.com
+- https://www.jamieoliver.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
