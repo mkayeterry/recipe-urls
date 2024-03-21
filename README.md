@@ -95,6 +95,7 @@ for base_url in base_urls:
 - www.greatbritishchefs.com
 - www.halfbakedharvest.com
 - handletheheat.com
+- headbangerskitchen.com
 - www.hellofresh.com
 - ninjatestkitchen.eu
 - cooking.nytimes.com
