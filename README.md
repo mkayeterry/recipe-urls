@@ -110,6 +110,7 @@ for base_url in base_urls:
 - https://joyfoodsunshine.com
 - https://www.justataste.com
 - https://justbento.com
+- https://www.justonecookbook.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
