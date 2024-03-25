@@ -109,6 +109,7 @@ for base_url in base_urls:
 - https://jimcooksfoodgood.com
 - https://joyfoodsunshine.com
 - https://www.justataste.com
+- https://justbento.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 

@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.justataste.com')
+links = scrape_urls('https://justbento.com/recipes/all')
 print(links)
 
 base_urls = [
@@ -79,6 +79,7 @@ base_urls = [
     "https://jimcooksfoodgood.com", 
     "https://joyfoodsunshine.com/recipe-index/", 
     "https://www.justataste.com", 
+    "https://justbento.com/recipes/all", 
     "https://ninjatestkitchen.eu", 
     "https://cooking.nytimes.com"
 ]
@@ -106,7 +107,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
 }
 
-base_url = 'https://www.jamieoliver.com'
+base_url = 'https://justbento.com/recipes/all'
 
 try:
     response = httpx.get(url=base_url, headers=HEADERS)
