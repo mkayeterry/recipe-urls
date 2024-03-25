@@ -78,6 +78,7 @@ from recipe_urls.izzycooking import IzzyCookingScraper
 from recipe_urls.jamieoliver import JamieOliverScraper
 from recipe_urls.jimcooksfoodgood import JimCooksFoodGoodScraper
 from recipe_urls.joyfoodsunshine import JoyFoodSunshineScraper
+from recipe_urls.justataste import JustATasteScraper
 from recipe_urls.ninjatestkitchen import NinjaTestKitchenScraper
 from recipe_urls.nytimes import NyTimesScraper
 
@@ -157,6 +158,7 @@ SCRAPERS = {
     JamieOliverScraper.host(): JamieOliverScraper, 
     JimCooksFoodGoodScraper.host(): JimCooksFoodGoodScraper, 
     JoyFoodSunshineScraper.host(): JoyFoodSunshineScraper, 
+    JustATasteScraper.host(): JustATasteScraper, 
     NinjaTestKitchenScraper.host(): NinjaTestKitchenScraper, 
     NyTimesScraper.host(): NyTimesScraper
 }
