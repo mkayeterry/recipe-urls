@@ -107,6 +107,7 @@ for base_url in base_urls:
 - https://izzycooking.com
 - https://www.jamieoliver.com
 - https://jimcooksfoodgood.com
+- https://joyfoodsunshine.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
