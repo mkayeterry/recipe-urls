@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://www.justonecookbook.com') #TODO filter
+links = scrape_urls('https://www.justonecookbook.com/about/')
 print(links)
 
 base_urls = [

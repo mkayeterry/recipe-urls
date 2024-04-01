@@ -22,6 +22,22 @@ class JustOneCookbookScraper(AbstractScraper):
 
         # Filter out unwanted url patterns
         unwanted_patterns = [ 
+            "accessibility", 
+            "conditions", 
+            "gifts", 
+            "guide", 
+            "how-to", 
+            "index", 
+            "ingredient", 
+            "japanese", 
+            "login", 
+            "membership", 
+            "permissions", 
+            "policy", 
+            "recipes", 
+            "start", 
+            "stores", 
+            "tips"
         ]
 
         # Site-specific regex for JustOneCookbook
