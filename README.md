@@ -112,6 +112,7 @@ for base_url in base_urls:
 - https://justbento.com
 - https://www.justonecookbook.com
 - https://www.kingarthurbaking.com
+- https://leanandgreenrecipes.net
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 

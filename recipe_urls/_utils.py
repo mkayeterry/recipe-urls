@@ -81,6 +81,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'justbento.com', 
         'www.justonecookbook.com', 
         'www.kingarthurbaking.com', 
+        'leanandgreenrecipes.net', 
         'ninjatestkitchen.eu', 
         'cooking.nytimes.com'
     ]
