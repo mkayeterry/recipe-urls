@@ -111,6 +111,7 @@ for base_url in base_urls:
 - https://www.justataste.com
 - https://justbento.com
 - https://www.justonecookbook.com
+- https://www.kingarthurbaking.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
