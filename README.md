@@ -113,6 +113,7 @@ for base_url in base_urls:
 - https://www.justonecookbook.com
 - https://www.kingarthurbaking.com
 - https://leanandgreenrecipes.net
+- https://lifestyleofafoodie.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
