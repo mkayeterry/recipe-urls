@@ -117,6 +117,7 @@ for base_url in base_urls:
 - https://littlespicejar.com
 - https://livelytable.com
 - https://lovingitvegan.com
+- https://ohsheglows.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
