@@ -22,6 +22,13 @@ class LittleSpiceJarScraper(AbstractScraper):
 
         # Filter out unwanted url patterns
         unwanted_patterns = [ 
+            "about", 
+            "category", 
+            "faq", 
+            "index", 
+            "page", 
+            "policy", 
+            'resources'
         ]
 
         # Site-specific regex for LittleSpiceJar

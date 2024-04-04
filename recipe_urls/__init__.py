@@ -84,6 +84,7 @@ from recipe_urls.justonecookbook import JustOneCookbookScraper
 from recipe_urls.kingarthurbaking import KingArthurBakingScraper
 from recipe_urls.leanandgreenrecipes import LeanAndGreenRecipesScraper
 from recipe_urls.lifestyleofafoodie import LifestyleOfAFoodieScraper
+from recipe_urls.littlespicejar import LittleSpiceJarScraper
 from recipe_urls.ninjatestkitchen import NinjaTestKitchenScraper
 from recipe_urls.nytimes import NyTimesScraper
 
@@ -169,6 +170,7 @@ SCRAPERS = {
     KingArthurBakingScraper.host(): KingArthurBakingScraper, 
     LeanAndGreenRecipesScraper.host(): LeanAndGreenRecipesScraper, 
     LifestyleOfAFoodieScraper.host(): LifestyleOfAFoodieScraper, 
+    LittleSpiceJarScraper.host(): LittleSpiceJarScraper, 
     NinjaTestKitchenScraper.host(): NinjaTestKitchenScraper, 
     NyTimesScraper.host(): NyTimesScraper
 }

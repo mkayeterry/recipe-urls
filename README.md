@@ -114,6 +114,7 @@ for base_url in base_urls:
 - https://www.kingarthurbaking.com
 - https://leanandgreenrecipes.net
 - https://lifestyleofafoodie.com
+- https://littlespicejar.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
