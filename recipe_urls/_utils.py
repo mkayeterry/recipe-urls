@@ -84,6 +84,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'leanandgreenrecipes.net',
         'lifestyleofafoodie.com',  
         'littlespicejar.com', 
+        'livelytable.com', 
         'ninjatestkitchen.eu', 
         'cooking.nytimes.com'
     ]
