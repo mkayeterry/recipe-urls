@@ -120,6 +120,7 @@ for base_url in base_urls:
 - https://ohsheglows.com
 - https://www.onceuponachef.com
 - https://www.paleorunningmomma.com
+- https://www.persnicketyplates.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
