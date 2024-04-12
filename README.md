@@ -121,10 +121,11 @@ for base_url in base_urls:
 - https://www.onceuponachef.com
 - https://www.paleorunningmomma.com
 - https://www.persnicketyplates.com
+- https://www.pickuplimes.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
 
 ## License
 
-This project is licensed under the MIT License - https://see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
