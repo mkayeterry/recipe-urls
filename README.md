@@ -119,6 +119,7 @@ for base_url in base_urls:
 - https://lovingitvegan.com
 - https://ohsheglows.com
 - https://www.onceuponachef.com
+- https://www.paleorunningmomma.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
