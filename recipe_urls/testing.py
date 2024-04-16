@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://rainbowplantlife.com')
+links = scrape_urls('https://reciperunner.com/category/running/')
 print(links)
 
 base_urls = [
@@ -87,6 +87,8 @@ base_urls = [
     "https://littlespicejar.com", 
     "https://livelytable.com", 
     "https://lovingitvegan.com", 
+    "https://ninjatestkitchen.eu", 
+    "https://cooking.nytimes.com", 
     "https://ohsheglows.com", 
     "https://www.onceuponachef.com", 
     "https://www.paleorunningmomma.com", 
@@ -95,8 +97,7 @@ base_urls = [
     "https://www.platingpixels.com", 
     "https://rachlmansfield.com", 
     "https://rainbowplantlife.com", 
-    "https://ninjatestkitchen.eu", 
-    "https://cooking.nytimes.com"
+    "https://reciperunner.com"
 ]
 
 compiled_recipe_links = []
