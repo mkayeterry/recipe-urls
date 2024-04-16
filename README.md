@@ -1,4 +1,4 @@
-# recipe-urls (Under Development)
+# recipe-urls
 
 ## Overview
 
@@ -28,7 +28,7 @@ for base_url in base_urls:
     compiled_recipe_links.extend(scrape)
 ```
 
-## Supported Websites (So Far!)
+## Supported Websites
 
 - https://abuelascounter.com
 - https://www.acouplecooks.com
