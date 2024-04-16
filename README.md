@@ -123,6 +123,7 @@ for base_url in base_urls:
 - https://www.persnicketyplates.com
 - https://www.pickuplimes.com
 - https://www.platingpixels.com
+- https://rachlmansfield.com
 - https://ninjatestkitchen.eu
 - https://cooking.nytimes.com
 
