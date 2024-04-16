@@ -3,6 +3,8 @@
 LICENSE
 README.md
 pyproject.toml
+dist/recipe_urls-0.1.1-py3-none-any.whl
+dist/recipe_urls-0.1.1.tar.gz
 recipe_urls/.DS_Store
 recipe_urls/__init__.py
 recipe_urls/_abstract.py
