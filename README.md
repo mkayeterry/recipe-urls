@@ -128,6 +128,7 @@ for base_url in base_urls:
 - https://rachlmansfield.com
 - https://rainbowplantlife.com
 - https://reciperunner.com
+- https://sallysbakingaddiction.com
 
 
 
