@@ -1,3 +1,5 @@
+__version__ = "0.1.1"
+
 from typing import Optional
 import httpx
 
@@ -217,18 +219,10 @@ def scrape_urls(base_url: str) -> Optional[AbstractScraper]:
         scraper_instance = scraper_class(base_url)
         return scraper_instance.scrape()
 
-    # except httpx.HTTPError as e:
-    #     if isinstance(e.cause, httpcore.ReadTimeout):
-    #         raise TimeoutError("Request timed out.")
-    #     elif e.status_code == 404:
-    #         raise ValueError(f"URL not found {e.request.url}")
-    #     else:
-    #         raise httpx.HTTPError(f"HTTP error for {base_url}: {e}") from None
-
     except Exception as e:
         raise e from None
 
 
-ALL = [
+__all__ = [
     'scrape_urls'
 ]

@@ -108,6 +108,13 @@ base_urls = [
 compiled_recipe_links = []
 
 for base_url in base_urls:
+    random_sleeps = True
+    lower_sleep = 1
+    upper_sleep = 5
+
+    if random_sleeps:
+        sleep_time = random.randint(lower_sleep, upper_sleep)
+        time.sleep(sleep_time)
     try:
         scrape = scrape_urls(base_url)
         compiled_recipe_links.extend(scrape)

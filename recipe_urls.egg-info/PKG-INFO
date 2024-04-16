@@ -1,3 +1,30 @@
+Metadata-Version: 2.1
+Name: recipe_urls
+Version: 0.1.1
+Summary: Scrapes all recipe URLs from provided base URL.
+Author-email: Melissa Terry <mkayeterry@gmail.com>
+License: MIT License
+Keywords: recipe,scraper,URLs,links
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx>=0.26.0
+Requires-Dist: beautifulsoup4>=4.11.1
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pip-tools; extra == "test"
+Provides-Extra: dev
+Requires-Dist: black; extra == "dev"
+
 # recipe-urls (Under Development)
 
 ## Overview

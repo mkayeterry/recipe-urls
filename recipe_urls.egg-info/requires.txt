@@ -1,0 +1,9 @@
+httpx>=0.26.0
+beautifulsoup4>=4.11.1
+
+[dev]
+black
+
+[test]
+pytest
+pip-tools

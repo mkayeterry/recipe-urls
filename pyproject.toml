@@ -1,0 +1,43 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "setuptools-scm"]
+
+[project]
+name = "recipe_urls"
+authors = [
+  {name = "Melissa Terry", email = "mkayeterry@gmail.com"},
+]
+version = "0.1.1"
+description = "Scrapes all recipe URLs from provided base URL."
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: Unix",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Utilities",
+]
+keywords = ["recipe", "scraper", "URLs", "links"]
+license = {text = "MIT License"}
+dependencies = [
+        "httpx >= 0.26.0", 
+        "beautifulsoup4 >= 4.11.1"
+    ]
+requires-python = ">=3.7"
+readme = "README.md"
+
+[project.optional-dependencies]
+test = [
+  "pytest",
+  "pip-tools"
+]
+dev = ["black"]
+
+[tool.setuptools]
+packages = ["recipe_urls"]
+
+[tool.setuptools.dynamic]
+version = {attr = "recipe_urls.__version__"}

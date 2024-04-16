@@ -104,14 +104,14 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'tasty.co'
     ]
 
-    if type(base_url) == str:
+    if isinstance(base_url, str):
 
-        # if https:// is not specified
+        # If https:// is not specified
         for site_origin in site_origins:
             if site_origin == base_url:
                 return site_origin
 
-        # if https:// is specified
+        # If https:// is specified
         parsed_url = urlparse(base_url).hostname
         for site_origin in site_origins:
             if site_origin == parsed_url:

@@ -1,6 +1,4 @@
 from typing import List, Optional
-import time
-import random
 import httpx
 from bs4 import BeautifulSoup
 
@@ -10,15 +8,8 @@ HEADERS = {
 }
 
 class AbstractScraper:
-    def __init__(self, base_url: str, random_sleeps: bool = True, lower_sleep: int = 1, upper_sleep: int = 3):
+    def __init__(self, base_url: str):
         self.base_url = base_url
-        self.random_sleeps = random_sleeps
-        self.lower_sleep = lower_sleep
-        self.upper_sleep = upper_sleep
-
-        if random_sleeps:
-            sleep_time = random.randint(self.lower_sleep, self.upper_sleep)
-            time.sleep(sleep_time)
 
         try:
             response = httpx.get(url=self.base_url, headers=HEADERS)
