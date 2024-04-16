@@ -104,14 +104,20 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'tasty.co'
     ]
 
+    if type(base_url) == str:
 
-    for site_origin in site_origins:
-        if site_origin == base_url:
-            return site_origin
+        # if https:// is not specified
+        for site_origin in site_origins:
+            if site_origin == base_url:
+                return site_origin
 
-    parsed_url = urlparse(base_url).hostname
-    for site_origin in site_origins:
-        if site_origin == parsed_url:
-            return site_origin
+        # if https:// is specified
+        parsed_url = urlparse(base_url).hostname
+        for site_origin in site_origins:
+            if site_origin == parsed_url:
+                return site_origin
 
-    raise ValueError(f"URL '{base_url}' is not supported.")
+        raise ValueError(f"URL '{base_url}' is not supported.")
+
+    else:
+        raise ValueError(f"URL format '{type(base_url)}' is not supported.")
