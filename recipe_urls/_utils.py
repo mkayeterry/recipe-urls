@@ -87,7 +87,7 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'livelytable.com', 
         'lovingitvegan.com', 
         'ninjatestkitchen.eu', 
-        'cooking.nytimes.com'
+        'cooking.nytimes.com', 
         'ohsheglows.com', 
         'www.onceuponachef.com', 
         'www.paleorunningmomma.com', 
@@ -103,6 +103,11 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'www.tasteofhome.com', 
         'tasty.co'
     ]
+
+
+    for site_origin in site_origins:
+        if site_origin == base_url:
+            return site_origin
 
     parsed_url = urlparse(base_url).hostname
     for site_origin in site_origins:

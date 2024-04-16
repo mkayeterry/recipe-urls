@@ -227,3 +227,8 @@ def scrape_urls(base_url: str) -> Optional[AbstractScraper]:
 
     except Exception as e:
         raise e from None
+
+
+ALL = [
+    'scrape_urls'
+]

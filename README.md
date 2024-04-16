@@ -35,7 +35,7 @@ for base_url in base_urls:
 ## Supported Websites (So Far!)
 
 - https://abuelascounter.com
-- https:/www.acouplecooks.com
+- https://www.acouplecooks.com
 - https://addapinch.com
 - https://www.afghankitchenrecipes.com
 - https://www.allrecipes.com
