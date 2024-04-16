@@ -132,6 +132,7 @@ for base_url in base_urls:
 - https://simple-veganista.com
 - https://www.simplywhisked.com
 - https://www.tasteofhome.com
+- https://tasty.co
 
 
 
