@@ -130,6 +130,7 @@ for base_url in base_urls:
 - https://reciperunner.com
 - https://sallysbakingaddiction.com
 - https://simple-veganista.com
+- https://www.simplywhisked.com
 
 
 

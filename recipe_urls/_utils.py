@@ -98,7 +98,8 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'rainbowplantlife.com', 
         'reciperunner.com', 
         'sallysbakingaddiction.com', 
-        'simple-veganista.com'
+        'simple-veganista.com', 
+        'www.simplywhisked.com'
     ]
 
     parsed_url = urlparse(base_url).hostname

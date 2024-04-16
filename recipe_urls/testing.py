@@ -1,6 +1,6 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls('https://simple-veganista.com/recipes/course/')
+links = scrape_urls('https://www.simplywhisked.com')
 print(links)
 
 base_urls = [
@@ -99,7 +99,8 @@ base_urls = [
     "https://rainbowplantlife.com", 
     "https://reciperunner.com", 
     "https://sallysbakingaddiction.com", 
-    "https://simple-veganista.com"
+    "https://simple-veganista.com", 
+    "https://www.simplywhisked.com"
 ]
 
 compiled_recipe_links = []
@@ -125,7 +126,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
 }
 
-base_url = 'https://www.pickuplimes.com'
+base_url = 'https://www.simplyquinoa.com'
 
 try:
     response = httpx.get(url=base_url, headers=HEADERS)
