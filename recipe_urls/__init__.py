@@ -96,6 +96,7 @@ from recipe_urls.persnicketyplates import PersnicketyPlatesScraper
 from recipe_urls.pickuplimes import PickUpLimesScraper
 from recipe_urls.platingpixels import PlatingPixelsScraper
 from recipe_urls.rachlmansfield import RachlMansfieldScraper
+from recipe_urls.rainbowplantlife import RainbowPlantLifeScraper
 
 
 SCRAPERS = {
@@ -191,6 +192,7 @@ SCRAPERS = {
     PickUpLimesScraper.host(): PickUpLimesScraper, 
     PlatingPixelsScraper.host(): PlatingPixelsScraper, 
     RachlMansfieldScraper.host(): RachlMansfieldScraper, 
+    RainbowPlantLifeScraper.host(): RainbowPlantLifeScraper
 }
 
 def scrape_urls(base_url: str) -> Optional[AbstractScraper]:

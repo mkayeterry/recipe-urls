@@ -117,6 +117,8 @@ for base_url in base_urls:
 - https://littlespicejar.com
 - https://livelytable.com
 - https://lovingitvegan.com
+- https://ninjatestkitchen.eu
+- https://cooking.nytimes.com
 - https://ohsheglows.com
 - https://www.onceuponachef.com
 - https://www.paleorunningmomma.com
@@ -124,8 +126,8 @@ for base_url in base_urls:
 - https://www.pickuplimes.com
 - https://www.platingpixels.com
 - https://rachlmansfield.com
-- https://ninjatestkitchen.eu
-- https://cooking.nytimes.com
+- https://rainbowplantlife.com
+
 
 
 ## License

@@ -86,15 +86,16 @@ def get_site_origin(base_url: str) -> Optional[str]:
         'littlespicejar.com', 
         'livelytable.com', 
         'lovingitvegan.com', 
+        'ninjatestkitchen.eu', 
+        'cooking.nytimes.com'
         'ohsheglows.com', 
         'www.onceuponachef.com', 
         'www.paleorunningmomma.com', 
         'www.persnicketyplates.com', 
         'www.pickuplimes.com',
         'www.platingpixels.com', 
-        'rachlmansfield.com', 
-        'ninjatestkitchen.eu', 
-        'cooking.nytimes.com'
+        'rachlmansfield.com',
+        'rainbowplantlife.com'
     ]
 
     parsed_url = urlparse(base_url).hostname
