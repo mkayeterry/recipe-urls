@@ -2,10 +2,10 @@ from typing import List
 import re
 from recipe_urls._abstract import AbstractScraper
 
-class PickUpLimesScraper(AbstractScraper):
+class PlatingPixelsScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "www.pickuplimes.com"
+        return "www.platingpixels.com"
 
     def scrape(self) -> List[str]:
         try:
@@ -20,11 +20,18 @@ class PickUpLimesScraper(AbstractScraper):
 
     def filter_links(self, href_links: List[str]) -> List[str]:
 
-        # Site-specific regex for PickUpLimes
-        recipe_pattern = re.compile(r'/recipe/[\w/-]+\d+$')
+        # Filter out unwanted url patterns
+        unwanted_patterns = [ 
+            "how-to", 
+            "policy", 
+            "work"
+        ]
+
+        # Site-specific regex for PlatingPixels
+        recipe_pattern = re.compile(r'https://www\.platingpixels\.com/[\w-]+-[\w-]+/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
-        unique_links_set = set(f'https://www.pickuplimes.com{link}' for link in href_links if recipe_pattern.search(link))
+        unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))
         print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
 
         # Convert the set back to a list
