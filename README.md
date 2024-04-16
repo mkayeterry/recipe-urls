@@ -129,6 +129,7 @@ for base_url in base_urls:
 - https://rainbowplantlife.com
 - https://reciperunner.com
 - https://sallysbakingaddiction.com
+- https://simple-veganista.com
 
 
 
