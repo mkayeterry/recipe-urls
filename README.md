@@ -131,7 +131,7 @@ for base_url in base_urls:
 
 
 ## Acknowledgments 
-This package was inspired by (and meant to be used in conjunction with) [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) by [hhursev](https://github.com/hhursev). Thanks for making the intersection of programming and recipe data more doable!
+This package was inspired by (and meant to be used in conjunction with) [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) by [hhursev](https://github.com/hhursev). Thanks for making the intersection of programming and recipes more doable!
 
 ## License
 
