@@ -130,6 +130,8 @@ for base_url in base_urls:
 - https://tasty.co
 
 
+## Acknowledgments 
+This package was inspired by (and meant to be used in conjunction with) [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) by [hhursev](https://github.com/hhursev). Thanks for making the intersection of programming and recipe data more doable!
 
 ## License
 
