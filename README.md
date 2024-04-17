@@ -23,7 +23,6 @@ base_urls = ['https://bakingmischief.com', 'https://www.allrecipes.com']
 compiled_recipe_links = []
 
 for base_url in base_urls:
-
     scrape = scrape_urls(base_url)
     compiled_recipe_links.extend(scrape)
 ```

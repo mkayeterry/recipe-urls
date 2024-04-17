@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: recipe_urls
-Version: 0.1.2
+Version: 0.1.3
 Summary: Scrapes all recipe URLs from provided base URL.
 Author-email: Melissa Terry <mkayeterry@gmail.com>
 License: MIT License
