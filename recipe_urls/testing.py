@@ -1,10 +1,13 @@
 from recipe_urls import scrape_urls
+import random
+import time
 
-links = scrape_urls("https://cooking.nytimes.com")
-print(links)
+# links = scrape_urls("https://cooking.nytimes.com")
+# print(links)
 
-'[\w-]+-[\w-]'
-'[\d\w-]'
+# '[\w-]+-[\w-]'
+# '[\d\w-]'
+
 base_urls = [
     "https://abuelascounter.com",
     "https://www.acouplecooks.com", 
@@ -112,7 +115,7 @@ compiled_recipe_links = []
 for base_url in base_urls:
     random_sleeps = True
     lower_sleep = 1
-    upper_sleep = 5
+    upper_sleep = 3
 
     if random_sleeps:
         sleep_time = random.randint(lower_sleep, upper_sleep)
