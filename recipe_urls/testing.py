@@ -1,8 +1,10 @@
 from recipe_urls import scrape_urls
 
-links = scrape_urls("https://www.pickuplimes.com")
+links = scrape_urls("https://cooking.nytimes.com")
 print(links)
 
+'[\w-]+-[\w-]'
+'[\d\w-]'
 base_urls = [
     "https://abuelascounter.com",
     "https://www.acouplecooks.com", 

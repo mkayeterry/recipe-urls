@@ -26,22 +26,28 @@ class ACoupleCooksScraper(AbstractScraper):
             "best",
             "breakfast",
             "cooking",
+            "contact", 
             "dinner",
             "dinners",
             "dishes",
-            "desserts", 
+            "desserts",
+            "guide",  
             "how",
             "ideas",
             "lunch",
-            "meal-plan"
+            "meal-plan", 
             "recipes",
+            "skills", 
             "snacks",
+            "statement", 
             "things", 
+            "party", 
+            "policy", 
             "why"
         ]
 
         # Site-specific regex for ACoupleCooks
-        recipe_pattern = re.compile(r'https://www\.acouplecooks\.com/([a-zA-Z]+-){2,3}[a-zA-Z]+/$')
+        recipe_pattern = re.compile(r'https://www\.acouplecooks\.com/[\w-]+-[\w-]+/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))

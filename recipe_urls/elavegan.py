@@ -27,11 +27,11 @@ class ElaVeganScraper(AbstractScraper):
             "category", 
             "contact", 
             "cookbooks", 
-            "de", 
             "disclosure", 
             "feed", 
             "ideas", 
-            "recipes"
+            "recipes", 
+            "policy"
         ]
 
         # Site-specific regex for ElaVegan

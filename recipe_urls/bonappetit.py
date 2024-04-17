@@ -21,7 +21,7 @@ class BonAppetitScraper(AbstractScraper):
     def filter_links(self, href_links: List[str]) -> List[str]:
 
         # Site-specific regex for BonAppetit
-        recipe_pattern = re.compile(r'/recipe/([\w-]+)/?$')
+        recipe_pattern = re.compile(r'/recipe/[\w-]+-[\w-]')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(f'https://www.bonappetit.com{link}' for link in href_links if recipe_pattern.search(link))

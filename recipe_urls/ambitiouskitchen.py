@@ -41,6 +41,7 @@ class AmbitiousKitchenScraper(AbstractScraper):
             "lunch",
             "lunches",
             "meals",
+            "natural", 
             "party",
             "privacy-policy",
             "recipe",
@@ -50,7 +51,7 @@ class AmbitiousKitchenScraper(AbstractScraper):
         ]
 
         # Site-specific regex for AmbitiousKitchen
-        recipe_pattern = re.compile(r'https://www\.ambitiouskitchen\.com/([a-zA-Z]+-){2,}[a-zA-Z]+/')
+        recipe_pattern = re.compile(r'https://www\.ambitiouskitchen\.com/[\w-]+-[\w-]+/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))

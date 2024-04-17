@@ -23,11 +23,12 @@ class EthanChlebowskiScraper(AbstractScraper):
         # Filter out unwanted url patterns
         unwanted_patterns = [
             "category", 
+            "meal", 
             "tag"
         ]
 
         # Site-specific regex for EthanChlebowski
-        recipe_pattern = re.compile(r'/cooking-techniques-recipes/.*?')
+        recipe_pattern = re.compile(r'/cooking-techniques-recipes/[\w-]+-[\w-]')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(f'https://www.ethanchlebowski.com{link}' for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))

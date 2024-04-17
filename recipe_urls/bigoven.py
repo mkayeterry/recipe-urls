@@ -26,7 +26,7 @@ class BigOvenScraper(AbstractScraper):
         ]
 
         # Site-specific regex for BigOven
-        recipe_pattern = re.compile(r'/recipe/([^/]+)/(\d+)')
+        recipe_pattern = re.compile(r'/recipe/[\w-]+-[\w-]+/\d')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(f'https://www.bigoven.com{link}' for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))

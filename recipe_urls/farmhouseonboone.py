@@ -22,17 +22,23 @@ class FarmhouseOnBooneScraper(AbstractScraper):
 
         # Filter out unwanted url patterns
         unwanted_patterns = [
+            "best", 
             "category", 
+            "diy", 
+            "facial", 
+            "face", 
             "how-to", 
             "index", 
             "masterclass", 
             "make", 
+            "meet", 
             "policy", 
-            "series"
+            "series", 
+            "tag"
         ]
 
         # Site-specific regex for FarmhouseOnBoone
-        recipe_pattern = re.compile(r'https://www\.farmhouseonboone\.com/[\w-]')
+        recipe_pattern = re.compile(r'https://www\.farmhouseonboone\.com/[\w-]+[\w-]')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))

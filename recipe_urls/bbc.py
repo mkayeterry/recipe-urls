@@ -21,7 +21,7 @@ class BBCScraper(AbstractScraper):
     def filter_links(self, href_links: List[str]) -> List[str]:
 
         # Site-specific regex for BBC
-        recipe_pattern = re.compile(r'/food/recipes/([^/]+)')
+        recipe_pattern = re.compile(r'/food/recipes/[\w-]+_[\w-]+_(\d+)')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(f'https://www.bbc.co.uk{link}' for link in href_links if recipe_pattern.search(link))

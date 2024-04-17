@@ -45,7 +45,7 @@ class ArchanasKitchenScraper(AbstractScraper):
         ]
 
         # Site-specific regex for ArchanasKitchen
-        recipe_pattern = re.compile(r'/([\w-]+)/?$')
+        recipe_pattern = re.compile(r'/[\w-]+-[\w-]')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(f'https://www.archanaskitchen.com{link}' for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))

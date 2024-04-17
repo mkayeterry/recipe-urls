@@ -21,7 +21,7 @@ class NyTimesScraper(AbstractScraper):
     def filter_links(self, href_links: List[str]) -> List[str]:
 
         # Site-specific regex for NyTimes
-        recipe_pattern = re.compile(r'/recipes/\d+-[a-z-]+')
+        recipe_pattern = re.compile(r'/recipes/\d+-[\w-]+-[\w-]')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(f'https://cooking.nytimes.com{link}' for link in href_links if recipe_pattern.search(link))

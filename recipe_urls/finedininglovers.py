@@ -21,7 +21,7 @@ class FineDiningLoversScraper(AbstractScraper):
     def filter_links(self, href_links: List[str]) -> List[str]:
 
         # Site-specific regex for FineDiningLovers
-        recipe_pattern = re.compile(r'/recipes/([\w-]+(?:-[\w-]+){2,})/?$')
+        recipe_pattern = re.compile(r'/recipes/[\w-]+[\w-]')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(f'https://www.finedininglovers.com{link}' for link in href_links if recipe_pattern.search(link))

@@ -23,11 +23,14 @@ class DavidLebovitzScraper(AbstractScraper):
         # Filter out unwanted url patterns
         unwanted_patterns = [
             "#", 
-            "category"
+            "category", 
+            "policy", 
+            "statement", 
+            "terms"
         ]
 
         # Site-specific regex for DavidLebovitz
-        recipe_pattern = re.compile(r'https://www\.davidlebovitz\.com/.*recipe.*')
+        recipe_pattern = re.compile(r'https://www\.davidlebovitz\.com/[\w-]+-[\w-]+/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))

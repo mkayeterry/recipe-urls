@@ -21,7 +21,7 @@ class DelishScraper(AbstractScraper):
     def filter_links(self, href_links: List[str]) -> List[str]:
 
         # Site-specific regex for Delish
-        recipe_pattern = re.compile(r'/cooking/recipe-ideas/.*recipe.*')
+        recipe_pattern = re.compile(r'/cooking/recipe-ideas/a\d+/[\w-]+-[\w-]+-recipe/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(f'https://www.delish.com{link}' for link in href_links if recipe_pattern.search(link))
