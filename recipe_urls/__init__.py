@@ -215,7 +215,20 @@ def scrape_urls(base_url: str) -> Optional[AbstractScraper]:
         if not scraper_class:
             raise ValueError(f"Unsupported website {base_url}")
 
-        scraper_instance = scraper_class(base_url)
+        scraper_instance = scraper_class(base_url, html = None)
+        return scraper_instance.scrape()
+
+    except Exception as e:
+        raise e from None
+
+
+def scrape_html(html: str, base_url: str) -> Optional[AbstractScraper]:
+    try:
+        scraper_class = SCRAPERS.get(get_site_origin(base_url))
+        if not scraper_class:
+            raise ValueError(f"Unsupported website {base_url}")
+
+        scraper_instance = scraper_class(base_url, html = html)
         return scraper_instance.scrape()
 
     except Exception as e:
