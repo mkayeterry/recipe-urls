@@ -1,7 +1,6 @@
 __version__ = "0.1.3"
 
 from typing import Optional
-
 from recipe_urls._abstract import AbstractScraper
 from recipe_urls._utils import get_site_origin
 
@@ -211,29 +210,16 @@ SCRAPERS = {
 
 def scrape_urls(base_url: str) -> Optional[AbstractScraper]:
     try:
-        scraper_class = SCRAPERS.get(get_site_origin(base_url))
+        origin = get_site_origin(base_url)
+        scraper_class = SCRAPERS.get(origin)
         if not scraper_class:
-            raise ValueError(f"Unsupported website {base_url}")
-
-        scraper_instance = scraper_class(base_url, html = None)
-        return scraper_instance.scrape()
-
+            raise ValueError(f"Unsupported website: {base_url}")
+        return scraper_class(base_url).scrape()
     except Exception as e:
-        raise e from None
+        # More informative error logging or handling can be placed here
+        raise ValueError(f"Failed to scrape {base_url}: {str(e)}") from None
 
-
-def scrape_html(html: str, base_url: str) -> Optional[AbstractScraper]:
-    try:
-        scraper_class = SCRAPERS.get(get_site_origin(base_url))
-        if not scraper_class:
-            raise ValueError(f"Unsupported website {base_url}")
-
-        scraper_instance = scraper_class(base_url, html = html)
-        return scraper_instance.scrape()
-
-    except Exception as e:
-        raise e from None
-
+__all__ = ['scrape_urls']
 
 __all__ = [
     'scrape_urls'
