@@ -1,7 +1,6 @@
 __version__ = "0.1.3"
 
 from typing import Optional
-import httpx
 
 from recipe_urls._abstract import AbstractScraper
 from recipe_urls._utils import get_site_origin
