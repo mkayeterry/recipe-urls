@@ -119,7 +119,7 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
         parsed_url = urlparse(base_url)
 
         if not all([parsed_url.scheme, parsed_url.netloc]):
-            raise ValueError("URL must include both scheme and domain.")
+            raise ValueError("URL is not a valid format")
         
         if parsed_url.scheme != 'https':
             raise ValueError("URL scheme must be 'https'.")
