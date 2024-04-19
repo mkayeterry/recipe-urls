@@ -1,5 +1,6 @@
 from typing import List, Optional
-import httpx
+import requests
+from requests.exceptions import HTTPError, ReadTimeout
 from bs4 import BeautifulSoup
 
 
@@ -13,16 +14,16 @@ class AbstractScraper:
 
         if not html:
             try:
-                response = httpx.get(url=self.base_url, headers=HEADERS)
+                response = requests.get(url=self.base_url, headers=HEADERS)
                 response.raise_for_status()
 
                 self.html = response.content
                 self.soup = BeautifulSoup(self.html, "html.parser")
 
-            except (httpx.HTTPError, httpx.ReadTimeout) as e:
-                if isinstance(e, httpx.HTTPError) and e.response.status_code == 403:
-                    raise httpx.HTTPError(f"Access to {self.base_url} is forbidden (403).") from e
-                elif isinstance(e, httpx.ReadTimeout):
+            except (HTTPError, ReadTimeout) as e:
+                if isinstance(e, HTTPError) and e.response.status_code == 403:
+                    raise HTTPError(f"Access to {self.base_url} is forbidden (403).") from e
+                elif isinstance(e, ReadTimeout):
                     raise TimeoutError(f"Request timed out. {self.base_url}") from e
                 else:
                     raise

@@ -23,7 +23,7 @@ classifiers = [
 keywords = ["recipe", "scraper", "URLs", "links"]
 license = {text = "MIT License"}
 dependencies = [
-        "httpx >= 0.26.0", 
+        "requests >= 2.26.0", 
         "beautifulsoup4 >= 4.11.1"
     ]
 requires-python = ">=3.7"
