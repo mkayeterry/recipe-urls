@@ -46,8 +46,9 @@ def find_class(module, base_name):
 def strip_domain_from_urls(urls):
     stripped_urls = []
     for url in urls:
-        if '://' in url:
-            stripped_urls.append('/'.join(url.split('/')[3:]))
+        path_parts = url.split('://')[-1].split('/')[1:]
+        path = '/' + '/'.join(path_parts)
+        stripped_urls.append(path)
     return stripped_urls
 
 @pytest.mark.parametrize("scraper_module, html_file, csv_file", [
@@ -60,17 +61,16 @@ def test_scraper(mocker, scraper_module, html_file, csv_file):
     module_name, module = scraper_module
     scraper_class = find_class(module, module_name)
 
-    # Mocking the requests.get to prevent real HTTP requests
-    mock_response = mocker.Mock()
-    mock_response.content = open(html_file, 'rb').read()
-    mock_response.status_code = 200
-    mocker.patch('requests.get', return_value=mock_response)
+    # Read the HTML content from the file
+    with open(html_file, 'r') as file:
+        html_content = file.read()
 
-    # Instantiate the scraper
-    scraper = scraper_class()
+    # Instantiate the scraper using the HTML content
+    scraper = scraper_class(html=html_content)
 
-    # Manually set the soup using the HTML from the file
-    scraper.soup = load_html(html_file)
+    # Manually set the soup if not already set in the constructor
+    if not hasattr(scraper, 'soup'):
+        scraper.soup = BeautifulSoup(html_content, 'html.parser')
 
     # Perform the scraping
     scraped_links = scraper.scrape()
