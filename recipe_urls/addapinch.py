@@ -3,6 +3,8 @@ import re
 from recipe_urls._abstract import AbstractScraper
 
 class AddAPinchScraper(AbstractScraper):
+    RECIPE_PATTERN = re.compile(r'^https://addapinch\.com/[\w-]+-recipe/$')
+
     @classmethod
     def host(cls):
         return "addapinch.com"
@@ -13,19 +15,12 @@ class AddAPinchScraper(AbstractScraper):
         except (TypeError, AttributeError) as e:
             raise ValueError(f"Failed to extract href links: {e}") from e
 
-        # Filter href links for recipe-specific ones using site-specific regex
-        recipe_links = self.filter_links(href_links)
-
-        return recipe_links
+        return self.filter_links(href_links)
 
     def filter_links(self, href_links: List[str]) -> List[str]:
 
-        # Site-specific regex for AddAPinch
-        recipe_pattern = re.compile(r'https://addapinch\.com/[\w-]+-[\w-]+-recipe/')
+        matched_links = [link for link in href_links if self.RECIPE_PATTERN.search(link)]
 
-        # Use a set to deduplicate the links while filtering href links for recipe-specific ones
-        unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
-        print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
+        unique_links_set = set(matched_links)
 
-        # Convert the set back to a list
         return list(unique_links_set)
