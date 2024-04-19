@@ -32,7 +32,7 @@ for base_url in base_urls:
 - https://abuelascounter.com
 - https://www.acouplecooks.com
 - https://addapinch.com
-- https://www.afghankitchenrecipes.com
+- http://www.afghankitchenrecipes.com
 - https://www.allrecipes.com
 - https://www.ambitiouskitchen.com
 - https://www.archanaskitchen.com
@@ -128,6 +128,7 @@ for base_url in base_urls:
 - https://www.simplywhisked.com
 - https://www.tasteofhome.com
 - https://tasty.co
+- https://www.wellplated.com
 
 
 ## Acknowledgments 

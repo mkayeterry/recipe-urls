@@ -1,5 +1,8 @@
 from typing import List, Optional
 import requests
+
+from requests.exceptions import HTTPError, ReadTimeout
+
 from bs4 import BeautifulSoup
 
 HEADERS = {
@@ -18,9 +21,11 @@ class AbstractScraper:
                 self.html = response.content
                 self.soup = BeautifulSoup(self.html, "html.parser")
 
+
             except requests.HTTPError as e:
                 if e.response.status_code == 403:
                     raise Exception(f"Access to {self.base_url} is forbidden (403).") from e
+
                 else:
                     raise Exception(f"HTTP error occurred: {e.response.status_code}.") from e
             except requests.RequestException as e:

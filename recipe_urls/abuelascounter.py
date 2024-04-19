@@ -25,6 +25,7 @@ class AbuelasCounterScraper(AbstractScraper):
         unique_links = {link for link in href_links if self.is_recipe_link(link)}
         return list(unique_links)
 
+
     def is_recipe_link(self, link: str) -> bool:
         if self.RECIPE_PATTERN.search(link):
             return not any(pattern.search(link) for pattern in self.UNWANTED_PATTERNS)

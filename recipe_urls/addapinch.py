@@ -21,6 +21,7 @@ class AddAPinchScraper(AbstractScraper):
 
         matched_links = [link for link in href_links if self.RECIPE_PATTERN.search(link)]
 
+
         unique_links_set = set(matched_links)
 
         return list(unique_links_set)

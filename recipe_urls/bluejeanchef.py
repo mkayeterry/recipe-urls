@@ -25,7 +25,9 @@ class BlueJeanChefScraper(AbstractScraper):
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link))
-        print(f"{len(unique_links_set)} recipe links found for {self.base_url}.")
+        
+        site_name = self.base_url if self.base_url is not None else "the provided HTML content"
+        print(f"{len(unique_links_set)} recipe links found for {site_name}.")
 
         # Convert the set back to a list
         return list(unique_links_set)

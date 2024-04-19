@@ -19,6 +19,8 @@ class AllRecipesScraper(AbstractScraper):
 
     def filter_links(self, href_links: List[str]) -> List[str]:
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
+
         unique_links_set = set(link for link in href_links if self.RECIPE_PATTERN.search(link))
+
 
         return list(unique_links_set)

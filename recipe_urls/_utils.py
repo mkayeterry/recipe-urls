@@ -101,7 +101,8 @@ SITE_ORIGINS = [
     'simple-veganista.com', 
     'www.simplywhisked.com', 
     'www.tasteofhome.com', 
-    'tasty.co'
+    'tasty.co', 
+    'www.wellplated.com'
 ]
 
 def extract_base_domain(domain: str) -> str:
@@ -119,10 +120,10 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
         parsed_url = urlparse(base_url)
 
         if not all([parsed_url.scheme, parsed_url.netloc]):
-            raise ValueError("URL is not a valid format")
+            raise ValueError("URL is not a valid format.")
         
-        if parsed_url.scheme != 'https':
-            raise ValueError("URL scheme must be 'https'.")
+        if parsed_url.scheme not in ['https', 'http']:
+            raise ValueError("URL scheme must be 'https' or 'http'.")
         
         normalized_domain = extract_base_domain(parsed_url.hostname)
         
@@ -130,15 +131,15 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
             return normalized_domain
 
         else:
-            raise ValueError(f"URL '{base_url}' is not supported.")
+            raise ValueError(f"URL not supported.")
     
     elif html:
 
         if not isinstance(html, str):
-            raise ValueError("HTML content must be a string")
+            raise ValueError("HTML content must be a string.")
         
         soup = BeautifulSoup(html, "html.parser")
-        href_links = [urlparse(a["href"]).hostname for a in soup.find_all("a", href=True) if "https" in a["href"]]
+        href_links = [urlparse(a["href"]).hostname for a in soup.find_all("a", href=True) if "http" in a["href"]]
         relevant_links = [link for link in href_links if link in SITE_ORIGINS]
         
         if relevant_links:

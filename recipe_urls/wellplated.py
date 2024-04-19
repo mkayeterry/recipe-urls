@@ -2,10 +2,10 @@ from typing import List
 import re
 from recipe_urls._abstract import AbstractScraper
 
-class RachlMansfieldScraper(AbstractScraper):
+class WellPlatedScraper(AbstractScraper):
     @classmethod
     def host(cls):
-        return "rachlmansfield.com"
+        return "www.wellplated.com"
 
     def scrape(self) -> List[str]:
         try:
@@ -21,20 +21,23 @@ class RachlMansfieldScraper(AbstractScraper):
     def filter_links(self, href_links: List[str]) -> List[str]:
 
         # Filter out unwanted url patterns
-        unwanted_patterns = [ 
-            "discount", 
-            "guide", 
-            "home", 
-            "mom", 
-            "must-have",
-            "policy", 
-            "pregnancy", 
-            "tips", 
-            "what"
+        unwanted_patterns = [
+            "#", 
+            "best-of", 
+            "contact", 
+            "how-to", 
+            "index",
+            "log-in", 
+            "menu",  
+            "plan", 
+            "privacy", 
+            "recipes", 
+            "start", 
+            "work"
         ]
 
-        # Site-specific regex for RachlMansfield
-        recipe_pattern = re.compile(r'https://rachlmansfield\.com/(?![\w-]*\d)[\w-]+-[\w-]+/')
+        # Site-specific regex for WellPlated
+        recipe_pattern = re.compile(r'https://www\.wellplated\.com/[\w-]+-[\w-]+/')
 
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
         unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))
