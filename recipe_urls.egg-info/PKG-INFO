@@ -50,7 +50,6 @@ base_urls = ['https://bakingmischief.com', 'https://www.allrecipes.com']
 compiled_recipe_links = []
 
 for base_url in base_urls:
-
     scrape = scrape_urls(base_url)
     compiled_recipe_links.extend(scrape)
 ```
@@ -158,6 +157,8 @@ for base_url in base_urls:
 - https://tasty.co
 
 
+## Acknowledgments 
+This package was inspired by (and meant to be used in conjunction with) [recipe-scrapers](https://github.com/hhursev/recipe-scrapers) by [hhursev](https://github.com/hhursev). Thanks for making the intersection of programming and recipes more doable!
 
 ## License
 
