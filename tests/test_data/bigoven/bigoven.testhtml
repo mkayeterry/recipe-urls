@@ -1,0 +1,2545 @@
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    
+    
+
+    
+    
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(),
+                 event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window,document,'script','dataLayer','GTM-NLDKBDN');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(),
+                    event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window,document,'script','dataLayer','GTM-MWLCD7');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- App Insights (TODO: Test if needed) -->
+    <script async type='text/javascript'>
+        var appInsights = window.appInsights || function (config) {
+            function r(config) { t[config] = function () { var i = arguments; t.queue.push(function () { t[config].apply(t, i) }) } }
+            var t = { config: config }, u = document, e = window, o = 'script', s = u.createElement(o), i, f; for (s.src = config.url || '//az416426.vo.msecnd.net/scripts/a/ai.0.js', u.getElementsByTagName(o)[0].parentNode.appendChild(s), t.cookie = u.cookie, t.queue = [], i = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Ajax']; i.length;)r('track' + i.pop()); return r('setAuthenticatedUserContext'), r('clearAuthenticatedUserContext'), config.disableExceptionTracking || (i = 'onerror', r('_' + i), f = e[i], e[i] = function (config, r, u, e, o) { var s = f && f(config, r, u, e, o); return s !== !0 && t['_' + i](config, r, u, e, o), s }), t
+        }({
+            instrumentationKey: '9cafa04c-9a78-4f23-9471-0ef61c668b1b'
+        });
+
+        window.appInsights = appInsights;
+        appInsights.trackPageView();
+    </script>
+
+    <title>1,000,000+ Recipes, Meal Planner and Grocery List | BigOven</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://www.googletagmanager.com">
+    <link rel="preconnect" href="https://sb.scorecardresearch.com">
+    <link rel="preconnect" href="https://www.google-analytics.com">
+    
+    
+    <link rel="preconnect" href="https://connect.facebook.net">
+    <link rel="preconnect" href="https://bigoven-res.cloudinary.com">
+    
+    
+
+        <link rel="preconnect" href="https://ads.adthrive.com">
+        <link rel="preconnect" href="https://securepubads.g.doubleclick.net">
+
+    <!-- Preload web fonts-->
+    
+    
+    <link rel="preload" href="/Content/fonts/ss-pika.woff" as="font" type="font/woff" crossorigin="anonymous">
+    <link rel="preload" href="/Content/fonts/fontawesome-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    
+
+    <link rel="alternate" type="application/rss+xml" title="BigOven Blog" href="https://blog.bigoven.com/feed/" />
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="google-site-verification" content="kiapRES6s2ihIT2i-boXJpri5kYenb5IwXM0sMNFTK4" />
+    <meta property="fb:pages" content="57652644105" />
+
+        
+            <meta name="viewport" content="width=device-width,initial-scale=1" />
+        
+
+    <meta name="apple-mobile-web-app-title" content="BigOven" />
+
+
+
+<link rel="preload" href="/Content/jquery-ui.min.css" onload="this.onload = null; this.rel = 'stylesheet';" as="style" type="text/css" crossorigin="anonymous" />
+
+<link rel="stylesheet preload" href="/content/bootstrapbundle?v=6Sr2vwanlnqxFcBEwbSCH76B6BuJwcDm1zds_bKsR4w1" as="style" type="text/css" crossorigin="anonymous" />
+
+
+
+        <link rel="stylesheet preload" href="/Content/topmenu/topmenu.css" as="style" type="text/css" crossorigin="anonymous">
+
+        <link rel="stylesheet preload" href="/Content/footer/footer.css" as="style" type="text/css" crossorigin="anonymous" />
+
+    
+
+    <style>
+        .adthrive-privacy-preferences > a {
+            display: block;
+        }
+
+        .adthrive-comscore.adthrive-footer-message > span {
+            text-align: center !important;
+            display: block;
+            width: 30em;
+            margin: auto;
+            line-height: normal !important;
+        }
+
+        .adthrive-comscore.adthrive-footer-message > span::before {
+            content: "BIGOVEN IS " !important;
+            font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+            font-size: 13px;
+            color: #b2b2b2;
+        }
+
+        .adthrive-comscore.adthrive-footer-message::after {
+            content: "PARTNER" !important;
+            font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+            font-size: 13px;
+            color: #b2b2b2;
+        }
+
+        .grecaptcha-badge {
+            bottom: 285px !important;
+        }
+
+        @media all and (min-width: 975px) {
+            .mainContainer {
+                padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+            }
+        }
+
+    </style>
+
+<script src="/bundles/scripts/jquery?v=P61uB-Lg-K2HQFNNft8F0kaYpNnMyWTY0R9gq29hGZs1" type="text/javascript"></script>
+
+
+<script src="/bundles/scripts/jqueryui?v=nmuMA-O4C0zphhL2ApoyudBi4v4VCXr0cCFlFmBK2eU1" type="text/javascript"></script>
+<script src="/bundles/scripts/jquery-validate?v=t8cKAM3ibS-h3nvTM1HLCT_3jXxV2ZnD1sbIvNiFj8w1" type="text/javascript"></script>
+<script src="/bundles/scripts/jqueryother?v=Ahbb4zmVZQX50ZwVDbgt1GiKOZNGd27qB2tO9jkoSoI1" type="text/javascript"></script>
+
+<script src="/bundles/scripts/bootstrap?v=DDzGQFwAHvsS6ybjyGBIlCvTT2HN8ld6P5-jqvj9ZBw1" type="text/javascript"></script>
+
+<script src="/bundles/scripts/jquery-editable?v=gl33kE8MK1-u4JHSsR4bPKZaHtOnYHsAKTKRpPeeN_g1" type="text/javascript"></script>
+
+
+<script src="/bundles/scripts/typeahead?v=qbTjkUG7rdsnQHRRlxy3WTPux7BYYWx5mWKfolZWoHE1" type="text/javascript"></script>
+<script src="/bundles/scripts/pnotify?v=WfloJMZbzXR3UPfypnFpTZfCQg68EV3cw95JuXgcugw1" type="text/javascript"></script>
+<script src="/bundles/scripts/sweetalert?v=MYchPDUI47Rdjj4ZnkPA9T0NoRQlhAnntWZSyxSPUBo1" type="text/javascript"></script>        
+
+<script type="text/javascript">
+
+    function getAntiForgeryToken() {
+        var token = '<input name="__RequestVerificationToken" type="hidden" value="QlvKvFqdtKHgwzZLvHK8WT6tEgXnGHogcSwKZbJpjdd3sdJFeD5ymveTCnWQNeB7vkPsExa0nvSChX7OYq9aFEytl_U1" />';
+        token = $(token).val();
+        return token;
+    }
+</script>
+
+<script src="/bundles/scripts/bigoven?v=VkIRJfKUrwk4GNs7ZJBxdBGDJZGSpVK6RcjNLoOJ6Rs1" type="text/javascript"></script>
+
+
+
+    
+    
+    <meta name="apple-itunes-app" content="app-id=294363034,affiliate-data=at=1l3voKg&ct=webhome,app-argument=bigoven://home" />
+    <meta name="description" content="Free recipe app for home cooks. Create a meal plan, grocery list and more from your favorite recipes. Organize your recipe collection and take it anywhere." />
+    <meta name="keywords" content="recipes,app,cooking,grocery,menu,plan,iPhone,iPad,Android,Windows Phone" />
+    <link rel="canonical" href="https://www.bigoven.com" />
+    <link rel="stylesheet" href="/content/videos/videoAll.css" />
+    <link rel="stylesheet" href="/Content/editorials/editorialsTile.css" />
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1875429379426985');
+        fbq('track', 'PageView');
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1875429379426985&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+
+<link rel="preload" href="/bundles/styles/ssk?v=Qu7mHZJxjhoClTEGnlzfcHxHdRqIe3nXfYg7b1YAD_A1" onload="this.onload = null; this.rel = 'stylesheet';" as="style" type="text/css" crossorigin="anonymous" />
+
+<script defer src="/bundles/scripts/ssk?v=jLb8YzrsEvIhUZG1VAKIlT0U2Q1VLOdWZmOiDDBdwkg1" type="text/javascript"></script>
+
+
+        <!--Cafemedia ads head script-->
+        <script defer>
+            (function (w, d) {
+                w.adthrive = w.adthrive || {};
+                w.adthrive.cmd = w.adthrive.cmd || [];
+                w.adthrive.plugin = 'adthrive-ads-1.0.43-manual';
+                w.adthrive.host = 'ads.adthrive.com';
+                var s = d.createElement('script');
+                s.async = true;
+                s.referrerpolicy = 'no-referrer-when-downgrade';
+                // s.src = 'https://' + w.adthrive.host + '/sites/60034122262284d4624dfe8f/ads.min.js?referrer=' + w.encodeURIComponent(w.location.href);
+                s.src = 'https://' + w.adthrive.host + '/sites/60034122262284d4624dfe8f/ads.min.js?referrer=' + w.encodeURIComponent('https://www.bigoven.com');
+                var n = d.getElementsByTagName('script')[0];
+                n.parentNode.insertBefore(s, n);
+            })(window, document);
+        </script>
+
+</head>
+
+<body >
+    
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NLDKBDN" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWLCD7" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+<script type='text/javascript'>
+
+    // https://blog.cloudboost.io/waiting-till-facebook-sdk-or-any-other-async-sdk-has-loaded-6682839b9538
+    function Deferred() {
+        var self = this;
+        this.promise = new Promise((resolve, reject) => { self.reject = reject; self.resolve = resolve; });
+    }
+
+    window.fbLoaded = (new Deferred());
+
+    window.fbAsyncInit = function () {
+
+        
+
+        // init the FB JS SDK
+        FB.init({
+            appId: '1079800556107882',
+            autoLogAppEvents: true,
+            cookie: true,
+            // status: true,
+            xfbml: true,
+            version: 'v18.0'
+            // channelUrl: 'https://www.bigoven.com/channel.html',
+
+        });
+
+        fbLoaded.resolve();
+
+        FB.AppEvents.logPageView();
+
+    };
+
+    /*(function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));*/
+
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0" nonce="Qq2YoqYW"></script>
+
+    <!--[if lte IE 8]><div class="well"><p>Eegads! You're running a <b>very</b> outdated version of Internet Explorer. We strongly encourage you to <a href="https://www.microsoft.com/ie">upgrade to the latest version</a> or use a different browser like <a href="http://www.mozilla.org">Firefox</a> or <a href="http://www.google.com/chrome">Chrome</a>, as BigOven will function much better for you, and we may drop support for this browser version soon!</p></div><![endif]-->
+
+
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top sticky" id="navigationBar">
+    <div class="container nav-container">
+        <!-- 1.topmenu for screen <768 xs devices-->
+        <div class="navbar-header">
+            <div class="visible-xs">
+                <div class="col-xs-9">
+
+                    <a class="navbar-brand visible-xs" href="/" title="Search 1,000,000+ recipes" alt="Search 1,000,000+ recipes">
+                        <img width="30" height="34" class="show-mobile lazyload" data-src="/Content/images/icons/BO_Responsive.svg" border="0" alt="Search 1,000,000+ recipes" />
+                        <img width="140" height="38" class="show-ipad lazyload" data-src="/Content/images/icons/BigOven_logo_final.svg" border="0" alt="Search 1,000,000+ recipes" />
+                    </a>
+                    <form class="visible-xs" style="float: left; min-width: 200px" role="search">
+                        <div class="search-box-responsive">
+                            <div class="searchBox" style="margin-top: 9px;background-color: transparent;">
+                                <span style="margin-left: 5px; float: left; min-width: 98px;">
+                                    <input type="text" id="txtSearchCollapse" class="form-control search-input" placeholder="Find a recipe">
+                                </span>
+                                <span style="float: left; margin-left: -0.9em;">
+                                    <input type="button" onclick="doSearchCollapsed();" style="min-width: 10px" value="Go" class="btn btn-primary btnstateless" />
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-xs-1">
+                    <a href="/"><i class="ss-home home-icon"></i></a>
+                </div>
+            </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand hidden-xs" href="/" title="Search 1,000,000+ recipes" alt="Search 1,000,000+ recipes">
+                <img width="30" height="34" class="show-mobile lazyload" data-src="/Content/images/icons/BO_Responsive.svg" border="0" alt="Search 1,000,000+ recipes" />
+                <img width="140" height="38" class="show-ipad lazyload" data-src="/Content/images/icons/BigOven_logo_final.svg" border="0" alt="Search 1,000,000+ recipes" />
+            </a>
+        </div>
+        <div id="navbar" class="nav-collapse collapse no-transition">
+            <ul class="nav navbar-nav navbar-left navbar-choices">
+                <li>
+                    <div class="input-group nav-tool-bar-collapse visible-xs no-transition">
+                        <div>
+                            <ul id="collapsedMenu" class="collitems">
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/plan">Planner</a>
+                                </li>
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="javascript:void(0);" onclick="javascript:showLoginDialog('/plan'); ">Planner</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/grocery">Grocery List</a>
+                                </li>
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="javascript:void(0);" onclick="showLoginDialog('/grocery'); ">Grocery List</a>
+                                </li>
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="javascript:void(0);" onclick="showLoginDialog('/myrecipes'); " style="margin-right: 22px;">My Recipes</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/myrecipes" style="margin-right: 22px;">My Recipes</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/recipes">Ideas</a>
+                                </li>
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="/recipes">Ideas</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/article/Editorials">Editorials</a>
+                                </li>
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="/article/Editorials">Editorials</a>
+                                </li>
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="/use-up-leftovers">Use Up Leftovers</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/use-up-leftovers">Use Up Leftovers</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a class="r24" href="/videos">Videos</a>
+                                </li>
+                                <li class="visible-if-unauthenticated">
+                                    <a class="r24" href="/videos">Videos</a>
+                                </li>
+                                <li class="visible-if-authenticated">
+                                    <a href="/utils/redirect/myprofile">My Profile</a>
+                                </li>
+                                <li class="visible-if-authenticated" style="display: none; float: right; padding-bottom: 1em; padding-right: 0px;">
+                                    <a href="/account/logout">Sign out</a>
+                                </li>
+                                <li class="visible-if-unauthenticated pull-right">
+                                    <div class="input-group navbar-right nav-tool-bar">
+                                        <a href="/account/join" class="btn btnstateless btn-join">Join Free</a>
+                                        <a href="/account/login?ReturnUrl=%2f" class="btn btn-sign-in btnstateless">Sign In</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!--2. topmenu for screnn >=768 sm,md,lg devices-->
+        <div class="visible-sm visible-md visible-lg">
+            <div class="nav navbar-nav navbar-left">
+                <div class="nav-options">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="/plan" class="r24 navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="Plan meals days, weeks or months in advance">
+                                Planner
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/grocery" class="r24 navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="Build a sorted, mobile, shareable grocery list">
+                                Grocery List
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/myrecipes" class="r24 navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="Organize all your recipes">
+                                My Recipes
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/recipes" class="navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="Get seasonal recipe ideas and use up leftovers!">
+                                <span class="hidden-sm r24">Ideas</span><span class="visible-sm r24">Ideas</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/article"
+                               class="r24 navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="BigOven Editorials">
+                                Editorials
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/use-up-leftovers" class="r24 navbar-right tip
+                                                " data-toggle="tooltip" data-placement="bottom" title="Use Up Leftovers!">
+                                Use Up Leftovers
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/videos"
+                               class="r24 navbar-right tip " data-toggle="tooltip" data-placement="bottom" title="BigOven Videos">
+                                Videos
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right navbar-ipad">
+                    <li class="visible-if-unauthenticated" style="margin-top: 17px;">
+                        <div class="input-group navbar-right nav-tool-bar buttons-wrapper">
+                            
+                            
+                            <a href="/account/join" class="btn btnstateless btn-join">Join Free</a>
+                            <a href="/account/login?ReturnUrl=%2f" class="btn btn-sign-in btnstateless">Sign In</a>
+                        </div>
+                    </li>
+            </ul>
+            <ul class="nav navbar-nav hidden-xs navbar-right searchdesk">
+                <li>
+                    <form class="navbar-form navbar-right navbar-search hidden-xs searchdeskform" role="search">
+                        <div class="searchBox">
+                            <i class="fa fa-search search-icon"></i>
+                            <input type="text" id="txtSearch" class="form-control" placeholder="Search 1,000,000+ recipes">
+                        </div>
+                    </form>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav hidden-xs navbar-right searchrespon">
+                <li>
+                    <form class="navbar-form navbar-right navbar-search hidden-xs formresponsive" role="search">
+                        <div class="searchBox1">
+                            <i class="fa fa-search circle-icon" id="respId"></i>
+                            <i class="fa fa-times" style="display:none !important;"></i>
+                            <div id="testid">
+                                <input type="text" id="txtSearchResponsiveTest" placeholder="Search 1,000,000+ recipes">
+                            </div>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!--searchbox menu!!!-->
+    <div class="container nav-container searchplacehold" id="searchplaceholdId">
+    </div>
+</nav>   
+
+<script type="text/javascript">
+
+    var jsonFavorites = new Array();
+    var jsonTrySoons = new Array();
+    var bindEventsCompleted = false; 
+
+    var boUser = {
+        "UserName": "Guest",
+        "UserID": -100,
+        "FirstName": "",
+        "LastName": "",
+        "PhotoUrl": "https://bigoven-res.cloudinary.com/image/upload/avatar/avatar-default.png",
+        "PremiumExpiryDate": "\/Date(1074556740000)\/"
+    }
+
+    var establishingUser = false;
+
+    var bestRecipes = new Bloodhound({
+        datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+        queryTokenizer: Bloodhound.tokenizers.whitespace,
+        remote: {
+            url: '/recipe/autocomplete?prefix=%QUERY',
+            wildcard: '%QUERY'
+        }
+    });
+
+    var suppressTabComplete = false;
+    var inboxCount = 0;
+</script>
+
+<script defer type="text/javascript">
+
+    function prettyDate(time) {
+        var date = new Date(time);
+        var diff = (((new Date()).getTime() - date.getTime()) / 1000),
+            day_diff = Math.floor(diff / 86400);
+
+        if (isNaN(day_diff)) return "";
+        if (day_diff > 364) {
+            return Math.floor(day_diff / 365) + "y";
+        }
+        if (isNaN(day_diff) || day_diff < 0 || day_diff >= 31) return "";
+        return day_diff == 0 && (
+            diff < 60 && "just now" || diff < 120 && "min" || diff < 3600 && Math.floor(diff / 60) + "m " || diff < 7200 && "1h" || diff < 86400 && Math.floor(diff / 3600) + "h") || day_diff == 1 && "yesterday" || day_diff < 7 && day_diff + "d" || day_diff < 31 && Math.ceil(day_diff / 7) + "w";
+    }
+
+    function buildInboxItem(i) {
+        var result = "";
+        var url = window.location;
+        if (i.WebUrl != undefined) {
+            url = i.WebUrl;
+        }
+
+        try {
+            /*if (i.Actor.PhotoUrl == "https://photos.bigoven.com/avatar/bigoven.jpg" || i.Actor.PhotoUrl == "https://photos.bigoven.com/photo/avatar/bigoven.jpg") {*/
+            if (i.Actor.PhotoUrl.includes("/avatar/bigoven.jpg")) {
+                i.Actor.PhotoUrl = "https://bigoven-res.cloudinary.com/image/upload/w_48,h_48/avatar/bigoven.jpg";
+            }
+        }
+        catch (e) { }
+
+        result += "<li><a href=\"" + url + "\" onclick=\"window.location='" + url + "'\">";
+        result += "<div class=\"inboxItem row";
+
+        if (!i.Seen) {
+            result += " iUnseen";
+        } else
+            result += " iSeen";
+
+        result += "\">";
+
+        if (i.MessageType === "Friend") {
+            if (i.Actor != null) {
+                result += "<div class=\"first-col text-center\"><img class=\"avatar-img\" src=\"" +
+                    i.Actor.PhotoUrl +
+                    "?w=48&h=48\"/></div>";
+            }
+            result += "<div class=\"middle-col inbox-text\">" + i.ActionText + " <span class=\"inbox-text-since\">" + prettyDate(i.Date) + "</span></div>";
+            if (i.Actor != null) {
+                result += "<div class=\"last-col\"><button class=\"tip btn btn-follow inbox-follow btn-default\" rel=\"" +
+                    i.Actor.UserName +
+                    "\" href=\"javascript:void(0);\"><i class=\"fa fa-user-plus\"></i></button></div>";
+            }
+        } else if (i.MessageType === "System") {
+            if (i.Recipe != null) {
+                if (i.Actor != null) {
+                    result += "<div class=\"first-col  text-center\"><img class=\"avatar-img\" src=\"" +
+                        i.Actor.PhotoUrl +
+                        "?w=48&h=48\"/></div>";
+                }
+                result += "<div class=\"middle-col  inbox-text\">" + i.ActionText + " <span class=\"inbox-text-since\">" + prettyDate(i.Date) + "</span></div>";
+                result += "<div class=\"last-col  text-center\"><img class=\"\" src=\"" + i.Recipe.PhotoUrl + "?w=48&h=48\"/></div>";
+            } else {
+                result +=
+                    "<div class=\"first-col text-center\"><img class=\"avatar-img\" src=\"https://bigoven-res.cloudinary.com/image/upload/w_48,h_48/avatar/bigoven.jpg\"/></div>";
+                result += "<div class=\"inbox-text middle-col \">" +
+                    i.ActionText +
+                    " <span class=\"inbox-text-since\">" +
+                    prettyDate(i.Date) +
+                    "</span></div>";
+                result += "<div class=\"last-col \"></div>";
+            }
+        } else if (i.MessageType === "RecipeShare") {
+            result += "<div class=\"first-col  text-center\"><img class=\"avatar-img\" src=\"" + i.Actor.PhotoUrl + "?w=48&h=48\"/></div>";
+            result += "<div class=\"middle-col  inbox-text\">" + i.ActionText + " <span class=\"inbox-text-since\">" + prettyDate(i.Date) + "</span></div>";
+            result += "<div class=\"last-col  text-center\"><img class=\"\" src=\"" + i.Recipe.PhotoUrl + "?w=48&h=48\"/></div>";
+        } else if (i.MessageType === "Recipe") {
+            result += "<div class=\"first-col  text-center\"><img class=\"avatar-img\" src=\"" + i.Actor.PhotoUrl + "?w=48&h=48\"/></div>";
+            result += "<div class=\"middle-col  inbox-text\">" + i.ActionText + " <span class=\"inbox-text-since\">" + prettyDate(i.Date) + "</span></div>";
+            result += "<div class=\"last-col  text-center\"><img class=\"\" src=\"" + i.Recipe.PhotoUrl + "?w=48&h=48\"/></div>";
+        } else if (i.MessageType === "RecipeRating") {
+            result += "<div class=\"first-col  text-center\"><img class=\"avatar-img\" src=\"" + i.Actor.PhotoUrl + "?w=48&h=48\"/></div>";
+            result += "<div class=\"middle-col  inbox-text\">" + i.ActionText + " <span class=\"inbox-text-since\">" + prettyDate(i.Date) + "</span></div>";
+            result += "<div class=\"last-col text-center\"><img class=\"\" src=\"" + i.Recipe.PhotoUrl + "?w=48&h=48\"/></div>";
+        } else if (i.MessageType === "RecipePhoto") {
+            result += "<div class=\"first-col  text-center\"><img class=\"avatar-img\" src=\"" + i.Actor.PhotoUrl + "?w=48&h=48\"/></div>";
+            result += "<div class=\"inbox-text middle-col \">" + i.ActionText + " <span class=\"inbox-text-since\">" + prettyDate(i.Date) + "</span></div>";
+            result += "<div class=\"last-col text-center\"><img class=\"\" src=\"" + i.Recipe.PhotoUrl + "?w=48&h=48\"/></div>";
+        }
+
+        result += "</div>";
+        result += "</a></li>";
+        return result;
+    }
+
+    function fillInbox(data, callback) {
+        if (data.length === 0) {
+            var startingInboxItem = {
+                MessageType: "System",
+                Actor: { PhotoUrl: "" },
+                ActionText: "Welcome! This is your notifications center. For instance, BigOven will let you know if someone's rated a recipe you've posted."
+            };
+
+            data = new Array();
+            data.push(startingInboxItem);
+
+            if (callback != null) {
+                callback('', data.length);
+            }
+        }
+
+        // var cacheBuster = new Date().getTime();
+        var resultHtml = '';
+
+        $.each(
+            data,
+            function (index, val) {
+                var html = buildInboxItem(val);
+                resultHtml += html;
+            });
+        if (callback != null) {
+            callback(resultHtml, data.length);
+        }
+    }
+
+    function updateUserUI(boUser) {
+        $(".visible-if-unknown-state").hide();
+        if (boUser.UserID > 0) {
+            $(".bigoven-friendly-name").html(boUser.UserName);
+            $(".visible-if-unauthenticated").hide();
+            $(".visible-if-authenticated").show();
+            if ((boUser.PremiumExpiryDate !== null)) {
+                var dtNow = new Date();
+                var expDate = new Date(parseInt(boUser.PremiumExpiryDate.substr(6)));
+                if (expDate >= dtNow) {
+                    $(".visible-if-not-pro-member").hide();
+                    $(".visible-if-pro-member").show();
+                    $(".hide-if-pro-member").remove();
+                } else {
+                    $(".visible-if-pro-member").hide();
+                    $(".visible-if-not-pro-member").show();
+                }
+            } else {
+                $(".visible-if-not-pro-member").show();
+            }
+            if (boUser.UserType > 6) {
+                $(".visible-if-admin").show();
+                $(".hide-if-admin").hide();
+            } else {
+                $(".visible-if-admin").hide();
+            }
+        }
+        else {
+            $(".visible-if-authenticated").hide();
+            $(".visible-if-unauthenticated").show();
+            $(".visible-if-not-pro-member").show();
+        }
+    }
+
+    function initPunchUpPunchDown() {
+        $(document).on("click", ".killphoto-icon", function () {
+            var parentItem = $(this).parent().parent().parent();
+            var rid = parentItem.attr('data-rid');
+            killPhoto(getAntiForgeryToken(), rid);
+        });
+
+        $(document).on("click", ".punchup-icon", function () {
+            var parentItem = $(this).parent().parent().parent();
+            var rid = parentItem.attr('data-rid');
+            punchUp(getAntiForgeryToken(), rid);
+        });
+        $(document).on("click", ".punchdown-icon", function () {
+            var parentItem = $(this).parent().parent().parent();
+            var rid = parentItem.attr('data-rid');
+            punchDown(getAntiForgeryToken(), rid);
+        });
+    }
+
+    function bindEvents() {
+        /* recipe tile actions */
+
+        $(document).on("click", ".btn-add-grocery", function () {
+            var userId = boUser.UserID;
+            var recipeUrl = unescape($(this).parent().parent().parent().parent().parent().parent().parent().attr('data-url'));
+            if ((userId == null) || (userId <= 0)) {
+                showLoginDialog(recipeUrl);
+                return;
+            }
+            var rid = $(this).attr('data-rid');
+            var servings = $(this).attr('data-servings');
+            $(this).fadeTo(250, 0.2, null);
+            window.location = "/grocery/addrecipe/" + rid;
+        });
+
+        $(document).on("click", ".btn-add-menu", function () {
+            var userId = boUser.UserID;
+            var recipeUrl = unescape($(this).parent().parent().parent().parent().parent().parent().parent().attr('data-url'));
+            if ((userId == null) || (userId <= 0)) {
+                showLoginDialog(recipeUrl);
+                return;
+            }
+
+            if (paywallPhase > 1) {
+                if (boUser != undefined) {
+                    if (enforcePaywall(boUser)) {
+                        if (boUser.TotalRecipes > maxRecipesForFreeMembers) {
+                            showUpsellDialog("Plan ahead with BigOven Pro",
+                                "<p>Hope you're enjoying BigOven! Meal Planner is a BigOven Pro feature.</p><p>Upgrade to BigOven Pro membership and keep unlimited recipes, plan ahead with Meal Planner, add private notes, scan recipes with RecipeScan, and enjoy an ad-free experience on web and mobile!</p>",
+                                "Plan meals in advance for just $2.99/mo",
+                                "Free two-week trial. Pay by Amazon or with major credit card.");
+                            $(this).children().first().fadeTo(250, 1, null);
+                            return;
+                        }
+                    }
+                }
+            }
+
+            var rid = $(this).attr('data-rid');
+            var servings = $(this).attr('data-servings');
+            $(this).fadeTo(250, 0.2, null);
+            addToPlan(getAntiForgeryToken(), rid, boUser.UserID, servings);
+        });
+
+        $(document).on("click", ".try-btn", function () {
+            var userId = boUser.UserID;
+            var recipeUrl = unescape($(this).parent().parent().parent().parent().attr('data-url'));
+            if ((userId == null) || (userId <= 0)) {
+                showLoginDialog(recipeUrl + "?act=addTrySoon");
+                return;
+            }
+            var username = boUser.UserName;
+            var bOpenGraph = false;
+            var rid = $(this).parent().parent().parent().parent().attr('data-rid');
+            var servings = $(this).parent().parent().parent().parent().attr('data-servings');
+            $(this).children().first().fadeTo(250, 0.2, null);
+
+            if ($(this).children().first().hasClass('try-btn-attach-on')) {
+                removeFromTrySoon(getAntiForgeryToken(), rid, userId, username, recipeUrl, bOpenGraph);
+                $(this).children().first().removeClass('try-btn-attach-on');
+                $(this).children().first().fadeTo(250, 1, null);
+
+            } else {
+
+                if (paywallPhase > 1) {
+                    if (boUser != undefined) {
+                        if (enforcePaywall(boUser)) {
+                            if (boUser.TotalRecipes > maxRecipesForFreeMembers) {
+                                showUpsellDialog("Time to Upgrade to BigOven Pro Membership",
+                                    "<p>Hope you're enjoying BigOven! You've hit your recipe limit as a free member (" + maxRecipesForFreeMembers + ").</p><p>Upgrade to BigOven Pro membership and keep unlimited recipes, plan ahead with Meal Planner, add private notes, scan recipes with RecipeScan, and enjoy an ad-free experience on web and mobile!</p>",
+                                    "Save unlimited recipes for just $2.99/mo",
+                                    "Free two-week trial. Pay by Amazon or with major credit card.");
+                                $(this).children().first().fadeTo(250, 1, null);
+                                return;
+                            }
+                        }
+                    }
+                }
+
+                addToTrySoon(getAntiForgeryToken(), rid, userId, username, recipeUrl, bOpenGraph);
+                $(this).children().first().addClass('try-btn-attach-on');
+                $(this).children().first().fadeTo(250, 1, null);
+            }
+        });
+
+        $(document).on("click", ".fa-heart", function () {
+            var userId = boUser.UserID;
+            var recipeUrl = unescape($(this).parent().parent().parent().parent().parent().parent().parent().attr('data-url'));
+
+            if ((userId == null) || (userId <= 0)) {
+                showLoginDialog(recipeUrl + "?act=addFavorite");
+                return;
+            }
+            var username = boUser.UserName;
+            var bOpenGraph = false;
+            var rid = $(this)
+                .parent()
+                .parent()
+                .parent()
+                .parent()
+                .parent()
+                .parent()
+                .parent()
+                .attr('data-rid');
+            var servings = $(this)
+                .parent()
+                .parent()
+                .parent()
+                .parent()
+                .parent()
+                .parent()
+                .parent()
+                .attr('data-servings');
+
+            $(this).fadeTo(250, 0.2, null);
+
+            if ($(this).hasClass('favorite-on')) {
+                removeFromFavorites(getAntiForgeryToken(), rid, userId, username, recipeUrl, false);
+                $(this).removeClass('favorite-on');
+                $(this).fadeTo(250, 1, null);
+
+            } else {
+
+                if (paywallPhase > 1) {
+                    if (boUser != undefined) {
+                        if (enforcePaywall(boUser)) {
+                            if (boUser.TotalRecipes > maxRecipesForFreeMembers) {
+                                showUpsellDialog("Time to Upgrade to BigOven Pro Membership",
+                                    "<p>Hope you're enjoying BigOven! You've hit your recipe limit as a free member (" + maxRecipesForFreeMembers + ").</p><p>Upgrade to BigOven Pro membership and keep unlimited recipes, plan ahead with Meal Planner, add private notes, scan recipes with RecipeScan, and enjoy an ad-free experience on web and mobile!</p>",
+                                    "Save unlimited recipes for just $2.99/mo",
+                                    "Free two-week trial. Pay by Amazon or with major credit card.");
+                                $(this).fadeTo(250, 1, null);
+                                return;
+                            }
+                        }
+                    }
+                }
+                addToFavorites(getAntiForgeryToken(), rid, userId, username, recipeUrl, false);
+                $(this).addClass('favorite-on');
+                $(this).fadeTo(250, 1, null);
+            }
+        });
+        initPunchUpPunchDown();
+        $(".tip").tooltip();
+    }
+
+    function updateTiles() {
+        if (jsonFavorites !== null) {
+            $(".recipe-tile-full").each(function (index, el) {
+                var rid = Number($(this).attr("data-rid"));
+                if ($.inArray(rid, jsonFavorites, 0) >= 0) {
+                    $('.recipe-tile-full[data-rid="' + rid + '"]').children().find('.fa-heart').addClass("favorite-on");
+                }
+                if ($.inArray(rid, jsonTrySoons, 0) >= 0) {
+                    $('.recipe-tile-full[data-rid="' + rid + '"]')
+                        .children()
+                        .find('.try-btn-attach')
+                        .addClass("try-btn-attach-on");
+                    var countText =
+                        $('.recipe-tile-full[data-rid="' + rid + '"]').children().find('.upvote-counter').html();
+                    countText = "You + " + countText;
+                    if (countText === "You + 1") {
+                        countText = "You";
+                    }
+                    $('.recipe-tile-full[data-rid="' + rid + '"]').children().find('.upvote-counter').html(countText);
+                }
+            });
+        }
+
+        if (!bindEventsCompleted) {
+            bindEventsCompleted = true;
+            bindEvents();
+        }
+    }
+
+    function afterTileDisplay() {
+        $.get("/utils/me/lists", function (data) {
+            jsonFavorites = data.favorites;
+            jsonTrySoons = data.trySoons;
+            if (updateTiles != undefined) {
+                updateTiles();
+            }
+        });
+    }
+
+    function establishboUserFromViewBag(utilsMeObj, updateUI, callback) {
+        establishingUser = true;
+        boUser = utilsMeObj;
+        if (updateUI) {
+            $(document).ready(function() {
+                updateUserUI(boUser);
+            });
+        }
+        if (callback !== undefined) {
+            establishingUser = false;
+            callback();
+        }
+        establishingUser = true;
+    }
+
+    // document.addEventListener("DOMContentLoaded", function () {
+    establishboUserFromViewBag(
+        {"UserID":0,"UserName":null,"ImageURL":"https://bigoven-res.cloudinary.com/image/upload/avatar-default.png","ImageURL48":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png","ImageURL64":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-64,d_avatar-default.png/avatar-default.png","ImageURL128":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-128,d_avatar-default.png/avatar-default.png","PhotoUrl":"https://photos.bigoven.com/avatar/avatar-default.png","HomeUrl":"","IsPremium":false,"CreditBalance":0,"FullName":"","FirstName":null,"LastName":null,"MemberSince":"\/Date(1713561255554)\/","AboutMe":null,"TrySoonCount":0,"FavoritesCount":0,"AddedCount":0,"MenusCount":0,"PremiumExpiryDate":null,"OwnsDomain":null,"IsGroceryListFree":false,"IsMenuPlanFree":false,"GroceryListSponsor":"","MenuPlanSponsor":"","FBNotifyRecipeRaves":null,"FBNotifyPhotoApproved":null,"FBNotifyRecipePost":null,"FBNotifyMeWhenFriendsJoin":null,"FBNotifyIveFavorited":null,"FBNotifyIveTrySooned":null,"FBNotifyMenuSaved":null,"FBNotifyIveReviewed":null,"FBNotifyAddedMenu":null,"FBNotifyReviewReceived":null,"FBNotifyMedalReceived":null,"FBNotifyIveMade":null,"FacebookID":null,"OfflineAccessToken":null,"AdFreeEnabled":false,"PowerFeaturesEnabled":false,"IsCurator":false,"AmFollowing":null,"BackgroundUrl":null,"FollowingCount":0,"FollowersCount":0,"BOAuthToken":null,"UserLevel":"unauthenticated","PrivateRecipeCount":0,"PublicRecipeCount":0,"TotalRecipes":null,"LastChangeLogID":null,"UserType":0,"FriendlyName":"Guest","EatingStyle":null,"Email":null},
+        true,
+        function() {
+            if ((boUser.UserID) > 0) {
+                $.get("/utils/inboxunseen",
+                    function(data) {
+                        inboxCount = data.unseenCount;
+                        if (inboxCount > 0) {
+                            if (inboxCount > 99) {
+                                $(".badge-count").html("99+").show();
+                            } else {
+                                $(".badge-count").html(inboxCount).show();
+                            }
+                        }
+                    }
+                );
+
+                fillInbox([],
+                    function(inboxHtml, count) {
+                        if (count >= 2) {
+                            $("#activity-dropdown").html(inboxHtml +
+                                "<li><a onclick=\"window.location='/activity';\" href=\"/activity\"><div class=\"row\"><div class=\"col-xs-12\"><div class=\"text-center\"><i class=\"fa fa-bell-o\"></i> View all activity</div></div></a></li>");
+                        } else {
+                            $("#activity-dropdown").html(inboxHtml);
+                        }
+                    }
+                );
+            }
+            try {
+                var bo_userLevel = boUser.UserLevel;
+                ga('set', 'dimension1', bo_userLevel);
+            }
+            catch (ex) {
+            }
+        }
+    );
+    // });
+
+    $('.navbar-collapse').on('show.bs.collapse',
+        function () {
+            $(".wrapper").css("margin-top", "300px");
+        }
+    );
+
+    $('.navbar-collapse').on('hidden.bs.collapse',
+        function () {
+            $(".wrapper").css("margin-top", "0px");
+        }
+    );
+
+    $("#dropdownMenu1").on("shown.bs.dropdown",
+        function(event) {
+            updateFollowButtons(getAntiForgeryToken());
+            $(".badge-count").html("").hide();
+
+            $.post(
+                "/utils/inbox/reset",
+                { __RequestVerificationToken : getAntiForgeryToken() },
+                function () { }
+            );
+        });
+
+    $("#txtSearch").typeahead(null,
+        {
+            name: 'best-recipes',
+            //display: 'value',
+            limit: 12,
+            minLength: 2,
+            source: bestRecipes,
+            templates: {
+                empty: [
+                    ''
+                ].join('\n'),
+                suggestion: function(data) {
+                    return '<div>' + data + '</div>';
+                }
+            }
+        });
+
+    $(document).on("typeahead:select",
+        function(event, suggestion) {
+            if ((event.target.id === "txtSearch") || (event.target.id === "txtSearchCollapse") || (event.target.id === "txtSearchResponsiveTest")) {
+                $(".search-icon").removeClass("fa-search").addClass("ss-stove");
+                doSimpleSearch(getAntiForgeryToken(), suggestion);
+                return;
+            }
+        });
+
+    $("#txtSearch").keydown(function(event) {
+        if (event.which === 13) {
+            var txt = $("#txtSearch").val();
+            $(".search-icon").removeClass("fa-search").addClass("ss-stove");
+            doSimpleSearch(getAntiForgeryToken(), txt);
+            event.preventDefault();
+            return;
+        }
+        return;
+    });
+
+    $("#txtSearchCollapse").keydown(function(event) {
+        if (event.which === 13) {
+            var txt = $("#txtSearchCollapse").val();
+            doSimpleSearch(getAntiForgeryToken(), txt);
+            event.preventDefault();
+            return;
+        }
+        return;
+    });
+
+    $("#txtSearchResponsiveTest").keydown(function (event) {
+        if (event.which === 13) {
+            var txt = $("#txtSearchResponsiveTest").val();
+            doSimpleSearch(getAntiForgeryToken(), txt);
+            event.preventDefault();
+            return;
+        }
+        return;
+    });
+
+    function doSearchCollapsed() {
+        var txt = $("#txtSearchCollapse").val();
+        doSimpleSearch(getAntiForgeryToken(), txt);
+        event.preventDefault();
+    }
+
+    /*responsive search*/
+    var searchIcon = document.querySelector('#respId');
+    var closeIcon = document.querySelector('.fa-times');
+    var search = document.getElementById('txtSearchResponsiveTest');
+
+    searchIcon.addEventListener("click", function () {
+        search.focus();
+    });
+
+    searchIcon.onclick = () => {
+        search.classList.add('expand');
+        $('.searchplacehold').css({
+            'height' : '58px'
+        });
+    }
+
+    closeIcon.onclick = () => {
+        search.classList.remove('expand');
+    }
+
+    window.onscroll = function () {
+        search.classList.remove('expand');
+        $('.searchplacehold').css({
+            'height': '0'
+        });
+    }
+
+    $('body').click(function (evt) {
+        if ((!$(evt.target).is('#respId')) && (!$(evt.target).is('#txtSearchResponsiveTest') ) ){
+            search.classList.remove('expand');
+            $('.searchplacehold').css({
+                'height': '0'
+            });
+        }
+    });
+
+</script>
+    <noscript>
+        <p style="padding: 7px 7px;">Hi, this web browser has Javascript disabled. As a result, several features will be disabled. Try visiting this page in a Javascript-enabled browser: <a href="/" target="_blank">https://www.bigoven.com/</a>
+    </noscript>
+    <div class="wrapper">
+        <div >
+            
+        </div>
+        <div class="container" >
+            <div id="fb-root"></div>
+
+            
+
+
+
+
+<style>
+    .sponsored-icon {
+        z-index: 99;
+        position: absolute;
+        position: absolute;
+        margin-top: -280px;
+        margin-left: 20px;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .homepage-hero {
+        padding-bottom: 80px;
+        /*background: url() center ;*/
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        width: 100%;
+        background-attachment: fixed;
+    }
+
+    .homepage-hero-content {
+        margin: 0 auto;
+    }
+
+    .text-shadow {
+        text-shadow: 4px 4px 12px rgba(0, 0, 0, 1);
+    }
+
+    .homepage-search {
+        margin: 0 auto;
+        padding: 24px;
+        max-width: 600px;
+    }
+
+    .search-input-button {
+        max-width: inherit;
+        min-width: 41px;
+        margin: 0 auto;
+        height: 46px;
+    }
+
+    .typeahead search-input-button {
+        width: 100% !important;
+        text-indent: 20px;
+        background-color: #fff !important;
+    }
+
+    .homepage-category-row {
+        border-bottom: 2px solid #eee;
+        padding: 60px 35px;
+        margin: 0 auto;
+        max-width: 1600px;
+    }
+
+    .homepage-category-block {
+        max-width: 250px;
+    }
+
+    .homepage-category-hero {
+        margin: 0 auto;
+        border-radius: 100px;
+        border: 1px solid #ccc;
+        max-width: 162px;
+        min-width: 161px;
+    }
+
+    .homepage-category-img {
+        max-width: 160px;
+        border-radius: 100px;
+        padding: 5px;
+    }
+
+    .homepage-category-icon {
+        position: absolute;
+        margin-left: 110px;
+        margin-top: -50px;
+        background: #fff;
+        border: 1px solid #eee;
+        padding: 10px 10px 5px 10px;
+        border-radius: 40px;
+        box-shadow: 0 0 10px rgba(0,0,0,.7);
+    }
+
+    .homepage-category-header {
+        text-align: center;
+        font-size: 26px;
+        color: #444;
+    }
+
+    .homepage-category-subtext {
+        text-align: center;
+        min-width: 165px;
+        max-width: 250px;
+    }
+
+    .homepage-category-content {
+        padding: 0px;
+        margin: 0 auto;
+    }
+
+    .homepage-category-pika {
+        font-size: 22px;
+        color: #e05050;
+    }
+
+    .homepage-features-and-video {
+        text-align: center;
+        color: #888;
+    }
+
+    .homepage-features-and-video i, a {
+        color: #888;
+        -webkit-transition: all .2s ease-in;
+        -moz-transition: all .2s ease-in;
+        -o-transition: all .2s ease-in;
+    }
+
+    .homepage-features-and-video i:hover {
+        color: #ccc;
+    }
+
+    .homepage-features-and-video > div {
+        display: inline-block;
+        padding: 30px 50px;
+    }
+
+    .homepage-features-text {
+        font-size: 16px;
+    }
+
+    .homepage-features-block i {
+        font-size: 32px;
+    }
+
+    .homepage-app-store-links {
+        color: #999;
+    }
+
+    .homepage-app-store-links:hover {
+        color: #999;
+        text-decoration: underline;
+    }
+
+    .homepage-social-channels {
+        text-align: center;
+        color: #888;
+    }
+
+    .hometitle {
+        color: #fff;
+    }
+
+    .jumbotron h1 {
+        font-size: 74px;
+        margin-bottom: 12px;
+    }
+
+    .list-group-item-2 {
+        display: none;
+    }
+
+    @media(max-width: 700px) {
+
+        .homepage-hero {
+            padding-bottom: 30px;
+            padding-top: 30px;
+            margin-bottom: 0px;
+            min-height: 165px;
+        }
+
+        .homepage-category-row {
+            padding-top: 18px;
+        }
+
+        .homepage-category-header {
+            font-size: 12px;
+        }
+
+        .jumbotron h1 {
+            font-size: 46px;
+            z-index: 9999;
+        }
+    }
+
+    .homepage-social-channels i, a {
+        color: #888;
+        -webkit-transition: all .2s ease-in;
+        -moz-transition: all .2s ease-in;
+        -o-transition: all .2s ease-in;
+    }
+
+    .homepage-social-channels i:hover {
+        color: #ccc;
+    }
+
+    .homepage-social-channels > div {
+        display: inline-block;
+        padding: 30px 60px;
+    }
+
+    .homepage-social-block {
+        font-size: 32px;
+    }
+
+    .homepage-social-text {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .homepage-email-signup {
+        padding: 40px 10px 72px 10px;
+        /*padding: 80px 10px 140px 10px;*/
+        background: url(/../../assets/images/hero/december/email_singup.png) no-repeat top center;
+        background-size: cover;
+        /*margin-bottom: -250px;*/
+    }
+
+    .row-email-signup {
+        text-align: -webkit-center;
+        text-align: -moz-center;
+    }
+
+    .col-email-signup {
+        max-width: 600px;
+    }
+
+    .homepage-category-email-header {
+        text-align: left;
+        font-size: 30px;
+        color: #be0000;
+    }
+
+    .homepage-email-signup-form {
+        max-width: 600px;
+        margin: 10px 0 0;
+    }
+
+
+    .ss {
+        font-size: 14px;
+        font-weight: normal;
+        vertical-align: middle;
+        color: #6f6f6f;
+    }
+
+    .padding-left {
+        padding-left: 5px;
+    }
+
+    .btn-tool-bar:hover .icon-transition {
+        color: #222;
+    }
+
+    .icon-transition {
+        -webkit-transition: .2s;
+    }
+
+    .dragHandle {
+        display: none;
+    }
+
+    @media (max-width: 1650px) {
+        .hide-last-tile {
+            display: none;
+        }
+    }
+
+    @media (max-width: 374px) {
+        .hide-tile-three {
+            display: none;
+        }
+    }
+
+    @media (max-width: 1328px) and (min-width: 1200px) {
+        .hide-tile-three {
+            display: none;
+        }
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .typeahead, .tt-query, .tt-hint, .twitter-typeahead, .typeahead:focus {
+        width: 100%;
+    }
+
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+        .homepage-search {
+            padding: 0px;
+        }
+
+        .hometitle {
+            display: none;
+        }
+
+        .homepage-category-row {
+            padding: 10px 10px;
+        }
+
+        .tt-menu {
+            max-width: 220px;
+            overflow: hidden;
+        }
+
+        ::-webkit-input-placeholder {
+            font-size: 10pt;
+        }
+
+
+        :-moz-placeholder { /* Firefox 18- */
+            font-size: 10pt;
+        }
+
+        ::-moz-placeholder { /* Firefox 19+ */
+            font-size: 10pt;
+        }
+
+        :-ms-input-placeholder {
+            font-size: 10pt;
+        }
+    }
+    /*
+    .collection-wrapper img {
+        max-width: 220px;
+        max-height: 220px;
+    }*/
+
+    .col-centered {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .badge-row {
+        padding-bottom: 20px;
+        margin-top: -10px;
+    }
+
+    /*All your recipes on the go.
+    .badge-images {
+        height: 40px;
+        max-height: 40px;
+        margin: 15px 10px 0px 10px;
+    }
+
+    .iphone-wrapper {
+        width: 170px;
+        margin: 0px auto;
+    }
+
+    .stores-wrapper {
+        padding-bottom: 30px;
+    }*/
+
+    .home-page-row {
+        padding: 25px 0px;
+        margin-top: 40px;
+        /* border-bottom: 2px solid #eee; */
+        max-width: 400px;
+    }
+
+    .home-page-coontainer {
+        padding: 25px 0px;
+        margin-top: -15px;
+        border-bottom: 2px solid #eee;
+        max-width: 1600px;
+    }
+    /* after deleting the All your recipes on the go.
+    .google-badge {
+        width: 135px !important;
+        max-width: 140px !important;
+        height: 42px !important;
+        max-height: 42px !important;
+    }*/
+
+    .homepage-hero {
+        background-size: cover !important;
+    }
+
+    .panel-body {
+        box-shadow: 1px 3px 10px 2px #00000094;
+    }
+
+    .download-border {
+        border-bottom: 2px solid #eee;
+        padding: 10px 0px 35px 0px;
+        margin-bottom: 60px;
+    }
+    /*All your recipes on the go.
+    @media only screen and (max-height : 736px) {
+
+        .stores-wrapper {
+            padding-bottom: 10px;
+        }
+    }*/
+    /*All your recipes on the go.
+    @media only screen and (max-width: 375px) {
+        .badge-images {
+            margin: 0px 0px 0px 5px;
+        }
+    }*/
+
+    @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+        .home-page-row {
+            padding: 10px 10px;
+        }
+    }
+
+    .email-form {
+        text-align: left;
+    }
+
+    .panel-body {
+        padding: 6px;
+        border: 1px solid #ccc;
+    }
+
+    .recipe-tile-full {
+        margin-right: 0px;
+    }
+
+    .homepage-category-subtext > a {
+        text-decoration: none !important;
+    }
+
+        .homepage-category-subtext > a::after {
+            text-decoration: none !important;
+        }
+</style>
+<div class="jumbotron homepage-hero hidden-xs">
+    <div class="homepage-hero-content">
+        <h1 class="text-shadow hometitle centered" style="color:#fff; font-weight: bold;">Cooking, Simplified</h1>
+        <p class="hometitle text-shadow centered hidden-xs">The ultimate home cooking tool to get you inspired and organized in the kitchen.</p>
+        
+        <div class="homepage-search hidden-xs">
+            <div>
+                <form role="search">
+                    <div class="input-group" style="background-color: #ffffff;border-radius:5px; z-index:0 !important;">
+                        <input type="text" class="typeahead search-input-button" id="txtSearch1" placeholder="Search 1,000,000+ recipes" autofocus="" style="text-indent: 4px;font-size: 21px;padding-left: 12px;z-index:1000; width:100% !important">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default search-input-button" type="button" id="btnGoSearch" data-loading-text="..." onclick="javascript:doSimpleSearch(getAntiForgeryToken(), $('#txtSearch1').prop('value'));"><i class="fa fa-search"></i></button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container main-form">
+
+    
+
+
+<div class="row main-row-video" style="min-height: 400px">
+    <div class="col-xs-12 col-sm-12 video-col" style="min-height: 180px">
+        <div id="Sm-view" class="main-title-sub">
+            <h2>What to Make This week</h2>
+            <h3>Keep an eye out for new videos from the BigOven Kitchen every week.</h3>
+        </div>
+        <div id="MainVideo"></div>
+    </div>
+    <div class="col-xs-12 col-sm-12 video-main-info" style="min-height: 186px">
+        <div id="Lg-view" class="main-title-sub">
+            <h2>What to Make This week</h2>
+            <h3>Keep an eye out for new videos from the BigOven Kitchen every week.</h3>
+        </div>
+        <div class="second-title">
+            <h2>
+                <a href="/recipe/malted-chocolate-cake/3080814">Malted Chocolate Cake</a>
+            </h2>
+            <p>A decadent chocolate cake is a recipe that anyone who loves baking needs in their back pocket. So we took our classic chocolate cake and added the delicious, creamy flavor of malted milk for a rich, satisfying cake that hits all the right notes.</p>
+        </div>
+        <div class="row-user-icon-controller">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 user-control">
+                <div class="by-line">
+                    <a class="user pull-left" href="/user/BigOvenEditorial"><img alt="BigOvenEditorial" title="BigOvenEditorial" class="avatar-img-sm" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-48,d_avatar-default.png/avatar/bigoveneditorial=f0de51.jpg" width="32" height="32"/>by BigOvenEditorial</a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 icon-controls">
+                <a class="btn btnstateless btn-default btn-share share-icon pull-right" title="Share this recipe" rel-id="3080814"
+                   onclick="shareRecipe(3080814, 'malted-chocolate-cake','https://photos.bigoven.com/recipe/hero/malted-chocolate-cake-c5c53d.jpg', 'https://www.bigoven.com/recipe/malted-chocolate-cake/3080814');">
+                    <i class="ss ss-share"></i>
+                </a>
+                <a title="Add to Plan" class="btn btnstateless btn-default btn-add-calendar pull-right" rel-id="3080814"
+                   onclick="addToThePlan(getAntiForgeryToken(), 3080814, 1)">
+                    <i class="ss ss-calendar"></i>
+                </a>
+                <a title="Add to Grocery" id="add-grocery" class="btn btnstateless btn-default btn-add-grocery pull-right" data-rid="3080814">
+                    <i class="ss ss-cart"></i>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-12 go-to-recipe" style="min-width: 200px;">
+            <a class="btn gotorecipe-button btnstateless" href="/recipe/malted-chocolate-cake/3080814">GO TO RECIPE</a>
+        </div>
+    </div>
+</div> 
+
+            <h1 class="rec-up">Recent Videos
+                <a href="/videos">
+                    <span class="seeall">See All</span>
+                </a>
+             </h1>
+            <div class="recent-upload">
+
+                    <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="row recipe-info item-flex">
+                            <div class="left col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/spring-pea-soup-with-herbs/3077885">
+                                    <img width="720" height="406" alt="Spring Pea Soup with Herbs" style="position: relative; display: block; left: 0; top: 0;" class="img-responsive" 
+                                         src="https://cdn.jwplayer.com/v2/media/D89WmnNT/poster.jpg"/>
+                                </a>
+                            </div>
+                            <div class="right col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/spring-pea-soup-with-herbs/3077885">
+                                    <h4 class="sub-title">Spring Pea Soup with Herbs</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="row recipe-info item-flex">
+                            <div class="left col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/pozole-rojo-with-pork-and-hominy/3077640">
+                                    <img width="720" height="406" alt="Pozole Rojo with Pork and Hominy" style="position: relative; display: block; left: 0; top: 0;" class="img-responsive" 
+                                         src="https://cdn.jwplayer.com/v2/media/2g1EgQxd/poster.jpg"/>
+                                </a>
+                            </div>
+                            <div class="right col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/pozole-rojo-with-pork-and-hominy/3077640">
+                                    <h4 class="sub-title">Pozole Rojo with Pork and Hominy</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="row recipe-info item-flex">
+                            <div class="left col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/samosa-pot-pie/3073115">
+                                    <img width="720" height="406" alt="Samosa Pot Pie" style="position: relative; display: block; left: 0; top: 0;" class="img-responsive" 
+                                         src="https://cdn.jwplayer.com/v2/media/dxnkxEPD/poster.jpg"/>
+                                </a>
+                            </div>
+                            <div class="right col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/samosa-pot-pie/3073115">
+                                    <h4 class="sub-title">Samosa Pot Pie</h4>
+                                </a>
+
+                                    <span>
+                                        <a href="/recipe/samosa-pot-pie/3073115#reviews-section" title="5">
+                                            <i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i>
+                                        </a>
+                                    </span>
+                                    <span class="count">1</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="row recipe-info item-flex">
+                            <div class="left col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/one-pan-mandarin-chicken-with-ginger/3073105">
+                                    <img width="720" height="406" alt="One Pan Mandarin Chicken with Ginger" style="position: relative; display: block; left: 0; top: 0;" class="img-responsive" 
+                                         src="https://cdn.jwplayer.com/v2/media/81o75zhI/poster.jpg"/>
+                                </a>
+                            </div>
+                            <div class="right col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/one-pan-mandarin-chicken-with-ginger/3073105">
+                                    <h4 class="sub-title">One Pan Mandarin Chicken with Ginger</h4>
+                                </a>
+
+                                    <span>
+                                        <a href="/recipe/one-pan-mandarin-chicken-with-ginger/3073105#reviews-section" title="5">
+                                            <i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i>
+                                        </a>
+                                    </span>
+                                    <span class="count">1</span>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+</div>
+
+<div class="main-row-video-border-line"></div>
+<style>
+    /*fix bottom lines*/
+    .item.recipe-tile-full {
+        height:auto;
+    }
+    /* incase we want 3
+    .homeeditorials-row {
+        display:flex;
+    }*/
+    /*
+    .editorials-rows {
+        flex:1
+    }
+
+    .homeeditorials-row > .editorials-rows:nth-child(3) {
+        display: none !important;
+    }*/
+    /*in case they want 3 
+    @media (max-width: 540px) {
+        .homeeditorials-row > .editorials-rows:nth-child(2) {
+            display: none !important;
+        }
+
+        .homeeditorials-row > .editorials-rows:nth-child(3) {
+            display: none !important;
+        }
+    }*/
+ 
+
+    @media (max-width: 768px) {
+        .articleauth.pull-left {
+            margin-bottom: 2em !important;
+        }
+
+        .homeeditorials-row > .editorials-rows:nth-child(3) {
+            display: none !important;
+        }
+    }
+
+</style>
+
+<div class="container-fluid homepage-category-row">
+    <div class="row home-collection-row text-center">
+        <div class="col-xs-12 col-md-12 col-lg-12 home-collection-col">
+            <div class="col-xs-12 col-sm-8 col-md-3 col-lg-2 container-fluid homepage-category-block">
+                <div class="homepage-category-hero">
+                    <a href="/article">
+                        <img width="160" height="160" alt="Editor's Picks" class="homepage-category-img lazyload"
+                             data-src="https://bigoven-res.cloudinary.com/image/upload/v1651145198/home/Editorials.jpg">
+                    </a>
+                    <div class="homepage-category-icon">
+                        <i class="ss-star homepage-category-pika" style="padding-right:0;position: relative;top: -2px;left: 1px;"></i>
+                    </div>
+                </div>
+                <h2 class="homepage-category-header">Editorials</h2>
+                <p class="homepage-category-subtext">
+                    <a href="/article">Guides from BigOven</a>
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10 container-fluid homepage-category-content pull-right">
+                <!--Editorials tile row-->
+                <div class="row homeeditorials-row">
+                            <div class="editorials-rows col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                <!---<div class="editorials-rows col-xs-12 col-sm-6 col-md-6 col-lg-4 recipeideas-items">-->
+<div class="articletale">
+    <a href="/article/details/homemade-pie-crust">
+        <img width="320" height="320" data-src="https://bigoven-res.cloudinary.com/image/upload/h_640,w_640,c_fill/65d75ae1d6cf5e0d387468a8-5150de.jpg" style="width: 100%;" class="img-responsive lazyload" alt="Tips &amp; Tricks for Homemade Pie Crust">
+    </a>
+    <div class="articlecont">
+
+<a href="/article/details/homemade-pie-crust">
+        <h5>Tips &amp; Tricks for Homemade Pie Crust</h5>
+</a> 
+
+        <a href="/article/details/homemade-pie-crust">
+            <p>
+                Making a perfect pie crust can be tricky, but with these tips and tricks, you'll be creating delicious and flaky homemade pie crusts in no time!
+            </p>
+        </a>
+    </div>
+    <div class="articleauth pull-left">
+        <span>by</span> <a href="/user/BigOvenEditorial" rel="Author">BigOvenEditorial</a>
+    </div>
+</div>
+<!--</div>-->
+                            </div>
+                            <div class="editorials-rows col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                <!---<div class="editorials-rows col-xs-12 col-sm-6 col-md-6 col-lg-4 recipeideas-items">-->
+<div class="articletale">
+    <a href="/article/details/cooking-with-fruit">
+        <img width="320" height="320" data-src="https://bigoven-res.cloudinary.com/image/upload/h_640,w_640,c_fill/65ccd3b7d6cf5e2b58d7923b-7d6df0.jpg" style="width: 100%;" class="img-responsive lazyload" alt="Cooking With Fruit: Sweet and Savory">
+    </a>
+    <div class="articlecont">
+
+<a href="/article/details/cooking-with-fruit">
+        <h5>Cooking With Fruit: Sweet and Savory</h5>
+</a> 
+
+        <a href="/article/details/cooking-with-fruit">
+            <p>
+                Learn about  the delicious possibilities of cooking with fruit in both sweet and savory dishes. From refreshing salads to indulgent desserts, learn how to incorporate fruit into your cooking for a burst of flavor and nutrition.
+            </p>
+        </a>
+    </div>
+    <div class="articleauth pull-left">
+        <span>by</span> <a href="/user/BigOvenEditorial" rel="Author">BigOvenEditorial</a>
+    </div>
+</div>
+<!--</div>-->
+                            </div>
+                            <div class="editorials-rows col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                                <!---<div class="editorials-rows col-xs-12 col-sm-6 col-md-6 col-lg-4 recipeideas-items">-->
+<div class="articletale">
+    <a href="/article/details/sausage-101">
+        <img width="320" height="320" data-src="https://bigoven-res.cloudinary.com/image/upload/h_640,w_640,c_fill/65ca4dabd6cf5e3d048f8b68-581825.jpg" style="width: 100%;" class="img-responsive lazyload" alt="Sausage 101: A Buyer&#39;s Guide to Sausage">
+    </a>
+    <div class="articlecont">
+
+<a href="/article/details/sausage-101">
+        <h5>Sausage 101: A Buyer&#39;s Guide to Sausage</h5>
+</a> 
+
+        <a href="/article/details/sausage-101">
+            <p>
+                Learn all about the different types of sausage, from bratwurst to chorizo, and how to choose the best one for your next meal.
+            </p>
+        </a>
+    </div>
+    <div class="articleauth pull-left">
+        <span>by</span> <a href="/user/BigOvenEditorial" rel="Author">BigOvenEditorial</a>
+    </div>
+</div>
+<!--</div>-->
+                            </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+
+    .home-collection-row .recipe-tile-full {
+        margin-left: 0;
+    }
+    /*
+    .homeeditorialspicks-row {
+        display: flex;
+    }*/
+
+    .item recipe-tile-full {
+        max-width: 285px !important;
+    }
+
+    .panel.panel-outer {
+        max-width: 210px !important;
+    }
+
+    .panel-body {
+        max-width: 210px !important;
+    }
+
+    @media (max-width: 540px) {
+        /*.editors-home-row {
+            display: inline-grid !important
+        }*/
+
+        #EPtile2, #EPtile3, #EPtile4 {
+            display: none !important;
+        }
+    }
+
+    @media (min-width: 541px) and (max-width: 809px) {
+        /*.editors-home-row {
+            display: inline-grid !important
+        }*/
+
+        #EPtile3, #EPtile4 {
+            display: none !important;
+        }
+
+        #EPtile1, #EPtile2 {
+            display: block !important;
+        }
+        /*
+        .recipeideas-rows.col-xs-12 {
+            width: 50% !important;
+            display: inline-grid !important;
+        }*/
+    }
+</style>
+<div class="container-fluid homepage-category-row">
+    <div class="row home-collection-row text-center">
+        <div class="col-xs-12 col-md-12 col-lg-12 home-collection-col">
+            <div class="col-xs-12 col-sm-8 col-md-3 col-lg-2 container-fluid homepage-category-block">
+                <div class="homepage-category-hero">
+                    <img width="160" height="160" alt="Editor's Picks" class="homepage-category-img lazyload"
+                         data-src="https://bigoven-res.cloudinary.com/image/upload/v1651145198/home/EditorsPicks.jpg">
+                    <div class="homepage-category-icon">
+                        <i class="ss-medal homepage-category-pika" style="padding-right:0px;position: relative;top: -2px;left: 1px;"></i>
+                    </div>
+                </div>
+                <h2 class="homepage-category-header">Editor's Picks</h2>
+                <p class="homepage-category-subtext">
+                    Tasty recipes catching our eye.
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10 container-fluid homepage-category-content pull-right" id="EPResult">
+                <div class="row homeeditorialspicks-row">
+                    <div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items" id="EPtile1">
+                        <img src="/assets/images/icons/ajax-loader.gif" />
+                    </div>
+                    <div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items" id="EPtile2"></div>
+                    <div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items" id="EPtile3"></div>
+                    <div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items" id="EPtile4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--editorspicks-->
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+        $.ajax({
+            url: '/utils/homerecipes?type=ep',
+            type: 'GET',
+            success:
+                function (data) {
+                    $("#EPtile1").html(recipeHtmlFromAPIRecipeInfoV2(data[0], false, false, false, false));
+                    $("#EPtile2").html(recipeHtmlFromAPIRecipeInfoV2(data[1], false, false, false, false));
+                    $("#EPtile3").html(recipeHtmlFromAPIRecipeInfoV2(data[2], false, false, false, false));
+                    $("#EPtile4").html(recipeHtmlFromAPIRecipeInfoV2(data[3], false, false, false, false));
+                    // console.log("----------Editors Pick--------------");
+                    updateTiles();
+                    // console.log("Update Tiles" + updateTiles());
+                    bindEvents();
+                    // console.log("Bind Events" + bindEvents());
+                    initPunchUpPunchDown();
+                    // console.log("Punch UP & Down" + initPunchUpPunchDown());
+                },
+            error:
+                function () { }
+        });
+    });
+</script>
+
+
+<style>
+    /*
+    @media screen and (min-width:768px) {
+        .collection-title {
+            width: 220px !important;
+        }
+
+        .collection-wrapper {
+            width: 220px;
+        }
+
+        .collection-wrapper img {
+             width: 220px !important;
+        }
+    }
+
+    @media (max-width: 1328px) and (min-width: 1200px) {
+
+        .hide-tile-three {
+            display: none;
+        }
+    }
+
+    .ideas-row {
+        margin: 0;
+    }
+    */
+
+    .recipe-idearrows {
+        display: inline-grid;
+    }
+
+    .collection-tile-full {
+        display: contents !important;
+    }
+
+    .ideas-row {
+        margin: 0;
+    }
+
+    .collection-row {
+        margin: 0;
+    }
+
+    .recipeideas-items {
+        padding-bottom: 20px !important;
+    }
+
+    @media (max-width: 540px) {
+        .recipeideas-items:nth-child(3) {
+            display: none;
+        }
+
+        .recipeideas-items:nth-child(4) {
+            display: none;
+        }
+        /* .recipe-idearrows {
+            padding-left: 40px !important;
+        }*/
+    }
+
+    @media (min-width: 541px) and (max-width: 809px) {
+        .recipeideas-items:nth-child(3) {
+            display: none;
+        }
+
+        .recipeideas-items:nth-child(4) {
+            display: none;
+        }
+
+        .recipeideas-rows.col-xs-12 {
+            width: 50% !important;
+            display: inline-grid !important;
+        }
+    }
+
+    @media (min-width: 810px) and (max-width: 991px) {
+        .recipeideas-items:nth-child(4) {
+            display: none;
+        }
+
+        .recipeideas-rows.col-sm-6 {
+            width: 32% !important;
+        }
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .recipeideas-items:nth-child(4) {
+            display: none;
+        }
+    }
+</style>
+<div class="container-fluid homepage-category-row">
+    <div class="row home-collection-row text-center">
+        <div class="col-xs-12 col-md-12 col-lg-12 home-collection-col">
+            <div class="col-xs-12 col-sm-8 col-md-3 col-lg-2 container-fluid homepage-category-block">
+                <div class="homepage-category-hero">
+                    <a href="/Recipes">
+                        <img width="160" height="160" alt="Collections" class="homepage-category-img lazyload" data-src="https://bigoven-res.cloudinary.com/image/upload/v1651145198/home/RecipeIdeas.jpg">
+                    </a>
+                    <div class="homepage-category-icon">
+                        <i class="ss-star homepage-category-pika" style="padding-right:0px;position: relative;top: -2px;left: 1px;"></i>
+                    </div>
+                </div>
+                <h2 class="homepage-category-header">Recipe Ideas</h2>
+                <p class="homepage-category-subtext">
+                    <a href="/Recipes">Seasonal editors' picks</a>
+                </p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10 container-fluid homepage-category-content pull-right">
+
+                <!--Collection tiles row-->
+                <div class="row collection-row">
+
+<div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/pasta-pasta-pasta/313"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/chicken-and-red-pepper-pasta-ad10ad.jpg"/></div><div class="collection-title">Pasta, Pasta, Pasta</div></a></div></div><div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/quick-and-easy-vegetarian-dinners/50"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/skillet-pearled-couscous-with-tomat-2.jpg"/></div><div class="collection-title">Quick and Easy Vegetarian Dinners</div></a></div></div><div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/gluten-free/294"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/antipastozoodlesalad-29c556.jpg"/></div><div class="collection-title">Gluten-Free</div></a></div></div><div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/juice/114"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/green-grapefruit-ginger-juice-2.jpg"/></div><div class="collection-title">Juice</div></a></div></div>
+
+                </div>   
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    /*
+    .panel-body {
+        padding: 6px;
+        border: 1px solid #ccc;
+    }
+
+    .recipe-tile-full {
+        margin-right: 0px;
+    }*/
+
+    .home-collection-row .recipe-tile-full {
+        margin-left: 0;
+    }
+    /*
+    .homerecentraves-row {
+        display: flex;
+    }*/
+
+    .item recipe-tile-full {
+        max-width: 285px !important;
+    }
+
+    .panel.panel-outer {
+        max-width: 210px !important;
+    }
+
+    .panel-body {
+        max-width: 210px !important;
+    }
+
+    @media (max-width: 540px) {
+        /*.editors-home-row {
+            display: inline-grid !important
+        }*/
+
+        #Rtile2, #Rtile3, #Rtile4 {
+            display: none !important;
+        }
+    }
+
+    @media (min-width: 541px) and (max-width: 809px) {
+        /*.editors-home-row {
+            display: inline-grid !important
+        }*/
+
+        #Rtile3, #Rtile4 {
+            display: none !important;
+        }
+
+        #Rtile1, #Rtile2 {
+            display: block !important;
+        }
+        /*
+        .recipeideas-rows.col-xs-12 {
+            width: 50% !important;
+            display: inline-grid !important;
+        }*/
+    }
+</style>
+<div class="container-fluid homepage-category-row">
+    <div class="row home-collection-row text-center">
+        <div class="col-xs-12 col-md-12 col-lg-12 home-collection-col">
+            <div class="col-xs-12 col-sm-8 col-md-3 col-lg-2 container-fluid homepage-category-block">
+                <div class="homepage-category-hero">
+                    <a href="/recipes/raves">
+                        <img width="160" height="160" alt="Recent Raves" class="homepage-category-img lazyload" data-src="https://bigoven-res.cloudinary.com/image/upload/v1651145198/home/RecentRaves.jpg">
+                    </a>
+                    <div class="homepage-category-icon">
+                        <i class="ss-flame homepage-category-pika"></i>
+                    </div>
+                </div>
+                <h2 class="homepage-category-header">Recent Raves</h2>
+                <p class="homepage-category-subtext"><a href="/recipes/raves">Trending recipes</a> from BigOven cooks.</p>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10 container-fluid homepage-category-content pull-right" id="RRresult">
+                <div class="row homerecentraves-row">
+                    <div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items" id="Rtile1">
+                        <img src="/assets/images/icons/ajax-loader.gif" />
+                    </div>
+                    <div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items" id="Rtile2"></div>
+                    <div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items" id="Rtile3"></div>
+                    <div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items" id="Rtile4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        $.ajax({
+            url: '/utils/homerecipes?dayDelay=3&type=raves',
+            type: 'GET',
+            success:
+                function (data) {
+                    $("#Rtile1").html(recipeHtmlFromAPIRecipeInfoV2(data[0], false, false, false, false));
+                    $("#Rtile2").html(recipeHtmlFromAPIRecipeInfoV2(data[1], false, false, false, false));
+                    $("#Rtile3").html(recipeHtmlFromAPIRecipeInfoV2(data[2], false, false, false, false));
+                    $("#Rtile4").html(recipeHtmlFromAPIRecipeInfoV2(data[3], false, false, false, false));
+                    updateTiles();
+                    bindEvents();
+                    initPunchUpPunchDown();
+                    updateTiles();
+                    bindEvents();
+                    initPunchUpPunchDown();
+                },
+            error:
+                function () { }
+        });
+    });
+</script>
+
+
+
+<script>
+
+    $(document).ready(function () {
+        var bestRecipes = new Bloodhound({
+            datumTokenizer: Bloodhound.tokenizers.obj.whitespace('value'),
+            queryTokenizer: Bloodhound.tokenizers.whitespace,
+
+            remote: {
+                url: '/recipe/autocomplete?prefix=%QUERY',
+                wildcard: '%QUERY'
+            }
+        });
+
+        var suppressTabComplete = false;
+
+        $("#txtSearch1").typeahead(null, {
+            name: 'best-recipes',
+            //display: 'value',
+            limit: 12,
+            highlight: true,
+            minLength: 2,
+            source: bestRecipes,
+            templates: {
+                empty: [].join('\n'),
+                suggestion: function (data) {
+                    return '<div>' + data + '</div>';
+                }
+            }
+        });
+
+        $("#txtSearch1").keydown(function (event) {
+            if (event.which === 13) {
+                var txt = $("#txtSearch1").val();
+                doSimpleSearch(getAntiForgeryToken(), txt);
+                event.preventDefault();
+            }
+            return;
+        });
+
+        var numImages = 3;
+        var randNo = Math.ceil(numImages * Math.random());
+
+        switch (randNo) {
+            case 1:
+                $(".homepage-hero").css("background", "url(/assets/images/hero/new_BigOven/bkg-1.jpg) center");
+                break;
+            case 2:
+                $(".homepage-hero").css("background", "url(/assets/images/hero/new_BigOven/bkg-2.jpg) center");
+                break;
+            case 3:
+                $(".homepage-hero").css("background", "url(/assets/images/hero/new_BigOven/bkg-3.jpg) center");
+                break;
+
+            default:
+                $(".homepage-hero").css("background", "url(/assets/images/hero/december/2a.jpg) center");
+        }
+    });
+</script>
+
+        </div>
+        
+    </div>
+
+    
+
+
+
+
+<footer id="footer" class="container-fluid footer-main">
+
+    <div class="footer-container">
+
+        <section class="footer-cols">
+
+            <div class="footer-col box-1 footer-left-column">
+
+                <div class="logo-left">
+                    <a id="joinMailing"></a>
+                    <img width="169" height="47" src="/Content/images/footer_icons/BigOven_logo.png" alt="BigOven Logo" style="margin-left: 10px;" />
+                </div>
+
+                <div class="col-xs-12 social-find-us">
+                    Find us on :<br />
+                </div>
+
+                <div id="social-outer" class="col-xs-12 social-icons">
+                    <div id="social-icons">
+
+                        <ul style="padding: 0">
+                            <li>
+                                <a rel="noopener" href="https://www.twitter.com/bigoven" title="twitter" target="_blank">
+                                    <img width="36" height="36" src="/Content/images/footer_icons/twitter.svg" alt="Twitter" />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a rel="noopener" href="https://www.facebook.com/bigoven" title="facebook" target="_blank">
+                                    <img width="36" height="36" src="/Content/images/footer_icons/facebook.svg" alt="Facebook" />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a rel="noopener" href="https://www.instagram.com/bigoven" title="instagram" target="_blank">
+                                    <img width="36" height="36" src="/Content/images/footer_icons/instagram.svg" alt="Instagram" />
+                                </a>
+                            </li>
+
+                            <li>
+                                <a rel="noopener" href="https://www.pinterest.com/bigoven" title="pinterest" target="_blank">
+                                    <img width="36" height="36" src="/Content/images/footer_icons/pinterest.svg" alt="Pinterest" />
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener" href="https://www.youtube.com/c/bigoven" title="youtube" target="_blank">
+                                    <img width="36" height="36" src="/Content/images/footer_icons/youtube.svg" alt="YouTube" />
+                                </a>
+                            </li>
+                            <li>
+                                <a rel="noopener" href="https://www.tiktok.com/@bigoven" title="tiktok" target="_blank">
+                                    <img width="36" height="36" src="/Content/images/footer_icons/tiktok.svg" alt="tiktok" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 apple-google-icons">
+                    <div class="my-img">
+                        <a rel="noopener" href="https://apps.apple.com/us/app/bigoven-350-000-recipes-grocery/id294363034?ign-mpt=uo%3D4" title="App Store" target="_blank">
+
+                            <img width="146" height="40" class="apple-image lazyload" data-src="/Content/images/footer_icons/app_store.svg" alt="App Store" />
+                        </a>
+                        <a rel="noopener" href="https://play.google.com/store/apps/details?id=com.bigoven.android" title="Google Play" target="_blank">
+                            <img class="lazyload" width="135" height="40" data-src="/Content/images/footer_icons/google_play.svg" alt="GooglePlay" />
+                        </a>
+
+                    </div>
+                </div>
+
+<form action="/home/emailsignup" class="footer-custom-form-hide-it email-form" id="mailingListFirst" method="post"><input name="__RequestVerificationToken" type="hidden" value="fnwBbn7z4xb34P6ngCq70Ls1KfcHnsk-lipTFo3c81pJ1p1j1ydFof0_j4MZW5s905acAC0ulj6NzgdSoGOaMrSZuhU1" />                    <div class="row homepage-email-signup-form text-center no-margin">
+                        <div class="form-group">
+                            <input id="captcha" name="captcha" type="hidden" value="Value" />
+                        </div>
+                        <div class="col-xs-6" style="padding: 0">
+                            <div class="form-group">
+                                <input id="email" type="text" class="form-control forminput" name="email" placeholder="you@example.com">
+                            </div>
+                        </div>
+                        <div class="col-xs-6 input-group-btn adjust-button">
+                            <div class="form-group">
+                                <button type="submit" id="mailSignupFirst" onclick="SubmitSubscriptionForm(event,'mailingListFirst')" class="btn btn-default btn-homepage-send-email formbutton">SUBSCRIBE</button>
+                            </div>
+                        </div>
+                    </div>
+</form>
+                <div class="col-xs-12 copyright">
+                    Aisle Ahead, Inc. | Copyright 2022
+                </div>
+            </div>
+
+            <div class="footer-col footerlinks box-2">
+
+                <div class="col-xs-6 col-sm-4 explore-link" style="padding-left: 0px; display:inline-block !important;">
+                    <h3>Explore</h3>
+                    <ul class="unbulleted-list">
+                        <li><a href="/site/about">About</a></li>
+                        <li><a href="/site/comments">Contact</a></li>
+                        <li><a href="/our-apps">Our Apps</a></li>
+                        <li><a href="/site/press">Press</a></li>
+                        <li><a href="/site/partners">Partners</a></li>
+                        <li><a href="/site/privacy">Privacy Policy</a></li>
+                        <li><a href="/site/terms">Terms</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-sm-4" style="padding-left: 0px; display:inline-block !important;">
+                    <h3>Support</h3>
+                    <ul class="unbulleted-list">
+                        <li><a rel="noopener" href="https://support.bigoven.com" target="_blank">Help</a></li>
+                        <li><a href="/site/copyright">Copyright/DMCA</a></li>
+                        <li><br><br><br><br><br><br/></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 services-links" style="padding-left: 40px; padding-right: 0px; display:inline-block !important;">
+                    <h3>Services</h3>
+                    <ul class="unbulleted-list">
+                        <li><a href="/pro">BigOven Pro</a></li>
+                        <li><a rel="noopener" href="https://bigovenkitchen.com/" target="_blank">BigOven Kitchen</a></li>
+                        <li><a rel="noopener" href="https://api2.bigoven.com" target="_blank">Kitchen Cloud API</a></li>
+                        <li><a href="/site/advertise">Advertise</a></li>
+                        <li><br><br><br></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-12 my-text-hide-it">
+                    Ad Partners: <a rel="noopener" style="color: #adadad;" href="https://www.sheknows.com/" target="_blank">SheKnows Media - Lifestyle</a> - <a style="color: #adadad;" href="/site/advertise">See full Partners List</a>
+                </div>
+            </div>
+            <div class="footer-col footer-right-column box-3">
+                <div class="row">
+                    <div class="col-6">
+                        <a href="/clipper"><img alt="clipper" width="38" height="45" class="clipper" src="/Content/images/footer_icons/clipper_icon.png" /></a>
+                    </div>
+                    <div class="col-6 without-overflow">
+                        <div class="big-clipper">
+                            <strong><a href="/clipper">BigOven Clipper</></a></strong>
+                        </div>
+                        <div class="text-clipper">
+                            Save recipes from your favorite blogs<br /> and websites with BigOven Clipper
+                        </div>
+
+                    </div>
+
+                    <div class="col-6 horizontal">
+                        <hr />
+                    </div>
+
+                    <div class="row col-email-signup">
+                        <div class="col-6">
+                            <div class="Carl1">
+                                <a id="joinMailing"></a>
+                                <h2 class="homepage-category-email-header title"><strong>Get Mouthwatering Recipes</strong></h2>
+                                <div class="right-in-box">
+                                    right in your inbox.
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="apple-google-icons-hide-it">
+
+                            <div class="images-google-apple">
+                                <img width="146" height="40" class="apple-image lazyload" data-src="/Content/images/footer_icons/app_store.svg" alt="App Store" />
+                            </div>
+
+                            <div class="images-google-apple">
+                                <img class="lazyload" width="135" height="40" data-src="/Content/images/footer_icons/google_play.svg" alt="GooglePlay" />
+                            </div>
+                        </div>    
+
+<form action="/home/emailsignup" class="footer-custom-form email-form" id="mailingListLast" method="post"><input name="__RequestVerificationToken" type="hidden" value="QYLaffjdbHl75tTkGX8dAUXrEtCt8qEFuVlLSMf73sFpbJrOxmLiMBbLP67cEjk8HYV3hzCDiJG25lzicVsYzOnkqkk1" />                            <div class="homepage-email-signup-form text-center no-margin">
+                                <div class="form-group">
+                                    <input id="captcha" name="captcha" type="hidden" value="Value" />
+                                </div>
+                                <div class="col-xs-6" style="padding: 0">
+                                    <div class="form-group">
+                                        <input id="email" type="text" class="form-control forminput" name="email" placeholder="you@example.com">
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 input-group-btn adjust-button">
+                                    <div class="form-group">
+                                        <button type="submit" id="mailSignupLast" onclick="SubmitSubscriptionForm(event,'mailingListLast')" class="btn btn-default btn-homepage-send-email formbutton">SUBSCRIBE</button>
+                                    </div>
+                                </div>
+                            </div>
+</form>                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</footer>              <script>
+                var io = new IntersectionObserver(
+                    entries => {
+                        if (entries[0].isIntersecting) {
+                            // console.log(entries[0]);
+                            if (!document.getElementById('recaptcha-script')) {
+                                // console.log(entries[0]);
+                                var recaptchaScript = document.createElement('script');
+                                recaptchaScript.src = 'https://www.google.com/recaptcha/api.js?render=6LeZLasUAAAAAJ_JRlXgGXKs5KRFTNP5lFny0Vo0';
+                                recaptchaScript.defer = true;
+                                recaptchaScript.id = 'recaptcha-script';
+                                document.head.appendChild(recaptchaScript);
+                            }
+                        }
+                    },
+                    {
+                        root: null, //  document.querySelector('.homepage-email-signup-form'),
+                        rootMargin: "0px",
+                        threshold: 1.0
+                    }
+                );
+
+                io.observe(document.querySelector('#mailingListFirst'));
+                io.observe(document.querySelector('#mailingListLast'));
+            </script>
+
+    
+    <script defer src="/bundles/scripts/bigovenrecipeshare?v=n1-NRP8qinbwam_ylQyAuvyxt9AHlYKMfR8aeW2KAwM1" type="text/javascript"></script>
+
+
+<link rel="stylesheet preload" href="/content/videos/videoskin.css" as="style" type="text/css" crossorigin="anonymous" />
+
+<script defer src="https://cdn.jwplayer.com/libraries/Pp6ZD921.js" type="text/javascript"></script>
+<script defer type="text/javascript" src="/Scripts/jwplayer-utils.js"></script>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            setupJWPlayer("MainVideo", "1CIpfOSa", "16:9");
+
+            $(document).on('click', '#add-grocery', function () {
+                var recipeId = $(this).attr("data-rid");
+
+                addToGrocery(recipeId, 1, false);
+            });
+        });
+    </script>
+
+
+    <!-- For lazy loading images, see https://github.com/aFarkas/lazysizes and https://web.dev/use-lazysizes-to-lazyload-images/-->
+    <script src="/Scripts/lazysizes.min.js" defer></script>
+
+    <script type="text/javascript">
+        function SubmitSubscriptionForm(e, formId) {
+
+            e.preventDefault();
+
+            $("#" + formId + " button").attr('disabled', true);
+
+            grecaptcha.ready(function () {
+                grecaptcha
+                    .execute('6LeZLasUAAAAAJ_JRlXgGXKs5KRFTNP5lFny0Vo0', { action: 'MailingList' })
+                    .then(function (token) {
+                        // Set `token` in a hidden form input.
+                        $('#' + formId + ' input[name="captcha"]').val(token);
+                        // POST Form
+                        $('#' + formId).submit();
+                    });
+            });
+        }
+
+
+        if ($.cookie("bigovenapp") != undefined) {
+            var date = new Date();
+            date.setYear(3000);
+            $.cookie('bigoven-viewer', "app", { expires: date, path: '/' });
+        }
+
+        $(document).ready(function() {
+            $('.tip').tooltip();
+
+            initGlobals(1079800556107882);
+
+            $(".btn:not('.btnstateless')").click(function() {
+                $(this).button('loading');
+            });
+            $("#txtSearch").keypress(function(e) {
+                if ((e.which && e.which === 13) || (e.keyCode && e.keyCode === 13)) {
+                    $('#btnGo').button('loading');
+                    doSimpleSearch(getAntiForgeryToken(), $('#txtSearch').prop('value'));
+                    return false;
+                } else {
+                    return true;
+                }
+            });
+            $("#btnGo").click(function(e) {
+                $('#btnGo').button('loading');
+                doSimpleSearch(getAntiForgeryToken(), $('#txtSearch').prop('value'));
+                return false;
+            });
+            $('.vimeo').fancybox({
+                helpers: {
+                    media: {}
+                }
+            });
+            $(".alert").alert();
+        });
+    </script>
+
+    
+
+    <script defer>
+        !function () { "use strict"; !function (e) { if (-1 === e.cookie.indexOf("__adblocker")) { e.cookie = "__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/"; var t = new XMLHttpRequest; t.open("GET", "https://www.npttech.com/advertising.js", !0), t.onreadystatechange = function () { if (XMLHttpRequest.DONE === t.readyState) if (200 === t.status) { var n = e.createElement("script"); n.innerHTML = t.responseText, e.getElementsByTagName("head")[0].appendChild(n) } else { var a = new Date; a.setTime(a.getTime() + 3e5), e.cookie = "__adblocker=true; expires=" + a.toUTCString() + "; path=/" } }, t.send() } }(document) }();
+    </script>
+
+    <script defer>
+        !function () { "use strict"; var e; e = document, function () { var t, n; function r() { var t = e.createElement("script"); t.src = "https://cafemedia-com.videoplayerhub.com/galleryplayer.js", e.head.appendChild(t) } function a() { var t = e.cookie.match("(^|[^;]+)\\s*__adblocker\\s*=\\s*([^;]+)"); return t && t.pop() } function c() { clearInterval(n) } return { init: function () { var e; "true" === (t = a()) ? r() : (e = 0, n = setInterval((function () { 100 !== e && "false" !== t || c(), "true" === t && (r(), c()), t = a(), e++ }), 50)) } } }().init() }();
+    </script>
+
+    
+
+</body>
+
+</html>

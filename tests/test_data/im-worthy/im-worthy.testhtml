@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head ><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.5.1",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),document.addEventListener("DOMContentLoaded",(()=>{this.p()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}k(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.M(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.M(t.target,"rocket-onclick","onclick"),this.O()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.M(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.O()}D(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}S(){return new Promise((t=>{this.T?this.O=t:t()}))}C(){this.T=!0}O(){this.T=!1}M(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}p(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&0!==i.indexOf("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.j(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.P(this),this.F(this),this.q(),this.A(),this.I(),await this.U(this.delayedScripts.normal),await this.U(this.delayedScripts.defer),await this.U(this.delayedScripts.async);try{await this.W(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.S().then((()=>{this.D()})),this.N()}A(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(function(){t.setAttribute("data-rocket-status","failed"),e()})),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed"),e()}}));t.setAttribute("data-rocket-status","skipped")}async U(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.U(t)):Promise.resolve()}I(){this.j([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}j(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o){const n=document.createElement("link");n.href=o,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),i.appendChild(n),this.trash.push(n)}})),document.head.appendChild(i)}P(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function n(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(n){t.everythingLoaded?o=n:e["rocket"+i]=o=n}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){if(o&&o.fn&&!t.allJQueries.includes(o)){o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])};const e=o.fn.on;o.fn.on=o.fn.init.prototype.on=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this},t.allJQueries.push(o)}e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async W(){this.domReadyFired=!0,await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}q(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),n=i.parentElement;let s=t.get(i);void 0===s&&(s=i.nextSibling,t.set(i,s));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),n.insertBefore(c,s)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.k(t)}}RocketLazyLoadScripts.run()})();</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+			<style type="text/css">
+				.slide-excerpt { width: 50%; }
+				.slide-excerpt { bottom: 0; }
+				.slide-excerpt { right: 0; }
+				.flexslider { max-width: 920px; max-height: 400px; }
+				.slide-image { max-height: 400px; }
+			</style>
+			<style type="text/css">
+				@media only screen
+				and (min-device-width : 320px)
+				and (max-device-width : 480px) {
+					.slide-excerpt { display: none !important; }
+				}
+			</style> 
+	<!-- This site is optimized with the Yoast SEO plugin v22.5 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Easy Vegan Recipes | Im-Worthy - wellness for the heart &amp; soul</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Muli%3Aregular%2Citalic%2C300%2C300italic%7CKarla%3Aregular%2Citalic%2C700%2C700italic%26amp%3Bsubset%3Dlatin%2C&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli%3Aregular%2Citalic%2C300%2C300italic%7CKarla%3Aregular%2Citalic%2C700%2C700italic%26amp%3Bsubset%3Dlatin%2C&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli%3Aregular%2Citalic%2C300%2C300italic%7CKarla%3Aregular%2Citalic%2C700%2C700italic%26amp%3Bsubset%3Dlatin%2C&#038;display=swap" /></noscript>
+	<meta name="description" content="Im-Worthy.com was created in 2019 by Shana Thomas. On the blog, you&#039;ll find vegan recipes and wellness tips to inspire busy women to live energetic and healthy lives." />
+	<link rel="canonical" href="https://im-worthy.com/" />
+	<link rel="next" href="https://im-worthy.com/page/2/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="IM-WORTHY.COM" />
+	<meta property="og:description" content="Im-Worthy.com food blog was created in 2019 by Shana Thomas. Inspiring busy women to live energetic, healthy lives with easy vegan recipes and wellness tips." />
+	<meta property="og:url" content="https://im-worthy.com/" />
+	<meta property="og:site_name" content="IM-WORTHY" />
+	<meta property="og:image" content="https://im-worthy.com/wp-content/uploads/2018/12/imageedit_52_6027994845.png" />
+	<meta property="og:image:width" content="500" />
+	<meta property="og:image:height" content="113" />
+	<meta property="og:image:type" content="image/png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://im-worthy.com/","url":"https://im-worthy.com/","name":"Easy Vegan Recipes | Im-Worthy - wellness for the heart & soul","isPartOf":{"@id":"https://im-worthy.com/#website"},"about":{"@id":"https://im-worthy.com/#organization"},"description":"Im-Worthy.com was created in 2019 by Shana Thomas. On the blog, you'll find vegan recipes and wellness tips to inspire busy women to live energetic and healthy lives.","breadcrumb":{"@id":"https://im-worthy.com/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://im-worthy.com/#breadcrumb","itemListElement":[]},{"@type":"WebSite","@id":"https://im-worthy.com/#website","url":"https://im-worthy.com/","name":"IM-WORTHY","description":"discover love in every vegan and plant-based bite","publisher":{"@id":"https://im-worthy.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://im-worthy.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://im-worthy.com/#organization","name":"IM-WORTHY","url":"https://im-worthy.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://im-worthy.com/#/schema/logo/image/","url":"https://www.im-worthy.com/wp-content/uploads/2018/12/imageedit_52_6027994845.png","contentUrl":"https://www.im-worthy.com/wp-content/uploads/2018/12/imageedit_52_6027994845.png","width":500,"height":113,"caption":"IM-WORTHY"},"image":{"@id":"https://im-worthy.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/ImWorthyblog/","https://www.instagram.com/imworthykitchen/","https://www.pinterest.com/ImWorthyblog/","https://www.youtube.com/channel/UCLw4ED-iH6FCGli8wieZUFA?view_as=subscriber"]}]}</script>
+	<meta name="msvalidate.01" content="d91175f6e6694626a270328b708f25d1" />
+	<meta name="google-site-verification" content="V9vIlRzsToF9pcNylIFyYxeUStP-9rkBv15f9EKhYTg" />
+	<meta name="p:domain_verify" content="6f62f489ccef41b0503571f7e0f050f8" />
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//maps.googleapis.com' />
+<link rel='dns-prefetch' href='//maps.gstatic.com' />
+<link rel='dns-prefetch' href='//fonts.gstatic.com' />
+<link rel='dns-prefetch' href='//ajax.googleapis.com' />
+<link rel='dns-prefetch' href='//apis.google.com' />
+<link rel='dns-prefetch' href='//google-analytics.com' />
+<link rel='dns-prefetch' href='//www.google-analytics.com' />
+<link rel='dns-prefetch' href='//ssl.google-analytics.com' />
+<link rel='dns-prefetch' href='//youtube.com' />
+<link rel='dns-prefetch' href='//api.pinterest.com' />
+<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
+<link rel='dns-prefetch' href='//pixel.wp.com' />
+<link rel='dns-prefetch' href='//connect.facebook.net' />
+<link rel='dns-prefetch' href='//platform.twitter.com' />
+<link rel='dns-prefetch' href='//syndication.twitter.com' />
+<link rel='dns-prefetch' href='//platform.instagram.com' />
+<link rel='dns-prefetch' href='//disqus.com' />
+<link rel='dns-prefetch' href='//sitename.disqus.com' />
+<link rel='dns-prefetch' href='//s7.addthis.com' />
+<link rel='dns-prefetch' href='//platform.linkedin.com' />
+<link rel='dns-prefetch' href='//w.sharethis.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//s.gravatar.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//stats.wp.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="IM-WORTHY &raquo; Feed" href="https://im-worthy.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="IM-WORTHY &raquo; Comments Feed" href="https://im-worthy.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="IM-WORTHY &raquo; Stories Feed" href="https://im-worthy.com/web-stories/feed/"><link rel='stylesheet' id='sbi_styles-css' href='https://im-worthy.com/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.2.10' type='text/css' media='all' />
+<link rel='stylesheet' id='foodie-pro-theme-css' href='https://im-worthy.com/wp-content/themes/foodiepro-v440/style.css?ver=4.4.0' type='text/css' media='all' />
+<style id='foodie-pro-theme-inline-css' type='text/css'>
+.before-header, .enews-widget, .footer-widgets, .form-allowed-tags{background:#ede4e1;}.site-title a, .site-title a:hover{color:#000000;}h1.entry-title, .entry-title a, .widgettitle, .recipe-index-search .widgettitle, .footer-widgets .widgettitle{color:#000000;}.before-header, .enews-widget, .before-header .widgettitle, .enews-widget .widgettitle, .footer-widgets, .form-allowed-tags{color:#000000;}a, .entry-meta a, .post-info a, .post-meta a, .site-footer a, .entry-content a{color:#4c87bf;}.genesis-nav-menu > li > a:hover, .genesis-nav-menu > .current-menu-item > a{color:#6391bf;}.button, button, .enews-widget input[type="submit"], a.more-link, .more-from-category a, .sidebar .button, .sidebar .more-from-category a{background:#cecece;}.button, button, .enews-widget input[type="submit"], a.more-link, .more-from-category a{border-color:#dddddd;}body, .site-description, .sidebar .featured-content .entry-title{font-family:"Muli","Helvetica Neue",sans-serif;}.genesis-nav-menu{font-family:"Karla","Helvetica Neue",sans-serif;}h1, h2, h3, h4, h5, h6, .site-title, .entry-title, .widgettitle{font-family:"Karla","Helvetica Neue",sans-serif;}.entry-title{font-family:"Karla","Helvetica Neue",sans-serif;font-size:20px;}.button, .button-secondary, button, input[type="button"], input[type="reset"], input[type="submit"], a.more-link, .more-from-category a{font-family:"Karla","Helvetica Neue",sans-serif;}
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://im-worthy.com/wp-includes/css/dist/block-library/style.min.css?ver=6.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-block-style-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/block/dist/style-wpzoom-social-icons.css?ver=4.2.18' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://im-worthy.com/wp-includes/css/dashicons.min.css?ver=6.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-academicons-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/academicons.min.css?ver=1712947235' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-socicon-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/wpzoom-socicon.css?ver=1712947235' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-font-awesome-5-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome-5.min.css?ver=1712947235' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-genericons-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/genericons.css?ver=1712947235' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='titan-adminbar-styles-css' href='https://im-worthy.com/wp-content/plugins/anti-spam/assets/css/admin-bar.css?ver=7.3.5' type='text/css' media='all' />
+<link rel='stylesheet' id='mailerlite_forms.css-css' href='https://im-worthy.com/wp-content/plugins/official-mailerlite-sign-up-forms/assets/css/mailerlite_forms.css?ver=1.7.7' type='text/css' media='all' />
+<link rel="preload" class="mv-grow-style" href="https://im-worthy.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1.33.2" as="style"><noscript><link rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://im-worthy.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1.33.2' type='text/css' media='all' />
+</noscript><style id='dpsp-frontend-style-pro-inline-css' type='text/css'>
+
+				@media screen and ( max-width : 720px ) {
+					.dpsp-content-wrapper.dpsp-hide-on-mobile,
+					.dpsp-share-text.dpsp-hide-on-mobile,
+					.dpsp-content-wrapper .dpsp-network-label {
+						display: none;
+					}
+					.dpsp-has-spacing .dpsp-networks-btns-wrapper li {
+						margin:0 2% 10px 0;
+					}
+					.dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count) {
+						max-height: 40px;
+						padding: 0;
+						justify-content: center;
+					}
+					.dpsp-content-wrapper.dpsp-size-small .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 32px;
+					}
+					.dpsp-content-wrapper.dpsp-size-large .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 46px;
+					}
+				}
+			
+			@media screen and ( max-width : 720px ) {
+				aside#dpsp-floating-sidebar.dpsp-hide-on-mobile.opened {
+					display: none;
+				}
+			}
+			
+</style>
+<link rel='stylesheet' id='rt-fontawsome-css' href='https://im-worthy.com/wp-content/plugins/the-post-grid/assets/vendor/font-awesome/css/font-awesome.min.css?ver=7.6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='rt-tpg-css' href='https://im-worthy.com/wp-content/plugins/the-post-grid/assets/css/thepostgrid.min.css?ver=7.6.1' type='text/css' media='all' />
+
+<link rel='stylesheet' id='wpzoom-social-icons-font-awesome-3-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/font-awesome-3.min.css?ver=1712947235' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-styles-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/css/wpzoom-social-icons-styles.css?ver=1712947235' type='text/css' media='all' />
+<link rel='stylesheet' id='scss-css' href='https://im-worthy.com/wp-content/cache/busting/1/sccss.css?ver=1699834250' type='text/css' media='all' />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-academicons-woff2-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/academicons.woff2?v=1.9.2'  type='font/woff2' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-fontawesome-3-woff2-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/fontawesome-webfont.woff2?v=4.7.0'  type='font/woff2' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-fontawesome-5-brands-woff2-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/fa-brands-400.woff2'  type='font/woff2' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-fontawesome-5-regular-woff2-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/fa-regular-400.woff2'  type='font/woff2' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-fontawesome-5-solid-woff2-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/fa-solid-900.woff2'  type='font/woff2' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-genericons-woff-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/Genericons.woff'  type='font/woff' crossorigin />
+<link rel='preload' as='font'  id='wpzoom-social-icons-font-socicon-woff2-css' href='https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/font/socicon.woff2?v=4.2.18'  type='font/woff2' crossorigin />
+<style id='rocket-lazyload-inline-css' type='text/css'>
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:url(https://im-worthy.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}
+</style>
+<link rel='stylesheet' id='slider_styles-css' href='https://im-worthy.com/wp-content/plugins/genesis-responsive-slider/assets/style.css?ver=1.0.1' type='text/css' media='all' />
+<script type="text/javascript" src="https://im-worthy.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer></script>
+<script type="text/javascript" src="https://im-worthy.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer></script>
+<link rel="https://api.w.org/" href="https://im-worthy.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://im-worthy.com/xmlrpc.php?rsd" />
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">var ajaxurl = "https://im-worthy.com/wp-admin/admin-ajax.php";</script><meta name="google-site-verification" content="V9vIlRzsToF9pcNylIFyYxeUStP-9rkBv15f9EKhYTg" />
+
+
+        <!-- MailerLite Universal -->
+        <script type="rocketlazyloadscript">
+            (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+                .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+                n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+            (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+            ml('account', '778846');
+            ml('enablePopups', true);
+        </script>
+        <!-- End MailerLite Universal -->
+        <meta name="hubbub-info" description="Hubbub 1.33.2">
+        <script>window.addEventListener('DOMContentLoaded', function() {
+
+            jQuery(window).on('elementor/frontend/init', function () {
+                var previewIframe = jQuery('#elementor-preview-iframe').get(0);
+
+                // Attach a load event listener to the preview iframe
+                jQuery(previewIframe).on('load', function () {
+                    var tpg_selector = tpg_str_rev("nottub-tropmi-gpttr nottub-aera-noitces-dda-rotnemele");
+
+                    var logo = "https://im-worthy.com/wp-content/plugins/the-post-grid";
+                    var log_path = "/assets/images/icon-40x40.svg"; //tpg_str_rev("gvs.04x04-noci/segami/stessa/");
+
+                    jQuery('<div class="' + tpg_selector + '" style="vertical-align: bottom;margin-left: 5px;"><img src="' + logo + log_path + '" alt="TPG"/></div>').insertBefore(".elementor-add-section-drag-title");
+                });
+
+            });
+        });</script>
+        <style>
+            :root {
+                --tpg-primary-color: #0d6efd;
+                --tpg-secondary-color: #0654c4;
+                --tpg-primary-light: #c4d0ff
+            }
+
+                    </style>
+
+		<style>/* CSS added by WP Meta and Date Remover*/.entry-meta {display:none !important;}
+	.home .entry-meta { display: none; }
+	.entry-footer {display:none !important;}
+	.home .entry-footer { display: none; }</style><style>/* CSS added by WP Meta and Date Remover*/.entry-meta {display:none !important;}
+	.home .entry-meta { display: none; }
+	.entry-footer {display:none !important;}
+	.home .entry-footer { display: none; }</style><style type="text/css"> .tippy-box[data-theme~="wprm"] { background-color: #333333; color: #FFFFFF; } .tippy-box[data-theme~="wprm"][data-placement^="top"] > .tippy-arrow::before { border-top-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="bottom"] > .tippy-arrow::before { border-bottom-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="left"] > .tippy-arrow::before { border-left-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="right"] > .tippy-arrow::before { border-right-color: #333333; } .tippy-box[data-theme~="wprm"] a { color: #FFFFFF; } .wprm-comment-rating svg { width: 18px !important; height: 18px !important; } img.wprm-comment-rating { width: 90px !important; height: 18px !important; } body { --comment-rating-star-color: #f5a623; } body { --wprm-popup-font-size: 16px; } body { --wprm-popup-background: #ffffff; } body { --wprm-popup-title: #000000; } body { --wprm-popup-content: #444444; } body { --wprm-popup-button-background: #444444; } body { --wprm-popup-button-text: #ffffff; }</style><style type="text/css">.wprm-glossary-term {color: #5A822B;text-decoration: underline;cursor: help;}</style><style type="text/css">.wprm-recipe-template-chic {
+    margin: 20px auto;
+    background-color: #fafafa; /* wprm_background type=color */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_main_font_family type=font */
+    font-size: 0.9em; /* wprm_main_font_size type=font_size */
+    line-height: 1.5em; /* wprm_main_line_height type=font_size */
+    color: #333333; /* wprm_main_text type=color */
+    max-width: 650px; /* wprm_max_width type=size */
+}
+.wprm-recipe-template-chic a {
+    color: #3498db; /* wprm_link type=color */
+}
+.wprm-recipe-template-chic p, .wprm-recipe-template-chic li {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_main_font_family type=font */
+    font-size: 1em !important;
+    line-height: 1.5em !important; /* wprm_main_line_height type=font_size */
+}
+.wprm-recipe-template-chic li {
+    margin: 0 0 0 32px !important;
+    padding: 0 !important;
+}
+.rtl .wprm-recipe-template-chic li {
+    margin: 0 32px 0 0 !important;
+}
+.wprm-recipe-template-chic ol, .wprm-recipe-template-chic ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-chic br {
+    display: none;
+}
+.wprm-recipe-template-chic .wprm-recipe-name,
+.wprm-recipe-template-chic .wprm-recipe-header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_header_font_family type=font */
+    color: #000000; /* wprm_header_text type=color */
+    line-height: 1.3em; /* wprm_header_line_height type=font_size */
+}
+.wprm-recipe-template-chic h1,
+.wprm-recipe-template-chic h2,
+.wprm-recipe-template-chic h3,
+.wprm-recipe-template-chic h4,
+.wprm-recipe-template-chic h5,
+.wprm-recipe-template-chic h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_header_font_family type=font */
+    color: #212121; /* wprm_header_text type=color */
+    line-height: 1.3em; /* wprm_header_line_height type=font_size */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-chic .wprm-recipe-header {
+    margin-top: 1.2em !important;
+}
+.wprm-recipe-template-chic h1 {
+    font-size: 2em; /* wprm_h1_size type=font_size */
+}
+.wprm-recipe-template-chic h2 {
+    font-size: 1.8em; /* wprm_h2_size type=font_size */
+}
+.wprm-recipe-template-chic h3 {
+    font-size: 1.2em; /* wprm_h3_size type=font_size */
+}
+.wprm-recipe-template-chic h4 {
+    font-size: 1em; /* wprm_h4_size type=font_size */
+}
+.wprm-recipe-template-chic h5 {
+    font-size: 1em; /* wprm_h5_size type=font_size */
+}
+.wprm-recipe-template-chic h6 {
+    font-size: 1em; /* wprm_h6_size type=font_size */
+}.wprm-recipe-template-chic {
+    font-size: 1em; /* wprm_main_font_size type=font_size */
+	border-style: solid; /* wprm_border_style type=border */
+	border-width: 1px; /* wprm_border_width type=size */
+	border-color: #E0E0E0; /* wprm_border type=color */
+    padding: 10px;
+    background-color: #ffffff; /* wprm_background type=color */
+    max-width: 950px; /* wprm_max_width type=size */
+}
+.wprm-recipe-template-chic a {
+    color: #5A822B; /* wprm_link type=color */
+}
+.wprm-recipe-template-chic .wprm-recipe-name {
+    line-height: 1.3em;
+    font-weight: bold;
+}
+.wprm-recipe-template-chic .wprm-template-chic-buttons {
+	clear: both;
+    font-size: 0.9em;
+    text-align: center;
+}
+.wprm-recipe-template-chic .wprm-template-chic-buttons .wprm-recipe-icon {
+    margin-right: 5px;
+}
+.wprm-recipe-template-chic .wprm-recipe-header {
+	margin-bottom: 0.5em !important;
+}
+.wprm-recipe-template-chic .wprm-nutrition-label-container {
+	font-size: 0.9em;
+}
+.wprm-recipe-template-chic .wprm-call-to-action {
+	border-radius: 3px;
+}.wprm-recipe-template-classic {
+    margin: 20px auto;
+    background-color: #fafafa; /* wprm_background type=color */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_main_font_family type=font */
+    font-size: 0.9em; /* wprm_main_font_size type=font_size */
+    line-height: 1.5em; /* wprm_main_line_height type=font_size */
+    color: #333333; /* wprm_main_text type=color */
+    max-width: 650px; /* wprm_max_width type=size */
+}
+.wprm-recipe-template-classic a {
+    color: #3498db; /* wprm_link type=color */
+}
+.wprm-recipe-template-classic p, .wprm-recipe-template-classic li {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_main_font_family type=font */
+    font-size: 1em !important;
+    line-height: 1.5em !important; /* wprm_main_line_height type=font_size */
+}
+.wprm-recipe-template-classic li {
+    margin: 0 0 0 32px !important;
+    padding: 0 !important;
+}
+.rtl .wprm-recipe-template-classic li {
+    margin: 0 32px 0 0 !important;
+}
+.wprm-recipe-template-classic ol, .wprm-recipe-template-classic ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-classic br {
+    display: none;
+}
+.wprm-recipe-template-classic .wprm-recipe-name,
+.wprm-recipe-template-classic .wprm-recipe-header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_header_font_family type=font */
+    color: #000000; /* wprm_header_text type=color */
+    line-height: 1.3em; /* wprm_header_line_height type=font_size */
+}
+.wprm-recipe-template-classic h1,
+.wprm-recipe-template-classic h2,
+.wprm-recipe-template-classic h3,
+.wprm-recipe-template-classic h4,
+.wprm-recipe-template-classic h5,
+.wprm-recipe-template-classic h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /* wprm_header_font_family type=font */
+    color: #212121; /* wprm_header_text type=color */
+    line-height: 1.3em; /* wprm_header_line_height type=font_size */
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-classic .wprm-recipe-header {
+    margin-top: 1.2em !important;
+}
+.wprm-recipe-template-classic h1 {
+    font-size: 2em; /* wprm_h1_size type=font_size */
+}
+.wprm-recipe-template-classic h2 {
+    font-size: 1.8em; /* wprm_h2_size type=font_size */
+}
+.wprm-recipe-template-classic h3 {
+    font-size: 1.2em; /* wprm_h3_size type=font_size */
+}
+.wprm-recipe-template-classic h4 {
+    font-size: 1em; /* wprm_h4_size type=font_size */
+}
+.wprm-recipe-template-classic h5 {
+    font-size: 1em; /* wprm_h5_size type=font_size */
+}
+.wprm-recipe-template-classic h6 {
+    font-size: 1em; /* wprm_h6_size type=font_size */
+}.wprm-recipe-template-classic {
+	border-top-style: solid; /* wprm_border_style type=border */
+	border-top-width: 1px; /* wprm_border_top_width type=size */
+	border-top-color: #aaaaaa; /* wprm_border_top type=color */
+	padding: 10px;
+}.wprm-recipe-template-new-recipe-card {
+    margin: 20px auto;
+    background-color: #ffffff; /*wprm_background type=color*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /*wprm_main_font_family type=font*/
+    font-size: 1em; /*wprm_main_font_size type=font_size*/
+    line-height: 1.5em !important; /*wprm_main_line_height type=font_size*/
+    color: #333333; /*wprm_main_text type=color*/
+    max-width: 950px; /*wprm_max_width type=size*/
+}
+.wprm-recipe-template-new-recipe-card a {
+    color: #b88b8f; /*wprm_link type=color*/
+}
+.wprm-recipe-template-new-recipe-card p, .wprm-recipe-template-new-recipe-card li {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /*wprm_main_font_family type=font*/
+    font-size: 1em !important;
+    line-height: 1.5em !important; /*wprm_main_line_height type=font_size*/
+}
+.wprm-recipe-template-new-recipe-card li {
+    margin: 0 0 0 32px !important;
+    padding: 0 !important;
+}
+.rtl .wprm-recipe-template-new-recipe-card li {
+    margin: 0 32px 0 0 !important;
+}
+.wprm-recipe-template-new-recipe-card ol, .wprm-recipe-template-new-recipe-card ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-new-recipe-card br {
+    display: none;
+}
+.wprm-recipe-template-new-recipe-card .wprm-recipe-name,
+.wprm-recipe-template-new-recipe-card .wprm-recipe-header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /*wprm_header_font_family type=font*/
+    color: #212121; /*wprm_header_text type=color*/
+    line-height: 1.3em; /*wprm_header_line_height type=font_size*/
+}
+.wprm-recipe-template-new-recipe-card h1,
+.wprm-recipe-template-new-recipe-card h2,
+.wprm-recipe-template-new-recipe-card h3,
+.wprm-recipe-template-new-recipe-card h4,
+.wprm-recipe-template-new-recipe-card h5,
+.wprm-recipe-template-new-recipe-card h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; /*wprm_header_font_family type=font*/
+    color: #212121; /*wprm_header_text type=color*/
+    line-height: 1.3em; /*wprm_header_line_height type=font_size*/
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.wprm-recipe-template-new-recipe-card .wprm-recipe-header {
+    margin-top: 1.2em !important;
+}
+.wprm-recipe-template-new-recipe-card h1 {
+    font-size: 2em; /*wprm_h1_size type=font_size*/
+}
+.wprm-recipe-template-new-recipe-card h2 {
+    font-size: 1.8em; /*wprm_h2_size type=font_size*/
+}
+.wprm-recipe-template-new-recipe-card h3 {
+    font-size: 1.2em; /*wprm_h3_size type=font_size*/
+}
+.wprm-recipe-template-new-recipe-card h4 {
+    font-size: 1em; /*wprm_h4_size type=font_size*/
+}
+.wprm-recipe-template-new-recipe-card h5 {
+    font-size: 1em; /*wprm_h5_size type=font_size*/
+}
+.wprm-recipe-template-new-recipe-card h6 {
+    font-size: 1em; /*wprm_h6_size type=font_size*/
+}.wprm-recipe-template-new-recipe-card {
+    font-size: 1em; /*wprm_main_font_size type=font_size*/
+	border-style: solid; /*wprm_border_style type=border*/
+	border-width: 1px; /*wprm_border_width type=size*/
+	border-color: #E0E0E0; /*wprm_border type=color*/
+    padding: 10px;
+    background-color: #ffffff; /*wprm_background type=color*/
+    max-width: 950px; /*wprm_max_width type=size*/
+}
+.wprm-recipe-template-new-recipe-card a {
+    color: #b88b8f; /*wprm_link type=color*/
+}
+.wprm-recipe-template-new-recipe-card .wprm-recipe-name {
+    line-height: 1.3em;
+    font-weight: bold;
+}
+.wprm-recipe-template-new-recipe-card .wprm-template-chic-buttons {
+	clear: both;
+    font-size: 0.9em;
+    text-align: center;
+}
+.wprm-recipe-template-new-recipe-card .wprm-template-chic-buttons .wprm-recipe-icon {
+    margin-right: 5px;
+}
+.wprm-recipe-template-new-recipe-card .wprm-recipe-header {
+	margin-bottom: 0.5em !important;
+}
+.wprm-recipe-template-new-recipe-card .wprm-nutrition-label-container {
+	font-size: 0.9em;
+}
+.wprm-recipe-template-new-recipe-card .wprm-call-to-action {
+	border-radius: 3px;
+}</style><link rel="pingback" href="https://im-worthy.com/xmlrpc.php" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script type="rocketlazyloadscript" async data-rocket-src="https://www.googletagmanager.com/gtag/js?id=G-3GSG9H7Y9H"></script>
+<script type="rocketlazyloadscript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127033081-1');
+  gtag('config', 'G-3GSG9H7Y9H');
+</script><style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><link rel="icon" href="https://im-worthy.com/wp-content/uploads/2018/12/cropped-02-Alt-Logo-Source-File-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://im-worthy.com/wp-content/uploads/2018/12/cropped-02-Alt-Logo-Source-File-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://im-worthy.com/wp-content/uploads/2018/12/cropped-02-Alt-Logo-Source-File-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://im-worthy.com/wp-content/uploads/2018/12/cropped-02-Alt-Logo-Source-File-1-270x270.png" />
+<style id="sccss">h1.entry-title {
+  text-align: center;
+  width: 100%;
+}
+</style><noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="home blog rttpg rttpg-7.6.1 radius-frontend rttpg-body-wrap rttpg-flaticon custom-header header-image header-full-width content-sidebar genesis-breadcrumbs-hidden genesis-footer-widgets-visible foodie-pro"><div class="site-container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li><li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li><li><a href="#genesis-footer-widgets" class="screen-reader-shortcut"> Skip to footer</a></li></ul><header class="site-header"><div class="wrap"><div class="title-area"><div class="site-title"><a href="https://im-worthy.com/" title="IM-WORTHY" ><img width="500" height="113" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20113'%3E%3C/svg%3E" title="IM-WORTHY" alt="IM-WORTHY"  data-pin-nopin="true" data-lazy-src="https://www.im-worthy.com/wp-content/uploads/2018/12/cropped-imageedit_52_6027994845-2.png" /><noscript><img width="500" height="113" src="https://www.im-worthy.com/wp-content/uploads/2018/12/cropped-imageedit_52_6027994845-2.png" title="IM-WORTHY" alt="IM-WORTHY"  data-pin-nopin="true" /></noscript></a></div></div></div></header><nav class="nav-primary" aria-label="Main" id="genesis-nav-primary"><div class="wrap"><ul id="menu-nav" class="menu genesis-nav-menu menu-primary"><li id="menu-item-4213" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4213"><a href="https://www.im-worthy.com/"><span >Home</span></a></li>
+<li id="menu-item-328" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-328"><a href="https://www.im-worthy.com/about"><span >About</span></a></li>
+<li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="https://im-worthy.com/recipes/"><span >Recipes</span></a></li>
+<li id="menu-item-473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-473"><a href="https://im-worthy.com/wellness/"><span >Wellness</span></a></li>
+<li id="foodie-search" class="foodie-search menu-item"><form class="search-form" method="get" action="https://im-worthy.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://im-worthy.com/?s={s}"></form></li></ul></div></nav><div class="site-inner"><div class="content-sidebar-wrap"><main class="content" id="genesis-content"><div class="widget-area home-top"><section id="custom_html-2" class="widget_text widget widget_custom_html"><div class="widget_text widget-wrap"><div class="textwidget custom-html-widget"><h1>Discover Love in Every Plant-Based Bite</h1></div></div></section>
+</div> <!-- end .home-top --><div class="widget-area home-middle"><section id="featured-post-8" class="widget featured-content featuredpost"><div class="widget-wrap"><article class="post-14126 post type-post status-publish format-standard has-post-thumbnail category-vegan-recipes category-vegan-desserts entry" aria-label="30-Minute Vegan Almond Butter Cookies"><header class="entry-header"><h2 class="entry-title"><a href="https://im-worthy.com/vegan-almond-butter-cookies/">30-Minute Vegan Almond Butter Cookies</a></h2></header><a href="https://im-worthy.com/vegan-almond-butter-cookies/" title="30-Minute Vegan Almond Butter Cookies" class="aligncenter"><img width="720" height="900" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20900'%3E%3C/svg%3E" class="entry-image attachment-post" alt="vegan almond butter cookies with chocolate chips and orange zest" decoding="async" data-pin-description="Indulge in the irresistible goodness of Vegan Almond Butter Cookies – a perfect blend of plant-based delights! These dairy-free, egg-free delights are a sweet symphony of almond butter, vegan chocolate chips, and a hint of fresh orange zest. Dive into the world of vegan baking with this easy, flavorful treat. #VeganCookies #PlantBasedDesserts #AlmondButterRecipe #VeganBaking #DairyFreeSweets" data-pin-title="Vegan Almond Butter Cookies" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=15081" data-lazy-src="https://im-worthy.com/wp-content/uploads/2024/03/Vegan-Almond-Butter-Cookies_blog-01-720x900.jpg" /><noscript><img width="720" height="900" src="https://im-worthy.com/wp-content/uploads/2024/03/Vegan-Almond-Butter-Cookies_blog-01-720x900.jpg" class="entry-image attachment-post" alt="vegan almond butter cookies with chocolate chips and orange zest" decoding="async" data-pin-description="Indulge in the irresistible goodness of Vegan Almond Butter Cookies – a perfect blend of plant-based delights! These dairy-free, egg-free delights are a sweet symphony of almond butter, vegan chocolate chips, and a hint of fresh orange zest. Dive into the world of vegan baking with this easy, flavorful treat. #VeganCookies #PlantBasedDesserts #AlmondButterRecipe #VeganBaking #DairyFreeSweets" data-pin-title="Vegan Almond Butter Cookies" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=15081" /></noscript></a><div class="entry-content"><p>Indulge in the warm embrace of guilt-free goodness with our&nbsp;Vegan Almond Butter Cookies, featuring dairy-free chocolate chips and a hint of refreshing orange zest.&nbsp; Table of Contents 3 Reasons you&#8217;ll love these vegan almond butter cookies Vegan Almond Butter Cookie Ingredients How to make vegan almond butter cookies Top Tips for Perfect Almond Butter Cookies:&#8230;</p>
+<p><a class="more-link" href="https://im-worthy.com/vegan-almond-butter-cookies/">Read More</a></p>
+</div></article></div></section>
+</div> <!-- end .home-middle --><div class="widget-area home-bottom"><section id="featured-post-3" class="widget featured-content featuredpost"><div class="widget-wrap"><article class="post-13812 post type-post status-publish format-standard has-post-thumbnail category-vegan-recipes category-drinks tag-elderberry-tea entry" aria-label="2-Ingredient Elderberry Tea Recipe"><a href="https://im-worthy.com/elderberry-tea-recipe/" title="2-Ingredient Elderberry Tea Recipe" class="alignleft"><img width="360" height="361" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20360%20361'%3E%3C/svg%3E" class="entry-image attachment-post" alt="2 cups of Elderberry tea" decoding="async" data-pin-description="Sip your way to wellness with this cozy Elderberry Tea recipe, infused with the rich goodness of elderberries, aromatic cinnamon, and invigorating ginger. Embrace the comforting warmth and immune-boosting benefits in every flavorful cup! #ElderberryTea #TeaRecipe #ImmuneBoost #WarmthAndWellness" data-pin-title="Elderberry Tea Recipe" data-pin-url="https://im-worthy.com/elderberry-tea-recipe/?tp_image_id=13939" data-lazy-src="https://im-worthy.com/wp-content/uploads/2024/01/Elderberry-Tea-Recipe_Blog-4-360x361.jpg" /><noscript><img width="360" height="361" src="https://im-worthy.com/wp-content/uploads/2024/01/Elderberry-Tea-Recipe_Blog-4-360x361.jpg" class="entry-image attachment-post" alt="2 cups of Elderberry tea" decoding="async" data-pin-description="Sip your way to wellness with this cozy Elderberry Tea recipe, infused with the rich goodness of elderberries, aromatic cinnamon, and invigorating ginger. Embrace the comforting warmth and immune-boosting benefits in every flavorful cup! #ElderberryTea #TeaRecipe #ImmuneBoost #WarmthAndWellness" data-pin-title="Elderberry Tea Recipe" data-pin-url="https://im-worthy.com/elderberry-tea-recipe/?tp_image_id=13939" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://im-worthy.com/elderberry-tea-recipe/">2-Ingredient Elderberry Tea Recipe</a></h2></header><div class="entry-content"><p>Indulge in the comforting warmth and wellness of this&nbsp;elderberry tea recipe, a delightful elixir that tantalizes your taste buds and nourishes your soul. Why You&#8217;ll Love This Tea Recipe: Elderberry Benefits: Beyond its delightful taste, Elderberry tea is celebrated for its&nbsp;immune-boosting properties, helping your body stand strong against the challenges life throws your way. Packed&#8230;</p>
+<p><a class="more-link" href="https://im-worthy.com/elderberry-tea-recipe/">Read More</a></p>
+</div></article><article class="post-13807 post type-post status-publish format-standard has-post-thumbnail category-vegan-recipes category-drinks tag-turmeric-latte entry" aria-label="10-Minute Vegan Golden Milk Latte"><a href="https://im-worthy.com/turmeric-golden-milk-latte/" title="10-Minute Vegan Golden Milk Latte" class="alignleft"><img width="360" height="361" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20360%20361'%3E%3C/svg%3E" class="entry-image attachment-post" alt="golden milk latte" decoding="async" data-pin-description="Indulge in the soothing warmth of this Vegan Golden Milk Latte recipe, a comforting elixir enriched with the golden goodness of turmeric and a symphony of aromatic spices. Discover the delightful taste and numerous health benefits in every sip! #GoldenMilk #TurmericLatte #VeganRecipe #Spices" data-pin-title="Golden Milk Latte" data-pin-url="https://im-worthy.com/turmeric-golden-milk-latte/?tp_image_id=13905" data-lazy-src="https://im-worthy.com/wp-content/uploads/2024/01/Golden-Milk-Latte_Blog-04-360x361.jpg" /><noscript><img width="360" height="361" src="https://im-worthy.com/wp-content/uploads/2024/01/Golden-Milk-Latte_Blog-04-360x361.jpg" class="entry-image attachment-post" alt="golden milk latte" decoding="async" data-pin-description="Indulge in the soothing warmth of this Vegan Golden Milk Latte recipe, a comforting elixir enriched with the golden goodness of turmeric and a symphony of aromatic spices. Discover the delightful taste and numerous health benefits in every sip! #GoldenMilk #TurmericLatte #VeganRecipe #Spices" data-pin-title="Golden Milk Latte" data-pin-url="https://im-worthy.com/turmeric-golden-milk-latte/?tp_image_id=13905" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://im-worthy.com/turmeric-golden-milk-latte/">10-Minute Vegan Golden Milk Latte</a></h2></header><div class="entry-content"><p>Savor the wholesome, healing, and anti-inflammatory goodness of a Golden Milk Latte, a dairy-free and paleo-friendly indulgence that&#8217;s rich and creamy. Table of Contents What is a Golden Milk latte? &nbsp;A golden milk latte, or turmeric latte, is a warm and comforting beverage crafted with turmeric, often featuring other spices like ginger, cinnamon, and black&#8230;</p>
+<p><a class="more-link" href="https://im-worthy.com/turmeric-golden-milk-latte/">Read More</a></p>
+</div></article><article class="post-13804 post type-post status-publish format-standard has-post-thumbnail category-vegan-recipes category-drinks tag-lymphatic-drainage-tea entry" aria-label="Lymphatic Drainage Tea"><a href="https://im-worthy.com/best-lymphatic-drainage-tea/" title="Lymphatic Drainage Tea" class="alignleft"><img width="360" height="361" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20360%20361'%3E%3C/svg%3E" class="entry-image attachment-post" alt="lymphatic tea in white cups with herbs in white bowl" decoding="async" data-pin-description="Elevate your wellness routine with this invigorating Lymphatic Drainage Tea! Crafted with a blend of nature&#039;s herbs, this soothing tea is designed to support your body&#039;s natural detox process. Sip and embrace a moment of self-care. #TeaTime #LymphaticDrainage #Wellness #SelfCare" data-pin-title="Lymphatic Drainage Tea" data-pin-url="https://im-worthy.com/best-lymphatic-drainage-tea/?tp_image_id=13910" data-lazy-src="https://im-worthy.com/wp-content/uploads/2024/01/Lymphatic-Drainage-Tea_blog-1-360x361.jpg" /><noscript><img width="360" height="361" src="https://im-worthy.com/wp-content/uploads/2024/01/Lymphatic-Drainage-Tea_blog-1-360x361.jpg" class="entry-image attachment-post" alt="lymphatic tea in white cups with herbs in white bowl" decoding="async" data-pin-description="Elevate your wellness routine with this invigorating Lymphatic Drainage Tea! Crafted with a blend of nature&#039;s herbs, this soothing tea is designed to support your body&#039;s natural detox process. Sip and embrace a moment of self-care. #TeaTime #LymphaticDrainage #Wellness #SelfCare" data-pin-title="Lymphatic Drainage Tea" data-pin-url="https://im-worthy.com/best-lymphatic-drainage-tea/?tp_image_id=13910" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://im-worthy.com/best-lymphatic-drainage-tea/">Lymphatic Drainage Tea</a></h2></header><div class="entry-content"><p>Each sip of lymphatic drainage tea is a moment of self-care, embracing the healing harmony of nature&#8217;s herbs. What is the lymphatic system? Ever wonder who&#8217;s tirelessly cleaning up after every part of your body? That&#8217;s the lymphatic system—the largest circulatory network, a massive guardian surrounding all your organs. Like a diligent custodian, it sweeps&#8230;</p>
+<p><a class="more-link" href="https://im-worthy.com/best-lymphatic-drainage-tea/">Read More</a></p>
+</div></article><article class="post-13015 post type-post status-publish format-standard has-post-thumbnail category-vegan-recipes category-side-dish-recipes tag-vegan-stuffed-mushrooms entry" aria-label="Cheesy Vegan Stuffed Mushroom Recipe"><a href="https://im-worthy.com/vegan-stuffed-mushroom-recipe/" title="Cheesy Vegan Stuffed Mushroom Recipe" class="alignleft"><img width="360" height="361" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20360%20361'%3E%3C/svg%3E" class="entry-image attachment-post" alt="vegan cream cheese stuffed mushrooms" decoding="async" data-pin-description="Indulge in the savory goodness of our Vegan Stuffed Mushrooms recipe – plump portobellos filled with a creamy, flavorful blend, a perfect appetizer for any occasion. #VeganRecipes #StuffedMushrooms #Appetizers #HolidayRecipe" data-pin-title="Vegan Stuffed Mushrooms" data-pin-id="vegan stuffed mushrooms with lemon wedges" data-pin-url="https://im-worthy.com/vegan-stuffed-mushroom-recipe/?tp_image_id=13041" data-lazy-src="https://im-worthy.com/wp-content/uploads/2023/11/Vegan-Stuffed-Mushrooms_blog-02-360x361.jpg" /><noscript><img width="360" height="361" src="https://im-worthy.com/wp-content/uploads/2023/11/Vegan-Stuffed-Mushrooms_blog-02-360x361.jpg" class="entry-image attachment-post" alt="vegan cream cheese stuffed mushrooms" decoding="async" data-pin-description="Indulge in the savory goodness of our Vegan Stuffed Mushrooms recipe – plump portobellos filled with a creamy, flavorful blend, a perfect appetizer for any occasion. #VeganRecipes #StuffedMushrooms #Appetizers #HolidayRecipe" data-pin-title="Vegan Stuffed Mushrooms" data-pin-id="vegan stuffed mushrooms with lemon wedges" data-pin-url="https://im-worthy.com/vegan-stuffed-mushroom-recipe/?tp_image_id=13041" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://im-worthy.com/vegan-stuffed-mushroom-recipe/">Cheesy Vegan Stuffed Mushroom Recipe</a></h2></header><div class="entry-content"><p>Picture this: plump and savory, our&nbsp;vegan stuffed mushroom recipe&nbsp;is brimming with a velvety blend of creaminess, earthy flavors, and a delightful crunch. As the holiday season approaches, we&#8217;re all searching for delicious, heartwarming dishes&nbsp;that not only please the palate but also align with our values. Enter our parmesan cheese stuffed mushrooms, the perfect addition to&#8230;</p>
+<p><a class="more-link" href="https://im-worthy.com/vegan-stuffed-mushroom-recipe/">Read More</a></p>
+</div></article><article class="post-12147 post type-post status-publish format-standard has-post-thumbnail category-vegan-recipes category-vegan-desserts category-vegan-snacks tag-oatmeal-energy-balls entry" aria-label="Cranberry-Walnut Oatmeal Energy Balls  "><a href="https://im-worthy.com/cranberry-walnut-oatmeal-energy-balls/" title="Cranberry-Walnut Oatmeal Energy Balls  " class="alignleft"><img width="360" height="361" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20360%20361'%3E%3C/svg%3E" class="entry-image attachment-post" alt="cranberry-walnut oatmeal energy bites" decoding="async" data-pin-description="Elevate your snacking game with these delightful Cranberry-Walnut Oatmeal Energy Balls. Crafted with love, they&#039;re vegan, gluten-free, and provide a quick, wholesome energy boost to keep you energized throughout the day. These no-bake wonders combine the sweet notes of cranberries with the brain-boosting goodness of walnuts. Plus, they&#039;re perfect for meal prepping and keeping your snacking habits both delicious and nutritious. #EnergyBites" data-pin-title="Cranberry-Walnut Oatmeal Energy Balls" data-pin-url="https://im-worthy.com/cranberry-walnut-oatmeal-energy-balls/?tp_image_id=12921" data-lazy-src="https://im-worthy.com/wp-content/uploads/2023/10/Oatmeal-Energy-Balls_blog-10-360x361.jpg" /><noscript><img width="360" height="361" src="https://im-worthy.com/wp-content/uploads/2023/10/Oatmeal-Energy-Balls_blog-10-360x361.jpg" class="entry-image attachment-post" alt="cranberry-walnut oatmeal energy bites" decoding="async" data-pin-description="Elevate your snacking game with these delightful Cranberry-Walnut Oatmeal Energy Balls. Crafted with love, they&#039;re vegan, gluten-free, and provide a quick, wholesome energy boost to keep you energized throughout the day. These no-bake wonders combine the sweet notes of cranberries with the brain-boosting goodness of walnuts. Plus, they&#039;re perfect for meal prepping and keeping your snacking habits both delicious and nutritious. #EnergyBites" data-pin-title="Cranberry-Walnut Oatmeal Energy Balls" data-pin-url="https://im-worthy.com/cranberry-walnut-oatmeal-energy-balls/?tp_image_id=12921" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://im-worthy.com/cranberry-walnut-oatmeal-energy-balls/">Cranberry-Walnut Oatmeal Energy Balls  </a></h2></header><div class="entry-content"><p>Elevate your snacking game with these oatmeal energy balls, a perfect blend of cranberries, walnuts, and oats, crafted for a quick and tasty pick-me-up. Welcome to our cozy kitchen, where we&#8217;re about to whip up something truly delightful for both your taste buds and well-being. Today, we&#8217;re diving into the world of&nbsp;Cranberry-Walnut Energy Oatmeal Bites&#8230;.</p>
+<p><a class="more-link" href="https://im-worthy.com/cranberry-walnut-oatmeal-energy-balls/">Read More</a></p>
+</div></article></div></section>
+<section id="text-6" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><p><a href="https://www.im-worthy.com/recipes/">MORE RECIPES →</a></p>
+</div>
+		</div></section>
+</div> <!-- end .home-bottom --></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" id="genesis-sidebar-primary"><h2 class="genesis-sidebar-title screen-reader-text">Primary Sidebar</h2><section id="user-profile-2" class="widget user-profile"><div class="widget-wrap"><h3 class="widgettitle widget-title">WELCOME TO IM-WORTHY!</h3>
+<p><img data-pin-nopin="nopin" alt='' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20125%20125'%3E%3C/svg%3E" data-lazy-srcset='https://secure.gravatar.com/avatar/2c1dd40265dfdfced1e69bed4c2b5058?s=250&#038;d=mm&#038;r=g 2x' class='avatar avatar-125 photo' height='125' width='125' decoding='async' data-lazy-src="https://secure.gravatar.com/avatar/2c1dd40265dfdfced1e69bed4c2b5058?s=125&#038;d=mm&#038;r=g"/><noscript><img data-pin-nopin="nopin" alt='' src='https://secure.gravatar.com/avatar/2c1dd40265dfdfced1e69bed4c2b5058?s=125&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2c1dd40265dfdfced1e69bed4c2b5058?s=250&#038;d=mm&#038;r=g 2x' class='avatar avatar-125 photo' height='125' width='125' decoding='async'/></noscript>I'm Shana, the creator of Im-Worthy.com, capturing life's beauty through food stories. As a food photographer and writer, I empower busy women with easy plant-based and vegan recipes for vibrant, healthy living.  <a class="pagelink" href="https://im-worthy.com/about/">MORE ABOUT ME →</a></p>
+</div></section>
+<section id="zoom-social-icons-widget-2" class="widget zoom-social-icons-widget"><div class="widget-wrap">
+		
+<ul class="zoom-social-icons-list zoom-social-icons-list--with-canvas zoom-social-icons-list--round zoom-social-icons-list--align-center zoom-social-icons-list--no-labels">
+
+		
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.instagram.com/imworthykitchen/" target="_blank" title="Instagram" >
+									
+						<span class="screen-reader-text">instagram</span>
+			
+						<span class="zoom-social_icons-list-span social-icon socicon socicon-instagram" data-hover-rule="background-color" data-hover-color="#ce8cac" style="background-color : #000000; font-size: 18px; padding:8px" ></span>
+			
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.youtube.com/c/ShanaThomas" target="_blank" title="Facebook" >
+									
+						<span class="screen-reader-text">youtube</span>
+			
+						<span class="zoom-social_icons-list-span social-icon socicon socicon-youtube" data-hover-rule="background-color" data-hover-color="#ce8cac" style="background-color : #000000; font-size: 18px; padding:8px" ></span>
+			
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.tiktok.com/@imworthykitchen" target="_blank" title="Default Label" >
+									
+						<span class="screen-reader-text">tiktok</span>
+			
+						<span class="zoom-social_icons-list-span social-icon socicon socicon-tiktok" data-hover-rule="background-color" data-hover-color="#ce8cac" style="background-color : #000000; font-size: 18px; padding:8px" ></span>
+			
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.pinterest.com/ImWorthyblog/" target="_blank" title="Default Label" >
+									
+						<span class="screen-reader-text">pinterest</span>
+			
+						<span class="zoom-social_icons-list-span social-icon socicon socicon-pinterest" data-hover-rule="background-color" data-hover-color="#ce8cac" style="background-color : #000000; font-size: 18px; padding:8px" ></span>
+			
+					</a>
+	</li>
+
+	
+</ul>
+
+		</div></section>
+<section id="text-15" class="widget widget_text"><div class="widget-wrap"><h3 class="widgettitle widget-title">TRENDING RECIPES</h3>
+			<div class="textwidget"></div>
+		</div></section>
+<section id="media_image-10" class="widget widget_media_image"><div class="widget-wrap"><h3 class="widgettitle widget-title">Lymphatic Drainage Tea</h3>
+<a href="https://im-worthy.com/best-lymphatic-drainage-tea/" target="_blank" rel="noopener"><img width="1087" height="1200" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201087%201200'%3E%3C/svg%3E" class="image wp-image-13911  attachment-full size-full" alt="lymphatic tea in white cups with herbs in white bowl" style="max-width: 100%; height: auto;" title="Vegan Lentil Meatloaf" decoding="async" fetchpriority="high" data-pin-description="Elevate your wellness routine with this invigorating Lymphatic Drainage Tea! Crafted with a blend of nature&#039;s herbs, this soothing tea is designed to support your body&#039;s natural detox process. Sip and embrace a moment of self-care. #TeaTime #LymphaticDrainage #Wellness #SelfCare" data-pin-title="Lymphatic Drainage Tea" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=13911" data-lazy-src="https://im-worthy.com/wp-content/uploads/2024/01/Lymphatic-Drainage-Tea_blog-2.jpg" /><noscript><img width="1087" height="1200" src="https://im-worthy.com/wp-content/uploads/2024/01/Lymphatic-Drainage-Tea_blog-2.jpg" class="image wp-image-13911  attachment-full size-full" alt="lymphatic tea in white cups with herbs in white bowl" style="max-width: 100%; height: auto;" title="Vegan Lentil Meatloaf" decoding="async" fetchpriority="high" data-pin-description="Elevate your wellness routine with this invigorating Lymphatic Drainage Tea! Crafted with a blend of nature&#039;s herbs, this soothing tea is designed to support your body&#039;s natural detox process. Sip and embrace a moment of self-care. #TeaTime #LymphaticDrainage #Wellness #SelfCare" data-pin-title="Lymphatic Drainage Tea" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=13911" /></noscript></a></div></section>
+<section id="media_image-13" class="widget widget_media_image"><div class="widget-wrap"><h3 class="widgettitle widget-title">Creamy Lemon Pasta</h3>
+<a href="https://im-worthy.com/vegan-lemon-pasta/"><img width="241" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20241%20300'%3E%3C/svg%3E" class="image wp-image-10843  attachment-medium size-medium" alt="lemon pasta with chickpeas in green bowl" style="max-width: 100%; height: auto;" decoding="async" data-pin-description="The best vegan lemon pasta with lemon sauce, asparagus, roasted chickpeas, capers, basil, parsley, nutritional yeast, and more. It’s simple, healthy, easy, and a one-pot recipe. It can be made with peas, coconut milk, spinach, zucchini, or any vegetable of your choice. #VeganLemonPasta" data-pin-title="Creamy Vegan Lemon Pasta" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=10843" data-lazy-src="https://im-worthy.com/wp-content/uploads/2023/05/Vegan-Lemon-Pasta-with-Asparagus_blog7-241x300.jpg" /><noscript><img width="241" height="300" src="https://im-worthy.com/wp-content/uploads/2023/05/Vegan-Lemon-Pasta-with-Asparagus_blog7-241x300.jpg" class="image wp-image-10843  attachment-medium size-medium" alt="lemon pasta with chickpeas in green bowl" style="max-width: 100%; height: auto;" decoding="async" data-pin-description="The best vegan lemon pasta with lemon sauce, asparagus, roasted chickpeas, capers, basil, parsley, nutritional yeast, and more. It’s simple, healthy, easy, and a one-pot recipe. It can be made with peas, coconut milk, spinach, zucchini, or any vegetable of your choice. #VeganLemonPasta" data-pin-title="Creamy Vegan Lemon Pasta" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=10843" /></noscript></a></div></section>
+<section id="media_image-7" class="widget widget_media_image"><div class="widget-wrap"><h3 class="widgettitle widget-title">23 Healthy Salad Recipes</h3>
+<a href="https://im-worthy.com/23-vegan-salad-recipes/" target="_blank" rel="noopener"><img width="1080" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201080%201080'%3E%3C/svg%3E" class="image wp-image-5404  attachment-full size-full" alt="23 Salad Recipes By Im-Worthy.com" style="max-width: 100%; height: auto;" title="Buffalo Cauliflower Wings" decoding="async" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=5404" data-lazy-src="https://im-worthy.com/wp-content/uploads/2022/01/Salad-Recipes-By-Im-Worthy.com_.png" /><noscript><img width="1080" height="1080" src="https://im-worthy.com/wp-content/uploads/2022/01/Salad-Recipes-By-Im-Worthy.com_.png" class="image wp-image-5404  attachment-full size-full" alt="23 Salad Recipes By Im-Worthy.com" style="max-width: 100%; height: auto;" title="Buffalo Cauliflower Wings" decoding="async" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=5404" /></noscript></a></div></section>
+<section id="media_image-12" class="widget widget_media_image"><div class="widget-wrap"><h3 class="widgettitle widget-title">Veggie Burrito Bowl (Better Than Chipotle)</h3>
+<a href="https://im-worthy.com/vegan-burrito-bowl-recipe/"><img width="236" height="300" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20236%20300'%3E%3C/svg%3E" class="image wp-image-8139  attachment-medium size-medium" alt="Vegan Burrito Bowl Recipe with chipotle crema and pico de gallo" style="max-width: 100%; height: auto;" decoding="async" data-pin-description="This homemade chipotle-inspired vegan burrito bowl is healthy, easy to make, and perfect for meal prep. It’s made with mushrooms, peppers, cilantro lime rice, avocado, black beans, and pico de gallo and topped with chipotle crema, a dairy-free sauce. It can be eaten cold or hot and enjoyed with tofu, corn, salsa, or tortilla strips, and vegetarian friendly." data-pin-title="Chipotle Vegan Burrito Bowl" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=8139" data-lazy-src="https://im-worthy.com/wp-content/uploads/2022/08/Vegan-Burrito-Bowl-Recipe_blog10-236x300.jpg" /><noscript><img width="236" height="300" src="https://im-worthy.com/wp-content/uploads/2022/08/Vegan-Burrito-Bowl-Recipe_blog10-236x300.jpg" class="image wp-image-8139  attachment-medium size-medium" alt="Vegan Burrito Bowl Recipe with chipotle crema and pico de gallo" style="max-width: 100%; height: auto;" decoding="async" data-pin-description="This homemade chipotle-inspired vegan burrito bowl is healthy, easy to make, and perfect for meal prep. It’s made with mushrooms, peppers, cilantro lime rice, avocado, black beans, and pico de gallo and topped with chipotle crema, a dairy-free sauce. It can be eaten cold or hot and enjoyed with tofu, corn, salsa, or tortilla strips, and vegetarian friendly." data-pin-title="Chipotle Vegan Burrito Bowl" data-pin-url="https://im-worthy.com/vegan-almond-butter-cookies/?tp_image_id=8139" /></noscript></a></div></section>
+</aside></div></div><div class="footer-widgets" id="genesis-footer-widgets"><h2 class="genesis-sidebar-title screen-reader-text">Footer</h2><div class="wrap"><div class="widget-area footer-widgets-1 footer-widget-area"><section id="text-14" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget">
+<div id="sb_instagram"  class="sbi sbi_mob_col_1 sbi_tab_col_2 sbi_col_7 sbi_width_resp sbi_disable_mobile" style="padding-bottom: 10px;width: 90%;" data-feedid="*1"  data-res="auto" data-cols="7" data-colsmobile="1" data-colstablet="2" data-num="6" data-nummobile="" data-shortcode-atts="{}"  data-postid="" data-locatornonce="f92227a282" data-sbi-flags="favorLocal">
+	
+    <div id="sbi_images"  style="padding: 5px;">
+		<div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_18033159211874687" data-date="1708794840">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/C3vPvYwJTTC/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-iad3-2.cdninstagram.com/v/t51.29350-15/429570935_1108796493879554_2842935629634267031_n.heic?stp=dst-jpg&#038;_nc_cat=103&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=aaivkQWmm8UAb7KhTTD&#038;_nc_oc=AdgZS5jZZ_fFR50dUSGZkvEyC7TPe9SrCu0kkzjrjaJBNQia7BtgynvGtgQ1XmdL3Y0&#038;_nc_ht=scontent-iad3-2.cdninstagram.com&#038;edm=AM6HXa8EAAAA&#038;oh=00_AfADsxrr8ktlUSePuxs5TvXG_C9Re2PQAcdf9gB3xjSwkw&#038;oe=6627D643" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.29350-15\/429570935_1108796493879554_2842935629634267031_n.heic?stp=dst-jpg&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=aaivkQWmm8UAb7KhTTD&amp;_nc_oc=AdgZS5jZZ_fFR50dUSGZkvEyC7TPe9SrCu0kkzjrjaJBNQia7BtgynvGtgQ1XmdL3Y0&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfADsxrr8ktlUSePuxs5TvXG_C9Re2PQAcdf9gB3xjSwkw&amp;oe=6627D643&quot;,&quot;150&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.29350-15\/429570935_1108796493879554_2842935629634267031_n.heic?stp=dst-jpg&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=aaivkQWmm8UAb7KhTTD&amp;_nc_oc=AdgZS5jZZ_fFR50dUSGZkvEyC7TPe9SrCu0kkzjrjaJBNQia7BtgynvGtgQ1XmdL3Y0&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfADsxrr8ktlUSePuxs5TvXG_C9Re2PQAcdf9gB3xjSwkw&amp;oe=6627D643&quot;,&quot;320&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.29350-15\/429570935_1108796493879554_2842935629634267031_n.heic?stp=dst-jpg&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=aaivkQWmm8UAb7KhTTD&amp;_nc_oc=AdgZS5jZZ_fFR50dUSGZkvEyC7TPe9SrCu0kkzjrjaJBNQia7BtgynvGtgQ1XmdL3Y0&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfADsxrr8ktlUSePuxs5TvXG_C9Re2PQAcdf9gB3xjSwkw&amp;oe=6627D643&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.29350-15\/429570935_1108796493879554_2842935629634267031_n.heic?stp=dst-jpg&amp;_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=aaivkQWmm8UAb7KhTTD&amp;_nc_oc=AdgZS5jZZ_fFR50dUSGZkvEyC7TPe9SrCu0kkzjrjaJBNQia7BtgynvGtgQ1XmdL3Y0&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfADsxrr8ktlUSePuxs5TvXG_C9Re2PQAcdf9gB3xjSwkw&amp;oe=6627D643&quot;}">
+            <span class="sbi-screenreader">Happy Birthday to my beautiful little sister @sele</span>
+            	                    <img width="1000" height="560" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%20560'%3E%3C/svg%3E" alt="Happy Birthday to my beautiful little sister @selenna_thomas 🎉 Your presence brightens our family&#039;s world. Excited for all the amazing moments 2024 has in store for you! 🎂✨ #BirthdayCheers #SisterLove" data-lazy-src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png"><noscript><img width="1000" height="560" decoding="async" src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Happy Birthday to my beautiful little sister @selenna_thomas 🎉 Your presence brightens our family&#039;s world. Excited for all the amazing moments 2024 has in store for you! 🎂✨ #BirthdayCheers #SisterLove"></noscript>
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17910366110914119" data-date="1708290873">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/C3gOgCpPnMB/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/428110010_1065411671421700_8519197994710149878_n.heic?stp=dst-jpg&#038;_nc_cat=102&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=7n8Xw4O37JYAb7zYmft&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;edm=AM6HXa8EAAAA&#038;oh=00_AfBQJgwSWZI0BFO-QtRviyam9g8XcPiYHJpKctxgWGO0pw&#038;oe=6627F674" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/428110010_1065411671421700_8519197994710149878_n.heic?stp=dst-jpg&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=7n8Xw4O37JYAb7zYmft&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBQJgwSWZI0BFO-QtRviyam9g8XcPiYHJpKctxgWGO0pw&amp;oe=6627F674&quot;,&quot;150&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/428110010_1065411671421700_8519197994710149878_n.heic?stp=dst-jpg&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=7n8Xw4O37JYAb7zYmft&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBQJgwSWZI0BFO-QtRviyam9g8XcPiYHJpKctxgWGO0pw&amp;oe=6627F674&quot;,&quot;320&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/428110010_1065411671421700_8519197994710149878_n.heic?stp=dst-jpg&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=7n8Xw4O37JYAb7zYmft&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBQJgwSWZI0BFO-QtRviyam9g8XcPiYHJpKctxgWGO0pw&amp;oe=6627F674&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/428110010_1065411671421700_8519197994710149878_n.heic?stp=dst-jpg&amp;_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=7n8Xw4O37JYAb7zYmft&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBQJgwSWZI0BFO-QtRviyam9g8XcPiYHJpKctxgWGO0pw&amp;oe=6627F674&quot;}">
+            <span class="sbi-screenreader">Happy 29th Birthday to my beautiful little sister </span>
+            	                    <img width="1000" height="560" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%20560'%3E%3C/svg%3E" alt="Happy 29th Birthday to my beautiful little sister Deana. Love you to the moon and back 💕🌙" data-lazy-src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png"><noscript><img width="1000" height="560" decoding="async" src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Happy 29th Birthday to my beautiful little sister Deana. Love you to the moon and back 💕🌙"></noscript>
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_18187978906253981" data-date="1684081784">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/CsOvU9cO0P8/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/346657437_922136359076267_3129395841188209823_n.webp?stp=dst-jpg&#038;_nc_cat=104&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=mWQ0y5-7wukAb6o5hYT&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;edm=AM6HXa8EAAAA&#038;oh=00_AfAzTlH1yTor9LaT0Sowqi7b_xyNrax6NHCcKwYp9QMc2A&#038;oe=6627DEBD" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/346657437_922136359076267_3129395841188209823_n.webp?stp=dst-jpg&amp;_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=mWQ0y5-7wukAb6o5hYT&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfAzTlH1yTor9LaT0Sowqi7b_xyNrax6NHCcKwYp9QMc2A&amp;oe=6627DEBD&quot;,&quot;150&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/346657437_922136359076267_3129395841188209823_n.webp?stp=dst-jpg&amp;_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=mWQ0y5-7wukAb6o5hYT&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfAzTlH1yTor9LaT0Sowqi7b_xyNrax6NHCcKwYp9QMc2A&amp;oe=6627DEBD&quot;,&quot;320&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/346657437_922136359076267_3129395841188209823_n.webp?stp=dst-jpg&amp;_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=mWQ0y5-7wukAb6o5hYT&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfAzTlH1yTor9LaT0Sowqi7b_xyNrax6NHCcKwYp9QMc2A&amp;oe=6627DEBD&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/346657437_922136359076267_3129395841188209823_n.webp?stp=dst-jpg&amp;_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=mWQ0y5-7wukAb6o5hYT&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfAzTlH1yTor9LaT0Sowqi7b_xyNrax6NHCcKwYp9QMc2A&amp;oe=6627DEBD&quot;}">
+            <span class="sbi-screenreader">Happy Mother&#039;s Day to my beautiful mom and sister </span>
+            	                    <img width="1000" height="560" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%20560'%3E%3C/svg%3E" alt="Happy Mother&#039;s Day to my beautiful mom and sister 💕🥳🍋🥰" data-lazy-src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png"><noscript><img width="1000" height="560" decoding="async" src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Happy Mother&#039;s Day to my beautiful mom and sister 💕🥳🍋🥰"></noscript>
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_video sbi_new sbi_transition" id="sbi_18293607721100327" data-date="1683125018">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/reel/CryOGu9Avn5/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-iad3-2.cdninstagram.com/v/t51.36329-15/344553617_214180894681041_7219109804699799532_n.jpg?_nc_cat=103&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=i4i9tP1iEUsAb6YeZbi&#038;_nc_ht=scontent-iad3-2.cdninstagram.com&#038;edm=AM6HXa8EAAAA&#038;oh=00_AfBVjEjdgkljfIc3YpXr79QErWxT4YHsIaL0bZShvEn7VA&#038;oe=6627EC10" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.36329-15\/344553617_214180894681041_7219109804699799532_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=i4i9tP1iEUsAb6YeZbi&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBVjEjdgkljfIc3YpXr79QErWxT4YHsIaL0bZShvEn7VA&amp;oe=6627EC10&quot;,&quot;150&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.36329-15\/344553617_214180894681041_7219109804699799532_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=i4i9tP1iEUsAb6YeZbi&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBVjEjdgkljfIc3YpXr79QErWxT4YHsIaL0bZShvEn7VA&amp;oe=6627EC10&quot;,&quot;320&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.36329-15\/344553617_214180894681041_7219109804699799532_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=i4i9tP1iEUsAb6YeZbi&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBVjEjdgkljfIc3YpXr79QErWxT4YHsIaL0bZShvEn7VA&amp;oe=6627EC10&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.36329-15\/344553617_214180894681041_7219109804699799532_n.jpg?_nc_cat=103&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=i4i9tP1iEUsAb6YeZbi&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBVjEjdgkljfIc3YpXr79QErWxT4YHsIaL0bZShvEn7VA&amp;oe=6627EC10&quot;}">
+            <span class="sbi-screenreader">Kelp is one of the best natural sources of iodine.</span>
+            	        <svg style="color: rgba(255,255,255,1)" class="svg-inline--fa fa-play fa-w-14 sbi_playbtn" aria-label="Play" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="play" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>            <img width="1000" height="560" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%20560'%3E%3C/svg%3E" alt="Kelp is one of the best natural sources of iodine. Iodine can help you balance your hormones. The mineral iodine plays a large part in producing thyroid hormones and managing your metabolism.
+
+From nutrient-rich kelp and blended with a flavorful pesto sauce, kelp noodles are the perfect addition to any healthy meal. They&#039;re low in calories, gluten-free, and packed with minerals, making them a great option for anyone looking to maintain a healthy diet without sacrificing taste.
+
+So why not give them a try? Head over to the site for the full recipe. I&#039;m so excited for you to try this one;-)
+.
+.
+#kelp #pestosauce #dairyfreepasta #veganmeal #foodblogger #healthyrecipes #dinnertonight" data-lazy-src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png"><noscript><img width="1000" height="560" decoding="async" src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Kelp is one of the best natural sources of iodine. Iodine can help you balance your hormones. The mineral iodine plays a large part in producing thyroid hormones and managing your metabolism.
+
+From nutrient-rich kelp and blended with a flavorful pesto sauce, kelp noodles are the perfect addition to any healthy meal. They&#039;re low in calories, gluten-free, and packed with minerals, making them a great option for anyone looking to maintain a healthy diet without sacrificing taste.
+
+So why not give them a try? Head over to the site for the full recipe. I&#039;m so excited for you to try this one;-)
+.
+.
+#kelp #pestosauce #dairyfreepasta #veganmeal #foodblogger #healthyrecipes #dinnertonight"></noscript>
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_image sbi_new sbi_transition" id="sbi_17876277206858193" data-date="1682512412">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/p/Crf9_M3OPlf/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/343265062_767405185096534_2934808395491497632_n.webp?stp=dst-jpg&#038;_nc_cat=101&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=8d3Dum4nui8Ab7gOoF-&#038;_nc_ht=scontent-iad3-1.cdninstagram.com&#038;edm=AM6HXa8EAAAA&#038;oh=00_AfDFA39EtZls5r-MCjcTZmsQVbjNL1cHPzDQYXmuySPWow&#038;oe=6627ED6B" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/343265062_767405185096534_2934808395491497632_n.webp?stp=dst-jpg&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=8d3Dum4nui8Ab7gOoF-&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfDFA39EtZls5r-MCjcTZmsQVbjNL1cHPzDQYXmuySPWow&amp;oe=6627ED6B&quot;,&quot;150&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/343265062_767405185096534_2934808395491497632_n.webp?stp=dst-jpg&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=8d3Dum4nui8Ab7gOoF-&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfDFA39EtZls5r-MCjcTZmsQVbjNL1cHPzDQYXmuySPWow&amp;oe=6627ED6B&quot;,&quot;320&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/343265062_767405185096534_2934808395491497632_n.webp?stp=dst-jpg&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=8d3Dum4nui8Ab7gOoF-&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfDFA39EtZls5r-MCjcTZmsQVbjNL1cHPzDQYXmuySPWow&amp;oe=6627ED6B&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-1.cdninstagram.com\/v\/t51.29350-15\/343265062_767405185096534_2934808395491497632_n.webp?stp=dst-jpg&amp;_nc_cat=101&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=8d3Dum4nui8Ab7gOoF-&amp;_nc_ht=scontent-iad3-1.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfDFA39EtZls5r-MCjcTZmsQVbjNL1cHPzDQYXmuySPWow&amp;oe=6627ED6B&quot;}">
+            <span class="sbi-screenreader">Happy birthday to the most amazing mom on the plan</span>
+            	                    <img width="1000" height="560" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%20560'%3E%3C/svg%3E" alt="Happy birthday to the most amazing mom on the planet. I love you beyond words 💘" data-lazy-src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png"><noscript><img width="1000" height="560" decoding="async" src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Happy birthday to the most amazing mom on the planet. I love you beyond words 💘"></noscript>
+        </a>
+    </div>
+</div><div class="sbi_item sbi_type_video sbi_new sbi_transition" id="sbi_17926239272603663" data-date="1682197064">
+    <div class="sbi_photo_wrap">
+        <a class="sbi_photo" href="https://www.instagram.com/reel/CrWjWdoppfq/" target="_blank" rel="noopener nofollow" data-full-res="https://scontent-iad3-2.cdninstagram.com/v/t51.36329-15/342386250_1646124565861437_7273822921785954928_n.jpg?_nc_cat=111&#038;ccb=1-7&#038;_nc_sid=18de74&#038;_nc_ohc=MtcGbHW2jyYAb5qKpaj&#038;_nc_ht=scontent-iad3-2.cdninstagram.com&#038;edm=AM6HXa8EAAAA&#038;oh=00_AfBQYwwhuQcqwO-n7j6ZfxzON159LsLwTMD1fp5yytblPw&#038;oe=6627FDAA" data-img-src-set="{&quot;d&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.36329-15\/342386250_1646124565861437_7273822921785954928_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=MtcGbHW2jyYAb5qKpaj&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBQYwwhuQcqwO-n7j6ZfxzON159LsLwTMD1fp5yytblPw&amp;oe=6627FDAA&quot;,&quot;150&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.36329-15\/342386250_1646124565861437_7273822921785954928_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=MtcGbHW2jyYAb5qKpaj&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBQYwwhuQcqwO-n7j6ZfxzON159LsLwTMD1fp5yytblPw&amp;oe=6627FDAA&quot;,&quot;320&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.36329-15\/342386250_1646124565861437_7273822921785954928_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=MtcGbHW2jyYAb5qKpaj&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBQYwwhuQcqwO-n7j6ZfxzON159LsLwTMD1fp5yytblPw&amp;oe=6627FDAA&quot;,&quot;640&quot;:&quot;https:\/\/scontent-iad3-2.cdninstagram.com\/v\/t51.36329-15\/342386250_1646124565861437_7273822921785954928_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=18de74&amp;_nc_ohc=MtcGbHW2jyYAb5qKpaj&amp;_nc_ht=scontent-iad3-2.cdninstagram.com&amp;edm=AM6HXa8EAAAA&amp;oh=00_AfBQYwwhuQcqwO-n7j6ZfxzON159LsLwTMD1fp5yytblPw&amp;oe=6627FDAA&quot;}">
+            <span class="sbi-screenreader">Celery has so many benefits including digestive he</span>
+            	        <svg style="color: rgba(255,255,255,1)" class="svg-inline--fa fa-play fa-w-14 sbi_playbtn" aria-label="Play" aria-hidden="true" data-fa-processed="" data-prefix="fa" data-icon="play" role="presentation" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"></path></svg>            <img width="1000" height="560" decoding="async" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201000%20560'%3E%3C/svg%3E" alt="Celery has so many benefits including digestive health, anti-inflammatory, and heart health. Blend up water, celery, and lemon juice 🍋 Strain and store in a glass bottle. No juicer needed. Follow me for more healthy recipes 💚
+.
+.
+#celeryjuice #freshjuice #guthhealth #hearthealth #healthyrecipeideas #healthydrinks #healthydrinksforhealthylife #liveyourbestlife #healthyfoodblog" data-lazy-src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png"><noscript><img width="1000" height="560" decoding="async" src="https://im-worthy.com/wp-content/plugins/instagram-feed/img/placeholder.png" alt="Celery has so many benefits including digestive health, anti-inflammatory, and heart health. Blend up water, celery, and lemon juice 🍋 Strain and store in a glass bottle. No juicer needed. Follow me for more healthy recipes 💚
+.
+.
+#celeryjuice #freshjuice #guthhealth #hearthealth #healthyrecipeideas #healthydrinks #healthydrinksforhealthylife #liveyourbestlife #healthyfoodblog"></noscript>
+        </a>
+    </div>
+</div>    </div>
+
+	<div id="sbi_load" >
+
+	
+			<span class="sbi_follow_btn">
+        <a href="https://www.instagram.com/imworthykitchen/" target="_blank" rel="nofollow noopener">
+            <svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" data-fa-processed="" aria-label="Instagram" data-prefix="fab" data-icon="instagram" role="img" viewBox="0 0 448 512">
+	                <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+	            </svg>            <span>Follow on Instagram</span>
+        </a>
+    </span>
+	
+</div>
+
+	    <span class="sbi_resized_image_data" data-feed-id="*1" data-resized="{&quot;17926239272603663&quot;:{&quot;id&quot;:&quot;342725006_793833131765699_1889640594868168150_n&quot;,&quot;ratio&quot;:&quot;0.56&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;17876277206858193&quot;:{&quot;id&quot;:&quot;343265062_767405185096534_2934808395491497632_n.webp&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;18293607721100327&quot;:{&quot;id&quot;:&quot;344553617_214180894681041_7219109804699799532_n&quot;,&quot;ratio&quot;:&quot;0.56&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;18187978906253981&quot;:{&quot;id&quot;:&quot;346657437_922136359076267_3129395841188209823_n.webp&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;17910366110914119&quot;:{&quot;id&quot;:&quot;428110010_1065411671421700_8519197994710149878_n.heic&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}},&quot;18033159211874687&quot;:{&quot;id&quot;:&quot;429570935_1108796493879554_2842935629634267031_n.heic&quot;,&quot;ratio&quot;:&quot;1.00&quot;,&quot;sizes&quot;:{&quot;full&quot;:640,&quot;low&quot;:320,&quot;thumb&quot;:150}}}">
+	</span>
+	</div>
+
+
+</div>
+		</div></section>
+</div><div class="widget-area footer-widgets-2 footer-widget-area"><section id="zoom-social-icons-widget-3" class="widget zoom-social-icons-widget"><div class="widget-wrap">
+		
+<ul class="zoom-social-icons-list zoom-social-icons-list--with-canvas zoom-social-icons-list--round zoom-social-icons-list--align-center zoom-social-icons-list--no-labels">
+
+		
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.tiktok.com/@imworthykitchen" target="_blank" title="Default Label" >
+									
+						<span class="screen-reader-text">tiktok</span>
+			
+						<span class="zoom-social_icons-list-span social-icon socicon socicon-tiktok" data-hover-rule="background-color" data-hover-color="#ce8cac" style="background-color : #000000; font-size: 18px; padding:8px" ></span>
+			
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.instagram.com/imworthykitchen/" target="_blank" title="Instagram" >
+									
+						<span class="screen-reader-text">instagram</span>
+			
+						<span class="zoom-social_icons-list-span social-icon socicon socicon-instagram" data-hover-rule="background-color" data-hover-color="#ce8cac" style="background-color : #000000; font-size: 18px; padding:8px" ></span>
+			
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.pinterest.com/ImWorthyblog/" target="_blank" title="Default Label" >
+									
+						<span class="screen-reader-text">pinterest</span>
+			
+						<span class="zoom-social_icons-list-span social-icon socicon socicon-pinterest" data-hover-rule="background-color" data-hover-color="#ce8cac" style="background-color : #000000; font-size: 18px; padding:8px" ></span>
+			
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.youtube.com/c/ShanaThomas/featured" target="_blank" title="Default Label" >
+									
+						<span class="screen-reader-text">youtube</span>
+			
+						<span class="zoom-social_icons-list-span social-icon socicon socicon-youtube" data-hover-rule="background-color" data-hover-color="#ce8cac" style="background-color : #000000; font-size: 18px; padding:8px" ></span>
+			
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.facebook.com/ImWorthyblog/" target="_blank" title="Facebook" >
+									
+						<span class="screen-reader-text">facebook</span>
+			
+						<span class="zoom-social_icons-list-span social-icon socicon socicon-facebook" data-hover-rule="background-color" data-hover-color="#ce8cac" style="background-color : #000000; font-size: 18px; padding:8px" ></span>
+			
+					</a>
+	</li>
+
+	
+</ul>
+
+		</div></section>
+<section id="user-profile-3" class="widget user-profile"><div class="widget-wrap"><p><span class="alignleft"><img data-pin-nopin="nopin" alt='' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2085%2085'%3E%3C/svg%3E" data-lazy-srcset='https://secure.gravatar.com/avatar/2c1dd40265dfdfced1e69bed4c2b5058?s=170&#038;d=mm&#038;r=g 2x' class='avatar avatar-85 photo' height='85' width='85' decoding='async' data-lazy-src="https://secure.gravatar.com/avatar/2c1dd40265dfdfced1e69bed4c2b5058?s=85&#038;d=mm&#038;r=g"/><noscript><img data-pin-nopin="nopin" alt='' src='https://secure.gravatar.com/avatar/2c1dd40265dfdfced1e69bed4c2b5058?s=85&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/2c1dd40265dfdfced1e69bed4c2b5058?s=170&#038;d=mm&#038;r=g 2x' class='avatar avatar-85 photo' height='85' width='85' decoding='async'/></noscript></span>I'm Shana, the creator of Im-Worthy.com, capturing life's beauty through food stories. As a food photographer and writer, I empower busy women with easy plant-based and vegan recipes for vibrant, healthy living. </p>
+</div></section>
+</div></div></div><footer class="site-footer"><div class="wrap"><p><a href="https://www.im-worthy.com/terms-privacy">TERMS &amp; PRIVACY</a> |  IM-WORTHY 2024 &amp; BEYOND | ALL RIGHTS RESERVED</p></div></footer></div><!-- Start Subscriber Embed Code -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+var subscribersSiteId = '261e814c-e698-46a9-997c-5b28a5818a6a';
+var subscribersServiceWorkerPath = '/?firebase-messaging-sw';
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://cdn.subscribers.com/assets/subscribers.js" defer></script>
+<!-- End Subscriber Embed Code --><script type="rocketlazyloadscript" data-rocket-type='text/javascript' data-rocket-src='//assets.pinterest.com/js/pinit.js' data-pin-hover='true' defer></script>
+<!-- Instagram Feed JS -->
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+var sbiajaxurl = "https://im-worthy.com/wp-admin/admin-ajax.php";
+</script>
+
+ <script type="rocketlazyloadscript" data-rocket-type='text/javascript'>window.addEventListener('DOMContentLoaded', function() {jQuery(document).ready(function($) {$(".flexslider").flexslider({controlsContainer: "#genesis-responsive-slider",animation: "slide",directionNav: 1,controlNav: 1,animationDuration: 800,slideshowSpeed: 4000    });  });});</script><script type="text/javascript" id="custom-script-js-extra">
+/* <![CDATA[ */
+var wpdata = {"object_id":"0","site_url":"https:\/\/im-worthy.com"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://im-worthy.com/wp-content/plugins/wp-meta-and-date-remover/assets/js/inspector.js?ver=1.1" id="custom-script-js" defer></script>
+<script type="text/javascript" id="rocket-browser-checker-js-after">
+/* <![CDATA[ */
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-extra">
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index.php\/)?(.*)wp-json(\/.*|$)|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm","siteUrl":"https:\/\/im-worthy.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="text/javascript" id="rocket-preload-links-js-after">
+/* <![CDATA[ */
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://im-worthy.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.5.0" id="skip-links-js" defer></script>
+<script type="text/javascript" src="https://im-worthy.com/wp-content/themes/foodiepro-v440/js/general.js?ver=4.4.0" id="foodie-pro-general-js" defer></script>
+<script type="text/javascript" src="https://im-worthy.com/wp-content/plugins/genesis-responsive-slider/assets/js/jquery.flexslider.js?ver=1.0.1" id="flexslider-js" defer></script>
+<script type="text/javascript" src="https://im-worthy.com/wp-content/plugins/social-icons-widget-by-wpzoom/assets/js/social-icons-widget-frontend.js?ver=1712947235" id="zoom-social-icons-widget-frontend-js" defer></script>
+<script type="text/javascript" id="sbi_scripts-js-extra">
+/* <![CDATA[ */
+var sb_instagram_js_options = {"font_method":"svg","resized_url":"https:\/\/im-worthy.com\/wp-content\/uploads\/sb-instagram-feed-images\/","placeholder":"https:\/\/im-worthy.com\/wp-content\/plugins\/instagram-feed\/img\/placeholder.png","ajax_url":"https:\/\/im-worthy.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://im-worthy.com/wp-content/plugins/instagram-feed/js/sbi-scripts.min.js?ver=6.2.10" id="sbi_scripts-js" defer></script>
+<script type="text/javascript" src="https://im-worthy.com/wp-content/plugins/tasty-pins/assets/js/savepin.js?ver=2.1" id="tasty-pins-frontend-js" defer></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://im-worthy.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script><script>function lazyLoadThumb(e,alt,l){var t='<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',a='<button class="play" aria-label="play Youtube video"></button>';if(l){t=t.replace('data-lazy-','');t=t.replace('loading="lazy"','');t=t.replace(/<noscript>.*?<\/noscript>/g,'');}t=t.replace('alt=""','alt="'+alt+'"');return t.replace("ID",e)+a}function lazyLoadYoutubeIframe(){var e=document.createElement("iframe"),t="ID?autoplay=1";t+=0===this.parentNode.dataset.query.length?"":"&"+this.parentNode.dataset.query;e.setAttribute("src",t.replace("ID",this.parentNode.dataset.src)),e.setAttribute("frameborder","0"),e.setAttribute("allowfullscreen","1"),e.setAttribute("allow","accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),this.parentNode.parentNode.replaceChild(e,this.parentNode)}document.addEventListener("DOMContentLoaded",function(){var exclusions=[];var e,t,p,u,l,a=document.getElementsByClassName("rll-youtube-player");for(t=0;t<a.length;t++)(e=document.createElement("div")),(u='https://i.ytimg.com/vi/ID/hqdefault.jpg'),(u=u.replace('ID',a[t].dataset.id)),(l=exclusions.some(exclusion=>u.includes(exclusion))),e.setAttribute("data-id",a[t].dataset.id),e.setAttribute("data-query",a[t].dataset.query),e.setAttribute("data-src",a[t].dataset.src),(e.innerHTML=lazyLoadThumb(a[t].dataset.id,a[t].dataset.alt,l)),a[t].appendChild(e),(p=e.querySelector(".play")),(p.onclick=lazyLoadYoutubeIframe)});</script></body></html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1713534773 -->
