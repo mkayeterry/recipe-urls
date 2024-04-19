@@ -120,7 +120,7 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
         parsed_url = urlparse(base_url)
 
         if not all([parsed_url.scheme, parsed_url.netloc]):
-            raise ValueError("URL is not a valid format")
+            raise ValueError("URL is not a valid format.")
         
         if parsed_url.scheme not in ['https', 'http']:
             raise ValueError("URL scheme must be 'https' or 'http'.")
@@ -136,7 +136,7 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
     elif html:
 
         if not isinstance(html, str):
-            raise ValueError("HTML content must be a string")
+            raise ValueError("HTML content must be a string.")
         
         soup = BeautifulSoup(html, "html.parser")
         href_links = [urlparse(a["href"]).hostname for a in soup.find_all("a", href=True) if "http" in a["href"]]
