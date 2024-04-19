@@ -15,8 +15,7 @@ class AfghanKitchenRecipesScraper(AbstractScraper):
         except (TypeError, AttributeError) as e:
             raise ValueError(f"Failed to extract href links: {e}") from e
 
-        recipe_links = self.filter_links(href_links)
-        return recipe_links
+        return self.filter_links(href_links)
 
     def filter_links(self, href_links: List[str]) -> List[str]:
         # Use a set to deduplicate the links while filtering href links for recipe-specific ones
