@@ -1,8 +1,14 @@
-from typing import List
+from typing import List, Set
 import re
 from recipe_urls._abstract import AbstractScraper
 
 class AbuelasCounterScraper(AbstractScraper):
+    # Precompile regex patterns
+    RECIPE_PATTERN = re.compile(r'https://abuelascounter\.com/[\w-]+-[\w-]+/')
+    UNWANTED_PATTERNS = [
+        re.compile(pattern) for pattern in ["index", "must-haves", "newsletter", "policy"]
+    ]
+
     @classmethod
     def host(cls):
         return "abuelascounter.com"
@@ -13,31 +19,14 @@ class AbuelasCounterScraper(AbstractScraper):
         except (TypeError, AttributeError) as e:
             raise ValueError(f"Failed to extract href links: {e}") from e
 
-        # Filter href links for recipe-specific ones using site-specific regex
-        recipe_links = self.filter_links(href_links)
-
-        return recipe_links
+        return self.filter_links(href_links)
 
     def filter_links(self, href_links: List[str]) -> List[str]:
-
-        # Filter out unwanted url patterns
-        unwanted_patterns = [
-            "index",
-            "must-haves", 
-            "newsletter",  
-            "policy"
-        ]
-
-        # Site-specific regex for AbuelasCounter
-        recipe_pattern = re.compile(r'https://abuelascounter\.com/[\w-]+-[\w-]+/')
-
-        # Use a set to deduplicate the links while filtering href links for recipe-specific ones
-        unique_links_set = set(link for link in href_links if recipe_pattern.search(link) and not any(re.search(pattern, link) for pattern in unwanted_patterns))
-        
-        site_name = self.base_url if self.base_url is not None else "the provided HTML content"
-        print(f"{len(unique_links_set)} recipe links found for {site_name}.")
-
-        # Convert the set back to a list
-        return list(unique_links_set)
+        unique_links = {link for link in href_links if self.is_recipe_link(link)}
+        return list(unique_links)
 
 
+    def is_recipe_link(self, link: str) -> bool:
+        if self.RECIPE_PATTERN.search(link):
+            return not any(pattern.search(link) for pattern in self.UNWANTED_PATTERNS)
+        return False

@@ -1,0 +1,1221 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="https://abuelascounter.com/xmlrpc.php">
+    <link rel="preload" as="font" href="https://abuelascounter.com/wp-content/themes/foodica/fonts/foodica.ttf" type="font/ttf" crossorigin>
+	<meta name="msvalidate.01" content="666367A6EAD3D0072E9E2907B11E1C54" />
+    <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v21.7 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Abuela&#039;s Cuban Counter - Cuban Recipes</title>
+	<meta name="description" content="Cuban Recipes" />
+	<link rel="canonical" href="https://abuelascounter.com/" />
+	<link rel="next" href="https://abuelascounter.com/page/2/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Abuela&#039;s Cuban Counter" />
+	<meta property="og:description" content="Cuban Recipes" />
+	<meta property="og:url" content="https://abuelascounter.com/" />
+	<meta property="og:site_name" content="Abuela&#039;s Cuban Counter" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://abuelascounter.com/","url":"https://abuelascounter.com/","name":"Abuela&#039;s Cuban Counter - Cuban Recipes","isPartOf":{"@id":"https://abuelascounter.com/#website"},"about":{"@id":"https://abuelascounter.com/#organization"},"description":"Cuban Recipes","breadcrumb":{"@id":"https://abuelascounter.com/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://abuelascounter.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://abuelascounter.com/#website","url":"https://abuelascounter.com/","name":"Abuela&#039;s Cuban Counter","description":"Cuban Recipes","publisher":{"@id":"https://abuelascounter.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://abuelascounter.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://abuelascounter.com/#organization","name":"Abuela's Cuban Counter","url":"https://abuelascounter.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://abuelascounter.com/#/schema/logo/image/","url":"https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG.png","contentUrl":"https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG.png","width":1420,"height":1557,"caption":"Abuela's Cuban Counter"},"image":{"@id":"https://abuelascounter.com/#/schema/logo/image/"},"sameAs":["https://www.pinterest.com/abuelascounter/"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel='dns-prefetch' href='//assets.pinterest.com' />
+<link rel='dns-prefetch' href='//cdn.usefathom.com' />
+<link rel='dns-prefetch' href='//a.omappapi.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="Abuela&#039;s Cuban Counter &raquo; Feed" href="https://abuelascounter.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Abuela&#039;s Cuban Counter &raquo; Comments Feed" href="https://abuelascounter.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/abuelascounter.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel='stylesheet' id='wp-shopify-styles-css' href='https://abuelascounter.com/wp-content/plugins/wp-shopify/css/front-styles.css?ver=1713492698' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://abuelascounter.com/wp-includes/css/dist/block-library/style.min.css?ver=6.5.2' type='text/css' media='all' />
+<style id='wp-block-library-theme-inline-css' type='text/css'>
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:#ffffffa6}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:#ffffffa6}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:#ffffffa6}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:#ffffffa6}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:#ffffffa6}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:#ffffffa6}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<link rel='stylesheet' id='wpzoom-social-icons-block-style-css' href='https://abuelascounter.com/wp-content/plugins/social-icons-widget-pro/block/dist/style-wpzoom-social-icons.css?ver=1.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-rcb-block-style-css-css' href='https://abuelascounter.com/wp-content/plugins/recipe-card-blocks-by-wpzoom/dist/blocks.style.build.css?ver=3.2.14' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-rcb-block-icon-fonts-css-css' href='https://abuelascounter.com/wp-content/plugins/recipe-card-blocks-by-wpzoom/dist/assets/css/icon-fonts.build.css?ver=3.2.14' type='text/css' media='all' />
+<link rel='stylesheet' id='convertkit-broadcasts-css' href='https://abuelascounter.com/wp-content/plugins/convertkit/resources/frontend/css/broadcasts.css?ver=2.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='convertkit-button-css' href='https://abuelascounter.com/wp-content/plugins/convertkit/resources/frontend/css/button.css?ver=2.4.0' type='text/css' media='all' />
+<link rel='stylesheet' id='convertkit-form-css' href='https://abuelascounter.com/wp-content/plugins/convertkit/resources/frontend/css/form.css?ver=2.4.0' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='zoom-theme-utils-css-css' href='https://abuelascounter.com/wp-content/themes/foodica/functions/wpzoom/assets/css/theme-utils.css?ver=6.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='foodica-google-fonts-css' href='https://fonts.googleapis.com/css?family=Inter%3Aregular%2C500%2C600%2C700%7CAnnie+Use+Your+Telescope%7CRoboto+Condensed%3Aregular%2C700&#038;subset=latin&#038;display=swap&#038;ver=6.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='foodica-style-css' href='https://abuelascounter.com/wp-content/themes/foodica/style.css?ver=3.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='media-queries-css' href='https://abuelascounter.com/wp-content/themes/foodica/css/media-queries.css?ver=3.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='foodica-style-color-default-css' href='https://abuelascounter.com/wp-content/themes/foodica/styles/default.css?ver=3.0.6' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://abuelascounter.com/wp-includes/css/dashicons.min.css?ver=6.5.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpzoom-social-icons-styles-css' href='https://abuelascounter.com/wp-content/plugins/social-icons-widget-pro/assets/css/wpzoom-social-icons-styles.css?ver=1662580810' type='text/css' media='all' />
+<script type="text/javascript" src="https://abuelascounter.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://cdn.usefathom.com/script.js" id="fathom-snippet-js" defer="defer" data-wp-strategy="defer" data-site="XMFIIQJC" data-no-minify></script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/plugins/wp-shopify/js/front.js?ver=1713492699" id="wp-shopify-scripts-js"></script>
+<link rel="https://api.w.org/" href="https://abuelascounter.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://abuelascounter.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.5.2" />
+<!-- WPZOOM Theme / Framework -->
+<meta name="generator" content="Foodica 3.0.6" />
+<meta name="generator" content="WPZOOM Framework 1.9.18" />
+
+<!-- Begin Theme Custom CSS -->
+<style type="text/css" id="foodica-custom-css">
+.navbar-brand-wpz .tagline{display:none;}.top-navbar .navbar-wpz > li > a{color:#3a578d;}.main-navbar .navbar-wpz > li > a{color:#004b87;}.sb-search .sb-icon-search{background:#da291c;}.sb-search .sb-icon-search:hover, .sb-search .sb-search-input{background:#004b87;}.footer-menu ul li a{color:#004b87;}
+@media screen and (min-width: 769px){body{font-size:16px;}.navbar-brand-wpz h1{font-size:85px;}.navbar-brand-wpz .tagline{font-size:16px;}.slides li h3 a{font-size:40px;}.slides .slide_button a{font-size:14px;}.widget h3.title{font-size:18px;}.entry-title{font-size:24px;}.recent-posts .entry-content{font-size:16px;}.recent-posts .post.sticky .entry-title{font-size:36px;}.single h1.entry-title{font-size:38px;}.single .entry-content, .page .entry-content{font-size:16px;}.page h1.entry-title{font-size:44px;}.footer-menu ul li{font-size:16px;}}
+@media screen and (max-width: 768px){body{font-size:16px;}.navbar-brand-wpz h1{font-size:60px;}.navbar-brand-wpz .tagline{font-size:16px;}.slides li h3 a{font-size:36px;}.slides .slide_button a{font-size:14px;}.widget h3.title{font-size:18px;}.entry-title{font-size:20px;}.recent-posts .entry-content{font-size:16px;}.recent-posts .post.sticky .entry-title{font-size:26px;}.single h1.entry-title{font-size:34px;}.single .entry-content, .page .entry-content{font-size:16px;}.page h1.entry-title{font-size:34px;}.footer-menu ul li{font-size:16px;}}
+@media screen and (max-width: 480px){body{font-size:16px;}.navbar-brand-wpz h1{font-size:36px;}.navbar-brand-wpz .tagline{font-size:14px;}.slides li h3 a{font-size:26px;}.slides .slide_button a{font-size:14px;}.widget h3.title{font-size:18px;}.entry-title{font-size:20px;}.recent-posts .entry-content{font-size:16px;}.recent-posts .post.sticky .entry-title{font-size:26px;}.single h1.entry-title{font-size:28px;}.single .entry-content, .page .entry-content{font-size:16px;}.page h1.entry-title{font-size:28px;}.footer-menu ul li{font-size:16px;}}
+</style>
+<!-- End Theme Custom CSS -->
+<link rel="icon" href="https://abuelascounter.com/wp-content/uploads/2023/11/cropped-abuelas-gallo-alone-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://abuelascounter.com/wp-content/uploads/2023/11/cropped-abuelas-gallo-alone-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://abuelascounter.com/wp-content/uploads/2023/11/cropped-abuelas-gallo-alone-180x180.png" />
+<meta name="msapplication-TileImage" content="https://abuelascounter.com/wp-content/uploads/2023/11/cropped-abuelas-gallo-alone-270x270.png" />
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WCQEWSQRR2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-WCQEWSQRR2');
+	</script>
+	<!--
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3947908999479922"
+     crossorigin="anonymous"></script>
+	-->
+	<!-- Pinterest Tag -->
+<script>
+!function(e){if(!window.pintrk){window.pintrk = function () {
+window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+  n=window.pintrk;n.queue=[],n.version="3.0";var
+  t=document.createElement("script");t.async=!0,t.src=e;var
+  r=document.getElementsByTagName("script")[0];
+  r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+pintrk('load', '2614047762560', {em: '<user_email_address>'});
+pintrk('page');
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt=""
+  src="https://ct.pinterest.com/v3/?event=init&tid=2614047762560&pd[em]=<hashed_email_address>&noscript=1" />
+</noscript>
+<!-- end Pinterest Tag -->
+</head>
+<body class="home blog wp-custom-logo">
+
+<div class="page-wrap">
+
+    <header class="site-header wpz_header_layout_compact">
+
+        <nav class="top-navbar" role="navigation">
+
+            <div class="inner-wrap">
+
+                <div class="header_social">
+                    <div id="zoom-social-icons-widget-2" class="widget zoom-social-icons-widget"><h3 class="title"><span>Social Icons</span></h3>
+		
+<ul class="zoom-social-icons-list zoom-social-icons-list--without-canvas zoom-social-icons-list--round zoom-social-icons-list--no-labels">
+
+		
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://instagram.com/abuelascounter"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">instagram</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="fill" data-hover-color="#e4405f" style="fill : #e4405f; width: 18px; height: auto; max-height: 18px; padding:8px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>instagram</title><path d="M16.031 2.324c4.283 0 4.791 0.019 6.475 0.094 1.566 0.069 2.411 0.332 2.975 0.551 0.745 0.288 1.284 0.639 1.841 1.196 0.564 0.564 0.908 1.096 1.202 1.841 0.219 0.564 0.482 1.415 0.551 2.975 0.075 1.691 0.094 2.198 0.094 6.475s-0.019 4.791-0.094 6.475c-0.069 1.566-0.332 2.411-0.551 2.975-0.288 0.745-0.639 1.284-1.196 1.841-0.564 0.564-1.096 0.908-1.841 1.202-0.564 0.219-1.415 0.482-2.975 0.551-1.691 0.075-2.198 0.094-6.475 0.094s-4.791-0.019-6.475-0.094c-1.566-0.069-2.411-0.332-2.975-0.551-0.745-0.288-1.284-0.639-1.841-1.196-0.564-0.564-0.908-1.096-1.202-1.841-0.219-0.564-0.482-1.415-0.551-2.975-0.075-1.691-0.094-2.198-0.094-6.475s0.019-4.791 0.094-6.475c0.069-1.566 0.332-2.411 0.551-2.975 0.288-0.745 0.639-1.284 1.196-1.841 0.564-0.564 1.096-0.908 1.841-1.202 0.564-0.219 1.415-0.482 2.975-0.551 1.685-0.075 2.192-0.094 6.475-0.094zM16.031-0.563c-4.352 0-4.897 0.019-6.607 0.094-1.703 0.075-2.874 0.351-3.889 0.745-1.058 0.413-1.954 0.958-2.843 1.854-0.895 0.889-1.44 1.785-1.854 2.837-0.395 1.021-0.67 2.186-0.745 3.889-0.075 1.716-0.094 2.261-0.094 6.613s0.019 4.897 0.094 6.607c0.075 1.703 0.351 2.874 0.745 3.889 0.413 1.058 0.958 1.954 1.854 2.843 0.889 0.889 1.785 1.44 2.837 1.847 1.021 0.395 2.186 0.67 3.889 0.745 1.71 0.075 2.254 0.094 6.607 0.094s4.897-0.019 6.607-0.094c1.703-0.075 2.874-0.351 3.889-0.745 1.052-0.407 1.948-0.958 2.837-1.847s1.44-1.785 1.847-2.837c0.395-1.021 0.67-2.186 0.745-3.889 0.075-1.71 0.094-2.254 0.094-6.607s-0.019-4.897-0.094-6.607c-0.075-1.703-0.351-2.874-0.745-3.889-0.395-1.065-0.939-1.96-1.835-2.849-0.889-0.889-1.785-1.44-2.837-1.847-1.021-0.395-2.186-0.67-3.889-0.745-1.716-0.081-2.261-0.1-6.613-0.1v0zM16.031 7.233c-4.546 0-8.235 3.688-8.235 8.235s3.688 8.235 8.235 8.235 8.235-3.688 8.235-8.235c0-4.546-3.688-8.235-8.235-8.235zM16.031 20.81c-2.95 0-5.342-2.392-5.342-5.342s2.392-5.342 5.342-5.342c2.95 0 5.342 2.392 5.342 5.342s-2.392 5.342-5.342 5.342zM26.514 6.907c0 1.062-0.861 1.923-1.922 1.923s-1.922-0.861-1.922-1.923c0-1.062 0.861-1.923 1.922-1.923s1.922 0.861 1.922 1.923z"></path></svg>			</span>
+
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.pinterest.com/abuelascounter/_saved/"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">pinterest</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="fill" data-hover-color="#c92619" style="fill : #c92619; width: 18px; height: auto; max-height: 18px; padding:8px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>pinterest</title><path d="M10.646 11.711c0-1.378 0.313-2.505 1.065-3.444 0.689-0.939 1.566-1.44 2.567-1.44 0.814 0 1.44 0.25 1.879 0.814s0.689 1.252 0.689 2.067c0 0.501-0.125 1.127-0.313 1.816-0.188 0.751-0.376 1.628-0.689 2.568-0.313 1.002-0.564 1.753-0.689 2.317-0.251 1.002-0.063 1.879 0.564 2.63 0.626 0.689 1.44 1.065 2.442 1.065 1.753 0 3.194-1.002 4.321-2.943 1.127-2.004 1.691-4.384 1.691-7.202 0-2.129-0.689-3.883-2.067-5.26-1.378-1.315-3.319-2.004-5.824-2.004-2.818 0-5.072 0.877-6.763 2.693-1.753 1.753-2.63 3.883-2.63 6.387 0 1.503 0.438 2.755 1.252 3.757 0.313 0.313 0.376 0.689 0.313 1.065-0.125 0.313-0.251 0.814-0.376 1.503-0.063 0.25-0.188 0.438-0.376 0.501s-0.376 0.063-0.564 0c-1.315-0.564-2.254-1.44-2.943-2.755s-1.002-2.818-1.002-4.509c0-1.127 0.188-2.192 0.564-3.319s0.877-2.192 1.628-3.194c0.751-1.065 1.691-1.941 2.693-2.755 1.065-0.814 2.317-1.44 3.883-1.941 1.503-0.438 3.131-0.689 4.822-0.689 1.816 0 3.444 0.313 4.947 0.939 1.503 0.564 2.818 1.378 3.82 2.38 1.065 1.065 1.816 2.192 2.442 3.507 0.564 1.315 0.877 2.693 0.877 4.070 0 3.757-0.939 6.888-2.881 9.331-1.941 2.505-4.384 3.695-7.389 3.695-1.002 0-1.941-0.188-2.818-0.689-0.877-0.438-1.503-1.002-1.879-1.691-0.689 2.943-1.127 4.697-1.315 5.26-0.376 1.44-1.252 3.194-2.693 5.26h-1.315c-0.251-2.567-0.188-4.697 0.188-6.387l2.442-10.333c-0.376-0.814-0.564-1.816-0.564-3.069z"></path></svg>			</span>
+
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.youtube.com/channel/UCudmMwlBqBP0i06TWGamQKA/"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">youtube</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="fill" data-hover-color="#e02a20" style="fill : #e02a20; width: 18px; height: auto; max-height: 18px; padding:8px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>youtube</title><path d="M31.749 9.081c0 0-0.313-2.254-1.252-3.194-1.252-1.315-2.63-1.315-3.256-1.378-4.446-0.313-11.209-0.313-11.209-0.313v0c0 0-6.763 0-11.209 0.313-0.626 0.063-2.004 0.063-3.256 1.378-0.939 0.939-1.252 3.194-1.252 3.194s-0.313 2.567-0.313 5.135v2.442c0 2.63 0.313 5.198 0.313 5.198s0.313 2.192 1.252 3.194c1.252 1.252 2.881 1.252 3.569 1.378 2.567 0.25 10.896 0.313 10.896 0.313s6.763 0 11.209-0.313c0.626-0.063 2.004-0.125 3.256-1.378 0.939-1.002 1.252-3.194 1.252-3.194s0.313-2.567 0.313-5.198v-2.442c0-2.568-0.313-5.135-0.313-5.135zM20.352 15.718v0l-7.577 3.945v-9.018l8.642 4.509z"></path></svg>			</span>
+
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://abuelascounter.com/contact/"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">mail</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="fill" data-hover-color="#20232b" style="fill : #363940; width: 18px; height: auto; max-height: 18px; padding:8px" >				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><rect x="0" fill="none" width="20" height="20"></rect><g><path d="M19 14.5v-9c0-.83-.67-1.5-1.5-1.5H3.49c-.83 0-1.5.67-1.5 1.5v9c0 .83.67 1.5 1.5 1.5H17.5c.83 0 1.5-.67 1.5-1.5zm-1.31-9.11c.33.33.15.67-.03.84L13.6 9.95l3.9 4.06c.12.14.2.36.06.51-.13.16-.43.15-.56.05l-4.37-3.73-2.14 1.95-2.13-1.95-4.37 3.73c-.13.1-.43.11-.56-.05-.14-.15-.06-.37.06-.51l3.9-4.06-4.06-3.72c-.18-.17-.36-.51-.03-.84s.67-.17.95.07l6.24 5.04 6.25-5.04c.28-.24.62-.4.95-.07z"></path></g></svg>			</span>
+
+					</a>
+	</li>
+
+	
+</ul>
+
+		</div>
+                </div>
+
+                <div id="navbar-top">
+
+                    <div class="menu-top-container"><ul id="menu-top" class="navbar-wpz dropdown sf-menu"><li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="https://abuelascounter.com/about/">About</a></li>
+<li id="menu-item-5409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5409"><a href="https://abuelascounter.com/contact/">Contact</a></li>
+<li id="menu-item-6391" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6391"><a href="https://abuelascounter.com/recipe-index/">All Recipes</a></li>
+</ul></div>
+                </div><!-- #navbar-top -->
+
+            </div><!-- ./inner-wrap -->
+
+        </nav><!-- .navbar -->
+
+        <div class="clear"></div>
+
+
+        <div class="inner-wrap logo_wrapper_main">
+
+            <div class="navbar-header"><div class="navbar-brand-wpz"  style="max-width:142px"><a href="https://abuelascounter.com/" class="custom-logo-link" rel="home" itemprop="url"><img width="71" height="78" src="https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG-274x300.png" class="custom-logo no-lazyload no-lazy a3-notlazy" alt="Abuela&#039;s Cuban Counter" itemprop="logo" decoding="async" srcset="https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG-274x300.png 274w, https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG-934x1024.png 934w, https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG-768x842.png 768w, https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG-1401x1536.png 1401w, https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG-750x822.png 750w, https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG-1320x1447.png 1320w, https://abuelascounter.com/wp-content/uploads/2021/10/cropped-ABUELAS-FINAL-LOGO-TRANSPARENTBG.png 1420w" sizes="(max-width: 71px) 100vw, 71px" /></a><p class="tagline">Cuban Recipes</p></div></div>
+            
+            
+                <div id="sb-search" class="sb-search">
+                    <form method="get" id="searchform" action="https://abuelascounter.com/">
+	<input type="search" class="sb-search-input" placeholder="Enter your keywords..."  name="s" id="s" />
+    <input type="submit" id="searchsubmit" class="sb-search-submit" value="Search" />
+    <span class="sb-icon-search"></span>
+</form>                </div>
+            
+
+            
+                <div class="navbar-header-compact">
+                    
+                       <div id="menu-main-slide_compact" class="menu-main-container"><ul id="menu-main" class="menu"><li id="menu-item-6387" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6387"><a href="https://abuelascounter.com" aria-current="page">Home</a></li>
+<li id="menu-item-5758" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5758"><a href="https://abuelascounter.com/recipe-index/">Recipes</a>
+<ul class="sub-menu">
+	<li id="menu-item-5656" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5656"><a href="https://abuelascounter.com/category/appetizers/">Appetizers</a></li>
+	<li id="menu-item-9037" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9037"><a href="https://abuelascounter.com/category/cocktail/">Cocktail</a></li>
+	<li id="menu-item-6477" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6477"><a href="https://abuelascounter.com/category/entree/">Entree</a></li>
+	<li id="menu-item-5657" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5657"><a href="https://abuelascounter.com/category/desserts/">Desserts</a></li>
+	<li id="menu-item-7119" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7119"><a href="https://abuelascounter.com/category/sauce/">Sauces</a></li>
+	<li id="menu-item-6843" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6843"><a href="https://abuelascounter.com/category/sides/">Sides</a></li>
+	<li id="menu-item-6615" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6615"><a href="https://abuelascounter.com/category/soups/">Soups</a></li>
+</ul>
+</li>
+<li id="menu-item-8862" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8862"><a href="https://abuelascounter.com/category/blog/">Blog</a></li>
+<li id="menu-item-6037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6037"><a href="https://abuelascounter.com/about/">About</a></li>
+<li id="menu-item-6038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6038"><a href="https://abuelascounter.com/contact/">Contact</a></li>
+</ul></div>
+                </div>
+
+            
+        </div>
+
+
+        <nav class="main-navbar" role="navigation">
+
+            <div class="inner-wrap">
+
+                <div id="sb-search" class="sb-search">
+                    <form method="get" id="searchform" action="https://abuelascounter.com/">
+	<input type="search" class="sb-search-input" placeholder="Enter your keywords..."  name="s" id="s" />
+    <input type="submit" id="searchsubmit" class="sb-search-submit" value="Search" />
+    <span class="sb-icon-search"></span>
+</form>                </div>
+
+                <div class="navbar-header-main">
+                    
+                       <div id="menu-main-slide" class="menu-main-container"><ul id="menu-main-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6387"><a href="https://abuelascounter.com" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5758"><a href="https://abuelascounter.com/recipe-index/">Recipes</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5656"><a href="https://abuelascounter.com/category/appetizers/">Appetizers</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9037"><a href="https://abuelascounter.com/category/cocktail/">Cocktail</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6477"><a href="https://abuelascounter.com/category/entree/">Entree</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5657"><a href="https://abuelascounter.com/category/desserts/">Desserts</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7119"><a href="https://abuelascounter.com/category/sauce/">Sauces</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6843"><a href="https://abuelascounter.com/category/sides/">Sides</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6615"><a href="https://abuelascounter.com/category/soups/">Soups</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8862"><a href="https://abuelascounter.com/category/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6037"><a href="https://abuelascounter.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6038"><a href="https://abuelascounter.com/contact/">Contact</a></li>
+</ul></div>
+                </div>
+
+
+                <div id="navbar-main">
+
+                    <div class="menu-main-container"><ul id="menu-main-2" class="navbar-wpz dropdown sf-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6387"><a href="https://abuelascounter.com" aria-current="page">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5758"><a href="https://abuelascounter.com/recipe-index/">Recipes</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5656"><a href="https://abuelascounter.com/category/appetizers/">Appetizers</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9037"><a href="https://abuelascounter.com/category/cocktail/">Cocktail</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6477"><a href="https://abuelascounter.com/category/entree/">Entree</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5657"><a href="https://abuelascounter.com/category/desserts/">Desserts</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-7119"><a href="https://abuelascounter.com/category/sauce/">Sauces</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6843"><a href="https://abuelascounter.com/category/sides/">Sides</a></li>
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6615"><a href="https://abuelascounter.com/category/soups/">Soups</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8862"><a href="https://abuelascounter.com/category/blog/">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6037"><a href="https://abuelascounter.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6038"><a href="https://abuelascounter.com/contact/">Contact</a></li>
+</ul></div>
+                </div><!-- #navbar-main -->
+
+            </div><!-- ./inner-wrap -->
+
+        </nav><!-- .navbar -->
+
+        <div class="clear"></div>
+
+    </header><!-- .site-header -->
+
+    <div class="inner-wrap">
+
+
+
+    
+
+    <div id="slider" class="slide-style-1">
+
+		<ul class="slides clearfix">
+
+			
+                
+                <li class="slide">
+
+                    <div class="slide-overlay">
+
+                        <div class="slide-header">
+
+                           <span class="cat-links"><a href="https://abuelascounter.com/category/desserts/" rel="category tag">Desserts</a></span>
+                            <h3><a href="https://abuelascounter.com/eggless-tiramisu-recipe/">Eggless Tiramisu Recipe</a></h3>
+
+                                                            <div class="entry-meta">
+                                                                                                        </div>
+                            
+                            
+
+                                                            <div class="slide_button">
+                                    <a href="https://abuelascounter.com/eggless-tiramisu-recipe/" title="Permalink to Eggless Tiramisu Recipe" rel="bookmark">Read More</a>
+                                </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="slide-background"  style="background-image:url('https://abuelascounter.com/wp-content/uploads/2024/02/Eggless-Tiramisu-Recipe-750x500.jpg')" data-rjs="https://abuelascounter.com/wp-content/uploads/2024/02/Eggless-Tiramisu-Recipe-1500x1000.jpg">
+                    </div>
+                </li>
+            
+                
+                <li class="slide">
+
+                    <div class="slide-overlay">
+
+                        <div class="slide-header">
+
+                           <span class="cat-links"><a href="https://abuelascounter.com/category/entree/" rel="category tag">Entree</a></span>
+                            <h3><a href="https://abuelascounter.com/filet-mignon/">Filet Mignon</a></h3>
+
+                                                            <div class="entry-meta">
+                                                                                                        </div>
+                            
+                            
+
+                                                            <div class="slide_button">
+                                    <a href="https://abuelascounter.com/filet-mignon/" title="Permalink to Filet Mignon" rel="bookmark">Read More</a>
+                                </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="slide-background"  style="background-image:url('https://abuelascounter.com/wp-content/uploads/2024/02/filet-mignon-recipe-Large-750x500.jpeg')" data-rjs="https://abuelascounter.com/wp-content/uploads/2024/02/filet-mignon-recipe-Large-1142x1000.jpeg">
+                    </div>
+                </li>
+            
+                
+                <li class="slide">
+
+                    <div class="slide-overlay">
+
+                        <div class="slide-header">
+
+                           <span class="cat-links"><a href="https://abuelascounter.com/category/entree/" rel="category tag">Entree</a></span>
+                            <h3><a href="https://abuelascounter.com/boliche-cuban-pot-roast/">Boliche Cuban Pot Roast</a></h3>
+
+                                                            <div class="entry-meta">
+                                                                                                        </div>
+                            
+                            
+
+                                                            <div class="slide_button">
+                                    <a href="https://abuelascounter.com/boliche-cuban-pot-roast/" title="Permalink to Boliche Cuban Pot Roast" rel="bookmark">Read More</a>
+                                </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="slide-background"  style="background-image:url('https://abuelascounter.com/wp-content/uploads/2022/10/Boliche-750x500.jpeg')" data-rjs="https://abuelascounter.com/wp-content/uploads/2022/10/Boliche-1280x1000.jpeg">
+                    </div>
+                </li>
+            
+                
+                <li class="slide">
+
+                    <div class="slide-overlay">
+
+                        <div class="slide-header">
+
+                           <span class="cat-links"><a href="https://abuelascounter.com/category/entree/" rel="category tag">Entree</a></span>
+                            <h3><a href="https://abuelascounter.com/alita-olivas-roast-chicken/"><strong>Alita Oliva’s Roast Chicken</strong></a></h3>
+
+                                                            <div class="entry-meta">
+                                                                                                        </div>
+                            
+                            
+
+                                                            <div class="slide_button">
+                                    <a href="https://abuelascounter.com/alita-olivas-roast-chicken/" title="Permalink to Alita Oliva’s Roast Chicken" rel="bookmark">Read More</a>
+                                </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="slide-background"  style="background-image:url('https://abuelascounter.com/wp-content/uploads/2023/01/Roast-Chicken-Recipe-750x500.jpeg')" data-rjs="https://abuelascounter.com/wp-content/uploads/2023/01/Roast-Chicken-Recipe.jpeg">
+                    </div>
+                </li>
+            
+                
+                <li class="slide">
+
+                    <div class="slide-overlay">
+
+                        <div class="slide-header">
+
+                           <span class="cat-links"><a href="https://abuelascounter.com/category/entree/" rel="category tag">Entree</a></span>
+                            <h3><a href="https://abuelascounter.com/classic-cuban-recipes-pollo-a-la-plancha/">Classic Cuban Recipes: Pollo a la Plancha</a></h3>
+
+                                                            <div class="entry-meta">
+                                                                                                        </div>
+                            
+                            
+
+                                                            <div class="slide_button">
+                                    <a href="https://abuelascounter.com/classic-cuban-recipes-pollo-a-la-plancha/" title="Permalink to Classic Cuban Recipes: Pollo a la Plancha" rel="bookmark">Read More</a>
+                                </div>
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="slide-background"  style="background-image:url('https://abuelascounter.com/wp-content/uploads/2023/04/Pollo-a-La-Plancha-Cuban-Recipe-750x500.jpeg')" data-rjs="https://abuelascounter.com/wp-content/uploads/2023/04/Pollo-a-La-Plancha-Cuban-Recipe-1221x1000.jpeg">
+                    </div>
+                </li>
+            
+		</ul>
+
+    </div>
+
+
+
+<main id="main" class="site-main" role="main">
+
+    
+
+    
+        
+    
+
+    <section class="content-area">
+
+        
+            <h2 class="section-title">
+
+                Recent Posts
+                
+             </h2>
+
+
+            
+                <section id="recent-posts" class="recent-posts">
+
+                    
+                        <div id="post-9337" class="post-9337 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-entree tag-abuelas tag-classic-cuban tag-cuban tag-cuban-tradition tag-entree tag-oxtail tag-rabo-encendido tag-rabo-encendido-recipe tag-tradition tag-traditional">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/classic-cuban-rabo-encendido-recipe/" title="Classic Cuban Rabo Encendido Recipe">
+                <img width="750" height="884" src="https://abuelascounter.com/wp-content/uploads/2023/10/Rabo-Encendido-Signature-Large-750x884.jpeg" class="attachment-loop-large size-loop-large wp-post-image" alt="Classic Cuban Rabo Encendido Recipe" decoding="async" fetchpriority="high" srcset="https://abuelascounter.com/wp-content/uploads/2023/10/Rabo-Encendido-Signature-Large-750x884.jpeg 750w, https://abuelascounter.com/wp-content/uploads/2023/10/Rabo-Encendido-Signature-Large-255x300.jpeg 255w, https://abuelascounter.com/wp-content/uploads/2023/10/Rabo-Encendido-Signature-Large-869x1024.jpeg 869w, https://abuelascounter.com/wp-content/uploads/2023/10/Rabo-Encendido-Signature-Large-768x905.jpeg 768w, https://abuelascounter.com/wp-content/uploads/2023/10/Rabo-Encendido-Signature-Large.jpeg 1086w" sizes="(max-width: 750px) 100vw, 750px" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/entree/" rel="category tag">Entree</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/classic-cuban-rabo-encendido-recipe/" rel="bookmark">Classic Cuban Rabo Encendido Recipe</a></h3>
+        <div class="entry-meta">
+                                     
+
+                    </div>
+
+        <div class="entry-content">
+            <p>This Classic Cuban Rabo Encendido Recipe is going to take you step by step so you can make this delicious comforting dish at home. Rabo Encendido or braised oxtail, is one of the most rich and delicious classic Cuban dishes. There is a heavy African and Caribbean influence but tastes [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/classic-cuban-rabo-encendido-recipe/" title="Permalink to Classic Cuban Rabo Encendido Recipe" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</div><!-- #post-9337 -->
+
+                        
+
+                    
+                        <div id="post-7364" class="post-7364 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-appetizers tag-abuelas tag-croquetas tag-croquetas-de-jamon tag-cuban tag-cuban-croquetas tag-cuban-tradition tag-ham-croquettes tag-hosting tag-sides tag-tradition tag-traditional">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/croquetas-de-jamon-cuban-ham-croquettes/" title="Croquetas de Jamon (Cuban Ham Croquettes)">
+                <img width="750" height="549" src="https://abuelascounter.com/wp-content/uploads/2022/07/Cuban-Ham-Croquetas-750x549.jpeg" class="attachment-loop-large size-loop-large wp-post-image" alt="Cuban Ham Croquetas" decoding="async" srcset="https://abuelascounter.com/wp-content/uploads/2022/07/Cuban-Ham-Croquetas-750x549.jpeg 750w, https://abuelascounter.com/wp-content/uploads/2022/07/Cuban-Ham-Croquetas-300x220.jpeg 300w, https://abuelascounter.com/wp-content/uploads/2022/07/Cuban-Ham-Croquetas-1024x750.jpeg 1024w, https://abuelascounter.com/wp-content/uploads/2022/07/Cuban-Ham-Croquetas-768x562.jpeg 768w, https://abuelascounter.com/wp-content/uploads/2022/07/Cuban-Ham-Croquetas.jpeg 1280w" sizes="(max-width: 750px) 100vw, 750px" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/appetizers/" rel="category tag">Appetizers</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/croquetas-de-jamon-cuban-ham-croquettes/" rel="bookmark">Croquetas de Jamon (Cuban Ham Croquettes)</a></h3>
+        <div class="entry-meta">
+                                     
+
+                    </div>
+
+        <div class="entry-content">
+            <p>Croquetas de Jamon are as close to biting into heaven as we can get. They are fried to crisp perfection on the outside, and moist and soft and salty delicious on the inside. It&#8217;s the perfect balance. A Cuban Ham Croqueta has the power to instantly transform your mood, because [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/croquetas-de-jamon-cuban-ham-croquettes/" title="Permalink to Croquetas de Jamon (Cuban Ham Croquettes)" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</div><!-- #post-7364 -->
+
+                        
+
+                    
+                        <div id="post-7044" class="post-7044 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-sauce tag-abuelas tag-cuban tag-cuban-sofrito-recipes tag-easy-recipes tag-sofrito tag-tradition tag-traditional">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/cuban-sofrito-recipe/" title="Cuban Sofrito Recipe">
+                <img width="750" height="976" src="https://abuelascounter.com/wp-content/uploads/2022/05/Sofrito-750x976.jpg" class="attachment-loop-large size-loop-large wp-post-image" alt="cuban sofrito recipe" decoding="async" srcset="https://abuelascounter.com/wp-content/uploads/2022/05/Sofrito-750x976.jpg 750w, https://abuelascounter.com/wp-content/uploads/2022/05/Sofrito-230x300.jpg 230w, https://abuelascounter.com/wp-content/uploads/2022/05/Sofrito-787x1024.jpg 787w, https://abuelascounter.com/wp-content/uploads/2022/05/Sofrito-768x1000.jpg 768w, https://abuelascounter.com/wp-content/uploads/2022/05/Sofrito-1180x1536.jpg 1180w, https://abuelascounter.com/wp-content/uploads/2022/05/Sofrito-1320x1718.jpg 1320w, https://abuelascounter.com/wp-content/uploads/2022/05/Sofrito.jpg 1346w" sizes="(max-width: 750px) 100vw, 750px" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/sauce/" rel="category tag">Sauce</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/cuban-sofrito-recipe/" rel="bookmark">Cuban Sofrito Recipe</a></h3>
+        <div class="entry-meta">
+                                     
+
+                    </div>
+
+        <div class="entry-content">
+            <p>A good Cuban Sofrito Recipe is really the secret to elevating almost any Cuban recipe you are going to make. So while don&#8217;t want to put any pressure on your cuban sofrito, it is kind of a big deal. The good news is that making a good Cuban Sofrito is [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/cuban-sofrito-recipe/" title="Permalink to Cuban Sofrito Recipe" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</div><!-- #post-7044 -->
+
+                        
+
+                    
+                        <div id="post-6794" class="post-6794 post type-post status-publish format-standard has-post-thumbnail sticky hentry category-desserts tag-abuelas tag-birthday tag-cuban tag-cuban-tradition tag-dessert tag-rum-cake tag-traditional">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/cuban-rum-cake/" title="Cuban Rum Cake">
+                <img width="750" height="1019" src="https://abuelascounter.com/wp-content/uploads/2022/02/merenguecake-750x1019.jpg" class="attachment-loop-large size-loop-large wp-post-image" alt="merengue rum cake" decoding="async" loading="lazy" srcset="https://abuelascounter.com/wp-content/uploads/2022/02/merenguecake-750x1019.jpg 750w, https://abuelascounter.com/wp-content/uploads/2022/02/merenguecake-221x300.jpg 221w, https://abuelascounter.com/wp-content/uploads/2022/02/merenguecake-753x1024.jpg 753w, https://abuelascounter.com/wp-content/uploads/2022/02/merenguecake-768x1044.jpg 768w, https://abuelascounter.com/wp-content/uploads/2022/02/merenguecake-1130x1536.jpg 1130w, https://abuelascounter.com/wp-content/uploads/2022/02/merenguecake-1320x1794.jpg 1320w, https://abuelascounter.com/wp-content/uploads/2022/02/merenguecake.jpg 1431w" sizes="(max-width: 750px) 100vw, 750px" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/desserts/" rel="category tag">Desserts</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/cuban-rum-cake/" rel="bookmark">Cuban Rum Cake</a></h3>
+        <div class="entry-meta">
+                                     
+
+                    </div>
+
+        <div class="entry-content">
+            <p>This Cuban Rum Cake Recipe is going to walk you step by step to creating a delicious sweet treat right at home. This cake is an ode to the birthday cakes we grew up with. I remember being a little girl and going with my mom to pick up the [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/cuban-rum-cake/" title="Permalink to Cuban Rum Cake" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</div><!-- #post-6794 -->
+
+                        
+
+                    
+                        <article id="post-9808" class="regular-post post-9808 post type-post status-publish format-standard has-post-thumbnail hentry category-sauce tag-abuelas tag-chimichurri tag-cuban tag-easy-recipes tag-hosting tag-sauce-2 tag-sauces">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/orange-chimichurri-recipe/" title="Orange Chimichurri Recipe">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2022/04/Orange-Chimichurri-Recipe-360x240.jpeg" class="attachment-loop size-loop wp-post-image" alt="Orange Chimichurri Recipe" decoding="async" loading="lazy" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/sauce/" rel="category tag">Sauce</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/orange-chimichurri-recipe/" rel="bookmark">Orange Chimichurri Recipe</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>This Orange Chimichurri Recipe is an easy to follow step by step to making a delicious chimichurri sauce that can punch up any dish. Orange chimichurri is the citrusy spinoff from the original, Chimichurri Sauce. Herbs and orange slices are mixed together with olive oil, vinegar and fresh chilis for [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/orange-chimichurri-recipe/" title="Permalink to Orange Chimichurri Recipe" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9808 -->
+
+                        
+
+                    
+                        <article id="post-9786" class="regular-post post-9786 post type-post status-publish format-standard has-post-thumbnail hentry category-uncategorized">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/orange-mimosa-pitcher/" title="Orange Mimosa Pitcher">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2024/03/Orange-Mimosas-Recipe-360x240.jpg" class="attachment-loop size-loop wp-post-image" alt="Orange Mimosas Recipe" decoding="async" loading="lazy" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/uncategorized/" rel="category tag">Uncategorized</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/orange-mimosa-pitcher/" rel="bookmark">Orange Mimosa Pitcher</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>This Orange Mimosa Pitcher Recipe is just what you need at your next brunch. Easy to follow and more delicious to drink. Mimosas and brunch are synonymous. Freshly squeezed juice and champagne are mixed together for that signature cocktail that pairs perfectly with everything from Tortilla Espanola to our French Toast [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/orange-mimosa-pitcher/" title="Permalink to Orange Mimosa Pitcher" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9786 -->
+
+                        
+
+                    
+                        <article id="post-9780" class="regular-post post-9780 post type-post status-publish format-standard has-post-thumbnail hentry category-entree tag-abuelas tag-cuban tag-dinner-ideas tag-easy-recipes tag-entree tag-pork-chops tag-sunday-dinner tag-thick-cut-pork-chops">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/thick-cut-pork-chops/" title="Thick Cut Pork Chops">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2024/03/Thick-Cut-Pork-Chops-Marketing-Large-360x240.jpeg" class="attachment-loop size-loop wp-post-image" alt="Thick Cut Pork Chops" decoding="async" loading="lazy" srcset="https://abuelascounter.com/wp-content/uploads/2024/03/Thick-Cut-Pork-Chops-Marketing-Large-360x240.jpeg 360w, https://abuelascounter.com/wp-content/uploads/2024/03/Thick-Cut-Pork-Chops-Marketing-Large-800x530.jpeg 800w, https://abuelascounter.com/wp-content/uploads/2024/03/Thick-Cut-Pork-Chops-Marketing-Large-750x500.jpeg 750w" sizes="(max-width: 360px) 100vw, 360px" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/entree/" rel="category tag">Entree</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/thick-cut-pork-chops/" rel="bookmark">Thick Cut Pork Chops</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>This Thick Cut Pork Chops Recipe is going to walk you through making an easy delicious pan seared chop you will crave. These thick-cut pork chops are seared in a hot pan until they are golden then transferred to the oven so they gently cook through and are succulent. By [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/thick-cut-pork-chops/" title="Permalink to Thick Cut Pork Chops" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9780 -->
+
+                        
+
+                    
+                        <article id="post-9752" class="regular-post post-9752 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-february tag-filet-mignon tag-hosting tag-how-to-cook-filet-mignon tag-newsletter tag-super-bowl tag-super-bowl-hosting tag-super-bowl-recipes tag-super-bowl-sunday tag-valentines-day-menu tag-valentines-day">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/newsletter-february-is-for-lovers/" title="Newsletter: February is for Lovers">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2024/02/february-Large-360x240.jpeg" class="attachment-loop size-loop wp-post-image" alt="FEBRUARY NEWSLETTER" decoding="async" loading="lazy" srcset="https://abuelascounter.com/wp-content/uploads/2024/02/february-Large-360x240.jpeg 360w, https://abuelascounter.com/wp-content/uploads/2024/02/february-Large-800x530.jpeg 800w, https://abuelascounter.com/wp-content/uploads/2024/02/february-Large-750x500.jpeg 750w" sizes="(max-width: 360px) 100vw, 360px" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/blog/" rel="category tag">Blog</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/newsletter-february-is-for-lovers/" rel="bookmark">Newsletter: February is for Lovers</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>Congratulations! If you are reading this, it means that you have successfully survived January. We have made it to February. As Taylor Swift would say it’s the month for lovers. Yes, we have to talk about Taylor Swift, the entire world is talking about her, so it would be weird [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/newsletter-february-is-for-lovers/" title="Permalink to Newsletter: February is for Lovers" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9752 -->
+
+                        
+
+                    
+                        <article id="post-9754" class="regular-post post-9754 post type-post status-publish format-standard has-post-thumbnail hentry category-blog tag-happy-new-year">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/newsletter-happy-new-year/" title="Newsletter: Happy New Year!">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2024/02/Lets-Make-Creamy-Mac-n-Cheese-360x240.png" class="attachment-loop size-loop wp-post-image" alt="HAPPY NEW YEAR BLOG" decoding="async" loading="lazy" srcset="https://abuelascounter.com/wp-content/uploads/2024/02/Lets-Make-Creamy-Mac-n-Cheese-360x240.png 360w, https://abuelascounter.com/wp-content/uploads/2024/02/Lets-Make-Creamy-Mac-n-Cheese-800x530.png 800w, https://abuelascounter.com/wp-content/uploads/2024/02/Lets-Make-Creamy-Mac-n-Cheese-750x500.png 750w" sizes="(max-width: 360px) 100vw, 360px" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/blog/" rel="category tag">Blog</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/newsletter-happy-new-year/" rel="bookmark">Newsletter: Happy New Year!</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>One of our resolutions this year was to be more consistent with our very fickle newsletter. We are excited to bring our favorite recipes to your inbox this year! At the start of every year we usually have healthy recipes on our mind and 2024 is no different! (It must [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/newsletter-happy-new-year/" title="Permalink to Newsletter: Happy New Year!" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9754 -->
+
+                        
+
+                    
+                        <article id="post-9733" class="regular-post post-9733 post type-post status-publish format-standard has-post-thumbnail hentry category-brunch category-desserts">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/no-bake-granola-bars/" title="No Bake Granola Bars">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2024/01/No-Bake-Granola-Recipe-360x240.jpeg" class="attachment-loop size-loop wp-post-image" alt="No Bake Granola Recipe" decoding="async" loading="lazy" srcset="https://abuelascounter.com/wp-content/uploads/2024/01/No-Bake-Granola-Recipe-360x240.jpeg 360w, https://abuelascounter.com/wp-content/uploads/2024/01/No-Bake-Granola-Recipe-800x530.jpeg 800w, https://abuelascounter.com/wp-content/uploads/2024/01/No-Bake-Granola-Recipe-750x500.jpeg 750w" sizes="(max-width: 360px) 100vw, 360px" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/brunch/" rel="category tag">Brunch</a>, <a href="https://abuelascounter.com/category/desserts/" rel="category tag">Desserts</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/no-bake-granola-bars/" rel="bookmark">No Bake Granola Bars</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>No Bake Granola Bars are going to be your favorite step by step recipe to make this delicious healthy snack that everyone will love. We have all seen granola bars in the market. They are one of those snacks that you can usually just pick up at the store, and [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/no-bake-granola-bars/" title="Permalink to No Bake Granola Bars" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9733 -->
+
+                        
+
+                    
+                        <article id="post-9710" class="regular-post post-9710 post type-post status-publish format-standard has-post-thumbnail hentry category-sides tag-abuelas-2 tag-easy-quinoa tag-healthy tag-healthy-dinner tag-healthy-sides tag-quinoa">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/easy-quinoa/" title="Easy Quinoa">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2024/01/IMG_5174-Medium-360x240.jpeg" class="attachment-loop size-loop wp-post-image" alt="Easy Quinoa Recipe" decoding="async" loading="lazy" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/sides/" rel="category tag">Sides</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/easy-quinoa/" rel="bookmark">Easy Quinoa</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>This Easy Quinoa recipe will show you how to perfect your quinoa so you can make this delicious healthy alternative anytime you need. In a culture where white rice is king we want to take a minute and introduce you to quinoa. It&#8217;s a great alternative to rice to introduce to [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/easy-quinoa/" title="Permalink to Easy Quinoa" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9710 -->
+
+                        
+
+                    
+                        <article id="post-9647" class="regular-post post-9647 post type-post status-publish format-standard has-post-thumbnail hentry category-entree category-new-years-dinner tag-abuelas tag-cuban tag-cuban-tradition tag-easy-recipes tag-entree tag-hosting tag-paella tag-traditional">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/cuban-seafood-paella/" title="Cuban Seafood Paella">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2023/12/Cuban-Paella-Recipe-360x240.jpeg" class="attachment-loop size-loop wp-post-image" alt="Cuban Paella Recipe" decoding="async" loading="lazy" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/entree/" rel="category tag">Entree</a>, <a href="https://abuelascounter.com/category/new-years-dinner/" rel="category tag">New Year's Dinner</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/cuban-seafood-paella/" rel="bookmark">Cuban Seafood Paella</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>This Cuban Seafood Paella Recipe is going to walk you through making a traditional paella that is packed with flavor and loaded with seafood. It&#8217;s an intimidating dish, that we break down for you and make so simple. Let&#8217;s jump right in! This seafood paella is inspired by my Abuelo [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/cuban-seafood-paella/" title="Permalink to Cuban Seafood Paella" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9647 -->
+
+                        
+
+                    
+                        <article id="post-9634" class="regular-post post-9634 post type-post status-publish format-standard has-post-thumbnail hentry category-christmas-eve-and-morning-ideas category-desserts tag-christmas-traditions tag-hot-chocolate tag-spanish-hot-chocolate">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/spanish-hot-chocolate/" title="Spanish Hot Chocolate">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2023/12/Spanish-Hot-Chocolate-360x240.jpeg" class="attachment-loop size-loop wp-post-image" alt="Spanish Hot Chocolate" decoding="async" loading="lazy" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/christmas-eve-and-morning-ideas/" rel="category tag">Christmas Eve and Morning Ideas</a>, <a href="https://abuelascounter.com/category/desserts/" rel="category tag">Desserts</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/spanish-hot-chocolate/" rel="bookmark">Spanish Hot Chocolate</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>This Spanish Hot Chocolate Recipe is a thick creamy and delicious hot chocolate that you will crave all year long. What is Spanish Hot Chocolate This of Spanish Hot Chocolate as a decadent treat. It really is more of a dip than a drink. Almost every café and bakery in [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/spanish-hot-chocolate/" title="Permalink to Spanish Hot Chocolate" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9634 -->
+
+                        
+
+                    
+                        <article id="post-9609" class="regular-post post-9609 post type-post status-publish format-standard has-post-thumbnail hentry category-christmas-eve-and-morning-ideas category-sides tag-abuelas tag-cuban tag-cuban-fufu tag-cuban-tradition tag-easy-recipes tag-fufu tag-hosting tag-how-to-make-fufu tag-sides tag-traditional">
+
+                <div class="post-thumb"><a href="https://abuelascounter.com/cuban-fufu/" title="Cuban Fufu">
+                <img width="360" height="240" src="https://abuelascounter.com/wp-content/uploads/2023/12/Fufu-Signature-Medium-360x240.jpeg" class="attachment-loop size-loop wp-post-image" alt="Cuban Fufu Recipe" decoding="async" loading="lazy" />            </a></div>
+        
+    <section class="entry-body">
+
+        <span class="cat-links"><a href="https://abuelascounter.com/category/christmas-eve-and-morning-ideas/" rel="category tag">Christmas Eve and Morning Ideas</a>, <a href="https://abuelascounter.com/category/sides/" rel="category tag">Sides</a></span>
+        <h3 class="entry-title"><a href="https://abuelascounter.com/cuban-fufu/" rel="bookmark">Cuban Fufu</a></h3>
+        <div class="entry-meta">
+                                    
+
+                    </div>
+
+        <div class="entry-content">
+            <p>This classic Cuban Fufu Recipe is going to take you step by step to making a delicious traditional fufu. It&#8217;s quick and easy to do. Let&#8217;s hop right in. What is Fufu? Fufu is essentially, mashed plantain. Plantains are a less sweet, starchier equivalent to their cousin, the banana. Think [&hellip;]</p>
+        </div>
+
+
+                    <div class="readmore_button">
+                <a href="https://abuelascounter.com/cuban-fufu/" title="Permalink to Cuban Fufu" rel="bookmark">Continue Reading</a>
+            </div>
+        
+
+    </section>
+
+    <div class="clearfix"></div>
+</article><!-- #post-9609 -->
+
+                        
+
+                    
+                </section>
+
+
+                
+                    <div class="navigation"><span aria-current="page" class="page-numbers current">1</span><a class="page-numbers" href="https://abuelascounter.com/page/2/">2</a><a class="page-numbers" href="https://abuelascounter.com/page/3/">3</a><span class="page-numbers dots">&hellip;</span><a class="page-numbers" href="https://abuelascounter.com/page/22/">22</a><a class="next page-numbers" href="https://abuelascounter.com/page/2/">Next &rarr;</a></div>
+                
+            
+        
+
+        
+                            <div class="section-home-featured">
+                    <div class="widget wpzoom-featured-cat-home" id="wpzoom-featured-cat-home-2"><h3 class="title"><a href="https://abuelascounter.com/category/desserts/">Desserts</a></h3>
+                <div class="featured-grid-3">
+
+
+		       	<ul class="wpz-featured-grid">
+
+    	          	
+
+                        <li>
+
+                            <article id="post-9759" class="regular-post post-9759 post type-post status-publish format-standard has-post-thumbnail hentry category-desserts tag-dessert tag-easy-dessert tag-easy-dessert-ideas tag-how-to-cook tag-italian-dessert tag-tiramisu">
+
+                                                                        <div class="post-thumb"><a href="https://abuelascounter.com/eggless-tiramisu-recipe/" title="Eggless Tiramisu Recipe">
+                                            <img width="360" height="540" src="https://abuelascounter.com/wp-content/uploads/2024/02/Eggless-Tiramisu-Recipe-360x540.jpg" class="attachment-loop-portrait size-loop-portrait wp-post-image" alt="Egggless Tiramisu Recipe" decoding="async" loading="lazy" />                                        </a></div>
+                                    
+                                <section class="entry-body">
+
+                                    <span class="entry-date">February 29, 2024</span>
+                                    <h3 class="entry-title"><a href="https://abuelascounter.com/eggless-tiramisu-recipe/" rel="bookmark">Eggless Tiramisu Recipe</a></h3>
+                                    
+                                    
+                                </section>
+
+                                <div class="clearfix"></div>
+                            </article><!-- #post-9759 -->
+
+                        </li>
+
+
+                    
+
+                        <li>
+
+                            <article id="post-9733" class="regular-post post-9733 post type-post status-publish format-standard has-post-thumbnail hentry category-brunch category-desserts">
+
+                                                                        <div class="post-thumb"><a href="https://abuelascounter.com/no-bake-granola-bars/" title="No Bake Granola Bars">
+                                            <img width="360" height="540" src="https://abuelascounter.com/wp-content/uploads/2024/01/No-Bake-Granola-Recipe-360x540.jpeg" class="attachment-loop-portrait size-loop-portrait wp-post-image" alt="No Bake Granola Recipe" decoding="async" loading="lazy" />                                        </a></div>
+                                    
+                                <section class="entry-body">
+
+                                    <span class="entry-date">January 22, 2024</span>
+                                    <h3 class="entry-title"><a href="https://abuelascounter.com/no-bake-granola-bars/" rel="bookmark">No Bake Granola Bars</a></h3>
+                                    
+                                    
+                                </section>
+
+                                <div class="clearfix"></div>
+                            </article><!-- #post-9733 -->
+
+                        </li>
+
+
+                    
+
+                        <li>
+
+                            <article id="post-9634" class="regular-post post-9634 post type-post status-publish format-standard has-post-thumbnail hentry category-christmas-eve-and-morning-ideas category-desserts tag-christmas-traditions tag-hot-chocolate tag-spanish-hot-chocolate">
+
+                                                                        <div class="post-thumb"><a href="https://abuelascounter.com/spanish-hot-chocolate/" title="Spanish Hot Chocolate">
+                                            <img width="360" height="540" src="https://abuelascounter.com/wp-content/uploads/2023/12/Spanish-Hot-Chocolate-360x540.jpeg" class="attachment-loop-portrait size-loop-portrait wp-post-image" alt="Spanish Hot Chocolate" decoding="async" loading="lazy" />                                        </a></div>
+                                    
+                                <section class="entry-body">
+
+                                    <span class="entry-date">December 23, 2023</span>
+                                    <h3 class="entry-title"><a href="https://abuelascounter.com/spanish-hot-chocolate/" rel="bookmark">Spanish Hot Chocolate</a></h3>
+                                    
+                                    
+                                </section>
+
+                                <div class="clearfix"></div>
+                            </article><!-- #post-9634 -->
+
+                        </li>
+
+
+                    
+				
+			</ul><!-- /.right-col  -->
+
+            </div>
+
+            
+                <div class="readmore_button">
+                    <a href="https://abuelascounter.com/category/desserts/">View More in Desserts...</a>
+                </div>
+            
+			<div class="clear"></div></div>                </div>
+
+            
+        
+        <div class="clear"></div>
+
+
+    </section><!-- .content-area -->
+
+    
+        
+<div id="sidebar" class="site-sidebar">
+
+    
+    <div class="widget_text widget widget_custom_html" id="custom_html-2"><h3 class="title">About Us</h3><div class="textwidget custom-html-widget"><div class="widget wpzoom-bio">
+	<img src="https://abuelascounter.com/wp-content/uploads/2021/11/ani-avatar.png" class="avatar avatar-110 photo" height="110" width="110" alt="Ani Mezerhane of Abuelas Counter">
+	<div class="meta">
+		Ani Mezerhane
+	</div>
+	<div class="content">
+		<p>
+			Chef Ani Mezerhane is married with two kids.  Ani has been a love of food since she could walk. <strong><a href="https://abuelascounter.com/about/">Read More »</a></strong>
+		</p>
+	</div>
+</div>
+<div class="widget wpzoom-bio">
+	<img src="https://abuelascounter.com/wp-content/uploads/2021/11/cristina-avatar.png" class="avatar avatar-110 photo" height="110" width="110" alt="Cristy Bustamante of Abuelas Counter">
+	<div class="meta">
+		Cristy Bustamante
+	</div>
+	<div class="content">
+		<p>
+			I’m Cristy and I love TV, food and most of all croquetas. <strong><a href="https://abuelascounter.com/about/">Read More »</a></strong>
+		</p>
+	</div>
+</div></div><div class="clear"></div></div><div class="widget zoom-social-icons-widget" id="zoom-social-icons-widget-3"><h3 class="title">Follow Us</h3>
+		
+<ul class="zoom-social-icons-list zoom-social-icons-list--with-canvas zoom-social-icons-list--round zoom-social-icons-list--no-labels">
+
+		
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://instagram.com/abuelascounter"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">instagram</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="background-color" data-hover-color="#e4405f" style="background-color : #e4405f; width: 18px; height: auto; max-height: 18px; padding:10px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>instagram</title><path d="M16.031 2.324c4.283 0 4.791 0.019 6.475 0.094 1.566 0.069 2.411 0.332 2.975 0.551 0.745 0.288 1.284 0.639 1.841 1.196 0.564 0.564 0.908 1.096 1.202 1.841 0.219 0.564 0.482 1.415 0.551 2.975 0.075 1.691 0.094 2.198 0.094 6.475s-0.019 4.791-0.094 6.475c-0.069 1.566-0.332 2.411-0.551 2.975-0.288 0.745-0.639 1.284-1.196 1.841-0.564 0.564-1.096 0.908-1.841 1.202-0.564 0.219-1.415 0.482-2.975 0.551-1.691 0.075-2.198 0.094-6.475 0.094s-4.791-0.019-6.475-0.094c-1.566-0.069-2.411-0.332-2.975-0.551-0.745-0.288-1.284-0.639-1.841-1.196-0.564-0.564-0.908-1.096-1.202-1.841-0.219-0.564-0.482-1.415-0.551-2.975-0.075-1.691-0.094-2.198-0.094-6.475s0.019-4.791 0.094-6.475c0.069-1.566 0.332-2.411 0.551-2.975 0.288-0.745 0.639-1.284 1.196-1.841 0.564-0.564 1.096-0.908 1.841-1.202 0.564-0.219 1.415-0.482 2.975-0.551 1.685-0.075 2.192-0.094 6.475-0.094zM16.031-0.563c-4.352 0-4.897 0.019-6.607 0.094-1.703 0.075-2.874 0.351-3.889 0.745-1.058 0.413-1.954 0.958-2.843 1.854-0.895 0.889-1.44 1.785-1.854 2.837-0.395 1.021-0.67 2.186-0.745 3.889-0.075 1.716-0.094 2.261-0.094 6.613s0.019 4.897 0.094 6.607c0.075 1.703 0.351 2.874 0.745 3.889 0.413 1.058 0.958 1.954 1.854 2.843 0.889 0.889 1.785 1.44 2.837 1.847 1.021 0.395 2.186 0.67 3.889 0.745 1.71 0.075 2.254 0.094 6.607 0.094s4.897-0.019 6.607-0.094c1.703-0.075 2.874-0.351 3.889-0.745 1.052-0.407 1.948-0.958 2.837-1.847s1.44-1.785 1.847-2.837c0.395-1.021 0.67-2.186 0.745-3.889 0.075-1.71 0.094-2.254 0.094-6.607s-0.019-4.897-0.094-6.607c-0.075-1.703-0.351-2.874-0.745-3.889-0.395-1.065-0.939-1.96-1.835-2.849-0.889-0.889-1.785-1.44-2.837-1.847-1.021-0.395-2.186-0.67-3.889-0.745-1.716-0.081-2.261-0.1-6.613-0.1v0zM16.031 7.233c-4.546 0-8.235 3.688-8.235 8.235s3.688 8.235 8.235 8.235 8.235-3.688 8.235-8.235c0-4.546-3.688-8.235-8.235-8.235zM16.031 20.81c-2.95 0-5.342-2.392-5.342-5.342s2.392-5.342 5.342-5.342c2.95 0 5.342 2.392 5.342 5.342s-2.392 5.342-5.342 5.342zM26.514 6.907c0 1.062-0.861 1.923-1.922 1.923s-1.922-0.861-1.922-1.923c0-1.062 0.861-1.923 1.922-1.923s1.922 0.861 1.922 1.923z"></path></svg>			</span>
+
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.pinterest.com/abuelascounter/_saved/"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">pinterest</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="background-color" data-hover-color="#c92619" style="background-color : #c92619; width: 18px; height: auto; max-height: 18px; padding:10px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>pinterest</title><path d="M10.646 11.711c0-1.378 0.313-2.505 1.065-3.444 0.689-0.939 1.566-1.44 2.567-1.44 0.814 0 1.44 0.25 1.879 0.814s0.689 1.252 0.689 2.067c0 0.501-0.125 1.127-0.313 1.816-0.188 0.751-0.376 1.628-0.689 2.568-0.313 1.002-0.564 1.753-0.689 2.317-0.251 1.002-0.063 1.879 0.564 2.63 0.626 0.689 1.44 1.065 2.442 1.065 1.753 0 3.194-1.002 4.321-2.943 1.127-2.004 1.691-4.384 1.691-7.202 0-2.129-0.689-3.883-2.067-5.26-1.378-1.315-3.319-2.004-5.824-2.004-2.818 0-5.072 0.877-6.763 2.693-1.753 1.753-2.63 3.883-2.63 6.387 0 1.503 0.438 2.755 1.252 3.757 0.313 0.313 0.376 0.689 0.313 1.065-0.125 0.313-0.251 0.814-0.376 1.503-0.063 0.25-0.188 0.438-0.376 0.501s-0.376 0.063-0.564 0c-1.315-0.564-2.254-1.44-2.943-2.755s-1.002-2.818-1.002-4.509c0-1.127 0.188-2.192 0.564-3.319s0.877-2.192 1.628-3.194c0.751-1.065 1.691-1.941 2.693-2.755 1.065-0.814 2.317-1.44 3.883-1.941 1.503-0.438 3.131-0.689 4.822-0.689 1.816 0 3.444 0.313 4.947 0.939 1.503 0.564 2.818 1.378 3.82 2.38 1.065 1.065 1.816 2.192 2.442 3.507 0.564 1.315 0.877 2.693 0.877 4.070 0 3.757-0.939 6.888-2.881 9.331-1.941 2.505-4.384 3.695-7.389 3.695-1.002 0-1.941-0.188-2.818-0.689-0.877-0.438-1.503-1.002-1.879-1.691-0.689 2.943-1.127 4.697-1.315 5.26-0.376 1.44-1.252 3.194-2.693 5.26h-1.315c-0.251-2.567-0.188-4.697 0.188-6.387l2.442-10.333c-0.376-0.814-0.564-1.816-0.564-3.069z"></path></svg>			</span>
+
+					</a>
+	</li>
+
+	
+				<li class="zoom-social_icons-list__item">
+		<a class="zoom-social_icons-list__link" href="https://www.youtube.com/channel/UCudmMwlBqBP0i06TWGamQKA/"
+			target="_blank"			>
+									
+						<span class="screen-reader-text">youtube</span>
+			
+			<span class="zoom-social_icons-list-span social-icon socicon"
+				data-hover-rule="background-color" data-hover-color="#e02a20" style="background-color : #e02a20; width: 18px; height: auto; max-height: 18px; padding:10px" >				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><title>youtube</title><path d="M31.749 9.081c0 0-0.313-2.254-1.252-3.194-1.252-1.315-2.63-1.315-3.256-1.378-4.446-0.313-11.209-0.313-11.209-0.313v0c0 0-6.763 0-11.209 0.313-0.626 0.063-2.004 0.063-3.256 1.378-0.939 0.939-1.252 3.194-1.252 3.194s-0.313 2.567-0.313 5.135v2.442c0 2.63 0.313 5.198 0.313 5.198s0.313 2.192 1.252 3.194c1.252 1.252 2.881 1.252 3.569 1.378 2.567 0.25 10.896 0.313 10.896 0.313s6.763 0 11.209-0.313c0.626-0.063 2.004-0.125 3.256-1.378 0.939-1.002 1.252-3.194 1.252-3.194s0.313-2.567 0.313-5.198v-2.442c0-2.568-0.313-5.135-0.313-5.135zM20.352 15.718v0l-7.577 3.945v-9.018l8.642 4.509z"></path></svg>			</span>
+
+					</a>
+	</li>
+
+	
+</ul>
+
+		<div class="clear"></div></div><div class="widget convertkit widget_convertkit_form" id="convertkit_form-2"><h3 class="title">Sign Up For Our Newsletter</h3><script async data-uid="f3fe8de59f" src="https://relentless-motivator-6785.ck.page/f3fe8de59f/index.js"></script><div class="clear"></div></div><div class="widget_text widget widget_custom_html" id="custom_html-3"><div class="textwidget custom-html-widget"><!--MONUMETRIC Sticky Sidebar D:300x250,160x600,300x600 T:300x250,160x600,300x600 START-->
+
+<div id="mmt-08fcc3b4-c9ae-4ed0-9500-093ba0c7f4e4"></div><script type="text/javascript" data-cfasync="false">$MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["08fcc3b4-c9ae-4ed0-9500-093ba0c7f4e4"]); })</script>
+
+<!--MONUMETRIC Sticky Sidebar D:300x250,160x600,300x600 T:300x250,160x600,300x600  ENDS-->
+</div><div class="clear"></div></div>
+    </div>
+
+    
+</main><!-- .site-main -->
+
+
+    </div><!-- ./inner-wrap -->
+
+    <footer id="colophon" class="site-footer" role="contentinfo">
+
+
+        
+
+        
+
+        
+            <div class="footer-menu">
+                <div class="inner-wrap">
+                    <div class="menu-footer"><ul id="menu-footer" class="menu"><li id="menu-item-6389" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-6389"><a href="https://abuelascounter.com" aria-current="page">Home</a></li>
+<li id="menu-item-5403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5403"><a href="https://abuelascounter.com/about/">About</a></li>
+<li id="menu-item-5408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5408"><a href="https://abuelascounter.com/contact/">Contact</a></li>
+<li id="menu-item-9502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-9502"><a rel="privacy-policy" href="https://abuelascounter.com/privacy-policy/">Privacy Policy</a></li>
+</ul></div>                </div>
+            </div>
+
+        
+
+        <div class="site-info">
+
+            <span class="copyright">Copyright &copy; 2024 Abuela&#039;s Cuban Counter</span>
+
+            <!-- <span class="designed-by">&mdash; Designed by <a href="https://www.wpzoom.com/" target="_blank" rel="nofollow">WPZOOM</a></span> -->
+
+            
+        </div><!-- .site-info -->
+    </footer><!-- #colophon -->
+
+</div>
+<!-- This site is converting visitors into subscribers and customers with OptinMonster - https://optinmonster.com :: Campaign Title: Lets Host Thanksgiving -->
+<script>(function(d,u,ac){var s=d.createElement('script');s.type='text/javascript';s.src='https://a.omappapi.com/app/js/api.min.js';s.async=true;s.dataset.user=u;s.dataset.campaign=ac;d.getElementsByTagName('head')[0].appendChild(s);})(document,219233,'tljd8lebz5sqnsjrceur');</script>
+<!-- / OptinMonster -->		<script type="text/javascript">
+		var tljd8lebz5sqnsjrceur_shortcode = true;		</script>
+		<script type="text/javascript" id="wpzoom-rcb-block-script-js-extra">
+/* <![CDATA[ */
+var wpzoomRecipeCard = {"pluginURL":"https:\/\/abuelascounter.com\/wp-content\/plugins\/recipe-card-blocks-by-wpzoom\/","homeURL":"https:\/\/abuelascounter.com\/","permalinks":"\/%postname%\/","ajax_url":"https:\/\/abuelascounter.com\/wp-admin\/admin-ajax.php","nonce":"8f538913fe","api_nonce":"70d5503566"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/plugins/recipe-card-blocks-by-wpzoom/dist/assets/js/script.js?ver=3.2.14" id="wpzoom-rcb-block-script-js"></script>
+<script type="text/javascript" src="https://assets.pinterest.com/js/pinit.js?ver=6.5.2" id="wpzoom-rcb-block-pinit-js"></script>
+<script type="text/javascript" id="convertkit-broadcasts-js-extra">
+/* <![CDATA[ */
+var convertkit_broadcasts = {"ajax_url":"https:\/\/abuelascounter.com\/wp-admin\/admin-ajax.php","action":"convertkit_broadcasts_render","debug":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/plugins/convertkit/resources/frontend/js/broadcasts.js?ver=2.4.0" id="convertkit-broadcasts-js"></script>
+<script type="text/javascript" id="convertkit-js-js-extra">
+/* <![CDATA[ */
+var convertkit = {"ajaxurl":"https:\/\/abuelascounter.com\/wp-admin\/admin-ajax.php","debug":"","nonce":"99c6534f24","subscriber_id":"","tag":"","post_id":"9337"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/plugins/convertkit/resources/frontend/js/convertkit.js?ver=2.4.0" id="convertkit-js-js"></script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/themes/foodica/js/jquery.slicknav.min.js?ver=3.0.6" id="slicknav-js"></script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/themes/foodica/js/flickity.pkgd.min.js?ver=3.0.6" id="flickity-js"></script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/themes/foodica/js/jquery.fitvids.js?ver=3.0.6" id="fitvids-js"></script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/themes/foodica/js/libraries.js?ver=3.0.6" id="libraries-js"></script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/themes/foodica/js/search_button.js?ver=3.0.6" id="search_button-js"></script>
+<script type="text/javascript" id="foodica-script-js-extra">
+/* <![CDATA[ */
+var zoomOptions = {"index_infinite_load_txt":"Load More\u2026","index_infinite_loading_txt":"Loading\u2026","slideshow_auto":"","slideshow_speed":"3000","color-palettes":"default","slider-styles":"slide-style-1","slider-gradient-color":{"start_color":"#EFF4F7","end_color":"#EFF4F7","direction":"horizontal","start_opacity":"0","end_opacity":"1","start_location":"27","end_location":"63"},"hide-tagline":"0","custom_logo_size":"10","custom_logo_retina_ready":"1","blogname":"Abuela's Cuban Counter","blogdescription":"Cuban Recipes","custom_logo":"6409","top-navbar":"1","navbar-hide-search":"1","navbar_sticky_menu":"1","header-layout-type":"wpz_header_layout_compact","color-background":"#ffffff","color-body-text":"#444444","color-logo":"#363940","color-logo-hover":"#818592","color-tagline":"#c7c7c7","color-link":"#363940","color-link-hover":"#818592","color-button-background":"#363940","color-button-color":"#fff","color-button-background-hover":"#818592","color-button-color-hover":"#fff","color-top-menu-background":"#f5f5f5","color-top-menu-link":"#3a578d","color-top-menu-link-hover":"#818592","color-top-menu-link-current":"#818592","color-menu-background":"","color-menu-link":"#004b87","color-menu-link-hover":"#818592","color-menu-link-current":"#818592","color-search-icon-background":"#da291c","color-search-icon":"#fff","color-search-icon-background-hover":"#004b87","color-search-icon-hover":"#ffffff","color-slider-background":"#EFF4F7","color-slider-post-title":"#363940","color-slider-post-title-hover":"#818592","color-slider-post-cat":"#818592","color-slider-post-cat-hover":"#9297a4","color-slider-post-meta":"#9297a4","color-slider-post-meta-link":"#9297a4","color-slider-post-meta-link-hover":"#9297a4","color-slider-excerpt":"#9297a4","color-slider-button-color":"#fff","color-slider-button-background":"#363940","color-slider-button-color-hover":"#fff","color-slider-button-background-hover":"#818592","color-post-title":"#363940","color-post-title-hover":"#818592","color-post-cat":"#acacac","color-post-cat-hover":"#818592","color-post-meta":"#999999","color-post-meta-link":"#363940","color-post-meta-link-hover":"#818592","color-post-button-color":"#363940","color-post-button-color-hover":"#fff","color-post-button-background":"","color-post-button-background-hover":"#363940","color-post-button-border":"#c7c9cf","color-post-button-border-color":"#363940","color-infinite-button":"#363940","color-infinite-button-hover":"#818592","color-single-title":"#222222","color-single-meta":"#999999","color-single-meta-link":"#363940","color-single-meta-link-hover":"#818592","color-single-content":"#444444","color-single-link":"#0F7FAF","color-single-tags":"#FDE934","color-single-tags-hover":"#FDE934","color-single-tags-text":"#000","color-single-ingredients":"#FBF9E7","color-single-ingredients-title":"#222","color-single-ingredients-text":"#736458","color-single-ingredients-lines":"#e9e5c9","color-widget-title":"#363940","color-widget-title-background":"","color-widget-about-background":"#363940","color-widget-about-hover-background":"#818592","color-widget-about-text":"#fff","color-widget-about-text-hover":"#fff","footer-background-color":"#EFF4F7","color-footer-link":"#004b87","color-footer-link-hover":"#818592","body-font-family":"Inter","body-font-family-sync-all":"0","body-font-size":{"desktop":16,"tablet":16,"mobile":16,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"body-font-weight":"normal","body-letter-spacing":"0","body-font-subset":"latin","body-font-style":"normal","title-font-family":"Annie Use Your Telescope","title-font-size":{"desktop":85,"tablet":60,"mobile":36,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"title-font-weight":"normal","title-text-transform":"none","title-letter-spacing":"0","title-font-subset":"latin","title-font-style":"normal","description-font-family":"Roboto Condensed","description-font-size":{"desktop":16,"tablet":16,"mobile":14,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"description-font-weight":"normal","description-text-transform":"uppercase","description-letter-spacing":"1","description-font-subset":"latin","description-font-style":"normal","topmenu-font-family":"Inter","topmenu-font-size":"12","topmenu-font-weight":"normal","topmenu-letter-spacing":"1","topmenu-text-transform":"uppercase","topmenu-font-style":"normal","mainmenu-font-family":"Roboto Condensed","mainmenu-font-size":"18","mainmenu-font-weight":"normal","mainmenu-letter-spacing":"0","mainmenu-text-transform":"uppercase","mainmenu-font-style":"normal","mainmenu-mobile-font-family":"Roboto Condensed","mainmenu-mobile-font-size":"18","mainmenu-mobile-font-weight":"normal","mainmenu-mobile-letter-spacing":"0","mainmenu-mobile-text-transform":"none","mainmenu-mobile-font-style":"normal","slider-title-font-family":"Inter","slider-title-font-size":{"desktop":40,"tablet":36,"mobile":26,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"slider-title-letter-spacing":"0","slider-title-font-weight":"500","slider-title-text-transform":"none","slider-title-font-style":"normal","slider-text-font-family":"Inter","slider-text-font-size":"16","slider-text-font-weight":"600","slider-text-text-transform":"none","slider-text-font-style":"normal","slider-button-font-family":"Roboto Condensed","slider-button-font-size":{"desktop":14,"tablet":14,"mobile":14,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"slider-button-font-weight":"bold","slider-button-letter-spacing":"1","slider-button-text-transform":"uppercase","slider-button-font-style":"normal","widget-title-font-family":"Roboto Condensed","widget-title-font-size":{"desktop":18,"tablet":18,"mobile":18,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"widget-title-font-weight":"bold","widget-title-letter-spacing":"1","widget-title-text-transform":"uppercase","widget-title-font-style":"normal","blog-title-font-family":"Inter","blog-title-font-size":{"desktop":24,"tablet":20,"mobile":20,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"blog-title-font-weight":"600","blog-title-text-transform":"none","blog-title-font-style":"normal","post-content-archives-font-family":"Inter","post-content-archives-font-size":{"desktop":16,"tablet":16,"mobile":16,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"post-content-archives-font-weight":"normal","post-content-archives-letter-spacing":"0","post-content-archives-font-subset":"latin","post-content-archives-font-style":"normal","sticky-title-font-family":"Inter","sticky-title-font-size":{"desktop":36,"tablet":26,"mobile":26,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"sticky-title-font-weight":"600","sticky-title-text-transform":"none","sticky-title-font-style":"normal","post-title-font-family":"Inter","post-title-font-size":{"desktop":38,"tablet":34,"mobile":28,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"post-title-font-weight":"600","post-title-text-transform":"none","post-title-font-style":"normal","post-content-font-family":"Inter","post-content-font-size":{"desktop":16,"tablet":16,"mobile":16,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"post-content-font-weight":"normal","post-content-letter-spacing":"0","post-content-font-subset":"latin","post-content-font-style":"normal","page-title-font-family":"Inter","page-title-font-size":{"desktop":44,"tablet":34,"mobile":28,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"page-title-font-weight":"600","page-title-text-transform":"none","page-title-font-style":"normal","footer-menu-font-family":"Roboto Condensed","footer-menu-font-size":{"desktop":16,"tablet":16,"mobile":16,"desktop-unit":"px","tablet-unit":"px","mobile-unit":"px"},"footer-menu-font-weight":"normal","footer-menu-letter-spacing":"0","footer-menu-text-transform":"uppercase","footer-menu-font-style":"normal","footer-widget-areas":"3","blogcopyright":"Copyright \u00a9 2024 Abuela's Cuban Counter"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/themes/foodica/js/functions.js?ver=3.0.6" id="foodica-script-js"></script>
+<script type="text/javascript" src="https://abuelascounter.com/wp-content/plugins/social-icons-widget-pro/assets/js/social-icons-widget-frontend.js?ver=1662580812" id="zoom-social-icons-widget-frontend-js"></script>
+<script>(function(d){var s=d.createElement("script");s.type="text/javascript";s.src="https://a.omappapi.com/app/js/api.min.js";s.async=true;s.id="omapi-script";d.getElementsByTagName("head")[0].appendChild(s);})(document);</script><script type="text/javascript" src="https://abuelascounter.com/wp-content/plugins/optinmonster/assets/dist/js/helper.min.js?ver=2.15.1" id="optinmonster-wp-helper-js"></script>
+
+<script data-cfasync='false' async='true' src='//monu.delivery/site/a/1/8c0b45-7427-4f03-8baa-1e202ccbcb0b.js' type='text/javascript'></script>
+		<script type="text/javascript">var omapi_localized = {
+			ajax: 'https://abuelascounter.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1',
+			nonce: '11fb85279a',
+			slugs:
+			{"tljd8lebz5sqnsjrceur":{"slug":"tljd8lebz5sqnsjrceur","mailpoet":false}}		};</script>
+				<script type="text/javascript">var omapi_data = {"object_id":0,"object_key":"","object_type":"","term_ids":[],"wp_json":"https:\/\/abuelascounter.com\/wp-json","wc_active":false,"edd_active":false,"nonce":"70d5503566"};</script>
+		
+<script type="text/javascript">
+    if(navigator.userAgent.toLowerCase().indexOf('firefox') > -1){
+        window.addEventListener('unload', function(event) {
+        });
+    }
+</script>
+
+</body>
+</html>
