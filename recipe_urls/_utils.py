@@ -105,29 +105,35 @@ SITE_ORIGINS = [
 ]
 
 def extract_base_domain(domain: str) -> str:
+
     domain = domain.lower()  # Ensure case consistency
     return domain
 
 def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) -> Optional[str]:
+
     if base_url:
+
         if not isinstance(base_url, str):
-            raise ValueError("URL is not a valid format")
+            raise ValueError("URL format must be of type string.")
         
         parsed_url = urlparse(base_url)
+
         if not all([parsed_url.scheme, parsed_url.netloc]):
-            raise ValueError("URL is not a valid format")
+            raise ValueError("URL must include both scheme and domain.")
         
         if parsed_url.scheme != 'https':
-            raise ValueError("URL is not a valid format")
+            raise ValueError("URL scheme must be 'https'.")
         
         normalized_domain = extract_base_domain(parsed_url.hostname)
         
         if normalized_domain in SITE_ORIGINS:
             return normalized_domain
+
         else:
             raise ValueError(f"URL '{base_url}' is not supported.")
     
     elif html:
+
         if not isinstance(html, str):
             raise ValueError("HTML content must be a string")
         
@@ -138,6 +144,7 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
         if relevant_links:
             # Returns the most frequently occurring domain that matches the known origins
             return max(set(relevant_links), key=relevant_links.count)
+
         else:
             raise ValueError("Site origin not found in HTML content.")
     
