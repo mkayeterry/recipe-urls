@@ -101,7 +101,8 @@ SITE_ORIGINS = [
     'simple-veganista.com', 
     'www.simplywhisked.com', 
     'www.tasteofhome.com', 
-    'tasty.co'
+    'tasty.co', 
+    'www.wellplated.com'
 ]
 
 def extract_base_domain(domain: str) -> str:
@@ -130,7 +131,7 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
             return normalized_domain
 
         else:
-            raise ValueError(f"URL '{base_url}' is not supported.")
+            raise ValueError(f"URL not supported.")
     
     elif html:
 

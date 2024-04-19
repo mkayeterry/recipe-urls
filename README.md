@@ -128,6 +128,7 @@ for base_url in base_urls:
 - https://www.simplywhisked.com
 - https://www.tasteofhome.com
 - https://tasty.co
+- https://www.wellplated.com
 
 
 ## Acknowledgments 
