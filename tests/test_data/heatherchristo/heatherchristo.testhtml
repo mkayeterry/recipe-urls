@@ -1,0 +1,935 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="profile" href="http://gmpg.org/xfn/11">
+		<link rel="pingback" href="https://heatherchristo.com/xmlrpc.php">
+		<!--[if (gte IE 6)&(lte IE 8)]>
+			<script type="text/javascript" src="https://heatherchristo.com/wp-content/themes/pure-delicious/js/libs/selectivizr-min.js"></script>
+			<script type="text/javascript" src="https://heatherchristo.com/wp-content/themes/pure-delicious/js/libs/respond.min.js"></script>
+		<![endif]-->
+
+
+
+		<link rel="apple-touch-icon" sizes="57x57" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://heatherchristo.com/wp-content/themes/pure-delicious/img/favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+		<script>!function(){"use strict";for(var t=window.location.search.substring(1).split("&"),e=0;e<t.length;e++){var i="adt_ei",a=t[e];if(0===a.indexOf(i)){var r=a.split(i+"=")[1];localStorage.setItem(i,r),t.splice(e,1),history.replaceState(null,"","?"+t.join("&"));break}}}();
+</script><meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<script data-no-optimize="1" data-cfasync="false">
+(function(w, d) {
+	w.adthrive = w.adthrive || {};
+	w.adthrive.cmd = w.adthrive.cmd || [];
+	w.adthrive.plugin = 'adthrive-ads-2.4.0';
+	w.adthrive.host = 'ads.adthrive.com';
+	w.adthrive.integration = 'plugin';
+
+	var commitParam = (w.adthriveCLS && w.adthriveCLS.bucket !== 'prod' && w.adthriveCLS.branch) ? '&commit=' + w.adthriveCLS.branch : '';
+
+	var s = d.createElement('script');
+	s.async = true;
+	s.referrerpolicy='no-referrer-when-downgrade';
+	s.src = 'https://' + w.adthrive.host + '/sites/5dc0aca309854d3af9654b7e/ads.min.js?referrer=' + w.encodeURIComponent(w.location.href) + commitParam + '&cb=' + (Math.floor(Math.random() * 100) + 1) + '';
+	var n = d.getElementsByTagName('script')[0];
+	n.parentNode.insertBefore(s, n);
+})(window, document);
+</script>
+
+	<!-- This site is optimized with the Yoast SEO plugin v19.10 - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Heather Christo Deliciously Allergen Free Recipes</title>
+	<link rel="canonical" href="https://heatherchristo.com/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Heather Christo Deliciously Allergen Free Recipes" />
+	<meta property="og:url" content="https://heatherchristo.com/" />
+	<meta property="og:site_name" content="Heather Christo" />
+	<meta property="article:publisher" content="https://www.facebook.com/heatherchristo/" />
+	<meta property="article:modified_time" content="2024-01-13T18:21:57+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@heatherchristo" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://heatherchristo.com/","url":"https://heatherchristo.com/","name":"Heather Christo Deliciously Allergen Free Recipes","isPartOf":{"@id":"https://heatherchristo.com/#website"},"datePublished":"2017-06-25T10:13:46+00:00","dateModified":"2024-01-13T18:21:57+00:00","breadcrumb":{"@id":"https://heatherchristo.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://heatherchristo.com/"]}]},{"@type":"BreadcrumbList","@id":"https://heatherchristo.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://heatherchristo.com/#website","url":"https://heatherchristo.com/","name":"Heather Christo","description":"Eat Well, Live Free. Deliciously Allergy Free Recipes.","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://heatherchristo.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Heather Christo &raquo; Feed" href="https://heatherchristo.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Heather Christo &raquo; Comments Feed" href="https://heatherchristo.com/comments/feed/" />
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/heatherchristo.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://heatherchristo.com/wp-includes/css/dist/block-library/style.min.css?ver=6.4.3' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='heatherchristo_style-css' href='https://heatherchristo.com/wp-content/themes/pure-delicious/style.css?ver=6.4.3' type='text/css' media='all' />
+<script type="text/javascript" src="https://heatherchristo.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://heatherchristo.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://heatherchristo.com/wp-json/" /><link rel="alternate" type="application/json" href="https://heatherchristo.com/wp-json/wp/v2/pages/247" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://heatherchristo.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://heatherchristo.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://heatherchristo.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fheatherchristo.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://heatherchristo.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fheatherchristo.com%2F&#038;format=xml" />
+<link rel="dns-prefetch" href="https://ads.adthrive.com/"><link rel="preconnect" href="https://ads.adthrive.com/"><link rel="preconnect" href="https://ads.adthrive.com/" crossorigin><style type="text/css">
+</style>
+
+<script data-cfasync="false" type="text/javascript"> /* generated by Ahalogy wordpress plugin [version 2.1.0] */
+  (function(a,h,a_,l,o,g,y){
+  window[a_]={c:o,b:g,u:l};var s=a.createElement(h);s.src=l,e=a.getElementsByTagName(h)[0];e.parentNode.insertBefore(s,e);
+  })(document,"script","_ahalogy","//w.ahalogy.com/",{client:"88537437650"});
+</script>
+	</head>
+
+	<body class="home page-template page-template-page-home page-template-page-home-php page page-id-247">
+<!-- Informizely code for site "heatherchristo.com". Place this code right after the <body> tag on every page of your site. -->
+<script id="_informizely_script_tag" type="text/javascript">
+  var IzWidget = IzWidget || {};
+  (function (d) {
+    var scriptElement = d.createElement('script');
+    scriptElement.type = 'text/javascript'; scriptElement.async = true;
+    scriptElement.src = "https://insitez.blob.core.windows.net/site/a813d2eb-40e3-4baa-91a2-26d2eba24b0b.js";
+    var node = d.getElementById('_informizely_script_tag');
+    node.parentNode.insertBefore(scriptElement, node);
+  })(document);
+</script>
+<noscript><a href="https://www.informizely.com/">Informizely customer feedback surveys</a></noscript>
+<!-- End Informizely code. -->
+		<div id="fb-root"></div>
+		<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1613663738897588',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+		
+
+
+		<!-- navbar -->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container">
+				<!-- nav wrapper -->
+				<div class="hidden-xs hidden-sm">
+					<div class="collapse navbar-collapse">
+						<!-- main nav -->
+						<nav class="clearfix"><ul id="menu-main-navigation" class="nav navbar-nav hc-navbar-main-nav" role="navigation"><li id="menu-item-10478" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10478"><a href="/collections">Collections</a></li>
+<li id="menu-item-12538" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12538"><a href="https://heatherchristo.com/category/recipes/">Recipe Index</a></li>
+<li id="menu-item-10489" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10489"><a href="https://heatherchristo.com/pure-delicious/">Pure Delicious</a></li>
+<li id="menu-item-10502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10502"><a href="https://heatherchristo.com/intuitivereiki/">Heather Christo Psychic</a></li>
+<li id="menu-item-5942" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5942"><a href="https://heatherchristo.com/about/">About Heather</a></li>
+<li><form role="search" method="get" class="search-form" action="https://heatherchristo.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="SEARCH" value="" name="s">
+	</label>
+	<input type="hidden" name="post_type[0]" value="hc_collections" />
+	<input type="hidden" name="post_type[1]" value="post" />
+	<div class="search-submit-wrapper">
+		<input type="submit" class="search-submit" value="Search">
+		<span class="glyphicon glyphicon-search"></span>		
+	</div>
+</form>
+</li></ul></nav>						<!-- end main nav -->
+					</div>
+				</div>
+
+
+				<!-- navbar header - brand and toggle -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hc-navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="/" title="Heather Christo">
+						Heather Christo					</a>
+					<h3 class="subheader clearfix text-center">Deliciously Allergen Free Recipes</h3>
+
+				</div>
+				<!-- end navbar header - brand and toggle -->
+
+					<!-- nav wrapper -->
+					<div class="hc-navbar-social">
+						<ul id="menu-main-navigation" class="inline unstyled">
+							<li><a href="https://www.facebook.com/pages/Heather-Christo/138616906149810?ref=ts"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="http://instagram.com/heatherchristo"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="http://pinterest.com/heatherchristo/"><i class="fa fa-pinterest"></i></a></li>
+							<li><a href="https://twitter.com/heatherchristo"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://plus.google.com/118253062824170590924?rel=author"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+					</div>
+					<!-- end nav wrapper -->
+
+				<div class="visible-xs visible-sm hidden-md hidden-lg mobile-nav-menu">
+					<!-- nav wrapper -->
+					<div class="collapse navbar-collapse" id="hc-navbar-collapse">
+						<!-- main nav -->
+						<nav class="clearfix"><ul id="menu-main-navigation-1" class="nav navbar-nav hc-navbar-main-nav" role="navigation"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10478"><a href="/collections">Collections</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12538"><a href="https://heatherchristo.com/category/recipes/">Recipe Index</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10489"><a href="https://heatherchristo.com/pure-delicious/">Pure Delicious</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10502"><a href="https://heatherchristo.com/intuitivereiki/">Heather Christo Psychic</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5942"><a href="https://heatherchristo.com/about/">About Heather</a></li>
+<li><form role="search" method="get" class="search-form" action="https://heatherchristo.com/">
+	<label>
+		<span class="screen-reader-text">Search for:</span>
+		<input type="search" class="search-field" placeholder="SEARCH" value="" name="s">
+	</label>
+	<input type="hidden" name="post_type[0]" value="hc_collections" />
+	<input type="hidden" name="post_type[1]" value="post" />
+	<div class="search-submit-wrapper">
+		<input type="submit" class="search-submit" value="Search">
+		<span class="glyphicon glyphicon-search"></span>		
+	</div>
+</form>
+</li></ul></nav>						<!-- end main nav -->
+						<nav class="clearfix"><ul id="menu-sub-navigation" class="nav hc-navbar-sub-nav text-center" role="navigation"><li id="menu-item-12034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12034"><a href="https://heatherchristo.com/our-story-of-transformation/">Our Story of Transformation</a></li>
+<li id="menu-item-12033" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12033"><a href="https://heatherchristo.com/the-allergy-free-pantry/">The Allergy Free Pantry</a></li>
+<li id="menu-item-12035" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12035"><a href="https://heatherchristo.com/common-allergies-and-their-symptoms/">Common Allergies and Their Symptoms</a></li>
+<li id="menu-item-12036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12036"><a href="https://heatherchristo.com/allergy-testing/">Allergy Testing</a></li>
+<li id="menu-item-12032" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12032"><a href="https://heatherchristo.com/when-your-kids-are-diagnosed-with-allergies/">When your Kids are Diagnosed With Allergies</a></li>
+</ul></nav>					</div>
+					<!-- end nav wrapper -->
+				</div>
+
+			</div>
+		</nav>
+		<!-- end navbar -->
+
+		<nav class="subnav hidden-xs hidden-sm hidden-print">
+			<div class="container">
+			<nav class="clearfix"><ul id="menu-sub-navigation-1" class="nav hc-navbar-sub-nav text-center" role="navigation"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12034"><a href="https://heatherchristo.com/our-story-of-transformation/">Our Story of Transformation</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12033"><a href="https://heatherchristo.com/the-allergy-free-pantry/">The Allergy Free Pantry</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12035"><a href="https://heatherchristo.com/common-allergies-and-their-symptoms/">Common Allergies and Their Symptoms</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12036"><a href="https://heatherchristo.com/allergy-testing/">Allergy Testing</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12032"><a href="https://heatherchristo.com/when-your-kids-are-diagnosed-with-allergies/">When your Kids are Diagnosed With Allergies</a></li>
+</ul></nav>			</div>
+		</nav>
+
+			<div class="container content-home content">
+		<div class="col-sm-12">
+			<div class="row">
+									 	
+					 						 		<div class="feature-grid col-sm-12 col-md-8" data-col-count="8">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2018/01/15/asian-chicken-zoodle-soup/">									<h2 class="hc-light">Asian Chicken Zoodle Soup</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2018/01/15/asian-chicken-zoodle-soup/">					<img src="https://heatherchristo.com/wp-content/uploads/2017/01/Asian-Chicken-Zoodle-Soup-from-heatherchristo.com_.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2018/01/15/asian-chicken-zoodle-soup/">NEW VIDEO!!: GAHHHHH!!! This is the best ever. You must make this soup- it's a personal and fan favorite!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 		<div class="feature-grid feature-welcome col-sm-12 col-md-4" data-col-count="8">
+					 			<section class="hc-welcome black text-center">
+    <div class="hc-welcome-image">
+        <img src="https://heatherchristo.com/wp-content/uploads/2017/06/hc.jpg" nopin = "nopin">
+    </div>
+    <h2>Hi, I'm Heather!</h2>
+    <h4>Dig in here to find the most delicious allergy-free recipes and more! Gluten, Dairy and Egg Free since 2014! All recipes marked for the top 8 allergies + Plant-based recipes!</h4>
+    <div class="hc-welcome-button">
+        <a href="http://eepurl.com/BEaDf" class="btn hc-btn-dark-solid">Get Email Updates</a>
+    </div>
+</section>						 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-6" data-col-count="6">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2021/01/29/crunchy-sesame-chili-cucumber-radish-salad/">									<h2 class="hc-light">Crunchy Sesame Chili Cucumber and Radish Salad</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2021/01/29/crunchy-sesame-chili-cucumber-radish-salad/">					<img src="https://heatherchristo.com/wp-content/uploads/2021/01/50880966063_905aef8ea0_o-scaled.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2021/01/29/crunchy-sesame-chili-cucumber-radish-salad/">This is going to be your new favorite snack, it's the easiest most delicious way to snack really healthfully!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-6" data-col-count="6">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2019/03/12/chicken-avocado-salad-radish-celery-pistachio-green-onion/">									<h2 class="hc-light">Chicken Avocado Salad with Radish, Celery, Pistachio and Green Onion</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2019/03/12/chicken-avocado-salad-radish-celery-pistachio-green-onion/">					<img src="https://heatherchristo.com/wp-content/uploads/2019/03/46429527995_e744a6468e_k.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2019/03/12/chicken-avocado-salad-radish-celery-pistachio-green-onion/">I can't wait for you try this! It is not only healthy and easy, but SO tasty that I was fighting Pia for my share!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 							 		<div class="feature-grid col-xs-12">
+					 				
+
+    
+
+
+					 			</div>
+												 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2020/01/27/crispy-sticky-asian-fried-cauliflower-vegan-gluten-free/">									<h2 class="hc-light">Crispy Sticky Asian Fried Cauliflower (Vegan and Gluten-free)</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2020/01/27/crispy-sticky-asian-fried-cauliflower-vegan-gluten-free/">					<img src="https://heatherchristo.com/wp-content/uploads/2020/01/49449766733_f3d61c0423_o.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2020/01/27/crispy-sticky-asian-fried-cauliflower-vegan-gluten-free/">Here is the best plant-based substitute for everyone’s beloved fried chicken wings. This crispy cauliflower is SO GOOD you will never look back!!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2019/04/26/banana-walnut-donuts-maple-glaze-gluten-free-vegan/">									<h2 class="hc-light">Banana Walnut Donuts with Maple Glaze (gluten-free and vegan)</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2019/04/26/banana-walnut-donuts-maple-glaze-gluten-free-vegan/">					<img src="https://heatherchristo.com/wp-content/uploads/2019/04/40740920623_43359823ae_k.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2019/04/26/banana-walnut-donuts-maple-glaze-gluten-free-vegan/">Join Pia as she shows you how to whip up these super fast and easy donuts chock full of bananas and walnuts and topped with a "lick the plate" maple glaze!!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 						 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+					 					<div class="feature-wrapper no-border hidden-print">
+				<div class="feature-ad">
+					<img src="https://heatherchristo.com/wp-content/themes/pure-delicious/img/sponsor.png" style="zoom: 1;">
+					<a href="https://heatherchristo.com/pure-delicious/" data-hc-id="10487 -- 10487" data-hc-advertisement="Pure Delicious" target="_blank"><img src="https://heatherchristo.com/wp-content/uploads/2015/11/pure-delicious-2.jpg" class="feature hc-advertisement" nopin = "nopin" /></a>
+				</div>
+			</div>
+					<!-- <img src="" /> -->
+							 	</div>
+					 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2016/02/14/blood-orange-honey-ginger-glazed-pork-tacos/">									<h2 class="hc-light">Blood Orange Honey Ginger Glazed Pork Tacos</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2016/02/14/blood-orange-honey-ginger-glazed-pork-tacos/">					<img src="https://heatherchristo.com/wp-content/uploads/2016/02/Honey-Blood-Orange-Glazed-Pork-Tacos-from-HeatherChristo.com_.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+						<h3 class="hc-light"><a href="https://heatherchristo.com/2016/02/14/blood-orange-honey-ginger-glazed-pork-tacos/">View Recipe &raquo;</a></h3>					</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2019/11/19/brussels-sprouts-apple-salad-avocado-sour-apple-jalapeno-vinaigrette/">									<h2 class="hc-light">Brussels Sprouts Apple Salad with Avocado and Sour Apple Jalapeno Vinaigrette</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2019/11/19/brussels-sprouts-apple-salad-avocado-sour-apple-jalapeno-vinaigrette/">					<img src="https://heatherchristo.com/wp-content/uploads/2019/11/49067452026_54182a1765_o.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2019/11/19/brussels-sprouts-apple-salad-avocado-sour-apple-jalapeno-vinaigrette/">We couldn’t let our Thanksgiving line up go by without a brand new brussels sprouts dish, right?! I am so happy to share this incredibly fresh and delicious brussels sprouts dish, that is really a salad. It is bright in its flavors and I love all the different crunchy and creamy textures involved.</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2015/10/27/pumpkin-chicken-curry-with-cranberry-coconut-almond-rice/">									<h2 class="hc-light">Pumpkin Chicken Curry with Cranberry Coconut Almond Rice</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2015/10/27/pumpkin-chicken-curry-with-cranberry-coconut-almond-rice/">					<img src="https://heatherchristo.com/wp-content/uploads/2015/10/Pumpkin-chicken-Curry-with-Cranberry-Coconut-Almond-Rice.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+						<h3 class="hc-light"><a href="https://heatherchristo.com/2015/10/27/pumpkin-chicken-curry-with-cranberry-coconut-almond-rice/">View Recipe &raquo;</a></h3>					</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-6" data-col-count="6">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2016/07/31/cuban-quinoa-bowl-with-spicy-lemon-cashew-dressing/">									<h2 class="hc-light">Cuban Quinoa Bowl with Spicy Lemon Cashew Dressing</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2016/07/31/cuban-quinoa-bowl-with-spicy-lemon-cashew-dressing/">					<img src="https://heatherchristo.com/wp-content/uploads/2016/02/Cuban-Quinoa-Bowl-with-Spicy-Lemon-Cashew-viniagrette-vegan-from-HeatherChristo.com_.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2016/07/31/cuban-quinoa-bowl-with-spicy-lemon-cashew-dressing/">NEW VIDEO!!!! This Super Food Vegan Bowl is packed with plant based nutrition and is SO DELICIOUS!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-6" data-col-count="6">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2015/03/15/chicken-ginger-tahini-stir-fry/">									<h2 class="hc-light">Chicken Ginger Tahini Stir Fry</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2015/03/15/chicken-ginger-tahini-stir-fry/">					<img src="https://heatherchristo.com/wp-content/uploads/2015/03/Chicken-Ginger-Tahini-Stir-Fry.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+						<h3 class="hc-light"><a href="https://heatherchristo.com/2015/03/15/chicken-ginger-tahini-stir-fry/">View Recipe &raquo;</a></h3>					</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2020/03/09/immunity-boosting-soup/">									<h2 class="hc-light">Immunity Boosting Soup</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2020/03/09/immunity-boosting-soup/">					<img src="https://heatherchristo.com/wp-content/uploads/2020/03/49627995066_85fca64e2f_o-scaled.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2020/03/09/immunity-boosting-soup/">Food is a great way to keep your immune system strong and healthy! This soup has 10 super immune-boosting ingredients to help keep your body strong and fight off the flu!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2017/10/10/pumpkin-chicken-chili/">									<h2 class="hc-light">Pumpkin Chicken Chili</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2017/10/10/pumpkin-chicken-chili/">					<img src="https://heatherchristo.com/wp-content/uploads/2016/10/Pumpkin-Chicken-Chili-from-HeatherChristo.com_.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2017/10/10/pumpkin-chicken-chili/">This is going to be your new GO-TO Fall Chili- perfect for Tailgating and easy weeknight dinners!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2020/01/09/mushroom-bolognese-gluten-free-vegan/">									<h2 class="hc-light">Mushroom Bolognese (Gluten-free and Vegan)</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2020/01/09/mushroom-bolognese-gluten-free-vegan/">					<img src="https://heatherchristo.com/wp-content/uploads/2020/01/49359611302_2192a95d5e_o.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2020/01/09/mushroom-bolognese-gluten-free-vegan/">With snow in our forecast, we are hibernating and comfort food is on the brain! This Mushroom Bolognese is perfect for cozy nights in!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2020/01/19/chai-spiced-banana-bread-vegan-gluten-free/">									<h2 class="hc-light">Chai Spiced Banana Bread (Vegan and Gluten-free)</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2020/01/19/chai-spiced-banana-bread-vegan-gluten-free/">					<img src="https://heatherchristo.com/wp-content/uploads/2020/01/49410331743_eaa3c75658_o.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2020/01/19/chai-spiced-banana-bread-vegan-gluten-free/">This will become your new favorite twist on this weekly staple!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2017/02/28/baby-potatoes-with-fresh-herb-sauce/">									<h2 class="hc-light">Baby Potatoes with Fresh Herb Sauce</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2017/02/28/baby-potatoes-with-fresh-herb-sauce/">					<img src="https://heatherchristo.com/wp-content/uploads/2017/02/Baby-New-Potatoes-with-Fresh-Herb-Sauce-from-HeatherChristo.com_.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2017/02/28/baby-potatoes-with-fresh-herb-sauce/">The perfect side dish for just about anything, plus- the color!!!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2020/01/09/mushroom-bolognese-gluten-free-vegan/">									<h2 class="hc-light">Mushroom Bolognese (Gluten-free and Vegan)</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2020/01/09/mushroom-bolognese-gluten-free-vegan/">					<img src="https://heatherchristo.com/wp-content/uploads/2020/01/49359611302_2192a95d5e_o.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2020/01/09/mushroom-bolognese-gluten-free-vegan/">With snow in our forecast, we are hibernating and comfort food is on the brain! This Mushroom Bolognese is perfect for cozy nights in!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2017/09/26/spicy-lime-jalapeno-chicken-soup/">									<h2 class="hc-light">Spicy Lime Jalapeno Chicken Soup</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2017/09/26/spicy-lime-jalapeno-chicken-soup/">					<img src="https://heatherchristo.com/wp-content/uploads/2015/03/Chicken-Jalapeno-and-Lime-Soup.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2017/09/26/spicy-lime-jalapeno-chicken-soup/">This will be your new favorite chicken soup recipe!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2019/12/16/chicken-lemon-rice-soup/">									<h2 class="hc-light">Chicken, Lemon and Rice Soup</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2019/12/16/chicken-lemon-rice-soup/">					<img src="https://heatherchristo.com/wp-content/uploads/2019/12/49170559752_d42bd31759_o.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2019/12/16/chicken-lemon-rice-soup/">It’s Monday. In Seattle, it most definitely feels like a wintery Monday complete with dark gray skies and freezing temperatures! So, what I want on a day like this is a big cozy and delicious bowl of soup. 
+</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2020/02/03/greek-eggplant-potatoes/">									<h2 class="hc-light">Greek Eggplant and Potatoes</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2020/02/03/greek-eggplant-potatoes/">					<img src="https://heatherchristo.com/wp-content/uploads/2020/02/49484292936_c81d7706bd_o-scaled.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2020/02/03/greek-eggplant-potatoes/">Come enjoy Yia-Yia's (Greek Grandma) incredible recipe for Greek Eggplant and Potatoes- melt in your mouth comfort food that cures pretty much any case of the winter blues!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2017/04/16/grilled-chicken-mediterranean-quinoa-bowl/">									<h2 class="hc-light">Grilled Chicken Mediterranean Quinoa Bowl</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2017/04/16/grilled-chicken-mediterranean-quinoa-bowl/">					<img src="https://heatherchristo.com/wp-content/uploads/2017/04/Grilled-Mediterranean-Chicken-Quinoa-bowl-from-HeatherChristo.com_.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2017/04/16/grilled-chicken-mediterranean-quinoa-bowl/">Over-Eat on Easter Weekend?? Start the week fresh with healthy and delicious dish!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2017/03/09/beer-battered-onion-rings-with-jalapeno-ketchup-gluten-free-and-vegan/">									<h2 class="hc-light">Beer Battered Onion Rings with Jalapeno Ketchup- Gluten Free and Vegan</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2017/03/09/beer-battered-onion-rings-with-jalapeno-ketchup-gluten-free-and-vegan/">					<img src="https://heatherchristo.com/wp-content/uploads/2017/03/Beer-Battered-Crispy-Onion-Rings-with-Jalapeno-Ketchup-Gluten-Free-and-Vegan-from-HeatherChristo.com_.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+												<h3 class="hc-light"><a href="https://heatherchristo.com/2017/03/09/beer-battered-onion-rings-with-jalapeno-ketchup-gluten-free-and-vegan/">I have been dreaming of these crispy perfect onion rings paired with the perfect sweet and spicy dipping sauce!!!</a></h3>
+											</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-4" data-col-count="4">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2016/01/05/almond-crusted-chicken-and-orange-wasabi-salad/">									<h2 class="hc-light">Almond Crusted Chicken and Orange Wasabi Salad</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2016/01/05/almond-crusted-chicken-and-orange-wasabi-salad/">					<img src="https://heatherchristo.com/wp-content/uploads/2016/01/Almond-Crusted-Chicken-and-Orange-Wasabi-Salad.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+						<h3 class="hc-light"><a href="https://heatherchristo.com/2016/01/05/almond-crusted-chicken-and-orange-wasabi-salad/">View Recipe &raquo;</a></h3>					</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-6" data-col-count="6">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2013/10/06/7045/">									<h2 class="hc-light">Autumn Cobb Salad with Smoky Pumpkin Dressing</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2013/10/06/7045/">					<img src="https://heatherchristo.com/wp-content/uploads/2013/10/Autumn-Cobb-Salad-with-Smoky-Pumpkin-Dressing.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+						<h3 class="hc-light"><a href="https://heatherchristo.com/2013/10/06/7045/">View Recipe &raquo;</a></h3>					</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 						 	
+					 							 	<div class="feature-grid col-xs-12 col-sm-6" data-col-count="6">
+						 					<div class="feature-wrapper">
+				<div class="feature feature-image hidden-print">
+					<div class="feature-title-wrapper">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-12">
+									<div class="title-label post">Recipe</div>
+									<a href="https://heatherchristo.com/2016/11/02/spice-rubbed-turkey-with-mole-sauce/">									<h2 class="hc-light">Spice Rubbed Turkey with Mole Sauce</h2>
+									</a>								</div>
+							</div>
+						</div>
+					</div>
+					<a href="https://heatherchristo.com/2016/11/02/spice-rubbed-turkey-with-mole-sauce/">					<img src="https://heatherchristo.com/wp-content/uploads/2016/11/Spice-Roasted-Turkey-with-Mole-Sauce-from-HeatherChristo.com_.jpg" />
+					</a>				</div>
+								<div class="sub-title">
+					<div class="col-xs-12">
+						<h3 class="hc-light"><a href="https://heatherchristo.com/2016/11/02/spice-rubbed-turkey-with-mole-sauce/">View Recipe &raquo;</a></h3>					</div>
+				</div>
+							</div>
+								 	</div>
+					 							 						 					<div class="col-xs-12">
+					<a href="/recipe-index/" class="btn hc-btn-full-width">Visit the Recipe Index</a>
+				</div>
+			</div>
+		</div>
+	</div>
+<a name="footer"></a>
+<!-- footer -->
+<footer role="contentinfo">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-sm-2 ">
+
+				<h5>Allergy Free Recipes</h5>
+				<ul class="footer-nav-list">
+				<li><a href="/allergy-information/cane-sugar-free">Cane Sugar Free Recipes</a></li><li><a href="/allergy-information/dairy-free">Dairy Free Recipes</a></li><li><a href="/allergy-information/egg-free">Egg Free Recipes</a></li><li><a href="/allergy-information/gluten-free">Gluten Free Recipes</a></li><li><a href="/allergy-information/nut-free">Nut Free Recipes</a></li><li><a href="/allergy-information/peanut-free">Peanut Free Recipes</a></li><li><a href="/allergy-information/soy-free">Soy Free Recipes</a></li><li><a href="/allergy-information/vegan">Vegan Recipes</a></li>				</ul>
+			</div>
+			<div class="col-xs-6 col-sm-2 col-sm-push-8">
+				<nav class="nav-container"><ul id="menu-footer-navigation" class="text-right row footer-nav-list"><li id="menu-item-6024" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-247 current_page_item menu-item-6024"><a href="https://heatherchristo.com/" aria-current="page">Home</a></li>
+<li id="menu-item-6011" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-6011"><a href="https://heatherchristo.com/category/recipes/">Recipe Index</a></li>
+<li id="menu-item-6014" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6014"><a href="https://heatherchristo.com/entertaining/">Entertaining</a></li>
+<li id="menu-item-6015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6015"><a href="https://heatherchristo.com/press/">Press</a></li>
+<li id="menu-item-6017" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6017"><a href="https://heatherchristo.com/seasonal/">Seasonal</a></li>
+<li id="menu-item-6016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6016"><a href="https://heatherchristo.com/privacy-notice/">Privacy Notice</a></li>
+<li id="menu-item-7953" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7953"><a href="http://www.bloglovin.com/blog/2590909/?claim=geczqt83bn9">Bloglovin</a></li>
+<li>&copy; 2024 Copyright Heather Christo</li><li>site by <a href="http://vigilanteweb.com/?utm_source=heatherchristo&utm_medium=footer&utm_campaign=promo
+">Vigilanteweb</a></li></ul></nav>			</div>
+			<div class="col-xs-12 col-sm-8 col-sm-pull-2 hc-footer-about">
+				<div class="row">
+					<div class="col-xs-12 col-sm-8">
+						Dig in here to find the most delicious allergy free recipes and more! Gluten, Dairy and Egg Free since 2014 and you won't miss a thing!						<div class="hc-navbar-social">
+						<ul id="menu-main-navigation" class="inline unstyled">
+							<li><a href="https://www.facebook.com/pages/Heather-Christo/138616906149810?ref=ts"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="http://instagram.com/heatherchristo"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="http://pinterest.com/heatherchristo/"><i class="fa fa-pinterest"></i></a></li>
+							<li><a href="https://twitter.com/heatherchristo"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="https://plus.google.com/118253062824170590924?rel=author"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+
+					</div>
+				    </div>
+				    <div class="col-xs-12 col-sm-4">
+						<div class="about-image">
+				            <img src="https://heatherchristo.com/wp-content/uploads/2017/06/hc.jpg" nopin="nopin" />		            
+				         </div>
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+	<!-- Start of StatCounter Code --><script type="text/javascript">var sc_project=3102296; var sc_invisible=0; var sc_partition=33; var sc_security="7747537c"; </script>
+<script type="text/javascript" src="http://www.statcounter.com/counter/counter_xhtml.js"></script>
+<noscript><div class="statcounter"><a class="statcounter" href="http://www.statcounter.com/"><img class="statcounter" src="http://c34.statcounter.com/3102296/0/7747537c/0/" alt="counter hit make" /></a></div></noscript><!-- End of StatCounter Code -->
+</footer>
+<!-- end footer -->
+
+<script type="text/javascript" src="https://heatherchristo.com/wp-content/themes/pure-delicious/js/cookie.min.js?ver=0.1.0" id="cookie-js"></script>
+<script type="text/javascript" id="heatherchristo-js-extra">
+/* <![CDATA[ */
+var heatherchristo = {"ajaxurl":"https:\/\/heatherchristo.com\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://heatherchristo.com/wp-content/themes/pure-delicious/js/main.min.js?ver=0.1.0" id="heatherchristo-js"></script>
+<script>!function(){"use strict";!function(e){if(-1===e.cookie.indexOf("__adblocker")){e.cookie="__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";var t=new XMLHttpRequest;t.open("GET","https://ads.adthrive.com/abd/abd.js",!0),t.onreadystatechange=function(){if(XMLHttpRequest.DONE===t.readyState)if(200===t.status){var a=e.createElement("script");a.innerHTML=t.responseText,e.getElementsByTagName("head")[0].appendChild(a)}else{var n=new Date;n.setTime(n.getTime()+3e5),e.cookie="__adblocker=true; expires="+n.toUTCString()+"; path=/"}},t.send()}}(document)}();
+</script><script>!function(){"use strict";var e;e=document,function(){var t,n;function r(){var t=e.createElement("script");t.src="https://cafemedia-com.videoplayerhub.com/galleryplayer.js",e.head.appendChild(t)}function a(){var t=e.cookie.match("(^|[^;]+)\\s*__adblocker\\s*=\\s*([^;]+)");return t&&t.pop()}function c(){clearInterval(n)}return{init:function(){var e;"true"===(t=a())?r():(e=0,n=setInterval((function(){100!==e&&"false"!==t||c(),"true"===t&&(r(),c()),t=a(),e++}),50))}}}().init()}();
+</script>
+<!-- this is where we put our custom functions -->
+
+<script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
+
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+<script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us7.list-manage.com","uuid":"69fd760e3cfed78b67b894da2","lid":"13018df350"}) })</script>
+
+<script type="text/javascript">
+(function(d){
+  var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+  p.type = 'text/javascript';
+  p.setAttribute('data-pin-hover', true);
+  p.async = true;
+  p.src = '//assets.pinterest.com/js/pinit.js';
+  f.parentNode.insertBefore(p, f);
+}(document));
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11494085-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

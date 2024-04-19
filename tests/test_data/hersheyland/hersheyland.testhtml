@@ -1,0 +1,4578 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+    <meta charset="UTF-8"/>
+    <title>Cookie Recipes and Blossoms | Hersheyland</title>
+    <script type="application/ld+json">
+    {
+          "@context": "https://schema.org",
+          "@type": "SiteNavigationElement",
+          "name": "Menu",
+          "url": "https://www.hersheyland.com/home",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+              "@type": "EntryPoint",
+              "urlTemplate": "https://www.hersheyland.com/search.html?searchQuery={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+          }
+        }
+</script>
+    
+    <meta name="pageTag"/>
+    <meta name="description" content="From warm chocolate chip cookies to HERSHEY&#39;S KISSES Candy-topped blossoms for the holidays, discover a new cookie recipe inspired by Hershey&#39;s Chocolate!"/>
+    <meta name="template" content="landing-page"/>
+    <meta name="templateType" content="landing-page"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0"/>
+    
+    
+    
+        <meta name="publishedDateTime" content="2024-04-18T19:22:04.00Z"/>
+        
+    
+    
+        <meta name="google-site-verification" content="-XjLtgdT2QnBHX2X0nseWNPJGkX4hxndXilTVRIZ7NA"/>
+    
+    
+        <meta name="facebook-domain-verification" content="n6xte1tf1qztk72haf0gh18zp21io7"/>
+    
+    
+<script type="application/ld+json">
+    {"@context":"https://schema.org","@graph":[{"itemListElement":[{"position":1,"name":"Recipes and Crafts","item":"com.adobe.cq.wcm.core.components.internal.link.LinkImpl@b57b727","@type":"ListItem"},{"position":2,"name":"Recipes","item":"com.adobe.cq.wcm.core.components.internal.link.LinkImpl@5e31e70f","@type":"ListItem"},{"position":3,"name":"Cookies \u0026 Blossoms","item":"com.adobe.cq.wcm.core.components.internal.link.LinkImpl@5f5ec0b6","@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Cookies \u0026 Blossoms","description":"From warm chocolate chip cookies to HERSHEY\u0027S KISSES Candy-topped blossoms for the holidays, discover a new cookie recipe inspired by Hershey\u0027s Chocolate!","publisher":{"name":"HERSHEY\u0027S","url":"www.hersheyland.com","@type":"Organization"},"speakable":{"name":"Cookies \u0026 Blossoms","xPath":["/html/head/title","/html/head/meta[@name\u003d\u0027description\u0027]/@content"],"url":"https://www.hersheyland.com/recipes/cookies-and-blossoms.html","@type":"SpeakableSpecification"},"@type":"WebPage"}]}
+</script>
+
+    
+
+    
+<!-- see https://helpx.adobe.com/typekit/using/embed-codes.html -->
+
+
+
+
+
+
+ 
+<meta property="og:title" content="Cookies &amp; Blossoms"/>
+<meta property="og:description" content="From warm chocolate chip cookies to HERSHEY&#39;S KISSES Candy-topped blossoms for the holidays, discover a new cookie recipe inspired by Hershey&#39;s Chocolate!"/> 
+<meta property="og:url" content="https://www.hersheyland.com/content/hersheyland/en-us/home/recipes-and-crafts/recipes/cookies-and-blossoms.html"/>
+<meta property="og:image" content="https://www.hersheyland.com/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cookies-and-Blossoms.svg"/> 
+
+<meta property="og:type" content="website"/>  
+
+<meta name="twitter:title" content="Cookies &amp; Blossoms"/>
+<meta name="twitter:description" content="From warm chocolate chip cookies to HERSHEY&#39;S KISSES Candy-topped blossoms for the holidays, discover a new cookie recipe inspired by Hershey&#39;s Chocolate!"/> 
+<meta name="twitter:image" content="https://www.hersheyland.com/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cookies-and-Blossoms.svg"/> 
+ 
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="twitter:domain" content="www.hersheyland.com"/>
+<meta property="twitter:url" content="https://www.hersheyland.com/content/hersheyland/en-us/home/recipes-and-crafts/recipes/cookies-and-blossoms.html"/>
+
+<!-- PriceSpider -->
+
+<meta name="ps-key" content="2366-5f71878b223bcc002525bac4"/>
+<meta name="ps-country" content="US"/>
+<meta name="ps-language" content="en"/>
+
+
+
+
+<meta name="ps-library" content="widget,wtb4"/>
+<meta name="ps-token" content="128fec6d7f8b49a1816e216e7a40afb8"/>
+
+
+<!-- PriceSpider -->
+
+<!-- GOOGLE VERIFICATIONS -->
+
+
+
+
+
+<!-- PRECONNECTS -->
+<!--<link rel="preconnect" href="https://ka-p.fontawesome.com" crossorigin>
+<link rel="dns-prefetch" href="https://ka-p.fontawesome.com">
+<link rel="preconnect" href="https://use.typekit.net" crossorigin>
+<link rel="dns-prefetch" href="https://use.typekit.net">
+<link rel="preconnect" href="https://p.typekit.net" crossorigin>
+<link rel="dns-prefetch" href="https://p.typekit.net">-->
+<link rel="preconnect" href="//assets.adobedtm.com"/>
+<link rel="dns-prefetch" href="//assets.adobedtm.com"/>
+
+<!-- PRELOADS -->
+<!--<link rel="preload" as="script" href="/apps/hershey/clientlibs/clientlib-local-fonts/679e5f177e.js">-->
+<link rel="preload" href="/etc.clientlibs/hershey/clientlibs/clientlib-font-awesome/resources/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin/>
+<link rel="preload" href="/etc.clientlibs/hershey/clientlibs/custom-fonts/clientlib-tt/resources/subset-TTNormsPro-Normal.woff2" as="font" type="font/woff2" crossorigin/>
+
+    <link rel="preload" href="/etc.clientlibs/hershey/clientlibs/custom-fonts/clientlib-gz/resources/subset-Gazpacho-Black.woff2" as="font" type="font/woff2" crossorigin/>
+
+
+
+    <!-- PRELOAD LCP IMAGE -->
+    <link rel="preload" fetchpriority="high" as="image" imagesrcset="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cookies-and-Blossoms.svg?im=Resize=(360) 360w,
+    /content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cookies-and-Blossoms.svg?im=Resize=(720) 720w,
+    /content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cookies-and-Blossoms.svg?im=Resize=(1024) 1024w, 
+    /content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cookies-and-Blossoms.svg?im=Resize=(1920) 1920w" imagesizes="(min-width: 768px) 75vw, 100vw"/>
+
+
+<!-- FONT REFERENCES -->
+<!--<script id="font-awesome" defer src="/apps/hershey/clientlibs/clientlib-local-fonts/679e5f177e.js" data-auto-replace-svg="nest"></script>-->
+
+
+
+	
+	
+		
+			<meta name="bvId"/>
+		
+	
+
+
+
+<script defer type="text/javascript" src="https://apps.bazaarvoice.com/deployments/hersheys/2021_new_site/production/en_US/bv.js"></script>
+
+<!-- BASE CSS/JS FILES -->
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/clientlibs/clientlib-base.lc-86c90210630ed8f07efcfe469dee8d65-lc.min.css" type="text/css">
+
+
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/clientlibs/clientlib-dependencies.lc-49b396a09add7f6276c08bf269b637f7-lc.min.css" type="text/css">
+<link rel="stylesheet" href="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised.lc-f9672c6b3475381eafe6326c619e4def-lc.min.css" type="text/css">
+
+
+
+
+
+
+
+
+    
+    
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/clientlibs/clientlib-default-theme.lc-fb9b82d5a4e43d24610855bb9ad63782-lc.min.css" type="text/css">
+
+
+
+	 
+
+
+    
+<script src="/etc.clientlibs/hershey/clientlibs/clientlib-hersheyjquery.lc-666814048d88c1d5c27a55352bc64460-lc.min.js"></script>
+<script src="/etc.clientlibs/clientlibs/utils.lc-15bca918c675f339b18a00d36f340288-lc.min.js"></script>
+
+
+
+
+<!-- ADOBE ANALYTICS FILES -->
+
+    <meta name="pagetype" content="landing-page"/>
+    <meta name="primaryCategory" content="Recipes and Crafts"/>
+    <meta name="subCategory1" content="Recipes"/>
+    <meta name="subCategory2" content="Cookies &amp; Blossoms"/>
+
+    <link rel="preload" as="script" href="//assets.adobedtm.com/11439a76c997/4666345d54db/launch-8f1a5dc4f498.min.js"/>
+	
+	
+	
+	
+	
+
+    <script src="//assets.adobedtm.com/11439a76c997/4666345d54db/launch-8f1a5dc4f498.min.js" async></script>
+    
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script id="canonicalScript">
+        (function(){
+			const script = document.getElementById("canonicalScript");
+            const canonicalLink = script.parentElement.insertBefore(document.createElement("link"), script);
+            const canonicalURL = window.location.href.indexOf("#") > -1
+            						? window.location.href.substring(0, window.location.href.indexOf("#")).split('?')[0] : window.location.href.split('?')[0];
+            canonicalLink.rel = "canonical";
+            canonicalLink.href = canonicalURL;
+        })();
+    </script>
+
+
+
+    
+    
+    
+    
+
+    
+
+    
+    
+<script src="/etc.clientlibs/clientlibs/granite/jquery.lc-7842899024219bcbdb5e72c946870b79-lc.min.js"></script>
+<script src="/etc.clientlibs/hershey/clientlibs/clientlib-dependencies.lc-16c7711047cbd9c2bb0702cdfdfbd47e-lc.min.js"></script>
+<script src="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised.lc-ed55ed91f1fa20704ab432e2f966096a-lc.min.js"></script>
+
+
+
+    
+    
+
+   
+    
+    
+	
+	
+	
+    <link rel="icon" sizes="192x192" href="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised/resources/icon-192x192.png"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised/resources/apple-touch-icon-180x180.png"/>
+    <link rel="apple-touch-icon" sizes="167x167" href="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised/resources/apple-touch-icon-167x167.png"/>
+    <link rel="apple-touch-icon" sizes="152x152" href="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised/resources/apple-touch-icon-152x152.png"/>
+    <link rel="apple-touch-icon" sizes="120x120" href="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised/resources/apple-touch-icon-120x120.png"/>
+    <meta name="msapplication-square310x310logo" content="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised/resources/icon-310x310.png"/>
+    <meta name="msapplication-wide310x150logo" content="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised/resources/icon-310x150.png"/>
+    <meta name="msapplication-square150x150logo" content="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised/resources/icon-150x150.png"/>
+    <meta name="msapplication-square70x70logo" content="/etc.clientlibs/hershey/clientlibs/clientlib-site-revised/resources/icon-70x70.png"/>
+
+	
+    
+<script type="module">window.RUM_BASE = '/';
+import { sampleRUM } from '/.rum/@adobe/helix-rum-js@^1/src/index.js';
+window.hlx = window.hlx || {};
+window.hlx.sampleRUM = sampleRUM;
+sampleRUM('top');
+window.addEventListener('load', () => sampleRUM('load'));
+document.addEventListener('click', () => sampleRUM('click'));
+</script></head>
+
+    
+
+    
+
+     
+
+    
+    
+
+    <body class="page basicpage default-theme" data-productname="Cookies &amp; Blossoms" data-productpageurl="https://www.hersheyland.com/recipes/cookies-and-blossoms.html" data-brandname="Kitchens" data-inactive="false">
+        <a href="#main-content" class="sr-only sr-only-focusable skip-content" tabindex="1">Skip to main content</a>
+        
+        
+        
+            
+
+
+
+            
+<div class="root container responsivegrid">
+
+    
+    
+    
+    <div id="container-2cdb6e2134" class="cmp-container">
+        
+        <div class="container responsivegrid">
+
+    
+    <div id="container-20aa877b45" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="alert-banner aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/alert-banner/clientlib-alert-banner-default-theme.lc-71a99ae837f3525d3e971911e79fc891-lc.min.css" type="text/css">
+
+
+
+
+
+    
+<script src="/etc.clientlibs/hershey/components/alert-banner/clientlib.lc-69ce39e83abd4c14cccbd076a9817914-lc.min.js"></script>
+
+
+
+
+    
+
+</div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-experiencefragment cmp-experiencefragment--hub-navigation">
+
+
+    
+    <div id="container-ea8e6131b0" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="embed aem-GridColumn aem-GridColumn--default--12">
+<div id="embed-283e29fa78" class="cmp-embed">
+    
+    <style>
+.main-nav ul li:before {
+    display: none;
+}
+svg.aa-SubmitIcon {
+    stroke: #003594;
+    stroke-width: 1;
+    color: #003594;
+}
+.product-detail .details.core-primary-2 [data-bv-show="rating_summary"] .bv_main_container .bv_button_buttonMinimalist, .product-detail .details.core-primary-3 [data-bv-show="rating_summary"] .bv_main_container .bv_button_buttonMinimalist {
+    color: #fff !important;
+}
+.product-detail .details.core-primary-1 [data-bv-show="rating_summary"] .bv_main_container .bv_button_buttonMinimalist, .product-detail .details.theme-accent-color [data-bv-show="rating_summary"] .bv_main_container .bv_button_buttonMinimalist {
+    color: #333 !important;
+}
+</style>
+    
+</div>
+
+    
+
+</div>
+<div class="embed aem-GridColumn aem-GridColumn--default--12">
+<div id="embed-68d926eb0c" class="cmp-embed">
+    
+    <style>
+/* Generated by less 2.5.1 */
+/* DOTS HERSHEYLAND BUTTON STYLES */
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .cmp-small-brand-hero__action-cta,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .link-group-comp .row .link-group-comp-head a.h4,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .details-content a.buy-now,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .nutrition-cta .customer-service,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .nutrition-cta .faq-service {
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+  background-color: #cc0a12 !important;
+  transition: all .3s ease !important;
+}
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .cmp-small-brand-hero__action-cta:hover,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .link-group-comp .row .link-group-comp-head a.h4:hover,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .details-content a.buy-now:hover,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .nutrition-cta .customer-service:hover,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).dots-primary .core-primary-1 .nutrition-cta .faq-service:hover {
+  cursor: pointer !important;
+  color: #cc0a12 !important;
+  background-color: #ffffff !important;
+}
+/* PIRATES BOOTY HERSHEYLAND BUTTON STYLES */
+body:not(.branch-high-contrast-mode, .high-contrast-mode).pirate-primary .core-primary-1 .nutrition-cta .customer-service,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).pirate-primary .core-primary-1 .nutrition-cta .faq-service {
+  transition: all .3s ease !important;
+}
+body:not(.branch-high-contrast-mode, .high-contrast-mode).pirate-primary .core-primary-1 .nutrition-cta .customer-service:hover,
+body:not(.branch-high-contrast-mode, .high-contrast-mode).pirate-primary .core-primary-1 .nutrition-cta .faq-service:hover {
+  cursor: pointer !important;
+  background-color: #8091b4 !important;
+}
+body:not(.branch-high-contrast-mode, .high-contrast-mode).pirate-primary.product-detail .details.core-primary-1 [data-bv-show="rating_summary"] .bv_main_container .bv_button_buttonMinimalist {
+  color: #ffffff !important;
+}
+.generic-hero.section {
+    padding: 0 !important;
+}
+</style>
+    
+</div>
+
+    
+
+</div>
+<div class="hub-navigation global-search-bar aem-GridColumn aem-GridColumn--default--12">
+
+
+    
+
+
+
+
+	
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/instant-search-box/clientlibs-instant-search-box-default-theme.lc-72f0fb64f0c1813d4306dc5de9fcc90a-lc.min.css" type="text/css">
+
+
+
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/hub-navigation/clientlib-singlelayer-hub-navigation-default-theme.lc-8f58c27199ba59596661a5014c9710a9-lc.min.css" type="text/css">
+
+
+
+
+
+    
+<script src="/etc.clientlibs/hershey/components/hub-navigation/clientlib-singlelayer.lc-21d0faae5cd8c0054b4c996716583e34-lc.min.js"></script>
+
+
+
+
+
+<div class="navbar-container">
+    <div class="main-nav">
+    	<div class="row">
+    		<div class="left-side-nav col-md-8">
+	            <div class="main-menu">
+                    <div class="logo">
+                        <a href="/home" class="logoLink" tabindex="1">
+                            <img src="/content/dam/hersheyland/en-us/navigation/logos/hersheyland-logos/hersheyland_logo-default.png" alt="Hersheyland Logo" class="nav-logo"/>
+                        </a>
+                    </div>
+	               	
+	                <div class="menu-new">
+	                	
+				        
+				        
+	                    
+	                    
+	                    
+	                    
+	                    
+	                    
+                        
+						
+												 
+	                    
+	                    
+	                    
+                        	<div class="item" style="float:left">
+                                <div id="tooltip-text-1" class="li-menu1">
+	                        		<a href="/recipes.html" class="decoration-menu4" tabindex="1">
+										Recipes
+										<i class="fas fa-angle-down dropdown1"></i>
+									</a>
+		                            <div class="sub-menu-container">
+		                                <div class="sub-menu-section1">
+											<a href="/recipes.html" class="explore" tabindex="1">
+												See Recipe Ideas 
+												<i class="fas fa-angle-right"></i>
+											</a>
+											
+											
+												<div class="table-stacked">
+													<div class="table-column">
+														<a href="/recipes/cakes.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cakes.svg" alt="cake slice"/>
+															<span class="nav-text-new">Cakes</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/recipes/cookies-and-blossoms.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cookies-and-Blossoms.svg" alt="cookie with bite taken out of it"/>
+															<span class="nav-text-new">Cookies &amp; Blossoms</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/recipes/cupcakes.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cupcakes.svg" alt="cupcake"/>
+															<span class="nav-text-new">Cupcakes</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/recipes/chocolate-and-fruit-desserts.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Chocolate-and-Fruit.svg" alt="chocolate dipped strawberry"/>
+															<span class="nav-text-new">Chocolate &amp; Fruit</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/recipes/smores-desserts.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Smores.svg"/>
+															<span class="nav-text-new">S&#39;mores Desserts</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/baking-resources.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Baking-test.svg" alt="mixing bowl"/>
+															<span class="nav-text-new">Baking with Hershey</span>
+														</a>
+													</div>
+													
+													
+													
+													
+												</div>											
+											
+										</div>
+		                           	</div>     
+		                        </div>
+                        	</div>
+                        
+                        
+	                
+	                	
+				        
+				        
+	                    
+	                    
+	                    
+	                    
+	                    
+	                    
+                        
+						
+												 
+	                    
+	                    
+	                    
+                        	<div class="item" style="float:left">
+                                <div id="tooltip-text-2" class="li-menu1">
+	                        		<a href="/home/themes/parties-and-occasions.html" class="decoration-menu4" tabindex="1">
+										Parties &amp; Occasions
+										<i class="fas fa-angle-down dropdown1"></i>
+									</a>
+		                            <div class="sub-menu-container">
+		                                <div class="sub-menu-section1">
+											<a href="/home/themes/parties-and-occasions.html" class="explore" tabindex="1">
+												See all Occasions 
+												<i class="fas fa-angle-right"></i>
+											</a>
+											
+											
+												<div class="table-stacked">
+													<div class="table-column">
+														<a href="/crafts.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Gifts-and-Activities.png" alt="crafts and activities"/>
+															<span class="nav-text-new">Crafts &amp; Activities</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/birthdays.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Birthdays.svg" alt="birthday hat"/>
+															<span class="nav-text-new">Birthdays</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/movie-night.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Movie-Night.svg" alt="film reel"/>
+															<span class="nav-text-new">Movie Night</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/themes/smores.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Smores.svg" alt="smore"/>
+															<span class="nav-text-new">S&#39;mores</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/home/themes/syrups.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Syrups-and-Sundaes.svg" alt="ice cream sundae topped with chocolate syrup"/>
+															<span class="nav-text-new">Syrup &amp; Sundaes</span>
+														</a>
+													</div>
+													
+													
+													
+													
+													
+												</div>											
+											
+										</div>
+		                           	</div>     
+		                        </div>
+                        	</div>
+                        
+                        
+	                
+	                	
+				        
+				        
+	                    
+	                    
+	                    
+	                    
+	                    
+	                    
+                        
+						
+												 
+	                    
+	                    
+	                    
+                        	<div class="item" style="float:left">
+                                <div id="tooltip-text-3" class="li-menu1">
+	                        		<a href="/brands.html" class="decoration-menu4" tabindex="1">
+										Our Brands
+										<i class="fas fa-angle-down dropdown1"></i>
+									</a>
+		                            <div class="sub-menu-container">
+		                                <div class="sub-menu-section1">
+											<a href="/brands.html" class="explore" tabindex="1">
+												Explore all Brands 
+												<i class="fas fa-angle-right"></i>
+											</a>
+											
+											
+												<div class="table-stacked">
+													<div class="table-column">
+														<a href="/brands/chocolate-brands.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Chocolate.svg" alt="chocolate bar"/>
+															<span class="nav-text-new">Chocolate</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/brands/fruity-chewy-and-refreshing.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Fruity-Chewy-Refreshing.svg" alt="fresh fruit"/>
+															<span class="nav-text-new">Fruity, Chewy &amp; Refreshing</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/brands/snack-brands.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Snacks.svg" alt="pretzels and popcorn"/>
+															<span class="nav-text-new">Snacks</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/brands/plant-based.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Plant-Based.svg" alt="plant"/>
+															<span class="nav-text-new">Plant Based</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/brands/baking-products.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/2024-baking.svg" alt="mixing bowl"/>
+															<span class="nav-text-new">Baking</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/brands/zero-sugar.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_ZeroSugar.svg" alt="zero sugar"/>
+															<span class="nav-text-new">Zero Sugar</span>
+														</a>
+													</div>
+													
+													
+													
+													
+												</div>											
+											
+										</div>
+		                           	</div>     
+		                        </div>
+                        	</div>
+                        
+                        
+	                
+	                	
+				        
+				        
+	                    
+	                    
+	                    
+	                    
+	                    
+	                    
+                        
+						
+												 
+	                    
+	                    
+	                    
+                        
+							<div class="item">
+								<ul class="ul-image">
+									<li class="li-image">
+										<a href="/products.html" class="decoration-menu2" tabindex="1">Products</a>
+									</li>
+								</ul>
+							</div>
+						
+	                
+	                	
+				        
+				        
+	                    
+	                    
+	                    
+	                    
+	                    
+	                    
+                        
+						
+												 
+	                    
+	                    
+	                    
+                        	<div class="item" style="float:left">
+                                <div id="tooltip-text-5" class="li-menu1">
+	                        		<a href="/about.html" class="decoration-menu4" tabindex="1">
+										About
+										<i class="fas fa-angle-down dropdown1"></i>
+									</a>
+		                            <div class="sub-menu-container">
+		                                <div class="sub-menu-section1">
+											<a href="/about.html" class="explore" tabindex="1">
+												About Hersheyland 
+												<i class="fas fa-angle-right"></i>
+											</a>
+											
+											
+												<div class="table-stacked">
+													<div class="table-column">
+														<a href="/about/history.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_About_Our-History.svg" alt="milton hershey"/>
+															<span class="nav-text-new">Our History</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/stories.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_About_Stories-and-Inspiration.svg" alt="lightbulb"/>
+															<span class="nav-text-new">Stories &amp; Inspiration</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/about/faqs.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_About_FAQs.svg" alt="FAQs"/>
+															<span class="nav-text-new">FAQs</span>
+														</a>
+													</div>
+													<div class="table-column">
+														<a href="/visit-us.html" class="inner-sub-components" tabindex="1">
+															<img class="nav-img" src="/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_About_Visit-Us.svg" alt="Visit Us"/>
+															<span class="nav-text-new">Visit Us</span>
+														</a>
+													</div>
+													
+													
+													
+													
+													
+													
+												</div>											
+											
+										</div>
+		                           	</div>     
+		                        </div>
+                        	</div>
+                        
+                        
+	                </div>
+	            </div>
+	        </div>
+	        <div class="right-nav col-md-4">  				
+            	<input type="hidden" value="/content/hersheyland/en-us/search.html" id="searchPagePath"/>
+    			
+		        <div>
+                	<div id="instantSearchBox" class="global-search-bar-wrapper">
+
+
+	
+	
+	
+	
+	
+		
+		
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/global-search-bar/clientlib-algolia-global-search-bar-default-theme.lc-f07265a237645b27d8fc292003fac0cb-lc.min.css" type="text/css">
+
+
+
+	
+    
+    
+<script src="/etc.clientlibs/hershey/components/global-search-bar/clientlib-algolia.lc-253eafa207082e802a1e1dadff51a5f7-lc.min.js"></script>
+
+
+
+
+
+
+
+    
+
+
+<div class="global-search-bar__container search-form nav-js">
+
+   	
+    <form method="get" name="searchform" id="searchform" class="global-search-bar" action="/search.html"/>
+        <div class="global-search-bar">
+            <div class="global-search-bar__keyword-cont search-box-wrapper" data-search-type="autoCompleteSearch" data-hits-type="infiniteScrollHits">
+
+                <div class="autocomplete" id="instant-search-autocomplete"></div>
+				<div class="voiceSearchBox" id="voiceSearchBox"></div>
+                
+                <div role="button" tabindex="0" class="global-search-bar__icon-close" aria-label="close"><i class="fas fa-times"><span>CLOSE</span></i></div>
+              </div>
+        </div>
+    </form>
+</div>
+
+
+<input type="hidden" value="{&#34;app&#34;:{&#34;id&#34;:&#34;DQJUL6CPHC&#34;,&#34;apiKey&#34;:&#34;c24d8cf0a881a0d3ef5d197637bba89c&#34;,&#34;indexName&#34;:&#34;crawler_www.hersheyland.com&#34;,&#34;querySuggestionsIndexName&#34;:&#34;crawler_www.hersheyland.com_query_suggestions&#34;},&#34;searchBar&#34;:{&#34;show&#34;:true,&#34;placeholder&#34;:&#34;Search tons of products, recipes and craft ideas&#34;,&#34;autoFocus&#34;:false,&#34;showLoadingIndicator&#34;:true},&#34;voiceSearch&#34;:{&#34;show&#34;:false,&#34;language&#34;:&#34;&#34;}}" id="searchCreationJson"/></div>
+					
+				</div>
+		    </div>
+			<div class="mob-search-container">
+                <span class="mob-cancel-button">Cancel</span>
+            </div>
+    	</div>
+   	</div>
+</div>
+
+<div class="mob-side-bar">
+    <div class="mob-nav-top">
+        <div class="mob-menu-btn">
+            <a class="toggle-menu">
+                <i></i>
+                <i></i>
+                <i></i>
+            </a>
+        </div>
+			<a class="logo" href="/home">
+            <img src="/content/dam/hersheyland/en-us/navigation/logos/hersheyland-logos/hersheyland_logo-default.png" alt="Hersheyland Logo" class="mob-nav-logo"/>
+			</a>
+        <div class="mob-search-icon">
+            <i class="fa fa-search"></i>
+        </div>
+    </div>
+	
+    
+    <div class="mob-menu">
+    	
+        
+        
+        
+        
+        
+        
+        
+        
+		
+		
+			
+        
+        
+        
+        	<div class="mob-item2">
+				<div class="mob-item12">
+	            	<a class="mob-sub-btn1" tabindex="1">
+		                <span class="nav-icon" style="background-image: url()"></span>
+		                <i class="fas fa-angle-down dropdown11"></i>
+		                Recipes
+	                </a>
+		            <div class="mob-sub-menu1">
+		                <a href="/recipes.html" class="mob-explore" tabindex="1">See Recipe Ideas
+		                <i class="fas fa-angle-right" aria-hidden="true"></i>
+		                </a>
+		                <div class="table-column">
+							<a href="/recipes/cakes.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cakes.svg)" role="img" aria-label="cake slice"></span>
+								<span class="nav-text-new">Cakes</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/recipes/cookies-and-blossoms.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cookies-and-Blossoms.svg)" role="img" aria-label="cookie with bite taken out of it"></span>
+								<span class="nav-text-new">Cookies &amp; Blossoms</span>
+							</a>
+						</div>
+		                <div class="table-column">
+							<a href="/recipes/cupcakes.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Cupcakes.svg)" role="img" aria-label="cupcake"></span>
+								<span class="nav-text-new">Cupcakes</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/recipes/chocolate-and-fruit-desserts.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Recipes_Chocolate-and-Fruit.svg)" role="img" aria-label="chocolate dipped strawberry"></span>
+								<span class="nav-text-new">Chocolate &amp; Fruit</span>
+							</a>
+						</div>
+		                <div class="table-column">
+							<a href="/recipes/smores-desserts.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Smores.svg)" role="img"></span>
+								<span class="nav-text-new">S&#39;mores Desserts</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/baking-resources.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Baking-test.svg)" role="img" aria-label="mixing bowl"></span>
+								<span class="nav-text-new">Baking with Hershey</span>
+							</a>
+						</div>
+						
+						
+						
+						
+		            </div>
+				</div>
+	        </div>
+        
+                  
+
+    
+    	
+        
+        
+        
+        
+        
+        
+        
+        
+		
+		
+			
+        
+        
+        
+        	<div class="mob-item2">
+				<div class="mob-item12">
+	            	<a class="mob-sub-btn1" tabindex="1">
+		                <span class="nav-icon" style="background-image: url()"></span>
+		                <i class="fas fa-angle-down dropdown11"></i>
+		                Parties &amp; Occasions
+	                </a>
+		            <div class="mob-sub-menu1">
+		                <a href="/home/themes/parties-and-occasions.html" class="mob-explore" tabindex="1">See all Occasions
+		                <i class="fas fa-angle-right" aria-hidden="true"></i>
+		                </a>
+		                <div class="table-column">
+							<a href="/crafts.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Gifts-and-Activities.png)" role="img" aria-label="crafts and activities"></span>
+								<span class="nav-text-new">Crafts &amp; Activities</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/birthdays.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Birthdays.svg)" role="img" aria-label="birthday hat"></span>
+								<span class="nav-text-new">Birthdays</span>
+							</a>
+						</div>
+		                <div class="table-column">
+							<a href="/movie-night.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Movie-Night.svg)" role="img" aria-label="film reel"></span>
+								<span class="nav-text-new">Movie Night</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/themes/smores.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Smores.svg)" role="img" aria-label="smore"></span>
+								<span class="nav-text-new">S&#39;mores</span>
+							</a>
+						</div>
+		                <div class="table-column">
+							<a href="/home/themes/syrups.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Parties-and-Occasions_Syrups-and-Sundaes.svg)" role="img" aria-label="ice cream sundae topped with chocolate syrup"></span>
+								<span class="nav-text-new">Syrup &amp; Sundaes</span>
+							</a>
+						</div>
+						
+						
+						
+						
+						
+		            </div>
+				</div>
+	        </div>
+        
+                  
+
+    
+    	
+        
+        
+        
+        
+        
+        
+        
+        
+		
+		
+			
+        
+        
+        
+        	<div class="mob-item2">
+				<div class="mob-item12">
+	            	<a class="mob-sub-btn1" tabindex="1">
+		                <span class="nav-icon" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/ingredients-sprite.svg)"></span>
+		                <i class="fas fa-angle-down dropdown11"></i>
+		                Our Brands
+	                </a>
+		            <div class="mob-sub-menu1">
+		                <a href="/brands.html" class="mob-explore" tabindex="1">Explore all Brands
+		                <i class="fas fa-angle-right" aria-hidden="true"></i>
+		                </a>
+		                <div class="table-column">
+							<a href="/brands/chocolate-brands.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Chocolate.svg)" role="img" aria-label="chocolate bar"></span>
+								<span class="nav-text-new">Chocolate</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/brands/fruity-chewy-and-refreshing.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Fruity-Chewy-Refreshing.svg)" role="img" aria-label="fresh fruit"></span>
+								<span class="nav-text-new">Fruity, Chewy &amp; Refreshing</span>
+							</a>
+						</div>
+		                <div class="table-column">
+							<a href="/brands/snack-brands.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Snacks.svg)" role="img" aria-label="pretzels and popcorn"></span>
+								<span class="nav-text-new">Snacks</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/brands/plant-based.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_Plant-Based.svg)" role="img" aria-label="plant"></span>
+								<span class="nav-text-new">Plant Based</span>
+							</a>
+						</div>
+		                <div class="table-column">
+							<a href="/brands/baking-products.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/2024-baking.svg)" role="img" aria-label="mixing bowl"></span>
+								<span class="nav-text-new">Baking</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/brands/zero-sugar.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_Our-Brands_ZeroSugar.svg)" role="img" aria-label="zero sugar"></span>
+								<span class="nav-text-new">Zero Sugar</span>
+							</a>
+						</div>
+						
+						
+						
+						
+		            </div>
+				</div>
+	        </div>
+        
+                  
+
+    
+    	
+        
+        
+        
+        
+        
+        
+        
+        
+		
+		
+			
+        
+        
+        
+        
+        	<div class="mob-item2">
+	            <a class="mob-sub-btn" href="/products.html" tabindex="1">
+	            	<span class="nav-icon" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/brands-sprite.svg)"></span>
+	                Products
+	            </a>
+	        </div>
+                  
+
+    
+    	
+        
+        
+        
+        
+        
+        
+        
+        
+		
+		
+			
+        
+        
+        
+        	<div class="mob-item2">
+				<div class="mob-item12">
+	            	<a class="mob-sub-btn1" tabindex="1">
+		                <span class="nav-icon" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/about-sprite.svg)"></span>
+		                <i class="fas fa-angle-down dropdown11"></i>
+		                About
+	                </a>
+		            <div class="mob-sub-menu1">
+		                <a href="/about.html" class="mob-explore" tabindex="1">About Hersheyland
+		                <i class="fas fa-angle-right" aria-hidden="true"></i>
+		                </a>
+		                <div class="table-column">
+							<a href="/about/history.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_About_Our-History.svg)" role="img" aria-label="milton hershey"></span>
+								<span class="nav-text-new">Our History</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/stories.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_About_Stories-and-Inspiration.svg)" role="img" aria-label="lightbulb"></span>
+								<span class="nav-text-new">Stories &amp; Inspiration</span>
+							</a>
+						</div>
+		                <div class="table-column">
+							<a href="/about/faqs.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_About_FAQs.svg)" role="img" aria-label="FAQs"></span>
+								<span class="nav-text-new">FAQs</span>
+							</a>
+						</div>
+						<div class="table-column">
+							<a href="/visit-us.html" class="inner-sub-components" tabindex="1">
+								<span class="nav-img" style="background-image: url(/content/dam/hersheyland/en-us/navigation/icons/2023-icons/Hersheyland-Nav-Icon_About_Visit-Us.svg)" role="img" aria-label="Visit Us"></span>
+								<span class="nav-text-new">Visit Us</span>
+							</a>
+						</div>
+		                
+						
+						
+						
+						
+						
+		            </div>
+				</div>
+	        </div>
+        
+                  
+
+    </div>
+</div>
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+
+</div>
+<div class="breadcrumb aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/breadcrumb/clientlib-breadcrumb-default-theme.lc-3455113e4426c645a126323645414973-lc.min.css" type="text/css">
+
+
+
+
+<nav class="cmp-breadcrumb" aria-label="Breadcrumb">
+    <ol class="cmp-breadcrumb__list " itemscope itemtype="http://schema.org/BreadcrumbList">
+        <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/home" class="cmp-breadcrumb__item-link" itemprop="item">
+                <span itemprop="name">Hersheyland</span>
+            </a>
+            <meta itemprop="position" content="1"/>
+        </li>
+    
+        <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/recipes-and-crafts.html" class="cmp-breadcrumb__item-link" itemprop="item">
+                <span itemprop="name">Recipes and Crafts</span>
+            </a>
+            <meta itemprop="position" content="2"/>
+        </li>
+    
+        <li class="cmp-breadcrumb__item" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a href="/recipes.html" class="cmp-breadcrumb__item-link" itemprop="item">
+                <span itemprop="name">Recipes</span>
+            </a>
+            <meta itemprop="position" content="3"/>
+        </li>
+    
+        <li class="cmp-breadcrumb__item cmp-breadcrumb__item--active" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            
+                <span itemprop="name">Cookies &amp; Blossoms</span>
+            
+            <meta itemprop="position" content="4"/>
+        </li>
+    </ol>
+</nav>
+
+    
+</div>
+<div class="section parbase aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/section/clientlib-section-default-theme.lc-c012f4b316a523567fc6fe0e170b377e-lc.min.css" type="text/css">
+
+
+
+
+
+
+
+
+
+<section id="hero-component" class="          ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="generic-hero section">
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/generic-hero/clientlib-generic-hero-default-theme.lc-bb76270af85d8521208c4b8028e16b6a-lc.min.css" type="text/css">
+
+
+
+
+
+    
+<script src="/etc.clientlibs/hershey/components/generic-hero/clientlib.lc-390cb65c277173688a5448313505c75d-lc.min.js"></script>
+
+
+
+
+
+
+
+<!-- ************************************
+* Generic Hero
+**************************************-->
+    <div class="cmp-generic-hero-container">
+    	 
+		    
+		 
+        <div class="cmp-generic-hero row  cmp-generic-hero--image-right copy-bottom-mobile">
+            <div class="col-xs-12 col-lg-6 cmp-generic-hero_image  cmp-generic-hero__image-container  cmp-generic-hero--large-square-image" style="background-image: url(/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/cookies-and-blossoms-hero.png);background-position: center;" role="img" aria-label="hersheys cookies and blossoms featured recipes"></div> 
+
+            <div class="col-xs-12 col-lg-6 cmp-generic-hero_image_mobile-view  cmp-generic-hero__image-container  cmp-generic-hero--large-square-image" style="background-image: url(/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/cookies-and-blossoms-hero.png);background-position: center;" role="img" aria-label="hersheys cookies and blossoms featured recipes"></div>
+
+            
+			
+			<div class="col-xs-12 col-lg-6  corporate-purple-variant-100 cmp-generic-hero__detail-container  cmp-generic-hero--large-square-image  cmp-generic-hero--image-right ">
+                <div class="cmp-generic-hero__header">
+                    <h1>Cookie &amp; Blossom Recipes</h1>
+
+					
+                </div>
+                
+
+                <div class="cmp-generic-hero__supporting-text ">
+                    <p>Cookies are among our favorite dessert recipes because they&#39;re small, sweet and shareable with your besties. Explore Hershey&#39;s best cookie recipes, from bite-size blossoms to giant cookie pizza.<br />
+</p>
+
+                </div>
+
+                
+                <div class="cmp-generic-hero__button-container ta-center row ">
+
+                    
+
+                    
+                </div>
+
+                
+            </div>
+
+
+            
+        </div>
+    </div>
+
+
+
+
+
+</div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Featured Recipe Section" class=" m-p-t-x-large m-p-b-x-large m-p-l-medium m-p-r-medium d-p-t-x-large d-p-b-x-large   corporate-purple-variant-100 ">
+    <div class="corporate-purple-variant-100  angle-container"></div>
+    <article aria-label="Featured Recipe Section" class=" width-restricted">
+        <!--all layout options-->
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section id="article-feature-left" class=" m-p-t-medium         ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="call-out-card section">
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/call-out-card/clientlib-call-out-card-default-theme.lc-1b65482d1a8f689a57c38cc135c28857-lc.min.css" type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="container-fluid">
+        <div class="cmp-call-out-card   row">
+            <div class="col-xs-12 col-lg-7 img-container recipe ">
+                
+                <div>
+                    <div class="sixteen-nine-ratio hover-img-container cropped-image sixteen-nine" data-hover-target-id="root_container_section_copy_col1_section_69592358_col1_section_col1_call_out_card">
+					
+                        <img class="image zoom-hover-image" src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/hersheys-peanut-butter-blossoms-recipe-feature.png" alt="plate of freshly made hersheys peanut butter blossoms"/>
+                        
+					
+					
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-5 copy-container   custom-angle tapers-custom-angle">
+                <div>
+                    <div class="card-label ta-right">
+                        <span>MOST LOVED</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="recipe card-header ta-center">
+                            <h2> Peanut Butter Blossoms</h2>
+                            
+                        </div>
+						<div class="rating-review ta-center">
+                            <div data-bv-show="inline_rating" data-bv-product-id="6"></div>
+                        </div>
+                        <div class="recipe supporting-text ta-center"><p>Savor a true classic: a chewy peanut butter cookie topped with a sweet HERSHEY&#39;S KISSES Milk Chocolate Candy.</p>
+</div>
+                        
+                        <div class="container-fluid">
+                            <div class="recipe btn-container has-2nd-btn ta-center row center-block">
+                                <div class="col-xs-12 col-lg-6">
+                                    <a class="button " href="/recipes/peanut-butter-blossoms.html" aria-label="Get the Recipe  Peanut Butter Blossoms" data-hover-source="true" data-hover-target="root_container_section_copy_col1_section_69592358_col1_section_col1_call_out_card" data-hover-target-class="hover-triggered">
+                                        Get the Recipe
+                                    </a>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+<script src="/etc.clientlibs/hershey/clientlibs/clientlib-owl-carousel.lc-79304bb8e2b16fee60607ad9c0cb78ec-lc.min.js"></script>
+<script src="/etc.clientlibs/hershey/components/call-out-card/clientlib.lc-6a05eedb77374f1ef845296195bed470-lc.min.js"></script>
+
+
+
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Divisional Line" class=" m-p-t-x-large m-p-b-x-large   d-p-t-x-large d-p-b-medium   corporate-purple-variant-100 has-background-img">
+    <div style="background-image: url(/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/circle-section-divisional.svg);" class="corporate-purple-variant-100  angle-container"></div>
+    <article aria-label="Divisional Line" class=" ">
+        <!--all layout options-->
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Section - Padding Only" class="     d-p-t-x-large d-p-b-x-large    ">
+    <div class="  angle-container"></div>
+    <article aria-label="Section - Padding Only" class=" ">
+        <!--all layout options-->
+        
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Recommended Recipes - Set One" class=" m-p-t-x-large m-p-b-x-large m-p-l-medium m-p-r-medium  d-p-b-small   corporate-warm-tan has-background-img">
+    <div style="background-image: url(/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/hersheys-chocolate-baking-chips-pattern.svg);" class="corporate-warm-tan  angle-container"></div>
+    <article aria-label="Recommended Recipes - Set One" class=" width-restricted">
+        <!--all layout options-->
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Recommended Recipes - Introduction Copy" class="     d-p-t-medium     ">
+    <div class="  angle-container"></div>
+    <article aria-label="Recommended Recipes - Introduction Copy" class="gutter-included width-restricted">
+        <!--all layout options-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="row columns-8-of-12">
+    <div class="col-xs-12 col-lg-8">
+        <div class="text section">
+
+
+ 
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/text/clientlib-text-default-theme.lc-edcc6ff2569f837c9128a2e83cf3adca-lc.min.css" type="text/css">
+
+
+
+
+<div></div>
+
+    <div class="rich-text  ">
+        <h2 style="	text-align: center;
+">Our Favorite Cookie Recipes</h2>
+<p style="	text-align: center;
+">Cookies and blossoms are the perfect grab-and-go goody for any occasion. Find a new favorite recipe featuring our endlessly flavorful baking chips!</p>
+
+    </div>
+</div>
+
+
+    </div>
+</div>
+
+        
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section id="double-recipe-row" class="          ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="feature-set section">
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/feature-set/clientlib-feature-set-default-theme.lc-6900653cd2b5f864fa2afb47b313e142-lc.min.css" type="text/css">
+
+
+
+
+
+    
+<script src="/etc.clientlibs/hershey/components/feature-set/clientlib.lc-d08e2ab154ae96333fed5aa9696223ee-lc.min.js"></script>
+
+
+
+<!-- <sly data-sly-use.country="com.hershey.core.models.CountryModel"></sly><input type="hidden" id="loc1" value=""/> -->
+
+
+
+    
+        
+        
+            
+    <div class="cmp-recipe-feature-set__container recipe-feature-list recipe-seperate">
+        <div class="row cmp-feature-set  ">
+            <div class="header col-xs-12 ta-center">
+                
+    
+    
+    
+
+            </div>
+            <div class="col-xs-12 col-md-12 card-container">
+                <div class="row">
+                    <a href="/recipes/hersheys-classic-milk-chocolate-chip-cookies.html" aria-label="HERSHEY&#39;S Classic Milk Chocolate Chip Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/18-classic-milk-chocolate-chip-cookies-cropped.png" alt="hersheys classic milk chocolate chip cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <div>
+                                            <div class="h6">
+                                                <i class="fas fa-star" aria-hidden="true"></i>POPULAR
+                                            </div>
+                                        </div>
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     HERSHEY&#39;S Classic Milk Chocolate Chip Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="18"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/double-peanut-butter-and-milk-chocolate-chip-cookies.html" aria-label="Double Peanut Butter And Milk Chocolate Chip Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/89-double-peanut-butter-and-milk-chocolate-chip-cookies.jpg" alt="double peanut butter and milk chocolate chip cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     Double Peanut Butter And Milk Chocolate Chip Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="89"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/toffee-bits-cookies.html" aria-label="Toffee Bits Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/20-toffee-bits-cookies-cropped.png" alt="toffee bits cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <div>
+                                            <div class="h6">
+                                                <i class="fas fa-star" aria-hidden="true"></i>POPULAR
+                                            </div>
+                                        </div>
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     Toffee Bits Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="20"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/reeses-crinkle-cookies.html" aria-label="REESE&#39;S Crinkle Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/9-reeses-crinkle-cookies.jpg" alt="reeses crinkle cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <div>
+                                            <div class="h6">
+                                                <i class="fas fa-star" aria-hidden="true"></i>POPULAR
+                                            </div>
+                                        </div>
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     REESE&#39;S Crinkle Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="9"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/reeses-pieces-peanut-butter-cookies.html" aria-label="REESE&#39;S PIECES Peanut Butter Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/61-reeses-pieces-peanut-butter-cookies.jpg" alt="reeses pieces peanut butter cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <div>
+                                            <div class="h6">
+                                                <i class="fas fa-star" aria-hidden="true"></i>POPULAR
+                                            </div>
+                                        </div>
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     REESE&#39;S PIECES Peanut Butter Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="61"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/reeses-candy-double-peanut-butter-cookies.html" aria-label="REESE&#39;S Candy Double Peanut Butter Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/85-reeses-candy-double-peanut-butter-cookies.jpg" alt="REESE&#39;S Candy Double Peanut Butter Cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     REESE&#39;S Candy Double Peanut Butter Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="85"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="button-section">
+            
+            
+        </div>
+    </div>
+
+        
+    
+
+    
+
+
+
+
+
+
+
+
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section id="single-recipe-row" class="          ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="feature-set section">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+    
+
+
+
+<!-- <sly data-sly-use.country="com.hershey.core.models.CountryModel"></sly><input type="hidden" id="loc1" value=""/> -->
+
+
+
+    
+        
+        
+            
+    <div class="cmp-recipe-feature-set__container recipe-feature-list recipe-seperate">
+        <div class="row cmp-feature-set  layout-1-up">
+            <div class="header col-xs-12 ta-center">
+                
+    
+    
+    
+
+            </div>
+            <div class="col-xs-12 col-md-12 card-container">
+                <div class="row">
+                    <a href="/recipes/no-bake-peanut-butter-blossom.html" aria-label="No-Bake Peanut Butter Blossom" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/26_Hersheys_No-Bake_Peanut_Blossoms_11-18.jpeg" alt="No-Bake Peanut Butter Blossom"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <div>
+                                            <div class="h6">
+                                                <i class="fas fa-clock" aria-hidden="true"></i>Quick and Easy
+                                            </div>
+                                        </div>
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     No-Bake Peanut Butter Blossom</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="26"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/smores-cookie-drops.html" aria-label="S&#39;mores Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/255-smores-cookie-drops.jpg" alt="smores cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     S&#39;mores Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="255"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/caramel-thumbprint-cookies.html" aria-label="Caramel Thumbprint Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/112-caramel-thumbprint-cookies.jpg" alt="caramel thumbprint cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     Caramel Thumbprint Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="112"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="button-section">
+            
+            
+        </div>
+    </div>
+
+        
+    
+
+    
+
+
+
+
+
+
+
+
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Featured Recipe Section" class=" m-p-t-x-large  m-p-l-medium m-p-r-medium d-p-t-x-large d-p-b-x-large   corporate-warm-tan ">
+    <div class="corporate-warm-tan  angle-container"></div>
+    <article aria-label="Featured Recipe Section" class=" width-restricted">
+        <!--all layout options-->
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section id="article-feature-right" class="          ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="call-out-card section">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="container-fluid">
+        <div class="cmp-call-out-card card-with-right-image row">
+            <div class="col-xs-12 col-lg-7 img-container recipe ">
+                
+                <div>
+                    <div class="sixteen-nine-ratio hover-img-container cropped-image sixteen-nine" data-hover-target-id="root_container_section_copy_col1_section_69592358_cop_col1_section_col1_call_out_card">
+					
+                        <img class="image zoom-hover-image" src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/hersheys-zero-sugar-chocolate-chunk-cookies-recipe-feature.png" alt="tray of freshly made hersheys zero sugar chocolate chunk cookies"/>
+                        
+					
+					
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-5 copy-container   custom-angle tapers-custom-angle">
+                <div>
+                    <div class="card-label ta-right">
+                        <span>SUGAR FREE BAKING</span>
+                    </div>
+                    <div class="card-content">
+                        <div class="recipe card-header ta-center">
+                            <h2> Zero Sugar Chocolate Chunk Cookies</h2>
+                            
+                        </div>
+						<div class="rating-review ta-center">
+                            <div data-bv-show="inline_rating" data-bv-product-id="775"></div>
+                        </div>
+                        <div class="recipe supporting-text ta-center"><p>Enjoy a snack without the sugar. These chocolate chip cookies are baked with love ... and big chunks of HERSHEY&#39;S Zero Sugar Chocolate Candy.</p>
+</div>
+                        
+                        <div class="container-fluid">
+                            <div class="recipe btn-container has-2nd-btn ta-center row center-block">
+                                <div class="col-xs-12 col-lg-6">
+                                    <a class="button " href="/recipes/chocolate-chunk-cookies.html" aria-label="Try This Recipe  Zero Sugar Chocolate Chunk Cookies" data-hover-source="true" data-hover-target="root_container_section_copy_col1_section_69592358_cop_col1_section_col1_call_out_card" data-hover-target-class="hover-triggered">
+                                        Try This Recipe
+                                    </a>
+                                </div>
+                                
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Recommended Recipes - Set Two" class=" m-p-t-large m-p-b-x-large m-p-l-medium m-p-r-medium d-p-t-small d-p-b-x-large   corporate-warm-tan has-background-img">
+    <div style="background-image: url(/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/kitchen-spatula-silhouette.svg);" class="corporate-warm-tan  angle-container"></div>
+    <article aria-label="Recommended Recipes - Set Two" class=" width-restricted">
+        <!--all layout options-->
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section id="double-recipe-row" class="          ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="feature-set section">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+    
+
+
+
+<!-- <sly data-sly-use.country="com.hershey.core.models.CountryModel"></sly><input type="hidden" id="loc1" value=""/> -->
+
+
+
+    
+        
+        
+            
+    <div class="cmp-recipe-feature-set__container recipe-feature-list recipe-seperate">
+        <div class="row cmp-feature-set  ">
+            <div class="header col-xs-12 ta-center">
+                
+    
+    
+    
+
+            </div>
+            <div class="col-xs-12 col-md-12 card-container">
+                <div class="row">
+                    <a href="/recipes/chewy-brownie-cookies.html" aria-label="Chewy Brownie Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/74-chewy-brownie-cookies.jpg" alt="chewy brownie cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     Chewy Brownie Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="74"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/cocoa-oatmeal-treats.html" aria-label="Cocoa Oatmeal Treats" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/182-cocoa-oatmeal-treats.jpg" alt="Cocoa Oatmeal Treats"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <div>
+                                            <div class="h6">
+                                                <i class="fas fa-clock" aria-hidden="true"></i>Quick and Easy
+                                            </div>
+                                        </div>
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     Cocoa Oatmeal Treats</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="182"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/chocolate-overloaded-cookies.html" aria-label="Chocolate Overloaded Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/10_Hersheys_Chocolate-Overload-Cookies_11-18.jpeg" alt="chocolate overloaded cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <div>
+                                            <div class="h6">
+                                                <i class="fas fa-star" aria-hidden="true"></i>POPULAR
+                                            </div>
+                                        </div>
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     Chocolate Overloaded Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="10"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/hersheys-doubly-chocolate-cookies.html" aria-label="HERSHEY&#39;S Doubly Chocolate Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/28-hersheys-doubly-chocolate-cookies.jpg" alt="hersheys doubly chocolate cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <div>
+                                            <div class="h6">
+                                                <i class="fas fa-star" aria-hidden="true"></i>POPULAR
+                                            </div>
+                                        </div>
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     HERSHEY&#39;S Doubly Chocolate Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="28"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/triple-chocolate-blossoms.html" aria-label="Triple Chocolate Blossoms" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/65-triple-chocolate-blossoms.jpg" alt="triple chocolate blossoms"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     Triple Chocolate Blossoms</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="65"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/kisses-hot-cocoa-cookies.html" aria-label="KISSES Hot Cocoa Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/31-hot-cocoa-kisses-cookies.jpg" alt="kisses hot cocoa cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        <div>
+                                            <div class="h6">
+                                                <i class="fas fa-star" aria-hidden="true"></i>POPULAR
+                                            </div>
+                                        </div>
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     KISSES Hot Cocoa Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="31"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="button-section">
+            
+            
+        </div>
+    </div>
+
+        
+    
+
+    
+
+
+
+
+
+
+
+
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section id="single-recipe-row" class="          ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="feature-set section">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+    
+
+
+
+<!-- <sly data-sly-use.country="com.hershey.core.models.CountryModel"></sly><input type="hidden" id="loc1" value=""/> -->
+
+
+
+    
+        
+        
+            
+    <div class="cmp-recipe-feature-set__container recipe-feature-list recipe-seperate">
+        <div class="row cmp-feature-set  layout-1-up">
+            <div class="header col-xs-12 ta-center">
+                
+    
+    
+    
+
+            </div>
+            <div class="col-xs-12 col-md-12 card-container">
+                <div class="row">
+                    <a href="/recipes/vegan-chocolate-drizzled-shortbread-cookies.html" aria-label="Vegan Chocolate Drizzled Shortbread Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/219-vegan-chocolate-drizzled-shortbread-cookies.jpg" alt="Vegan Chocolate Drizzled Shortbread Cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     Vegan Chocolate Drizzled Shortbread Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="219"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/hersheys-cream-cheese-chip-red-velvet-cookies.html" aria-label="HERSHEY&#39;S Red Velvet Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/807-hersheys-cream-cheese-chip-red-velvet-cookies.jpeg" alt="hersheys red velvet cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     HERSHEY&#39;S Red Velvet Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="807"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                
+                    <a href="/recipes/hersheys-milk-chocolate-chip-giant-cookies.html" aria-label="HERSHEY&#39;S Milk Chocolate Chip Giant Cookies" class="item col-xs-6 col-md-6 col-lg-4">
+                        <div class="row cmp-feature-card featured-card">
+                            <div class="col-xs-12 col-md-12 col-lg-12">
+                                <div class="cmp-feature-card__box ">
+                                    <div class="image-container  cropped-image sixteen-nine">
+                                        <img class="card-image animated fade-in" src="/content/dam/hersheyland/en-us/recipes/recipe-images/236-hersheys-milk-chocolate-chip-giant-cookies.jpg" alt="hersheys milk chocolate chip giant cookies"/>
+                                        
+                                    </div>
+                                    <div class="card-content">
+                                        
+                                        <div class="copy-container">
+                                            <span class="h4">
+                                                <span class="text-underline">
+                                                     HERSHEY&#39;S Milk Chocolate Chip Giant Cookies</span>
+                                            </span>
+                                        </div>
+                                        <div class="review-container">
+                                            <div data-bv-show="inline_rating" data-bv-product-id="236"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="button-section">
+            
+            
+        </div>
+    </div>
+
+        
+    
+
+    
+
+
+
+
+
+
+
+
+</div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section class="      d-p-b-x-large    ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="button section">
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/button/clientlib-button-default-theme.lc-fd1174becf8caf80fd40fa3cb6b191d4-lc.min.css" type="text/css">
+
+
+
+
+<div class="button-cmp overwrite-color">
+    <div class="btn-comp-container ta-center">
+        <a href="https://www.hersheyland.com/home/all-recipes.html?recipeCategory=Cookies%20%26%20blossoms" class="ta-center button-cmp--primary overwrite-color border-bottom">
+            
+            <span class="h5 cta-text static-color customzied-heading">See More Cookie Recipes</span>
+			
+        </a>
+    </div>
+</div></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Recommended Articles" id="article-callout-set" class="  m-p-b-small m-p-l-medium m-p-r-medium  d-p-b-x-large d-p-l-medium d-p-r-medium corporate-purple-variant-100 ">
+    <div class="corporate-purple-variant-100  angle-container"></div>
+    <article aria-label="Recommended Articles" class="gutter-included ">
+        <!--all layout options-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="row columns-10-of-12">
+    <div class="col-xs-12 col-lg-10">
+        <div class="call-out-set section">
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/corporates/call-out-set/clientlib-cos-default-theme.lc-1cc008878a9bf925d9b00db628476bee-lc.min.css" type="text/css">
+
+
+
+
+
+    
+    
+<script src="/etc.clientlibs/hershey/components/corporates/call-out-set/clientlib.lc-9744e4a641bec3e7537ce08b98317cae-lc.min.js"></script>
+
+
+
+
+
+
+<!-- Tiny Slider JS and CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+
+
+<div>
+    
+    <div class="cmp-call-out-set content-desktop " style="background-image: url('')">
+        <div class="cmp-call-out-set__container">
+            <div class="row">
+                <div class="col-xs-12 cmp-call-out-set__title ">
+                    <h1 class="ta-center">Cookie Baking Inspiration &amp; Tips</h1>
+
+                    
+
+                    
+                </div>
+                <div class="col-xs-12 col-lg-4 cmp-call-out-set__item">
+                    <div class="card-item__image ">
+                        <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/hersheys-christmas-cookies-recipes-article-feature.jpg" alt="holiday gift boxes filled with different types of cookies"/>
+                    </div>
+                    <div class="card-item__content">
+                        
+                        <div class="card-item__title">
+                            <a href="/stories/top-10-hershey-christmas-cookie-recipes.html">Top 10 Hershey Christmas Cookie Recipes</a>
+                        </div>
+                        <p><p>Savor the flavor on this list of the best holiday cookies. Which ones will you bake this year?<br />
+</p>
+</p>
+                    </div>
+                    <div class="underline "></div>
+                </div>
+<div class="col-xs-12 col-lg-4 cmp-call-out-set__item">
+                    <div class="card-item__image ">
+                        <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/hersheys-cookie-baking-tips-and-tricks-article-feature.jpg" alt="person mixing hersheys chocolate chips into batter"/>
+                    </div>
+                    <div class="card-item__content">
+                        
+                        <div class="card-item__title">
+                            <a href="/stories/cookie-baking-tips-and-tricks.html">Cookie Baking Tips &amp; Tricks</a>
+                        </div>
+                        <p><p>How do you make chewy cookies? What kind of cookie sheet should you use? Browse all our cookie baking tips!<br />
+</p>
+</p>
+                    </div>
+                    <div class="underline "></div>
+                </div>
+<div class="col-xs-12 col-lg-4 cmp-call-out-set__item">
+                    <div class="card-item__image ">
+                        <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/hersheys-peanut-butter-blossoms-article-feature.jpg" alt="hersheys peanut butter blossoms on kitchen countertop"/>
+                    </div>
+                    <div class="card-item__content">
+                        
+                        <div class="card-item__title">
+                            <a href="/stories/the-history-of-peanut-butter-blossoms.html">All About the Iconic Peanut Butter Blossom</a>
+                        </div>
+                        <p><p>This tried-and-true holiday treat has a sweet history. Plus, get inspired to bake a new blossom recipe this year!<br />
+</p>
+</p>
+                    </div>
+                    <div class="underline "></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="cmp-carousel__cover content-mobile 3 " style="background-image: url('')">
+        <h1 class="ta-center">Cookie Baking Inspiration &amp; Tips
+        </h1>
+        <div class="my-slider text-container_call-out-set containerID-call-out-set-1131181934" tns-data-options='{
+			"container": ".containerID-call-out-set-1131181934", 
+			"navContainer": "#controlID-call-out-set-1131181934",
+			"items": 3,
+  			"controls": false,
+  			"responsive": {
+    			"350": {
+      				"items": 1.49
+    				},
+        		"650": {
+      				"items": 1.19
+    				}
+  			},
+			"center":true,
+			"autoplay": false,           
+			"slideBy":1,
+			"gutter":20,
+			"loop":true,
+			"preventScrollOnTouch": "force",
+			"startIndex": 1
+			}'>
+            
+                <div class="card-item">
+                    <div class="card-item__image ">
+                        <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/hersheys-christmas-cookies-recipes-article-feature.jpg" alt="holiday gift boxes filled with different types of cookies"/>
+                    </div>
+                    <div class="card-item__content">
+                        
+                        <div class="card-item__title">
+                            <a href="/stories/top-10-hershey-christmas-cookie-recipes.html">Top 10 Hershey Christmas Cookie Recipes</a>
+                        </div>
+                        <p><p>Savor the flavor on this list of the best holiday cookies. Which ones will you bake this year?<br />
+</p>
+</p>
+                    </div>
+					<div class="underline "></div>
+                    </div>
+            
+                <div class="card-item">
+                    <div class="card-item__image ">
+                        <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/hersheys-cookie-baking-tips-and-tricks-article-feature.jpg" alt="person mixing hersheys chocolate chips into batter"/>
+                    </div>
+                    <div class="card-item__content">
+                        
+                        <div class="card-item__title">
+                            <a href="/stories/cookie-baking-tips-and-tricks.html">Cookie Baking Tips &amp; Tricks</a>
+                        </div>
+                        <p><p>How do you make chewy cookies? What kind of cookie sheet should you use? Browse all our cookie baking tips!<br />
+</p>
+</p>
+                    </div>
+					<div class="underline "></div>
+                    </div>
+            
+                <div class="card-item">
+                    <div class="card-item__image ">
+                        <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/hersheys-peanut-butter-blossoms-article-feature.jpg" alt="hersheys peanut butter blossoms on kitchen countertop"/>
+                    </div>
+                    <div class="card-item__content">
+                        
+                        <div class="card-item__title">
+                            <a href="/stories/the-history-of-peanut-butter-blossoms.html">All About the Iconic Peanut Butter Blossom</a>
+                        </div>
+                        <p><p>This tried-and-true holiday treat has a sweet history. Plus, get inspired to bake a new blossom recipe this year!<br />
+</p>
+</p>
+                    </div>
+					<div class="underline "></div>
+                    </div>
+            
+        </div>
+		<div class="tns-nav">
+      		<div id="controlID-call-out-set-1131181934" class="tns-dots sliderPager_call-out-set controlID-call-out-set-1131181934">
+				
+    			<button class="tns-dot"></button>
+    			
+    			<button class="tns-dot"></button>
+    			
+    			<button class="tns-dot"></button>
+    			
+			</div>
+		</div>
+        <div class="ctaLink_title">
+        	
+        </div>
+    </div>
+</div>
+</div>
+
+
+    </div>
+</div>
+
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Crosslink Feature" id="quick-facts-section" class="  m-p-b-x-large m-p-l-medium m-p-r-medium  d-p-b-x-large   corporate-purple-variant-100 ">
+    <div class="corporate-purple-variant-100  angle-container"></div>
+    <article aria-label="Crosslink Feature" class="gutter-included ">
+        <!--all layout options-->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="row columns-10-of-12">
+    <div class="col-xs-12 col-lg-10">
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section aria-label="Hershey Quick Fact" id="quick-facts-callout" class=" m-p-t-small m-p-b-small   d-p-t-medium d-p-b-medium   corporate-purple ">
+    <div class="corporate-purple  angle-container"></div>
+    <article aria-label="Hershey Quick Fact" class=" width-restricted">
+        <!--all layout options-->
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section class=" m-p-t-large m-p-b-large m-p-l-medium m-p-r-medium      ">
+    <div class="  angle-container"></div>
+    <article class="gutter-included ">
+        <!--all layout options-->
+        
+        
+        
+        
+        
+        <div class="row">
+    <div class="col-xs-12 col-lg-8">
+        <div class="text section">
+
+
+ 
+
+
+	
+	
+    
+
+
+
+
+<div></div>
+
+    <div class="rich-text light-text ">
+        <h3>Did You Know?</h3>
+<p>Before moving your baked cookies to a wire rack, let them cool and solidify on the tray first, typically about 5 minutes. Explore more baking tips, tricks and hacks that&#39;ll make your moments in the kitchen even sweeter.<br />
+</p>
+
+    </div>
+</div>
+
+
+    </div>
+    <div class="col-xs-12 col-lg-4">
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section class="     d-p-t-medium     ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="button section">
+
+
+
+
+	
+	
+    
+
+
+
+
+<div class="button-cmp overwrite-color">
+    <div class="btn-comp-container ta-center">
+        <a href="/baking-resources.html" class="ta-center button-cmp--primary overwrite-color border-bottom">
+            
+            <span class="h5 cta-text static-color customzied-heading">See More Baking Tips</span>
+			
+        </a>
+    </div>
+</div></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+    </div>
+</div>
+
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+    </div>
+</div>
+
+        
+    </article>
+</section></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="section parbase aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section class="  m-p-b-x-large   d-p-t-medium d-p-b-medium   corporate-purple-variant-100 ">
+    <div class="corporate-purple-variant-100  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section class="  m-p-b-medium m-p-l-medium      corporate-purple-variant-100 ">
+    <div class="corporate-purple-variant-100  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="link-group section">
+<div class="row-style  customized-color link-group-comp   ">
+    <div class="row">
+        
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 link-group-comp-head">
+            
+            <h6>RECIPE INSPIRATION</h6>
+            <h2>More Ways to Celebrate with Hershey</h2>
+            
+            <a class="h4 " href="/recipes/types.html">Explore Our Recipe Collections</a>
+            
+        </div>
+        
+        
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-7 link-group-comp-list ">
+            <div class="row">
+                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 owl-carousel" data-options='{
+                        "loop": false,
+                        "nav": true,
+                        "dots": false,
+                        "responsiveClass": true,
+                        "responsive": { "0": { "items": 1,"margin":10, "stagePadding": 50,"stageClass": "owl-stage p-l-0"}, "992" : {"items": 3,"margin":20,"stagePadding": 50,"stageClass": "owl-stage p-l-0"}},
+                        "navText": [
+                            "&lt;div class=&#39;previous-navigation&#39; aria-label=&#39;Previous&#39;>&lt;i class=&#39;fas fa-chevron-left&#39;>&lt;/i>&lt;/div>",
+                            "&lt;div class=&#39;next-navigation&#39; aria-label=&#39;Next&#39;>&lt;i class=&#39;fas fa-chevron-right&#39;>&lt;/i>&lt;/div>"
+                            ]}'>
+                    
+                        <a href="/recipes/brownies.html">
+                            
+
+                            
+                            <div class="link-group-comp-item">
+                                <div class="link-group-comp-image cropped-image one-one">
+                                    <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/brownies-recipe-category-tile.jpg" alt="brownies recipe category tile"/>
+                                </div>
+                                <div class="link-group-comp-link">
+                                    <span class="h4">
+                                        Brownies
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="/recipes/cupcakes.html">
+                            
+
+                            
+                            <div class="link-group-comp-item">
+                                <div class="link-group-comp-image cropped-image one-one">
+                                    <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/cupcakes-recipe-category-tile.jpg" alt="cupcakes recipe category tile"/>
+                                </div>
+                                <div class="link-group-comp-link">
+                                    <span class="h4">
+                                        Cupcakes
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="/recipes/party-snacks.html">
+                            
+
+                            
+                            <div class="link-group-comp-item">
+                                <div class="link-group-comp-image cropped-image one-one">
+                                    <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/party-snacks-recipe-category-tile.jpg" alt="party snacks recipe category tile"/>
+                                </div>
+                                <div class="link-group-comp-link">
+                                    <span class="h4">
+                                        Party Snacks
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="/recipes/cakes.html">
+                            
+
+                            
+                            <div class="link-group-comp-item">
+                                <div class="link-group-comp-image cropped-image one-one">
+                                    <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/cakes-recipe-category-tile.jpg" alt="cakes recipe category tile"/>
+                                </div>
+                                <div class="link-group-comp-link">
+                                    <span class="h4">
+                                        Cakes
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="/recipes/fudge-truffles-and-candy.html">
+                            
+
+                            
+                            <div class="link-group-comp-item">
+                                <div class="link-group-comp-image cropped-image one-one">
+                                    <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/fudge-recipe-category-tile.jpg" alt="fudge recipe category tile"/>
+                                </div>
+                                <div class="link-group-comp-link">
+                                    <span class="h4">
+                                        Fudge
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="/recipes/fudge-truffles-and-candy.html">
+                            
+
+                            
+                            <div class="link-group-comp-item">
+                                <div class="link-group-comp-image cropped-image one-one">
+                                    <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/truffles-and-candy-recipe-category-tile.jpg" alt="truffles and candy recipe category tile"/>
+                                </div>
+                                <div class="link-group-comp-link">
+                                    <span class="h4">
+                                        Truffles &amp; Candy
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    
+                        <a href="/recipes/breads-muffins-and-scones.html">
+                            
+
+                            
+                            <div class="link-group-comp-item">
+                                <div class="link-group-comp-image cropped-image one-one">
+                                    <img src="/content/dam/hersheyland/en-us/recipes/category-pages/cookies-and-blossoms/breads-and-breakfast-pastries-recipe-category-tile.jpg" alt="breads and breakfast pastries recipe category tile"/>
+                                </div>
+                                <div class="link-group-comp-link">
+                                    <span class="h4">
+                                        Breads &amp; Breakfast Pastries
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="link-group-comp-action col-sm-12 col-xs-12 col-md-12 ">
+            <a class="h4 " href="/recipes/types.html">
+                Explore Our Recipe Collections
+            </a>
+            
+        </div>
+    </div>
+</div>
+<!--Location Grid-->
+
+
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/link-group/clientlib-link-group-default-theme.lc-54b915dddb6b44d09c532db286aaef8b-lc.min.css" type="text/css">
+
+
+
+
+
+    
+<script src="/etc.clientlibs/hershey/components/link-group/clientlib.lc-3ffa83b46af8fa6fe1f72853ab39bc89-lc.min.js"></script>
+
+
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="experiencefragment aem-GridColumn aem-GridColumn--default--12">
+<div class="cmp-experiencefragment cmp-experiencefragment--hub-footer">
+
+
+    
+    <div id="container-269e078334" class="cmp-container">
+        
+
+
+<div class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
+    
+    <div class="section parbase aem-GridColumn aem-GridColumn--default--12">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section id="new-footer" class="          ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section class=" m-p-t-small m-p-b-medium m-p-l-medium m-p-r-medium d-p-t-medium d-p-b-medium d-p-l-medium d-p-r-medium corporate-purple ">
+    <div class="corporate-purple  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="sign-up section">
+
+
+
+
+    
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/sign-up/clientlib-sign-up-default-theme.lc-79554fc7dbbc3184809b05119e277a76-lc.min.css" type="text/css">
+
+
+
+
+
+    
+<script src="/etc.clientlibs/hershey/components/sign-up/clientlib.lc-1edc9784f0952a5a60b80733b6bf560e-lc.min.js"></script>
+
+
+
+
+    <div class="cmp-sign-up strip no-image">
+        <div class="fluid-container corporate-purple">
+            
+            <div class="mobile-angle custom-angle  corporate-purple"></div>
+            
+            
+            <div class="desktop-angle custom-angle  corporate-purple"></div>
+            <div class="row">
+                <div class="sign-up-details col-xs-12 ta-center">
+                    
+                    <div class="sign-up-copy">
+                        <div class="copy-container">
+                            <h3>Let&#39;s Keep in Touch</h3>
+                            
+                            <div class="sign-up-description">
+                                <p>Unwrap recipe ideas, celebration inspiration and product news in your inbox!</p>
+
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="sign-up-newsletter col-xs-12 ta-center">
+                    <div class="text">
+                        <span class="svg-icon" aria-hidden="true">
+    <svg x="0px" y="0px" width="19px" height="12px" viewBox="0 0 19 12" enable-background="new 0 0 19 12" xml:space="preserve">
+        <g>
+            <rect x="1.06" y="1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.9466 11.9994)" fill="none" stroke="currentColor" stroke-width="1.3602" stroke-miterlimit="10" width="15.83" height="10"/>
+            <path fill="none" stroke="currentColor" stroke-width="1.3602" stroke-miterlimit="10" d="M7.79,5.95l-6.68,5.01
+       C1.09,10.97,1.1,11,1.12,11h15.71c0.02,0,0.03-0.03,0.01-0.04l-6.69-5.01"/>
+            <path fill="none" stroke="currentColor" stroke-width="1.3602" stroke-miterlimit="10" d="M8.97,6.82L1.11,1.04C1.09,1.03,1.1,1,1.12,1
+       h15.7c0.02,0,0.03,0.03,0.01,0.04L8.97,6.82z"/>
+        </g>
+    </svg>
+</span>
+                        <span class="sign-up-text">Sign Up for Our Newsletter</span>
+                    </div>
+                    <div class="input">
+                        <form id="signupForm" action="/about/newsletter.html" method="POST" onsubmit="return signupScript()">
+                        <input id="signupEmail" type="email" name="email" aria-label="Enter your email address" placeholder="Enter your email address" aria-describedby="tooltiptext" aria-required="true"/>
+                        <input id="newsbkgParam" aria-hidden="true" type="hidden" name="newsbkg" value="hersheyglobal"/>
+                        <button type="submit" aria-label="submit email" class="button" onclick="submitEmailAsGet(this.form)"><i class="fas fa-chevron-right" aria-hidden="true"></i><span class="sr-only">Submit Email</span></button>                       
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="section parbase">
+
+
+
+
+	
+	
+    
+
+
+
+
+
+
+
+
+
+<section class="          ">
+    <div class="  angle-container"></div>
+    <article class=" ">
+        <!--all layout options-->
+        <div class="image section">
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/image/clientlib-image-default-theme.lc-11530a60d3973e245679bdb12b401fc1-lc.min.css" type="text/css">
+
+
+
+
+<div data-cmp-is="image" data-cmp-src="/content/experience-fragments/hersheyland/en_us/footers/hub-footer/master/_jcr_content/root/section_311989503_co/col1/section_836776562/col1/image.coreimg{.width}.svg/1704469778187/kisses-group.svg" data-asset="/content/dam/hersheyland/en-us/footer/background/kisses-group.svg" data-asset-id="f1441584-cae5-4893-b4f1-9c7780e37392" class="cmp-image" itemscope itemtype="http://schema.org/ImageObject">
+    
+        
+            
+            <img src="/content/experience-fragments/hersheyland/en_us/footers/hub-footer/master/_jcr_content/root/section_311989503_co/col1/section_836776562/col1/image.coreimg.svg/1704469778187/kisses-group.svg" class="cmp-image__image" itemprop="contentUrl" data-cmp-hook-image="image" alt/>
+            
+        
+    
+    
+    
+</div>
+
+    
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+<div class="corporate-footer section">
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/corporates/corporate-footer/clientlib-cf-default-theme.lc-c791da3058176159c9c2ec8c7867ffa1-lc.min.css" type="text/css">
+
+
+
+
+
+    
+    
+<script src="/etc.clientlibs/hershey/components/hub-footer/clientlib.lc-6a492407d71a479de873f92da55b8729-lc.min.js"></script>
+
+
+
+
+<div class="corporate-footer-cmp">
+    <div class="corporate-footer-cmp__container">
+        <div class="row">
+            <div class="col-xs-12 corporate-footer-cmp__social-links">
+                <nav class="social-follow" aria-label="social links">
+                    <div class="socials__logo-container">
+                        <a href="/home">
+                            <img src="/content/dam/hersheyland/en-us/footer/logos/hersheyland_logo_transparent-footer.svg" alt="Hersheyland logo - light gray"/>
+                        </a>
+                    </div>
+                    <ul class="socials__list">
+                        <li>
+                            <a href="https://www.instagram.com/hersheyland">
+                                <span class="fab fa-instagram"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.tiktok.com/@hersheyland">
+                                <span class="fab fa-tiktok"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCSwX_0zWjWH7eOtvUcGL64w">
+                                <span class="fab fa-youtube"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.facebook.com/people/Hersheyland/100093627783458">
+                                <span class="fab fa-facebook"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.pinterest.com/hersheyland">
+                                <span class="fab fa-pinterest"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="contrast-toggle-container">
+                </div>
+            </div>
+            <div class="col-xs-12 corporate-footer-cmp__external-links-1">
+                <nav class="external-links" aria-label="external links">
+                    <ul>
+                        <li>
+                            <a href="https://www.thehersheycompany.com/en_us/home/contact-us.html">Contact Customer Service</a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.thehersheycompany.com/en_us/home.html">The Hershey Company</a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://shop.hersheys.com">Shop Hershey Store</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-xs-12 corporate-footer-cmp__external-links-2">
+                <nav class="external-links" aria-label="external links">
+                    <ul>
+                        <li>
+                            <a href="https://www.hersheypa.com/">Visit Hershey</a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://careers.thehersheycompany.com">Hershey Careers</a>
+                        </li>
+                    
+                        <li>
+                            <a href="https://www.hersheyfoodservice.com/home.html">Hershey Foodservice</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-xs-12 corporate-footer-cmp__quick-links">
+                <nav class="quick-links" aria-label="quick links">
+                    
+                </nav>
+            </div>
+            <div class="col-xs-12 corporate-footer-cmp__utility-links">
+                <nav class="utility-links" aria-label="utility links">
+                    
+                </nav>
+            </div>
+            <div class="col-xs-12 corporate-footer-cmp__copyright">
+                <div class="copyright-text"><span></span></div>
+            </div>
+        </div>
+    </div>
+</div></div>
+<div class="hub-footer section">
+
+
+
+
+	
+	
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/components/hub-footer/clientlib-hub-footer-default-theme.lc-8be594c376f579debcc8f67d824b5416-lc.min.css" type="text/css">
+
+
+
+
+
+    
+
+
+
+<div class="footer col-xs-12">
+    <h2 hidden>Footer</h2>
+    <div class="row">
+        <div class="col-xs-12 col-lg-3 footer__quick-link-container--hub " style="background-image: url()">
+            <div class="row">
+                <div class="col-xs-6 col-lg-12 footer__quick-link-title">
+                    <h3></h3>
+                </div>
+                <div class="col-xs-6 col-lg-10 border">
+                    <span class="h3 footer__quick-link-title"></span>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-lg-4 border-bottom footer__brand-container footer__brand-container--hub">
+            <div class="row border">
+                <div class="col-xs-12 col-lg-12">
+                    <a>
+                        <img class="logo" alt="logo"/>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-lg-12">
+                    
+                </div>
+                <div class="col-xs-12 col-lg-12 ta-center">
+                    <a class="button"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-lg-5 footer__newsletter footer__newsletter--hub ta-center border">
+            <div class="row">
+                <div class="col-xs-12 col-lg-8 ta-left">
+                    <span class="svg-icon" aria-hidden="true">
+    <svg x="0px" y="0px" width="19px" height="12px" viewBox="0 0 19 12" enable-background="new 0 0 19 12" xml:space="preserve">
+        <g>
+            <rect x="1.06" y="1" transform="matrix(-1 -1.224647e-16 1.224647e-16 -1 17.9466 11.9994)" fill="none" stroke="currentColor" stroke-width="1.3602" stroke-miterlimit="10" width="15.83" height="10"/>
+            <path fill="none" stroke="currentColor" stroke-width="1.3602" stroke-miterlimit="10" d="M7.79,5.95l-6.68,5.01
+       C1.09,10.97,1.1,11,1.12,11h15.71c0.02,0,0.03-0.03,0.01-0.04l-6.69-5.01"/>
+            <path fill="none" stroke="currentColor" stroke-width="1.3602" stroke-miterlimit="10" d="M8.97,6.82L1.11,1.04C1.09,1.03,1.1,1,1.12,1
+       h15.7c0.02,0,0.03,0.03,0.01,0.04L8.97,6.82z"/>
+        </g>
+    </svg>
+</span>
+                    <span class="h3 signup-text"></span>
+                </div>
+                <div class="col-xs-12 col-lg-8">
+                    <div class="email_tooltip">
+					<span id="tooltiptext" class="tooltiptext" role="tooltip" aria-label="Missing Email Address Warning">Please enter an email address.</span>
+                    </div>
+                    <form id="formId" method="POST" onsubmit="return setEmail()">
+                        <input id="email" class="emailInput" aria-label="email" type="email" name="email" placeholder="Enter your email address" aria-describedby="tooltiptext" aria-required="true"/>
+                        <input id="newsbkg" aria-hidden="true" type="hidden" name="newsbkg" value="hersheyglobal"/>
+                            <button type="submit" aria-label="submit email" class="emailBtn button" onclick="submitEmailAsGet(this.form)"><i class="fas fa-chevron-right" aria-hidden="true"></i><span class="sr-only">Submit Email</span></button>
+                    </form>
+                </div>
+                <div class="col-xs-12 col-lg-8 footer__shopping-cart">
+                    <p>
+                        <span>
+                            <img class="logo" src="/content/dam/hersheyland/en-us/footer/icons/shopping-cart.png" alt="Shopping Cart"/>
+                            <a></a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 footer__utility-container dark-brown-background">
+            
+    <div class="row">
+        <div class="col-xs-12 col-lg-3">
+            <div class="contrast-toggle-container "></div>
+        </div>
+        <div class="col-xs-12 col-lg-9">
+            <div class="row footer__utility-link-container">
+                <div class="col-xs-12 ta-center">
+                    <span></span>
+                </div>
+                <div class="col-xs-12 col-lg-11 footer__utility-links">
+                    <span></span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+</div>
+<div class="embed section">
+<div id="embed-ee0fac8e25" class="cmp-embed">
+    
+    <div class="hub-footer aem-GridColumn aem-GridColumn--default--12">
+    <div class="footer">
+        <div class="row">
+            <div class="col-xs-12 footer__utility-container dark-brown-background">
+                <div class="row">
+                    <div class="">
+                        <div class="copyright-text" style="font-weight: 700; font-size: 1.4rem;"><span>©<span class="footerYear"></span> The Hershey Company. All Rights Reserved. </span></div>
+                    </div>
+                    <div class="">
+                        <div class="footer__utility-link-container">
+                            <div class="col-xs-12 ta-center">
+                                <span></span>
+                            </div>
+                            <div class="footer__utility-links">
+                                <span></span>
+                                    <a target="_self" href="/home/personal-data-request.html" id="doNotSell">DO NOT SELL MY INFO</a>                    
+                                    <a target="_self" href="https://www.thehersheycompany.com/en_us/home/notice-to-parents.html">Notice to Parents</a>
+                                    <a target="_self" href="https://www.thehersheycompany.com/en_us/home/privacy-policy.html">Privacy Policy</a>
+                                    <a target="_self" href="https://www.thehersheycompany.com/en_us/home/terms-and-conditions.html">Terms &amp; Conditions</a>
+                                    <a target="_self" href="/home/accessibility.html">Web Accessibility</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+.footer-padding article .section article {
+    z-index: 1;
+}
+#new-footer {
+    z-index: 0;
+}
+#new-footer div.footer>div.row {
+    width: 100%;
+}
+#new-footer div.footer .footer__utility-container {
+    margin: 0 2.5rem;
+}
+/*IMAGE STYLES*/
+#new-footer div.image {
+   margin-bottom: -2px;
+}
+#new-footer section#footer-banner img {
+    margin-bottom: -10px;
+}
+
+/*Newsletter Call Out Styles*/
+#new-footer .cmp-sign-up.strip .fluid-container::after {
+    content: none;
+}
+
+/*CORP FOOTER STYLES*/
+#new-footer .corporate-footer {
+    position: relative;
+}
+#new-footer .corporate-footer-cmp .socials__list>li>a {
+    font-size: 2.4rem;
+    color: #007bbd;
+}
+#new-footer .corporate-footer-cmp .contrast-toggle-container .switch-status span {
+    color: #3c131c;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#new-footer .switch-status .switch .slider {
+    background-color: #dedede !important;
+    border: none !important;
+}
+#new-footer .switch-status .switch .slider:before, body.branch-high-contrast-mode #new-footer .switch-status .switch input:checked:focus + .slider, body.high-contrast-mode #new-footer .switch-status .switch input:checked:focus + .slider {
+    background-color: #007bbd !important;
+}
+body.branch-high-contrast-mode #new-footer .switch-status .switch input:checked + .slider, body.high-contrast-mode #new-footer .switch-status .switch input:checked + .slider {
+    background-color: #007bbd !important;
+}
+#new-footer .switch-status .switch input:hover + .slider, #new-footer .switch-status .switch input:checked:hover + .slider, #new-footer .switch-status .switch input:focus + .slider, #new-footer .switch-status .switch input:checked:focus + .slider, body.branch-high-contrast-mode #new-footer .switch-status .switch input:checked:hover + .slider, body.high-contrast-mode #new-footer .switch-status .switch input:checked:hover + .slider {
+    background-color: #80bdde !important;
+}
+body.branch-high-contrast-mode #new-footer .switch-status .switch .slider::before, body.high-contrast-mode #new-footer .switch-status .switch .slider::before {
+    background-color: #fff !important;
+}
+#new-footer .corporate-footer-cmp .external-links ul>li>a {
+    color: #007bbd;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+#new-footer .corporate-footer-cmp .external-links ul>li>a:hover {
+    color: #3c131c;
+}
+#new-footer .cmp-image[data-asset*="/content/dam/hersheyland/en-us/footer/background/kisses-group.svg"] img {
+    position: absolute;
+    right: 0;
+    width: auto;
+    object-fit: none;
+    object-position: 60px -8px;
+    max-width: 100%;
+    bottom: -180px;
+}
+
+#new-footer .footer.col-xs-12 {
+    display: none;
+}
+#new-footer .corporate-footer-cmp__quick-links, .corporate-footer-cmp__utility-links, #new-footer .corporate-footer-cmp__copyright {
+    display: none;
+}
+#new-footer .cmp-sign-up input[type='email'] {
+    font-family: 'TT Norms Pro';
+}
+
+#new-footer .section > section > .corporate-purple:before {
+content: '';
+    background-image: url(/content/dam/hersheyland/en-us/footer/shapes/moments-wave-footer-bkgd-white.svg);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: -33%;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 49% 0%;
+    z-index: 1;
+}
+
+@media screen and (min-width: 992px) {
+    #new-footer section.p-medium {
+        padding: 5rem;
+    }
+#new-footer .section > section > .corporate-purple:before {
+    margin-top: -12.5%;
+    background-size: auto;
+}
+    #new-footer .cmp-sign-up.strip.no-image {
+        padding: 3rem 0;
+        margin: auto;
+    }
+    #new-footer .cmp-sign-up.strip .row, #new-footer .cmp-sign-up.strip .sign-up-details {
+       min-height: auto;
+    }
+    #new-footer .cmp-sign-up.strip .sign-up-details {
+        width: 50%;
+        padding: 0 10rem 0 0;
+    }
+    #new-footer .cmp-sign-up.no-image .copy-container {
+        padding-left: 0;
+        padding-top: 4rem;
+    }
+    #new-footer .cmp-sign-up.strip .sign-up-copy {
+       padding: 0;
+    }
+    #new-footer .cmp-sign-up.strip .sign-up-copy h3 {
+       font-size: 3.6rem
+    }
+    #new-footer .cmp-sign-up.strip .sign-up-description p {
+       font-size: 2rem
+    }
+    #new-footer .cmp-sign-up.strip .sign-up-newsletter {
+        padding: 0;
+        max-width: 400px;
+        width: 100%;
+    }
+    #new-footer .corporate-footer-cmp {
+        padding: 3rem 0;
+    }
+    #new-footer .corporate-footer-cmp__container {
+        padding: 0;
+    }
+    #new-footer .corporate-footer-cmp__container .row {
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+    }
+    #new-footer .corporate-footer-cmp__container .col-xs-12 {
+        padding: 0 2.5rem 0 0;
+    }
+    #new-footer .corporate-footer-cmp__social-links {
+        width: auto;
+    }
+    #new-footer .corporate-footer-cmp .socials__logo-container>a>img {
+        position: absolute;
+        top: -43%;
+        z-index: -1;
+        height: 25rem;
+        width: auto;
+        left: -15px;
+        max-height: none;
+    }
+    #new-footer .corporate-footer-cmp__external-links-1.col-xs-12 {
+        padding-right: 10rem;
+        margin-left: auto;
+    }
+    #new-footer .corporate-footer-cmp__external-links-1 .external-links {
+        padding-left: 0;
+    }
+    #new-footer .corporate-footer-cmp__external-links-1 {
+        width: auto;
+    }
+    #new-footer .corporate-footer-cmp__external-links-2 {
+        width: 45%;
+    }
+    #new-footer .corporate-footer-cmp__external-links-2>.external-links {
+        padding-bottom: 0
+    }
+    #new-footer .col-xs-12.corporate-footer-cmp__external-links-2 {
+        margin: 0;
+    }
+
+    #new-footer div.footer .footer__utility-container>.row {
+        justify-content: space-between;
+    }
+
+	#new-footer div.footer .footer__utility-container .footer__utility-link-container .col-xs-12.ta-center {
+	    display: none;
+	}
+	#new-footer div.footer .footer__utility-container .footer__utility-links {
+		padding-right: 2rem;
+	}
+}
+@media screen and (max-width: 991.9px) {
+#new-footer .cmp-image[data-asset*="/content/dam/hersheyland/en-us/footer/background/kisses-group.svg"] img {
+    display: none;
+}
+#footer-banner .cmp-image {
+    overflow: hidden;
+}
+	#new-footer .corporate-footer-cmp__social-links {
+	    border-bottom: 3px solid #D1E682;
+	    margin-bottom: 1.5rem;
+	}
+	#new-footer .corporate-footer-cmp__external-links-2 {
+	    margin-bottom: 0;
+	}
+	#new-footer div.footer .footer__utility-container .footer__utility-link-container {
+	    padding: 1rem 2.5rem;
+	}
+	#new-footer div.footer .footer__utility-container .footer__utility-links {
+	        flex-flow: column;
+	}
+	#new-footer div.footer .footer__utility-container .footer__utility-link-container {
+	    padding: 0 0 2rem;
+	    justify-content: center;
+	}
+	#new-footer div.footer .footer__utility-container .row {
+	    flex-flow: column;
+	    justify-content: center;
+	    width: auto;
+	    margin: 0;
+	}
+	#new-footer .footer__utility-container .row div:first-of-type {
+	    order: 2;
+	}
+	#new-footer .copyright-text {
+	    text-align: center;
+	    padding: 0 0 1rem;
+	}
+	#new-footer .cmp-sign-up .sign-up-details {
+	    padding: 0 0rem 2rem;
+	}
+	#new-footer .cmp-sign-up .sign-up-newsletter .text {
+	    margin-bottom: 2rem;
+	}
+	#new-footer .corporate-footer-cmp .external-links ul>li>a {
+	    padding: 1rem 0 0.5rem;
+	    display: block;
+	}
+	#new-footer div.footer .footer__utility-container a {
+	    margin: 2rem 0rem 1rem;
+	    border-bottom: none;
+	    width: 100%;
+	    text-align: center;
+	    text-decoration: underline;
+	    text-underline-offset: 7px;
+	}
+#new-footer .cmp-sign-up.strip .sign-up-copy {
+    text-align: left;
+}
+#new-footer .corporate-footer {
+    overflow: hidden;
+    margin-top: 4px;
+}
+#new-footer .corporate-footer-cmp .socials__logo-container>a>img {
+    position: absolute;
+    left: -15px;
+    top: -40px;
+    max-height: 11rem;
+    z-index: -1;
+}
+   #new-footer .corporate-footer-cmp {
+       padding: 3rem 2.5rem 0;
+   }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px)  {
+#new-footer .corporate-footer-cmp__container {
+    padding: 0 0 0 8rem;
+}
+}
+@media screen and (min-width: 1201px) and (max-width: 1350px)  {
+#new-footer .corporate-footer-cmp__container {
+    padding: 0 0 0 5rem;
+}
+}
+@media screen and (max-width: 991.9px)  {
+.footer-padding {
+   padding-bottom: 30rem !important;
+}
+}
+@media screen and (max-width: 768px)  {
+.footer-padding {
+   padding-bottom: 20rem !important;
+}
+}
+@media screen and (max-width: 640px)  {
+.footer-padding {
+   padding-bottom: 15rem !important;
+}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1439.9px)  {
+.footer-padding {
+   padding-bottom: 20rem !important;
+}
+}
+@media screen and (min-width: 1440px)  {
+.footer-padding {
+   padding-bottom: 30rem !important;
+}
+}
+
+#new-footer .corporate-footer-cmp__external-links-2>.external-links {
+    border-bottom: none;
+}
+#new-footer .corporate-footer-cmp .socials__list>li>a span {
+    color: #007bbd;
+}
+body.high-contrast-mode #new-footer .corporate-footer-cmp .socials__list>li>a span, body.branch-high-contrast-mode #new-footer .corporate-footer-cmp .socials__list>li>a span {
+    color: #3c131c;
+}
+body.high-contrast-mode #new-footer .corporate-footer-cmp .external-links ul>li>a, body.branch-high-contrast-mode #new-footer .corporate-footer-cmp .external-links ul>li>a {
+    color: #3c131c;
+}
+#new-footer .cmp-sign-up.strip .sign-up-description p, #new-footer .cmp-sign-up.strip .sign-up-copy h3, #new-footer .cmp-sign-up.strip .sign-up-newsletter .text, #new-footer .cmp-sign-up .sign-up-newsletter .svg-icon, #new-footer .cmp-sign-up .sign-up-text {
+    color: #fff !important;
+}
+/**SOCIAL ICONS**/
+#new-footer .corporate-footer-cmp .socials__list>li>a span.fab.fa-instagram:hover {
+    color: #E63260;
+}
+#new-footer .corporate-footer-cmp .socials__list>li>a span.fab.fa-tiktok:hover {
+    color: #000;
+}
+#new-footer .corporate-footer-cmp .socials__list>li>a span.fab.fa-youtube:hover {
+    color: #FF0000;
+}
+#new-footer .corporate-footer-cmp .socials__list>li>a span.fab.fa-pinterest:hover {
+    color: #E60023;
+}
+#new-footer .corporate-footer-cmp .socials__list>li>a span.fab.fa-facebook:hover {
+    color: #0866FF;
+}
+#new-footer .corporate-footer-cmp .socials__list>li>a span.fab {
+    transition: color .2s ease-in-out;
+}
+@media (max-width: 767px) {
+[data-bv-rating] .bv_main_container, [data-bv-show=inline_rating] .bv_main_container {
+    display: flex!important;
+    flex-direction: row !important;
+    justify-content: unset !important;
+}
+}
+</style>
+<script type="text/javascript">
+document.querySelector(".footerYear").textContent = new Date().getFullYear();
+
+//Get previous section and add padding
+var xFragment = document.querySelector("#new-footer").closest(".experiencefragment");
+var efPrevEl = xFragment.previousElementSibling;
+var padding = efPrevEl.querySelector("section").classList.add("footer-padding");
+</script>
+    
+</div>
+
+    
+
+</div>
+
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </article>
+</section></div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+    
+
+</div>
+<div class="embed aem-GridColumn aem-GridColumn--default--12">
+<div id="embed-0e5a5788e8" class="cmp-embed">
+    
+    <style>
+
+#hero-component .cmp-generic-hero .cmp-generic-hero__image-container{
+	background-color: #E0BAF0 !important;
+}
+
+#hero-component .cmp-generic-hero .cmp-generic-hero__image-container{
+	background-size: contain !important;
+
+}
+
+#article-feature-right .cmp-call-out-card .copy-container {
+	padding-left: 3rem !important;
+	padding-right: 3rem !important;
+	padding-top: 1.5rem !important;
+	padding-bottom: 3rem !important;
+}
+
+#article-feature-right .cmp-call-out-card .img-container::before {
+	background-color: #FEEBD0;
+	opacity: 1;
+}
+
+#article-feature-left .cmp-call-out-card .copy-container {
+	padding-left: 3rem !important;
+	padding-right: 3rem !important;
+	padding-top: 1.5rem !important;
+	padding-bottom: 3rem !important;
+}
+
+#article-feature-left .cmp-call-out-card .img-container::before {
+	background-color: #E0BAF1;
+	opacity: 1;
+}
+
+#single-recipe-row .cmp-recipe-feature-set__container .cmp-feature-set .header {
+	display: none;
+}
+#single-recipe-row .cmp-recipe-feature-set__container .cmp-feature-set{
+	padding: 0;
+}
+ #double-recipe-row .cmp-recipe-feature-set__container .button-section {
+ 	padding: 0;
+ }
+
+#article-callout-set .cmp-call-out-set__item {
+    border-bottom: 6pt solid #5A357B;
+}
+
+#quick-facts-section h3{
+	color: #FFFFFF;
+}
+
+#quick-facts-section p{
+	color: #FFFFFF;
+}
+
+@media screen and (max-width:767px){
+
+#hero-component .cmp-generic-hero .cmp-generic-hero__image-container{
+	background-color: #E0BAF0 !important;
+}
+
+#hero-component h1{
+	margin-top: -20px;
+}
+
+#hero-component .cmp-generic-hero .cmp-generic-hero__detail-container .cmp-generic-hero__supporting-text>p{
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+#double-recipe-row .col-xs-8{
+	width: 90%;
+}
+
+#single-recipe-row .col-xs-8{
+	width: 90%;
+}
+
+#article-feature-right .cmp-call-out-card .copy-container .card-header.recipe h2 {
+	padding-top: 1rem;
+}
+
+#article-feature-right .cmp-call-out-card .copy-container {
+	padding-left: 2.5rem !important;
+	padding-right: 2.5rem !important;
+	padding-top: 1.5rem !important;
+	padding-bottom: 2rem !important;
+}
+
+#article-feature-left .cmp-call-out-card .copy-container .card-header.recipe h2 {
+	padding-top: 1rem;
+}
+
+#article-feature-left .cmp-call-out-card .copy-container {
+	padding-left: 2.5rem !important;
+	padding-right: 2.5rem !important;
+	padding-top: 1.5rem !important;
+	padding-bottom: 2rem !important;
+}
+
+#article-callout-set .text-container_call-out-set.tns-horizontal.tns-subpixel>.tns-item {
+    border-bottom: 6pt solid #5A357B;
+}
+}
+
+</style>
+    
+</div>
+
+    
+
+</div>
+
+    
+</div>
+
+    </div>
+
+    
+</div>
+
+        
+    </div>
+
+</div>
+
+
+            
+    
+    
+
+
+
+    
+
+    
+    
+<script src="/etc.clientlibs/core/wcm/components/commons/site/clientlibs/container.lc-0a6aff292f5cc42142779cde92054524-lc.min.js"></script>
+<script src="/etc.clientlibs/hershey/clientlibs/clientlib-base.lc-301b6cd83b04aaf0215a7d8ceabbdec8-lc.min.js"></script>
+
+
+
+
+
+	
+
+
+    
+<link rel="stylesheet" href="/etc.clientlibs/hershey/clientlibs/clientlib-font-awesome.lc-b0b4feb06e9ea4094a2049b604ddad07-lc.min.css" type="text/css">
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-plugin-query-suggestions"></script>
+<script src="https://cdn.jsdelivr.net/npm/@algolia/autocomplete-plugin-recent-searches"></script>
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch.umd.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js" crossorigin="anonymous"></script>
+
+<script>
+  var ALGOLIA_INSIGHTS_SRC = "https://cdn.jsdelivr.net/npm/search-insights@2.0.3";
+
+  !function(e,a,t,n,s,i,c){e.AlgoliaAnalyticsObject=s,e[s]=e[s]||function(){
+  (e[s].queue=e[s].queue||[]).push(arguments)},i=a.createElement(t),c=a.getElementsByTagName(t)[0],
+  i.async=1,i.src=n,c.parentNode.insertBefore(i,c)
+  }(window,document,"script",ALGOLIA_INSIGHTS_SRC,"aa");
+</script>
+
+
+
+    
+<script src="/etc.clientlibs/hershey/components/instant-search-box/clientlibs.lc-28ee39451fd6edc658830b7473a5c646-lc.min.js"></script>
+
+
+
+
+
+
+
+
+  
+<script async type="text/javascript">
+let hrefUrl = window.location.href;
+if (hrefUrl.includes("searchQuery=") && !hrefUrl.includes("searchQuery=undefined")) {
+	window.localStorage["pageLoadUrl"] = hrefUrl;
+	setTimeout(function() {
+		let pageUrl = hrefUrl.replaceAll("%25", "%");
+		pageUrl = decodeURIComponent(pageUrl);
+		window.history.pushState(null, null, pageUrl);
+	}, 1500);
+}
+if (hrefUrl.includes("searchQuery=undefined")) {
+	let modifiedUrl = localStorage.getItem("pageLoadUrl");
+	modifiedUrl = modifiedUrl.replaceAll("%25", "%");
+	modifiedUrl = decodeURIComponent(modifiedUrl);
+	window.location.replace(modifiedUrl);
+}
+</script>
+    
+
+    
+
+    
+    
+    
+
+            
+
+        
+		 
+        
+         
+
+		
+    <script type="module">window.RUM_BASE = '/';
+import { sampleRUM } from '/.rum/@adobe/helix-rum-js@^1/src/index.js';
+sampleRUM('lazy');
+sampleRUM('cwv');
+</script></body>
+</html>
