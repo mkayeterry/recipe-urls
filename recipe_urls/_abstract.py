@@ -1,37 +1,52 @@
-from typing import List, Optional
+from typing import List, Optional, Tuple, Dict, Any
 import re
 import requests
 from requests.exceptions import HTTPError, RequestException
 from bs4 import BeautifulSoup
 
+
 class AbstractScraper:
     RECIPE_PATTERN = None
     UNWANTED_PATTERNS = []
+    CUSTOM_HREF = ("a", {"href": True})  # Default to 'a' tags with href attributes
 
     def __init__(self, base_url: Optional[str] = None, html: Optional[str] = None):
         self.base_url = base_url
         if not html:
             try:
-                response = requests.get(url=self.base_url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"})
+                response = requests.get(
+                    url=self.base_url,
+                    headers={
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0"
+                    },
+                )
                 response.raise_for_status()
                 self.html = response.content
                 self.soup = BeautifulSoup(self.html, "html.parser")
             except HTTPError as e:
                 if e.response.status_code == 403:
-                    raise Exception(f"Access to {self.base_url} is forbidden (403).") from e
+                    raise Exception(
+                        f"Access to {self.base_url} is forbidden (403)."
+                    ) from e
                 else:
-                    raise Exception(f"HTTP error occurred: {e.response.status_code}.") from e
+                    raise Exception(
+                        f"HTTP error occurred: {e.response.status_code}."
+                    ) from e
             except RequestException as e:
                 raise Exception(f"Request failed: {e}.") from e
             except Exception as e:
-                raise Exception(f"Unexpected error accessing {self.base_url}: {e}.") from e
+                raise Exception(
+                    f"Unexpected error accessing {self.base_url}: {e}."
+                ) from e
         else:
             self.html = html
             self.soup = BeautifulSoup(self.html, "html.parser")
 
     def scrape(self) -> List[str]:
         try:
-            href_links = [a["href"] for a in self.soup.find_all("a", href=True)]
+            tag, attrs = self.CUSTOM_HREF
+            attrs["href"] = True  # Ensure that 'href' is always a part of the search
+            href_links = [a["href"] for a in self.soup.find_all(tag, attrs)]
         except (TypeError, AttributeError) as e:
             raise ValueError(f"Failed to extract href links: {e}") from e
         return self.filter_links(href_links)

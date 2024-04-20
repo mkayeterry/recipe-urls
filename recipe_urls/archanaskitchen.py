@@ -2,16 +2,19 @@ from typing import List
 import re
 from recipe_urls._abstract import AbstractScraper
 
+
 class ArchanasKitchenScraper(AbstractScraper):
-    RECIPE_PATTERN = re.compile(r'/[\w-]+-[\w-]')
-    UNWANTED_PATTERNS = [re.compile(pattern) for pattern in [
+    RECIPE_PATTERN = re.compile(r"/[\w-]+-[\w-]")
+    UNWANTED_PATTERNS = [
+        re.compile(pattern)
+        for pattern in [
             "about",
             "archana-s-kitchen",
             "articles",
             "brands",
             "breakfast",
             "careers",
-            "collections", 
+            "collections",
             "contact",
             "dinner",
             "ideas",
@@ -25,7 +28,8 @@ class ArchanasKitchenScraper(AbstractScraper):
             "terms",
             "values",
             "videos",
-        ]]
+        ]
+    ]
 
     @classmethod
     def host(cls):

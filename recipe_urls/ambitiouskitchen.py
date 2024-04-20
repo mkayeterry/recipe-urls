@@ -2,9 +2,12 @@ from typing import List
 import re
 from recipe_urls._abstract import AbstractScraper
 
+
 class AmbitiousKitchenScraper(AbstractScraper):
-    RECIPE_PATTERN = re.compile(r'https://www\.ambitiouskitchen\.com/[\w-]+-[\w-]+/')
-    UNWANTED_PATTERNS = [re.compile(pattern) for pattern in [
+    RECIPE_PATTERN = re.compile(r"https://www\.ambitiouskitchen\.com/[\w-]+-[\w-]+/")
+    UNWANTED_PATTERNS = [
+        re.compile(pattern)
+        for pattern in [
             "ambitious-home",
             "ambitious-mama",
             "appetizer",
@@ -24,15 +27,16 @@ class AmbitiousKitchenScraper(AbstractScraper):
             "lunch",
             "lunches",
             "meals",
-            "natural", 
+            "natural",
             "party",
             "privacy-policy",
             "recipe",
             "recipes",
             "snack",
-            "snacks"
+            "snacks",
         ]
     ]
+
     @classmethod
     def host(cls):
         return "www.ambitiouskitchen.com"

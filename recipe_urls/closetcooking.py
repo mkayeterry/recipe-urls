@@ -2,9 +2,18 @@ from typing import List
 import re
 from recipe_urls._abstract import AbstractScraper
 
+
 class ClosetCookingScraper(AbstractScraper):
-    RECIPE_PATTERN = re.compile(r'https://www\.closetcooking\.com/[\w-]+-[\w-]+/')
-    UNWANTED_PATTERNS = [re.compile(pattern) for pattern in ["best-of", "ecookbook", "index", "#",]]
+    RECIPE_PATTERN = re.compile(r"https://www\.closetcooking\.com/[\w-]+-[\w-]+/")
+    UNWANTED_PATTERNS = [
+        re.compile(pattern)
+        for pattern in [
+            "best-of",
+            "ecookbook",
+            "index",
+            "#",
+        ]
+    ]
 
     @classmethod
     def host(cls):
