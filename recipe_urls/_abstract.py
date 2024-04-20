@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 class AbstractScraper:
     RECIPE_PATTERN = None
     UNWANTED_PATTERNS = []
-    CUSTOM_HREF = ("a", {"href": True})  # Default to 'a' tags with href attributes
+    CUSTOM_HREF = ("a", {"href": True})
 
     def __init__(self, base_url: Optional[str] = None, html: Optional[str] = None):
         self.base_url = base_url
@@ -44,7 +44,7 @@ class AbstractScraper:
     def scrape(self) -> List[str]:
         try:
             tag, attrs = self.CUSTOM_HREF
-            attrs["href"] = True  # Ensure that 'href' is always a part of the search
+            attrs["href"] = True
             href_links = [a["href"] for a in self.soup.find_all(tag, attrs)]
         except (TypeError, AttributeError) as e:
             raise ValueError(f"Failed to extract href links: {e}") from e
