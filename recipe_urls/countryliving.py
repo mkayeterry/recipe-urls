@@ -1,4 +1,3 @@
-from typing import List
 import re
 from recipe_urls._abstract import AbstractScraper
 

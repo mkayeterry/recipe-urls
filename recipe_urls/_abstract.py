@@ -1,5 +1,4 @@
-from typing import List, Optional, Tuple, Dict, Any
-import re
+from typing import List, Optional
 import requests
 from requests.exceptions import HTTPError, RequestException
 from bs4 import BeautifulSoup
