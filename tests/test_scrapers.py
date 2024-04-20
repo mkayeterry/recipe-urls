@@ -4,24 +4,25 @@ import os
 from bs4 import BeautifulSoup
 from importlib import import_module
 
+CONFIG = {
+    "scraper_dir": "recipe_urls",
+    "test_dir": "tests/test_data"
+}
+
 def get_scraper_modules():
-    scraper_dir = 'recipe_urls'
     modules = []
-    for module_file in os.listdir(scraper_dir):
+    for module_file in os.listdir(CONFIG["scraper_dir"]):
         if module_file.endswith('.py') and not module_file.startswith('_'):
             module_name = module_file[:-3]
-            modules.append((module_name, import_module(f'recipe_urls.{module_name}')))
+            modules.append((module_name, import_module(f'{CONFIG["scraper_dir"]}.{module_name}')))
     return modules
 
 def get_test_files():
-    test_dir = 'tests/test_data'
-    test_files = []
-    for dirpath, dirnames, filenames in os.walk(test_dir):
+    for dirpath, dirnames, filenames in os.walk(CONFIG["test_dir"]):
         html_file = next((f for f in filenames if f.endswith('.testhtml')), None)
         csv_file = next((f for f in filenames if f.endswith('.csv')), None)
         if html_file and csv_file:
-            test_files.append((os.path.join(dirpath, html_file), os.path.join(dirpath, csv_file)))
-    return test_files
+            yield (os.path.join(dirpath, html_file), os.path.join(dirpath, csv_file))
 
 def load_html(file_path):
     try:
@@ -29,7 +30,7 @@ def load_html(file_path):
             return BeautifulSoup(file.read(), 'html.parser')
     except Exception as e:
         print(f"Error loading HTML file {file_path}: {e}")
-        return None
+        raise
 
 def format_class_name(module_name):
     parts = module_name.split('_')
