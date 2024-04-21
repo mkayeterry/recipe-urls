@@ -1,0 +1,2208 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head ><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>(()=>{class RocketLazyLoadScripts{constructor(){this.v="1.2.5.1",this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this.t.bind(this),this.touchStartHandler=this.i.bind(this),this.touchMoveHandler=this.o.bind(this),this.touchEndHandler=this.h.bind(this),this.clickHandler=this.u.bind(this),this.interceptedClicks=[],this.interceptedClickListeners=[],this.l(this),window.addEventListener("pageshow",(t=>{this.persisted=t.persisted,this.everythingLoaded&&this.m()})),document.addEventListener("DOMContentLoaded",(()=>{this.p()})),this.delayedScripts={normal:[],async:[],defer:[]},this.trash=[],this.allJQueries=[]}k(t){document.hidden?t.t():(this.triggerEvents.forEach((e=>window.addEventListener(e,t.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",t.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",t.touchStartHandler),document.addEventListener("visibilitychange",t.userEventHandler))}_(){this.triggerEvents.forEach((t=>window.removeEventListener(t,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}i(t){"HTML"!==t.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),t.target.addEventListener("click",this.clickHandler),this.L(t.target,!0),this.M(t.target,"onclick","rocket-onclick"),this.C())}o(t){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.M(t.target,"rocket-onclick","onclick"),this.O()}h(){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}u(t){t.target.removeEventListener("click",this.clickHandler),this.L(t.target,!1),this.M(t.target,"rocket-onclick","onclick"),this.interceptedClicks.push(t),t.preventDefault(),t.stopPropagation(),t.stopImmediatePropagation(),this.O()}D(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((t=>{t.target.dispatchEvent(new MouseEvent("click",{view:t.view,bubbles:!0,cancelable:!0}))}))}l(t){EventTarget.prototype.addEventListenerBase=EventTarget.prototype.addEventListener,EventTarget.prototype.addEventListener=function(e,i,o){"click"!==e||t.windowLoaded||i===t.clickHandler||t.interceptedClickListeners.push({target:this,func:i,options:o}),(this||window).addEventListenerBase(e,i,o)}}L(t,e){this.interceptedClickListeners.forEach((i=>{i.target===t&&(e?t.removeEventListener("click",i.func,i.options):t.addEventListener("click",i.func,i.options))})),t.parentNode!==document.documentElement&&this.L(t.parentNode,e)}S(){return new Promise((t=>{this.T?this.O=t:t()}))}C(){this.T=!0}O(){this.T=!1}M(t,e,i){t.hasAttribute&&t.hasAttribute(e)&&(event.target.setAttribute(i,event.target.getAttribute(e)),event.target.removeAttribute(e))}t(){this._(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this.R.bind(this)):this.R()}p(){let t=[];document.querySelectorAll("script[type=rocketlazyloadscript][data-rocket-src]").forEach((e=>{let i=e.getAttribute("data-rocket-src");if(i&&0!==i.indexOf("data:")){0===i.indexOf("//")&&(i=location.protocol+i);try{const o=new URL(i).origin;o!==location.origin&&t.push({src:o,crossOrigin:e.crossOrigin||"module"===e.getAttribute("data-rocket-type")})}catch(t){}}})),t=[...new Map(t.map((t=>[JSON.stringify(t),t]))).values()],this.j(t,"preconnect")}async R(){this.lastBreath=Date.now(),this.P(this),this.F(this),this.q(),this.A(),this.I(),await this.U(this.delayedScripts.normal),await this.U(this.delayedScripts.defer),await this.U(this.delayedScripts.async);try{await this.W(),await this.H(this),await this.J()}catch(t){console.error(t)}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this.everythingLoaded=!0,this.S().then((()=>{this.D()})),this.N()}A(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{t.hasAttribute("data-rocket-src")?t.hasAttribute("async")&&!1!==t.async?this.delayedScripts.async.push(t):t.hasAttribute("defer")&&!1!==t.defer||"module"===t.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(t):this.delayedScripts.normal.push(t):this.delayedScripts.normal.push(t)}))}async B(t){if(await this.G(),!0!==t.noModule||!("noModule"in HTMLScriptElement.prototype))return new Promise((e=>{let i;function o(){(i||t).setAttribute("data-rocket-status","executed"),e()}try{if(navigator.userAgent.indexOf("Firefox/")>0||""===navigator.vendor)i=document.createElement("script"),[...t.attributes].forEach((t=>{let e=t.nodeName;"type"!==e&&("data-rocket-type"===e&&(e="type"),"data-rocket-src"===e&&(e="src"),i.setAttribute(e,t.nodeValue))})),t.text&&(i.text=t.text),i.hasAttribute("src")?(i.addEventListener("load",o),i.addEventListener("error",(function(){i.setAttribute("data-rocket-status","failed"),e()})),setTimeout((()=>{i.isConnected||e()}),1)):(i.text=t.text,o()),t.parentNode.replaceChild(i,t);else{const i=t.getAttribute("data-rocket-type"),n=t.getAttribute("data-rocket-src");i?(t.type=i,t.removeAttribute("data-rocket-type")):t.removeAttribute("type"),t.addEventListener("load",o),t.addEventListener("error",(function(){t.setAttribute("data-rocket-status","failed"),e()})),n?(t.removeAttribute("data-rocket-src"),t.src=n):t.src="data:text/javascript;base64,"+window.btoa(unescape(encodeURIComponent(t.text)))}}catch(i){t.setAttribute("data-rocket-status","failed"),e()}}));t.setAttribute("data-rocket-status","skipped")}async U(t){const e=t.shift();return e&&e.isConnected?(await this.B(e),this.U(t)):Promise.resolve()}I(){this.j([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}j(t,e){var i=document.createDocumentFragment();t.forEach((t=>{const o=t.getAttribute&&t.getAttribute("data-rocket-src")||t.src;if(o){const n=document.createElement("link");n.href=o,n.rel=e,"preconnect"!==e&&(n.as="script"),t.getAttribute&&"module"===t.getAttribute("data-rocket-type")&&(n.crossOrigin=!0),t.crossOrigin&&(n.crossOrigin=t.crossOrigin),t.integrity&&(n.integrity=t.integrity),i.appendChild(n),this.trash.push(n)}})),document.head.appendChild(i)}P(t){let e={};function i(i,o){return e[o].eventsToRewrite.indexOf(i)>=0&&!t.everythingLoaded?"rocket-"+i:i}function o(t,o){!function(t){e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=i(arguments[0],t),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(o)}function n(e,i){let o=e[i];e[i]=null,Object.defineProperty(e,i,{get:()=>o||function(){},set(n){t.everythingLoaded?o=n:e["rocket"+i]=o=n}})}o(document,"DOMContentLoaded"),o(window,"DOMContentLoaded"),o(window,"load"),o(window,"pageshow"),o(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}F(t){let e;function i(e){return t.everythingLoaded?e:e.split(" ").map((t=>"load"===t||0===t.indexOf("load.")?"rocket-jquery-load":t)).join(" ")}function o(o){if(o&&o.fn&&!t.allJQueries.includes(o)){o.fn.ready=o.fn.init.prototype.ready=function(e){return t.domReadyFired?e.bind(document)(o):document.addEventListener("rocket-DOMContentLoaded",(()=>e.bind(document)(o))),o([])};const e=o.fn.on;o.fn.on=o.fn.init.prototype.on=function(){return this[0]===window&&("string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=i(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{const e=arguments[0][t];delete arguments[0][t],arguments[0][i(t)]=e}))),e.apply(this,arguments),this},t.allJQueries.push(o)}e=o}o(window.jQuery),Object.defineProperty(window,"jQuery",{get:()=>e,set(t){o(t)}})}async H(t){const e=document.querySelector("script[data-webpack]");e&&(await async function(){return new Promise((t=>{e.addEventListener("load",t),e.addEventListener("error",t)}))}(),await t.K(),await t.H(t))}async W(){this.domReadyFired=!0,await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this.G(),window.dispatchEvent(new Event("rocket-DOMContentLoaded"))}async J(){await this.G(),document.dispatchEvent(new Event("rocket-readystatechange")),await this.G(),document.rocketonreadystatechange&&document.rocketonreadystatechange(),await this.G(),window.dispatchEvent(new Event("rocket-load")),await this.G(),window.rocketonload&&window.rocketonload(),await this.G(),this.allJQueries.forEach((t=>t(window).trigger("rocket-jquery-load"))),await this.G();const t=new Event("rocket-pageshow");t.persisted=this.persisted,window.dispatchEvent(t),await this.G(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted}),this.windowLoaded=!0}m(){document.onreadystatechange&&document.onreadystatechange(),window.onload&&window.onload(),window.onpageshow&&window.onpageshow({persisted:this.persisted})}q(){const t=new Map;document.write=document.writeln=function(e){const i=document.currentScript;i||console.error("WPRocket unable to document.write this: "+e);const o=document.createRange(),n=i.parentElement;let s=t.get(i);void 0===s&&(s=i.nextSibling,t.set(i,s));const c=document.createDocumentFragment();o.setStart(c,0),c.appendChild(o.createContextualFragment(e)),n.insertBefore(c,s)}}async G(){Date.now()-this.lastBreath>45&&(await this.K(),this.lastBreath=Date.now())}async K(){return document.hidden?new Promise((t=>setTimeout(t))):new Promise((t=>requestAnimationFrame(t)))}N(){this.trash.forEach((t=>t.remove()))}static run(){const t=new RocketLazyLoadScripts;t.k(t)}}RocketLazyLoadScripts.run()})();</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<!-- Hubbub v.2.20.0 https://morehubbub.com/ -->
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Recipes To Rely On - From My Kitchen To Yours | Erren&#039;s Kitchen" />
+<meta property="og:description" content="Wherever you are in your cooking journey, our tested &amp; perfected recipes will empower you as a home cook making great food every time." />
+<meta property="og:url" content="https://www.errenskitchen.com/" />
+<meta property="og:site_name" content="Erren&#039;s Kitchen" />
+<meta property="og:updated_time" content="2024-04-02T08:13:39+00:00" />
+<meta property="article:published_time" content="2020-03-16T11:14:02+00:00" />
+<meta property="article:modified_time" content="2024-04-02T08:13:39+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Recipes To Rely On - From My Kitchen To Yours | Erren&#039;s Kitchen" />
+<meta name="twitter:description" content="Wherever you are in your cooking journey, our tested &amp; perfected recipes will empower you as a home cook making great food every time." />
+<meta property="og:image" content="https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-8.jpg" />
+<meta name="twitter:image" content="https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-8.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="912" />
+<meta property="article:author" content="https://www.facebook.com/errenskitchen/" />
+<meta name="twitter:creator" content="@ErrensKitchen" />
+<!-- Hubbub v.2.20.0 https://morehubbub.com/ -->
+
+	<!-- This site is optimized with the Yoast SEO Premium plugin v22.4 (Yoast SEO v22.4) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Recipes To Rely On - From My Kitchen To Yours | Erren&#039;s Kitchen</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Quicksand%3A400%2C600%2C700%7CPlayfair%20Display%3A400i&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand%3A400%2C600%2C700%7CPlayfair%20Display%3A400i&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand%3A400%2C600%2C700%7CPlayfair%20Display%3A400i&#038;display=swap" /></noscript>
+<link rel="preload" as="font" href="https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/lib/components/theme/icon-font/assets/fonts/icons.ttf?evgtkp" crossorigin>
+	<meta name="description" content="Wherever you are in your cooking journey, our tested &amp; perfected recipes will empower you as a home cook making great food every time." />
+	<link rel="canonical" href="https://www.errenskitchen.com/" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.errenskitchen.com/","url":"https://www.errenskitchen.com/","name":"Recipes To Rely On - From My Kitchen To Yours | Erren's Kitchen","isPartOf":{"@id":"https://www.errenskitchen.com/#website"},"about":{"@id":"https://www.errenskitchen.com/#organization"},"primaryImageOfPage":{"@id":"https://www.errenskitchen.com/#primaryimage"},"image":{"@id":"https://www.errenskitchen.com/#primaryimage"},"thumbnailUrl":"https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-8.jpg","datePublished":"2020-03-16T11:14:02+00:00","dateModified":"2024-04-02T12:13:39+00:00","description":"Wherever you are in your cooking journey, our tested & perfected recipes will empower you as a home cook making great food every time.","breadcrumb":{"@id":"https://www.errenskitchen.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.errenskitchen.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.errenskitchen.com/#primaryimage","url":"https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-8.jpg","contentUrl":"https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-8.jpg","width":1200,"height":912,"caption":"Erren hart of Erren's Kitchen leaning on a kitchen island."},{"@type":"BreadcrumbList","@id":"https://www.errenskitchen.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.errenskitchen.com/#website","url":"https://www.errenskitchen.com/","name":"Erren's Kitchen","description":"Food you'll crave - From scratch","publisher":{"@id":"https://www.errenskitchen.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.errenskitchen.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.errenskitchen.com/#organization","name":"Erren's Kitchen","url":"https://www.errenskitchen.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.errenskitchen.com/#/schema/logo/image/","url":"https://www.errenskitchen.com/wp-content/uploads/2020/08/EK_quare-logo.jpg","contentUrl":"https://www.errenskitchen.com/wp-content/uploads/2020/08/EK_quare-logo.jpg","width":600,"height":600,"caption":"Erren's Kitchen"},"image":{"@id":"https://www.errenskitchen.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/errenskitchen/","https://twitter.com/ErrensKitchen","https://www.instagram.com/errenskitchen/","https://www.pinterest.com/errenskitchen/"]}]}</script>
+	<meta name="google-site-verification" content="Bzg1f70jA9ouwYaHk_BNKD8d2YV5N9TiadGxeR9eXw4" />
+	<meta name="p:domain_verify" content="31a81b541219f2235069642fa76bb225" />
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<script type="rocketlazyloadscript" data-rocket-type='application/javascript'  id='pys-version-script'>console.log('PixelYourSite Free version 9.5.5');</script>
+<link rel='dns-prefetch' href='//scripts.mediavine.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.gstatic.com' />
+<link rel='dns-prefetch' href='//googleadapis.l.google.com' />
+<link rel='dns-prefetch' href='//gstaticadssl.l.google.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Erren&#039;s Kitchen &raquo; Feed" href="https://www.errenskitchen.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Erren&#039;s Kitchen &raquo; Comments Feed" href="https://www.errenskitchen.com/comments/feed/" />
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='pinterest-version-script'>console.log('PixelYourSite Pinterest version 5.3.4');</script>
+<style>
+html {
+	font-family: 'Quicksand', 'Trebuchet MS', sans-serif !important;
+}
+@media only screen and (max-width: 425px) {
+.recipe-intro-blocks .wprm-recipe-block-container {
+	display: block;
+    float: left;
+    clear: both;
+}
+}
+ </style><link rel="alternate" type="application/rss+xml" title="Erren&#039;s Kitchen &raquo; Stories Feed" href="https://www.errenskitchen.com/web-stories/feed/"><link data-minify="1" rel='stylesheet' id='atomic-blocks-fontawesome-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/atomic-blocks/dist/assets/fontawesome/css/all.min.css?ver=1712871424' type='text/css' media='all' />
+<link rel='stylesheet' id='errens-kitchen-v2-css' href='https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/style.css?ver=1621267677' type='text/css' media='all' />
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.errenskitchen.com/wp-includes/css/dist/block-library/style.min.css?ver=6.4.4' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='atomic-blocks-style-css-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/atomic-blocks/dist/blocks.style.build.css?ver=1712871424' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #fff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--charcoal: #3d3d3d;--wp--preset--color--blue: #156aa7;--wp--preset--color--pink: #cb346d;--wp--preset--color--tan: #f7f2ed;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 17px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--tiny: 15px;--wp--preset--font-size--normal: 20px;--wp--preset--font-size--huge: 28px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='YSFA-css' href='https://www.errenskitchen.com/wp-content/plugins/faq-schema-block-to-accordion/assets/css/style.min.css?ver=1.0.5' type='text/css' media='all' />
+<link data-minify="1" rel="preload" class="mv-grow-style" href="https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1712871424" as="style"><noscript><link data-minify="1" rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1712871424' type='text/css' media='all' />
+</noscript>
+<link data-minify="1" rel='stylesheet' id='once-coupled-errens-kitchen-defaults-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/themes/once-coupled-errens-kitchen-2/assets/css/defaults.css?ver=1712871424' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='once-coupled-errens-kitchen-base-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/themes/once-coupled-errens-kitchen-2/assets/css/base.css?ver=1712871424' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='once-coupled-errens-kitchen-common-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/themes/once-coupled-errens-kitchen-2/assets/css/common.css?ver=1712871424' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='once-coupled-errens-kitchen-uniques-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/themes/once-coupled-errens-kitchen-2/assets/css/unique.css?ver=1712871424' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='once-coupled-errens-kitchen-social-font-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/themes/once-coupled-errens-kitchen-2/lib/components/acf/social/assets/css/social-font.css?ver=1712871424' type='text/css' media='all' />
+<link rel='stylesheet' id='once-coupled-errens-kitchen-lity-css' href='https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/lib/components/lity/assets/lity.min.css?ver=1621267677' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='once-coupled-errens-kitchen-icon-font-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/themes/once-coupled-errens-kitchen-2/lib/components/theme/icon-font/assets/css/non-admin-fonts.css?ver=1712871424' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='once-coupled-errens-kitchen-icon-font-names-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/themes/once-coupled-errens-kitchen-2/lib/components/theme/icon-font/assets/css/fonts.css?ver=1712871424' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='tablepress-default-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/tablepress-combined.min.css?ver=1712871424' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-responsive-tables-css' href='https://www.errenskitchen.com/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive.min.css?ver=1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='mimi-base-css' href='https://www.errenskitchen.com/wp-content/plugins/mad-mimi-sign-up-forms/css/mimi.min.css?ver=1.5.1' type='text/css' media='all' />
+<style id='kadence-blocks-global-variables-inline-css' type='text/css'>
+:root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}:root {--global-palette1: #3182CE;--global-palette2: #2B6CB0;--global-palette3: #1A202C;--global-palette4: #2D3748;--global-palette5: #4A5568;--global-palette6: #718096;--global-palette7: #EDF2F7;--global-palette8: #F7FAFC;--global-palette9: #ffffff;}
+</style>
+<link data-minify="1" rel='stylesheet' id='inc-frontend-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/imark-interactive-toolkit/frontend/css/inc-frontend-style.css?ver=1712871424' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='imp-frontend-css' href='https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/imark-interactive-toolkit/frontend/css/imp-frontend-style.css?ver=1712871424' type='text/css' media='all' />
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer></script>
+<script type="text/javascript" async="async" data-noptimize="1" data-cfasync="false" src="https://scripts.mediavine.com/tags/errens-kitchen.js?ver=6.4.4" id="mv-script-wrapper-js"></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3" id="js-cookie-pys-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.4.4" id="jquery-bind-first-js" defer></script>
+<script type="text/javascript" id="pys-js-extra">
+/* <![CDATA[ */
+var pysOptions = {"staticEvents":[],"dynamicEvents":[],"triggerEvents":[],"triggerEventTypes":[],"pinterest":{"pixelIds":["2614248692770"],"advancedMatching":[],"contentParams":{"post_type":"page","post_id":22778,"name":"Home"},"wooVariableAsSimple":false,"serverApiEnabled":true},"debug":"","siteUrl":"https:\/\/www.errenskitchen.com","ajaxUrl":"https:\/\/www.errenskitchen.com\/wp-admin\/admin-ajax.php","ajax_event":"dc4586e429","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","ajaxForServerEvent":"1","send_external_id":"1","external_id_expire":"180","google_consent_mode":"1","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"externalID_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_tiktok_consent_category":"marketing","cookiebot_google_ads_consent_category":null,"cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false,"analytics_storage":{"enabled":true,"value":"granted","filter":false},"ad_storage":{"enabled":true,"value":"granted","filter":false},"ad_user_data":{"enabled":true,"value":"granted","filter":false},"ad_personalization":{"enabled":true,"value":"granted","filter":false}},"cookie":{"disabled_all_cookie":false,"disabled_start_session_cookie":false,"disabled_advanced_form_data_cookie":false,"disabled_landing_page_cookie":false,"disabled_first_visit_cookie":false,"disabled_trafficsource_cookie":false,"disabled_utmTerms_cookie":false,"disabled_utmId_cookie":false},"tracking_analytics":{"TrafficSource":"direct","TrafficLanding":"undefined","TrafficUtms":[],"TrafficUtmsId":[]},"woo":{"enabled":false},"edd":{"enabled":false}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=1712871424" id="pys-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/pixelyoursite-pinterest/dist/scripts/public.js?ver=1712871424" id="pys-pinterest-js" defer></script>
+<link rel="https://api.w.org/" href="https://www.errenskitchen.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.errenskitchen.com/wp-json/wp/v2/pages/22778" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.errenskitchen.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.4.4" />
+<link rel='shortlink' href='https://www.errenskitchen.com/' />
+<link rel="alternate" type="application/json+oembed" href="https://www.errenskitchen.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.errenskitchen.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.errenskitchen.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.errenskitchen.com%2F&#038;format=xml" />
+
+<!-- [slickstream] Page Generated at: 4/19/2024, 9:03:37 PM UTC -->
+<!-- [slickstream] Using cached page boot data: slick_page_boot_4cf8419b7dc9183aec64eab26a9fd386 -->
+<!-- [slickstream] Page Boot Data: -->
+<script class='slickstream-script'>
+(function() {
+    "slickstream";
+    const win = window;
+    win.$slickBoot = win.$slickBoot || {};
+    win.$slickBoot.d = {"placeholders":[],"bootTriggerTimeout":250,"bestBy":1713560857084,"epoch":1709841392612,"siteCode":"FLNXBQ0U","services":{"engagementCacheableApiDomain":"https:\/\/c04f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c04b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c04f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c04b-wss.app.slickstream.com\/socket?site=FLNXBQ0U"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["errenskitchen.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"v2":{"phone":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1713560857084,"epoch":1709841392612,"siteCode":"FLNXBQ0U","services":{"engagementCacheableApiDomain":"https:\/\/c04f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c04b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c04f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c04b-wss.app.slickstream.com\/socket?site=FLNXBQ0U"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["errenskitchen.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}]},"tablet":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1713560857084,"epoch":1709841392612,"siteCode":"FLNXBQ0U","services":{"engagementCacheableApiDomain":"https:\/\/c04f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c04b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c04f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c04b-wss.app.slickstream.com\/socket?site=FLNXBQ0U"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["errenskitchen.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}]},"desktop":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1713560857084,"epoch":1709841392612,"siteCode":"FLNXBQ0U","services":{"engagementCacheableApiDomain":"https:\/\/c04f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c04b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c04f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c04b-wss.app.slickstream.com\/socket?site=FLNXBQ0U"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["errenskitchen.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}]},"unknown":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1713560857084,"epoch":1709841392612,"siteCode":"FLNXBQ0U","services":{"engagementCacheableApiDomain":"https:\/\/c04f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c04b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c04f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c04b-wss.app.slickstream.com\/socket?site=FLNXBQ0U"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["errenskitchen.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}]}}};
+    win.$slickBoot.s = 'plugin';
+    win.$slickBoot._bd = performance.now();
+})();
+</script>
+<!-- [slickstream] END Page Boot Data -->
+
+<meta property="slick:wpversion" content="1.4.3" />
+<!-- [slickstream] Bootloader: -->
+<script class='slickstream-script' >
+'use strict';
+(async(e,t)=>{if(location.search.indexOf("no-slick")>=0){return}let s;const a=()=>performance.now();let c=window.$slickBoot=window.$slickBoot||{};c.rt=e;c._es=a();c.ev="2.0.1";c.l=async(e,t)=>{try{let c=0;if(!s&&"caches"in self){s=await caches.open("slickstream-code")}if(s){let o=await s.match(e);if(!o){c=a();await s.add(e);o=await s.match(e);if(o&&!o.ok){o=undefined;s.delete(e)}}if(o){const e=o.headers.get("x-slickstream-consent");return{t:c,d:t?await o.blob():await o.json(),c:e||"na"}}}}catch(e){console.log(e)}return{}};const o=e=>new Request(e,{cache:"no-store"});if(!c.d||c.d.bestBy<Date.now()){const s=o(`${e}/d/page-boot-data?site=${t}&url=${encodeURIComponent(location.href.split("#")[0])}`);let{t:i,d:n,c:l}=await c.l(s);if(n){if(n.bestBy<Date.now()){n=undefined}else if(i){c._bd=i;c.c=l}}if(!n){c._bd=a();const e=await fetch(s);const t=e.headers.get("x-slickstream-consent");c.c=t||"na";n=await e.json()}if(n){c.d=n;c.s="embed"}}if(c.d){let e=c.d.bootUrl;const{t:t,d:s}=await c.l(o(e),true);if(s){c.bo=e=URL.createObjectURL(s);if(t){c._bf=t}}else{c._bf=a()}const i=document.createElement("script");i.className="slickstream-script";i.src=e;document.head.appendChild(i)}else{console.log("[slickstream] Boot failed")}})
+("https://app.slickstream.com","FLNXBQ0U");
+</script>
+<!-- [slickstream] END Bootloader -->
+<!-- [slickstream] Page Metadata: -->
+<meta property="slick:wppostid" content="22778" />
+<meta property="slick:featured_image" content="https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-8.jpg" />
+<script type="application/x-slickstream+json">{"@context":"https://slickstream.com","@graph":[{"@type":"Plugin","version":"1.4.3"},{"@type":"Site","name":"Erren's Kitchen","url":"https://www.errenskitchen.com","description":"Food you'll crave - From scratch","atomUrl":"https://www.errenskitchen.com/feed/atom/","rtl":false},{"@type":"WebPage","@id":22778,"isFront":true,"isHome":false,"isCategory":false,"isTag":false,"isSingular":true,"date":"2020-03-16T11:14:02-04:00","modified":"2024-04-02T08:13:39-04:00","title":"Home","pageType":"home","postType":"page","featured_image":"https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-8.jpg","author":"Erren Hart","taxonomies":[]}]}</script>
+<!-- [slickstream] END Page Metadata -->
+<script class='slickstream-script'>
+(function() {
+    const slickstreamRocketPluginScripts = document.querySelectorAll('script.slickstream-script[type=rocketlazyloadscript]');
+    const slickstreamRocketExternalScripts = document.querySelectorAll('script[type=rocketlazyloadscript][src*="app.slickstream.com"]');
+    if (slickstreamRocketPluginScripts.length > 0 || slickstreamRocketExternalScripts.length > 0) {
+        console.warn('[slickstream] WARNING: WP-Rocket is deferring one or more Slickstream scripts. This may cause undesirable behavior, such as increased CLS scores.');
+    }
+})();
+</script><meta name="hubbub-info" description="Hubbub Pro 2.20.0"><style type="text/css"> .tippy-box[data-theme~="wprm"] { background-color: #333333; color: #FFFFFF; } .tippy-box[data-theme~="wprm"][data-placement^="top"] > .tippy-arrow::before { border-top-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="bottom"] > .tippy-arrow::before { border-bottom-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="left"] > .tippy-arrow::before { border-left-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="right"] > .tippy-arrow::before { border-right-color: #333333; } .tippy-box[data-theme~="wprm"] a { color: #FFFFFF; } .wprm-comment-rating svg { width: 16px !important; height: 16px !important; } img.wprm-comment-rating { width: 80px !important; height: 16px !important; } body { --comment-rating-star-color: #c53165; } body { --wprm-popup-font-size: 16px; } body { --wprm-popup-background: #ffffff; } body { --wprm-popup-title: #000000; } body { --wprm-popup-content: #444444; } body { --wprm-popup-button-background: #444444; } body { --wprm-popup-button-text: #ffffff; }</style><style type="text/css">.wprm-glossary-term {color: #5A822B;text-decoration: underline;cursor: help;}</style><!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FPZRRZ77ZZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FPZRRZ77ZZ');
+</script>
+
+
+<meta name="ahrefs-site-verification" content="01482eeaf5b9f52f4f3c43cbd434a48b85a87b755d7ee591c40b7d6288ff961f">
+
+<!-- 63BBEDEC-B435-4B88-B65B-7C1EFF2D18FA --><link rel="icon" href="https://www.errenskitchen.com/wp-content/uploads/2020/03/cropped-favicon-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.errenskitchen.com/wp-content/uploads/2020/03/cropped-favicon-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.errenskitchen.com/wp-content/uploads/2020/03/cropped-favicon-1-180x180.png" />
+<meta name="msapplication-TileImage" content="https://www.errenskitchen.com/wp-content/uploads/2020/03/cropped-favicon-1-270x270.png" />
+		<style type="text/css" id="wp-custom-css">
+			.page-id-51815 .entry-content * {
+	font-weight: 400;
+}
+.page-id-51815 .entry-content div {
+	font-size: 16px;
+	line-height: 1.4;
+}
+.wprm-recipe .wprm-entry-content .wprm-entry-buttons .dpsp-networks-btns-wrapper .dpsp-network-btn.dpsp-pinterest {
+	max-height: 100% !important;
+}
+/* Set body font to 20px for all screen sizes - NerdPress */
+@media screen and (min-width: 320px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+/* Icon opacity fix for Android Firefox */
+.wp-block-columns.pairings-box.blue::after, .wp-block-columns.pairings-box.pink::after {
+	opacity: 0.2;
+}
+
+
+/* Home page background border fixes for Safari - NerdPress */
+@media screen and (min-width: 1024px) {
+	.home .site-inner .subscribe::before, .home .site-inner .subscribe::after,
+	.home .video-embed::before, .home .video-embed::after {
+		background-size: 502px;
+	}
+}
+
+/* Fix footer on Safari - NerdPress */
+@media screen and (min-width: 1024px) {
+	.footer-columns .footer-subscribe {
+		flex-basis: calc(100% - 589px);
+	}
+}
+
+/*Nerdpress Block Fixes*/
+.why-pink-h2 {
+	background-color:#234D76 !important;
+	color:#ffffff!important;
+}
+
+.wp-block-columns.pairings-box > .wp-block-column:first-of-type h3 {
+	font-size: 22px !important;
+	position: relative !important;
+	top: -48px !important;
+	left: 50% !important;
+	transform: translateX(-50%) !important;
+	/*This offsets the height by the amount moved up, 
+	minus the 4px that were originally set as the bottom margin.*/
+	margin-bottom: -44px !important;
+	width: 96% !important;
+	padding: 4px 16px !important;
+	text-align: center !important;
+	color: #fff !important;;
+	border-radius: 4px !important;
+	background: #234d76 !important;
+}
+
+@media screen and (min-width: 375px) {
+	.wp-block-columns.pairings-box > .wp-block-column:first-of-type h3 {
+		width: 88%;
+	}
+}
+
+@media screen and (min-width: 414px) {
+	.wp-block-columns.pairings-box > .wp-block-column:first-of-type h3 {
+		width: 80%;
+	}
+}
+@media screen and (min-width: 768px) {
+	.wp-block-columns.pairings-box > .wp-block-column:first-of-type h3 {
+		width: fit-content !important;
+		flex-wrap: wrap !important;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.wp-block-columns.pairings-box > .wp-block-column:first-of-type h3 {
+		left: -40px !important;
+		transform: none !important;
+	}
+}
+
+/* Yoast FAQ block with h2 styles - NerdPress */
+.yoast-faq-with-h2 {
+	background: #f7f2ed url(/wp-content/themes/once-coupled-errens-kitchen/assets/images/icon-tan-tip.svg) no-repeat;
+	background-position: 100% 100%;
+	border-radius: 16px;
+	margin: 42px 0 25px;
+	padding: 16px 20px 12px;
+}
+
+.yoast-faq-with-h2 .wp-block-yoast-faq-block::before {
+	display: none;
+}
+
+.yoast-faq-with-h2 h2 {
+	background: #234d76;
+	border-radius: 4px;
+	color: #fff;
+	content: 'FAQs';
+	display: block;
+	font-size: 22px;
+	font-weight: 700;
+	padding: 4px 16px;
+	line-height: 1.2;
+	position: relative;
+	text-align: center;
+	top: -33px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 140px;
+	margin-top:0;
+}
+
+.yoast-faq-with-h2 .wp-block-yoast-faq-block {
+	background: none;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;;
+}
+
+@media screen and (min-width: 1024px) {
+	.yoast-faq-with-h2 {
+		margin: 30px 0;
+	}
+	.yoast-faq-with-h2  h2 {
+		left: -40px;
+		transform: translateX(0%);
+		top: 0;
+	}
+}
+
+/*Mediavine homepage video fix*/
+@media only screen and (min-width: 1024px){
+	.home .video-embed .embed-or-image .mv-video-target, .home .video-embed .embed-or-image iframe{
+		min-height: 375.25px !important;
+	}
+}
+@media only screen and (max-width: 1023px){
+	.home .video-embed .embed-or-image .mv-video-target{
+		border: unset !important;
+	}
+}
+/*mediavine homepage video fix end*/
+
+.wp-block-button.button-pin.ek-w-full {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 420px) {
+	.wp-block-button.button-pin.ek-w-full a {
+		font-size: 14px;
+	}
+
+}
+
+/* birdsend form mods */
+
+.bs-in-content [class*=bs-in-content-] > .bs-border-solid {
+	border-style: none !important;
+}
+
+.bs-in-content [class*=bs-in-content-] {
+	margin-bottom: 0 !important;
+}
+
+.bs-in-content [class*=bs-in-content-] .bs-p-6 > div {
+	margin-bottom: 0 !important;
+}
+
+.bs-w-full.bs-p-6 {
+	padding: 0 !important;
+}
+
+.bs-max-w-sm {max-width: none !important;}
+
+.bs-form .bs-rounded {border-radius: 0 !important;}
+
+.bs-form button[type='submit'] {
+	font-family: Quicksand !important;
+	text-transform: uppercase;
+	font-weight: normal !important;
+}
+
+.bs-form .bs-footer * {
+	color: white !important;
+}
+
+.bs-form input[type='text'] {
+	border: none !important;
+	text-transform: none;
+	font-style: normal;
+}
+
+.bs-form form > .bs-mb-2:first-child {
+	margin-bottom: 0 !important;
+}
+
+/* footer form */
+div[id*='form-7364'] * {
+	color: white !important;
+}
+
+div[id*='form-7364'] .bs-message {
+	color: #127b3a !important;
+}
+
+@media (min-width: 600px) {
+	div[id*='form-7364'] form > .bs-mb-2 {
+		display: inline-block;
+		width: 65%;
+		vertical-align: top;
+	}
+
+	div[id*='form-7364'] form > .bs-inline-block.bs-mb-2 {
+		width: 35% !important;
+		display: inline-block;
+	}
+}
+
+div[id*='form-7364'] input[type='text'] {
+	background-color: #275079 !important;
+}
+
+.subscribe div[id*='form-7364'] form {
+	display: block;
+}
+
+/* end birdsend */
+
+@media screen and (min-width: 768px) {
+	.wprm-entry-buttons {
+		width: 38% !important;
+	}
+}
+.wprm-recipe .wprm-entry-content .wprm-entry-buttons a.wprm-recipe-link:after {
+	margin-top: 8px;
+}
+@media screen and (max-width: 425px) {
+	.wprm-recipe .wprm-entry-content .wprm-entry-buttons a.wprm-recipe-link, .wprm-recipe .wprm-entry-content .wprm-entry-buttons .dpsp-networks-btns-wrapper .dpsp-network-btn.dpsp-pinterest {
+		padding-left: 2px !important;
+		padding-right: 2px !important;
+	}
+	.dpsp-networks-btns-wrapper .dpsp-network-btn.dpsp-pinterest .dpsp-network-label {
+		margin: 0 auto !important;
+	}
+}
+/*NerdPress fix - adding biege back to block */
+.biegepink  {
+	background-color: #F7F2ED;
+}
+.biegeblue{
+	background-color:#F7F2ED;
+}
+
+/*NerdPress fix - social share button alignment CD 4.19.21*/
+.dpsp-button-style-8 .dpsp-networks-btns-wrapper:not(.dpsp-networks-btns-sidebar) .dpsp-network-btn .dpsp-network-icon{
+	margin: 0px;
+}
+.dpsp-size-large .dpsp-networks-btns-wrapper:not(.dpsp-networks-btns-sidebar) .dpsp-network-btn .dpsp-network-icon-inner{
+	height: 32px;
+}
+
+/* Caption Change */
+.wp-block-image figcaption {
+	font-size: 15px;
+}
+
+/* WPRM Call to Action Fix */
+@media only screen and (min-width: 768px) {
+	.wprm-recipe-container .wprm-entry-footer .wprm-call-to-action {
+		min-height: 170px;
+	}
+}		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="home page-template-default page page-id-22778 wp-embed-responsive first-page avatars-disabled site-desktop oc-theme page-home post-listing header-full-width full-width-content genesis-breadcrumbs-hidden genesis-footer-widgets-hidden"><div class="site-container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-nav-footer" class="screen-reader-shortcut"> Skip to footer navigation</a></li><li><a href="#genesis-nav-privacy" class="screen-reader-shortcut"> Skip to privacy navigation</a></li><li><a href="#genesis-nav-secondary" class="screen-reader-shortcut"> Skip to secondary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li></ul><header class="site-header"><div class="wrap"><div class="title-area"><p class="site-title"><a href="https://www.errenskitchen.com/">Erren's Kitchen</a></p><p class="site-description">Food you&#039;ll crave - From scratch</p></div><button class="generic-toggle menu-toggle" aria-expanded="false" aria-pressed="false" role="button"><span class="screen-reader-text">Main Menu</span><div class="icon-font icon-bars"></div></button><button class="generic-toggle search search-toggle"><a class="screen-reader-text">Display Search Bar</a><span class="icon-font icon-search"></span></button>
+<div id="header-search" class="hidden">
+
+	<form class="search-form" method="get" action="https://www.errenskitchen.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search Recipes...</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search Recipes..."><input class="search-form-submit" type="submit" value="Search"><meta content="https://www.errenskitchen.com/?s={s}"><div class="search-submit-icon"><span class="icon-font icon-search"></span></div></form>
+</div></div></header><nav class="nav-primary" aria-label="Main" id="genesis-nav-primary"><div class="wrap"><ul id="menu-primary" class="menu genesis-nav-menu menu-primary js-superfish"><li id="menu-item-22780" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-22778 current_page_item menu-item-22780"><a href="https://www.errenskitchen.com/" aria-current="page"><span >Home</span></a></li>
+<li id="menu-item-22789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22789"><a href="https://www.errenskitchen.com/recipes/"><span >Recipes</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-22799" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22799"><a href="#"><span >Course</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-22811" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22811"><a href="https://www.errenskitchen.com/category/breakfast/"><span >Breakfast</span></a></li>
+		<li id="menu-item-22804" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22804"><a href="https://www.errenskitchen.com/category/appetizer-starters-recipes/"><span >Appetizer</span></a></li>
+		<li id="menu-item-22831" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22831"><a href="https://www.errenskitchen.com/category/lunch-recipes/"><span >Lunch</span></a></li>
+		<li id="menu-item-22822" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22822"><a href="https://www.errenskitchen.com/category/main-dishes/"><span >Dinner</span></a></li>
+		<li id="menu-item-22846" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22846"><a href="https://www.errenskitchen.com/category/sides/"><span >Side</span></a></li>
+		<li id="menu-item-22820" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22820"><a href="https://www.errenskitchen.com/category/desserts/"><span >Dessert</span></a></li>
+		<li id="menu-item-22823" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22823"><a href="https://www.errenskitchen.com/category/drinks-cocktails/"><span >Drinks</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-22800" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22800"><a href="#"><span >Type</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-22840" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22840"><a href="https://www.errenskitchen.com/category/quick-and-easy/"><span >Quick and Easy</span></a></li>
+		<li id="menu-item-22851" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22851"><a href="https://www.errenskitchen.com/category/vegetarian-dishes/"><span >Vegetarian</span></a></li>
+		<li id="menu-item-22837" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22837"><a href="https://www.errenskitchen.com/category/pasta-dishes/"><span >Pasta</span></a></li>
+		<li id="menu-item-22847" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22847"><a href="https://www.errenskitchen.com/category/soups/"><span >Soups</span></a></li>
+		<li id="menu-item-22844" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22844"><a href="https://www.errenskitchen.com/category/salads/"><span >Salads &amp; Dressings</span></a></li>
+		<li id="menu-item-22843" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22843"><a href="https://www.errenskitchen.com/category/rice-dishes/"><span >Rice Dishes</span></a></li>
+		<li id="menu-item-22817" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22817"><a href="https://www.errenskitchen.com/category/comfort-foods/"><span >Comfort Food</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-22801" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22801"><a href="#"><span >Protein</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-22815" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22815"><a href="https://www.errenskitchen.com/category/chicken-dishes/"><span >Chicken &#038; Poultry</span></a></li>
+		<li id="menu-item-22845" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22845"><a href="https://www.errenskitchen.com/category/seafood/"><span >Seafood</span></a></li>
+		<li id="menu-item-22807" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22807"><a href="https://www.errenskitchen.com/category/beef-pork-lamb/"><span >Beef, Pork, &#038; Lamb</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-22802" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-22802"><a href="#"><span >Cuisine</span></a>
+	<ul class="sub-menu">
+		<li id="menu-item-22829" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22829"><a href="https://www.errenskitchen.com/category/italian-food/"><span >Italian Food</span></a></li>
+		<li id="menu-item-22805" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22805"><a href="https://www.errenskitchen.com/category/asian-food/"><span >Asian Food</span></a></li>
+	</ul>
+</li>
+	<li id="menu-item-22803" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22803"><a href="https://www.errenskitchen.com/recipes/"><span >All Recipes</span></a></li>
+</ul>
+</li>
+<li id="menu-item-30345" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-30345"><a href="https://www.errenskitchen.com/videos/"><span >Videos</span></a></li>
+<li id="menu-item-22781" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-22781"><a href="https://www.errenskitchen.com/cooking-conversions/"><span >Conversions</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-22782" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22782"><a href="https://www.errenskitchen.com/cooking-conversions/us-sticks-butter-conversion-charts/"><span >US Sticks of Butter Conversion Charts</span></a></li>
+	<li id="menu-item-22783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22783"><a href="https://www.errenskitchen.com/cooking-conversions/basic-ounces-grams-weight-conversions/"><span >Basic ounces to grams weight conversions</span></a></li>
+	<li id="menu-item-22784" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22784"><a href="https://www.errenskitchen.com/cooking-conversions/oven-temperature-conversions/"><span >Oven Temperature Conversions</span></a></li>
+	<li id="menu-item-22785" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22785"><a href="https://www.errenskitchen.com/cooking-conversions/butter-measurement-weight-conversions/"><span >Butter in the US and the Rest of the World</span></a></li>
+	<li id="menu-item-22786" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22786"><a href="https://www.errenskitchen.com/cooking-conversions/teaspoons-tablespoons-dessertspoons/"><span >British Dessert Spoon Conversions</span></a></li>
+	<li id="menu-item-22787" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22787"><a href="https://www.errenskitchen.com/cooking-conversions/cups-to-grams-and-oz/"><span >US Cups to ounces &#038; grams for common ingredients</span></a></li>
+	<li id="menu-item-22788" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22788"><a href="https://www.errenskitchen.com/cooking-conversions/volume-conversions/"><span >Basic Volume Conversions</span></a></li>
+</ul>
+</li>
+<li id="menu-item-22792" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-22792"><a href="/shop/"><span >Shop</span></a></li>
+<li id="menu-item-51902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-51902"><a href="https://www.errenskitchen.com/welcome/"><span >About</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-51904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51904"><a href="https://www.errenskitchen.com/welcome/"><span >About</span></a></li>
+	<li id="menu-item-22798" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22798"><a href="https://www.errenskitchen.com/about/"><span >Meet Erren</span></a></li>
+	<li id="menu-item-22790" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22790"><a href="https://www.errenskitchen.com/contact-me/work-with-me/"><span >Collaborate</span></a></li>
+	<li id="menu-item-22795" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22795"><a href="https://www.errenskitchen.com/category/monday-morning-catch-up/"><span >Life Stories</span></a></li>
+	<li id="menu-item-22796" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22796"><a href="https://www.errenskitchen.com/contact-me/"><span >Contact</span></a></li>
+	<li id="menu-item-51903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51903"><a href="https://www.errenskitchen.com/our-philosophy/"><span >Our Philosophy</span></a></li>
+</ul>
+</li>
+<li class="desktop-header-cta-wrap"><a href="https://www.errenskitchen.com/category/quick-and-easy/" class="cta cta-desktop-header">
+
+	<div class="wrap">
+
+		
+		
+		
+		
+		
+			<span class="cta-button"><span class="emphasis">Trending:</span> Easy Recipes</span>
+
+		
+	</div>
+
+</a></li>
+<li class="mobile-nav-container"></li>
+
+<li class="social-container">
+
+	
+	<div class="social">
+
+		<div class="wrap">
+
+			
+			
+								<a class="social-icon" href="https://www.facebook.com/errenskitchen/" target="_blank" aria-label="Follow us on Facebook"><span class="icon icon-font icon-facebook"></span></a>
+
+				
+								<a class="social-icon" href="https://instagram.com/errenskitchen" target="_blank" aria-label="Follow us on Instagram"><span class="icon icon-font icon-instagram"></span></a>
+
+				
+								<a class="social-icon" href="https://www.pinterest.com/errenskitchen/" target="_blank" aria-label="Follow us on Pinterest"><span class="icon icon-font icon-pinterest"></span></a>
+
+				
+								<a class="social-icon" href="https://twitter.com/ErrensKitchen" target="_blank" aria-label="Follow us on Twitter"><span class="icon icon-font icon-twitter"></span></a>
+
+				
+		</div>
+
+	</div>
+
+
+</li></ul></div></nav><nav class="nav-secondary" aria-label="Secondary" id="genesis-nav-secondary"><div class="wrap"><ul id="menu-secondary" class="menu genesis-nav-menu menu-secondary js-superfish limit-depth-1"><li class="menu-item intro-header"><span class="secondary-menu-header"><span class="icon-font icon-asterisk"></span>Specialties:</span></li><li id="menu-item-22866" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22866"><a href="https://www.errenskitchen.com/category/quick-and-easy/"><span >Quick and Easy</span></a></li>
+<li id="menu-item-22867" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22867"><a href="https://www.errenskitchen.com/category/italian-food/"><span >Italian</span></a></li>
+<li id="menu-item-22868" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22868"><a href="https://www.errenskitchen.com/category/chicken-dishes/"><span >Chicken</span></a></li>
+<li id="menu-item-22869" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22869"><a href="https://www.errenskitchen.com/category/better-than-takeout/"><span >Better Than Takeout!</span></a></li>
+<li id="menu-item-23216" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-23216"><a href="https://www.errenskitchen.com/category/desserts/"><span >Desserts</span></a></li>
+<li class="menu-item search-wrap"><form class="search-form" method="get" action="https://www.errenskitchen.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-2">Search Recipes...</label><input class="search-form-input" type="search" name="s" id="searchform-2" placeholder="Search Recipes..."><input class="search-form-submit" type="submit" value="Search"><meta content="https://www.errenskitchen.com/?s={s}"><div class="search-submit-icon"><span class="icon-font icon-search"></span></div></form></li></ul></div></nav><div class="site-inner"><main class="content" id="genesis-content"><h1 class="screen-reader-text">Erren's Kitchen</h1>
+	<div class="home-highlights">
+
+		<div class="wrap">
+			
+			<h2 class="section-title screen-reader-text">Highlights</h2>
+
+			<div class="flexbox">
+
+				
+	<div class="manual-features highlight-left sm-col-1">
+
+		<div class="wrap">
+
+			
+			<div class="articles-container flexbox"> 
+				<div class="entry sm-col-1">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/recipes/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="500" height="500" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-recipe-index-500x500.jpg" class="post-image entry-image" alt="" decoding="async" fetchpriority="high" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-recipe-index-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-recipe-index-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-recipe-index-180x180.jpg 180w" sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" />
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/recipes/" class="entry-title-link" >
+
+	Recipe Index
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div>
+			</div>
+
+			
+		</div>
+
+	</div>
+
+
+				<div class="highlight-middle sm-col-2">
+
+					
+	<div class="manual-features highlight-top">
+
+		<div class="wrap">
+
+			
+			<div class="articles-container flexbox"> 
+				<div class="entry sm-col-1">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/main-dishes/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="680" height="450" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-dinner-ideas-680x450.jpg" class="post-image entry-image" alt="A close up of a plate of food chicken and bacon" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-dinner-ideas-680x450.jpg 680w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-dinner-ideas-280x185.jpg 280w" sizes="(min-width: 1024px) 295px, (min-width: 768px) calc((100vw - 24px) * .3 - 16px), calc((100vw - 4px) * .5 - 16px)" />
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/main-dishes/" class="entry-title-link" >
+
+	Dinner Ideas
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div>
+			</div>
+
+			
+		</div>
+
+	</div>
+
+
+	<div class="manual-features highlight-bottom">
+
+		<div class="wrap">
+
+			
+			<div class="articles-container flexbox"> 
+				<div class="entry sm-col-1">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/desserts/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="680" height="450" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-desserts-680x450.jpg" class="post-image entry-image" alt="" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-desserts-680x450.jpg 680w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-desserts-280x185.jpg 280w" sizes="(min-width: 1024px) 295px, (min-width: 768px) calc((100vw - 24px) * .3 - 16px), calc((100vw - 4px) * .5 - 16px)" />
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/desserts/" class="entry-title-link" >
+
+	Desserts
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div>
+			</div>
+
+			
+		</div>
+
+	</div>
+
+
+				</div>
+
+				
+	<div class="manual-features highlight-right sm-col-2">
+
+		<div class="wrap">
+
+			
+			<div class="articles-container flexbox"> 
+				<div class="entry sm-col-1">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/welcome/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="a close up of Erren Hart of Erren&#039;s Kitchen" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-3-1-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-3-1-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 295px, (min-width: 768px) calc((100vw - 24px) * .3 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-3-1-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-3-1-650x845.jpg" class="post-image entry-image" alt="a close up of Erren Hart of Erren&#039;s Kitchen" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-3-1-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-3-1-195x254.jpg 195w" sizes="(min-width: 1024px) 295px, (min-width: 768px) calc((100vw - 24px) * .3 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/welcome/" class="entry-title-link" >
+
+	About Erren's Kitchen
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div>
+			</div>
+
+			
+		</div>
+
+	</div>
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<div class="subscribe">
+
+		<div class="wrap">
+
+			
+				<div class="not-form">
+
+					
+					<div class="titles">
+
+						
+							<h2 class="title"><span class="replace-with-image text-stay-updated">subscribe</span></h2>
+
+						
+					</div>
+
+					
+						<div class="details">
+
+							<p class="description">Receive new recipes & a free weekly meal plan straight to your inbox!</p>
+
+						</div>
+
+					
+				</div>
+
+			
+			<div class="form"><form id="ema_signup_form_home" target="_blank" action="https://madmimi.com/signups/subscribe/e4573f2d90cd40fbbde3e8a2b332b76e" accept-charset="UTF-8" method="post">
+       <input name="utf8" type="hidden" value="✓"/>
+       <div class="mimi_field required">
+          <label for="signup_email_home"><span class="screen-reader-text">Enter your email</span><input id="signup_email_home" name="signup[email]" type="text" data-required-field="This field is required" placeholder="Enter your email..."/></label>
+       </div>
+       <div style="background: white; font-size:1px; height: 0; overflow: hidden">
+          <input tabindex="-1" type="text" name="1d73535294ba267a513b746494162cea" style="font-size: 1px; width: 1px !important; height:1px !important; border:0 !important; line-height: 1px !important; padding: 0 0; min-height:1px !important;" aria-hidden="true" />
+          <input tabindex="-1" class="checkbox" type="checkbox" name="beacon" aria-hidden="true" />
+       </div>
+       <div class="mimi_field">
+          <input type="submit" class="submit" value="Subscribe" id="webform_submit_button" data-default-text="Subscribe" data-submitting-text="Sending..." data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list" data-thanks="Thank you!"/>
+       </div>
+</form></div>
+
+		</div>
+
+	</div>
+
+<div class="manual-features site-tagline footer-features">
+
+	<div class="wrap">
+		
+			<div class="title-description-container">
+				
+				<h2 class="section-title">
+					Recipes To Rely On - From My Kitchen To Yours				</h2>
+				
+			</div>
+		
+	</div>
+
+</div><div class="the-latest home-latest content-features featured-posts">
+
+	<div class="wrap">
+
+		<h2 class="section-title">Latest Recipes</h2>
+
+		<div class="articles-container flexbox">
+
+			<article class="post-20706 post type-post status-publish format-standard has-post-thumbnail category-main-dishes category-chicken-dishes category-quick-and-easy category-recipes sm-col-2 md-col-4 entry" aria-label="Chicken Korma"><header class="entry-header"><a class="entry-image-link" href="https://www.errenskitchen.com/chicken-korma/" aria-hidden="true" tabindex="-1"><img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="aligncenter post-image entry-image" alt="A close-up of Chicken Korma garnished with fresh cilantro in a white bowl." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2024/04/Chicken-Korma-1-14-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/04/Chicken-Korma-1-14-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2024/04/Chicken-Korma-1-14-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2024/04/Chicken-Korma-1-14-650x845.jpg" class="aligncenter post-image entry-image" alt="A close-up of Chicken Korma garnished with fresh cilantro in a white bowl." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2024/04/Chicken-Korma-1-14-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/04/Chicken-Korma-1-14-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript></a><h3 class="entry-title"><a class="entry-title-link" rel="bookmark" href="https://www.errenskitchen.com/chicken-korma/">Chicken Korma</a></h3>
+</header><div class="entry-content"></div></article><article class="post-57366 post type-post status-publish format-standard has-post-thumbnail category-cookies category-desserts sm-col-2 md-col-4 entry" aria-label="This Pizookie Skillet Cookie Will Blow Your Mind"><header class="entry-header"><a class="entry-image-link" href="https://www.errenskitchen.com/pizookie-skillet-cookie/" aria-hidden="true" tabindex="-1"><img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="aligncenter post-image entry-image" alt="A freshly baked skillet cookie with gooey chocolate chunks, presented in a cast-iron pan on a wire cooling rack, with a wooden spatula." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2024/03/Skillet-Cookie-1-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/03/Skillet-Cookie-1-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2024/03/Skillet-Cookie-1-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2024/03/Skillet-Cookie-1-650x845.jpg" class="aligncenter post-image entry-image" alt="A freshly baked skillet cookie with gooey chocolate chunks, presented in a cast-iron pan on a wire cooling rack, with a wooden spatula." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2024/03/Skillet-Cookie-1-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/03/Skillet-Cookie-1-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript></a><h3 class="entry-title"><a class="entry-title-link" rel="bookmark" href="https://www.errenskitchen.com/pizookie-skillet-cookie/">This Pizookie Skillet Cookie Will Blow Your Mind</a></h3>
+</header><div class="entry-content"></div></article><article class="post-57338 post type-post status-publish format-standard has-post-thumbnail category-breakfast sm-col-2 md-col-4 entry" aria-label="Ham and Egg Casserole"><header class="entry-header"><a class="entry-image-link" href="https://www.errenskitchen.com/ham-and-egg-casserole/" aria-hidden="true" tabindex="-1"><img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="aligncenter post-image entry-image" alt="A slice of ham and cheese casserole being lifted with a spatula, showing the layered interior, garnished with herbs." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2024/03/Ham-Egg-Cassarole-1-8-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/03/Ham-Egg-Cassarole-1-8-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2024/03/Ham-Egg-Cassarole-1-8-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2024/03/Ham-Egg-Cassarole-1-8-650x845.jpg" class="aligncenter post-image entry-image" alt="A slice of ham and cheese casserole being lifted with a spatula, showing the layered interior, garnished with herbs." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2024/03/Ham-Egg-Cassarole-1-8-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/03/Ham-Egg-Cassarole-1-8-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript></a><h3 class="entry-title"><a class="entry-title-link" rel="bookmark" href="https://www.errenskitchen.com/ham-and-egg-casserole/">Ham and Egg Casserole</a></h3>
+</header><div class="entry-content"></div></article><article class="post-56973 post type-post status-publish format-standard has-post-thumbnail category-asian-food category-better-than-takeout category-chicken-dishes category-quick-and-easy category-recipes sm-col-2 md-col-4 entry" aria-label="Chicken Lo mein"><header class="entry-header"><a class="entry-image-link" href="https://www.errenskitchen.com/chicken-lo-mein/" aria-hidden="true" tabindex="-1"><img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="aligncenter post-image entry-image" alt="Chopsticks lifting strands of noodles, chunks of chicken, and mixed vegetables including carrots and green snap peas." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2024/03/Chicken-Lo-Mein-1-15-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/03/Chicken-Lo-Mein-1-15-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2024/03/Chicken-Lo-Mein-1-15-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2024/03/Chicken-Lo-Mein-1-15-650x845.jpg" class="aligncenter post-image entry-image" alt="Chopsticks lifting strands of noodles, chunks of chicken, and mixed vegetables including carrots and green snap peas." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2024/03/Chicken-Lo-Mein-1-15-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/03/Chicken-Lo-Mein-1-15-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript></a><h3 class="entry-title"><a class="entry-title-link" rel="bookmark" href="https://www.errenskitchen.com/chicken-lo-mein/">Chicken Lo mein</a></h3>
+</header><div class="entry-content"></div></article>
+		</div>
+
+		
+
+	<span class="more-link-container"><a class="more-link" href="https://www.errenskitchen.com/all-posts/">Browse All Latest Recipes <span class="icon-font icon-long-arrow thin"></span></a></span>
+
+
+	</div>
+
+</div><div class="bio-container">
+
+	<div class="wrap">
+
+		
+			<div class="image">
+
+				<img width="650" height="415" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20415'%3E%3C/svg%3E" class="attachment-placement-bio size-placement-bio" alt="Erren hart of Erren&#039;s Kitchen leaning on a kitchen island." data-pin-nopin="true" decoding="async" data-lazy-sizes="(min-width: 1024px) 550px, (min-width: 768px) calc(100vw - 40px), calc(100vw - 20px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-8-650x415.jpg" /><noscript><img width="650" height="415" src="https://www.errenskitchen.com/wp-content/uploads/2023/07/Erren-1-8-650x415.jpg" class="attachment-placement-bio size-placement-bio" alt="Erren hart of Erren&#039;s Kitchen leaning on a kitchen island." data-pin-nopin="true" decoding="async" sizes="(min-width: 1024px) 550px, (min-width: 768px) calc(100vw - 40px), calc(100vw - 20px)" /></noscript>
+			</div>
+
+		
+			<h2 class="widgettitle widget-title"><span class="replace-with-image text-meet-erren">Meet Erren</span></h2>
+
+		
+			<div class="text"><p>I'm Erren, I have a passion for cooking and baking from scratch to create simple, nourishing, delicious recipes made with fresh ingredients, free from artificial additives and preservatives you find in prepackaged foods.</p>
+
+		
+
+	<span class="more-link-container"><a class="more-link" href="https://www.errenskitchen.com/about/">More of My Story <span class="icon-font icon-long-arrow"></span></a></span>
+
+
+			</div>
+
+		
+	<div class="social">
+
+		<div class="wrap">
+
+			
+			
+								<a class="social-icon" href="https://www.facebook.com/errenskitchen/" target="_blank" aria-label="Follow us on Facebook"><span class="icon icon-font icon-facebook"></span></a>
+
+				
+								<a class="social-icon" href="https://instagram.com/errenskitchen" target="_blank" aria-label="Follow us on Instagram"><span class="icon icon-font icon-instagram"></span></a>
+
+				
+								<a class="social-icon" href="https://www.pinterest.com/errenskitchen/" target="_blank" aria-label="Follow us on Pinterest"><span class="icon icon-font icon-pinterest"></span></a>
+
+				
+								<a class="social-icon" href="https://twitter.com/ErrensKitchen" target="_blank" aria-label="Follow us on Twitter"><span class="icon icon-font icon-twitter"></span></a>
+
+				
+		</div>
+
+	</div>
+
+
+	</div>
+
+</div>
+	<div class="home-side-by-side featured-posts">
+
+		<div class="wrap">
+
+			<div class="flexbox">
+
+				<div class="side-left sm-col-1 md-col-2">
+
+					
+	<div class="content-features">
+
+		<div class="wrap">
+
+			
+				<div class="title-description-container">
+
+					
+						<h2 class="section-title">Quick & Easy</h2>
+
+					
+							<div class="feature-description">Whether you're a beginner or a seasoned cook, these recipes will add flavor to your daily routine, without taking up too much time. </div>
+
+					
+				</div>
+
+			
+			<div class="articles-container flexbox"> 
+				<div class="entry sm-col-2">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/quick-easy-spaghetti-bolognese/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2018/08/Quick-Easy-Spaghetti-Bolognese-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/08/Quick-Easy-Spaghetti-Bolognese-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2018/08/Quick-Easy-Spaghetti-Bolognese-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2018/08/Quick-Easy-Spaghetti-Bolognese-650x845.jpg" class="post-image entry-image" alt="" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2018/08/Quick-Easy-Spaghetti-Bolognese-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/08/Quick-Easy-Spaghetti-Bolognese-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/quick-easy-spaghetti-bolognese/" class="entry-title-link" >
+
+	Quick &#038; Easy Spaghetti Bolognese
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/chicken-stroganoff/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="a close up image of Chicken Stroganoff on rice with a fork laying on the plate." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2021/09/Chicken-Stroganoff-05-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2021/09/Chicken-Stroganoff-05-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2021/09/Chicken-Stroganoff-05-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2021/09/Chicken-Stroganoff-05-650x845.jpg" class="post-image entry-image" alt="a close up image of Chicken Stroganoff on rice with a fork laying on the plate." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2021/09/Chicken-Stroganoff-05-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2021/09/Chicken-Stroganoff-05-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/chicken-stroganoff/" class="entry-title-link" >
+
+	Chicken Stroganoff
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/easy-lemon-shrimp-risotto/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="the cooked Lemon Shrimp Risotto in the pan" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2016/11/Lemon-Shrimp-Risotto-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2016/11/Lemon-Shrimp-Risotto-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2016/11/Lemon-Shrimp-Risotto-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2016/11/Lemon-Shrimp-Risotto-650x845.jpg" class="post-image entry-image" alt="the cooked Lemon Shrimp Risotto in the pan" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2016/11/Lemon-Shrimp-Risotto-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2016/11/Lemon-Shrimp-Risotto-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/easy-lemon-shrimp-risotto/" class="entry-title-link" >
+
+	Easy Lemon Shrimp Risotto
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/salisbury-steak/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="salisbury steak in a pan ready to be served" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2022/02/salsbury-steak-1-3-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2022/02/salsbury-steak-1-3-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2022/02/salsbury-steak-1-3-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2022/02/salsbury-steak-1-3-650x845.jpg" class="post-image entry-image" alt="salisbury steak in a pan ready to be served" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2022/02/salsbury-steak-1-3-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2022/02/salsbury-steak-1-3-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/salisbury-steak/" class="entry-title-link" >
+
+	Salisbury Steak
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div>
+			</div>
+
+			
+
+	<span class="more-link-container"><a class="more-link" href="https://www.errenskitchen.com/category/quick-and-easy/">Browse All <span class="icon-font icon-long-arrow thin"></span></a></span>
+
+
+		</div>
+
+	</div>
+
+
+				</div>
+
+				<div class="side-right sm-col-1 md-col-2">
+
+					
+	<div class="content-features">
+
+		<div class="wrap">
+
+			
+				<div class="title-description-container">
+
+					
+						<h2 class="section-title">Italian Recipes</h2>
+
+					
+							<div class="feature-description">Our Italian  recipes offer a diverse range of dishes, from classics like Italian Meatballs to creative treats like Lemon Fish Piccata.</div>
+
+					
+				</div>
+
+			
+			<div class="articles-container flexbox"> 
+				<div class="entry sm-col-2">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/lemon-fish-piccata/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="Lemon Fish Piccata garnished lemon and capers." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2022/06/Lemon-Fish-Piccata-001-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2022/06/Lemon-Fish-Piccata-001-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2022/06/Lemon-Fish-Piccata-001-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2022/06/Lemon-Fish-Piccata-001-650x845.jpg" class="post-image entry-image" alt="Lemon Fish Piccata garnished lemon and capers." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2022/06/Lemon-Fish-Piccata-001-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2022/06/Lemon-Fish-Piccata-001-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/lemon-fish-piccata/" class="entry-title-link" >
+
+	Lemon Fish Piccata
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/italian-meatballs/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="meatballs in a bowl ready to serve" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2020/12/Italian-Meatballs-Feature-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2020/12/Italian-Meatballs-Feature-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/12/Italian-Meatballs-Feature-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2020/12/Italian-Meatballs-Feature-650x845.jpg" class="post-image entry-image" alt="meatballs in a bowl ready to serve" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/12/Italian-Meatballs-Feature-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2020/12/Italian-Meatballs-Feature-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/italian-meatballs/" class="entry-title-link" >
+
+	Italian Meatballs
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/penne-alla-vodka/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="Penne Alla Vodka piled high on a white plate, sprinkled with parmasean cheese." decoding="async" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2019/11/penne-alla-vodka-1-of-2-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2019/11/penne-alla-vodka-1-of-2-650x845.jpg" class="post-image entry-image" alt="Penne Alla Vodka piled high on a white plate, sprinkled with parmasean cheese." decoding="async" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/penne-alla-vodka/" class="entry-title-link" >
+
+	Penne Alla Vodka
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/fettuccine-alfredo/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="Fettuccine Alfredo being served into a bowl with tongs" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2019/01/Fettuccine-Alfredo-1-1-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2019/01/Fettuccine-Alfredo-1-1-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2019/01/Fettuccine-Alfredo-1-1-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2019/01/Fettuccine-Alfredo-1-1-650x845.jpg" class="post-image entry-image" alt="Fettuccine Alfredo being served into a bowl with tongs" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2019/01/Fettuccine-Alfredo-1-1-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2019/01/Fettuccine-Alfredo-1-1-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/fettuccine-alfredo/" class="entry-title-link" >
+
+	The Best Fettuccine Alfredo of Your Life
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div>
+			</div>
+
+			
+
+	<span class="more-link-container"><a class="more-link" href="https://www.errenskitchen.com/category/italian-food/">Browse All <span class="icon-font icon-long-arrow thin"></span></a></span>
+
+
+		</div>
+
+	</div>
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+
+	
+		<div class="video-embed">
+
+			<div class="wrap">
+
+				<div class="embed-or-image">
+
+					<div class="mv-video-target mv-video-id-pu7jwpngtjzkythfoife" data-video-id="pu7jwpngtjzkythfoife"   data-volume="70"  data-ratio="16:9" ></div>
+				</div>
+
+				
+					<div class="title-description-container">
+
+						
+							<span class="section-pretitle"><span class="icon-font icon-play thin"></span></span>
+
+						
+						
+							<h2 class="section-title">Step by Step Videos</h2>
+
+						
+						
+							<p class="text">From quick dinner ideas to indulgent desserts - watch step by step videos to show you how to make unforgettable recipes that will become all time favorites.</p>
+
+						
+						
+
+	<span class="more-link-container"><a class="more-link" href="https://www.errenskitchen.com/videos/">Browse Video Library <span class="icon-font icon-long-arrow"></span></a></span>
+
+
+					</div>
+
+				
+			</div>
+
+		</div>
+
+	
+
+	<div class="content-features featured-posts">
+
+		<div class="wrap">
+
+			
+				<div class="title-description-container">
+
+					
+						<h2 class="section-title">Reader Favorites</h2>
+
+					
+							<div class="feature-description">Erren’s Kitchen is blessed with loyal followers.  Here’s some of their favorite recipes.</div>
+
+					
+				</div>
+
+			
+			<div class="articles-container flexbox"> 
+				<div class="entry sm-col-2 md-col-4">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/easy-chocolate-chip-cookies/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="a freshly baked cookie being broken open to show melted chips" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2021/03/Easy-Chocolate-Chip-Cookies-1-2-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2021/03/Easy-Chocolate-Chip-Cookies-1-2-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2021/03/Easy-Chocolate-Chip-Cookies-1-2-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2021/03/Easy-Chocolate-Chip-Cookies-1-2-650x845.jpg" class="post-image entry-image" alt="a freshly baked cookie being broken open to show melted chips" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2021/03/Easy-Chocolate-Chip-Cookies-1-2-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2021/03/Easy-Chocolate-Chip-Cookies-1-2-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/easy-chocolate-chip-cookies/" class="entry-title-link" >
+
+	Easy Chocolate Chip Cookies
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-4">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/banana-bread/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="a sliced Banana Bread on a serving dish" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2020/09/Banana-Bread-1-2-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2020/09/Banana-Bread-1-2-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/09/Banana-Bread-1-2-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2020/09/Banana-Bread-1-2-650x845.jpg" class="post-image entry-image" alt="a sliced Banana Bread on a serving dish" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/09/Banana-Bread-1-2-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2020/09/Banana-Bread-1-2-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/banana-bread/" class="entry-title-link" >
+
+	Award Winning Banana Bread
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-4">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/classic-sticky-buns/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="A close-up view of freshly baked sticky buns with a glossy, caramelized topping that&#039;s dripping with rich, golden-brown caramel sauce." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2014/05/Sticky-Buns-1-21-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2014/05/Sticky-Buns-1-21-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2014/05/Sticky-Buns-1-21-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2014/05/Sticky-Buns-1-21-650x845.jpg" class="post-image entry-image" alt="A close-up view of freshly baked sticky buns with a glossy, caramelized topping that&#039;s dripping with rich, golden-brown caramel sauce." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2014/05/Sticky-Buns-1-21-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2014/05/Sticky-Buns-1-21-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/classic-sticky-buns/" class="entry-title-link" >
+
+	Classic Sticky Buns
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-4">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/peanut-butter-chocolate-fudge-brownies/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="Peanut Butter Chocolate Fudge Brownies - Erren&#039;s Kitchen - This is one outrageous recipe that combines gloriously, gooey chocolate brownies and peanut cookies. What more could you want out of a dessert?" decoding="async" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2015/10/peanut-butter-brownies-2-e1516022945133-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2015/10/peanut-butter-brownies-2-e1516022945133-650x845.jpg" class="post-image entry-image" alt="Peanut Butter Chocolate Fudge Brownies - Erren&#039;s Kitchen - This is one outrageous recipe that combines gloriously, gooey chocolate brownies and peanut cookies. What more could you want out of a dessert?" decoding="async" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/peanut-butter-chocolate-fudge-brownies/" class="entry-title-link" >
+
+	Peanut Butter Chocolate Fudge Brownies
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-4">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/the-best-brussels-sprouts-of-your-life/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="roasted Brussels Sprouts" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2018/09/brussels-sprouts-feature1200-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/09/brussels-sprouts-feature1200-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2018/09/brussels-sprouts-feature1200-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2018/09/brussels-sprouts-feature1200-650x845.jpg" class="post-image entry-image" alt="roasted Brussels Sprouts" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2018/09/brussels-sprouts-feature1200-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/09/brussels-sprouts-feature1200-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/the-best-brussels-sprouts-of-your-life/" class="entry-title-link" >
+
+	The Best Brussels Sprouts of Your Life
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-4">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/seasoned-baked-potato-wedges/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2014/05/Potato-Wedges-1-3-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2014/05/Potato-Wedges-1-3-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2014/05/Potato-Wedges-1-3-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2014/05/Potato-Wedges-1-3-650x845.jpg" class="post-image entry-image" alt="" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2014/05/Potato-Wedges-1-3-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2014/05/Potato-Wedges-1-3-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/seasoned-baked-potato-wedges/" class="entry-title-link" >
+
+	Best EVER Potato Wedges
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-4">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/seriously-best-broccoli-life/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="roasted broccoli piled high on a plate scattered with grated cheese and brown garlic" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2014/06/Seriously-The-Best-Broccoli-of-Your-Life-1-1-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2014/06/Seriously-The-Best-Broccoli-of-Your-Life-1-1-195x254.jpg 195w" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2014/06/Seriously-The-Best-Broccoli-of-Your-Life-1-1-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2014/06/Seriously-The-Best-Broccoli-of-Your-Life-1-1-650x845.jpg" class="post-image entry-image" alt="roasted broccoli piled high on a plate scattered with grated cheese and brown garlic" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2014/06/Seriously-The-Best-Broccoli-of-Your-Life-1-1-650x845.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2014/06/Seriously-The-Best-Broccoli-of-Your-Life-1-1-195x254.jpg 195w" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/seriously-best-broccoli-life/" class="entry-title-link" >
+
+	Seriously, The Best Broccoli of Your Life
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-4">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/spaghetti-and-meatballs/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="650" height="845" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20650%20845'%3E%3C/svg%3E" class="post-image entry-image" alt="a close up of Spaghetti and Meatballs on a plate with a fork" decoding="async" data-lazy-sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/05/Spaghetti-and-Meatballs-2-650x845.jpg" /><noscript><img width="650" height="845" src="https://www.errenskitchen.com/wp-content/uploads/2020/05/Spaghetti-and-Meatballs-2-650x845.jpg" class="post-image entry-image" alt="a close up of Spaghetti and Meatballs on a plate with a fork" decoding="async" sizes="(min-width: 1024px) 243px, (min-width: 768px) calc((100vw - 24px) * .25 - 16px), calc((100vw - 4px) * .5 - 16px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/spaghetti-and-meatballs/" class="entry-title-link" >
+
+	Spaghetti and Meatballs
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div>
+			</div>
+
+			
+
+	<span class="more-link-container"><a class="more-link" href="https://www.errenskitchen.com/recipes/">Browse All Favorites <span class="icon-font icon-long-arrow thin"></span></a></span>
+
+
+		</div>
+
+	</div>
+
+
+	<div class="content-features featured-categories alternate">
+
+		<div class="wrap">
+
+			
+				<div class="title-description-container">
+
+					
+						<h2 class="section-title"><span class="replace-with-image text-dinner-ideas">Dinner Ideas</span></h2>
+
+					
+							<div class="feature-description">What's for dinner? We’ve got the answer! Whether you’re looking for a quick and easy weeknight meal or a slow cooked weekend feast, there’s something here that’s sure to please!</div>
+
+					
+				</div>
+
+			
+			<div class="articles-container flexbox"> 
+				<div class="entry sm-col-2 md-col-3 lg-col-6">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/quick-and-easy/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="500" height="500" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E" class="post-image entry-image" alt="Plate of pasta with Easy Homemade Tomato Sauce and parsley sprinkled over it." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-300x300.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-75x75.jpg 75w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-190x190.jpg 190w" data-lazy-sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-500x500.jpg" /><noscript><img width="500" height="500" src="https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-500x500.jpg" class="post-image entry-image" alt="Plate of pasta with Easy Homemade Tomato Sauce and parsley sprinkled over it." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-300x300.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-75x75.jpg 75w, https://www.errenskitchen.com/wp-content/uploads/2017/09/easy-tomato-sauce-2-190x190.jpg 190w" sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/quick-and-easy/" class="entry-title-link" >
+
+	Quick and Easy
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-3 lg-col-6">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/italian-food/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="500" height="500" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E" class="post-image entry-image" alt="The Best Fettuccine Alfredo of Your Life being served with tongs" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-300x300.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-75x75.jpg 75w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-190x190.jpg 190w" data-lazy-sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-500x500.jpg" /><noscript><img width="500" height="500" src="https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-500x500.jpg" class="post-image entry-image" alt="The Best Fettuccine Alfredo of Your Life being served with tongs" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-300x300.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-75x75.jpg 75w, https://www.errenskitchen.com/wp-content/uploads/2018/03/ALFREDO-1-of-1-2-190x190.jpg 190w" sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/italian-food/" class="entry-title-link" >
+
+	Italian Food
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-3 lg-col-6">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/asian-food/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="500" height="500" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E" class="post-image entry-image" alt="Chinese Beef Noodle Soup - Erren&#039;s Kitchen - Wonderfully fragrant and deliciously healthy, this simple soup makes the perfect warming meal." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-300x300.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-75x75.jpg 75w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-190x190.jpg 190w" data-lazy-sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-500x500.jpg" /><noscript><img width="500" height="500" src="https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-500x500.jpg" class="post-image entry-image" alt="Chinese Beef Noodle Soup - Erren&#039;s Kitchen - Wonderfully fragrant and deliciously healthy, this simple soup makes the perfect warming meal." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-300x300.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-75x75.jpg 75w, https://www.errenskitchen.com/wp-content/uploads/2014/10/Chinese-Beef-Noodle-Soup-12-of-1-e1550919052553-190x190.jpg 190w" sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/asian-food/" class="entry-title-link" >
+
+	Asian Food
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-3 lg-col-6">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/chicken-dishes/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="500" height="500" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E" class="post-image entry-image" alt="a pan of chicken cutlets in a mushroom sauce" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-600x600.jpg 600w" data-lazy-sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-500x500.jpg" /><noscript><img width="500" height="500" src="https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-500x500.jpg" class="post-image entry-image" alt="a pan of chicken cutlets in a mushroom sauce" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2021/10/Chicken-Marsala-003b-600x600.jpg 600w" sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/chicken-dishes/" class="entry-title-link" >
+
+	Poultry
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-3 lg-col-6">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/soups/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="500" height="500" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E" class="post-image entry-image" alt="A bowl of creamy celery soup garnished with celery chunks, freshly ground black pepper, served on a white plate with a basket of bread in the background." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-96x96.jpg 96w" data-lazy-sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-500x500.jpg" /><noscript><img width="500" height="500" src="https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-500x500.jpg" class="post-image entry-image" alt="A bowl of creamy celery soup garnished with celery chunks, freshly ground black pepper, served on a white plate with a basket of bread in the background." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2018/11/Celery-Soup-1-7-96x96.jpg 96w" sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/soups/" class="entry-title-link" >
+
+	Soups
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-2 md-col-3 lg-col-6">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/seafood/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="500" height="500" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20500%20500'%3E%3C/svg%3E" class="post-image entry-image" alt="Spaghetti with Clam Sauce served on a pplate with the clams still in their shells and a fork next to the dish" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-300x300.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-75x75.jpg 75w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-190x190.jpg 190w" data-lazy-sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-500x500.jpg" /><noscript><img width="500" height="500" src="https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-500x500.jpg" class="post-image entry-image" alt="Spaghetti with Clam Sauce served on a pplate with the clams still in their shells and a fork next to the dish" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-500x500.jpg 500w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-150x150.jpg 150w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-650x650.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-180x180.jpg 180w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-600x600.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-300x300.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-75x75.jpg 75w, https://www.errenskitchen.com/wp-content/uploads/2018/04/Spaghetti-with-Clam-Sauce-3-190x190.jpg 190w" sizes="(min-width: 1024px) 399px, (min-width: 768px) calc((100vw - 24px) * .4 - 16px), calc(100vw - 20px)" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/seafood/" class="entry-title-link" >
+
+	Seafood
+		</a>
+
+	
+	</h3>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div>
+			</div>
+
+			
+
+	<span class="more-link-container"><a class="more-link" href="https://www.errenskitchen.com/category/main-dishes/">Browse All Recipes <span class="icon-font icon-long-arrow"></span></a></span>
+
+
+		</div>
+
+	</div>
+
+<div class="featured-images">
+
+	<div class="wrap">
+
+		<p class="section-title">Featured On</p>
+		<div class="logos">
+
+			
+				<div class="featured-image">
+
+					<img width="151" height="60" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20151%2060'%3E%3C/svg%3E" class="attachment-placement-logo size-placement-logo" alt="Better Homes and Gardens logo" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-151x60.png 151w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-300x119.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-1024x406.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-768x304.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-340x135.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-650x258.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg.png 1062w" data-lazy-sizes="132px" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-151x60.png" /><noscript><img width="151" height="60" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-151x60.png" class="attachment-placement-logo size-placement-logo" alt="Better Homes and Gardens logo" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-151x60.png 151w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-300x119.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-1024x406.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-768x304.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-340x135.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg-650x258.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/bhg.png 1062w" sizes="132px" /></noscript>
+				</div>
+
+			
+				<div class="featured-image">
+
+					<img width="230" height="60" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20230%2060'%3E%3C/svg%3E" class="attachment-placement-logo size-placement-logo" alt="Cosmopolitan Magazine logo" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-230x60.png 230w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-300x78.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-1024x267.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-768x200.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-1536x400.png 1536w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-2048x534.png 2048w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-340x89.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-650x169.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan.png 1200w" data-lazy-sizes="132px" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-230x60.png" /><noscript><img width="230" height="60" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-230x60.png" class="attachment-placement-logo size-placement-logo" alt="Cosmopolitan Magazine logo" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-230x60.png 230w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-300x78.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-1024x267.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-768x200.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-1536x400.png 1536w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-2048x534.png 2048w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-340x89.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan-650x169.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/sosmopolitan.png 1200w" sizes="132px" /></noscript>
+				</div>
+
+			
+				<div class="featured-image">
+
+					<img width="155" height="60" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20155%2060'%3E%3C/svg%3E" class="attachment-placement-logo size-placement-logo" alt="The Huffington Post logo" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-155x60.png 155w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-300x116.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-1024x396.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-768x297.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-1536x594.png 1536w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-340x131.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-650x251.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington.png 1200w" data-lazy-sizes="132px" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-155x60.png" /><noscript><img width="155" height="60" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-155x60.png" class="attachment-placement-logo size-placement-logo" alt="The Huffington Post logo" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-155x60.png 155w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-300x116.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-1024x396.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-768x297.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-1536x594.png 1536w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-340x131.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington-650x251.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/huffington.png 1200w" sizes="132px" /></noscript>
+				</div>
+
+			
+				<div class="featured-image">
+
+					<img width="339" height="60" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20339%2060'%3E%3C/svg%3E" class="attachment-placement-logo size-placement-logo" alt="BuzzFeed logo" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-339x60.png 339w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-300x53.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-1024x181.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-768x136.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-1536x272.png 1536w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-2048x363.png 2048w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-340x60.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-650x115.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1.png 1200w" data-lazy-sizes="132px" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-339x60.png" /><noscript><img width="339" height="60" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-339x60.png" class="attachment-placement-logo size-placement-logo" alt="BuzzFeed logo" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-339x60.png 339w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-300x53.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-1024x181.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-768x136.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-1536x272.png 1536w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-2048x363.png 2048w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-340x60.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1-650x115.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/buzzfeed-1.png 1200w" sizes="132px" /></noscript>
+				</div>
+
+			
+				<div class="featured-image">
+
+					<img width="191" height="60" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20191%2060'%3E%3C/svg%3E" class="attachment-placement-logo size-placement-logo" alt="Woman&#039;s Day logo" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-191x60.png 191w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-300x94.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-1024x321.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-768x241.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-340x107.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-650x204.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day.png 1200w" data-lazy-sizes="132px" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-191x60.png" /><noscript><img width="191" height="60" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-191x60.png" class="attachment-placement-logo size-placement-logo" alt="Woman&#039;s Day logo" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-191x60.png 191w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-300x94.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-1024x321.png 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-768x241.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-340x107.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day-650x204.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/womens-day.png 1200w" sizes="132px" /></noscript>
+				</div>
+
+			
+				<div class="featured-image">
+
+					<img width="212" height="60" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20212%2060'%3E%3C/svg%3E" class="attachment-placement-logo size-placement-logo" alt="Parade Magazine logo" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-212x60.png 212w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-300x85.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-768x217.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-340x96.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-650x184.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade.png 1000w" data-lazy-sizes="132px" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-212x60.png" /><noscript><img width="212" height="60" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-212x60.png" class="attachment-placement-logo size-placement-logo" alt="Parade Magazine logo" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-212x60.png 212w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-300x85.png 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-768x217.png 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-340x96.png 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade-650x184.png 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/parade.png 1000w" sizes="132px" /></noscript>
+				</div>
+
+			
+		</div>
+
+	</div>
+
+</div></main></div>
+	<div class="manual-features footer-features">
+
+		<div class="wrap">
+
+			
+				<div class="title-description-container">
+
+					
+						<h2 class="section-title">Recipes To Rely On - From My Kitchen To Yours</h2>
+
+					
+				</div>
+
+			
+			<div class="articles-container flexbox"> 
+				<div class="entry sm-col-1 md-col-3">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/main-dishes/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="1100" height="731" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201100%20731'%3E%3C/svg%3E" class="post-image entry-image" alt="" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index.jpg 1100w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-300x199.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-1024x680.jpg 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-768x510.jpg 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-90x60.jpg 90w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-340x226.jpg 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-650x432.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-600x400.jpg 600w" data-lazy-sizes="(max-width: 1100px) 100vw, 1100px" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index.jpg" /><noscript><img width="1100" height="731" src="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index.jpg" class="post-image entry-image" alt="" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index.jpg 1100w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-300x199.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-1024x680.jpg 1024w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-768x510.jpg 768w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-90x60.jpg 90w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-340x226.jpg 340w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-650x432.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2020/03/home-footer-recipe-index-600x400.jpg 600w" sizes="(max-width: 1100px) 100vw, 1100px" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/main-dishes/" class="entry-title-link" >
+
+	Recipe Index
+		</a>
+
+	
+	</h3>
+
+
+	<div class="entry-excerpt"><span style="font-weight: 400;">Find the perfect food and drink ideas for any occasion.</span></div>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-1 md-col-3">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/italian-food/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="1200" height="800" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20800'%3E%3C/svg%3E" class="post-image entry-image" alt="a landscape image of a white plate full of shrimp pasta" decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta.jpg 1200w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-300x200.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-1024x683.jpg 1024w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-768x512.jpg 768w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-90x60.jpg 90w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-340x227.jpg 340w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-650x433.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-600x400.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-150x100.jpg 150w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta.jpg" /><noscript><img width="1200" height="800" src="https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta.jpg" class="post-image entry-image" alt="a landscape image of a white plate full of shrimp pasta" decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta.jpg 1200w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-300x200.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-1024x683.jpg 1024w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-768x512.jpg 768w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-90x60.jpg 90w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-340x227.jpg 340w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-650x433.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-600x400.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2023/04/Shrimp-Pasta-150x100.jpg 150w" sizes="(max-width: 1200px) 100vw, 1200px" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/italian-food/" class="entry-title-link" >
+
+	Italian Recipes
+		</a>
+
+	
+	</h3>
+
+
+	<div class="entry-excerpt"><span style="font-weight: 400;">From pasta and sauces to soup or risotto, find favorite Italian recipes everyone will love</span><span style="font-weight: 400;">!</span></div>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div><div class="entry sm-col-1 md-col-3">
+
+	<div class="entry-header">
+
+				<a href="https://www.errenskitchen.com/category/monday-morning-catch-up/" class="entry-image-link" aria-hidden="true" tabindex="-1">
+
+		<img width="1200" height="800" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%20800'%3E%3C/svg%3E" class="post-image entry-image" alt="Erren and her husband, Wayne in a park like setting." decoding="async" data-lazy-srcset="https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1.jpg 1200w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-300x200.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-1024x683.jpg 1024w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-768x512.jpg 768w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-90x60.jpg 90w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-340x227.jpg 340w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-650x433.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-600x400.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-150x100.jpg 150w" data-lazy-sizes="(max-width: 1200px) 100vw, 1200px" data-lazy-src="https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1.jpg" /><noscript><img width="1200" height="800" src="https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1.jpg" class="post-image entry-image" alt="Erren and her husband, Wayne in a park like setting." decoding="async" srcset="https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1.jpg 1200w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-300x200.jpg 300w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-1024x683.jpg 1024w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-768x512.jpg 768w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-90x60.jpg 90w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-340x227.jpg 340w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-650x433.jpg 650w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-600x400.jpg 600w, https://www.errenskitchen.com/wp-content/uploads/2024/02/Erren-_-Wayne-1-150x100.jpg 150w" sizes="(max-width: 1200px) 100vw, 1200px" /></noscript>
+		</a>
+
+	
+	</div>
+
+	<div class="entry-content">
+
+		
+	<h3 class="entry-title sbgd-edit">
+
+	
+		<a href="https://www.errenskitchen.com/category/monday-morning-catch-up/" class="entry-title-link" >
+
+	Life Stories
+		</a>
+
+	
+	</h3>
+
+
+	<div class="entry-excerpt"><span style="font-weight: 400;">Grab a cup of coffee and visit while Erren shares stories from life outside the kitchen.</span></div>
+
+
+	</div>
+
+	<div class="entry-footer">
+
+		
+	</div>
+
+</div>
+			</div>
+
+			
+		</div>
+
+	</div>
+
+<footer class="site-footer"><div class="wrap"><div class="footer-columns">
+
+	<div class="wrap flexbox">
+
+		<div class="sm-col-1 footer-logo">
+
+			<span class="logo-mark"></span>
+
+		</div>
+
+		<div class="sm-col-1 footer-subscribe">
+
+			
+	<div class="subscribe">
+
+		<div class="wrap">
+
+			
+				<div class="not-form">
+
+					
+					<div class="titles">
+
+						
+							<h2 class="title">Still hungry?</h2>
+
+						
+					</div>
+
+					
+						<div class="details">
+
+							<p class="description">Subscribe to my Newsletter for all my latest recipes!</p>
+
+						</div>
+
+					
+				</div>
+
+			
+			<div class="form"><form id="ema_signup_form_footer" target="_blank" action="https://madmimi.com/signups/subscribe/e4573f2d90cd40fbbde3e8a2b332b76e" accept-charset="UTF-8" method="post">
+       <input name="utf8" type="hidden" value="✓"/>
+       <div class="mimi_field required">
+          <label for="signup_email_footer"><span class="screen-reader-text">Enter your email</span><input id="signup_email_footer" name="signup[email]" type="text" data-required-field="This field is required" placeholder="Enter your email..."/></label>
+       </div>
+       <div style="background: white; font-size:1px; height: 0; overflow: hidden">
+          <input tabindex="-1" type="text" name="1d73535294ba267a513b746494162cea" style="font-size: 1px; width: 1px !important; height:1px !important; border:0 !important; line-height: 1px !important; padding: 0 0; min-height:1px !important;" aria-hidden="true" />
+          <input tabindex="-1" class="checkbox" type="checkbox" name="beacon" aria-hidden="true" />
+       </div>
+       <div class="mimi_field">
+          <input type="submit" class="submit" value="Subscribe" id="webform_submit_button_footer" data-default-text="Subscribe" data-submitting-text="Sending..." data-invalid-text="↑ You forgot some required fields" data-choose-list="↑ Choose a list" data-thanks="Thank you!"/>
+       </div>
+</form></div>
+
+		</div>
+
+	</div>
+
+
+		</div>
+
+		<div class="sm-col-1 footer-menu">
+
+			<nav class="nav-footer" id="genesis-nav-footer"><div class="wrap"><ul id="menu-footer" class="menu genesis-nav-menu js-superfish"><li id="menu-item-22853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22853"><a href="https://www.errenskitchen.com/about/"><span >Meet Erren</span></a></li>
+<li id="menu-item-22854" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22854"><a href="https://www.errenskitchen.com/category/monday-morning-catch-up/"><span >Life Updates</span></a></li>
+<li id="menu-item-22855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22855"><a href="https://www.errenskitchen.com/contact-me/work-with-me/"><span >Work With Me</span></a></li>
+<li id="menu-item-22856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22856"><a href="https://www.errenskitchen.com/contact-me/"><span >Contact</span></a></li>
+<li id="menu-item-22858" class="col-break pad-left menu-item menu-item-type-post_type menu-item-object-page menu-item-22858"><a href="https://www.errenskitchen.com/recipes/"><span >Recipes</span></a></li>
+<li id="menu-item-22861" class="pad-left menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22861"><a href="https://www.errenskitchen.com/category/main-dishes/"><span >Dinner Ideas</span></a></li>
+<li id="menu-item-22859" class="pad-left menu-item menu-item-type-post_type menu-item-object-page menu-item-22859"><a href="https://www.errenskitchen.com/cooking-conversions/"><span >Conversion Guide</span></a></li>
+<li id="menu-item-22860" class="pad-left menu-item menu-item-type-taxonomy menu-item-object-category menu-item-22860"><a href="https://www.errenskitchen.com/category/quick-and-easy/"><span >Quick and Easy</span></a></li>
+</ul></div></nav>
+		</div>
+
+	</div>
+
+</div>
+
+<div class="footer-bottom">
+
+	<div class="wrap">
+
+		<div class="footer-content">
+
+			
+	<div class="social">
+
+		<div class="wrap">
+
+			
+			
+								<a class="social-icon" href="https://www.facebook.com/errenskitchen/" target="_blank" aria-label="Follow us on Facebook"><span class="icon icon-font icon-facebook"></span></a>
+
+				
+								<a class="social-icon" href="https://instagram.com/errenskitchen" target="_blank" aria-label="Follow us on Instagram"><span class="icon icon-font icon-instagram"></span></a>
+
+				
+								<a class="social-icon" href="https://www.pinterest.com/errenskitchen/" target="_blank" aria-label="Follow us on Pinterest"><span class="icon icon-font icon-pinterest"></span></a>
+
+				
+								<a class="social-icon" href="https://twitter.com/ErrensKitchen" target="_blank" aria-label="Follow us on Twitter"><span class="icon icon-font icon-twitter"></span></a>
+
+				
+		</div>
+
+	</div>
+
+<nav class="nav-privacy" id="genesis-nav-privacy"><div class="wrap"><ul id="menu-privacy" class="menu genesis-nav-menu js-superfish limit-depth-1"><li id="menu-item-22862" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22862"><a href="https://www.errenskitchen.com/contact-me/"><span >Contact</span></a></li>
+<li id="menu-item-22864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22864"><a href="https://www.errenskitchen.com/privacy-policy/"><span >Erren&#8217;s Kitchen Privacy Policy</span></a></li>
+<li id="menu-item-22863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22863"><a href="https://www.errenskitchen.com/disclaimer/"><span >Disclaimer</span></a></li>
+</ul></div></nav>
+			<div class="footer-credits">
+
+				<span class="copyright">&#x000A9;&nbsp;2013&#x02013;2024 &middot; </span>
+
+				<span class="site-credits-container">
+					<a class="credits-text" href="/about/#credits">Site Credits</a>
+				</span>
+
+			</div>
+
+		</div>
+
+		<div class="footer-scroll">
+
+			<a href="#genesis-nav-primary" class="smooth-scroll back-to-top"><span class="back-to-top-text">Back to Top</span> <span class="icon-font icon-arrow up thin"></span></a>
+
+		</div>
+
+	</div>
+
+</div></div></footer></div><div id="mv-grow-data" data-settings='{&quot;general&quot;:{&quot;contentSelector&quot;:false,&quot;show_count&quot;:{&quot;content&quot;:false,&quot;sidebar&quot;:true,&quot;pop_up&quot;:true,&quot;sticky_bar&quot;:false},&quot;isTrellis&quot;:false},&quot;post&quot;:null,&quot;shareCounts&quot;:{&quot;pinterest&quot;:8136,&quot;twitter&quot;:0},&quot;shouldRun&quot;:true,&quot;utmParams&quot;:{&quot;utm_source&quot;:&quot;&quot;,&quot;utm_medium&quot;:&quot;social&quot;,&quot;utm_campaign&quot;:&quot;social-pug&quot;},&quot;pinterest&quot;:{&quot;pinDescriptionSource&quot;:&quot;post_pinterest_description&quot;,&quot;pinDescription&quot;:null,&quot;pinTitle&quot;:null,&quot;pinImageURL&quot;:null,&quot;pinnableImages&quot;:&quot;post_custom_images&quot;,&quot;postImageHidden&quot;:&quot;yes&quot;,&quot;postImageHiddenMultiple&quot;:&quot;yes&quot;,&quot;lazyLoadCompatibility&quot;:&quot;yes&quot;,&quot;buttonPosition&quot;:&quot;center&quot;,&quot;buttonShape&quot;:&quot;circle&quot;,&quot;showButtonLabel&quot;:null,&quot;buttonLabelText&quot;:&quot;&quot;,&quot;buttonShareBehavior&quot;:&quot;all_images&quot;,&quot;hoverButtonShareBehavior&quot;:&quot;hover_image&quot;,&quot;minimumImageWidth&quot;:&quot;&quot;,&quot;minimumImageHeight&quot;:&quot;&quot;,&quot;showImageOverlay&quot;:&quot;yes&quot;,&quot;postTypeDisplay&quot;:[&quot;post&quot;],&quot;imagePinIt&quot;:&quot;0&quot;,&quot;hasContent&quot;:&quot;1&quot;,&quot;shareURL&quot;:&quot;https:\/\/www.errenskitchen.com\/?utm_source=pinterest&amp;utm_medium=social&amp;utm_campaign=social-pug&quot;,&quot;bypassClasses&quot;:[&quot;mv-grow-bypass&quot;,&quot;no_pin&quot;],&quot;bypassDenyClasses&quot;:[&quot;dpsp-post-pinterest-image-hidden-inner&quot;,&quot;mv-create-pinterest&quot;],&quot;ignoreSelectors&quot;:[],&quot;hoverButtonIgnoreClasses&quot;:[&quot;lazyloaded&quot;,&quot;lazyload&quot;,&quot;td-animation-stack&quot;,&quot;ezlazyloaded&quot;,&quot;penci-lazy&quot;,&quot;ut-lazy&quot;,&quot;ut-image-loaded&quot;,&quot;ut-animated-image&quot;],&quot;disableIframes&quot;:null}}'></div>	<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+		function atomicBlocksShare( url, title, w, h ){
+			var left = ( window.innerWidth / 2 )-( w / 2 );
+			var top  = ( window.innerHeight / 2 )-( h / 2 );
+			return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width=600, height=600, top='+top+', left='+left);
+		}
+	</script>
+	<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/plugins/faq-schema-block-to-accordion/assets/js/YSFA-JS.min.js?ver=1.0.5" id="YSFA-js-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/atomic-blocks/dist/assets/js/dismiss.js?ver=1712871424" id="atomic-blocks-dismiss-js-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-includes/js/hoverIntent.min.js?ver=1.10.2" id="hoverIntent-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/themes/genesis/lib/js/menu/superfish.min.js?ver=1.7.10" id="superfish-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/assets/js/superfish-args.min.js?ver=3.5.0" id="superfish-args-js" defer></script>
+<script type="text/javascript" id="once-coupled-errens-kitchen-responsive-menu-js-extra">
+/* <![CDATA[ */
+var responsive_menu_params = {"mainMenu":"Main Menu","subMenu":"Submenu","menuClasses":{"combine":[".nav-primary",".nav-secondary"],"others":[]}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/assets/js/responsive-menu.min.js?ver=1621267677" id="once-coupled-errens-kitchen-responsive-menu-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/assets/js/global.min.js?ver=1621267677" id="once-coupled-errens-kitchen-global-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/assets/js/webp-backgrounds.min.js?ver=1621267677" id="once-coupled-errens-kitchen-webp-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/lib/components/lity/assets/lity.min.js?ver=1621267677" id="once-coupled-errens-kitchen-lity-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/assets/js/share.min.js?ver=1621267677" id="once-coupled-errens-kitchen-share-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/themes/once-coupled-errens-kitchen-2/assets/js/vendor/track-focus.min.js?ver=1621267677" id="once-coupled-errens-kitchen-track-focus-js" defer></script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.5.0" id="skip-links-js" defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/cache/min/1/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1712871424" id="wp-gallery-custom-links-js-js" defer></script>
+<script type="text/javascript" id="mimi-main-js-extra">
+/* <![CDATA[ */
+var MadMimi = {"thankyou":"Thank you for signing up!","thankyou_suppressed":"Thank you for signing up! Please check your email to confirm your subscription.","oops":"Oops! There was a problem. Please try again.","fix":"There was a problem. Please fill all required fields."};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.errenskitchen.com/wp-content/plugins/mad-mimi-sign-up-forms/js/mimi.min.js?ver=1.5.1" id="mimi-main-js" defer></script>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.errenskitchen.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script></body></html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1713560617 -->
