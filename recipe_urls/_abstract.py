@@ -9,8 +9,10 @@ class AbstractScraper:
     UNWANTED_PATTERNS = []
     CUSTOM_HREF = ("a", {"href": True})
 
+
     def __init__(self, base_url: Optional[str] = None, html: Optional[str] = None):
         self.base_url = base_url
+
         if not html:
             try:
                 response = requests.get(
@@ -22,6 +24,7 @@ class AbstractScraper:
                 response.raise_for_status()
                 self.html = response.content
                 self.soup = BeautifulSoup(self.html, "html.parser")
+
             except HTTPError as e:
                 if e.response.status_code == 403:
                     raise Exception(
@@ -31,8 +34,10 @@ class AbstractScraper:
                     raise Exception(
                         f"HTTP error occurred: {e.response.status_code}."
                     ) from e
+
             except RequestException as e:
                 raise Exception(f"Request failed: {e}.") from e
+
             except Exception as e:
                 raise Exception(
                     f"Unexpected error accessing {self.base_url}: {e}."
@@ -41,20 +46,29 @@ class AbstractScraper:
             self.html = html
             self.soup = BeautifulSoup(self.html, "html.parser")
 
+
     def scrape(self) -> List[str]:
+
         try:
             tag, attrs = self.CUSTOM_HREF
             attrs["href"] = True
             href_links = [a["href"] for a in self.soup.find_all(tag, attrs)]
+
         except (TypeError, AttributeError) as e:
             raise ValueError(f"Failed to extract href links: {e}") from e
+
         return self.filter_links(href_links)
 
+
     def filter_links(self, href_links: List[str]) -> List[str]:
+        
         unique_links = {link for link in href_links if self.is_recipe_link(link)}
         return list(unique_links)
 
+
     def is_recipe_link(self, link: str) -> bool:
+
         if self.RECIPE_PATTERN and self.RECIPE_PATTERN.search(link):
             return not any(pattern.search(link) for pattern in self.UNWANTED_PATTERNS)
+
         return False
