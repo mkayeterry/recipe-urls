@@ -6,15 +6,6 @@ class CdKitchenScraper(AbstractScraper):
     RECIPE_PATTERN = re.compile(
         r"https://www\.cdkitchen\.com/recipes/[\w-]+/\d+/[\w-]+\.shtml"
     )
-    UNWANTED_PATTERNS = [
-        re.compile(pattern)
-        for pattern in [
-            "category",
-            "can",
-            "options",
-            "recipes",
-        ]
-    ]
 
     @classmethod
     def host(cls):
