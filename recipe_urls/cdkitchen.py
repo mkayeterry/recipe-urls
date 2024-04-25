@@ -4,7 +4,7 @@ from recipe_urls._abstract import AbstractScraper
 
 class CdKitchenScraper(AbstractScraper):
     RECIPE_PATTERN = re.compile(
-        r"https://www\.cdkitchen\.com/recipes/[\w-]+/\d+/[\w-]+[\w-]+\.shtml"
+        r"https://www\.cdkitchen\.com/recipes/[\w-]+/\d+/[\w-]+\.shtml"
     )
     UNWANTED_PATTERNS = [
         re.compile(pattern)

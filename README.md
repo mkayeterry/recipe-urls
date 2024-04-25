@@ -19,7 +19,7 @@ from recipe_urls import scrape_urls
 ## Example usage
 
 ```python
-base_urls = ['https://bakingmischief.com', 'https://www.allrecipes.com']
+base_urls = ['https://bakingmischief.com', 'https://www.allrecipes.com/recipes/80/main-dish/']
 compiled_recipe_links = []
 
 for base_url in base_urls:
