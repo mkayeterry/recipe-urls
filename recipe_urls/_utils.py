@@ -102,7 +102,8 @@ SITE_ORIGINS = [
     'www.simplywhisked.com', 
     'www.tasteofhome.com', 
     'tasty.co', 
-    'www.wellplated.com'
+    'www.wellplated.com', 
+    'whole30.com'
 ]
 
 def extract_base_domain(domain: str) -> str:

@@ -104,6 +104,7 @@ from recipe_urls.simplywhisked import SimplyWhiskedScraper
 from recipe_urls.tasteofhome import TasteOfHomeScraper
 from recipe_urls.tasty import TastyScraper
 from recipe_urls.wellplated import WellPlatedScraper
+from recipe_urls.whole30 import Whole30Scraper
 
 
 
@@ -207,7 +208,8 @@ SCRAPERS = {
     SimplyWhiskedScraper.host(): SimplyWhiskedScraper, 
     TasteOfHomeScraper.host(): TasteOfHomeScraper, 
     TastyScraper.host(): TastyScraper, 
-    WellPlatedScraper.host(): WellPlatedScraper
+    WellPlatedScraper.host(): WellPlatedScraper, 
+    Whole30Scraper.host(): Whole30Scraper
 }
 
 def scrape_urls(base_url: str) -> Optional[AbstractScraper]:

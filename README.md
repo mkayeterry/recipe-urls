@@ -129,6 +129,7 @@ for base_url in base_urls:
 - https://www.tasteofhome.com
 - https://tasty.co
 - https://www.wellplated.com
+- https://whole30.com
 
 
 ## Acknowledgments 
