@@ -7,6 +7,7 @@ class CastIronKetoScraper(AbstractScraper):
     UNWANTED_PATTERNS = [
         re.compile(pattern)
         for pattern in [
+            "calculator", 
             "category",
             "can",
             "options",

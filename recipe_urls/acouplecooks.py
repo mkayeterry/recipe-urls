@@ -3,7 +3,7 @@ from recipe_urls._abstract import AbstractScraper
 
 
 class ACoupleCooksScraper(AbstractScraper):
-    RECIPE_PATTERN = re.compile(r"https://abuelascounter\.com/[\w-]+-[\w-]+/")
+    RECIPE_PATTERN = re.compile(r"https://www\.acouplecooks\.com/[\w-]+-[\w-]+/")
     UNWANTED_PATTERNS = [
         re.compile(pattern)
         for pattern in [

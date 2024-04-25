@@ -12,47 +12,40 @@
   xmlns:schema="http://schema.org/">
 <head>
 <meta charset="utf-8" />
-<link rel="alternate" type="application/rss+xml" title="JustBento RSS" href="https://justbento.com/rss.xml" />
+<link rel="alternate" type="application/rss+xml" title="Complete List of Bento Friendly Recipes" href="https://justbento.com/recipes.xml" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <link rel="shortcut icon" href="https://justbento.com/hinomaru.ico" type="image/vnd.microsoft.icon" />
-<link rel="canonical" href="https://justbento.com/" />
-<link rel="shortlink" href="https://justbento.com/" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://justbento.com/" />
-<meta property="og:title" content="JustBento" />
-<meta property="og:description" content="Easy, delicious, healthy bento recipes, how-tos &amp; more." />
-<meta name="twitter:site" content="@makiwi" />
-<meta name="twitter:creator" content="@makiwi" />
-<meta name="twitter:url" content="https://justbento.com/" />
-<meta name="twitter:title" content="JustBento" />
-<meta name="twitter:description" content="Easy, delicious, healthy bento recipes, how-tos &amp; more." />
-<meta name="dcterms.title" content="JustBento" />
-<meta name="dcterms.description" content="Easy, delicious, healthy bento recipes, how-tos &amp; more." />
-<meta name="dcterms.identifier" content="https://justbento.com/" />
-<!-- adsense auto ads: page not in match list --><title>JustBento | Easy, delicious, healthy bento recipes, how-tos & more.</title>
+<link rel="canonical" href="https://justbento.com/recipes/all" />
+<link rel="shortlink" href="https://justbento.com/recipes/all" />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-7580734718827345",
+    enable_page_level_ads: true
+  });
+</script><title>Complete List of Bento Friendly Recipes | JustBento</title>
 <link type="text/css" rel="stylesheet" href="https://justbento.com/files/bento/css/css_xE-rWrJf-fncB6ztZfd2huxqgxu4WO-qwma6Xer30m4.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://justbento.com/files/bento/css/css_5SA2p0bD1ortG_8tMQfQht1EB-6V_57GPEq6uxolIL0.css" media="all" />
-<link type="text/css" rel="stylesheet" href="https://justbento.com/files/bento/css/css_QOiElZTuTviEzXrgTqn9OoPqbi8iG0yXyzMGs4mltK0.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://justbento.com/files/bento/css/css_dAFghBzWgzqWNQkdBdbyFlrf9EQZUjphbygx1hwmLrQ.css" media="all" />
 <link type="text/css" rel="stylesheet" href="https://justbento.com/files/bento/css/css_9WFJO_SXUfdMTRQLV5WGRbmwn0qRDZRNKJ6mYZQTbvQ.css" media="all" />
 <script type="text/javascript" src="https://justbento.com/files/bento/js/js_j5W_mDYPYodFoB9SELNeyhZKt2KHVWfaFjhn4SGffDE.js"></script>
-<script type="text/javascript" src="https://justbento.com/files/bento/js/js_TVTqjz8JHRb2KK9hlzuk0YsjzD013dKyYX_OTz-2VXU.js"></script>
 <script type="text/javascript" src="https://justbento.com/files/bento/js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
-<script type="text/javascript" src="https://justbento.com/files/bento/js/js_XM6iW5HkMRnnJ4V2gVgOG6XhEV7tFb6vCqMm7TiqDag.js"></script>
+<script type="text/javascript" src="https://justbento.com/files/bento/js/js_4gLDpw18nkYRE3a9jc5HcFHa4giqy_SuJAtRGzpRkpw.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
 (function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-783340-3", {"cookieDomain":".justbento.com"});ga("set", "anonymizeIp", true);ga("send", "pageview");
 //--><!]]>
 </script>
-<script type="text/javascript" src="https://justbento.com/files/bento/js/js_7uiVjdsQTmGV_0s85LwbJoYncTgT6woRZB745njJLX0.js"></script>
+<script type="text/javascript" src="https://justbento.com/files/bento/js/js_ATno7PC8Ybg69IbqUZyROmSPkMjDSxGQJ-orlg693vM.js"></script>
 <script type="text/javascript" src="https://justbento.com/files/bento/js/js_38dYfT5tBcNRDpGLvmZst3EvwIKHRrNMAUPl_CmZHoU.js"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexus","theme_token":"qss477lPb5bOSjSb74JoL5Wkhgcu-VjDqv1Q8fl2zKo","js":{"0":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/eu_cookie_compliance.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.9\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/eu_cookie_compliance\/js\/jquery.cookie-1.4.1.min.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/themes\/nexus\/js\/jquery.flexslider.js":1,"sites\/all\/themes\/nexus\/js\/slide.js":1,"sites\/all\/modules\/behavior_weights\/behavior_weights.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/modules\/field_group\/field_group.js":1,"sites\/all\/libraries\/fontawesome\/js\/all.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/nexus\/js\/bootstrap.min.js":1,"sites\/all\/themes\/nexus\/js\/superfish.js":1,"sites\/all\/themes\/nexus\/js\/mobilemenu.js":1,"sites\/all\/themes\/nexus\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/eu_cookie_compliance\/css\/eu_cookie_compliance.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/style\/white.css":1,"public:\/\/ctools\/css\/b3a16b7aa91688ecdd969b9f72e5345a.css":1,"sites\/all\/themes\/nexus\/css\/bootstrap.min.css":1,"sites\/all\/themes\/nexus\/css\/flexslider.css":1,"sites\/all\/themes\/nexus\/style.css":1}},"eu_cookie_compliance":{"cookie_policy_version":"1.0.0","popup_enabled":1,"popup_agreed_enabled":0,"popup_hide_agreed":0,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EWe use cookies on this site to enhance your user experienceBy clicking the Accept button, you agree to us doing so.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ENo, give me more info\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EOK, I agree\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003ENo, thanks\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info eu-cookie-compliance-banner--opt-in\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EWe use cookies on this site to enhance your user experienceBy tapping the Accept button, you agree to us doing so.\u003C\/p\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ENo, give me more info\u003C\/button\u003E\n          \u003C\/div\u003E\n    \n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-secondary-button\u0022\u003EOK, I agree\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022decline-button eu-cookie-compliance-default-button\u0022 \u003ENo, thanks\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","mobile_breakpoint":"768","popup_html_agreed":"\u003Cdiv\u003E\n  \u003Cdiv class=\u0022popup-content agreed\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Cp\u003EThank you for accepting cookiesYou can now hide this message or find out more about cookies.\u003C\/p\u003E\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022hide-popup-button eu-cookie-compliance-hide-button\u0022\u003EHide\u003C\/button\u003E\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button-thank-you\u0022 \u003EMore info\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","popup_use_bare_css":false,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/site-information\/privacy-policy","popup_link_new_window":1,"popup_position":null,"fixed_top_position":1,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":0,"reload_page":0,"domain":"","domain_all_sites":0,"popup_eu_only_js":0,"cookie_lifetime":"100","cookie_session":false,"disagree_do_not_show_popup":0,"method":"opt_in","allowed_cookies":"","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E\n","withdraw_enabled":false,"withdraw_button_on_info_popup":0,"cookie_categories":[],"cookie_categories_details":[],"enable_save_preferences_button":1,"cookie_name":"","containing_element":"body","automatic_cookies_removal":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":1},"superfish":{"menu-1":{"id":"1","sf":{"pathClass":"active-trail","animation":{"opacity":"show","height":"show"},"speed":"fast"},"plugins":{"supposition":true,"supersubs":true}}},"field_group":{"fieldset":"teaser"}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nexus","theme_token":"raklKAYRfVz0ML1L71Vw-tkgOFSeKR3bOb9KWVwt_Jg","js":{"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.9\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"sites\/all\/modules\/behavior_weights\/behavior_weights.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1,"sites\/all\/libraries\/fontawesome\/js\/all.js":1,"sites\/all\/libraries\/superfish\/jquery.hoverIntent.minified.js":1,"sites\/all\/libraries\/superfish\/supposition.js":1,"sites\/all\/libraries\/superfish\/superfish.js":1,"sites\/all\/libraries\/superfish\/supersubs.js":1,"sites\/all\/modules\/superfish\/superfish.js":1,"sites\/all\/themes\/nexus\/js\/bootstrap.min.js":1,"sites\/all\/themes\/nexus\/js\/superfish.js":1,"sites\/all\/themes\/nexus\/js\/mobilemenu.js":1,"sites\/all\/themes\/nexus\/js\/custom.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/book\/book.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"modules\/forum\/forum.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/superfish\/css\/superfish.css":1,"sites\/all\/libraries\/superfish\/css\/superfish-navbar.css":1,"sites\/all\/libraries\/superfish\/style\/white.css":1,"sites\/all\/themes\/nexus\/css\/bootstrap.min.css":1,"sites\/all\/themes\/nexus\/css\/flexslider.css":1,"sites\/all\/themes\/nexus\/style.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackDomainMode":1},"superfish":{"menu-1":{"id":"1","sf":{"pathClass":"active-trail","animation":{"opacity":"show","height":"show"},"speed":"fast"},"plugins":{"supposition":true,"supersubs":true}}}});
 //--><!]]>
 </script>
 <!--[if lt IE 9]><script src="/sites/all/themes/nexus/js/html5.js"></script><![endif]-->
 </head>
-<body class="html front not-logged-in one-sidebar sidebar-first page-node">
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-recipes page-recipes-all">
     <div id="page">
   <header id="masthead" class="site-header container" role="banner">
     <div class="row">
@@ -67,10 +60,17 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
         <div class="mobilenavi"></div>
         <nav id="navigation" role="navigation">
           <div id="main-menu">
-            <ul class="menu"><li class="first leaf"><a href="/" title="Home page" class="active">Home</a></li>
+            <ul class="menu"><li class="first leaf"><a href="/" title="Home page">Home</a></li>
 <li class="collapsed"><a href="/handbook/bento-basics" title="Everything you wanted to know about bentos! ">Bento Basics</a></li>
 <li class="leaf"><a href="/bento-menus" title="Examples of complete packed bentos, or bento menus.">Bento Menus</a></li>
-<li class="collapsed"><a href="/recipes" title="Bento-friendly recipes">Recipes</a></li>
+<li class="expanded active-trail"><a href="/recipes" title="Bento-friendly recipes" class="active-trail">Recipes</a><ul class="menu"><li class="first leaf active-trail"><a href="/recipes/all" title="All the recipes on Just Bento" class="active-trail active">All recipes</a></li>
+<li class="leaf"><a href="/recipes/by-type/japanese" title="japanese recipes">Japanese recipes</a></li>
+<li class="leaf"><a href="/recipes/by-type/not-japanese" title="not so Japanese recipes">Not so Japanese recipes</a></li>
+<li class="leaf"><a href="/recipes/by-type/asian-general" title="Asian (note Japanese) recipes">Asian recipes</a></li>
+<li class="leaf"><a href="/recipes/by-type/staples-stash-jobisai" title="stash, staples, jobisai ">Stash recipes</a></li>
+<li class="leaf"><a href="/recipes/by-type/vegetarian" title="vegetarian recipes">Vegetarian recipes</a></li>
+<li class="last leaf"><a href="/recipes/by-type/vegan" title="vegan recipes">Vegan recipes</a></li>
+</ul></li>
 <li class="leaf"><a href="/handbook/site-information" title="About the JustBento site">About</a></li>
 <li class="last collapsed"><a href="/handbook/just-bento-cookbook">In Print</a></li>
 </ul>          </div>
@@ -80,30 +80,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
   </header>
 
 
-        <div id="slidebox" class="flexslider">
-    <ul class="slides">
-      <li>
-        <img src="/sites/all/themes/nexus/images/slide-image-1.jpg"/>
-                  <div class="flex-caption">
-            <h2>What is a bento?</h2>This site is all about portable bento box meals. What are bentos anyway?             <a class="frmore" href="/handbook/bento-basics"> READ MORE </a>
-          </div>
-              </li>
-      <li>
-        <img src="/sites/all/themes/nexus/images/slide-image-2.jpg"/>
-                  <div class="flex-caption">
-            <h2>Bento Inspiration</h2>Check out some packed bento lunches for ideas, and then pack your own!              <a class="frmore" href="/bento-menus"> READ MORE </a>
-          </div>
-              </li>
-      <li>
-        <img src="/sites/all/themes/nexus/images/slide-image-3.jpg"/>
-                  <div class="flex-caption">
-            <h2>Bento-friendly recipes</h2>All the recipes on this site work well in bento boxes!            <a class="frmore" href="/recipes/all"> READ MORE </a>
-          </div>
-              </li>
-    </ul><!-- /slides -->
-    <div class="doverlay"></div>
-  </div>
-    
+  
   
       <div id="header-block">
       <div class="container">
@@ -114,7 +91,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
 
       
   <div class="content">
-    <ul  id="superfish-1" class="menu sf-menu sf-main-menu sf-navbar sf-style-white sf-total-items-6 sf-parent-items-4 sf-single-items-2"><li id="menu-228-1" class="active-trail first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/" title="Home page" class="sf-depth-1 active">Home</a></li><li id="menu-231-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/handbook/bento-basics" title="Everything you wanted to know about bentos! " class="sf-depth-1 menuparent">Bento Basics</a><ul><li id="menu-2858-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/makis-top-10-bento-rules" class="sf-depth-2">Top 10 Bento Rules</a></li><li id="menu-2859-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/selecting-right-bento-lunch-box" class="sf-depth-2">Selecting the Right Bento Box</a></li><li id="menu-2860-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/essential-equipment-and-supplies-making-bento-lunches" class="sf-depth-2">Bento Making Equipment and Supplies</a></li><li id="menu-2861-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/keeping-your-bento-lunch-safe" class="sf-depth-2">Bento Safety</a></li><li id="menu-2862-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/how-freezing-preportioned-rice" class="sf-depth-2">Freezing Pre-cooked Rice </a></li><li id="menu-2863-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/bento-no-39-how-to-fill-bento-box" class="sf-depth-2">How to Pack a Classic Bento Box</a></li><li id="menu-2864-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics" class="sf-depth-2">-- More Bento Basics </a></li></ul></li><li id="menu-229-1" class="middle odd sf-item-3 sf-depth-1"><a href="/bento-menus" title="Examples of complete packed bentos, or bento menus." class="sf-depth-1">Bento Menus</a></li><li id="menu-230-1" class="middle even sf-item-4 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/recipes" title="Bento-friendly recipes" class="sf-depth-1 menuparent">Recipes</a><ul><li id="menu-2870-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/recipes/all" title="All the recipes on Just Bento" class="sf-depth-2">All recipes</a></li><li id="menu-2872-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/recipes/by-type/japanese" title="japanese recipes" class="sf-depth-2">Japanese recipes</a></li><li id="menu-2873-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/recipes/by-type/not-japanese" title="not so Japanese recipes" class="sf-depth-2">Not so Japanese recipes</a></li><li id="menu-2876-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/recipes/by-type/asian-general" title="Asian (note Japanese) recipes" class="sf-depth-2">Asian recipes</a></li><li id="menu-2875-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/recipes/by-type/staples-stash-jobisai" title="stash, staples, jobisai " class="sf-depth-2">Stash recipes</a></li><li id="menu-2871-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/recipes/by-type/vegetarian" title="vegetarian recipes" class="sf-depth-2">Vegetarian recipes</a></li><li id="menu-2874-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="/recipes/by-type/vegan" title="vegan recipes" class="sf-depth-2">Vegan recipes</a></li></ul></li><li id="menu-236-1" class="middle odd sf-item-5 sf-depth-1 sf-no-children"><a href="/handbook/site-information" title="About the JustBento site" class="sf-depth-1">About</a></li><li id="menu-2854-1" class="last even sf-item-6 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/handbook/just-bento-cookbook" class="sf-depth-1 menuparent">In Print</a><ul><li id="menu-2868-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/handbook/just-bento-cookbook" class="sf-depth-2">The Just Bento Cookbook</a></li><li id="menu-2869-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/just-bento-cookbook-2-make-ahead-easy-healthy-lunches-go" class="sf-depth-2">The Just Bento Cookbook 2</a></li></ul></li></ul>  </div>
+    <ul  id="superfish-1" class="menu sf-menu sf-main-menu sf-navbar sf-style-white sf-total-items-6 sf-parent-items-4 sf-single-items-2"><li id="menu-228-1" class="first odd sf-item-1 sf-depth-1 sf-no-children"><a href="/" title="Home page" class="sf-depth-1">Home</a></li><li id="menu-231-1" class="middle even sf-item-2 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/handbook/bento-basics" title="Everything you wanted to know about bentos! " class="sf-depth-1 menuparent">Bento Basics</a><ul><li id="menu-2858-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/makis-top-10-bento-rules" class="sf-depth-2">Top 10 Bento Rules</a></li><li id="menu-2859-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/selecting-right-bento-lunch-box" class="sf-depth-2">Selecting the Right Bento Box</a></li><li id="menu-2860-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/essential-equipment-and-supplies-making-bento-lunches" class="sf-depth-2">Bento Making Equipment and Supplies</a></li><li id="menu-2861-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/keeping-your-bento-lunch-safe" class="sf-depth-2">Bento Safety</a></li><li id="menu-2862-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/how-freezing-preportioned-rice" class="sf-depth-2">Freezing Pre-cooked Rice </a></li><li id="menu-2863-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics/bento-no-39-how-to-fill-bento-box" class="sf-depth-2">How to Pack a Classic Bento Box</a></li><li id="menu-2864-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="/handbook/bento-basics" class="sf-depth-2">-- More Bento Basics </a></li></ul></li><li id="menu-229-1" class="middle odd sf-item-3 sf-depth-1"><a href="/bento-menus" title="Examples of complete packed bentos, or bento menus." class="sf-depth-1">Bento Menus</a></li><li id="menu-230-1" class="active-trail middle even sf-item-4 sf-depth-1 sf-total-children-7 sf-parent-children-0 sf-single-children-7 menuparent"><a href="/recipes" title="Bento-friendly recipes" class="sf-depth-1 menuparent">Recipes</a><ul><li id="menu-2870-1" class="active-trail first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/recipes/all" title="All the recipes on Just Bento" class="sf-depth-2 active">All recipes</a></li><li id="menu-2872-1" class="middle even sf-item-2 sf-depth-2 sf-no-children"><a href="/recipes/by-type/japanese" title="japanese recipes" class="sf-depth-2">Japanese recipes</a></li><li id="menu-2873-1" class="middle odd sf-item-3 sf-depth-2 sf-no-children"><a href="/recipes/by-type/not-japanese" title="not so Japanese recipes" class="sf-depth-2">Not so Japanese recipes</a></li><li id="menu-2876-1" class="middle even sf-item-4 sf-depth-2 sf-no-children"><a href="/recipes/by-type/asian-general" title="Asian (note Japanese) recipes" class="sf-depth-2">Asian recipes</a></li><li id="menu-2875-1" class="middle odd sf-item-5 sf-depth-2 sf-no-children"><a href="/recipes/by-type/staples-stash-jobisai" title="stash, staples, jobisai " class="sf-depth-2">Stash recipes</a></li><li id="menu-2871-1" class="middle even sf-item-6 sf-depth-2 sf-no-children"><a href="/recipes/by-type/vegetarian" title="vegetarian recipes" class="sf-depth-2">Vegetarian recipes</a></li><li id="menu-2874-1" class="last odd sf-item-7 sf-depth-2 sf-no-children"><a href="/recipes/by-type/vegan" title="vegan recipes" class="sf-depth-2">Vegan recipes</a></li></ul></li><li id="menu-236-1" class="middle odd sf-item-5 sf-depth-1 sf-no-children"><a href="/handbook/site-information" title="About the JustBento site" class="sf-depth-1">About</a></li><li id="menu-2854-1" class="last even sf-item-6 sf-depth-1 sf-total-children-2 sf-parent-children-0 sf-single-children-2 menuparent"><a href="/handbook/just-bento-cookbook" class="sf-depth-1 menuparent">In Print</a><ul><li id="menu-2868-1" class="first odd sf-item-1 sf-depth-2 sf-no-children"><a href="/handbook/just-bento-cookbook" class="sf-depth-2">The Just Bento Cookbook</a></li><li id="menu-2869-1" class="last even sf-item-2 sf-depth-2 sf-no-children"><a href="/just-bento-cookbook-2-make-ahead-easy-healthy-lunches-go" class="sf-depth-2">The Just Bento Cookbook 2</a></li></ul></li></ul>  </div>
   
 </div> <!-- /.block -->
 </div>
@@ -129,98 +106,201 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       <div class="row">
                 <div id="primary" class="content-area col-sm-8">
           <section id="content" role="main" class="clearfix">
-                                                <div id="content-wrap">
-                                                                                                  <div class="region region-content">
+            <div id="breadcrumbs"><h2 class="element-invisible">You are here</h2><nav class="breadcrumb"><a href="/">Home</a> » <a href="/recipes" title="Bento-friendly recipes">Recipes</a> » Complete List of Bento Friendly Recipes</nav></div>                                    <div id="content-wrap">
+                            <h1 class="page-title">Complete List of Bento Friendly Recipes</h1>                                                                      <div class="region region-content">
   <div id="block-system-main" class="block block-system">
 
       
   <div class="content">
-    <div  about="/book-review-and-giveaway-real-bento" typeof="sioc:Item foaf:Document" class="ds-1col node node-article node-promoted node-teaser view-mode-teaser clearfix">
-
+    <div class="view view-recipes-all view-id-recipes_all view-display-id-page view-dom-id-40eb14389e07d1e813475431c5a038ee">
+        
   
-  <div class="">
-    <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2><a href="/book-review-and-giveaway-real-bento">Book review and giveaway: Real Bento </a></h2></div></div></div><div class="field field-name-field-image-main field-type-image field-label-hidden"><div class="field-items"><div class="field-item even" rel="" resource="https://justbento.com/files/bento/real-bento-cookbook-cover.jpg"><div id="file-2265" class="file file-image file-image-jpeg">
-
-        <h2 class="element-invisible"><a href="/file/real-bento-cookbook-coverjpg">real-bento-cookbook-cover.jpg</a></h2>
-    
   
-  <div class="content">
-    <img typeof="foaf:Image" src="https://justbento.com/files/bento/real-bento-cookbook-cover.jpg" width="1000" height="1000" alt="" />  </div>
-
+      <div class="view-content">
+      <table  class="views-table cols-2">
+         <thead>
+      <tr>
+                  <th  class="views-field views-field-title views-align-left" scope="col">
+            <a href="/recipes/all?order=title&amp;sort=asc" title="sort by Recipe name (click to sort alphabetically)" class="active">Recipe name (click to sort alphabetically)</a>          </th>
+                  <th  class="views-field views-field-taxonomy-vocabulary-3" scope="col">
+            Filed under (category)          </th>
+              </tr>
+    </thead>
+    <tbody>
+          <tr  class="odd views-row-first">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/johbisai/char-siu-yakibuta-chinese-style-roast-pork"> Char siu or yakibuta - Chinese style roast pork</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/staples" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">staples</a>, <a href="/category/filed-under/asian-general" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">asian-general</a>, <a href="/category/filed-under/meat" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">meat</a>, <a href="/category/filed-under/pork" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">pork</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipe-collection-mains/1-egg-tamagoyaki-japanese-omelette">1 egg tamagoyaki (Japanese omelette)</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/filed-under/eggs" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">eggs</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/guest-post-articles/frugal-recipe-curried-lentil-risotto">A Frugal Recipe: Curried Lentil Risotto</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/not-japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">not japanese</a>, <a href="/category/filed-under/beans" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">beans</a>, <a href="/category/filed-under/spicy" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">spicy</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipe-collection-mains/sushi-roll-bento-make-sushi-rolls-without-sushi-mat">A sushi roll bento, plus how to make sushi rolls without a sushi mat</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/filed-under/sushi" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sushi</a>, <a href="/category/filed-under/also-rans" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">also-rans</a>, <a href="/category/filed-under/summer" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">summer</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/bento-decoration-techniques/all-natural-vegetable-based-green-pink-and-orange-rice">All natural vegetable based green, pink and orange rice</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/rice" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">rice</a>, <a href="/category/filed-under/decoration" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">decoration</a>, <a href="/category/filed-under/kyaraben" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">kyaraben</a>, <a href="/category/filed-under/cute" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">cute</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>, <a href="/category/filed-under/kids" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">kids</a>, <a href="/category/filed-under/charaben" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">charaben</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/johbisai/all-season-shredded-vegetable-pickle-salad">All-season shredded vegetable pickle-salad, plus migrating birds! </a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/johbisai" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">johbisai</a>, <a href="/category/staple" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">staple</a>, <a href="/category/filed-under/asian-general" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">asian-general</a>, <a href="/category/filed-under/winter" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">winter</a>, <a href="/category/filed-under/vegetable" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetable</a>, <a href="/category/filed-under/bento-decoration-techniques" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">bento decoration techniques</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipe-collection-mains/balsamic-sesame-chicken">Balsamic Sesame Chicken</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/chicken" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">chicken</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/johbisai/meat-tofu-mixture-mini-burgers-meatballs-more">Basic meat and tofu mixture for mini-burgers, meatballs and more</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/staples" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">staples</a>, <a href="/category/johbisai" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">johbisai</a>, <a href="/category/filed-under/meat" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">meat</a>, <a href="/category/filed-under/tofu" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">tofu</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/johbisai/basic-meat-soboro">Basic meat soboro, a great bento staple</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/staples" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">staples</a>, <a href="/category/johbisai" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">johbisai</a>, <a href="/category/filed-under/furikake" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">furikake</a>, <a href="/category/filed-under/meat" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">meat</a>, <a href="/category/filed-under/soboro" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">soboro</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/johbisai/basic-taco-meat-mix">Basic taco meat mix</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/staples" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">staples</a>, <a href="/category/johbisai" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">johbisai</a>, <a href="/category/filed-under/meat" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">meat</a>, <a href="/category/filed-under/beef" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">beef</a>, <a href="/category/not-japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">not japanese</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipe-collection-mains/beef-and-vegetable-rolls-yasai-no-nikumaki">Beef and vegetable rolls (Yasai no nikumaki)</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/filed-under/meat" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">meat</a>, <a href="/category/filed-under/beef" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">beef</a>, <a href="/category/filed-under/washoku" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">washoku</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/bento-box-week-fit-fresh-breakfast-chiller">Bento box of the week: Fit &amp; Fresh Breakfast Chiller</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/filed-under/bento-boxes" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">bento boxes</a>, <a href="/category/filed-under/bento-item-spotlight" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">bento item spotlight</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/johbisai/nimame-stewed-sweet-beans">Bento filler and staple: Sweet stewed haricot, navy or white beans (Ingen no nimame)</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/staples" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">staples</a>, <a href="/category/johbisai" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">johbisai</a>, <a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a>, <a href="/category/filed-under/beans" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">beans</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/johbisai/bento-filler-staple-walnut-miso-paste-blanched-vegetables">Bento filler staple: Walnut miso paste for cooked vegetables </a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/staples" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">staples</a>, <a href="/category/johbisai" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">johbisai</a>, <a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>, <a href="/category/filed-under/washoku" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">washoku</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipes-sides-and-fillers/3-color-spring-vegetable-namul-crabsticks">Bento filler: 3-color Spring Vegetable Namul with Crabstick</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/filed-under/asian-general" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">asian-general</a>, <a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a>, <a href="/category/filed-under/korean" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">korean</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>, <a href="/category/filed-under/seafood" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">seafood</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipes-sides-and-fillers/blanched-spinach-soy-sauce-sesame-sauce">Bento filler: Blanched spinach with soy sauce or sesame sauce</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/spinach" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">spinach</a>, <a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipes-sides-and-fillers/bento-filler-cherry-tomato-and-leftover-vegetable-gratin">Bento filler: Cherry tomato and leftover vegetable gratin cup</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/leftovers" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">leftovers</a>, <a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a>, <a href="/category/not-japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">not japanese</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipes-side-dishes-and-space-fillers/classic-kinpira-gobo">Bento filler: Classic Kinpira Gobo (burdock and carrot kinpira)</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>, <a href="/filed-under/kinpira" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">kinpira</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipe-collection-sides/cucumber-and-nashi-asian-pear-marinated-salad">Bento filler: Cucumber and Nashi (Asian pear) marinated salad </a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/winter" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">winter</a>, <a href="/category/filed-under/gluten-free" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">gluten-free</a>, <a href="/category/filed-under/salad" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">salad</a>, <a href="/category/filed-under/low-fat" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">low fat</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipes-side-dishes-and-space-fillers/easy-sugarfree-carrot-kinpira">Bento filler: Easy sugarfree carrot kinpira</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a>, <a href="/filed-under/kinpira" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">kinpira</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipes-sides-and-fillers/bento-filler-fennel-salad-fennel-shiomomi">Bento Filler: Fennel Salad (Fennel no Shiomomi)</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipes-sides-and-fillers/french-green-beans-with-carrot-and-ginger">Bento filler: French green beans with carrot and ginger</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>          </td>
+              </tr>
+          <tr  class="odd">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipes-sides-and-fillers/green-asparagus-and-scrambled-tofu">Bento filler: Green asparagus and scrambled tofu</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/tofu" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">tofu</a>, <a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a>, <a href="/category/not-japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">not japanese</a>, <a href="/category/filed-under/spring" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">spring</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>          </td>
+              </tr>
+          <tr  class="even">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipe-collection-side-dishes-and-space-fillers/bento-filler-green-beans-and-aburaage-fried">Bento filler: Green beans and aburaage (fried tofu skins)</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/japanese" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">japanese</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/tofu" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">tofu</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>          </td>
+              </tr>
+          <tr  class="odd views-row-last">
+                  <td  class="views-field views-field-title views-align-left">
+            <a href="/handbook/recipes-sides-and-fillers/bento-filler-orange-juice-carrots">Bento Filler: Orange Juice Carrots</a>          </td>
+                  <td  class="views-field views-field-taxonomy-vocabulary-3">
+            <a href="/category/vegan" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegan</a>, <a href="/category/vegetarian" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetarian</a>, <a href="/category/filed-under/gluten-free" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">gluten-free</a>, <a href="/category/filed-under/decoration" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">decoration</a>, <a href="/category/filed-under/sides" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">sides</a>, <a href="/category/filed-under/vegetables" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">vegetables</a>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
   
+      <h2 class="element-invisible">Pages</h2><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a title="Go to page 2" href="/recipes/all?page=1">2</a></li>
+<li class="pager-item"><a title="Go to page 3" href="/recipes/all?page=2">3</a></li>
+<li class="pager-item"><a title="Go to page 4" href="/recipes/all?page=3">4</a></li>
+<li class="pager-item"><a title="Go to page 5" href="/recipes/all?page=4">5</a></li>
+<li class="pager-item"><a title="Go to page 6" href="/recipes/all?page=5">6</a></li>
+<li class="pager-item"><a title="Go to page 7" href="/recipes/all?page=6">7</a></li>
+<li class="pager-next"><a title="Go to next page" href="/recipes/all?page=1">next ›</a></li>
+<li class="pager-last last"><a title="Go to last page" href="/recipes/all?page=6">last »</a></li>
+</ul></div>  
+  
+      
+<div class="more-link">
+  <a href="/recipes/all">
+    More recipes....  </a>
 </div>
-</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>(The drawing has ended and the winners notified. Thank you for entering!)</p>
-
-<p>I know, it's been a while. But I am here to cheer you up hopefully in these rather dire times!</p>
-
-<p><a href="https://amzn.to/2IUsJmI">Real Bento: Fresh and Easy Bentos from a Japanese Working Mom</a>  is a cookbook by a popular bento blogger in Japan called Kanae Inoue. She takes a very pragmatic, streamlined approach to making bentos, based on her years of making them for her three children for many years - a boy (who is now in college and living away from home) and two girls.</p></div></div></div><div class="field field-name-read-more-ds field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">Keep reading <a href="https://justbento.com/book-review-and-giveaway-real-bento">Book review and giveaway: Real Bento  &rarr;</a></div></div></div>  </div>
-
-</div>
-
-<div  about="/japanese-working-womans-real-life-bentos" typeof="sioc:Item foaf:Document" class="ds-1col node node-article node-promoted node-teaser view-mode-teaser clearfix">
-
   
-  <div class="">
-    <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2><a href="/japanese-working-womans-real-life-bentos">A Japanese Working Woman&#039;s Real Life Bentos</a></h2></div></div></div><div class="field field-name-field-image-main field-type-image field-label-hidden"><div class="field-items"><div class="field-item even" rel="" resource="https://justbento.com/files/bento/junkosan-bento-aburaage-tonkatsu.jpg"><div id="file-2260" class="file file-image file-image-jpeg">
-
-        <h2 class="element-invisible"><a href="/file/junkosan-bento-aburaage-tonkatsujpg-0">junkosan-bento-aburaage-tonkatsu.jpg</a></h2>
-    
   
-  <div class="content">
-    <img typeof="foaf:Image" src="https://justbento.com/files/bento/junkosan-bento-aburaage-tonkatsu.jpg" width="800" height="567" alt="" />  </div>
-
   
-</div>
-</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>My friend Junko lives and works in Tokyo. She has a full time busy job, and although her son is off at school, she also have a very busy life outside of work too, with lots of interesting hobbies and a really busy social life. (I don't know anyone else who has as many friends as she does!)</p>
-
-<p>She also makes bentos to take to work, and posts them regularly on her social media. I love her bento pics because they aren't style for the camera at all - she just snaps them with her phone - but they look so appetizing and have lots of good ideas. Above all, they are real bentos made and eaten by a busy lady. I managed to convince her to let me post some of her bento pics here. The explanations are my own, based on what she wrote about them.</p>
-</div></div></div><div class="field field-name-read-more-ds field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">Keep reading <a href="https://justbento.com/japanese-working-womans-real-life-bentos">A Japanese Working Woman&#039;s Real Life Bentos &rarr;</a></div></div></div>  </div>
-
-</div>
-
-<div  about="/handbook/bento-basics/best-bento-box-depends-on-needs" typeof="sioc:Item foaf:Document" class="ds-1col node node-book node-promoted node-teaser view-mode-teaser clearfix">
-
-  
-  <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>The best bento box for you really depends on your needs </h2></div></div></div><div class="field field-name-field-image-main field-type-image field-label-hidden"><div class="field-items"><div class="field-item even" rel="" resource="https://justbento.com/files/bento/bento-boxes-single-layer_v2_1.jpg"><div id="file-2240" class="file file-image file-image-jpeg">
-
-        <h2 class="element-invisible"><a href="/file/bento-boxes-single-layer-v2jpg-1">bento-boxes-single-layer_v2_1.jpg</a></h2>
-    
-  
-  <div class="content">
-    <img typeof="foaf:Image" src="https://justbento.com/files/bento/bento-boxes-single-layer_v2_1.jpg" width="900" height="538" alt="" />  </div>
-
-  
-</div>
-</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>There really isn't a "best" bento box that suits everyone. It all depends on your individual needs, and it's possible you will need two or more different types.</p></div></div></div><div class="field field-name-read-more-ds field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">Keep reading <a href="https://justbento.com/handbook/bento-basics/best-bento-box-depends-on-needs">The best bento box for you really depends on your needs  &rarr;</a></div></div></div></div>
-
-<div  about="/just-bento-is-back" typeof="sioc:Item foaf:Document" class="ds-1col node node-article node-promoted node-teaser view-mode-teaser clearfix">
-
-  
-  <div class="">
-    <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2><a href="/just-bento-is-back">Believe it or not, Just Bento is back!</a></h2></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><div style="width: 99%; text-align: center"><img src="/files/bento/animatedonigirifaces.gif" width="200" height="174" alt="animatedonigirifaces.gif" style="width: 200px !important" /></div>
-
-<p>Yes, it's back with a brand new look!</p>
-</div></div></div><div class="field field-name-read-more-ds field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">Keep reading <a href="https://justbento.com/just-bento-is-back">Believe it or not, Just Bento is back! &rarr;</a></div></div></div>  </div>
-
-</div>
-
-<div  about="/just-bento-cookbook-2-make-ahead-easy-healthy-lunches-go" typeof="sioc:Item foaf:Document" class="ds-1col node node-book node-promoted node-teaser view-mode-teaser clearfix">
-
-  
-  <div class="field field-name-title field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even" property="dc:title"><h2>The Just Bento Cookbook 2: Make Ahead, Easy, Healthy Lunches to Go </h2></div></div></div><div class="field field-name-field-image-main field-type-image field-label-hidden"><div class="field-items"><div class="field-item even" rel="" resource="https://justbento.com/files/bento/just_bento_2_cover_full-600w_0.jpg"><div id="file-2227" class="file file-image file-image-jpeg">
-
-        <h2 class="element-invisible"><a href="/file/just-bento-2-cover-full-600wjpg-0">just_bento_2_cover_full-600w.jpg</a></h2>
-    
-  
-  <div class="content">
-    <img typeof="foaf:Image" src="https://justbento.com/files/bento/just_bento_2_cover_full-600w_0.jpg" width="600" height="784" alt="" />  </div>
-
-  
-</div>
-</div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p><em>The Just Bento Cookbook 2: Make Ahead, Easy, Healthy Lunches to Go</em> is the sequel to the best-selling <a href="/handbook/just-bento-cookbook">The Just Bento Cookbook</a>. It contains almost all new recipes (with the exception of a handful of "classics"), and is designed to expand your bento making repertoire, as well as increase your knowledge of Japanese home cooking in general.</p>
-</div></div></div><div class="field field-name-read-more-ds field-type-ds field-label-hidden"><div class="field-items"><div class="field-item even">Keep reading <a href="https://justbento.com/just-bento-cookbook-2-make-ahead-easy-healthy-lunches-go">The Just Bento Cookbook 2: Make Ahead, Easy, Healthy Lunches to Go  &rarr;</a></div></div></div></div>
-
-  </div>
+</div>  </div>
   
 </div> <!-- /.block -->
 </div>
@@ -308,11 +388,5 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":
       </div>
     </div>
   </div>
-</div>  <script type="text/javascript">
-<!--//--><![CDATA[//><!--
-window.eu_cookie_compliance_cookie_name = "";
-//--><!]]>
-</script>
-<script type="text/javascript" src="https://justbento.com/files/bento/js/js_lcej-wnhkuKN7X2sAkXYDMoQiGnYWSLvXW93M0RAg4Y.js"></script>
-</body>
+</div>  </body>
 </html>

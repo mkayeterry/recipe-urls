@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head ><meta charset="UTF-8" /><script>if(navigator.userAgent.match(/MSIE|Internet Explorer/i)||navigator.userAgent.match(/Trident\/7\..*?rv:11/i)){var href=document.location.href;if(!href.match(/[?&]nowprocket/)){if(href.indexOf("?")==-1){if(href.indexOf("#")==-1){document.location.href=href+"?nowprocket=1"}else{document.location.href=href.replace("#","?nowprocket=1#")}}else{if(href.indexOf("#")==-1){document.location.href=href+"&nowprocket=1"}else{document.location.href=href.replace("#","&nowprocket=1#")}}}}</script><script>class RocketLazyLoadScripts{constructor(){this.triggerEvents=["keydown","mousedown","mousemove","touchmove","touchstart","touchend","wheel"],this.userEventHandler=this._triggerListener.bind(this),this.touchStartHandler=this._onTouchStart.bind(this),this.touchMoveHandler=this._onTouchMove.bind(this),this.touchEndHandler=this._onTouchEnd.bind(this),this.clickHandler=this._onClick.bind(this),this.interceptedClicks=[],window.addEventListener("pageshow",(e=>{this.persisted=e.persisted})),window.addEventListener("DOMContentLoaded",(()=>{this._preconnect3rdParties()})),this.delayedScripts={normal:[],async:[],defer:[]},this.allJQueries=[]}_addUserInteractionListener(e){document.hidden?e._triggerListener():(this.triggerEvents.forEach((t=>window.addEventListener(t,e.userEventHandler,{passive:!0}))),window.addEventListener("touchstart",e.touchStartHandler,{passive:!0}),window.addEventListener("mousedown",e.touchStartHandler),document.addEventListener("visibilitychange",e.userEventHandler))}_removeUserInteractionListener(){this.triggerEvents.forEach((e=>window.removeEventListener(e,this.userEventHandler,{passive:!0}))),document.removeEventListener("visibilitychange",this.userEventHandler)}_onTouchStart(e){"HTML"!==e.target.tagName&&(window.addEventListener("touchend",this.touchEndHandler),window.addEventListener("mouseup",this.touchEndHandler),window.addEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.addEventListener("mousemove",this.touchMoveHandler),e.target.addEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"onclick","rocket-onclick"))}_onTouchMove(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler),e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick")}_onTouchEnd(e){window.removeEventListener("touchend",this.touchEndHandler),window.removeEventListener("mouseup",this.touchEndHandler),window.removeEventListener("touchmove",this.touchMoveHandler,{passive:!0}),window.removeEventListener("mousemove",this.touchMoveHandler)}_onClick(e){e.target.removeEventListener("click",this.clickHandler),this._renameDOMAttribute(e.target,"rocket-onclick","onclick"),this.interceptedClicks.push(e),e.preventDefault(),e.stopPropagation(),e.stopImmediatePropagation()}_replayClicks(){window.removeEventListener("touchstart",this.touchStartHandler,{passive:!0}),window.removeEventListener("mousedown",this.touchStartHandler),this.interceptedClicks.forEach((e=>{e.target.dispatchEvent(new MouseEvent("click",{view:e.view,bubbles:!0,cancelable:!0}))}))}_renameDOMAttribute(e,t,n){e.hasAttribute&&e.hasAttribute(t)&&(event.target.setAttribute(n,event.target.getAttribute(t)),event.target.removeAttribute(t))}_triggerListener(){this._removeUserInteractionListener(this),"loading"===document.readyState?document.addEventListener("DOMContentLoaded",this._loadEverythingNow.bind(this)):this._loadEverythingNow()}_preconnect3rdParties(){let e=[];document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((t=>{if(t.hasAttribute("src")){const n=new URL(t.src).origin;n!==location.origin&&e.push({src:n,crossOrigin:t.crossOrigin||"module"===t.getAttribute("data-rocket-type")})}})),e=[...new Map(e.map((e=>[JSON.stringify(e),e]))).values()],this._batchInjectResourceHints(e,"preconnect")}async _loadEverythingNow(){this.lastBreath=Date.now(),this._delayEventListeners(),this._delayJQueryReady(this),this._handleDocumentWrite(),this._registerAllDelayedScripts(),this._preloadAllScripts(),await this._loadScriptsFromList(this.delayedScripts.normal),await this._loadScriptsFromList(this.delayedScripts.defer),await this._loadScriptsFromList(this.delayedScripts.async);try{await this._triggerDOMContentLoaded(),await this._triggerWindowLoad()}catch(e){}window.dispatchEvent(new Event("rocket-allScriptsLoaded")),this._replayClicks()}_registerAllDelayedScripts(){document.querySelectorAll("script[type=rocketlazyloadscript]").forEach((e=>{e.hasAttribute("src")?e.hasAttribute("async")&&!1!==e.async?this.delayedScripts.async.push(e):e.hasAttribute("defer")&&!1!==e.defer||"module"===e.getAttribute("data-rocket-type")?this.delayedScripts.defer.push(e):this.delayedScripts.normal.push(e):this.delayedScripts.normal.push(e)}))}async _transformScript(e){return await this._littleBreath(),new Promise((t=>{const n=document.createElement("script");[...e.attributes].forEach((e=>{let t=e.nodeName;"type"!==t&&("data-rocket-type"===t&&(t="type"),n.setAttribute(t,e.nodeValue))})),e.hasAttribute("src")?(n.addEventListener("load",t),n.addEventListener("error",t)):(n.text=e.text,t());try{e.parentNode.replaceChild(n,e)}catch(e){t()}}))}async _loadScriptsFromList(e){const t=e.shift();return t?(await this._transformScript(t),this._loadScriptsFromList(e)):Promise.resolve()}_preloadAllScripts(){this._batchInjectResourceHints([...this.delayedScripts.normal,...this.delayedScripts.defer,...this.delayedScripts.async],"preload")}_batchInjectResourceHints(e,t){var n=document.createDocumentFragment();e.forEach((e=>{if(e.src){const i=document.createElement("link");i.href=e.src,i.rel=t,"preconnect"!==t&&(i.as="script"),e.getAttribute&&"module"===e.getAttribute("data-rocket-type")&&(i.crossOrigin=!0),e.crossOrigin&&(i.crossOrigin=e.crossOrigin),n.appendChild(i)}})),document.head.appendChild(n)}_delayEventListeners(){let e={};function t(t,n){!function(t){function n(n){return e[t].eventsToRewrite.indexOf(n)>=0?"rocket-"+n:n}e[t]||(e[t]={originalFunctions:{add:t.addEventListener,remove:t.removeEventListener},eventsToRewrite:[]},t.addEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.add.apply(t,arguments)},t.removeEventListener=function(){arguments[0]=n(arguments[0]),e[t].originalFunctions.remove.apply(t,arguments)})}(t),e[t].eventsToRewrite.push(n)}function n(e,t){let n=e[t];Object.defineProperty(e,t,{get:()=>n||function(){},set(i){e["rocket"+t]=n=i}})}t(document,"DOMContentLoaded"),t(window,"DOMContentLoaded"),t(window,"load"),t(window,"pageshow"),t(document,"readystatechange"),n(document,"onreadystatechange"),n(window,"onload"),n(window,"onpageshow")}_delayJQueryReady(e){let t=window.jQuery;Object.defineProperty(window,"jQuery",{get:()=>t,set(n){if(n&&n.fn&&!e.allJQueries.includes(n)){n.fn.ready=n.fn.init.prototype.ready=function(t){e.domReadyFired?t.bind(document)(n):document.addEventListener("rocket-DOMContentLoaded",(()=>t.bind(document)(n)))};const t=n.fn.on;n.fn.on=n.fn.init.prototype.on=function(){if(this[0]===window){function e(e){return e.split(" ").map((e=>"load"===e||0===e.indexOf("load.")?"rocket-jquery-load":e)).join(" ")}"string"==typeof arguments[0]||arguments[0]instanceof String?arguments[0]=e(arguments[0]):"object"==typeof arguments[0]&&Object.keys(arguments[0]).forEach((t=>{delete Object.assign(arguments[0],{[e(t)]:arguments[0][t]})[t]}))}return t.apply(this,arguments),this},e.allJQueries.push(n)}t=n}})}async _triggerDOMContentLoaded(){this.domReadyFired=!0,await this._littleBreath(),document.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),window.dispatchEvent(new Event("rocket-DOMContentLoaded")),await this._littleBreath(),document.dispatchEvent(new Event("rocket-readystatechange")),await this._littleBreath(),document.rocketonreadystatechange&&document.rocketonreadystatechange()}async _triggerWindowLoad(){await this._littleBreath(),window.dispatchEvent(new Event("rocket-load")),await this._littleBreath(),window.rocketonload&&window.rocketonload(),await this._littleBreath(),this.allJQueries.forEach((e=>e(window).trigger("rocket-jquery-load"))),await this._littleBreath();const e=new Event("rocket-pageshow");e.persisted=this.persisted,window.dispatchEvent(e),await this._littleBreath(),window.rocketonpageshow&&window.rocketonpageshow({persisted:this.persisted})}_handleDocumentWrite(){const e=new Map;document.write=document.writeln=function(t){const n=document.currentScript,i=document.createRange(),r=n.parentElement;let o=e.get(n);void 0===o&&(o=n.nextSibling,e.set(n,o));const s=document.createDocumentFragment();i.setStart(s,0),s.appendChild(i.createContextualFragment(t)),r.insertBefore(s,o)}}async _littleBreath(){Date.now()-this.lastBreath>45&&(await this._requestAnimFrame(),this.lastBreath=Date.now())}async _requestAnimFrame(){return document.hidden?new Promise((e=>setTimeout(e))):new Promise((e=>requestAnimationFrame(e)))}static run(){const e=new RocketLazyLoadScripts;e._addUserInteractionListener(e)}}RocketLazyLoadScripts.run();</script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<script data-cfasync="false" data-pagespeed-no-defer type="text/javascript">
+	var gtm4wp_datalayer_name = "dataLayer";
+	var dataLayer = dataLayer || [];
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com -->
+	<!-- This site is optimized with the Yoast SEO Premium plugin v21.0 (Yoast SEO v21.1) - https://yoast.com/wordpress/plugins/seo/ -->
+	<title>Lifestyle of a Foodie - Delicious, easy-to-follow seasonal recipes that your family will love!</title><style id="rocket-critical-css">html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}article,header,main,nav,section{display:block}a{background-color:transparent}img{border:0}svg:not(:root){overflow:hidden}input{color:inherit;font:inherit;margin:0}input[type="submit"]{-webkit-appearance:button}input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="search"]{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;-webkit-appearance:textfield}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}*,input[type="search"]{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.entry:after,.entry-content:after,.footer-widgets:after,.nav-primary:after,.site-container:after,.site-header:after,.site-inner:after,.widget:after,.widget-area:after,.wrap:after{clear:both;content:" ";display:table}body{background:#fff;color:#010101;font-family:"Muli",Arial,Helvetica,sans-serif;font-size:100%;font-weight:300;letter-spacing:0.5px;line-height:1.8}a{color:#fb6a4a;text-decoration:none}.footer-widgets a{text-decoration:underline}p{margin:5px 0 15px;padding:0}ul{margin:0;padding:0}h2,h3{font-family:"Karla",Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:3px;line-height:1.3;margin:37px 0 21px;padding:0;text-transform:uppercase}h2{font-size:1.625em}h3{font-size:1.375em}img{max-width:100%}img{height:auto}.featured-content img{margin-bottom:0;width:auto}input{border:1px solid #eee;-webkit-box-shadow:0 0 0 #fff;-webkit-box-shadow:0 0 0 #fff;box-shadow:0 0 0 #fff;color:#999;font-weight:300;letter-spacing:0.5px;padding:10px;width:100%}::-moz-placeholder{color:#000}::-webkit-input-placeholder{color:#000}input[type="submit"]{background:#010101;border:1px solid #010101;-webkit-box-shadow:none;box-shadow:none;color:#fff;font-family:"Karla",Arial,Helvetica,sans-serif;font-style:normal;font-weight:700;letter-spacing:2px;padding:7px 17px;text-transform:uppercase;width:auto}input[type="submit"]{letter-spacing:2px}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-results-button{display:none}.site-container{margin:0 auto}.content-sidebar-wrap,.site-inner,.wrap{margin:0 auto;max-width:1170px}.site-inner{background:#fff;margin:0 auto;padding:15px 37px}.content{float:right;width:720px}.content-sidebar .content{float:left}.one-third{float:left;margin-left:2.564102564102564%}.one-third{width:31.623931623931625%}.first{clear:both;margin-left:0}.search-form{background:#fff;border:1px solid #eee;padding:10px}.search-form input{background:#fff url(https://lifestyleofafoodie.com/wp-content/themes/foodiepro-v441/images/search.svg) center right no-repeat;-webkit-background-size:contain;background-size:contain;border:0;padding:0}.search-form input[type="submit"]{border:0;clip:rect(0,0,0,0);height:1px;margin:-1px;padding:0;position:absolute;width:1px}.aligncenter,.aligncenter img{display:block;margin:0 auto 22px}.entry-title{margin:0 0 17px;word-wrap:break-word}.entry-title a{color:#010101;text-decoration:none}.widgettitle{font-weight:600;letter-spacing:2px;margin:27px 0;text-align:center;text-transform:uppercase}.screen-reader-text,.screen-reader-shortcut{background:#fff;border:0;clip:rect(0,0,0,0);color:#333;height:1px;overflow:hidden;position:absolute!important;width:1px}.genesis-skip-link li{height:0;list-style:none;width:0}.featured-content .entry{padding:0}img[data-lazy-src]{opacity:0}img.lazyloaded{opacity:1}.simple-grid .entry-title{letter-spacing:1.5px;font-size:1em}.title-area{display:inline-block;margin:0;padding:17px 0;width:320px}.site-title{line-height:0.8;margin:0;text-transform:uppercase}.site-title a{color:#010101;font-style:normal}.header-full-width .title-area,.header-full-width .site-title{text-align:center;width:100%}.genesis-nav-menu{background:#fff;border-bottom:1px solid #eee;border-top:1px solid #eee;clear:both;font-family:"Karla",Arial,Helvetica,sans-serif;font-weight:400;letter-spacing:2px;padding:7px 0;text-align:center;width:100%}.genesis-nav-menu .menu-item{display:inline-block;margin:0;padding:0;text-align:left}.genesis-nav-menu a{color:#010101;display:block;padding:17px 21px;position:relative;text-decoration:none;text-transform:uppercase;min-height:52px}.genesis-nav-menu .current-menu-item>a{color:#fb6a4a}.genesis-nav-menu .sub-menu{border-bottom:5px solid #010101;opacity:0;position:absolute;left:-9999px;width:230px;z-index:2000}.genesis-nav-menu .sub-menu a{background-color:#fff;letter-spacing:1px;padding:20px;position:relative;width:230px}.genesis-nav-menu .search-form{display:inline-block;margin-left:27px;vertical-align:middle;width:auto}.nav-primary{margin:0}.entry{margin-bottom:37px}.entry-content p{margin-bottom:37px}.entry-header{color:#555;margin:0 0 37px}.simple-grid .entry-header{margin:0 0 17px}.footer-widgets{background:#f7f9fc;clear:both;display:block;overflow:hidden;padding:0 0 27px}.footer-widgets .wrap,.footer-widgets-1{max-width:1400px;width:100%}.footer-widgets .widget{margin-bottom:22px}.footer-widgets li{list-style-type:none;margin-bottom:6px;word-wrap:break-word}.footer-widgets img{margin:0}.footer-widgets .featured-content,.footer-widgets .featuredpost{background:transparent;max-width:95%}.footer-widgets .entry{background:#fff;padding:5px}@media only screen and (max-width:1200px){.site-inner,.wrap{max-width:1040px;overflow:hidden}.content{width:620px}.genesis-nav-menu a{padding:17px}}@media only screen and (max-width:1023px){.content,.footer-widgets-1,.site-inner,.title-area,.wrap{width:100%}.site-inner{padding-left:5%;padding-right:5%}.entry,.site-header{padding:10px 0}.genesis-nav-menu li{float:none}.genesis-nav-menu,.site-header .title-area,.site-title{text-align:center}.footer-widgets{padding:20px 5% 16px}.footer-widgets-1{margin:0}}@media only screen and (max-width:940px){nav{display:none;position:relative}#genesis-nav-primary{border-bottom:2px solid #CCC}.genesis-nav-menu{border:none}.genesis-nav-menu .menu-item{border-bottom:1px solid #eee;display:block;position:relative;text-align:left}.genesis-nav-menu .sub-menu{border-top:1px solid #eee;clear:both;display:none;opacity:1;position:static;width:100%}.genesis-nav-menu .sub-menu .menu-item:last-child{border-bottom:none}.genesis-nav-menu .sub-menu a{border:none;padding:16px 22px;position:relative;width:auto}.genesis-nav-menu .search-form{border:0;float:right;width:100%;padding:20px 10px}}@media only screen and (max-width:767px){.one-third,.first{clear:none;margin-left:2.564102564102564%;width:48.717948717948715%}.one-third .entry-title{font-size:1em}.odd{clear:both;margin-left:0}}ul{box-sizing:border-box}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.aligncenter{clear:both}.screen-reader-text{border:0;clip:rect(1px,1px,1px,1px);-webkit-clip-path:inset(50%);clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.pllexislider{margin:0;padding:0;direction:ltr!important}.pllexislider .slides>li{display:none;-webkit-backface-visibility:hidden}.pllexislider .slides img{width:100%;display:block}.pllexislider .slides:after{display:block;clear:both;visibility:hidden;line-height:0;height:0}.pllexislider,.pllexislider .slides li{height:100%;padding:0!important;background:none;margin:0;border:none}.pllexislider{border:none}.pllexislider .no-bullet{list-style:none;margin:0 0 0 0;padding:0 0 0 0;clear:both}.pllexislider{margin:0;position:relative}.pllexislider .slides{zoom:1;overflow:hidden}.GraphVideo{position:relative}.GraphVideo:before{position:absolute;content:'';background-image:url(https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/in.png);background-repeat:no-repeat;background-position:3px -42px;height:32px;width:32px;top:3px;right:0;z-index:1;opacity:0.7}</style><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Muli%3Aregular%2Citalic%2C300%2C300italic%7CKarla%3Aregular%2Citalic%2C700%2C700italic%26amp%3Bsubset%3Dlatin%2C&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli%3Aregular%2Citalic%2C300%2C300italic%7CKarla%3Aregular%2Citalic%2C700%2C700italic%26amp%3Bsubset%3Dlatin%2C&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli%3Aregular%2Citalic%2C300%2C300italic%7CKarla%3Aregular%2Citalic%2C700%2C700italic%26amp%3Bsubset%3Dlatin%2C&#038;display=swap" /></noscript><link rel="preload" href="https://lifestyleofafoodie.com/wp-content/cache/min/1/83a1609f0db1aa4c38e7aa7e6e2e6220.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')"  media="all" data-minify="1" />
+	<meta name="description" content="Delicious, easy-to-follow seasonal recipes that your family will love!" />
+	<link rel="canonical" href="https://lifestyleofafoodie.com/" />
+	<link rel="next" href="https://lifestyleofafoodie.com/page/2/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Lifestyle of a Foodie" />
+	<meta property="og:description" content="Delicious, easy-to-follow seasonal recipes that your family will love!" />
+	<meta property="og:url" content="https://lifestyleofafoodie.com/" />
+	<meta property="og:site_name" content="Lifestyle of a Foodie" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@disciplinedfood" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"CollectionPage","@id":"https://lifestyleofafoodie.com/","url":"https://lifestyleofafoodie.com/","name":"Lifestyle of a Foodie - Delicious, easy-to-follow seasonal recipes that your family will love!","isPartOf":{"@id":"https://lifestyleofafoodie.com/#website"},"description":"Delicious, easy-to-follow seasonal recipes that your family will love!","breadcrumb":{"@id":"https://lifestyleofafoodie.com/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://lifestyleofafoodie.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://lifestyleofafoodie.com/#website","url":"https://lifestyleofafoodie.com/","name":"Lifestyle of a Foodie","description":"Delicious, easy-to-follow seasonal recipes that your family will love!","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://lifestyleofafoodie.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
+	<meta name="google-site-verification" content="d-S7CmSGoJdplg7U0f1rrpdW_CSkCr4I3szMXeXVDkA" />
+	<meta name="p:domain_verify" content="5aeee866b8eed20e6c6d275fb6535535" />
+	<!-- / Yoast SEO Premium plugin. -->
+
+
+<script type="rocketlazyloadscript" data-rocket-type='application/javascript'>console.log('PixelYourSite Free version 9.3.8.1');</script>
+<link rel='dns-prefetch' href='//scripts.mediavine.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//fonts.gstatic.com' />
+<link rel='dns-prefetch' href='//googleadapis.l.google.com' />
+<link rel='dns-prefetch' href='//gstaticadssl.l.google.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Lifestyle of a Foodie &raquo; Feed" href="https://lifestyleofafoodie.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Lifestyle of a Foodie &raquo; Comments Feed" href="https://lifestyleofafoodie.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Lifestyle of a Foodie &raquo; Stories Feed" href="https://lifestyleofafoodie.com/web-stories/feed/">		<!-- This site uses the Google Analytics by MonsterInsights plugin v8.25.0 - Using Analytics tracking - https://www.monsterinsights.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-FTLFE7S71G"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var mi_version = '8.25.0';
+				var mi_track_user = true;
+				var mi_no_track_reason = '';
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/lifestyleofafoodie.com\/"};
+				if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
+				} else {
+					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsExcludeQuery : MonsterInsightsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-FTLFE7S71G',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.MonsterInsightsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (mi_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = monsterinsights_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof MonsterInsightsDualTracker.trackers[hookName] !== 'undefined') {
+								MonsterInsightsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dZGIzZG': true,
+											});
+					if ( MonsterInsightsLocations.page_location ) {
+						__gtagTracker('set', MonsterInsightsLocations);
+					}
+										__gtagTracker('config', 'G-FTLFE7S71G', {"forceSSL":"true","link_attribution":"true"} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by MonsterInsights -->
+		
+<style id='foodie-pro-theme-inline-css' type='text/css'>
+.site-title a, .site-title a:hover{color:#0a0303;}.genesis-nav-menu > li > a:hover, .genesis-nav-menu > .current-menu-item > a{color:#ff4828;}.button, button, .enews-widget input[type="submit"], a.more-link, .more-from-category a, .sidebar .button, .sidebar .more-from-category a{background:#050101;}.button, button, .enews-widget input[type="submit"], a.more-link, .more-from-category a{border-color:#0a0403;}body, .site-description, .sidebar .featured-content .entry-title{font-family:"Muli","Helvetica Neue",sans-serif;font-size:18px;}.genesis-nav-menu{font-family:"Karla","Helvetica Neue",sans-serif;}h1, h2, h3, h4, h5, h6, .site-title, .entry-title, .widgettitle{font-family:"Karla","Helvetica Neue",sans-serif;font-weight:900;}.entry-title{font-family:"Karla","Helvetica Neue",sans-serif;font-size:37px;}.button, .button-secondary, button, input[type="button"], input[type="reset"], input[type="submit"], a.more-link, .more-from-category a{font-family:"Karla","Helvetica Neue",sans-serif;}
+</style>
+
+
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="preload" class="mv-grow-style" href="https://lifestyleofafoodie.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1.33.2" as="style"><noscript><link rel='stylesheet' id='dpsp-frontend-style-pro-css' href='https://lifestyleofafoodie.com/wp-content/plugins/social-pug/assets/dist/style-frontend-pro.css?ver=1.33.2' type='text/css' media='all' />
+</noscript><style id='dpsp-frontend-style-pro-inline-css' type='text/css'>
+
+				@media screen and ( max-width : 720px ) {
+					.dpsp-content-wrapper.dpsp-hide-on-mobile,
+					.dpsp-share-text.dpsp-hide-on-mobile,
+					.dpsp-content-wrapper .dpsp-network-label {
+						display: none;
+					}
+					.dpsp-has-spacing .dpsp-networks-btns-wrapper li {
+						margin:0 2% 10px 0;
+					}
+					.dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count) {
+						max-height: 40px;
+						padding: 0;
+						justify-content: center;
+					}
+					.dpsp-content-wrapper.dpsp-size-small .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 32px;
+					}
+					.dpsp-content-wrapper.dpsp-size-large .dpsp-network-btn.dpsp-has-label:not(.dpsp-has-count){
+						max-height: 46px;
+					}
+				}
+			
+</style>
+
+
+<style id='heateor_sss_frontend_css-inline-css' type='text/css'>
+.heateor_sss_button_instagram span.heateor_sss_svg,a.heateor_sss_instagram span.heateor_sss_svg{background:radial-gradient(circle at 30% 107%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%)}.heateor_sss_horizontal_sharing .heateor_sss_svg,.heateor_sss_standard_follow_icons_container .heateor_sss_svg{color:#fff;border-width:0px;border-style:solid;border-color:transparent}.heateor_sss_horizontal_sharing .heateorSssTCBackground{color:#666}.heateor_sss_horizontal_sharing span.heateor_sss_svg:hover,.heateor_sss_standard_follow_icons_container span.heateor_sss_svg:hover{border-color:transparent;}.heateor_sss_vertical_sharing span.heateor_sss_svg,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg{color:#fff;border-width:0px;border-style:solid;border-color:transparent;}.heateor_sss_vertical_sharing .heateorSssTCBackground{color:#666;}.heateor_sss_vertical_sharing span.heateor_sss_svg:hover,.heateor_sss_floating_follow_icons_container span.heateor_sss_svg:hover{border-color:transparent;}@media screen and (max-width:783px) {.heateor_sss_vertical_sharing{display:none!important}}
+</style>
+
+<script type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/plugins/google-analytics-for-wordpress/assets/js/frontend-gtag.min.js?ver=8.25.0' id='monsterinsights-frontend-script-js' defer></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='monsterinsights-frontend-script-js-extra'>/* <![CDATA[ */
+var monsterinsights_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/lifestyleofafoodie.com","hash_tracking":"false","v4_id":"G-FTLFE7S71G"};/* ]]> */
+</script>
+<script type='text/javascript' async="async" data-noptimize="1" data-cfasync="false" src='https://scripts.mediavine.com/tags/lifestyle-of-a-foodie.js?ver=6.1.6' id='mv-script-wrapper-js'></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1' id='jquery-core-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/plugins/pixelyoursite/dist/scripts/jquery.bind-first-0.2.3.min.js?ver=6.1.6' id='jquery-bind-first-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/plugins/pixelyoursite/dist/scripts/js.cookie-2.1.3.min.js?ver=2.1.3' id='js-cookie-pys-js' defer></script>
+<script type='text/javascript' id='pys-js-extra'>
+/* <![CDATA[ */
+var pysOptions = {"staticEvents":[],"dynamicEvents":[],"triggerEvents":[],"triggerEventTypes":[],"debug":"","siteUrl":"https:\/\/lifestyleofafoodie.com","ajaxUrl":"https:\/\/lifestyleofafoodie.com\/wp-admin\/admin-ajax.php","ajax_event":"ff93d0e071","enable_remove_download_url_param":"1","cookie_duration":"7","last_visit_duration":"60","enable_success_send_form":"","gdpr":{"ajax_enabled":false,"all_disabled_by_api":false,"facebook_disabled_by_api":false,"analytics_disabled_by_api":false,"google_ads_disabled_by_api":false,"pinterest_disabled_by_api":false,"bing_disabled_by_api":false,"facebook_prior_consent_enabled":true,"analytics_prior_consent_enabled":true,"google_ads_prior_consent_enabled":null,"pinterest_prior_consent_enabled":true,"bing_prior_consent_enabled":true,"cookiebot_integration_enabled":false,"cookiebot_facebook_consent_category":"marketing","cookiebot_analytics_consent_category":"statistics","cookiebot_google_ads_consent_category":null,"cookiebot_pinterest_consent_category":"marketing","cookiebot_bing_consent_category":"marketing","consent_magic_integration_enabled":false,"real_cookie_banner_integration_enabled":false,"cookie_notice_integration_enabled":false,"cookie_law_info_integration_enabled":false},"woo":{"enabled":false},"edd":{"enabled":false}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/cache/min/1/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=1710304768' id='pys-js' defer></script>
+<link rel="https://api.w.org/" href="https://lifestyleofafoodie.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://lifestyleofafoodie.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://lifestyleofafoodie.com/wp-includes/wlwmanifest.xml" />
+<style id='feast-blockandfront-styles'>.feast-about-author { background-color: #f2f2f2; color: #32373c; padding: 17px; margin-top: 57px; display: grid; grid-template-columns: 1fr 3fr !important; } .feast-about-author h2 { margin-top: 7px !important;} .feast-about-author img{ border-radius: 50% !important; }aside .feast-about-author { grid-template-columns: 1fr !important; }.wp-block-search .wp-block-search__input { max-width: 100%; }.screen-reader-text { width: 1px; height: 1px; }footer ul li, .site-footer ul li { list-style-type: none; }footer ul li, .site-footer ul li { list-style-type: none; }aside .wp-block-search { display: grid; grid-template-columns: 1fr; margin: 37px 0;  } aside .wp-block-search__inside-wrapper { display: grid !important; grid-template-columns: 1fr; } aside input { min-height: 50px; }  ​aside .wp-block-search__label, aside .wp-block-search__button { display: none; } aside li:before { content: '' !important; } aside p, aside div, aside ul { margin: 17px 0; }@media only screen and (max-width: 600px) { aside .wp-block-search { grid-template-columns: 1fr; } aside input { min-height: 50px; margin-bottom: 17px;} }.feast-button a { border: 2px solid var(--feast-branding-primary-background); padding: 7px 14px; border-radius: 20px; background: var(--feast-branding-primary); color: var(--feast-branding-primary-background); text-decoration: none !important; font-weight: bold; } .feast-button { padding: 27px 7px; }.feast-box-primary { color: var( --feast-branding-primary ) !important; background: var(--feast-branding-primary-background) !important; padding: 17px !important; margin: 17px 0 !important;  }.feast-box-secondary { color: var( --feast-branding-secondary ) !important; background: var(--feast-branding-secondary-background) !important; padding: 17px !important; margin: 17px 0 !important;  }.feast-box-primary li, .feast-box-secondary li {margin-left: 17px !important; }.feast-checklist li::marker { color: transparent; } .feast-checklist li:before { content: '✓'; margin-right: 17px; }.schema-faq-question { font-size: 1.2em; display: block; margin-bottom: 7px;} .schema-faq-section { margin: 37px 0; }</style>
+<style type="text/css">
+	.feast-category-index-list {
+		display: grid;
+		grid-template-columns: repeat(2, minmax(0, 1fr) );
+		grid-gap: 57px 17px;
+		list-style: none;
+		list-style-type: none;
+		margin: 17px 0 !important;
+	}
+	.feast-category-index-list li {
+		min-height: 150px;
+		text-align: center;
+		position: relative;
+		list-style: none !important;
+		margin-left: 0 !important;
+		list-style-type: none !important;
+		overflow: hidden;
+	}
+	.feast-category-index-list li a.title { 
+		text-decoration: none; 
+	}
+	.feast-category-index-list-overlay .fsci-title {
+		position: absolute;
+		top: 88%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		background: #FFF;
+		padding: 5px;
+		color: #333;
+		font-weight: bold;
+		border: 2px solid #888;
+		text-transform: uppercase;
+		width: 80%;
+	}
+	.listing-item:focus-within, .wp-block-search__input:focus {outline: 2px solid #555; }
+	.listing-item a:focus, .listing-item a:focus .fsri-title, .listing-item a:focus img { opacity: 0.8; outline: none; }
+	li.listing-item:before { content: "" !important; }
+	.feast-image-frame, .feast-image-border { border: 3px solid #DDD; }
+	.feast-image-round, .feast-image-round img { border-radius: 50%; } 
+	.feast-image-shadow { box-shadow: 3px 3px 5px #AAA; }
+	.feast-line-through { text-decoration: line-through; }
+	.feast-grid-full, .feast-grid-half, .feast-grid-third, .feast-grid-fourth, .feast-grid-fifth { display: grid; grid-gap: 57px 17px; }
+	.feast-grid-full { grid-template-columns: 1fr !important; }
+	.feast-grid-half { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+	.feast-grid-third { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; }
+	.feast-grid-fourth { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+	.feast-grid-fifth { grid-template-columns: repeat(5, minmax(0, 1fr)) !important; }
+	@media only screen and (min-width: 600px)  { 
+		.feast-category-index-list { grid-template-columns: repeat(4, minmax(0, 1fr) ); }
+		.feast-desktop-grid-full { grid-template-columns: 1fr !important; }
+		.feast-desktop-grid-half { grid-template-columns: repeat(2, 1fr) !important; }
+		.feast-desktop-grid-third { grid-template-columns: repeat(3, 1fr) !important; }
+		.feast-desktop-grid-fourth { grid-template-columns: repeat(4, 1fr) !important; }
+		.feast-desktop-grid-fifth { grid-template-columns: repeat(5, 1fr) !important; }
+		.feast-desktop-grid-sixth { grid-template-columns: repeat(6, 1fr) !important; }
+	}
+	@media only screen and (min-width: 1100px) { .full-width-content main.content { width: 1080px; max-width: 1080px; } }
+	@media only screen and (max-width: 600px) { .entry-content .wp-block-image { width: 100% !important; }}
+	@media only screen and (min-width: 1024px) {
+		.feast-full-width-wrapper { width: 100vw; position: relative; left: 50%; right: 50%; margin: 37px -50vw; background: #F5F5F5; padding: 17px 0; }
+		.feast-full-width-wrapper .feast-recipe-index { width: 1140px; margin: 0 auto; }
+		.feast-full-width-wrapper .listing-item { background: #FFF; padding: 17px; }
+	}
+	.home main .wp-block-search { margin: 57px 0; padding: 13px; background: #FFF; }
+	.home main .wp-block-search button { display: none; visibility: hidden; }
+	.home main .wp-block-search__label { position:absolute; left:-10000px; top:auto; }
+	.feast-prev-next { display: grid; grid-template-columns: 1fr;  border-bottom: 1px solid #CCC; margin: 57px 0;  }
+	.feast-prev-post, .feast-next-post { padding: 37px 17px; border-top: 1px solid #CCC; }
+	.feast-next-post { text-align: right; }
+	@media only screen and (min-width: 600px) {
+		.feast-prev-next { grid-template-columns: 1fr 1fr; border-bottom: none; }
+		.feast-next-post { border-left: 1px solid #CCC;}
+		.feast-prev-post, .feast-next-post { padding: 37px; }
+	}
+	.has-background { padding: 1.25em 2.375em; margin: 1em 0; }
+	@media only screen and (max-width: 1023px) {
+		.content-sidebar .content, .sidebar-primary { float: none; clear: both; }
+		.has-background { padding: 1em; margin: 1em 0; }
+	}
+	hr.has-background { padding: inherit; margin: inherit; }
+	body { -webkit-animation: none !important; animation: none !important; }
+	summary { display: list-item; }
+	.bypostauthor .comment-author-name { color: unset; }
+	.comment-list article header { overflow: auto; }
+</style>		<style>
+			:root {
+				--mv-create-radius: 0;
+			}
+		</style>
+		
+<!-- [slickstream] Page Generated at: 4/25/2024, 11:53:50 AM UTC -->
+<!-- [slickstream] Fetching page boot data from server -->
+<!-- [slickstream] Fetch endpoint: https://app.slickstream.com/d/page-boot-data?site=VP5SKMCA&url=https%3A%2F%2Flifestyleofafoodie.com%2F -->
+<!-- [slickstream] Headers: {"referer":"https:\/\/lifestyleofafoodie.com"} -->
+<!-- [slickstream] Storing page boot data in transient cache: slick_page_boot_d14c328d5fde88537c18a7c9a0d337dc -->
+<!-- [slickstream] Page Boot Data: -->
+<script class='slickstream-script'>
+(function() {
+    "slickstream";
+    const win = window;
+    win.$slickBoot = win.$slickBoot || {};
+    win.$slickBoot.d = {"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714046930848,"epoch":1692293244753,"siteCode":"VP5SKMCA","services":{"engagementCacheableApiDomain":"https:\/\/c02f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c02b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c02f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c02b-wss.app.slickstream.com\/socket?site=VP5SKMCA"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["lifestyleofafoodie.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"v2":{"phone":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714046930848,"epoch":1692293244753,"siteCode":"VP5SKMCA","services":{"engagementCacheableApiDomain":"https:\/\/c02f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c02b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c02f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c02b-wss.app.slickstream.com\/socket?site=VP5SKMCA"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["lifestyleofafoodie.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}]},"tablet":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714046930848,"epoch":1692293244753,"siteCode":"VP5SKMCA","services":{"engagementCacheableApiDomain":"https:\/\/c02f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c02b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c02f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c02b-wss.app.slickstream.com\/socket?site=VP5SKMCA"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["lifestyleofafoodie.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}]},"desktop":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714046930848,"epoch":1692293244753,"siteCode":"VP5SKMCA","services":{"engagementCacheableApiDomain":"https:\/\/c02f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c02b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c02f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c02b-wss.app.slickstream.com\/socket?site=VP5SKMCA"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["lifestyleofafoodie.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}]},"unknown":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714046930848,"epoch":1692293244753,"siteCode":"VP5SKMCA","services":{"engagementCacheableApiDomain":"https:\/\/c02f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c02b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c02f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c02b-wss.app.slickstream.com\/socket?site=VP5SKMCA"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["lifestyleofafoodie.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}]}}};
+    win.$slickBoot.s = 'plugin';
+    win.$slickBoot._bd = performance.now();
+})();
+</script>
+<!-- [slickstream] END Page Boot Data -->
+
+<meta property="slick:wpversion" content="1.4.3" />
+<!-- [slickstream] Bootloader: -->
+<script class='slickstream-script' >
+'use strict';
+(async(e,t)=>{if(location.search.indexOf("no-slick")>=0){return}let s;const a=()=>performance.now();let c=window.$slickBoot=window.$slickBoot||{};c.rt=e;c._es=a();c.ev="2.0.1";c.l=async(e,t)=>{try{let c=0;if(!s&&"caches"in self){s=await caches.open("slickstream-code")}if(s){let o=await s.match(e);if(!o){c=a();await s.add(e);o=await s.match(e);if(o&&!o.ok){o=undefined;s.delete(e)}}if(o){const e=o.headers.get("x-slickstream-consent");return{t:c,d:t?await o.blob():await o.json(),c:e||"na"}}}}catch(e){console.log(e)}return{}};const o=e=>new Request(e,{cache:"no-store"});if(!c.d||c.d.bestBy<Date.now()){const s=o(`${e}/d/page-boot-data?site=${t}&url=${encodeURIComponent(location.href.split("#")[0])}`);let{t:i,d:n,c:l}=await c.l(s);if(n){if(n.bestBy<Date.now()){n=undefined}else if(i){c._bd=i;c.c=l}}if(!n){c._bd=a();const e=await fetch(s);const t=e.headers.get("x-slickstream-consent");c.c=t||"na";n=await e.json()}if(n){c.d=n;c.s="embed"}}if(c.d){let e=c.d.bootUrl;const{t:t,d:s}=await c.l(o(e),true);if(s){c.bo=e=URL.createObjectURL(s);if(t){c._bf=t}}else{c._bf=a()}const i=document.createElement("script");i.className="slickstream-script";i.src=e;document.head.appendChild(i)}else{console.log("[slickstream] Boot failed")}})
+("https://app.slickstream.com","VP5SKMCA");
+</script>
+<!-- [slickstream] END Bootloader -->
+<!-- [slickstream] Page Metadata: -->
+<meta property="slick:wppostid" content="85793" />
+<meta property="slick:featured_image" content="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11.jpg" />
+<script type="application/x-slickstream+json">{"@context":"https://slickstream.com","@graph":[{"@type":"Plugin","version":"1.4.3"},{"@type":"Site","name":"Lifestyle of a Foodie","url":"https://lifestyleofafoodie.com","description":"Delicious, easy-to-follow seasonal recipes that your family will love!","atomUrl":"https://lifestyleofafoodie.com/feed/atom/","rtl":false},{"@type":"WebPage","@id":85793,"isFront":true,"isHome":true,"isCategory":false,"isTag":false,"isSingular":false,"date":"2024-04-22T06:30:00-07:00","modified":"2024-04-21T17:39:38-07:00","title":"Homemade Easy Fruity Pebble Krispie Treats Recipe","pageType":"home","postType":"post","featured_image":"https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11.jpg","author":"Chahinez"}]}</script>
+<!-- [slickstream] END Page Metadata -->
+<script class='slickstream-script'>
+(function() {
+    const slickstreamRocketPluginScripts = document.querySelectorAll('script.slickstream-script[type=rocketlazyloadscript]');
+    const slickstreamRocketExternalScripts = document.querySelectorAll('script[type=rocketlazyloadscript][src*="app.slickstream.com"]');
+    if (slickstreamRocketPluginScripts.length > 0 || slickstreamRocketExternalScripts.length > 0) {
+        console.warn('[slickstream] WARNING: WP-Rocket is deferring one or more Slickstream scripts. This may cause undesirable behavior, such as increased CLS scores.');
+    }
+})();
+</script><meta name="hubbub-info" description="Hubbub 1.33.2"><style type="text/css"> .tippy-box[data-theme~="wprm"] { background-color: #333333; color: #FFFFFF; } .tippy-box[data-theme~="wprm"][data-placement^="top"] > .tippy-arrow::before { border-top-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="bottom"] > .tippy-arrow::before { border-bottom-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="left"] > .tippy-arrow::before { border-left-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="right"] > .tippy-arrow::before { border-right-color: #333333; } .tippy-box[data-theme~="wprm"] a { color: #FFFFFF; } .wprm-comment-rating svg { width: 20px !important; height: 20px !important; } img.wprm-comment-rating { width: 100px !important; height: 20px !important; } body { --comment-rating-star-color: #9b9b9b; } body { --wprm-popup-font-size: 16px; } body { --wprm-popup-background: #ffffff; } body { --wprm-popup-title: #000000; } body { --wprm-popup-content: #444444; } body { --wprm-popup-button-background: #444444; } body { --wprm-popup-button-text: #ffffff; }.wprm-recipe-rating {
+font-size: 18px;
+}
+</style><style type="text/css">.wprm-glossary-term {color: #5A822B;text-decoration: underline;cursor: help;}</style>
+<!-- Google Tag Manager for WordPress by gtm4wp.com -->
+<!-- GTM Container placement set to footer -->
+<script type="rocketlazyloadscript" data-cfasync="false" data-pagespeed-no-defer data-rocket-type="text/javascript">
+</script>
+<!-- End Google Tag Manager for WordPress by gtm4wp.com --><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S5449MGW49"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-S5449MGW49');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0TRS6X78VQ"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-0TRS6X78VQ');
+</script>
+
+<script type="rocketlazyloadscript">(function(w,d,s,u,n,t,p){w[n]=w[n]||function(){
+(w[n].q=w[n].q||[]).push(arguments)};t=d.createElement(s),
+p=d.getElementsByTagName(s)[0];t.id='sideqik-sdk';t.async=1;t.src=u;p.parentNode.insertBefore(t,p)
+})(window,document,'script','https://d1hrk5gt3yn7pi.cloudfront.net/api/sideqik-api-1.2.js#5f908b4249b8c31c82bfe616','sideqik'); sideqik('viewPost', '71338799'); </script>
+
+<!-- Pinterest Tag -->
+<script type="rocketlazyloadscript">
+!function(e){if(!window.pintrk){window.pintrk = function () {
+window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+  n=window.pintrk;n.queue=[],n.version="3.0";var
+  t=document.createElement("script");t.async=!0,t.src=e;var
+  r=document.getElementsByTagName("script")[0];
+  r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+pintrk('load', '2614178129069', {em: '<user_email_address>'});
+pintrk('page');
+</script>
+<noscript>
+<img height="1" width="1" style="display:none;" alt=""
+  src="https://ct.pinterest.com/v3/?event=init&tid=2614178129069&pd[em]=<hashed_email_address>&noscript=1" />
+</noscript>
+<!-- end Pinterest Tag --><meta name="generator" content="Elementor 3.20.3; features: e_optimized_assets_loading, additional_custom_breakpoints, block_editor_assets_optimize, e_image_loading_optimization; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<script type="rocketlazyloadscript" data-rocket-type='application/javascript'>console.warn('PixelYourSite: no pixel configured.');</script>
+<link rel="icon" href="https://lifestyleofafoodie.com/wp-content/uploads/2018/11/Mustard-Black-Minimalist-Etsy-Shop-Icon-50x50.png" sizes="32x32" />
+<link rel="icon" href="https://lifestyleofafoodie.com/wp-content/uploads/2018/11/Mustard-Black-Minimalist-Etsy-Shop-Icon-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://lifestyleofafoodie.com/wp-content/uploads/2018/11/Mustard-Black-Minimalist-Etsy-Shop-Icon-300x300.png" />
+<meta name="msapplication-TileImage" content="https://lifestyleofafoodie.com/wp-content/uploads/2018/11/Mustard-Black-Minimalist-Etsy-Shop-Icon-300x300.png" />
+		<style type="text/css" id="wp-custom-css">
+			@media only screen and (max-width: 940px) {
+	.menu-toggle-wrap {
+		height: 52px;
+	}
+}
+
+.aligncenter img.entry-image.attachment-page{
+	
+	border-radius:50%;
+	width:190px;
+}
+
+img.alignleft.jetpack-lazy-image.jetpack-lazy-image--handled{
+	
+	width:200px;
+	height:300px;
+}
+.entry-content ul li {
+   
+    list-style-type: none;
+}
+
+div.textwidget p a {
+/*     text-align: justify; */
+    background: #f3f3f3;
+/*     line-height: 2.4; */
+    font-family: 'Jost', sans-serif;
+    border: 1px solid #3C455A;
+    padding: 3px 7px;
+    font-size: 16px;
+	  color: #3c455a;
+		font-weight:600;
+		display: inline-block;
+		margin-bottom: 7px;
+}
+div.textwidget p
+{
+
+	text-align: center !important;
+}
+div.textwidget p
+{
+/* 	text-align: justify !important; */
+}
+
+
+
+.site-title {
+    font-size: 36px;
+	font-family:Droid-serif;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+div#genesis-footer-widgets{
+	
+	display:none;
+}
+
+ul.jetpack-social-widget-list.size-large {
+    margin-left: 17%;
+}
+
+/* Fixing sidebar shift which impacts CWV - NerdPress: Pat July 1st 2021 */
+
+@media only screen and (max-width: 1023px) {
+	.content-sidebar-wrap {
+		float:none !important;
+	}
+	main.content {
+			float:none !important;
+	}
+	aside.sidebar, .feast-modern-sidebar {
+		float:none!important;
+	}
+	
+}
+
+@media only screen and (max-width: 359px) {
+    .site-inner {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .wprm-recipe.wprm-recipe-template-lifestyle-of-a-foodie-recipe-template {
+        border-left: 0 !important;
+        border-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+		</style>
+		<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><script type="rocketlazyloadscript">
+/*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+(function(w){"use strict";if(!w.loadCSS){w.loadCSS=function(){}}
+var rp=loadCSS.relpreload={};rp.support=(function(){var ret;try{ret=w.document.createElement("link").relList.supports("preload")}catch(e){ret=!1}
+return function(){return ret}})();rp.bindMediaToggle=function(link){var finalMedia=link.media||"all";function enableStylesheet(){link.media=finalMedia}
+if(link.addEventListener){link.addEventListener("load",enableStylesheet)}else if(link.attachEvent){link.attachEvent("onload",enableStylesheet)}
+setTimeout(function(){link.rel="stylesheet";link.media="only x"});setTimeout(enableStylesheet,3000)};rp.poly=function(){if(rp.support()){return}
+var links=w.document.getElementsByTagName("link");for(var i=0;i<links.length;i++){var link=links[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"&&!link.getAttribute("data-loadcss")){link.setAttribute("data-loadcss",!0);rp.bindMediaToggle(link)}}};if(!rp.support()){rp.poly();var run=w.setInterval(rp.poly,500);if(w.addEventListener){w.addEventListener("load",function(){rp.poly();w.clearInterval(run)})}else if(w.attachEvent){w.attachEvent("onload",function(){rp.poly();w.clearInterval(run)})}}
+if(typeof exports!=="undefined"){exports.loadCSS=loadCSS}
+else{w.loadCSS=loadCSS}}(typeof global!=="undefined"?global:this))
+</script></head>
+<body class="home blog feast-plugin header-full-width content-sidebar genesis-breadcrumbs-hidden genesis-footer-widgets-visible foodie-pro elementor-default elementor-kit-56163"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><div class="site-container"><ul class="genesis-skip-link"><li><a href="#genesis-nav-primary" class="screen-reader-shortcut"> Skip to primary navigation</a></li><li><a href="#genesis-content" class="screen-reader-shortcut"> Skip to main content</a></li><li><a href="#genesis-sidebar-primary" class="screen-reader-shortcut"> Skip to primary sidebar</a></li><li><a href="#genesis-footer-widgets" class="screen-reader-shortcut"> Skip to footer</a></li></ul><header class="site-header"><div class="wrap"><div class="title-area"><div class="site-title"><a href="https://lifestyleofafoodie.com/">Lifestyle of a Foodie</a></div></div></div></header><div class='menu-toggle-wrap'><nav class="nav-primary" aria-label="Main" id="genesis-nav-primary"><div class="wrap"><ul id="menu-primary" class="menu genesis-nav-menu menu-primary"><li id="menu-item-6" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-6"><a href="/" aria-current="page"><span >Home</span></a></li>
+<li id="menu-item-56126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-56126"><a href="https://lifestyleofafoodie.com/recipes/"><span >Recipes</span></a>
+<ul class="sub-menu">
+	<li id="menu-item-56133" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56133"><a href="https://lifestyleofafoodie.com/category/air-fryer/"><span >Air Fryer</span></a></li>
+	<li id="menu-item-56127" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56127"><a href="https://lifestyleofafoodie.com/category/breakfast/"><span >breakfast</span></a></li>
+	<li id="menu-item-56129" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56129"><a href="https://lifestyleofafoodie.com/category/desserts/"><span >desserts</span></a></li>
+	<li id="menu-item-56130" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56130"><a href="https://lifestyleofafoodie.com/category/diets/"><span >Diets</span></a></li>
+	<li id="menu-item-56132" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56132"><a href="https://lifestyleofafoodie.com/category/drinks/"><span >Drinks</span></a></li>
+	<li id="menu-item-56128" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56128"><a href="https://lifestyleofafoodie.com/category/savory/"><span >Savory</span></a></li>
+	<li id="menu-item-56131" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56131"><a href="https://lifestyleofafoodie.com/category/small-batch/"><span >Small Batch</span></a></li>
+	<li id="menu-item-56134" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-56134"><a href="https://lifestyleofafoodie.com/category/recipe-collection/"><span >Recipe collection</span></a></li>
+</ul>
+</li>
+<li id="menu-item-53" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53"><a href="https://lifestyleofafoodie.com/about-me/"><span >About me</span></a></li>
+<li id="menu-item-7" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7"><a href="https://lifestyleofafoodie.com/contact/"><span >Contact</span></a></li>
+<li id="menu-item-56373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-56373"><a href="https://lifestyleofafoodie.com/privacy-policy/"><span >Privacy</span></a></li>
+<li id="feast-search" class="feast-search menu-item"><form class="search-form" method="get" action="https://lifestyleofafoodie.com/" role="search"><label class="search-form-label screen-reader-text" for="searchform-1">Search</label><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search"><input class="search-form-submit" type="submit" value="Search"><meta content="https://lifestyleofafoodie.com/?s={s}"></form></li></ul></div></nav></div><div class="site-inner"><div class="content-sidebar-wrap"><main class="content" id="genesis-content"><div class="widget-area home-top"><section id="featured-post-7" class="widget featured-content featuredpost"><div class="widget-wrap"><h3 class="widgettitle widget-title">NEWEST RECIPES</h3>
+<article class="simple-grid one-third odd first post-85793 post type-post status-publish format-standard has-post-thumbnail category-desserts category-no-bake entry" aria-label="Homemade Easy Fruity Pebble Krispie Treats Recipe"><a href="https://lifestyleofafoodie.com/fruity-pebble-krispie-treats/" title="Homemade Easy Fruity Pebble Krispie Treats Recipe" class="aligncenter"><img fetchpriority="high" width="720" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%201080'%3E%3C/svg%3E" class="entry-image attachment-post" alt="Stack of Fruity Pebbles Rice Krispies" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11.jpg 800w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-768x1152.jpg" /><noscript><img fetchpriority="high" width="720" height="1080" src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-768x1152.jpg" class="entry-image attachment-post" alt="Stack of Fruity Pebbles Rice Krispies" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Fruity-Pebbles-Rice-Krispies-Recipe-11.jpg 800w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://lifestyleofafoodie.com/fruity-pebble-krispie-treats/">Homemade Easy Fruity Pebble Krispie Treats Recipe</a></h2></header></article><article class="simple-grid one-third post-85801 post type-post status-publish format-standard has-post-thumbnail category-bars category-desserts tag-chocolate-chip-cookies tag-small-batch tag-small-batch-chocolate-chip-cookie-bars tag-small-batch-cookies tag-small-batch-recipe entry" aria-label="The Best Small Batch Chocolate Chip Cookie Bars"><a href="https://lifestyleofafoodie.com/small-batch-chocolate-chip-cookie-bars/" title="The Best Small Batch Chocolate Chip Cookie Bars" class="aligncenter"><img width="720" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%201080'%3E%3C/svg%3E" class="entry-image attachment-post" alt="Small batch chocolate chip cookie bars" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13.jpg 800w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-768x1152.jpg" /><noscript><img width="720" height="1080" src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-768x1152.jpg" class="entry-image attachment-post" alt="Small batch chocolate chip cookie bars" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Small-batch-chocolate-chip-cookie-bars-13.jpg 800w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://lifestyleofafoodie.com/small-batch-chocolate-chip-cookie-bars/">The Best Small Batch Chocolate Chip Cookie Bars</a></h2></header></article><article class="simple-grid one-third odd post-85520 post type-post status-publish format-standard has-post-thumbnail category-drinks category-iced-drinks-drinks tag-matcha-latte entry" aria-label="The Best Spanish Latte Recipe"><a href="https://lifestyleofafoodie.com/spanish-latte/" title="The Best Spanish Latte Recipe" class="aligncenter"><img loading="lazy" width="720" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%201080'%3E%3C/svg%3E" class="entry-image attachment-post" alt="Spanish Latte Recipe" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5.jpg 800w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-768x1152.jpg" /><noscript><img loading="lazy" width="720" height="1080" src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-768x1152.jpg" class="entry-image attachment-post" alt="Spanish Latte Recipe" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Spanish-Latte-Recipe-5.jpg 800w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://lifestyleofafoodie.com/spanish-latte/">The Best Spanish Latte Recipe</a></h2></header></article><article class="simple-grid one-third first post-85412 post type-post status-publish format-standard has-post-thumbnail category-bars category-desserts tag-almond tag-almond-blondies tag-almond-croissant-blondies entry" aria-label="The Best Almond Croissant Blondies Recipe with Frangipane"><a href="https://lifestyleofafoodie.com/almond-croissant-blondies/" title="The Best Almond Croissant Blondies Recipe with Frangipane" class="aligncenter"><img loading="lazy" width="720" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%201080'%3E%3C/svg%3E" class="entry-image attachment-post" alt="a square of almond croissant blondies with a bite taken out of it" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23.jpg 800w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-768x1152.jpg" /><noscript><img loading="lazy" width="720" height="1080" src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-768x1152.jpg" class="entry-image attachment-post" alt="a square of almond croissant blondies with a bite taken out of it" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Almond-Croissant-Blondies-Recipe-23.jpg 800w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://lifestyleofafoodie.com/almond-croissant-blondies/">The Best Almond Croissant Blondies Recipe with Frangipane</a></h2></header></article><article class="simple-grid one-third odd post-85545 post type-post status-publish format-standard has-post-thumbnail category-cake category-desserts tag-cake tag-tornado-cake entry" aria-label="The Best Tornado Cake Recipe"><a href="https://lifestyleofafoodie.com/tornado-cake/" title="The Best Tornado Cake Recipe" class="aligncenter"><img loading="lazy" width="720" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%201080'%3E%3C/svg%3E" class="entry-image attachment-post" alt="tornado cake recipe slice on a plate" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21.jpg 800w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-768x1152.jpg" /><noscript><img loading="lazy" width="720" height="1080" src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-768x1152.jpg" class="entry-image attachment-post" alt="tornado cake recipe slice on a plate" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Tornado-Cake-Recipe-21.jpg 800w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://lifestyleofafoodie.com/tornado-cake/">The Best Tornado Cake Recipe</a></h2></header></article><article class="simple-grid one-third post-85596 post type-post status-publish format-standard has-post-thumbnail category-recipe-collection entry" aria-label="45 Of The Best Silken Tofu Recipes &#8211; Sweet &#038; Savory"><a href="https://lifestyleofafoodie.com/silken-tofu-recipes/" title="45 Of The Best Silken Tofu Recipes &#8211; Sweet &#038; Savory" class="aligncenter"><img loading="lazy" width="720" height="900" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%20900'%3E%3C/svg%3E" class="entry-image attachment-post" alt="45 Silken tofu recipes" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-768x960.png 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-240x300.png 240w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-819x1024.png 819w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-150x188.png 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px.png 1080w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-768x960.png" /><noscript><img loading="lazy" width="720" height="900" src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-768x960.png" class="entry-image attachment-post" alt="45 Silken tofu recipes" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-768x960.png 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-240x300.png 240w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-819x1024.png 819w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px-150x188.png 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Silken-tofu-recipes-1080-x-1350-px.png 1080w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://lifestyleofafoodie.com/silken-tofu-recipes/">45 Of The Best Silken Tofu Recipes &#8211; Sweet &#038; Savory</a></h2></header></article><article class="simple-grid one-third odd first post-85529 post type-post status-publish format-standard has-post-thumbnail category-drinks category-iced-drinks-drinks entry" aria-label="Easy Viral Whole Foods Brown Butter Cookie Latte Recipe"><a href="https://lifestyleofafoodie.com/whole-foods-brown-butter-cookie-latte/" title="Easy Viral Whole Foods Brown Butter Cookie Latte Recipe" class="aligncenter"><img loading="lazy" width="720" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%201080'%3E%3C/svg%3E" class="entry-image attachment-post" alt="Whole Foods Brown Butter Cookie Latte Recipe" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9.jpg 800w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-768x1152.jpg" /><noscript><img loading="lazy" width="720" height="1080" src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-768x1152.jpg" class="entry-image attachment-post" alt="Whole Foods Brown Butter Cookie Latte Recipe" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Whole-Foods-Brown-Butter-Cookie-Latte-Recipe-9.jpg 800w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://lifestyleofafoodie.com/whole-foods-brown-butter-cookie-latte/">Easy Viral Whole Foods Brown Butter Cookie Latte Recipe</a></h2></header></article><article class="simple-grid one-third post-85490 post type-post status-publish format-standard has-post-thumbnail category-desserts category-no-bake tag-cannoli tag-cannoli-dip-recipe tag-dip entry" aria-label="The Best Cannoli Dip Recipe"><a href="https://lifestyleofafoodie.com/cannoli-dip/" title="The Best Cannoli Dip Recipe" class="aligncenter"><img loading="lazy" width="720" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%201080'%3E%3C/svg%3E" class="entry-image attachment-post" alt="overhead shot of the cannoli dip recipe" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8.jpg 800w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-768x1152.jpg" /><noscript><img loading="lazy" width="720" height="1080" src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-768x1152.jpg" class="entry-image attachment-post" alt="overhead shot of the cannoli dip recipe" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Cannoli-Dip-Recipe-8.jpg 800w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://lifestyleofafoodie.com/cannoli-dip/">The Best Cannoli Dip Recipe</a></h2></header></article><article class="simple-grid one-third odd post-85420 post type-post status-publish format-standard has-post-thumbnail category-bars category-desserts entry" aria-label="The Best Nestle Toll House Cookie Bar Recipe"><a href="https://lifestyleofafoodie.com/nestle-toll-house-cookie-bar/" title="The Best Nestle Toll House Cookie Bar Recipe" class="aligncenter"><img loading="lazy" width="720" height="1080" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20720%201080'%3E%3C/svg%3E" class="entry-image attachment-post" alt="Nestle Toll House Cookie Bars Recipe" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34.jpg 800w" data-lazy-sizes="(max-width: 720px) 100vw, 720px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-768x1152.jpg" /><noscript><img loading="lazy" width="720" height="1080" src="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-768x1152.jpg" class="entry-image attachment-post" alt="Nestle Toll House Cookie Bars Recipe" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-768x1152.jpg 768w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-200x300.jpg 200w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-683x1024.jpg 683w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34-150x225.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2024/04/Nestle-Toll-House-Cookie-Bars-Recipe-34.jpg 800w" sizes="(max-width: 720px) 100vw, 720px" /></noscript></a><header class="entry-header"><h2 class="entry-title"><a href="https://lifestyleofafoodie.com/nestle-toll-house-cookie-bar/">The Best Nestle Toll House Cookie Bar Recipe</a></h2></header></article></div></section>
+</div> <!-- end .home-top --><div class="widget-area home-bottom"><section id="jr_insta_slider-7" class="widget jr-insta-slider"><div class="widget-wrap"><h3 class="widgettitle widget-title">Social Slider</h3>
+
+<div class="wis-feed-header">
+        <div class="wis-box">
+            <div class="wis-header-img">
+                <div class="wis-round wis-header-neg">
+                    <i class="wis-header-neg-icon"></i>
+                </div>
+                <img loading="lazy" class="wis-round" style="position: relative" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2050%2050'%3E%3C/svg%3E" alt=""
+                     width="50" height="50" data-lazy-src="https://scontent-mia3-2.xx.fbcdn.net/v/t51.2885-15/70785276_365182217757820_4923118331898101760_n.jpg?_nc_cat=1&#038;ccb=1-7&#038;_nc_sid=86c713&#038;_nc_ohc=oNFndWiiQyQAX9Ri2Sa&#038;_nc_ht=scontent-mia3-2.xx&#038;edm=AL-3X8kEAAAA&#038;oh=00_AT82BcYbFd25fNlTf_2GRGbWA4RrLaIh6_jVJfWPM--aXA&#038;oe=630510FA"><noscript><img loading="lazy" class="wis-round" style="position: relative" src="https://scontent-mia3-2.xx.fbcdn.net/v/t51.2885-15/70785276_365182217757820_4923118331898101760_n.jpg?_nc_cat=1&#038;ccb=1-7&#038;_nc_sid=86c713&#038;_nc_ohc=oNFndWiiQyQAX9Ri2Sa&#038;_nc_ht=scontent-mia3-2.xx&#038;edm=AL-3X8kEAAAA&#038;oh=00_AT82BcYbFd25fNlTf_2GRGbWA4RrLaIh6_jVJfWPM--aXA&#038;oe=630510FA" alt=""
+                     width="50" height="50"></noscript>
+            </div>
+            <div class="wis-header-info">
+                <a href="https://www.instagram.com/chahinez_tbt/" target="_blank" style="text-decoration: none;border: 0 !important;">
+                    <p class="wis-header-info-username">chahinez_tbt</p>
+                </a>
+                <p style="margin-top: 0; font-size: 11px">
+                    <span class="fa fa-image">&nbsp;1127</span>&nbsp;&nbsp;
+                    <span class="fa fa-user">&nbsp;180344</span>
+                </p>
+            </div>
+        </div>
+
+</div>
+<br>
+<div class='jr-insta-thumb'>
+    <ul class='no-bullet thumbnails jr_col_3' id='wis-slides'>
+		            <li class='GraphVideo  no-isw-icons'>
+                <div style='background: url(https://scontent-mia3-2.cdninstagram.com/v/t51.29350-15/299997042_5559615864102140_2148836248835081005_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=V6p02IeDz0kAX9WDTPf&_nc_ht=scontent-mia3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AT8lR3rmiA8VbUx7mNGszg7XftRzegqtDJJu7zXhrSgbaw&oe=63038951) no-repeat center center; background-size: cover;'><a href='https://www.instagram.com/reel/ChZ1cbyFq5Y/' target='_blank' rel='nofollow noreferrer'> <img width="640" height="640" alt='Nothing more comforting than the smell of these chocolate chunk cookie cups baking in the oven! Today I am sharing' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E"  class='GraphVideo' style='opacity: 0;' data-lazy-src="https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png"><noscript><img width="640" height="640" alt='Nothing more comforting than the smell of these chocolate chunk cookie cups baking in the oven! Today I am sharing' src='https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png'  class='GraphVideo' style='opacity: 0;'></noscript></a></div>
+            </li>
+		            <li class='GraphVideo  no-isw-icons'>
+                <div style='background: url(https://scontent-mia3-2.cdninstagram.com/v/t51.29350-15/299894847_128404393245296_3833334484643957029_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=Wf25VaXX_RcAX9S-6mM&_nc_ht=scontent-mia3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AT-xkMG_WW6TSirWMMQICrtyKQHGLy4Zov41Jy-E2DsCxg&oe=630460C1) no-repeat center center; background-size: cover;'><a href='https://www.instagram.com/reel/ChXLc-Jj6ip/' target='_blank' rel='nofollow noreferrer'> <img width="640" height="640" alt='Imagine taking a bite of a thick buttery cookie that’s topped with caramel cream cheese frosting, caramel popcorn, and a' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E"  class='GraphVideo' style='opacity: 0;' data-lazy-src="https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png"><noscript><img width="640" height="640" alt='Imagine taking a bite of a thick buttery cookie that’s topped with caramel cream cheese frosting, caramel popcorn, and a' src='https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png'  class='GraphVideo' style='opacity: 0;'></noscript></a></div>
+            </li>
+		            <li class='GraphVideo  no-isw-icons'>
+                <div style='background: url(https://scontent-mia3-2.cdninstagram.com/v/t51.29350-15/299366875_3416187511989857_2225509546946957106_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=30hzOerhahoAX9nMbfC&_nc_ht=scontent-mia3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AT-lC0AKJBVli4g2JqMNZJOKoDUeJOq4RlknqM4ilOgTIQ&oe=6303A01B) no-repeat center center; background-size: cover;'><a href='https://www.instagram.com/reel/ChUsWkLj7iX/' target='_blank' rel='nofollow noreferrer'> <img width="640" height="640" alt='If you’re not ready to let summer go, you have to make these lemon poppyseed cookies!!! Each one is filled' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E"  class='GraphVideo' style='opacity: 0;' data-lazy-src="https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png"><noscript><img width="640" height="640" alt='If you’re not ready to let summer go, you have to make these lemon poppyseed cookies!!! Each one is filled' src='https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png'  class='GraphVideo' style='opacity: 0;'></noscript></a></div>
+            </li>
+		    </ul>
+</div></div></section>
+</div> <!-- end .home-bottom --></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" id="genesis-sidebar-primary"><h2 class="genesis-sidebar-title screen-reader-text">Primary Sidebar</h2><section id="heateor_sss_follow-2" class="widget widget_heateor_sss_follow"><div class="widget-wrap"><div class="heateor_sss_follow_icons_container heateor_sss_bottom_follow"><style>div.heateor_sss_follow_ul{width:100%;text-align:center;}.widget_heateor_sss_follow div.heateor_sss_follow_ul a{float:none!important;display:inline-block;}</style><div class="heateor_sss_follow_ul"><a class="heateor_sss_facebook" href="https://www.facebook.com/Lifestyleofafoodieblog" title="Facebook" rel="noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span style="background-color:#0765FE;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;width:46px;height:46px;border-radius:999px" class="heateor_sss_svg"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path fill="#fff" d="M28 16c0-6.627-5.373-12-12-12S4 9.373 4 16c0 5.628 3.875 10.35 9.101 11.647v-7.98h-2.474V16H13.1v-1.58c0-4.085 1.849-5.978 5.859-5.978.76 0 2.072.15 2.608.298v3.325c-.283-.03-.775-.045-1.386-.045-1.967 0-2.728.745-2.728 2.683V16h3.92l-.673 3.667h-3.247v8.245C23.395 27.195 28 22.135 28 16Z"></path></svg></span></a><a class="heateor_sss_instagram" href="https://www.instagram.com/chahinez_tbt/" title="Instagram" rel="noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span style="background-color:#53beee;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;width:46px;height:46px;border-radius:999px" class="heateor_sss_svg"><svg height="100%" width="100%" version="1.1" viewBox="-10 -10 148 148" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g><g><path d="M86,112H42c-14.336,0-26-11.663-26-26V42c0-14.337,11.664-26,26-26h44c14.337,0,26,11.663,26,26v44    C112,100.337,100.337,112,86,112z M42,24c-9.925,0-18,8.074-18,18v44c0,9.925,8.075,18,18,18h44c9.926,0,18-8.075,18-18V42    c0-9.926-8.074-18-18-18H42z" fill="#fff"></path></g><g><path d="M64,88c-13.234,0-24-10.767-24-24c0-13.234,10.766-24,24-24s24,10.766,24,24C88,77.233,77.234,88,64,88z M64,48c-8.822,0-16,7.178-16,16s7.178,16,16,16c8.822,0,16-7.178,16-16S72.822,48,64,48z" fill="#fff"></path></g><g><circle cx="89.5" cy="38.5" fill="#fff" r="5.5"></circle></g></g></svg></span></a><a class="heateor_sss_pinterest" href="https://www.pinterest.com/lifestyleofafoodie/" title="Pinterest" rel="noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span style="background-color:#cc2329;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;width:46px;height:46px;border-radius:999px" class="heateor_sss_svg"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="-2 -2 35 35"><path fill="#fff" d="M16.539 4.5c-6.277 0-9.442 4.5-9.442 8.253 0 2.272.86 4.293 2.705 5.046.303.125.574.005.662-.33.061-.231.205-.816.27-1.06.088-.331.053-.447-.191-.736-.532-.627-.873-1.439-.873-2.591 0-3.338 2.498-6.327 6.505-6.327 3.548 0 5.497 2.168 5.497 5.062 0 3.81-1.686 7.025-4.188 7.025-1.382 0-2.416-1.142-2.085-2.545.397-1.674 1.166-3.48 1.166-4.689 0-1.081-.581-1.983-1.782-1.983-1.413 0-2.548 1.462-2.548 3.419 0 1.247.421 2.091.421 2.091l-1.699 7.199c-.505 2.137-.076 4.755-.039 5.019.021.158.223.196.314.077.13-.17 1.813-2.247 2.384-4.324.162-.587.929-3.631.929-3.631.46.876 1.801 1.646 3.227 1.646 4.247 0 7.128-3.871 7.128-9.053.003-3.918-3.317-7.568-8.361-7.568z" /></svg></span></a><a class="heateor_sss_youtube_channel" href="https://www.youtube.com/user/chahinez1/videos" title="Youtube Channel" rel="noopener" target="_blank" style="font-size:32px!important;box-shadow:none;display:inline-block;vertical-align:middle"><span style="background-color:red;display:inline-block;opacity:1;float:left;font-size:32px;box-shadow:none;display:inline-block;font-size:16px;padding:0 4px;vertical-align:middle;background-repeat:repeat;overflow:hidden;padding:0;cursor:pointer;width:46px;height:46px;border-radius:999px" class="heateor_sss_svg"><svg focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 32 32"><path fill="#fff" d="M26.78 11.6s-.215-1.515-.875-2.183c-.837-.876-1.774-.88-2.204-.932-3.075-.222-7.693-.222-7.693-.222h-.01s-4.618 0-7.697.222c-.43.05-1.368.056-2.205.932-.66.668-.874 2.184-.874 2.184S5 13.386 5 15.166v1.67c0 1.78.22 3.56.22 3.56s.215 1.516.874 2.184c.837.875 1.936.85 2.426.94 1.76.17 7.48.22 7.48.22s4.623-.007 7.7-.23c.43-.05 1.37-.056 2.205-.932.66-.668.875-2.184.875-2.184s.22-1.78.22-3.56v-1.67c0-1.78-.22-3.56-.22-3.56zm-13.052 7.254v-6.18l5.944 3.1-5.944 3.08z"></path></svg></span></a></div><div style="clear:both"></div></div></div></section>
+<section id="featured-page-7" class="widget featured-content featuredpage"><div class="widget-wrap"><article class="post-51 page type-page status-publish mv-content-wrapper grow-content-body entry" aria-label="About me"><a href="https://lifestyleofafoodie.com/about-me/" class="aligncenter" aria-hidden="true" tabindex="-1"><img loading="lazy" width="150" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" class="entry-image attachment-page" alt="" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2018/12/sef-portrait9-2-of-1-150x150.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2018/12/sef-portrait9-2-of-1-500x500.jpg 500w" data-lazy-sizes="(max-width: 150px) 100vw, 150px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2018/12/sef-portrait9-2-of-1-150x150.jpg" /><noscript><img loading="lazy" width="150" height="150" src="https://lifestyleofafoodie.com/wp-content/uploads/2018/12/sef-portrait9-2-of-1-150x150.jpg" class="entry-image attachment-page" alt="" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2018/12/sef-portrait9-2-of-1-150x150.jpg 150w, https://lifestyleofafoodie.com/wp-content/uploads/2018/12/sef-portrait9-2-of-1-500x500.jpg 500w" sizes="(max-width: 150px) 100vw, 150px" /></noscript></a><header class="entry-header"><h4 class="entry-title"><a href="https://lifestyleofafoodie.com/about-me/">About me</a></h4></header><div class="entry-content"><p>Hey there!
+
+
+
+My name is Chahinez, and I’m the brains behind the blog, Lifestyle of a Foodie.
+
+
+
+LOAF was started back in 2018 during my last semester ...</p><p><a class="more-link" href="https://lifestyleofafoodie.com/about-me/">Read More</a></p></p></div></article></div></section>
+<section id="categories-5" class="widget widget_categories"><div class="widget-wrap"><h3 class="widgettitle widget-title">Categories</h3>
+<form action="https://lifestyleofafoodie.com" method="get"><label class="screen-reader-text" for="cat">Categories</label><select  name='cat' id='cat' class='postform'>
+	<option value='-1'>Select Category</option>
+	<option class="level-0" value="652481634">Air Fryer</option>
+	<option class="level-0" value="652481616">bars</option>
+	<option class="level-0" value="652481860">Blogging</option>
+	<option class="level-0" value="652479571">breakfast</option>
+	<option class="level-0" value="652480036">brownies</option>
+	<option class="level-0" value="652481615">cake</option>
+	<option class="level-0" value="652481617">cheesecake</option>
+	<option class="level-0" value="652481599">Cookies</option>
+	<option class="level-0" value="652487192">cupcakes</option>
+	<option class="level-0" value="8544">desserts</option>
+	<option class="level-0" value="652481628">Diets</option>
+	<option class="level-0" value="652481863">Donuts</option>
+	<option class="level-0" value="652479439">Drinks</option>
+	<option class="level-0" value="652481636">Everyday</option>
+	<option class="level-0" value="652481638">Frostings</option>
+	<option class="level-0" value="652481862">Fruit Dessert</option>
+	<option class="level-0" value="652481629">Gluten-free</option>
+	<option class="level-0" value="652481666">Healthy</option>
+	<option class="level-0" value="652481663">Healthy</option>
+	<option class="level-0" value="652481648">Holidays</option>
+	<option class="level-0" value="652481643">Hot Drinks</option>
+	<option class="level-0" value="652481861">How to</option>
+	<option class="level-0" value="652481619">Ice cream</option>
+	<option class="level-0" value="652481644">Iced Drinks</option>
+	<option class="level-0" value="652481632">Low carb</option>
+	<option class="level-0" value="652481635">Make Ahead</option>
+	<option class="level-0" value="652481637">Meal Prep</option>
+	<option class="level-0" value="652481640">Meats</option>
+	<option class="level-0" value="652481721">more</option>
+	<option class="level-0" value="652481620">More desserts</option>
+	<option class="level-0" value="652481665">More savory recipes</option>
+	<option class="level-0" value="652481664">Muffins</option>
+	<option class="level-0" value="652481633">Mug Desserts</option>
+	<option class="level-0" value="652481618">No bake</option>
+	<option class="level-0" value="652481720">Other</option>
+	<option class="level-0" value="652481624">Pasta</option>
+	<option class="level-0" value="652481667">Pies</option>
+	<option class="level-0" value="652481622">Pizza and flat breads</option>
+	<option class="level-0" value="652480089">Recipe collection</option>
+	<option class="level-0" value="652481655">Recipe For One</option>
+	<option class="level-0" value="652481626">Salads</option>
+	<option class="level-0" value="652481621">Savory</option>
+	<option class="level-0" value="652481654">Savory Recipes</option>
+	<option class="level-0" value="652481625">Sides, Appetizers, and Dips</option>
+	<option class="level-0" value="652481647">Simple Syrups</option>
+	<option class="level-0" value="652481652">Small Batch</option>
+	<option class="level-0" value="652481646">Smoothies</option>
+	<option class="level-0" value="652481645">Smoothies</option>
+	<option class="level-0" value="652481623">Soup</option>
+	<option class="level-0" value="652481653">Sweet Recipes</option>
+	<option class="level-0" value="1">Uncategorized</option>
+	<option class="level-0" value="652481630">Vegan</option>
+	<option class="level-0" value="652481631">Vegetarian</option>
+	<option class="level-0" value="652481639">Weekend Brunch</option>
+</select>
+</form>
+<script type="rocketlazyloadscript" data-rocket-type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			dropdown.parentNode.submit();
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+
+			</div></section>
+</aside></div></div><div class="footer-widgets" id="genesis-footer-widgets"><h2 class="genesis-sidebar-title screen-reader-text">Footer</h2><div class="wrap"><div class="widget-area footer-widgets-1 footer-widget-area"><section id="featured-post-2" class="widget featured-content featuredpost"><div class="widget-wrap"><h3 class="widgettitle widget-title">Most popular posts</h3>
+<article class="post-59399 post type-post status-publish format-standard has-post-thumbnail category-cookies tag-crumbl-cookies tag-crumbl-cookies-copycat-recipes tag-crumbl-copycat tag-crumbl-copycat-recipes tag-crumbl-recipes entry" aria-label="All The Crumbl Cookies copycat recipes You&#8217;ll ever need!"><a href="https://lifestyleofafoodie.com/crumbl-cookies-copycat-recipes/" title="All The Crumbl Cookies copycat recipes You&#8217;ll ever need!" class="alignnone"><img loading="lazy" width="150" height="150" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20150%20150'%3E%3C/svg%3E" class="entry-image attachment-post" alt="Crumbl copycat cookies" decoding="async" data-lazy-srcset="https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-150x150.png 150w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-65x65.png 65w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-500x500.png 500w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-360x361.png 360w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-640x640.png 640w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-96x96.png 96w" data-lazy-sizes="(max-width: 150px) 100vw, 150px" data-lazy-src="https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-150x150.png" /><noscript><img loading="lazy" width="150" height="150" src="https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-150x150.png" class="entry-image attachment-post" alt="Crumbl copycat cookies" decoding="async" srcset="https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-150x150.png 150w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-65x65.png 65w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-500x500.png 500w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-360x361.png 360w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-640x640.png 640w, https://lifestyleofafoodie.com/wp-content/uploads/2021/09/Untitled-design-96x96.png 96w" sizes="(max-width: 150px) 100vw, 150px" /></noscript></a><div class="entry-content"><p>In the past few months, Crumbl cookies have gotten so popular! Tiktok went crazy for them the second I shared my first chilled sugar cookie recipe on there. Since then I have put my baking expertise to test by going through their whole menu and bringing you the best Crumbl copycats found online! The hundreds of reviews on the Crumbl cookie recipes that have been posted throughout the past few months can be proof of that! In this article I have 39 Crumbl cookie copycat recipes to satisfy all your cravings, so get ready! </p>
+</div></article></div></section>
+<section id="jr_insta_slider-2" class="widget jr-insta-slider"><div class="widget-wrap"><h3 class="widgettitle widget-title">Social Slider</h3>
+<div class='pllexislider pllexislider-normal instaslider-nr-1'>
+    <ul class='no-bullet slides' id='wis-slides'>
+		            <li style='border:0;'>
+                <div style='background: url(https://scontent-mia3-2.cdninstagram.com/v/t51.29350-15/299366875_3416187511989857_2225509546946957106_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=30hzOerhahoAX9nMbfC&_nc_ht=scontent-mia3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AT-lC0AKJBVli4g2JqMNZJOKoDUeJOq4RlknqM4ilOgTIQ&oe=6303A01B) no-repeat center center; background-size: cover;'><a href='https://www.instagram.com/reel/ChUsWkLj7iX/' target='_blank' rel='nofollow noreferrer'> <img width="640" height="640" alt='If you’re not ready to let summer go, you have to make these lemon poppyseed cookies!!! Each one is filled' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E"  class='GraphVideo' style='opacity: 0;' data-lazy-src="https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png"><noscript><img width="640" height="640" alt='If you’re not ready to let summer go, you have to make these lemon poppyseed cookies!!! Each one is filled' src='https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png'  class='GraphVideo' style='opacity: 0;'></noscript></a></div>
+				            </li>
+		            <li style='border:0;'>
+                <div style='background: url(https://scontent-mia3-2.cdninstagram.com/v/t51.29350-15/299997042_5559615864102140_2148836248835081005_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=V6p02IeDz0kAX9WDTPf&_nc_ht=scontent-mia3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AT8lR3rmiA8VbUx7mNGszg7XftRzegqtDJJu7zXhrSgbaw&oe=63038951) no-repeat center center; background-size: cover;'><a href='https://www.instagram.com/reel/ChZ1cbyFq5Y/' target='_blank' rel='nofollow noreferrer'> <img width="640" height="640" alt='Nothing more comforting than the smell of these chocolate chunk cookie cups baking in the oven! Today I am sharing' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E"  class='GraphVideo' style='opacity: 0;' data-lazy-src="https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png"><noscript><img width="640" height="640" alt='Nothing more comforting than the smell of these chocolate chunk cookie cups baking in the oven! Today I am sharing' src='https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png'  class='GraphVideo' style='opacity: 0;'></noscript></a></div>
+				            </li>
+		            <li style='border:0;'>
+                <div style='background: url(https://scontent-mia3-2.cdninstagram.com/v/t51.29350-15/299894847_128404393245296_3833334484643957029_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8ae9d6&_nc_ohc=Wf25VaXX_RcAX9S-6mM&_nc_ht=scontent-mia3-2.cdninstagram.com&edm=AM6HXa8EAAAA&oh=00_AT-xkMG_WW6TSirWMMQICrtyKQHGLy4Zov41Jy-E2DsCxg&oe=630460C1) no-repeat center center; background-size: cover;'><a href='https://www.instagram.com/reel/ChXLc-Jj6ip/' target='_blank' rel='nofollow noreferrer'> <img width="640" height="640" alt='Imagine taking a bite of a thick buttery cookie that’s topped with caramel cream cheese frosting, caramel popcorn, and a' src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20640'%3E%3C/svg%3E"  class='GraphVideo' style='opacity: 0;' data-lazy-src="https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png"><noscript><img width="640" height="640" alt='Imagine taking a bite of a thick buttery cookie that’s topped with caramel cream cheese frosting, caramel popcorn, and a' src='https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/img/image.png'  class='GraphVideo' style='opacity: 0;'></noscript></a></div>
+				            </li>
+		    </ul>
+</div>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript'>window.addEventListener('DOMContentLoaded', function() {
+    jQuery(document).ready(function ($) {
+        $('.instaslider-nr-1').pllexislider({
+            animation: 'slide',
+            slideshowSpeed: 7000,
+            directionNav: true,
+            controlNav: false,
+            prevText: '',
+            nextText: '',
+        });
+    });
+});</script></div></section>
+</div></div></div><footer class="site-footer"><div class="wrap"><p>Copyright &copy; 2024 Lifestyle of a Foodie on the <a href="https://feastdesignco.com/product/foodie-pro/" target="_blank" rel="nofollow noopener">Foodie Pro Theme</a><br/></p></div></footer></div>
+<!-- GTM Container placement set to footer -->
+<!-- Google Tag Manager (noscript) -->
+
+
+
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type='text/javascript' id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php|\/refer\/|\/go\/|\/recommend\/|\/recommends\/","usesTrailingSlash":"1","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/lifestyleofafoodie.com","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/themes/genesis/lib/js/skip-links.min.js?ver=3.3.4' id='skip-links-js' defer></script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/cache/min/1/wp-content/themes/foodiepro-v441/js/general.js?ver=1710304768' id='foodie-pro-general-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' id='heateor_sss_sharing_js-js-before'>
+function heateorSssLoadEvent(e) {var t=window.onload;if (typeof window.onload!="function") {window.onload=e}else{window.onload=function() {t();e()}}};	var heateorSssSharingAjaxUrl = 'https://lifestyleofafoodie.com/wp-admin/admin-ajax.php', heateorSssCloseIconPath = 'https://lifestyleofafoodie.com/wp-content/plugins/sassy-social-share/public/../images/close.png', heateorSssPluginIconPath = 'https://lifestyleofafoodie.com/wp-content/plugins/sassy-social-share/public/../images/logo.png', heateorSssHorizontalSharingCountEnable = 0, heateorSssVerticalSharingCountEnable = 0, heateorSssSharingOffset = -10; var heateorSssMobileStickySharingEnabled = 0;var heateorSssCopyLinkMessage = "Link copied.";var heateorSssUrlCountFetched = [], heateorSssSharesText = 'Shares', heateorSssShareText = 'Share';function heateorSssPopup(e) {window.open(e,"popUpWindow","height=400,width=600,left=400,top=100,resizable,scrollbars,toolbar=0,personalbar=0,menubar=no,location=no,directories=no,status")}
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/cache/min/1/wp-content/plugins/sassy-social-share/public/js/sassy-social-share-public.js?ver=1710304768' id='heateor_sss_sharing_js-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/plugins/wp-review/public/js/js.cookie.min.js?ver=2.1.4' id='js-cookie-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-includes/js/underscore.min.js?ver=1.13.4' id='underscore-js' defer></script>
+<script type='text/javascript' id='wp-util-js-extra'>
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-includes/js/wp-util.min.js?ver=6.1.6' id='wp-util-js' defer></script>
+<script type='text/javascript' id='wp_review-js-js-extra'>
+/* <![CDATA[ */
+var wpreview = {"ajaxurl":"https:\/\/lifestyleofafoodie.com\/wp-admin\/admin-ajax.php","loginRequiredMessage":"You must log in to add your review"};
+/* ]]> */
+</script>
+<script type="rocketlazyloadscript" data-minify="1" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/cache/min/1/wp-content/plugins/wp-review/public/js/main.js?ver=1710304768' id='wp_review-js-js' defer></script>
+<script type="rocketlazyloadscript" data-rocket-type='text/javascript' src='https://lifestyleofafoodie.com/wp-content/plugins/instagram-slider-widget/components/instagram/assets/js/jquery.flexslider-min.js?ver=2.0.7' id='wis_jquery-pllexi-slider-js' defer></script>
+<script>window.lazyLoadOptions={elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}};window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://lifestyleofafoodie.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js"></script><script type="rocketlazyloadscript">"use strict";function wprRemoveCPCSS(){var preload_stylesheets=document.querySelectorAll('link[data-rocket-async="style"][rel="preload"]');if(preload_stylesheets&&0<preload_stylesheets.length)for(var stylesheet_index=0;stylesheet_index<preload_stylesheets.length;stylesheet_index++){var media=preload_stylesheets[stylesheet_index].getAttribute("media")||"all";if(window.matchMedia(media).matches)return void setTimeout(wprRemoveCPCSS,200)}var elem=document.getElementById("rocket-critical-css");elem&&"remove"in elem&&elem.remove()}window.addEventListener?window.addEventListener("load",wprRemoveCPCSS):window.attachEvent&&window.attachEvent("onload",wprRemoveCPCSS);</script><script>class RocketElementorAnimation{constructor(){this.deviceMode=document.createElement("span"),this.deviceMode.id="elementor-device-mode",this.deviceMode.setAttribute("class","elementor-screen-only"),document.body.appendChild(this.deviceMode)}_detectAnimations(){let t=getComputedStyle(this.deviceMode,":after").content.replace(/"/g,"");this.animationSettingKeys=this._listAnimationSettingsKeys(t),document.querySelectorAll(".elementor-invisible[data-settings]").forEach(t=>{const e=t.getBoundingClientRect();if(e.bottom>=0&&e.top<=window.innerHeight)try{this._animateElement(t)}catch(t){}})}_animateElement(t){const e=JSON.parse(t.dataset.settings),i=e._animation_delay||e.animation_delay||0,n=e[this.animationSettingKeys.find(t=>e[t])];if("none"===n)return void t.classList.remove("elementor-invisible");t.classList.remove(n),this.currentAnimation&&t.classList.remove(this.currentAnimation),this.currentAnimation=n;let s=setTimeout(()=>{t.classList.remove("elementor-invisible"),t.classList.add("animated",n),this._removeAnimationSettings(t,e)},i);window.addEventListener("rocket-startLoading",function(){clearTimeout(s)})}_listAnimationSettingsKeys(t="mobile"){const e=[""];switch(t){case"mobile":e.unshift("_mobile");case"tablet":e.unshift("_tablet");case"desktop":e.unshift("_desktop")}const i=[];return["animation","_animation"].forEach(t=>{e.forEach(e=>{i.push(t+e)})}),i}_removeAnimationSettings(t,e){this._listAnimationSettingsKeys().forEach(t=>delete e[t]),t.dataset.settings=JSON.stringify(e)}static run(){const t=new RocketElementorAnimation;requestAnimationFrame(t._detectAnimations.bind(t))}}document.addEventListener("DOMContentLoaded",RocketElementorAnimation.run);</script><noscript><link rel="stylesheet" href="https://lifestyleofafoodie.com/wp-content/cache/min/1/83a1609f0db1aa4c38e7aa7e6e2e6220.css" media="all" data-minify="1" /></noscript></body></html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1714046031 -->

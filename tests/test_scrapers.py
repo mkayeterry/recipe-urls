@@ -51,13 +51,13 @@ def find_class(module, base_name):
     )
 
 
-def strip_domain_from_urls(urls):
-    stripped_urls = []
-    for url in urls:
-        path_parts = url.split("://")[-1].split("/")[1:]
-        path = "/" + "/".join(path_parts)
-        stripped_urls.append(path)
-    return stripped_urls
+# def strip_domain_from_urls(urls):
+#     stripped_urls = []
+#     for url in urls:
+#         path_parts = url.split("://")[-1].split("/")[1:]
+#         path = "/" + "/".join(path_parts)
+#         stripped_urls.append(path)
+#     return stripped_urls
 
 
 @pytest.mark.parametrize(
@@ -87,8 +87,8 @@ def test_scraper(mocker, scraper_module, html_file, csv_file):
     # Perform the scraping
     scraped_links = scraper.scrape()
 
-    # Strip the domain from scraped links dynamically
-    scraped_links = strip_domain_from_urls(scraped_links)
+    # # Strip the domain from scraped links dynamically
+    # scraped_links = strip_domain_from_urls(scraped_links)
 
     # Load expected results
     expected_links = []

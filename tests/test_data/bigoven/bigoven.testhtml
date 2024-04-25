@@ -169,7 +169,7 @@
 <script type="text/javascript">
 
     function getAntiForgeryToken() {
-        var token = '<input name="__RequestVerificationToken" type="hidden" value="QlvKvFqdtKHgwzZLvHK8WT6tEgXnGHogcSwKZbJpjdd3sdJFeD5ymveTCnWQNeB7vkPsExa0nvSChX7OYq9aFEytl_U1" />';
+        var token = '<input name="__RequestVerificationToken" type="hidden" value="SJU50r-8utoK66qpCT_ODpYrW4OIv-CPXdn8lkIRABzR1hBaU2Whtqf4Ec3Xo-Ow5VGqukZRtyi8TqldSkxPVkZ9SnY1" />';
         token = $(token).val();
         return token;
     }
@@ -902,7 +902,7 @@
 
     // document.addEventListener("DOMContentLoaded", function () {
     establishboUserFromViewBag(
-        {"UserID":0,"UserName":null,"ImageURL":"https://bigoven-res.cloudinary.com/image/upload/avatar-default.png","ImageURL48":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png","ImageURL64":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-64,d_avatar-default.png/avatar-default.png","ImageURL128":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-128,d_avatar-default.png/avatar-default.png","PhotoUrl":"https://photos.bigoven.com/avatar/avatar-default.png","HomeUrl":"","IsPremium":false,"CreditBalance":0,"FullName":"","FirstName":null,"LastName":null,"MemberSince":"\/Date(1713561255554)\/","AboutMe":null,"TrySoonCount":0,"FavoritesCount":0,"AddedCount":0,"MenusCount":0,"PremiumExpiryDate":null,"OwnsDomain":null,"IsGroceryListFree":false,"IsMenuPlanFree":false,"GroceryListSponsor":"","MenuPlanSponsor":"","FBNotifyRecipeRaves":null,"FBNotifyPhotoApproved":null,"FBNotifyRecipePost":null,"FBNotifyMeWhenFriendsJoin":null,"FBNotifyIveFavorited":null,"FBNotifyIveTrySooned":null,"FBNotifyMenuSaved":null,"FBNotifyIveReviewed":null,"FBNotifyAddedMenu":null,"FBNotifyReviewReceived":null,"FBNotifyMedalReceived":null,"FBNotifyIveMade":null,"FacebookID":null,"OfflineAccessToken":null,"AdFreeEnabled":false,"PowerFeaturesEnabled":false,"IsCurator":false,"AmFollowing":null,"BackgroundUrl":null,"FollowingCount":0,"FollowersCount":0,"BOAuthToken":null,"UserLevel":"unauthenticated","PrivateRecipeCount":0,"PublicRecipeCount":0,"TotalRecipes":null,"LastChangeLogID":null,"UserType":0,"FriendlyName":"Guest","EatingStyle":null,"Email":null},
+        {"UserID":0,"UserName":null,"ImageURL":"https://bigoven-res.cloudinary.com/image/upload/avatar-default.png","ImageURL48":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-48,d_avatar-default.png/avatar-default.png","ImageURL64":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-64,d_avatar-default.png/avatar-default.png","ImageURL128":"https://bigoven-res.cloudinary.com/image/upload/t_recipe-128,d_avatar-default.png/avatar-default.png","PhotoUrl":"https://photos.bigoven.com/avatar/avatar-default.png","HomeUrl":"","IsPremium":false,"CreditBalance":0,"FullName":"","FirstName":null,"LastName":null,"MemberSince":"\/Date(1714070904981)\/","AboutMe":null,"TrySoonCount":0,"FavoritesCount":0,"AddedCount":0,"MenusCount":0,"PremiumExpiryDate":null,"OwnsDomain":null,"IsGroceryListFree":false,"IsMenuPlanFree":false,"GroceryListSponsor":"","MenuPlanSponsor":"","FBNotifyRecipeRaves":null,"FBNotifyPhotoApproved":null,"FBNotifyRecipePost":null,"FBNotifyMeWhenFriendsJoin":null,"FBNotifyIveFavorited":null,"FBNotifyIveTrySooned":null,"FBNotifyMenuSaved":null,"FBNotifyIveReviewed":null,"FBNotifyAddedMenu":null,"FBNotifyReviewReceived":null,"FBNotifyMedalReceived":null,"FBNotifyIveMade":null,"FacebookID":null,"OfflineAccessToken":null,"AdFreeEnabled":false,"PowerFeaturesEnabled":false,"IsCurator":false,"AmFollowing":null,"BackgroundUrl":null,"FollowingCount":0,"FollowersCount":0,"BOAuthToken":null,"UserLevel":"unauthenticated","PrivateRecipeCount":0,"PublicRecipeCount":0,"TotalRecipes":null,"LastChangeLogID":null,"UserType":0,"FriendlyName":"Guest","EatingStyle":null,"Email":null},
         true,
         function() {
             if ((boUser.UserID) > 0) {
@@ -1554,9 +1554,9 @@
         </div>
         <div class="second-title">
             <h2>
-                <a href="/recipe/malted-chocolate-cake/3080814">Malted Chocolate Cake</a>
+                <a href="/recipe/thai-meatballs-with-spicy-apricot-sauce/3080816">Thai Meatballs with Spicy Apricot Sauce</a>
             </h2>
-            <p>A decadent chocolate cake is a recipe that anyone who loves baking needs in their back pocket. So we took our classic chocolate cake and added the delicious, creamy flavor of malted milk for a rich, satisfying cake that hits all the right notes.</p>
+            <p>With spicy ginger, zesty lime, and sauce that&#39;s both sweet AND heat, these meatballs can be served up as an appetizer or part of a main dish. Just throw in some glass noodles and chopped vegetables for a delicious fusion of flavors and textures.</p>
         </div>
         <div class="row-user-icon-controller">
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 user-control">
@@ -1565,21 +1565,21 @@
                 </div>
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 icon-controls">
-                <a class="btn btnstateless btn-default btn-share share-icon pull-right" title="Share this recipe" rel-id="3080814"
-                   onclick="shareRecipe(3080814, 'malted-chocolate-cake','https://photos.bigoven.com/recipe/hero/malted-chocolate-cake-c5c53d.jpg', 'https://www.bigoven.com/recipe/malted-chocolate-cake/3080814');">
+                <a class="btn btnstateless btn-default btn-share share-icon pull-right" title="Share this recipe" rel-id="3080816"
+                   onclick="shareRecipe(3080816, 'thai-meatballs-with-spicy-apricot-sauce','https://photos.bigoven.com/recipe/hero/thai-meatballs-with-spicy-apri-126403.jpg', 'https://www.bigoven.com/recipe/thai-meatballs-with-spicy-apricot-sauce/3080816');">
                     <i class="ss ss-share"></i>
                 </a>
-                <a title="Add to Plan" class="btn btnstateless btn-default btn-add-calendar pull-right" rel-id="3080814"
-                   onclick="addToThePlan(getAntiForgeryToken(), 3080814, 1)">
+                <a title="Add to Plan" class="btn btnstateless btn-default btn-add-calendar pull-right" rel-id="3080816"
+                   onclick="addToThePlan(getAntiForgeryToken(), 3080816, 1)">
                     <i class="ss ss-calendar"></i>
                 </a>
-                <a title="Add to Grocery" id="add-grocery" class="btn btnstateless btn-default btn-add-grocery pull-right" data-rid="3080814">
+                <a title="Add to Grocery" id="add-grocery" class="btn btnstateless btn-default btn-add-grocery pull-right" data-rid="3080816">
                     <i class="ss ss-cart"></i>
                 </a>
             </div>
         </div>
         <div class="col-xs-12 go-to-recipe" style="min-width: 200px;">
-            <a class="btn gotorecipe-button btnstateless" href="/recipe/malted-chocolate-cake/3080814">GO TO RECIPE</a>
+            <a class="btn gotorecipe-button btnstateless" href="/recipe/thai-meatballs-with-spicy-apricot-sauce/3080816">GO TO RECIPE</a>
         </div>
     </div>
 </div> 
@@ -1591,6 +1591,22 @@
              </h1>
             <div class="recent-upload">
 
+                    <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                        <div class="row recipe-info item-flex">
+                            <div class="left col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/malted-chocolate-cake/3080814">
+                                    <img width="720" height="406" alt="Malted Chocolate Cake" style="position: relative; display: block; left: 0; top: 0;" class="img-responsive" 
+                                         src="https://cdn.jwplayer.com/v2/media/1CIpfOSa/poster.jpg"/>
+                                </a>
+                            </div>
+                            <div class="right col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                <a href="/recipe/malted-chocolate-cake/3080814">
+                                    <h4 class="sub-title">Malted Chocolate Cake</h4>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
                     <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-3">
                         <div class="row recipe-info item-flex">
                             <div class="left col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -1641,29 +1657,7 @@
                                             <i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i>
                                         </a>
                                     </span>
-                                    <span class="count">1</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item col-xs-12 col-sm-6 col-md-4 col-lg-3">
-                        <div class="row recipe-info item-flex">
-                            <div class="left col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <a href="/recipe/one-pan-mandarin-chicken-with-ginger/3073105">
-                                    <img width="720" height="406" alt="One Pan Mandarin Chicken with Ginger" style="position: relative; display: block; left: 0; top: 0;" class="img-responsive" 
-                                         src="https://cdn.jwplayer.com/v2/media/81o75zhI/poster.jpg"/>
-                                </a>
-                            </div>
-                            <div class="right col-xs-6 col-sm-6 col-md-6 col-lg-6">
-                                <a href="/recipe/one-pan-mandarin-chicken-with-ginger/3073105">
-                                    <h4 class="sub-title">One Pan Mandarin Chicken with Ginger</h4>
-                                </a>
-
-                                    <span>
-                                        <a href="/recipe/one-pan-mandarin-chicken-with-ginger/3073105#reviews-section" title="5">
-                                            <i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i><i class="ss ss-star gold"></i>
-                                        </a>
-                                    </span>
-                                    <span class="count">1</span>
+                                    <span class="count">2</span>
                             </div>
                         </div>
                     </div>
@@ -2035,7 +2029,7 @@
                 <!--Collection tiles row-->
                 <div class="row collection-row">
 
-<div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/pasta-pasta-pasta/313"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/chicken-and-red-pepper-pasta-ad10ad.jpg"/></div><div class="collection-title">Pasta, Pasta, Pasta</div></a></div></div><div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/quick-and-easy-vegetarian-dinners/50"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/skillet-pearled-couscous-with-tomat-2.jpg"/></div><div class="collection-title">Quick and Easy Vegetarian Dinners</div></a></div></div><div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/gluten-free/294"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/antipastozoodlesalad-29c556.jpg"/></div><div class="collection-title">Gluten-Free</div></a></div></div><div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/juice/114"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/green-grapefruit-ginger-juice-2.jpg"/></div><div class="collection-title">Juice</div></a></div></div>
+<div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/10-minute-treats/303"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/peanutbutterfruitdip-f68521.jpg"/></div><div class="collection-title">10 Minute Treats</div></a></div></div><div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/fish-and-seafood/63"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/sesame-scallops-ca6698.jpg"/></div><div class="collection-title">Fish and Seafood</div></a></div></div><div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/make-ahead-recipes/53"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/stuffed-bell-peppers-with-ground-tu.jpg"/></div><div class="collection-title">Make Ahead Recipes</div></a></div></div><div class="recipeideas-rows col-xs-12 col-sm-6 col-md-4 col-lg-3 recipeideas-items"><div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 collection-tile-full"><a href="https://www.bigoven.com/recipe-ideas/juice/114"><div class="collection-wrapper"><div class="ribbon-wrapper-red"><div class="ribbon-red">collection</div></div><img width="256" height="256" src="https://bigoven-res.cloudinary.com/image/upload/t_recipe-256/green-grapefruit-ginger-juice-2.jpg"/></div><div class="collection-title">Juice</div></a></div></div>
 
                 </div>   
             </div>
@@ -2297,7 +2291,7 @@
                     </div>
                 </div>
 
-<form action="/home/emailsignup" class="footer-custom-form-hide-it email-form" id="mailingListFirst" method="post"><input name="__RequestVerificationToken" type="hidden" value="fnwBbn7z4xb34P6ngCq70Ls1KfcHnsk-lipTFo3c81pJ1p1j1ydFof0_j4MZW5s905acAC0ulj6NzgdSoGOaMrSZuhU1" />                    <div class="row homepage-email-signup-form text-center no-margin">
+<form action="/home/emailsignup" class="footer-custom-form-hide-it email-form" id="mailingListFirst" method="post"><input name="__RequestVerificationToken" type="hidden" value="g1TrNGZP01IeM5O0phOMQC_prkAnJqKhiYZIRVErS-oo45hJUwreQCFyMgS9Rae04hYEzF04dITq9XIDPh54AEZtC0Y1" />                    <div class="row homepage-email-signup-form text-center no-margin">
                         <div class="form-group">
                             <input id="captcha" name="captcha" type="hidden" value="Value" />
                         </div>
@@ -2399,7 +2393,7 @@
                             </div>
                         </div>    
 
-<form action="/home/emailsignup" class="footer-custom-form email-form" id="mailingListLast" method="post"><input name="__RequestVerificationToken" type="hidden" value="QYLaffjdbHl75tTkGX8dAUXrEtCt8qEFuVlLSMf73sFpbJrOxmLiMBbLP67cEjk8HYV3hzCDiJG25lzicVsYzOnkqkk1" />                            <div class="homepage-email-signup-form text-center no-margin">
+<form action="/home/emailsignup" class="footer-custom-form email-form" id="mailingListLast" method="post"><input name="__RequestVerificationToken" type="hidden" value="-SMTDAJ6-JztPNZ7S1nJ7BcOT56KBN56oMbpukKVwXgVB9qCUmQ_T1dwQmPSN3gXT0eEfdezsYWh5Ld-G3Q32dchLJw1" />                            <div class="homepage-email-signup-form text-center no-margin">
                                 <div class="form-group">
                                     <input id="captcha" name="captcha" type="hidden" value="Value" />
                                 </div>
@@ -2457,7 +2451,7 @@
     <script>
 
         document.addEventListener("DOMContentLoaded", function () {
-            setupJWPlayer("MainVideo", "1CIpfOSa", "16:9");
+            setupJWPlayer("MainVideo", "0wVoyWBx", "16:9");
 
             $(document).on('click', '#add-grocery', function () {
                 var recipeId = $(this).attr("data-rid");

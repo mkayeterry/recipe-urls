@@ -3,7 +3,7 @@ from recipe_urls._abstract import AbstractScraper
 
 
 class ForkToSpoonScraper(AbstractScraper):
-    RECIPE_PATTERN = re.compile(r"https://forktospoon\.com/[\w-]+-[\w-]+/")
+    RECIPE_PATTERN = re.compile(r"https://forktospoon\.com/(?!\d)[\w-]+-[\w-]+/")
     UNWANTED_PATTERNS = [
         re.compile(pattern)
         for pattern in [
@@ -13,6 +13,7 @@ class ForkToSpoonScraper(AbstractScraper):
             "how",
             "method",
             "policy",
+            "recipes", 
             "weekly",
             "what",
         ]

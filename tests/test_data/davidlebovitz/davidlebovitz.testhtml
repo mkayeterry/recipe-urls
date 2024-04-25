@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -9,24 +8,6 @@
 	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
 <!-- Social Warfare v4.4.6.1 https://warfareplugins.com - BEGINNING OF OUTPUT -->
-<meta property="og:description" content="WelcomeI'm a cookbook author and pastry chef living in Paris, sharing sweet and savory recipes that are doable for home cooks, along with Paris travel tips and humorous stories about life in France.Sign up for my newsletter and receive updates with new recipes, Paris stories, and more!Subscribe Now!">
-<meta property="og:title" content="Home">
-<meta property="article_author" content="Cre8d">
-<meta property="article_publisher" content="https://www.facebook.com/davidmlebovitz/">
-<meta property="fb:app_id" content="529576650555031">
-<meta property="og:image" content="https://www.davidlebovitz.com/wp-content/uploads/2014/05/paris-pastry-app.jpg">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://www.davidlebovitz.com/">
-<meta property="og:site_name" content="David Lebovitz">
-<meta property="article:published_time" content="2022-01-18T23:56:39+01:00">
-<meta property="article:modified_time" content="2023-12-30T22:12:57+01:00">
-<meta property="og:updated_time" content="2023-12-30T22:12:57+01:00">
-<meta name="twitter:title" content="Home">
-<meta name="twitter:description" content="WelcomeI'm a cookbook author and pastry chef living in Paris, sharing sweet and savory recipes that are doable for home cooks, along with Paris travel tips and humorous stories about life in France.Sign up for my newsletter and receive updates with new recipes, Paris stories, and more!Subscribe Now!">
-<meta name="twitter:image" content="https://www.davidlebovitz.com/wp-content/uploads/2014/05/paris-pastry-app.jpg">
-<meta name="twitter:site" content="@davidlebovitz">
-<meta name="twitter:creator" content="@davidlebovitz">
-<meta name="twitter:card" content="summary_large_image">
 <style>
 	@font-face {
 		font-family: "sw-icon-font";
@@ -44,19 +25,16 @@
 
 
 	<!-- This site is optimized with the Yoast SEO plugin v22.3 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Original Recipes, Books &amp; Life in Paris - David Lebovitz</title>
-	<meta name="description" content="Professional chef and author, David Lebovitz, is a household name in the culinary world. He now lives in Paris, and takes every photo, tests every recipe, and writes every blog post himself!" />
-	<link rel="canonical" href="https://www.davidlebovitz.com/" />
+	<title>Blog - David Lebovitz</title><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Libre%20Baskerville%3A700%2CInherit%2C%7CLato%3A700%2C%7CKaushan%20Script%3ANormal%2C&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre%20Baskerville%3A700%2CInherit%2C%7CLato%3A700%2C%7CKaushan%20Script%3ANormal%2C&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre%20Baskerville%3A700%2CInherit%2C%7CLato%3A700%2C%7CKaushan%20Script%3ANormal%2C&#038;display=swap" /></noscript><link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&#038;display=swap" /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&#038;display=swap" media="print" onload="this.media='all'" /><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&#038;display=swap" /></noscript>
+	<link rel="canonical" href="https://www.davidlebovitz.com/blog/" />
+	<link rel="next" href="https://www.davidlebovitz.com/blog/page/2/" />
 	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Original Recipes, Books &amp; Life in Paris - David Lebovitz" />
-	<meta property="og:description" content="Professional chef and author, David Lebovitz, is a household name in the culinary world. He now lives in Paris, and takes every photo, tests every recipe, and writes every blog post himself!" />
-	<meta property="og:url" content="https://www.davidlebovitz.com/" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="Blog - David Lebovitz" />
+	<meta property="og:url" content="https://www.davidlebovitz.com/blog/" />
 	<meta property="og:site_name" content="David Lebovitz" />
-	<meta property="article:modified_time" content="2023-12-30T21:12:57+00:00" />
-	<meta property="og:image" content="https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz-640x417.jpg" />
 	<meta name="twitter:card" content="summary_large_image" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.davidlebovitz.com/","url":"https://www.davidlebovitz.com/","name":"Original Recipes, Books & Life in Paris - David Lebovitz","isPartOf":{"@id":"https://www.davidlebovitz.com/#website"},"about":{"@id":"https://www.davidlebovitz.com/#organization"},"primaryImageOfPage":{"@id":"https://www.davidlebovitz.com/#primaryimage"},"image":{"@id":"https://www.davidlebovitz.com/#primaryimage"},"thumbnailUrl":"https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz-640x417.jpg","datePublished":"2022-01-18T22:56:39+00:00","dateModified":"2023-12-30T21:12:57+00:00","description":"Professional chef and author, David Lebovitz, is a household name in the culinary world. He now lives in Paris, and takes every photo, tests every recipe, and writes every blog post himself!","breadcrumb":{"@id":"https://www.davidlebovitz.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.davidlebovitz.com/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.davidlebovitz.com/#primaryimage","url":"https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz.jpg","contentUrl":"https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz.jpg","width":920,"height":600},{"@type":"BreadcrumbList","@id":"https://www.davidlebovitz.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://www.davidlebovitz.com/#website","url":"https://www.davidlebovitz.com/","name":"David Lebovitz","description":"Baking and cooking recipes for everyone","publisher":{"@id":"https://www.davidlebovitz.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.davidlebovitz.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.davidlebovitz.com/#organization","name":"David Lebovitz","url":"https://www.davidlebovitz.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.davidlebovitz.com/#/schema/logo/image/","url":"https://www.davidlebovitz.com/wp-content/uploads/2019/06/david-leb.png","contentUrl":"https://www.davidlebovitz.com/wp-content/uploads/2019/06/david-leb.png","width":281,"height":44,"caption":"David Lebovitz"},"image":{"@id":"https://www.davidlebovitz.com/#/schema/logo/image/"}}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":["WebPage","CollectionPage"],"@id":"https://www.davidlebovitz.com/blog/","url":"https://www.davidlebovitz.com/blog/","name":"Blog - David Lebovitz","isPartOf":{"@id":"https://www.davidlebovitz.com/#website"},"datePublished":"2022-01-18T22:43:49+00:00","dateModified":"2022-01-18T22:43:50+00:00","breadcrumb":{"@id":"https://www.davidlebovitz.com/blog/#breadcrumb"},"inLanguage":"en-US"},{"@type":"BreadcrumbList","@id":"https://www.davidlebovitz.com/blog/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.davidlebovitz.com/"},{"@type":"ListItem","position":2,"name":"Blog"}]},{"@type":"WebSite","@id":"https://www.davidlebovitz.com/#website","url":"https://www.davidlebovitz.com/","name":"David Lebovitz","description":"Baking and cooking recipes for everyone","publisher":{"@id":"https://www.davidlebovitz.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.davidlebovitz.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://www.davidlebovitz.com/#organization","name":"David Lebovitz","url":"https://www.davidlebovitz.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://www.davidlebovitz.com/#/schema/logo/image/","url":"https://www.davidlebovitz.com/wp-content/uploads/2019/06/david-leb.png","contentUrl":"https://www.davidlebovitz.com/wp-content/uploads/2019/06/david-leb.png","width":281,"height":44,"caption":"David Lebovitz"},"image":{"@id":"https://www.davidlebovitz.com/#/schema/logo/image/"}}]}</script>
 	<!-- / Yoast SEO plugin. -->
 
 
@@ -68,7 +46,7 @@
 		<!-- Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel. -->
 					<!-- No tracking code set -->
 				<!-- / Google Analytics by MonsterInsights -->
-		<script>function cpLoadCSS(e,t,n){"use strict";var i=window.document.createElement("link"),o=t||window.document.getElementsByTagName("script")[0];return i.rel="stylesheet",i.href=e,i.media="only x",o.parentNode.insertBefore(i,o),setTimeout(function(){i.media=n||"all"}),i}</script><style>.cp-popup-container .cpro-overlay,.cp-popup-container .cp-popup-wrapper{opacity:0;visibility:hidden;display:none}</style><link rel='stylesheet' id='social-warfare-block-css-css' href='https://www.davidlebovitz.com/wp-content/plugins/social-warfare/assets/js/post-editor/dist/blocks.style.build.css?ver=6.4.4' type='text/css' media='all' />
+		<script>function cpLoadCSS(e,t,n){"use strict";var i=window.document.createElement("link"),o=t||window.document.getElementsByTagName("script")[0];return i.rel="stylesheet",i.href=e,i.media="only x",o.parentNode.insertBefore(i,o),setTimeout(function(){i.media=n||"all"}),i}</script><style>.cp-popup-container .cpro-overlay,.cp-popup-container .cp-popup-wrapper{opacity:0;visibility:hidden;display:none}</style><link data-minify="1" rel='stylesheet' id='social-warfare-block-css-css' href='https://www.davidlebovitz.com/wp-content/cache/min/1/wp-content/plugins/social-warfare/assets/js/post-editor/dist/blocks.style.build.css?ver=1711578735' type='text/css' media='all' />
 <style id='wp-emoji-styles-inline-css' type='text/css'>
 
 	img.wp-smiley, img.emoji {
@@ -106,28 +84,25 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 :where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
 .wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
 </style>
-<link rel='stylesheet' id='sheknows-infuse-css' href='https://www.davidlebovitz.com/wp-content/plugins/sheknows-infuse/public/css/style.css?ver=1.0.38' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='sheknows-infuse-css' href='https://www.davidlebovitz.com/wp-content/cache/min/1/wp-content/plugins/sheknows-infuse/public/css/style.css?ver=1711578735' type='text/css' media='all' />
 <script>document.addEventListener('DOMContentLoaded', function(event) {  if( typeof cpLoadCSS !== 'undefined' ) { cpLoadCSS('https://www.davidlebovitz.com/wp-content/plugins/convertpro/assets/modules/css/cp-popup.min.css?ver=1.7.7', 0, 'all'); } }); </script>
 <link rel='stylesheet' id='social_warfare-css' href='https://www.davidlebovitz.com/wp-content/plugins/social-warfare/assets/css/style.min.css?ver=4.4.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='colorbox-css' href='https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/colorbox/colorbox.css?ver=1.0' type='text/css' media='all' />
-<link rel='stylesheet' id='dl-googlefonts-css' href='https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&#038;display=swap' type='text/css' media='all' />
-<link rel='stylesheet' id='dl-style-css' href='https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/style.css?ver=1642733140' type='text/css' media='all' />
-<link rel='stylesheet' id='jetpack_css-css' href='https://www.davidlebovitz.com/wp-content/plugins/jetpack/css/jetpack.css?ver=13.2.2' type='text/css' media='all' />
-<script>!(function(o,_name){o[_name]=o[_name]||function $(){($.q=$.q||[]).push(arguments)},o[_name].v=o[_name].v||2;!(function(o,t,n,f,e,i){function c(f,e){(f=(function(t,n){try{if(n=(t=o.localStorage).getItem("_aQS01ODhGOEZCQjAxRjgyQjdBMzk0MjhGMjItMjM"))return JSON.parse(n).lgk||[];if((t.getItem("v4ac1eiZr0")||"").split(",")[4]>0)return[[_name+"-engaged","true"]]}catch(f){}})())&&typeof f.forEach===n&&(e=o[t].pubads())&&f.forEach((function(o){o&&o[0]&&e.setTargeting(o[0],o[1]||"")}))}(i=o[t]=o[t]||{}).cmd=i.cmd||[],typeof i.pubads===n?c():typeof i.cmd.unshift===n?i.cmd.unshift(c):i.cmd.push(c)})(window,"googletag","function");;})(window,decodeURI('a%64%6d%69%72al'));!(function(t,c,i){i=t.createElement(c),t=t.getElementsByTagName(c)[0],i.async=1,i.src="https://changeablecats.com/j/76ac42/3812fb03bcd3fea68b2222fb7613db.min.js",t.parentNode.insertBefore(i,t)})(document,"script");</script><script type="text/javascript" src="https://www.davidlebovitz.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="https://www.davidlebovitz.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/colorbox/jquery.colorbox-min.js?ver=1.0" id="colorbox-js"></script>
-<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/jquery.fitvids.js?ver=1.0" id="fitvids-js"></script>
-<link rel="https://api.w.org/" href="https://www.davidlebovitz.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.davidlebovitz.com/wp-json/wp/v2/pages/51749" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.davidlebovitz.com/xmlrpc.php?rsd" />
-<link rel='shortlink' href='https://www.davidlebovitz.com/' />
-<link rel="alternate" type="application/json+oembed" href="https://www.davidlebovitz.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.davidlebovitz.com%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://www.davidlebovitz.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.davidlebovitz.com%2F&#038;format=xml" />
+<link data-minify="1" rel='stylesheet' id='colorbox-css' href='https://www.davidlebovitz.com/wp-content/cache/min/1/wp-content/themes/davidlebovitz/colorbox/colorbox.css?ver=1711578735' type='text/css' media='all' />
+
+<link data-minify="1" rel='stylesheet' id='dl-style-css' href='https://www.davidlebovitz.com/wp-content/cache/min/1/wp-content/themes/davidlebovitz/style.css?ver=1711578735' type='text/css' media='all' />
+<link data-minify="1" rel='stylesheet' id='jetpack_css-css' href='https://www.davidlebovitz.com/wp-content/cache/min/1/wp-content/plugins/jetpack/css/jetpack.css?ver=1711578735' type='text/css' media='all' />
+<script>window.addEventListener('DOMContentLoaded', function() {!(function(o,_name){o[_name]=o[_name]||function $(){($.q=$.q||[]).push(arguments)},o[_name].v=o[_name].v||2;!(function(o,t,n,f,e,i){function c(f,e){(f=(function(t,n){try{if(n=(t=o.localStorage).getItem("_aQS01ODhGOEZCQjAxRjgyQjdBMzk0MjhGMjItMjM"))return JSON.parse(n).lgk||[];if((t.getItem("v4ac1eiZr0")||"").split(",")[4]>0)return[[_name+"-engaged","true"]]}catch(f){}})())&&typeof f.forEach===n&&(e=o[t].pubads())&&f.forEach((function(o){o&&o[0]&&e.setTargeting(o[0],o[1]||"")}))}(i=o[t]=o[t]||{}).cmd=i.cmd||[],typeof i.pubads===n?c():typeof i.cmd.unshift===n?i.cmd.unshift(c):i.cmd.push(c)})(window,"googletag","function");;})(window,decodeURI('adm%69%72al'));!(function(t,c,i){i=t.createElement(c),t=t.getElementsByTagName(c)[0],i.async=1,i.src="https://changeablecats.com/dist/829830754f2fe40e8d41449c5ec4b85fd0eb.js",t.parentNode.insertBefore(i,t)})(document,"script");});</script><script type="text/javascript" src="https://www.davidlebovitz.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" defer></script>
+<script type="text/javascript" src="https://www.davidlebovitz.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer></script>
+<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/colorbox/jquery.colorbox-min.js?ver=1.0" id="colorbox-js" defer></script>
+<script data-minify="1" type="text/javascript" src="https://www.davidlebovitz.com/wp-content/cache/min/1/wp-content/themes/davidlebovitz/jquery.fitvids.js?ver=1711578735" id="fitvids-js" defer></script>
+<link rel="https://api.w.org/" href="https://www.davidlebovitz.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.davidlebovitz.com/xmlrpc.php?rsd" />
 <!-- Begin Boomerang header tag -->
 <script type="text/javascript">
 	var blogherads = blogherads || {};
 	blogherads.adq = blogherads.adq || [];
 
 	blogherads.adq.push(function () {
-												blogherads.setTargeting("ci", "front");
+												blogherads.setTargeting("ci", "posts");
 								blogherads.setTargeting("pt", "home");
 						if (blogherads.setADmantXData) {
 						blogherads.setADmantXData(null, "disabled");
@@ -164,8 +139,8 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 .ai-list-data, .ai-ip-data, .ai-filter-check, .ai-fallback, .ai-list-block, .ai-list-block-ip, .ai-list-block-filter {visibility: hidden; position: absolute; width: 50%; height: 1px; top: -1000px; z-index: -9999; margin: 0px!important;}
 .ai-list-data, .ai-ip-data, .ai-filter-check, .ai-fallback {min-width: 1px;}
 </style>
-</head>
-<body class="home page-template page-template-pt-wide page-template-pt-wide-php page page-id-51749 wp-embed-responsive">
+<noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript></head>
+<body class="blog wp-embed-responsive">
 
 <div id="fullwrap">
 	<a class="skip-to-content screen-reader-text" href="#body">Skip to content</a>
@@ -173,7 +148,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		<div id="header-a">
 			<div class="container">
 				<div id="header-b" class="clearfix">
-										<h1 id="logo"><a href="https://www.davidlebovitz.com"><img src="https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/images/logo2022.svg" width="310" height="46" alt="David Lebovitz" /></a></h1>
+										<div id="logo"><a href="https://www.davidlebovitz.com"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20310%2046'%3E%3C/svg%3E" width="310" height="46" alt="David Lebovitz" data-lazy-src="https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/images/logo2022.svg" /><noscript><img src="https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/images/logo2022.svg" width="310" height="46" alt="David Lebovitz" /></noscript></a></div>
 
 					<div id="toggles">
 						<ul>
@@ -209,262 +184,557 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <div id="body">
 	<div class="bodysection bodysection-white">
 	<div class="container notop nobot">
-				<div class="newsletter-promo breaknarrow">
-	<div class="np-image">
-	<div class="np-image-a">
-		<img fetchpriority="high" decoding="async" width="980" height="480" src="https://www.davidlebovitz.com/wp-content/uploads/2022/01/Moelleux-apricot-plum-cake-summer-french-dessert-recipe-fruits-fruit-7-980x480.jpg" class="attachment-newsletterblock size-newsletterblock" alt="" sizes="980px" srcset="https://www.davidlebovitz.com/wp-content/uploads/2022/01/Moelleux-apricot-plum-cake-summer-french-dessert-recipe-fruits-fruit-7-980x480.jpg 980w, https://www.davidlebovitz.com/wp-content/uploads/2022/01/Moelleux-apricot-plum-cake-summer-french-dessert-recipe-fruits-fruit-7-490x240.jpg 490w, https://www.davidlebovitz.com/wp-content/uploads/2022/01/Moelleux-apricot-plum-cake-summer-french-dessert-recipe-fruits-fruit-7-1470x720.jpg 1470w, https://www.davidlebovitz.com/wp-content/uploads/2022/01/Moelleux-apricot-plum-cake-summer-french-dessert-recipe-fruits-fruit-7-1920x940.jpg 1920w">	</div>
+		<div id="cols" class="clearfix">
+
+			<div id="main">
+			<div id="main-a" class="notop nobot">
+								<header class="pageheader">
+					<h1 class="pagetitle fn">Blog</h1>
+				</header>
+
+				
+				<div class="postarchive notop nobot">
+
+				
+				
+					<article class="postitem">
+						<header class="postheader">
+							<h2 class="title"><a href="https://www.davidlebovitz.com/an-american-mac-1/">Coconut Chocolate Macaroon Recipe</a></h2>
+							<div class="postmeta"><a href="https://www.davidlebovitz.com/an-american-mac-1/#comments">55 comments</a> - 04.20.2024</div>
+						</header>
+
+						<div class="content notop nobot">
+							<p><img fetchpriority="high" decoding="async" class="aligncenter size-large wp-image-25352" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20887'%3E%3C/svg%3E" alt="Chocolate coconut macaroons " width="640" height="887" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-640x887.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-217x300.jpg 217w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-768x1064.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-150x208.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-600x831.jpg 600w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2.jpg 1280w" data-lazy-sizes="(max-width: 680px) calc(100vw - 40px), 640px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-640x887.jpg" /><noscript><img fetchpriority="high" decoding="async" class="aligncenter size-large wp-image-25352" src="https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-640x887.jpg" alt="Chocolate coconut macaroons " width="640" height="887" srcset="https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-640x887.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-217x300.jpg 217w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-768x1064.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-150x208.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-600x831.jpg 600w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2.jpg 1280w" sizes="(max-width: 680px) calc(100vw - 40px), 640px" /></noscript></p>
+<p>Many people tell me this is one of their favorite recipes from my cookbook, <a href="http://www.amazon.com/exec/obidos/asin/158008138X/davidleboviswebs">Ready For Dessert</a>. In addition to these fantastic <strong>Coconut-Dipped Chocolate Macaroons</strong> in it, you&#8217;ll find the much-loved recipe for Fresh Ginger Cake, which makes a fantastic dessert served with sliced, juicy peaches or flavorful strawberries and raspberries in the summer, or tangy lemon cream in the winter, as well as my other most frequently requested recipes.</p>
+<p> <a href="https://www.davidlebovitz.com/an-american-mac-1/#more-116" class="more-link">Continue reading&#8230;</a></p>
+						</div>
+					</article>
+
+				
+				
+				
+					<article class="postitem excerpt">
+						<div class="image-holder"></div>
+						<div class="excerpt-a">
+						<div class="excerpt-b notop nobot">
+							<header class="postheader">
+								<h2 class="title"><a href="https://www.davidlebovitz.com/recipe-aperitif-cocktail-strawberry-spritz/">Strawberry Spritz</a></h2>
+								<div class="postmeta"><a href="https://www.davidlebovitz.com/recipe-aperitif-cocktail-strawberry-spritz/#comments">33 comments</a> - 04.04.2024</div>
+							</header>
+							<div class="featimage"><a href="https://www.davidlebovitz.com/recipe-aperitif-cocktail-strawberry-spritz/">
+								<picture>
+																		<!--[if IE 9]><video style="display: none;"><![endif]-->
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-200x267.jpg?ssl=1" media="(min-width: 480px)">
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-640x939.jpg?ssl=1">
+									<!--[if IE 9]></video><![endif]-->
+									<img srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-200x267.jpg" alt="Strawberry Spritz">
+								</picture>
+							</a></div>
+
+							<div class="content notop nobot">
+								<p>Recently I started reaching for my bottle of Vermouth Blanc more and more. I had opened it to make an El Presidente cocktail, but during an interview on my IG Live channel with Pierre-Olivier Rousseaux, owner of Dolin distillery in France, he remarked that their Chambéryzette apéritif, made in the French alps, could be made at home, anywhere, with fresh strawberries and white vermouth. So&#8230;</p>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="47011" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://www.davidlebovitz.com/recipe-aperitif-cocktail-strawberry-spritz/&media=https%3A%2F%2Fwww.davidlebovitz.com%2Fwp-content%2Fuploads%2F2020%2F06%2FStrawberry-spritz-4.jpg&description=A+refreshing+take+on+the+Spritz+with+strawberry-infused+vermouth%21+via+%40davidlebovitz"  ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">751</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Frecipe-aperitif-cocktail-strawberry-spritz%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Frecipe-aperitif-cocktail-strawberry-spritz%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">751 <span class="swp_label">Shares</span></span></div></div>								<p><a class="more-link" href="https://www.davidlebovitz.com/recipe-aperitif-cocktail-strawberry-spritz/">Continue reading...</a></p>
+							</div>
+						</div>
+						</div>
+					</article>
+
+				
+				
+				
+					<article class="postitem excerpt">
+						<div class="image-holder"></div>
+						<div class="excerpt-a">
+						<div class="excerpt-b notop nobot">
+							<header class="postheader">
+								<h2 class="title"><a href="https://www.davidlebovitz.com/strawberry-rhubarb-tart-crostata-galette-recipe/">Strawberry Rhubarb Tart</a></h2>
+								<div class="postmeta"><a href="https://www.davidlebovitz.com/strawberry-rhubarb-tart-crostata-galette-recipe/#comments">61 comments</a> - 03.15.2024</div>
+							</header>
+							<div class="featimage"><a href="https://www.davidlebovitz.com/strawberry-rhubarb-tart-crostata-galette-recipe/">
+								<picture>
+																		<!--[if IE 9]><video style="display: none;"><![endif]-->
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-200x267.jpg?ssl=1" media="(min-width: 480px)">
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-640x910.jpg?ssl=1">
+									<!--[if IE 9]></video><![endif]-->
+									<img srcset="https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-200x267.jpg" alt="Strawberry Rhubarb Tart">
+								</picture>
+							</a></div>
+
+							<div class="content notop nobot">
+								<p>There&#8217;s a certain ease and simplicity to free-form tarts like this. Sometimes they&#8217;re called a crostata, sometimes a galette. You can call it whatever you want, but I call it a fast way to use great fruit when it&#8217;s in season, without a lot of fuss. At the beginning of summer, when rhubarb&nbsp;is still lingering around, and strawberries are elbowing their way forward, it&#8217;s a&#8230;</p>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="41365" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://www.davidlebovitz.com/strawberry-rhubarb-tart-crostata-galette-recipe/&media=https%3A%2F%2Fwww.davidlebovitz.com%2Fwp-content%2Fuploads%2F2018%2F07%2FStrawberry-Rhubarb-Tart.png&description=A+rustic+fruit+tart+that+features+the+best+of+the+season%21+via+%40davidlebovitz"  ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">6K</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fstrawberry-rhubarb-tart-crostata-galette-recipe%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fstrawberry-rhubarb-tart-crostata-galette-recipe%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">6K <span class="swp_label">Shares</span></span></div></div>								<p><a class="more-link" href="https://www.davidlebovitz.com/strawberry-rhubarb-tart-crostata-galette-recipe/">Continue reading...</a></p>
+							</div>
+						</div>
+						</div>
+					</article>
+
+				
+				
+				
+					<article class="postitem excerpt">
+						<div class="image-holder"></div>
+						<div class="excerpt-a">
+						<div class="excerpt-b notop nobot">
+							<header class="postheader">
+								<h2 class="title"><a href="https://www.davidlebovitz.com/caramel-honey-recipe-caramelized-peanut-coffee-cake/">Caramelized Peanut Coffee Cake</a></h2>
+								<div class="postmeta"><a href="https://www.davidlebovitz.com/caramel-honey-recipe-caramelized-peanut-coffee-cake/#comments">46 comments</a> - 01.20.2024</div>
+							</header>
+							<div class="featimage"><a href="https://www.davidlebovitz.com/caramel-honey-recipe-caramelized-peanut-coffee-cake/">
+								<picture>
+																		<!--[if IE 9]><video style="display: none;"><![endif]-->
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-200x267.jpg?ssl=1" media="(min-width: 480px)">
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-640x960.jpg?ssl=1">
+									<!--[if IE 9]></video><![endif]-->
+									<img srcset="https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-200x267.jpg" alt="Caramelized Peanut Coffee Cake">
+								</picture>
+							</a></div>
+
+							<div class="content notop nobot">
+								<p>Whenever I&#8217;m looking through a new cookbook, what never fails to make me bookmark a recipe is when I come across something that has caramelized nuts on it, or in it. Whether it be Honey-Almond Squares or Swedish Almond Cake, you can be sure you&#8217;ll find me in my kitchen within the next 24 hours, and baking it. This Caramelized Peanut Cake that takes very&#8230;</p>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="44722" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://www.davidlebovitz.com/caramel-honey-recipe-caramelized-peanut-coffee-cake/&media=https%3A%2F%2Fwww.davidlebovitz.com%2Fwp-content%2Fuploads%2F2019%2F10%2FCaramelized-Peanut-Coffee-cake-recipe-6.jpg&description=A+wonderful+cake+with+a+nutty%2C+crispy%2C+caramelized+peanut+topping%21+via+%40davidlebovitz"  ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">5K</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fcaramel-honey-recipe-caramelized-peanut-coffee-cake%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fcaramel-honey-recipe-caramelized-peanut-coffee-cake%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">5K <span class="swp_label">Shares</span></span></div></div>								<p><a class="more-link" href="https://www.davidlebovitz.com/caramel-honey-recipe-caramelized-peanut-coffee-cake/">Continue reading...</a></p>
+							</div>
+						</div>
+						</div>
+					</article>
+
+				
+				
+				
+					<article class="postitem excerpt">
+						<div class="image-holder"></div>
+						<div class="excerpt-a">
+						<div class="excerpt-b notop nobot">
+							<header class="postheader">
+								<h2 class="title"><a href="https://www.davidlebovitz.com/panettone-french-toast-recipe/">Panettone French Toast</a></h2>
+								<div class="postmeta"><a href="https://www.davidlebovitz.com/panettone-french-toast-recipe/#comments">76 comments</a> - 12.25.2023</div>
+							</header>
+							<div class="featimage"><a href="https://www.davidlebovitz.com/panettone-french-toast-recipe/">
+								<picture>
+																		<!--[if IE 9]><video style="display: none;"><![endif]-->
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-200x267.jpg?ssl=1" media="(min-width: 480px)">
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-640x926.jpg?ssl=1">
+									<!--[if IE 9]></video><![endif]-->
+									<img srcset="https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-200x267.jpg" alt="Panettone French Toast">
+								</picture>
+							</a></div>
+
+							<div class="content notop nobot">
+								<p>I&#8217;ve been pondering what, if anything, I should close out the year with. In the past, I&#8217;ve written down my thoughts here, which I spent the last couple of days pondering. Reading and re-reading what I wrote, I realized that I couldn&#8217;t quite figure out what I wanted to say. And if I couldn&#8217;t figure it out, I didn&#8217;t feel like I should inflict that on&#8230;</p>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="39096" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://www.davidlebovitz.com/panettone-french-toast-recipe/&media=https%3A%2F%2Fwww.davidlebovitz.com%2Fwp-content%2Fuploads%2F2018%2F01%2FPanettone-French-Toast-2.png&description=Panettone+French+Toast+via+%40davidlebovitz"  ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">1K</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fpanettone-french-toast-recipe%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fpanettone-french-toast-recipe%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">1K <span class="swp_label">Shares</span></span></div></div>								<p><a class="more-link" href="https://www.davidlebovitz.com/panettone-french-toast-recipe/">Continue reading...</a></p>
+							</div>
+						</div>
+						</div>
+					</article>
+
+				
+				
+				
+					<article class="postitem excerpt">
+						<div class="image-holder"></div>
+						<div class="excerpt-a">
+						<div class="excerpt-b notop nobot">
+							<header class="postheader">
+								<h2 class="title"><a href="https://www.davidlebovitz.com/apple-pear-cocktail-holiday-far-from-the-tree/">Far From the Tree: Apple-Pear Cocktail</a></h2>
+								<div class="postmeta"><a href="https://www.davidlebovitz.com/apple-pear-cocktail-holiday-far-from-the-tree/#comments">29 comments</a> - 12.19.2023</div>
+							</header>
+							<div class="featimage"><a href="https://www.davidlebovitz.com/apple-pear-cocktail-holiday-far-from-the-tree/">
+								<picture>
+																		<!--[if IE 9]><video style="display: none;"><![endif]-->
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-200x267.jpg?ssl=1" media="(min-width: 480px)">
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-640x864.jpg?ssl=1">
+									<!--[if IE 9]></video><![endif]-->
+									<img srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-200x267.jpg" alt="Far From the Tree: Apple-Pear Cocktail">
+								</picture>
+							</a></div>
+
+							<div class="content notop nobot">
+								<p>The other day I was thinking of cocktails that were fall and winter-friendly. Calvados (apple brandy) of course is always in season, but I also had a bottle of spiced pear liqueur from St. George Spirits in California on hand that has a lovely pear flavor mingled with a bouquet of spices, that I&#8217;ve been meaning to incorporate into a cocktail. I had a hunch&#8230;</p>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="48570" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://www.davidlebovitz.com/apple-pear-cocktail-holiday-far-from-the-tree/&media=https%3A%2F%2Fwww.davidlebovitz.com%2Fwp-content%2Fuploads%2F2020%2F11%2Ffar-from-the-tree-cocktail-2.jpg&description=A+cozy%2C+spiced+apple+and+pear+cocktail%2C+perfect+for+fall+and+winter+sipping%21+via+%40davidlebovitz"  ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">223</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fapple-pear-cocktail-holiday-far-from-the-tree%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fapple-pear-cocktail-holiday-far-from-the-tree%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">223 <span class="swp_label">Shares</span></span></div></div>								<p><a class="more-link" href="https://www.davidlebovitz.com/apple-pear-cocktail-holiday-far-from-the-tree/">Continue reading...</a></p>
+							</div>
+						</div>
+						</div>
+					</article>
+
+				
+				
+				
+					<article class="postitem excerpt">
+						<div class="image-holder"></div>
+						<div class="excerpt-a">
+						<div class="excerpt-b notop nobot">
+							<header class="postheader">
+								<h2 class="title"><a href="https://www.davidlebovitz.com/thanksgiving-cranberry-chutney-recipe-sauce/">Cranberry Chutney</a></h2>
+								<div class="postmeta"><a href="https://www.davidlebovitz.com/thanksgiving-cranberry-chutney-recipe-sauce/#comments">79 comments</a> - 12.13.2023</div>
+							</header>
+							<div class="featimage"><a href="https://www.davidlebovitz.com/thanksgiving-cranberry-chutney-recipe-sauce/">
+								<picture>
+																		<!--[if IE 9]><video style="display: none;"><![endif]-->
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-200x267.jpg?ssl=1" media="(min-width: 480px)">
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-640x990.jpg?ssl=1">
+									<!--[if IE 9]></video><![endif]-->
+									<img srcset="https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-200x267.jpg" alt="Cranberry Chutney">
+								</picture>
+							</a></div>
+
+							<div class="content notop nobot">
+								<p>Have you ever gone away for a few weeks and found out that you’d left the freezer door ajar? Well, I did. And let me tell you, it wasn&#8217;t pretty. Before traveling, since I&#8217;m anti-gaspillage (against food waste), I jammed whatever I could into my already-stuffed freezer, including a half-eaten tomato tart, which I thought would be nice to have ready-and-waiting upon my arrival home,&#8230;</p>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="44072" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://www.davidlebovitz.com/thanksgiving-cranberry-chutney-recipe-sauce/&media=https%3A%2F%2Fwww.davidlebovitz.com%2Fwp-content%2Fuploads%2F2019%2F09%2FCranberry-chutney-recipe-6.jpg&description=A+tangy+treat+for+the+holidays...or+anytime%21+via+%40davidlebovitz"  ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">2K</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fthanksgiving-cranberry-chutney-recipe-sauce%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fthanksgiving-cranberry-chutney-recipe-sauce%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">2K <span class="swp_label">Shares</span></span></div></div>								<p><a class="more-link" href="https://www.davidlebovitz.com/thanksgiving-cranberry-chutney-recipe-sauce/">Continue reading...</a></p>
+							</div>
+						</div>
+						</div>
+					</article>
+
+				
+				
+				
+					<article class="postitem excerpt">
+						<div class="image-holder"></div>
+						<div class="excerpt-a">
+						<div class="excerpt-b notop nobot">
+							<header class="postheader">
+								<h2 class="title"><a href="https://www.davidlebovitz.com/coffee-caramel-panna-cotta-custard-recipe/">Coffee Caramel Panna Cotta</a></h2>
+								<div class="postmeta"><a href="https://www.davidlebovitz.com/coffee-caramel-panna-cotta-custard-recipe/#comments">73 comments</a> - 11.30.2023</div>
+							</header>
+							<div class="featimage"><a href="https://www.davidlebovitz.com/coffee-caramel-panna-cotta-custard-recipe/">
+								<picture>
+																		<!--[if IE 9]><video style="display: none;"><![endif]-->
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2021/01/coffee-caramel-panna-cotta-recipe-4-200x267.jpg?ssl=1" media="(min-width: 480px)">
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2021/01/coffee-caramel-panna-cotta-recipe-4-640x858.jpg?ssl=1">
+									<!--[if IE 9]></video><![endif]-->
+									<img srcset="https://www.davidlebovitz.com/wp-content/uploads/2021/01/coffee-caramel-panna-cotta-recipe-4-200x267.jpg" alt="Coffee Caramel Panna Cotta">
+								</picture>
+							</a></div>
+
+							<div class="content notop nobot">
+								<p>Two of my favorite flavors come together right here, in this Coffee Caramel Panna Cotta, which offers up the rich flavor of caramel with a few strong shots of espresso. I seem to have good caramel karma and when I baked professionally, the executive pastry chef at one restaurant told me that I was the one she wanted to make the caramel desserts since I&#8230;</p>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="49155" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://www.davidlebovitz.com/coffee-caramel-panna-cotta-custard-recipe/&media=https%3A%2F%2Fwww.davidlebovitz.com%2Fwp-content%2Fuploads%2F2021%2F01%2Fcoffee-caramel-panna-cotta-recipe-4.jpg&description=A+delicious+%28and+easy-to-make%29+coffee+and+caramel-flavored+dessert%21+via+%40davidlebovitz"  ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">6K</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fcoffee-caramel-panna-cotta-custard-recipe%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fcoffee-caramel-panna-cotta-custard-recipe%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">6K <span class="swp_label">Shares</span></span></div></div>								<p><a class="more-link" href="https://www.davidlebovitz.com/coffee-caramel-panna-cotta-custard-recipe/">Continue reading...</a></p>
+							</div>
+						</div>
+						</div>
+					</article>
+
+				
+				
+				
+					<article class="postitem excerpt">
+						<div class="image-holder"></div>
+						<div class="excerpt-a">
+						<div class="excerpt-b notop nobot">
+							<header class="postheader">
+								<h2 class="title"><a href="https://www.davidlebovitz.com/bourbon-ginger-pecan-pie-recipe-thanksgiving/">Bourbon-Ginger Pecan Pie</a></h2>
+								<div class="postmeta"><a href="https://www.davidlebovitz.com/bourbon-ginger-pecan-pie-recipe-thanksgiving/#comments">182 comments</a> - 10.22.2023</div>
+							</header>
+							<div class="featimage"><a href="https://www.davidlebovitz.com/bourbon-ginger-pecan-pie-recipe-thanksgiving/">
+								<picture>
+																		<!--[if IE 9]><video style="display: none;"><![endif]-->
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2015/11/Pecan-Pie-with-Bourbon-and-Ginger-recipe-8-200x267.jpg?ssl=1" media="(min-width: 480px)">
+									<source data-lazy-srcset="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2015/11/Pecan-Pie-with-Bourbon-and-Ginger-recipe-8-640x980.jpg?ssl=1">
+									<!--[if IE 9]></video><![endif]-->
+									<img srcset="https://www.davidlebovitz.com/wp-content/uploads/2015/11/Pecan-Pie-with-Bourbon-and-Ginger-recipe-8-200x267.jpg" alt="Bourbon-Ginger Pecan Pie">
+								</picture>
+							</a></div>
+
+							<div class="content notop nobot">
+								<p>I wasn&#8217;t planning on beginning this post for a pie recipe with anything other than a story about how much I liked it, encouraging you to make it. (Which I&#8217;ll get to later.) But after I had started writing it, several neighborhoods in Paris came under attack, including mine, and I put everything on hold. Cafés and restaurants that I knew, and areas that I frequent, were&#8230;</p>
+<div class="swp_social_panel swp_horizontal_panel swp_flat_fresh  swp_default_full_color swp_other_full_color swp_individual_full_color scale-100 scale-full_width" data-min-width="1100" data-float-color="#ffffff" data-float="none" data-float-mobile="none" data-transition="slide" data-post-id="21615" ><div class="nc_tweetContainer swp_share_button swp_pinterest" data-network="pinterest"><a rel="nofollow noreferrer noopener" class="nc_tweet swp_share_link" data-count="0" data-link="https://pinterest.com/pin/create/button/?url=https://www.davidlebovitz.com/bourbon-ginger-pecan-pie-recipe-thanksgiving/&media=https%3A%2F%2Fwww.davidlebovitz.com%2Fwp-content%2Fuploads%2F2018%2F11%2FPecan-Pie-with-Bourbon-and-Ginger-2.png&description=Bourbon+Ginger+Pecan+Pie+via+%40davidlebovitz"  ><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_pinterest_icon"></i><span class="swp_share">Pin</span></span></span><span class="swp_count">1K</span></a></div><div class="nc_tweetContainer swp_share_button swp_facebook" data-network="facebook"><a class="nc_tweet swp_share_link" rel="nofollow noreferrer noopener" target="_blank" href="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fbourbon-ginger-pecan-pie-recipe-thanksgiving%2F" data-link="https://www.facebook.com/share.php?u=https%3A%2F%2Fwww.davidlebovitz.com%2Fbourbon-ginger-pecan-pie-recipe-thanksgiving%2F"><span class="swp_count swp_hide"><span class="iconFiller"><span class="spaceManWilly"><i class="sw swp_facebook_icon"></i><span class="swp_share">Share</span></span></span></span></a></div><div class="nc_tweetContainer swp_share_button total_shares total_sharesalt" ><span class="swp_count ">1K <span class="swp_label">Shares</span></span></div></div>								<p><a class="more-link" href="https://www.davidlebovitz.com/bourbon-ginger-pecan-pie-recipe-thanksgiving/">Continue reading...</a></p>
+							</div>
+						</div>
+						</div>
+					</article>
+
+				
+				
+				</div>
+
+								<div class="navigation clearfix">
+										<div class="navleft"></div>
+					<div class="navright"><a href="https://www.davidlebovitz.com/blog/page/2/" >Earlier posts &raquo;</a></div>
+									</div>
+				
+							</div>
+			</div>
+
+			<div id="sidebar" class="clearfix">
+	<div id="davidlebovitz_widget_book_promo_alt-2" class="section section-books clearfix"><div class="book">
+<div class="book-a">
+		<div class="cover"><a href="https://amzn.to/2mZvqfp"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-pin-no-hover="true" alt="" data-lazy-src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2019/10/drinking-french-cover-large-1.jpg?w=300&ssl=1" /><noscript><img src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2019/10/drinking-french-cover-large-1.jpg?w=300&ssl=1" data-pin-no-hover="true" alt="" /></noscript></a></div>
+	<div class="buy"><a class="btn" href="#buy-popup-44390">Buy</a></div>
+</div>
+</div><div class="books"><div class="books-a"><div class="book">
+<div class="book-a">
+		<div class="cover"><a href="https://amzn.to/2JnCBVm"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-pin-no-hover="true" alt="" data-lazy-src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2017/08/lappart2018.jpg?w=145&ssl=1" /><noscript><img src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2017/08/lappart2018.jpg?w=145&ssl=1" data-pin-no-hover="true" alt="" /></noscript></a></div>
+	<div class="buy"><a class="btn" href="#buy-popup-28016">Buy</a></div>
+</div>
+</div><div class="book">
+<div class="book-a">
+		<div class="cover"><a href="http://www.amazon.com/exec/obidos/asin/076792889X/davidleboviswebs"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-pin-no-hover="true" alt="" data-lazy-src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2014/12/sweet-life-in-paris-1.jpg?w=145&ssl=1" /><noscript><img src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2014/12/sweet-life-in-paris-1.jpg?w=145&ssl=1" data-pin-no-hover="true" alt="" /></noscript></a></div>
+	<div class="buy"><a class="btn" href="http://www.amazon.com/exec/obidos/asin/076792889X/davidleboviswebs">Buy</a></div>
+</div>
+</div><div class="book">
+<div class="book-a">
+		<div class="cover"><a href="http://www.amazon.com/exec/obidos/asin/1607742675/davidleboviswebs"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-pin-no-hover="true" alt="" data-lazy-src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2015/01/my-paris-kitchen-cropped-1.jpg?w=145&ssl=1" /><noscript><img src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2015/01/my-paris-kitchen-cropped-1.jpg?w=145&ssl=1" data-pin-no-hover="true" alt="" /></noscript></a></div>
+	<div class="buy"><a class="btn" href="#buy-popup-17536">Buy</a></div>
+</div>
+</div><div class="book">
+<div class="book-a">
+		<div class="cover"><a href="https://amzn.to/2ujH3Rw"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-pin-no-hover="true" alt="" data-lazy-src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2014/11/perfect-scoop.jpg?w=145&ssl=1" /><noscript><img src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2014/11/perfect-scoop.jpg?w=145&ssl=1" data-pin-no-hover="true" alt="" /></noscript></a></div>
+	<div class="buy"><a class="btn" href="#buy-popup-17543">Buy</a></div>
+</div>
+</div></div></div></div><div id="text-30" class="section widget_text">			<div class="textwidget"><div id="bhpn-ad-Middle1"></div>
+<script type="text/javascript">
+  blogherads.adq.push(function() {
+    blogherads.defineSlot('Middle1', 'bhpn-ad-Middle1').setMainAd().display();
+  });
+</script></div>
+		</div><div id="davidlebovitz_widget_subscribe-2" class="section section-subscribe"><div class="subscribebox"><iframe src="https://davidlebovitz.substack.com/embed" width="100%" height="320" style="border:1px solid #ccc; box-sizing:border-box; background:white;" frameborder="0" scrolling="no"></iframe></div></div><div id="davidlebovitz_widget_subscribeposts-2" class="section section-subscribe"><div class="subscribebox subscribebox-posts"><h2 class="sectitle">Get posts and recipes via email</h2>
+<form class="subscribeform" accept-charset="UTF-8" action="https://madmimi.com/signups/subscribe/144291" method="post" target="_blank">
+	<div class="inputs-wrap">
+	<div class="inputs">
+		<div class="input">
+			<label for="subscribeemail" class="screen-reader-text">Email</label>
+			<input required type="email" id="subscribeemail" name="signup[email]" placeholder="Your email here" />
+		</div>
+		<div class="input input-submit">
+			<input type="submit" value="Sign up" />
+		</div>
 	</div>
-	<div class="np-overlay">
-	<div class="np-overlay-a notop nobot">
-		<h2>Subscribe to my newsletter for a tasty mix of food, Paris, life, and travel!</h2>
-		<div class="btnswrap"><div class="btnswrap-a"><a class="btn" href="https://davidlebovitz.substack.com/subscribe" target="_blank">Subscribe Here!</a></div></div>
 	</div>
+	<div style="display:none;">
+		<input type="hidden" name="lists[]" value="1244689" />
+		<input name="utf8" type="hidden" value="✓"/>
 	</div>
-</div><div class="gridheading breaknarrow">
-	<h2 class="large">Explore my Recipes</h2>
-</div><div class="imagegrid catgrid breaknarrow">
+</form></div></div>
+	<div class="sidecolumns clearfix">
+		<div class="sidecolumn sidecolumn1">
+			<div id="davidlebovitz_widget_book-8" class="section section-book"><div class="book">
+<div class="book-a">
+		<div class="cover"><a href="http://www.amazon.com/exec/obidos/asin/1607743655/davidleboviswebs"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-pin-no-hover="true" alt="" data-lazy-src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2010/07/ready-for-dessert1.jpg?w=140&ssl=1" /><noscript><img src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2010/07/ready-for-dessert1.jpg?w=140&ssl=1" data-pin-no-hover="true" alt="" /></noscript></a></div>
+	<div class="buy"><a class="btn" href="#buy-popup-17539">Buy</a></div>
+</div>
+</div></div><div id="davidlebovitz_widget_book-6" class="section section-book"><div class="book">
+<div class="book-a">
+		<div class="cover"><a href="http://www.amazon.com/exec/obidos/ASIN/1580084958/davidleboviswebs"><img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%200%200'%3E%3C/svg%3E" data-pin-no-hover="true" alt="" data-lazy-src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2010/07/GTCH.jpg?w=140&ssl=1" /><noscript><img src="https://i0.wp.com/www.davidlebovitz.com/wp-content/uploads/2010/07/GTCH.jpg?w=140&ssl=1" data-pin-no-hover="true" alt="" /></noscript></a></div>
+	<div class="buy"><a class="btn" href="#buy-popup-17547">Buy</a></div>
+</div>
+</div></div><div id="davidlebovitz_widget_latest_posts-2" class="section section-latestposts"><h2 class="sectitle">Latest posts</h2><div class="imagegrid imagegrid-side1 breaknarrow">
 	<ul>
-				<li><div class="li-a"><a href="https://www.davidlebovitz.com/category/recipes/cookies-bars-brownies/">
-			<div class="gridimage">
-			<div class="gridimage-a">
-				<img decoding="async" width="146" height="146" src="https://www.davidlebovitz.com/wp-content/uploads/2016/05/Sable-Breton-French-butter-cookie-recipe-13-146x146.jpg" class="attachment-catcircle size-catcircle" alt="" sizes="(max-width:519px) calc(50vw - 30px), (max-width:767px) 230px, calc(50vw - 30px), 146px" srcset="https://www.davidlebovitz.com/wp-content/uploads/2016/05/Sable-Breton-French-butter-cookie-recipe-13-146x146.jpg 146w, https://www.davidlebovitz.com/wp-content/uploads/2016/05/Sable-Breton-French-butter-cookie-recipe-13-150x150.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2016/05/Sable-Breton-French-butter-cookie-recipe-13-292x292.jpg 292w">			</div>
-			</div>
-			<div class="gridtitle">Cookies, Bars &amp; Brownies</div>
-		</a></div></li>
-				<li><div class="li-a"><a href="https://www.davidlebovitz.com/category/recipes/cakes-recipes/">
-			<div class="gridimage">
-			<div class="gridimage-a">
-				<img decoding="async" width="146" height="146" src="https://www.davidlebovitz.com/wp-content/uploads/2015/05/Cranberry-Upside-Down-Cake-recipe-8-146x146.jpg" class="attachment-catcircle size-catcircle" alt="" sizes="(max-width:519px) calc(50vw - 30px), (max-width:767px) 230px, calc(50vw - 30px), 146px" srcset="https://www.davidlebovitz.com/wp-content/uploads/2015/05/Cranberry-Upside-Down-Cake-recipe-8-146x146.jpg 146w, https://www.davidlebovitz.com/wp-content/uploads/2015/05/Cranberry-Upside-Down-Cake-recipe-8-150x150.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2015/05/Cranberry-Upside-Down-Cake-recipe-8-292x292.jpg 292w">			</div>
-			</div>
-			<div class="gridtitle">Cakes</div>
-		</a></div></li>
-				<li><div class="li-a"><a href="https://www.davidlebovitz.com/category/recipes/frenchcookingcuisine/">
-			<div class="gridimage">
-			<div class="gridimage-a">
-				<img decoding="async" width="146" height="146" src="https://www.davidlebovitz.com/wp-content/uploads/2009/01/Gougeres-jacques-pepin-cheese-puffs-drinking-french-2-146x146.jpg" class="attachment-catcircle size-catcircle" alt="" sizes="(max-width:519px) calc(50vw - 30px), (max-width:767px) 230px, calc(50vw - 30px), 146px" srcset="https://www.davidlebovitz.com/wp-content/uploads/2009/01/Gougeres-jacques-pepin-cheese-puffs-drinking-french-2-146x146.jpg 146w, https://www.davidlebovitz.com/wp-content/uploads/2009/01/Gougeres-jacques-pepin-cheese-puffs-drinking-french-2-150x150.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2009/01/Gougeres-jacques-pepin-cheese-puffs-drinking-french-2-500x500.jpg 500w, https://www.davidlebovitz.com/wp-content/uploads/2009/01/Gougeres-jacques-pepin-cheese-puffs-drinking-french-2-292x292.jpg 292w">			</div>
-			</div>
-			<div class="gridtitle">French Cooking</div>
-		</a></div></li>
-				<li><div class="li-a"><a href="https://www.davidlebovitz.com/category/recipes/tarts/">
-			<div class="gridimage">
-			<div class="gridimage-a">
-				<img decoding="async" width="146" height="146" src="https://www.davidlebovitz.com/wp-content/uploads/2016/06/Frangipan-French-fruit-tart-recipe-4-146x146.jpg" class="attachment-catcircle size-catcircle" alt="" sizes="(max-width:519px) calc(50vw - 30px), (max-width:767px) 230px, calc(50vw - 30px), 146px" srcset="https://www.davidlebovitz.com/wp-content/uploads/2016/06/Frangipan-French-fruit-tart-recipe-4-146x146.jpg 146w, https://www.davidlebovitz.com/wp-content/uploads/2016/06/Frangipan-French-fruit-tart-recipe-4-150x150.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2016/06/Frangipan-French-fruit-tart-recipe-4-292x292.jpg 292w">			</div>
-			</div>
-			<div class="gridtitle">Pies and Tarts</div>
-		</a></div></li>
-				<li><div class="li-a"><a href="https://www.davidlebovitz.com/category/recipes/ice-creams-and-sorbets/">
-			<div class="gridimage">
-			<div class="gridimage-a">
-				<img decoding="async" width="146" height="146" src="https://www.davidlebovitz.com/wp-content/uploads/2020/05/Chocolate-chip-ice-cream-gelato-amaro-recipe_-9-146x146.jpg" class="attachment-catcircle size-catcircle" alt="" sizes="(max-width:519px) calc(50vw - 30px), (max-width:767px) 230px, calc(50vw - 30px), 146px" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/05/Chocolate-chip-ice-cream-gelato-amaro-recipe_-9-146x146.jpg 146w, https://www.davidlebovitz.com/wp-content/uploads/2020/05/Chocolate-chip-ice-cream-gelato-amaro-recipe_-9-150x150.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2020/05/Chocolate-chip-ice-cream-gelato-amaro-recipe_-9-1104x1104.jpg 1104w, https://www.davidlebovitz.com/wp-content/uploads/2020/05/Chocolate-chip-ice-cream-gelato-amaro-recipe_-9-912x912.jpg 912w, https://www.davidlebovitz.com/wp-content/uploads/2020/05/Chocolate-chip-ice-cream-gelato-amaro-recipe_-9-550x550.jpg 550w, https://www.davidlebovitz.com/wp-content/uploads/2020/05/Chocolate-chip-ice-cream-gelato-amaro-recipe_-9-470x470.jpg 470w, https://www.davidlebovitz.com/wp-content/uploads/2020/05/Chocolate-chip-ice-cream-gelato-amaro-recipe_-9-292x292.jpg 292w">			</div>
-			</div>
-			<div class="gridtitle">Ice Creams and Sorbets</div>
-		</a></div></li>
-				<li><div class="li-a"><a href="https://www.davidlebovitz.com/category/recipes/">
-			<div class="gridimage">
-			<div class="gridimage-a">
-				<img decoding="async" width="146" height="146" src="https://www.davidlebovitz.com/wp-content/uploads/2018/05/Apple-Tart-Paris-4-146x146.jpg" class="attachment-catcircle size-catcircle" alt="" sizes="(max-width:519px) calc(50vw - 30px), (max-width:767px) 230px, calc(50vw - 30px), 146px" srcset="https://www.davidlebovitz.com/wp-content/uploads/2018/05/Apple-Tart-Paris-4-146x146.jpg 146w, https://www.davidlebovitz.com/wp-content/uploads/2018/05/Apple-Tart-Paris-4-150x150.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2018/05/Apple-Tart-Paris-4-1104x1104.jpg 1104w, https://www.davidlebovitz.com/wp-content/uploads/2018/05/Apple-Tart-Paris-4-912x912.jpg 912w, https://www.davidlebovitz.com/wp-content/uploads/2018/05/Apple-Tart-Paris-4-550x550.jpg 550w, https://www.davidlebovitz.com/wp-content/uploads/2018/05/Apple-Tart-Paris-4-470x470.jpg 470w, https://www.davidlebovitz.com/wp-content/uploads/2018/05/Apple-Tart-Paris-4-292x292.jpg 292w">			</div>
-			</div>
-			<div class="gridtitle">All Recipes</div>
-		</a></div></li>
-			</ul>
-</div><div class="gridheading breaknarrow">
-	<h2 class="large latest">Latest</h2>
-		<div class="archive-link"><a href="https://www.davidlebovitz.com/blog/">Skip to the blog <svg class="cicon icon-long-arrow-right" aria-hidden="true"><use xlink:href="#icon-long-arrow-right"></use></svg></a></div>
-	</div><div class="imagegrid imagegrid4 breaknarrow">
-	<ul>
-		<li><div class="li-a"><a href="https://www.davidlebovitz.com/recipe-aperitif-cocktail-strawberry-spritz/">
+		<li><div class="li-a"><a href="https://www.davidlebovitz.com/an-american-mac-1/">
 	<div class="gridimage">
 	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-1122x1496.jpg 1122w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-840x1120.jpg 840w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-687x916.jpg 687w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-414x552.jpg 414w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-354x472.jpg 354w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
+		<img width="1280" height="1773" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%201773'%3E%3C/svg%3E" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-217x300.jpg 217w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-768x1064.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-640x887.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-150x208.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-600x831.jpg 600w" data-lazy-sizes="(max-width: 680px) calc(100vw - 40px), 640px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2.jpg" /><noscript><img width="1280" height="1773" src="https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2.jpg" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-217x300.jpg 217w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-768x1064.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-640x887.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-150x208.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2005/06/chocolate-coconut-macaroon-recipe-2-600x831.jpg 600w" sizes="(max-width: 680px) calc(100vw - 40px), 640px" /></noscript>	</div>
+	</div>
+	<div class="gridtitle">Coconut Chocolate Macaroon Recipe</div>
+</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/recipe-aperitif-cocktail-strawberry-spritz/">
+	<div class="gridimage">
+	<div class="gridimage-a">
+		<img width="1280" height="1877" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%201877'%3E%3C/svg%3E" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-205x300.jpg 205w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-640x939.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-768x1126.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-150x220.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-600x880.jpg 600w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-1047x1536.jpg 1047w" data-lazy-sizes="(max-width: 680px) calc(100vw - 40px), 640px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4.jpg" /><noscript><img width="1280" height="1877" src="https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4.jpg" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-205x300.jpg 205w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-640x939.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-768x1126.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-150x220.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-600x880.jpg 600w, https://www.davidlebovitz.com/wp-content/uploads/2020/06/Strawberry-spritz-4-1047x1536.jpg 1047w" sizes="(max-width: 680px) calc(100vw - 40px), 640px" /></noscript>	</div>
 	</div>
 	<div class="gridtitle">Strawberry Spritz</div>
 </a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/strawberry-rhubarb-tart-crostata-galette-recipe/">
 	<div class="gridimage">
 	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-1122x1496.jpg 1122w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-840x1120.jpg 840w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-687x916.jpg 687w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-414x552.jpg 414w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-354x472.jpg 354w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
+		<img width="1280" height="1819" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%201819'%3E%3C/svg%3E" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-211x300.jpg 211w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-768x1091.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-640x910.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-150x213.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-600x853.jpg 600w" data-lazy-sizes="(max-width: 680px) calc(100vw - 40px), 640px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5.jpg" /><noscript><img width="1280" height="1819" src="https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5.jpg" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-211x300.jpg 211w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-768x1091.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-640x910.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-150x213.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2018/06/Strawberry-Rhubarb-tart-crostata-galette-recipe-5-600x853.jpg 600w" sizes="(max-width: 680px) calc(100vw - 40px), 640px" /></noscript>	</div>
 	</div>
 	<div class="gridtitle">Strawberry Rhubarb Tart</div>
 </a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/caramel-honey-recipe-caramelized-peanut-coffee-cake/">
 	<div class="gridimage">
 	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-1122x1496.jpg 1122w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-840x1120.jpg 840w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-687x916.jpg 687w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-414x552.jpg 414w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-354x472.jpg 354w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
+		<img width="1280" height="1920" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%201920'%3E%3C/svg%3E" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-200x300.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-768x1152.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-640x960.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-150x225.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-600x900.jpg 600w" data-lazy-sizes="(max-width: 680px) calc(100vw - 40px), 640px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6.jpg" /><noscript><img width="1280" height="1920" src="https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6.jpg" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-200x300.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-768x1152.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-640x960.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-150x225.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/Caramelized-Peanut-Coffee-cake-recipe-6-600x900.jpg 600w" sizes="(max-width: 680px) calc(100vw - 40px), 640px" /></noscript>	</div>
 	</div>
 	<div class="gridtitle">Caramelized Peanut Coffee Cake</div>
 </a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/panettone-french-toast-recipe/">
 	<div class="gridimage">
 	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
+		<img width="1280" height="1852" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%201852'%3E%3C/svg%3E" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-207x300.jpg 207w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-768x1111.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-640x926.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-150x217.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-600x868.jpg 600w" data-lazy-sizes="(max-width: 680px) calc(100vw - 40px), 640px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4.jpg" /><noscript><img width="1280" height="1852" src="https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4.jpg" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-207x300.jpg 207w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-768x1111.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-640x926.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-150x217.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-600x868.jpg 600w" sizes="(max-width: 680px) calc(100vw - 40px), 640px" /></noscript>	</div>
 	</div>
 	<div class="gridtitle">Panettone French Toast</div>
+</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/apple-pear-cocktail-holiday-far-from-the-tree/">
+	<div class="gridimage">
+	<div class="gridimage-a">
+		<img width="1280" height="1728" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%201728'%3E%3C/svg%3E" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-222x300.jpg 222w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-640x864.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-768x1037.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-150x203.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-600x810.jpg 600w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-1138x1536.jpg 1138w" data-lazy-sizes="(max-width: 680px) calc(100vw - 40px), 640px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2.jpg" /><noscript><img width="1280" height="1728" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2.jpg" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-222x300.jpg 222w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-640x864.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-768x1037.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-150x203.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-600x810.jpg 600w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/far-from-the-tree-cocktail-2-1138x1536.jpg 1138w" sizes="(max-width: 680px) calc(100vw - 40px), 640px" /></noscript>	</div>
+	</div>
+	<div class="gridtitle">Far From the Tree: Apple-Pear Cocktail</div>
+</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/thanksgiving-cranberry-chutney-recipe-sauce/">
+	<div class="gridimage">
+	<div class="gridimage-a">
+		<img width="1280" height="1979" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201280%201979'%3E%3C/svg%3E" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-194x300.jpg 194w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-768x1187.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-640x990.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-150x232.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-600x928.jpg 600w" data-lazy-sizes="(max-width: 680px) calc(100vw - 40px), 640px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6.jpg" /><noscript><img width="1280" height="1979" src="https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6.jpg" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-194x300.jpg 194w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-768x1187.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-640x990.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-150x232.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2019/09/Cranberry-chutney-recipe-6-600x928.jpg 600w" sizes="(max-width: 680px) calc(100vw - 40px), 640px" /></noscript>	</div>
+	</div>
+	<div class="gridtitle">Cranberry Chutney</div>
 </a></div></li>	</ul>
-</div><div class="gridheading breaknarrow">
-	<h2 class="large">Get my books</h2>	<div class="archive-link"><a href="https://www.davidlebovitz.com/books/">See all <svg class="cicon icon-long-arrow-right" aria-hidden="true"><use xlink:href="#icon-long-arrow-right"></use></svg></a></div>
-</div><div class="booksgrid breaknarrow">
-	<ul>
-				<li id="bg-0" style="width:16.042329073161%">
-			<a href="#buy-popup-44390">
-				<img decoding="async" width="440" height="570" src="https://www.davidlebovitz.com/wp-content/uploads/2019/10/drinking-french-cover-1.jpg" class="attachment-full size-full wp-post-image" alt="Drinking French" srcset="https://www.davidlebovitz.com/wp-content/uploads/2019/10/drinking-french-cover-1.jpg 440w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/drinking-french-cover-1-232x300.jpg 232w, https://www.davidlebovitz.com/wp-content/uploads/2019/10/drinking-french-cover-1-150x194.jpg 150w" sizes="(max-width: 480px) calc(100vw - 40px), 440px">			</a>
-		</li>
-				<li id="bg-1" style="width:13.480286346489%">
-			<a href="#buy-popup-28016">
-				<img decoding="async" width="480" height="740" src="https://www.davidlebovitz.com/wp-content/uploads/2017/08/lappart2018.jpg" class="attachment-full size-full wp-post-image" alt="L'appart" srcset="https://www.davidlebovitz.com/wp-content/uploads/2017/08/lappart2018.jpg 480w, https://www.davidlebovitz.com/wp-content/uploads/2017/08/lappart2018-195x300.jpg 195w, https://www.davidlebovitz.com/wp-content/uploads/2017/08/lappart2018-150x231.jpg 150w" sizes="(max-width: 520px) calc(100vw - 40px), 480px">			</a>
-		</li>
-				<li id="bg-2" style="width:13.480286346489%">
-			<a href="http://www.amazon.com/exec/obidos/asin/076792889X/davidleboviswebs">
-				<img decoding="async" width="480" height="740" src="https://www.davidlebovitz.com/wp-content/uploads/2014/12/sweet-life-in-paris-1.jpg" class="attachment-full size-full wp-post-image" alt="The Sweet Life in Paris" srcset="https://www.davidlebovitz.com/wp-content/uploads/2014/12/sweet-life-in-paris-1.jpg 480w, https://www.davidlebovitz.com/wp-content/uploads/2014/12/sweet-life-in-paris-1-195x300.jpg 195w, https://www.davidlebovitz.com/wp-content/uploads/2014/12/sweet-life-in-paris-1-150x231.jpg 150w" sizes="(max-width: 520px) calc(100vw - 40px), 480px">			</a>
-		</li>
-				<li id="bg-3" style="width:15.610973233806%">
-			<a href="#buy-popup-17536">
-				<img decoding="async" width="480" height="639" src="https://www.davidlebovitz.com/wp-content/uploads/2015/01/my-paris-kitchen-cropped-1.jpg" class="attachment-full size-full wp-post-image" alt="My Paris Kitchen" srcset="https://www.davidlebovitz.com/wp-content/uploads/2015/01/my-paris-kitchen-cropped-1.jpg 480w, https://www.davidlebovitz.com/wp-content/uploads/2015/01/my-paris-kitchen-cropped-1-225x300.jpg 225w, https://www.davidlebovitz.com/wp-content/uploads/2015/01/my-paris-kitchen-cropped-1-150x200.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2015/01/my-paris-kitchen-cropped-1-414x552.jpg 414w, https://www.davidlebovitz.com/wp-content/uploads/2015/01/my-paris-kitchen-cropped-1-354x472.jpg 354w" sizes="(max-width: 520px) calc(100vw - 40px), 480px">			</a>
-		</li>
-				<li id="bg-4" style="width:15.577730105113%">
-			<a href="#buy-popup-17543">
-				<img decoding="async" width="440" height="587" src="https://www.davidlebovitz.com/wp-content/uploads/2014/11/perfect-scoop.jpg" class="attachment-full size-full wp-post-image" alt="The Perfect Scoop" srcset="https://www.davidlebovitz.com/wp-content/uploads/2014/11/perfect-scoop.jpg 440w, https://www.davidlebovitz.com/wp-content/uploads/2014/11/perfect-scoop-225x300.jpg 225w, https://www.davidlebovitz.com/wp-content/uploads/2014/11/perfect-scoop-150x200.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2014/11/perfect-scoop-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2014/11/perfect-scoop-230x307.jpg 230w" sizes="(max-width: 480px) calc(100vw - 40px), 440px">			</a>
-		</li>
-				<li id="bg-5" style="width:15.604313262289%">
-			<a href="#buy-popup-17539">
-				<img decoding="async" width="220" height="293" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/ready-for-dessert1.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2010/07/ready-for-dessert1.jpg 220w, https://www.davidlebovitz.com/wp-content/uploads/2010/07/ready-for-dessert1-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2010/07/ready-for-dessert1-145x193.jpg 145w" sizes="(max-width: 260px) calc(100vw - 40px), 220px">			</a>
-		</li>
+</div>
+</div>		</div>
+		<div class="sidecolumn sidecolumn2">
+			<div id="text-39" class="section widget_text">			<div class="textwidget"><!-- BLOGHER ADS Begin supplemental 160 ad -->
+<div id="blogherads-middle"></div>
+<script type="text/javascript">
+  blogherads.adq.push(['Middle', 'blogherads-middle']);
+</script>
+<!-- End supplemental 160 ad --></div>
+		</div><div id="categories-4" class="section widget_categories"><h2 class="sectitle">Categories</h2>
+			<ul>
+					<li class="cat-item cat-item-7299"><a href="https://www.davidlebovitz.com/category/baking-ingredients-substitutions/">Baking Ingredients &amp; Substitutions</a>
+</li>
+	<li class="cat-item cat-item-3643"><a href="https://www.davidlebovitz.com/category/baking-tips/">Baking Tips</a>
+</li>
+	<li class="cat-item cat-item-174"><a href="https://www.davidlebovitz.com/category/cookbook-reviews/">Book and Cookbook Reviews</a>
+</li>
+	<li class="cat-item cat-item-44"><a href="https://www.davidlebovitz.com/category/candy-sweets/">Candy and Sweets</a>
+</li>
+	<li class="cat-item cat-item-469"><a href="https://www.davidlebovitz.com/category/celebrity-chef-interviews/">Chef &amp; Photographer Interviews</a>
+</li>
+	<li class="cat-item cat-item-37"><a href="https://www.davidlebovitz.com/category/chocolate-2/">Chocolate</a>
+<ul class='children'>
+	<li class="cat-item cat-item-40"><a href="https://www.davidlebovitz.com/category/chocolate-2/global/">Global</a>
+</li>
+	<li class="cat-item cat-item-64"><a href="https://www.davidlebovitz.com/category/chocolate-2/paris-france/">Paris and France</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-8105"><a href="https://www.davidlebovitz.com/category/cookbook-errata/">Cookbook Errata</a>
+</li>
+	<li class="cat-item cat-item-43"><a href="https://www.davidlebovitz.com/category/davids-favorite-posts/">David&#039;s Favorite Posts</a>
+</li>
+	<li class="cat-item cat-item-38"><a href="https://www.davidlebovitz.com/category/dining-travel/">Dining &amp; Travel</a>
+<ul class='children'>
+	<li class="cat-item cat-item-8624"><a href="https://www.davidlebovitz.com/category/dining-travel/asia/">Asia</a>
+</li>
+	<li class="cat-item cat-item-3384"><a href="https://www.davidlebovitz.com/category/dining-travel/australia/">Australia</a>
+</li>
+	<li class="cat-item cat-item-39"><a href="https://www.davidlebovitz.com/category/dining-travel/europe/">Europe</a>
+</li>
+	<li class="cat-item cat-item-59"><a href="https://www.davidlebovitz.com/category/dining-travel/france/">France</a>
+</li>
+	<li class="cat-item cat-item-176"><a href="https://www.davidlebovitz.com/category/dining-travel/italy/">Italy</a>
+</li>
+	<li class="cat-item cat-item-4018"><a href="https://www.davidlebovitz.com/category/dining-travel/middle-east/">Middle East</a>
+</li>
+	<li class="cat-item cat-item-755"><a href="https://www.davidlebovitz.com/category/dining-travel/new-york-city/">New York City</a>
+</li>
+	<li class="cat-item cat-item-556"><a href="https://www.davidlebovitz.com/category/dining-travel/san-francisco/">San Francisco</a>
+</li>
+	<li class="cat-item cat-item-258"><a href="https://www.davidlebovitz.com/category/dining-travel/usa/">USA</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-2369"><a href="https://www.davidlebovitz.com/category/disclosure-statement/">Disclosure Statement</a>
+</li>
+	<li class="cat-item cat-item-9795"><a href="https://www.davidlebovitz.com/category/favorite-french-things/">Favorite French Things</a>
+</li>
+	<li class="cat-item cat-item-71"><a href="https://www.davidlebovitz.com/category/parisian-culture/">French Culture</a>
+</li>
+	<li class="cat-item cat-item-2533"><a href="https://www.davidlebovitz.com/category/press-trips/">Hosted Travel &amp; Events</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="https://www.davidlebovitz.com/category/ice-cream/">Ice Cream</a>
+</li>
+	<li class="cat-item cat-item-427"><a href="https://www.davidlebovitz.com/category/ice-cream-making-faqs/">Ice Cream Making FAQs</a>
+</li>
+	<li class="cat-item cat-item-900"><a href="https://www.davidlebovitz.com/category/my-food-photography-gear/">My Food Photography Gear</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="https://www.davidlebovitz.com/category/paris/">Paris</a>
+<ul class='children'>
+	<li class="cat-item cat-item-74"><a href="https://www.davidlebovitz.com/category/paris/cheese/">Cheese</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="https://www.davidlebovitz.com/category/paris/chocolate-pastry-shops/">Chocolate &amp; Pastry Shops</a>
+</li>
+	<li class="cat-item cat-item-23"><a href="https://www.davidlebovitz.com/category/paris/food-markets/">Food Markets</a>
+</li>
+	<li class="cat-item cat-item-60"><a href="https://www.davidlebovitz.com/category/paris/restaurants/">Restaurants</a>
+</li>
+	<li class="cat-item cat-item-239"><a href="https://www.davidlebovitz.com/category/paris/travel-tips/">Travel Tips</a>
+</li>
+	<li class="cat-item cat-item-3688"><a href="https://www.davidlebovitz.com/category/paris/wine-bars/">Wine Bars</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-7"><a href="https://www.davidlebovitz.com/category/recipes/">Recipes</a>
+<ul class='children'>
+	<li class="cat-item cat-item-5595"><a href="https://www.davidlebovitz.com/category/recipes/breads/">Breads</a>
+</li>
+	<li class="cat-item cat-item-2422"><a href="https://www.davidlebovitz.com/category/recipes/cakes-recipes/">Cakes</a>
+</li>
+	<li class="cat-item cat-item-2421"><a href="https://www.davidlebovitz.com/category/recipes/candies/">Candies</a>
+</li>
+	<li class="cat-item cat-item-4218"><a href="https://www.davidlebovitz.com/category/recipes/beverages-recipes/">Cocktails</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="https://www.davidlebovitz.com/category/recipes/cookies-bars-brownies/">Cookies, Bars &amp; Brownies</a>
+</li>
+	<li class="cat-item cat-item-2424"><a href="https://www.davidlebovitz.com/category/recipes/custards/">Custards</a>
+</li>
+	<li class="cat-item cat-item-4219"><a href="https://www.davidlebovitz.com/category/recipes/drinks/">Drinks</a>
+</li>
+	<li class="cat-item cat-item-2431"><a href="https://www.davidlebovitz.com/category/recipes/extras/">Extras</a>
+</li>
+	<li class="cat-item cat-item-9962"><a href="https://www.davidlebovitz.com/category/recipes/frenchcookingcuisine/">French Cooking</a>
+</li>
+	<li class="cat-item cat-item-8951"><a href="https://www.davidlebovitz.com/category/recipes/french-pastries-desserts/">French Pastries &amp; Desserts</a>
+</li>
+	<li class="cat-item cat-item-2423"><a href="https://www.davidlebovitz.com/category/recipes/fruit-desserts/">Fruit Desserts</a>
+</li>
+	<li class="cat-item cat-item-2425"><a href="https://www.davidlebovitz.com/category/recipes/ice-creams-and-sorbets/">Ice Creams and Sorbets</a>
+</li>
+	<li class="cat-item cat-item-2426"><a href="https://www.davidlebovitz.com/category/recipes/jams-jellies-preserves/">Jams &amp; Jellies</a>
+</li>
+	<li class="cat-item cat-item-8949"><a href="https://www.davidlebovitz.com/category/recipes/pickles/">Pickles</a>
+</li>
+	<li class="cat-item cat-item-2427"><a href="https://www.davidlebovitz.com/category/recipes/tarts/">Pies and Tarts</a>
+</li>
+	<li class="cat-item cat-item-8373"><a href="https://www.davidlebovitz.com/category/recipes/salad-recipes/">Salads</a>
+</li>
+	<li class="cat-item cat-item-9606"><a href="https://www.davidlebovitz.com/category/recipes/sandwiches/">Sandwiches</a>
+</li>
+	<li class="cat-item cat-item-2428"><a href="https://www.davidlebovitz.com/category/recipes/savory-dishes/">Savory Dishes</a>
+</li>
+	<li class="cat-item cat-item-2429"><a href="https://www.davidlebovitz.com/category/recipes/soups/">Soups</a>
+</li>
+	<li class="cat-item cat-item-2430"><a href="https://www.davidlebovitz.com/category/recipes/spreads-and-dips/">Spreads, Dips &amp; Dressings</a>
+</li>
+	<li class="cat-item cat-item-8950"><a href="https://www.davidlebovitz.com/category/recipes/thanksgiving/">Thanksgiving &amp; Holidays</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-5864"><a href="https://www.davidlebovitz.com/category/stories/">Stories</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="https://www.davidlebovitz.com/category/uncategorized/">Uncategorized</a>
+</li>
+	<li class="cat-item cat-item-2808"><a href="https://www.davidlebovitz.com/category/videos/">Videos</a>
+</li>
+	<li class="cat-item cat-item-29"><a href="https://www.davidlebovitz.com/category/whining/">Whining</a>
+</li>
+	<li class="cat-item cat-item-207"><a href="https://www.davidlebovitz.com/category/wine-ing/">Wine-ing</a>
+</li>
 			</ul>
-</div><div class="narrow">
-<style>
-@media screen and (max-width:767px) {
-.booksgrid #bg-0 {width:35.782562337492% !important;}
-.booksgrid #bg-1 {width:30.067902504723% !important;}
-.booksgrid #bg-2 {width:30.067902504723% !important;}
-.booksgrid #bg-3 {width:32.000054154335% !important;}
-.booksgrid #bg-4 {width:31.931910938504% !important;}
-.booksgrid #bg-5 {width:31.986402254099% !important;}
-}
-</style>
 
+			</div><div id="text-38" class="section widget_text">			<div class="textwidget"><script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_enable_interest_ads = "true";
+amzn_assoc_tracking_id = "davidleboviswebs";
+amzn_assoc_ad_mode = "auto";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_linkid = "f043af814a67b2ab3b1ec072a75d6251";
+amzn_assoc_emphasize_categories = "1000,16310101,284507";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US" defer></script></div>
+		</div>		</div>
+	</div>
 
-</div><div class="wp-block-media-text breaknarrow alignwide has-media-on-the-right is-stacked-on-mobile"><div class="wp-block-media-text__content"><div class="heading-social"><div class="heading-social-a">
-
-<h2 class="wp-block-heading large" id="welcome">Welcome</h2>
-
-
-<div class="socialicons"><ul id="menu-social-icons" class="menu"><li id="menu-item-51677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51677"><a target="_blank" rel="noopener" href="https://www.instagram.com/davidlebovitz"><svg class="cicon icon-instagram"><title>Instagram</title><use xlink:href="#icon-instagram"></use></svg></a></li><li id="menu-item-51678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51678"><a target="_blank" rel="noopener" href="https://www.facebook.com/pages/David-Lebovitz/105167518810"><svg class="cicon icon-facebook"><title>Facebook</title><use xlink:href="#icon-facebook"></use></svg></a></li><li id="menu-item-51679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51679"><a target="_blank" rel="noopener" href="https://www.twitter.com/davidlebovitz"><svg class="cicon icon-twitter"><title>Twitter</title><use xlink:href="#icon-twitter"></use></svg></a></li><li id="menu-item-51680" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51680"><a target="_blank" rel="noopener" href="https://www.pinterest.com/davidlebovitz/"><svg class="cicon icon-pinterest"><title>Pinterest</title><use xlink:href="#icon-pinterest"></use></svg></a></li><li id="menu-item-51681" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51681"><a target="_blank" rel="noopener" href="https://www.flickr.com/photos/davidlebovitz/"><svg class="cicon icon-flickr"><title>Flickr</title><use xlink:href="#icon-flickr"></use></svg></a></li><li id="menu-item-51682" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-51682"><a target="_blank" rel="noopener" href="https://www.bloglovin.com/blog/56361"><svg class="cicon icon-plus"><title>Bloglovin</title><use xlink:href="#icon-plus"></use></svg></a></li></ul></div>
-</div></div>
-
-
-<p>I&rsquo;m a cookbook author and pastry chef living in Paris, sharing sweet and savory recipes that are doable for home cooks, along with Paris travel tips and humorous stories about life in France.</p>
-
-
-
-<p><strong>Sign up for my newsletter and receive updates with new recipes, Paris stories, and more!</strong></p>
-
-
-<div class="btnswrap"><div class="btnswrap-a">
-<a href="https://davidlebovitz.substack.com/" target="_blank" rel="noreferrer noopener" class="wp-block-dl-button btn">Subscribe Now!</a>
-</div></div></div><figure class="wp-block-media-text__media"><img decoding="async" width="640" height="417" src="https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz-640x417.jpg" alt="" class="wp-image-51937 size-full" srcset="https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz-640x417.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz-300x196.jpg 300w, https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz-768x501.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz-150x98.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz-600x391.jpg 600w, https://www.davidlebovitz.com/wp-content/uploads/2022/01/david-lebovitz.jpg 920w" sizes="(max-width: 680px) calc(100vw - 40px), 640px"></figure></div><div class="gridheading breaknarrow">
-	<h2 class="large">Popular</h2>
-	</div><div class="imagegrid imagegrid4 breaknarrow">
-	<ul>
-		<li><div class="li-a"><a href="https://www.davidlebovitz.com/cranberry-upside-down-cake-recipe/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2015/05/Cranberry-Upside-Down-Cake-recipe-8-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2015/05/Cranberry-Upside-Down-Cake-recipe-8-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2015/05/Cranberry-Upside-Down-Cake-recipe-8-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2015/05/Cranberry-Upside-Down-Cake-recipe-8-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">Cranberry Upside Down Cake</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/panettone-french-toast-recipe/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/Panettone-French-toast-4-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">Panettone French Toast</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/galette-des-rois-kings-cake-recipe/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2014/01/galette-des-rois-recipe-1-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2014/01/galette-des-rois-recipe-1-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2014/01/galette-des-rois-recipe-1-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2014/01/galette-des-rois-recipe-1-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">Galette des rois</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/salted-butter-c/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2007/04/Salted-butter-caramel-ice-cream-recipe-5-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2007/04/Salted-butter-caramel-ice-cream-recipe-5-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2007/04/Salted-butter-caramel-ice-cream-recipe-5-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2007/04/Salted-butter-caramel-ice-cream-recipe-5-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">Salted Butter Caramel Ice Cream recipe</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/sable-bretons-french-butter-cookie-recipe/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2016/05/Sable-Breton-French-butter-cookie-recipe-10-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2016/05/Sable-Breton-French-butter-cookie-recipe-10-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2016/05/Sable-Breton-French-butter-cookie-recipe-10-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2016/05/Sable-Breton-French-butter-cookie-recipe-10-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">Sables Bretons: French salted butter cookies</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/salted-chocolate-chip-tahini-cookies-cookie-recipe/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2017/05/Salted-Chocolate-Chip-Tahini-cookie-recipe-5-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2017/05/Salted-Chocolate-Chip-Tahini-cookie-recipe-5-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2017/05/Salted-Chocolate-Chip-Tahini-cookie-recipe-5-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2017/05/Salted-Chocolate-Chip-Tahini-cookie-recipe-5-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">Salted Chocolate Chip Tahini Cookies</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/cranberry-sauce-recipe-with-red-wine-and-figs/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2013/11/Cranberry-Sauce-recipe-2-copy-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2013/11/Cranberry-Sauce-recipe-2-copy-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2013/11/Cranberry-Sauce-recipe-2-copy-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2013/11/Cranberry-Sauce-recipe-2-copy-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">Cranberry Sauce with Red Wine and Figs</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/almond-cake-recipe/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2010/06/almond-cake-recipe-5-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2010/06/almond-cake-recipe-5-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2010/06/almond-cake-recipe-5-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2010/06/almond-cake-recipe-5-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">Almond Cake</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/apple-tart-tarte-fine-aux-pommes-recipe-french-pastry-puff/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/French-apple-tart-tarte-fine-recipe-2-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/French-apple-tart-tarte-fine-recipe-2-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/French-apple-tart-tarte-fine-recipe-2-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/French-apple-tart-tarte-fine-recipe-2-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">French Apple Tart: Tarte fine aux pommes</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/the-alaska-cocktail-gin-chartreuse-drinking-french-recipe/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2020/04/Alaska-cocktail-chartreuse-yellow-drinking-recipe-french-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/04/Alaska-cocktail-chartreuse-yellow-drinking-recipe-french-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2020/04/Alaska-cocktail-chartreuse-yellow-drinking-recipe-french-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2020/04/Alaska-cocktail-chartreuse-yellow-drinking-recipe-french-1122x1496.jpg 1122w, https://www.davidlebovitz.com/wp-content/uploads/2020/04/Alaska-cocktail-chartreuse-yellow-drinking-recipe-french-840x1120.jpg 840w, https://www.davidlebovitz.com/wp-content/uploads/2020/04/Alaska-cocktail-chartreuse-yellow-drinking-recipe-french-687x916.jpg 687w, https://www.davidlebovitz.com/wp-content/uploads/2020/04/Alaska-cocktail-chartreuse-yellow-drinking-recipe-french-414x552.jpg 414w, https://www.davidlebovitz.com/wp-content/uploads/2020/04/Alaska-cocktail-chartreuse-yellow-drinking-recipe-french-354x472.jpg 354w, https://www.davidlebovitz.com/wp-content/uploads/2020/04/Alaska-cocktail-chartreuse-yellow-drinking-recipe-french-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">The Alaska Cocktail</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/caramelized-panettone-bread-pudding-recipe/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2017/12/caramelized-panettone-bread-pudding-recipe-italy-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2017/12/caramelized-panettone-bread-pudding-recipe-italy-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/caramelized-panettone-bread-pudding-recipe-italy-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2017/12/caramelized-panettone-bread-pudding-recipe-italy-460x614.jpg 460w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">Panettone Bread Pudding</div>
-</a></div></li><li><div class="li-a"><a href="https://www.davidlebovitz.com/the-best-chocol/">
-	<div class="gridimage">
-	<div class="gridimage-a">
-		<img decoding="async" width="230" height="307" src="https://www.davidlebovitz.com/wp-content/uploads/2005/12/2867527920_244c6ded85_o-230x307.jpg" class="attachment-post-thumbnail-4col size-post-thumbnail-4col wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2005/12/2867527920_244c6ded85_o-230x307.jpg 230w, https://www.davidlebovitz.com/wp-content/uploads/2005/12/2867527920_244c6ded85_o-200x267.jpg 200w, https://www.davidlebovitz.com/wp-content/uploads/2005/12/2867527920_244c6ded85_o-249x333.jpg 249w" sizes="(max-width: 270px) calc(100vw - 40px), 230px">	</div>
-	</div>
-	<div class="gridtitle">The Best Chocolate Sauce Recipe</div>
-</a></div></li>	</ul>
-</div><div class="spotlight breaknarrow">
-<div class="spotlight-a">
-	<div class="sp-text">
-	<div class="sp-col-a notop nobot">
-				<h2 class="large">Paris Favorites</h2>
-		
-		<ol>
-						<li><a href="https://www.davidlebovitz.com/tapisserie-pastry-patisserie-bakery-paris-septime/">Tapisserie</a></li>
-						<li><a href="https://www.davidlebovitz.com/la-patisserie/">La Patisserie</a></li>
-						<li><a href="https://www.davidlebovitz.com/marche-daligre-aligre-outdoor-market-paris/">The Marche d&rsquo;Aligre in Paris</a></li>
-						<li><a href="https://www.davidlebovitz.com/cookware-shops-in-paris-dehillerin-copper-mora-baking-supplies/">Cookware Shops in Paris</a></li>
-						<li><a href="https://www.davidlebovitz.com/paris-flea-markets-and-thrift-stores/">Paris Flea Markets and Thrift Stores</a></li>
-					</ol>
-
-				<div class="archive-link"><a href="https://www.davidlebovitz.com/category/paris/">See all <svg class="cicon icon-long-arrow-right" aria-hidden="true"><use xlink:href="#icon-long-arrow-right"></use></svg></a></div>
-			</div>
-	</div>
-	<div class="sp-image">
-	<div class="sp-col-a notop nobot">
-		<div class="sp-image-a">
-						<a href="https://www.davidlebovitz.com/tapisserie-pastry-patisserie-bakery-paris-septime/"><img decoding="async" width="1280" height="1855" src="https://www.davidlebovitz.com/wp-content/uploads/2021/07/Tapisserie-Patisserie-Paris-10.jpg" class="attachment-spotlight size-spotlight wp-post-image" alt="" srcset="https://www.davidlebovitz.com/wp-content/uploads/2021/07/Tapisserie-Patisserie-Paris-10.jpg 1280w, https://www.davidlebovitz.com/wp-content/uploads/2021/07/Tapisserie-Patisserie-Paris-10-207x300.jpg 207w, https://www.davidlebovitz.com/wp-content/uploads/2021/07/Tapisserie-Patisserie-Paris-10-640x928.jpg 640w, https://www.davidlebovitz.com/wp-content/uploads/2021/07/Tapisserie-Patisserie-Paris-10-768x1113.jpg 768w, https://www.davidlebovitz.com/wp-content/uploads/2021/07/Tapisserie-Patisserie-Paris-10-150x217.jpg 150w, https://www.davidlebovitz.com/wp-content/uploads/2021/07/Tapisserie-Patisserie-Paris-10-600x870.jpg 600w, https://www.davidlebovitz.com/wp-content/uploads/2021/07/Tapisserie-Patisserie-Paris-10-1060x1536.jpg 1060w" sizes="(max-width: 680px) calc(100vw - 40px), 640px"></a>
-		</div>
+	<div id="text-41" class="section widget_text">			<div class="textwidget"><!-- BLOGHER ADS Begin supplemental 300 ad -->
+<div id="blogherads-middle2"></div>
+<script type="text/javascript">
+  blogherads.adq.push(['Middle2', 'blogherads-middle2']);
+</script>
+<!-- End supplemental 300 ad --></div>
+		</div><div id="text-40" class="section widget_text">			<div class="textwidget"><!-- BLOGHER ADS Begin supplemental 300x600 ad -->
+<div id="skm-ad-middle3-2"></div>
+<script type="text/javascript">
+  blogherads.adq.push(['Middle3', 'skm-ad-middle3-2']);
+</script>
+<!-- End supplemental 300x600 ad --></div>
+		</div></div>		</div>
 	</div>
 	</div>
 </div>
-</div><div class="narrow">
-<div class="swp-content-locator"></div>		</div>
-	</div>
-	</div>
-
-	</div>
 
 	<footer>
 		<div id="ctabar">
@@ -546,7 +816,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 														
 						</div><!-- .cp-popup-content -->
 						      
-		<input type="hidden" name="param[date]" value="April 19, 2024" />
+		<input type="hidden" name="param[date]" value="April 25, 2024" />
 		<input type='text' class='cpro-hp-field' name='cpro_hp_field_48761' value=''>
 		<input type="hidden" name="action" value="cp_v2_notify_admin" />
 		<input type="hidden" name="style_id" value="48761" />
@@ -558,70 +828,69 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		<defs>
 			<symbol id="icon-search" viewBox="0 0 32 32"><path d="M31.781 29.306l-7.587-7.587c-0.144-0.144-0.331-0.219-0.531-0.219h-0.825c1.969-2.281 3.163-5.25 3.163-8.5 0-7.181-5.819-13-13-13s-13 5.819-13 13 5.819 13 13 13c3.25 0 6.219-1.194 8.5-3.163v0.825c0 0.2 0.081 0.387 0.219 0.531l7.588 7.588c0.294 0.294 0.769 0.294 1.063 0l1.413-1.413c0.294-0.294 0.294-0.769 0-1.063zM13 23c-5.525 0-10-4.475-10-10s4.475-10 10-10 10 4.475 10 10-4.475 10-10 10z"></path></symbol>
 <symbol id="icon-angle-down" viewBox="0 0 20 32"><path d="M9.469 21.738l-9.25-9.175c-0.294-0.294-0.294-0.769 0-1.063l1.238-1.238c0.294-0.294 0.769-0.294 1.062 0l7.481 7.406 7.481-7.406c0.294-0.294 0.769-0.294 1.063 0l1.238 1.238c0.294 0.294 0.294 0.769 0 1.063l-9.25 9.175c-0.294 0.294-0.769 0.294-1.063 0z"></path></symbol>
-<symbol id="icon-long-arrow-right" viewBox="0 0 28 32"><path d="M18.47 7.232l-1.227 1.227c-0.297 0.297-0.292 0.78 0.011 1.071l5.045 4.845h-21.549c-0.414 0-0.75 0.336-0.75 0.75v1.75c0 0.414 0.336 0.75 0.75 0.75h21.549l-5.045 4.845c-0.303 0.291-0.308 0.774-0.011 1.071l1.227 1.227c0.293 0.293 0.768 0.293 1.061 0l8.237-8.237c0.293-0.293 0.293-0.768 0-1.061l-8.238-8.237c-0.293-0.293-0.768-0.293-1.061 0z"></path></symbol>
-<symbol id="icon-instagram" viewBox="0 0 32 32"><path d="M22.168 31.444c2.493-0.118 4.701-0.688 6.521-2.514 1.819-1.819 2.389-4.028 2.514-6.521 0.146-2.569 0.146-10.264 0-12.833-0.118-2.493-0.687-4.701-2.514-6.521-1.819-1.819-4.028-2.389-6.521-2.514-2.569-0.146-10.271-0.146-12.84 0-2.486 0.118-4.694 0.687-6.521 2.507s-2.389 4.028-2.514 6.521c-0.146 2.569-0.146 10.271 0 12.84 0.118 2.493 0.688 4.701 2.514 6.521s4.028 2.389 6.521 2.514c2.569 0.146 10.271 0.146 12.84 0zM15.751 28.75c-2.264 0-7.132 0.181-9.174-0.625-1.361-0.542-2.41-1.59-2.958-2.958-0.813-2.049-0.625-6.91-0.625-9.174s-0.181-7.132 0.625-9.174c0.542-1.361 1.59-2.41 2.958-2.958 2.049-0.813 6.91-0.625 9.174-0.625s7.132-0.181 9.174 0.625c1.361 0.542 2.41 1.59 2.958 2.958 0.813 2.049 0.625 6.91 0.625 9.174s0.188 7.132-0.625 9.174c-0.542 1.361-1.59 2.41-2.958 2.958-2.049 0.813-6.91 0.625-9.174 0.625zM24.056 9.549c1.028 0 1.861-0.826 1.861-1.861 0-1.028-0.833-1.861-1.861-1.861s-1.861 0.833-1.861 1.861c0 1.028 0.826 1.861 1.861 1.861zM15.751 23.972c4.417 0 7.979-3.563 7.979-7.979s-3.563-7.979-7.979-7.979c-4.417 0-7.979 3.563-7.979 7.979s3.563 7.979 7.979 7.979zM15.751 21.181c-2.854 0-5.187-2.326-5.187-5.187s2.326-5.188 5.187-5.188c2.861 0 5.188 2.326 5.188 5.188s-2.333 5.187-5.188 5.187z"></path></symbol>
-<symbol id="icon-facebook" viewBox="0 0 18 32"><path d="M11.348 32v-14h4.668l0.889-5.791h-5.557v-3.758c0-1.584 0.776-3.129 3.265-3.129h2.526v-4.931c0 0-2.293-0.391-4.484-0.391-4.576 0-7.567 2.774-7.567 7.795v4.414h-5.087v5.791h5.087v14h6.261z"></path></symbol>
-<symbol id="icon-twitter" viewBox="0 0 37 32"><path d="M12.268 30.439c13.401 0 20.733-11.1 20.733-20.733 0-0.316 0-0.632-0.023-0.948 1.421-1.038 2.662-2.324 3.655-3.768-1.308 0.564-2.73 0.97-4.196 1.128 1.511-0.902 2.662-2.324 3.204-4.016-1.399 0.835-2.978 1.444-4.625 1.76-1.331-1.421-3.226-2.301-5.324-2.301-4.038 0-7.287 3.271-7.287 7.287 0 0.564 0.068 1.128 0.18 1.669-6.046-0.316-11.438-3.204-15.025-7.625-0.632 1.083-0.993 2.324-0.993 3.677 0 2.527 1.286 4.76 3.249 6.069-1.196-0.045-2.324-0.383-3.294-0.925v0.090c0 3.542 2.504 6.475 5.843 7.152-0.609 0.158-1.263 0.248-1.918 0.248-0.474 0-0.925-0.045-1.376-0.113 0.925 2.888 3.61 4.986 6.813 5.054-2.504 1.963-5.64 3.113-9.047 3.113-0.609 0-1.173-0.023-1.76-0.090 3.226 2.075 7.061 3.271 11.19 3.271z"></path></symbol>
-<symbol id="icon-pinterest" viewBox="0 0 26 32"><path d="M5.757 31.512c3.15-4.313 3.037-5.156 4.462-10.8 0.769 1.462 2.756 2.25 4.331 2.25 6.637 0 9.619-6.469 9.619-12.3 0-6.206-5.363-10.256-11.25-10.256-6.412 0-12.75 4.275-12.75 11.194 0 4.4 2.475 6.9 3.975 6.9 0.619 0 0.975-1.725 0.975-2.213 0-0.581-1.481-1.819-1.481-4.238 0-5.025 3.825-8.587 8.775-8.587 4.256 0 7.406 2.419 7.406 6.863 0 3.319-1.331 9.544-5.644 9.544-1.556 0-2.887-1.125-2.887-2.738 0-2.363 1.65-4.65 1.65-7.087 0-4.138-5.869-3.388-5.869 1.613 0 1.050 0.131 2.213 0.6 3.169-0.862 3.712-2.625 9.244-2.625 13.069 0 1.181 0.169 2.344 0.281 3.525 0.213 0.238 0.106 0.212 0.431 0.094z"></path></symbol>
-<symbol id="icon-flickr" viewBox="0 0 28 32"><path d="M25 2h-22c-1.656 0-3 1.344-3 3v22c0 1.656 1.344 3 3 3h22c1.656 0 3-1.344 3-3v-22c0-1.656-1.344-3-3-3zM9.031 19.938c-2.194 0-3.969-1.775-3.969-3.969s1.775-3.969 3.969-3.969 3.969 1.775 3.969 3.969-1.775 3.969-3.969 3.969zM18.969 19.938c-2.194 0-3.969-1.775-3.969-3.969s1.775-3.969 3.969-3.969 3.969 1.775 3.969 3.969-1.775 3.969-3.969 3.969z"></path></symbol>
-<symbol id="icon-plus" viewBox="0 0 24 32"><path d="M23 14h-9v-9c0-0.553-0.447-1-1-1h-2c-0.553 0-1 0.447-1 1v9h-9c-0.552 0-1 0.447-1 1v2c0 0.552 0.448 1 1 1h9v9c0 0.552 0.447 1 1 1h2c0.553 0 1-0.448 1-1v-9h9c0.552 0 1-0.448 1-1v-2c0-0.553-0.448-1-1-1z"></path></symbol>
 		</defs>
 		</svg>
 			<div style="display:none;">
 					<div id="buy-popup-44390" class="buy-popup">
 				<ul>
-										<li><a href="https://amzn.to/2mZvqfp"><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></a></li>
-										<li><a href="https://www.barnesandnoble.com/w/drinking-french-david-lebovitz/1132292019"><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></a></li>
-										<li><a href="https://bookshop.org/a/3662/9781607749295"><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></a></li>
+										<li><a href="https://amzn.to/2mZvqfp"><img width="137" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20137%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:137px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" /><noscript><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></noscript></a></li>
+										<li><a href="https://www.barnesandnoble.com/w/drinking-french-david-lebovitz/1132292019"><img width="120" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:120px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" /><noscript><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></noscript></a></li>
+										<li><a href="https://bookshop.org/a/3662/9781607749295"><img width="240" height="56" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20240%2056'%3E%3C/svg%3E" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" data-lazy-sizes="(max-width: 280px) calc(100vw - 40px), 240px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" /><noscript><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></noscript></a></li>
 									</ul>
 			</div>
 					<div id="buy-popup-28016" class="buy-popup">
 				<ul>
-										<li><a href="https://amzn.to/2JnCBVm"><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></a></li>
-										<li><a href="https://www.barnesandnoble.com/w/lappart-david-lebovitz/1125764375?ean=9780804188401#/"><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></a></li>
-										<li><a href="https://bookshop.org/a/3662/9780804188401"><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></a></li>
+										<li><a href="https://amzn.to/2JnCBVm"><img width="137" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20137%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:137px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" /><noscript><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></noscript></a></li>
+										<li><a href="https://www.barnesandnoble.com/w/lappart-david-lebovitz/1125764375?ean=9780804188401#/"><img width="120" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:120px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" /><noscript><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></noscript></a></li>
+										<li><a href="https://bookshop.org/a/3662/9780804188401"><img width="240" height="56" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20240%2056'%3E%3C/svg%3E" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" data-lazy-sizes="(max-width: 280px) calc(100vw - 40px), 240px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" /><noscript><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></noscript></a></li>
 									</ul>
 			</div>
 					<div id="buy-popup-17536" class="buy-popup">
 				<ul>
-										<li><a href="http://www.amazon.com/exec/obidos/asin/1607742675/davidleboviswebs"><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></a></li>
-										<li><a href="http://www.barnesandnoble.com/w/my-paris-kitchen-david-lebovitz/1116056010?ean=9781607742678"><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></a></li>
-										<li><a href="https://bookshop.org/books/my-paris-kitchen-recipes-and-stories/9781607742678"><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></a></li>
+										<li><a href="http://www.amazon.com/exec/obidos/asin/1607742675/davidleboviswebs"><img width="137" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20137%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:137px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" /><noscript><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></noscript></a></li>
+										<li><a href="http://www.barnesandnoble.com/w/my-paris-kitchen-david-lebovitz/1116056010?ean=9781607742678"><img width="120" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:120px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" /><noscript><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></noscript></a></li>
+										<li><a href="https://bookshop.org/books/my-paris-kitchen-recipes-and-stories/9781607742678"><img width="240" height="56" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20240%2056'%3E%3C/svg%3E" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" data-lazy-sizes="(max-width: 280px) calc(100vw - 40px), 240px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" /><noscript><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></noscript></a></li>
 									</ul>
 			</div>
 					<div id="buy-popup-17543" class="buy-popup">
 				<ul>
-										<li><a href="https://amzn.to/2ujH3Rw"><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></a></li>
-										<li><a href="https://www.barnesandnoble.com/w/the-perfect-scoop-revised-and-updated-david-lebovitz/1126683499"><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></a></li>
-										<li><a href="https://bookshop.org/a/3662/9780399580314"><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></a></li>
+										<li><a href="https://amzn.to/2ujH3Rw"><img width="137" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20137%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:137px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" /><noscript><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></noscript></a></li>
+										<li><a href="https://www.barnesandnoble.com/w/the-perfect-scoop-revised-and-updated-david-lebovitz/1126683499"><img width="120" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:120px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" /><noscript><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></noscript></a></li>
+										<li><a href="https://bookshop.org/a/3662/9780399580314"><img width="240" height="56" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20240%2056'%3E%3C/svg%3E" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" data-lazy-sizes="(max-width: 280px) calc(100vw - 40px), 240px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" /><noscript><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></noscript></a></li>
 									</ul>
 			</div>
 					<div id="buy-popup-17539" class="buy-popup">
 				<ul>
-										<li><a href="http://www.amazon.com/exec/obidos/asin/1607743655/davidleboviswebs"><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></a></li>
-										<li><a href="http://www.barnesandnoble.com/w/ready-for-dessert-david-lebovitz/1100404337?ean=9781607743651"><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></a></li>
-										<li><a href="https://bookshop.org/a/3662/9781607743651"><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></a></li>
+										<li><a href="http://www.amazon.com/exec/obidos/asin/1607743655/davidleboviswebs"><img width="137" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20137%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:137px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" /><noscript><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></noscript></a></li>
+										<li><a href="http://www.barnesandnoble.com/w/ready-for-dessert-david-lebovitz/1100404337?ean=9781607743651"><img width="120" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20120%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:120px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" /><noscript><img width="120" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/barnes-noble.png" class="attachment-full size-full" alt="" style="width:120px" decoding="async" /></noscript></a></li>
+										<li><a href="https://bookshop.org/a/3662/9781607743651"><img width="240" height="56" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20240%2056'%3E%3C/svg%3E" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" data-lazy-sizes="(max-width: 280px) calc(100vw - 40px), 240px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" /><noscript><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></noscript></a></li>
+									</ul>
+			</div>
+					<div id="buy-popup-17547" class="buy-popup">
+				<ul>
+										<li><a href="http://www.amazon.com/exec/obidos/ASIN/1580084958/davidleboviswebs"><img width="137" height="28" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20137%2028'%3E%3C/svg%3E" class="attachment-full size-full" alt="" style="width:137px" decoding="async" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" /><noscript><img width="137" height="28" src="https://www.davidlebovitz.com/wp-content/uploads/2010/07/amazon.png" class="attachment-full size-full" alt="" style="width:137px" decoding="async" /></noscript></a></li>
+										<li><a href="The Great Book of Chocolate https://bookshop.org/a/3662/9781580084956"><img width="240" height="56" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20240%2056'%3E%3C/svg%3E" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" data-lazy-srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" data-lazy-sizes="(max-width: 280px) calc(100vw - 40px), 240px" data-lazy-src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" /><noscript><img width="240" height="56" src="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png" class="attachment-full size-full" alt="Bookshop" style="width:120px" decoding="async" srcset="https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop.png 240w, https://www.davidlebovitz.com/wp-content/uploads/2020/11/bookshop-150x35.png 150w" sizes="(max-width: 280px) calc(100vw - 40px), 240px" /></noscript></a></li>
 									</ul>
 			</div>
 			</div>
-	<link rel='stylesheet' id='cp-google-fonts-48761-css' href='//fonts.googleapis.com/css?family=Libre+Baskerville%3A700%2CInherit%2C%7CLato%3A700%2C%7CKaushan+Script%3ANormal%2C&#038;ver=1.7.7' type='text/css' media='all' />
+	
 <script type="text/javascript" id="social_warfare_script-js-extra">
 /* <![CDATA[ */
-var socialWarfare = {"addons":["pro"],"post_id":"51749","variables":{"emphasizeIcons":"0","powered_by_toggle":false,"affiliate_link":"https:\/\/warfareplugins.com"},"floatBeforeContent":""};
+var socialWarfare = {"addons":["pro"],"post_id":"116","variables":{"emphasizeIcons":"0","powered_by_toggle":false,"affiliate_link":"https:\/\/warfareplugins.com"},"floatBeforeContent":""};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/plugins/social-warfare/assets/js/script.min.js?ver=4.4.6.1" id="social_warfare_script-js"></script>
-<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/jquery.my-menu-aim-2.1.min.js?ver=2.10" id="menu-aim-js"></script>
-<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/jscript.js?ver=1642545356" id="dl-jscript-js"></script>
+<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/plugins/social-warfare/assets/js/script.min.js?ver=4.4.6.1" id="social_warfare_script-js" defer></script>
+<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/themes/davidlebovitz/jquery.my-menu-aim-2.1.min.js?ver=2.10" id="menu-aim-js" defer></script>
+<script data-minify="1" type="text/javascript" src="https://www.davidlebovitz.com/wp-content/cache/min/1/wp-content/themes/davidlebovitz/jscript.js?ver=1711578735" id="dl-jscript-js" defer></script>
 <script type="text/javascript" id="q2w3_fixed_widget-js-extra">
 /* <![CDATA[ */
 var q2w3_sidebar_options = [{"sidebar":"sidebar-4","use_sticky_position":false,"margin_top":0,"margin_bottom":0,"stop_elements_selectors":"","screen_max_width":0,"screen_max_height":0,"widgets":["#text-40"]}];
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/plugins/q2w3-fixed-widget/js/frontend.min.js?ver=6.2.3" id="q2w3_fixed_widget-js"></script>
+<script type="text/javascript" src="https://www.davidlebovitz.com/wp-content/plugins/q2w3-fixed-widget/js/frontend.min.js?ver=6.2.3" id="q2w3_fixed_widget-js" defer></script>
 <script type="text/javascript" id="cp-popup-script-js-extra">
 /* <![CDATA[ */
-var cp_ajax = {"url":"https:\/\/www.davidlebovitz.com\/wp-admin\/admin-ajax.php","ajax_nonce":"2f139c2350","assets_url":"https:\/\/www.davidlebovitz.com\/wp-content\/plugins\/convertpro\/assets\/","not_connected_to_mailer":"This form is not connected with any mailer service! Please contact web administrator.","timer_labels":"Years,Months,Weeks,Days,Hours,Minutes,Seconds","timer_labels_singular":"Year,Month,Week,Day,Hour,Minute,Second","image_on_ready":"","cpro_mx_valid":"0","invalid_email_id":"Invalid Email Address!"};
+var cp_ajax = {"url":"https:\/\/www.davidlebovitz.com\/wp-admin\/admin-ajax.php","ajax_nonce":"082efcab90","assets_url":"https:\/\/www.davidlebovitz.com\/wp-content\/plugins\/convertpro\/assets\/","not_connected_to_mailer":"This form is not connected with any mailer service! Please contact web administrator.","timer_labels":"Years,Months,Weeks,Days,Hours,Minutes,Seconds","timer_labels_singular":"Year,Month,Week,Day,Hour,Minute,Second","image_on_ready":"","cpro_mx_valid":"0","invalid_email_id":"Invalid Email Address!"};
 var cp_pro = {"inactive_time":"60"};
 var cp_pro_url_cookie = {"days":"30"};
 var cp_v2_ab_tests = {"cp_v2_ab_tests_object":[]};
@@ -629,7 +898,7 @@ var cp_v2_ab_tests = {"cp_v2_ab_tests_object":[]};
 </script>
 <script type="text/javascript" defer="defer" src="https://www.davidlebovitz.com/wp-content/plugins/convertpro/assets/modules/js/cp-popup.min.js?ver=1.7.7" id="cp-popup-script-js"></script>
 	
-			<script type="text/javascript">
+			<script type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
 
 				jQuery(document).on( "cp_after_form_submit", function( e, element, response
 					, style_slug ) {
@@ -650,8 +919,8 @@ var cp_v2_ab_tests = {"cp_v2_ab_tests_object":[]};
 				});
 
 
-			</script>
-				<script type="text/javascript"> var swp_nonce = "b2aae4ea4f";function parentIsEvil() { var html = null; try { var doc = top.location.pathname; } catch(err){ }; if(typeof doc === "undefined") { return true } else { return false }; }; if (parentIsEvil()) { top.location = self.location.href; };var url = "https://www.davidlebovitz.com/";if(url.indexOf("stfi.re") != -1) { var canonical = ""; var links = document.getElementsByTagName("link"); for (var i = 0; i < links.length; i ++) { if (links[i].getAttribute("rel") === "canonical") { canonical = links[i].getAttribute("href")}}; canonical = canonical.replace("?sfr=1", "");top.location = canonical; console.log(canonical);};var swpFloatBeforeContent = false; var swp_ajax_url = "https://www.davidlebovitz.com/wp-admin/admin-ajax.php"; var swp_post_id = "51749";var swpClickTracking = false; swpPinIt={"enabled":false};</script><script>
+			});</script>
+				<script type="text/javascript"> var swp_nonce = "4dd67106c9";function parentIsEvil() { var html = null; try { var doc = top.location.pathname; } catch(err){ }; if(typeof doc === "undefined") { return true } else { return false }; }; if (parentIsEvil()) { top.location = self.location.href; };var url = "https://www.davidlebovitz.com/an-american-mac-1/";if(url.indexOf("stfi.re") != -1) { var canonical = ""; var links = document.getElementsByTagName("link"); for (var i = 0; i < links.length; i ++) { if (links[i].getAttribute("rel") === "canonical") { canonical = links[i].getAttribute("href")}}; canonical = canonical.replace("?sfr=1", "");top.location = canonical; console.log(canonical);};var swpFloatBeforeContent = false; var swp_ajax_url = "https://www.davidlebovitz.com/wp-admin/admin-ajax.php";var swpClickTracking = false; swpPinIt={"enabled":false};</script><script>
 function b2a(a){var b,c=0,l=0,f="",g=[];if(!a)return a;do{var e=a.charCodeAt(c++);var h=a.charCodeAt(c++);var k=a.charCodeAt(c++);var d=e<<16|h<<8|k;e=63&d>>18;h=63&d>>12;k=63&d>>6;d&=63;g[l++]="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(e)+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(h)+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(k)+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=".charAt(d)}while(c<
 a.length);return f=g.join(""),b=a.length%3,(b?f.slice(0,b-3):f)+"===".slice(b||3)}function a2b(a){var b,c,l,f={},g=0,e=0,h="",k=String.fromCharCode,d=a.length;for(b=0;64>b;b++)f["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".charAt(b)]=b;for(c=0;d>c;c++)for(b=f[a.charAt(c)],g=(g<<6)+b,e+=6;8<=e;)((l=255&g>>>(e-=8))||d-2>c)&&(h+=k(l));return h}b64e=function(a){return btoa(encodeURIComponent(a).replace(/%([0-9A-F]{2})/g,function(b,a){return String.fromCharCode("0x"+a)}))};
 b64d=function(a){return decodeURIComponent(atob(a).split("").map(function(a){return"%"+("00"+a.charCodeAt(0).toString(16)).slice(-2)}).join(""))};
@@ -753,6 +1022,10 @@ e[p].split("="),C=void 0,x=z[0].replace(/\[\d*\]/,function(L){C=L.slice(1,-1);re
 
 ai_js_code = true;
 </script>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v55bfa2fee65d44688e90c00735ed189a1713218998793" integrity="sha512-FIKRFRxgD20moAo96hkZQy/5QojZDAbyx0mQ17jEGHCJc/vi0G2HXLtofwD7Q3NmivvP9at5EVgbRqOaOQb+Rg==" data-cf-beacon='{"rayId":"877006b96bc39014","version":"2024.3.0","token":"e94a53d306d84a1da1436edf74dfcc6c"}' crossorigin="anonymous"></script>
-</body>
+<script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
+if(typeof mutation.addedNodes[i].getElementsByClassName!=='function'){continue}
+images=mutation.addedNodes[i].getElementsByTagName('img');is_image=mutation.addedNodes[i].tagName=="IMG";iframes=mutation.addedNodes[i].getElementsByTagName('iframe');is_iframe=mutation.addedNodes[i].tagName=="IFRAME";rocket_lazy=mutation.addedNodes[i].getElementsByClassName('rocket-lazyload');image_count+=images.length;iframe_count+=iframes.length;rocketlazy_count+=rocket_lazy.length;if(is_image){image_count+=1}
+if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_count>0){lazyLoadInstance.update()}});var b=document.getElementsByTagName("body")[0];var config={childList:!0,subtree:!0};observer.observe(b,config)}},!1)</script><script data-no-minify="1" async src="https://www.davidlebovitz.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.8.3/lazyload.min.js"></script></body>
 </html>
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

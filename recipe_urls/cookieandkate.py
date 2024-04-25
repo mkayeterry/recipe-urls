@@ -8,6 +8,7 @@ class CookieAndKateScraper(AbstractScraper):
         re.compile(pattern)
         for pattern in [
             "recipes",
+            "#"
         ]
     ]
 

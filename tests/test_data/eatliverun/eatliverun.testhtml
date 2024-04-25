@@ -88,8 +88,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#source=googleanalytics-wordpress#product=ga&amp;property=58a69a1e13d0b400116d057e" id="googleanalytics-platform-sharethis-js"></script>
 <link rel="https://api.w.org/" href="https://www.eatliverun.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.eatliverun.com/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.5.2" />
-<style type="text/css">.eafl-disclaimer-small { font-size: 0.8em; }
-.eafl-disclaimer-smaller { font-size: 0.6em; }</style>    <style type="text/css">
+<style type="text/css">.eafl-disclaimer-small{font-size:.8em}.eafl-disclaimer-smaller{font-size:.6em}</style>    <style type="text/css">
 	
 																																		
     </style>
@@ -310,7 +309,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 		}
 	}
 })();
-</script><!-- Mailchimp for WordPress v4.9.11 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-53961" method="post" data-id="53961" data-name="Newsletter" ><div class="mc4wp-form-fields"><div class="subscribe-box">
+</script><!-- Mailchimp for WordPress v4.9.12 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-53961" method="post" data-id="53961" data-name="Newsletter" ><div class="mc4wp-form-fields"><div class="subscribe-box">
  
     <div class="subscribe-text">
       <h4>Never Miss a Recipe!</h4>
@@ -320,7 +319,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
       <input type="email" name="EMAIL" placeholder="Your email address" required />
       <input type="submit" value="Subscribe" />
     </div>
-</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1713560587" /><input type="hidden" name="_mc4wp_form_id" value="53961" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>		</div>
+</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1714070593" /><input type="hidden" name="_mc4wp_form_id" value="53961" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>		</div>
 	</div>
 		
 	<div class="container">
@@ -1142,7 +1141,7 @@ On this site, you'll find a collection of my favorite recipes and stories. I'm a
 		}
 	}
 })();
-</script><!-- Mailchimp for WordPress v4.9.11 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-53961" method="post" data-id="53961" data-name="Newsletter" ><div class="mc4wp-form-fields"><div class="subscribe-box">
+</script><!-- Mailchimp for WordPress v4.9.12 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-53961" method="post" data-id="53961" data-name="Newsletter" ><div class="mc4wp-form-fields"><div class="subscribe-box">
  
     <div class="subscribe-text">
       <h4>Never Miss a Recipe!</h4>
@@ -1152,7 +1151,7 @@ On this site, you'll find a collection of my favorite recipes and stories. I'm a
       <input type="email" name="EMAIL" placeholder="Your email address" required />
       <input type="submit" value="Subscribe" />
     </div>
-</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1713560587" /><input type="hidden" name="_mc4wp_form_id" value="53961" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>	
+</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1714070593" /><input type="hidden" name="_mc4wp_form_id" value="53961" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>	
 </aside>			
 			<!-- END CONTENT -->
 			</div>
@@ -1207,17 +1206,17 @@ var wpcf7 = {"api":{"root":"https:\/\/www.eatliverun.com\/wp-json\/","namespace"
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.3" id="contact-form-7-js"></script>
 <script type="text/javascript" id="eafl-public-js-extra">
 /* <![CDATA[ */
-var eafl_public = {"home_url":"https:\/\/www.eatliverun.com\/","ajax_url":"https:\/\/www.eatliverun.com\/wp-admin\/admin-ajax.php","nonce":"d8345dede7"};
+var eafl_public = {"home_url":"https:\/\/www.eatliverun.com\/","ajax_url":"https:\/\/www.eatliverun.com\/wp-admin\/admin-ajax.php","nonce":"a7d8b4eee8"};
 /* ]]> */
 </script>
-<script type="text/javascript" src="https://s6655.pcdn.co/wp-content/plugins/easy-affiliate-links/dist/public.js?ver=3.7.2" id="eafl-public-js"></script>
+<script type="text/javascript" src="https://s6655.pcdn.co/wp-content/plugins/easy-affiliate-links/dist/public.js?ver=3.7.3" id="eafl-public-js"></script>
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/jquery.sticky.js?ver=6.5.2" id="sticky-js"></script>
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/jquery.bxslider.min.js?ver=6.5.2" id="bxslider-js"></script>
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/jquery.slicknav.min.js?ver=6.5.2" id="slicknav-js"></script>
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/jQuery.print.js?ver=6.5.2" id="print-js"></script>
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/fitvids.js?ver=6.5.2" id="fitvids-js"></script>
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/solopine.js?ver=6.5.2" id="sprout_spoon_scripts-js"></script>
-<script type="text/javascript" defer src="https://s6655.pcdn.co/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.11" id="mc4wp-forms-api-js"></script>
+<script type="text/javascript" defer src="https://s6655.pcdn.co/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.12" id="mc4wp-forms-api-js"></script>
 <script>!function(){"use strict";!function(e){if(-1===e.cookie.indexOf("__adblocker")){e.cookie="__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";var t=new XMLHttpRequest;t.open("GET","https://ads.adthrive.com/abd/abd.js",!0),t.onreadystatechange=function(){if(XMLHttpRequest.DONE===t.readyState)if(200===t.status){var a=e.createElement("script");a.innerHTML=t.responseText,e.getElementsByTagName("head")[0].appendChild(a)}else{var n=new Date;n.setTime(n.getTime()+3e5),e.cookie="__adblocker=true; expires="+n.toUTCString()+"; path=/"}},t.send()}}(document)}();
 </script><script>!function(){"use strict";var e;e=document,function(){var t,n;function r(){var t=e.createElement("script");t.src="https://cafemedia-com.videoplayerhub.com/galleryplayer.js",e.head.appendChild(t)}function a(){var t=e.cookie.match("(^|[^;]+)\\s*__adblocker\\s*=\\s*([^;]+)");return t&&t.pop()}function c(){clearInterval(n)}return{init:function(){var e;"true"===(t=a())?r():(e=0,n=setInterval((function(){100!==e&&"false"!==t||c(),"true"===t&&(r(),c()),t=a(),e++}),50))}}}().init()}();
 </script>	

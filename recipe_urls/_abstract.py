@@ -2,6 +2,7 @@ from typing import List, Optional
 import requests
 from requests.exceptions import HTTPError, RequestException
 from bs4 import BeautifulSoup
+from urllib.parse import urlparse
 
 
 class AbstractScraper:
@@ -62,7 +63,7 @@ class AbstractScraper:
 
     def filter_links(self, href_links: List[str]) -> List[str]:
         
-        unique_links = {link for link in href_links if self.is_recipe_link(link)}
+        unique_links = {self.cancat_base_url(link) for link in href_links if self.is_recipe_link(link)}
         return list(unique_links)
 
 
@@ -72,3 +73,14 @@ class AbstractScraper:
             return not any(pattern.search(link) for pattern in self.UNWANTED_PATTERNS)
 
         return False
+        
+
+    def cancat_base_url(self, link: str) -> str:
+
+        parsed_url = urlparse(self.base_url).scheme + '://' + urlparse(self.base_url).netloc
+
+        if parsed_url in link:
+            return link
+
+        else:
+            return parsed_url + link

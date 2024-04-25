@@ -400,87 +400,87 @@ if (window.top.location != window.location) {   window.top.location.replace(wind
 
             <div class="row-page row">
                 <div class="col-page col-sm-8 col-md-6">
-                    <a href="https://www.cdkitchen.com/recipes/ideas/chocolate-chip-cookies/" class="black bg-blox">
+                    <a href="https://www.cdkitchen.com/recipes/ideas/pudding-cakes/" class="black bg-blox">
                         <div class="img-blox-main">
-                            <img loading="lazy" class="" src="https://cdn.cdkitchen.com/recipes/images/2017/08/16921-7446-mx.jpg" alt="Chocolate Chip Cookies" data-pin-nopin="true" importance="low">
+                            <img loading="lazy" class="" src="https://cdn.cdkitchen.com/recipes/images/2016/07/4658-6735-mx.jpg" alt="Pudding In The Mix Cakes" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox-main">
-                            <h3>CHOCOLATE CHIP COOKIES</h3>
-                            <p>Ranking #1 in nearly every "favorite cookie" poll, the <span class="inlink">chocolate chip cookie</span> is pretty much the go-to cookie of choice for both kids and grownups alike. </p>
+                            <h3>PUDDING IN THE MIX CAKES</h3>
+                            <p>What's the secret ingredient in these cakes? <span class="inlink">Pudding mix</span>. It not only adds flavor but it gives the cake a richer, creamier texture. No one will know your secret ingredient!</p>
                         </div>
                         <div class="mask-link">
-                            <span>America's Favorite Cookie</span>
+                            <span>Time To Bake!</span>
                         </div>
                     </a>
                 </div>
                 <div class="col-page col-sm-4 col-md-3">
-                    <a href="/recipes/articles/view/578/1/National-Pretzel-Day.html" class="bg-blox">
+                    <a href="/recipes/dish/soups-and-stews/pork-stew/" class="bg-blox">
                         <div class="img-blox">
-                            <img loading="lazy" class="img-responsive" src="/images/articles/578.jpg" alt="National Pretzel Day" data-pin-nopin="true" importance="low">
+                            <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/images/cats/352/cat-352-300-1.jpg" alt="pork stew Recipes" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                            <h3>NATIONAL PRETZEL DAY</h3>
-                            <p>Celebrate National Pretzel Day on April 26th!</p>
+                            <h3>PORK STEW RECIPES</h3>
+                            <p>Green chile stew is our most popular pork stew but we have more like pozole, pork and vegetables, curried pork, and more.</p>
                         </div>
                         <div class="mask-link">
-                            <span>See This Food Holiday</span>
+                            <span>View Pork Stew Recipes</span>
                         </div>
                     </a>
                 </div>
                 <div class="col-page col-sm-4 col-md-3">
-                    <a href="https://www.cdkitchen.com/recipes/ideas/copycat-spinach-dip/" class="bg-blox">
+                    <a href="/recipes/ingredient/pork/pork-chops/" class="bg-blox">
                         <div class="img-blox">
-                           <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2013/05/9747-2894-s300.jpg" alt="Copycat Spinach Dips" data-pin-nopin="true" importance="low">
+                           <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/images/cats/373/cat-373-300-1.jpg" alt="pork chop Recipes" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                            <h3>COPYCAT SPINACH DIPS</h3>
-                            <p>Love the <span class="inlink">spinach dip</span> at restaurants like TGIFriday's and the Olive Garden? Make it at home with these easy-to-follow copycat recipes.</p>
+                            <h3>PORK CHOP RECIPES</h3>
+                            <p>Thick cut, thin sliced, or boneless - we have hundreds of tasty recipes to make pork chops</p>
                         </div>
                         <div class="mask-link">
-                            <span>Get Dipping!</span>
+                            <span>View Pork Chop Recipes</span>
                         </div>
                     </a>
                 </div>
                 <div class="col-page col-sm-4 col-md-3">
-                    <a href="/recipes/articles/view/579/1/National-Prime-Rib-Day.html" class="bg-blox">
+                    <a href="https://www.cdkitchen.com/recipes/ideas/frozen-spinach/" class="bg-blox">
                         <div class="img-blox">
-                             <img loading="lazy" class="img-responsive" src="/images/articles/579.jpg" alt="National Prime Rib Day" data-pin-nopin="true" importance="low">
+                             <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2018/01/7983-8053-s300.jpg" alt="13 Ways To Use Frozen Spinach (and love it!)" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                                <h3>NATIONAL PRIME RIB DAY</h3>
-                            <p>Celebrate National Prime Rib Day on April 27th!</p>
+                                <h3>13 WAYS TO USE FROZEN SPINACH (AND LOVE IT!)</h3>
+                            <p>It may look like a sad little package shoved in the back of your freezer, but <span class="inlink">frozen spinach</span> actually has a lot of culinary uses (and some may surprise you).</p>
                         </div>
                         <div class="mask-link">
-                            <span>See This Food Holiday</span>
+                            <span>Thaw Your Views On Spinach</span>
                         </div>
                     </a>
                 </div>
                 <div class="hidden-sm col-page col-sm-4 col-md-3">
-             <a href="/cooking-tips/make-best-cookies-ever.html" class="bg-blox">
+             <a href="https://www.cdkitchen.com/recipes/ideas/red-velvet/" class="bg-blox">
                         <div class="img-blox">
-                             <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/tips/3512/best-cookies-ever-720.jpg" alt="How To Make The Best Cookies, EVER!" data-pin-nopin="true" importance="low">
+                             <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2016/04/62552-5488-s300.jpg" alt="Everything Red Velvet" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                                     <h3>HOW TO MAKE THE BEST COOKIES, EVER!</h3>
-                            <p>Our handy cookie baking guide helps make sure your cookies turn out perfectly, every time. Tips, hints, and baking secrets included.</p>
+                                     <h3>EVERYTHING RED VELVET</h3>
+                            <p>Delicious recipes for <span class="inlink">red velvet</span> cakes, cupcakes, and cheesecakes.</p>
                         </div>
                         <div class="mask-link">
-                                        <span>Read More: How To Make The Best Cookies, EVER!</span>
+                                        <span>Rich, Red Velvet</span>
                         </div>
                     </a>
                 </div>
                 <div class="hidden-sm col-page col-sm-4 col-md-3">
-                    <a href="https://www.cdkitchen.com/recipes/ideas/sweetened-condensed-milk/" class="bg-blox">
+                    <a href="/cooking-tips/marshmallows.html" class="bg-blox">
                         <div class="img-blox">
-                           <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2016/04/10013-5793-s300.jpg" alt="Sweet! 15 ways to use sweetened condensed milk" data-pin-nopin="true" importance="low">
+                           <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/tips/94/marshmallows.jpg" alt="Marshmallows" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                             <h3>SWEET! 15 WAYS TO USE SWEETENED CONDENSED MILK</h3>
-                            <p>Not to be confused with evaporated milk, <span class="inlink">sweetened condensed milk</span> is very sweet (and very sticky) and used primarily in desserts. </p>
+                             <h3>MARSHMALLOWS</h3>
+                            <p>Famous for being roasted over a campfire or floating in hot cocoa, there are more uses for these sweet treats than you may realize.</p>
 
                         </div>
                         <div class="mask-link">
-                               <span>Sweet Stuff!</span>
+                               <span>Read More: Marshmallows</span>
                         </div>
                     </a>
                 </div>
@@ -500,72 +500,72 @@ if (window.top.location != window.location) {   window.top.location.replace(wind
 
             <div class="row-page row">
                 <div class="col-page col-sm-8 col-md-9">
-                    <a href="/recipes/ingredient/pork/pork-steak/" class="black bg-blox">
+                    <a href="https://www.cdkitchen.com/recipes/ideas/cooking-with-beer/" class="black bg-blox">
                         <div class="img-blox-main">
-                            <img loading="lazy" class="" src="https://cdn.cdkitchen.com/images/cats/1048/cat-1048-300-1.jpg" alt="pork steak Recipes" data-pin-nopin="true" importance="low">
+                            <img loading="lazy" class="" src="https://cdn.cdkitchen.com/recipes/images/2016/02/17439-4275-mx.jpg" alt="Cooking With Beer" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox-main">
-                            <h3>PORK STEAK RECIPES</h3>
-                            <p>What's larger than a pork chop but just as tasty and versatile? Why, it's the often overlooked pork steak of course!</p>
+                            <h3>COOKING WITH BEER</h3>
+                            <p><span class="inlink">Beer</span> makes batters better, meat more tender, and sauces more flavorful. </p>
                         </div>
                         <div class="mask-link">
-                            <span>View Pork Steak Recipes</span>
+                            <span>Beer Will Make It Better!</span>
                         </div>
                     </a>
                 </div>
                 <div class="col-page col-sm-4 col-md-3">
-                    <a href="https://www.cdkitchen.com/recipes/ideas/onion-soup-mix/" class="bg-blox">
+                    <a href="https://www.cdkitchen.com/recipes/ideas/chicken-leftovers/" class="bg-blox">
                         <div class="img-blox">
-                            <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2016/03/13415-5088-s300.jpg" alt="Onion Soup Mix Saves The Day" data-pin-nopin="true" importance="low">
+                            <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2015/08/52594-3781-s300.jpg" alt="What To Make With Leftover Chicken" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                            <h3>ONION SOUP MIX SAVES THE DAY</h3>
-                            <p>Ah, the unassuming envelope of <span class="inlink">onion soup mix</span>. It's more than just for onion soup (or dip). It adds tremendous flavor (and convenience) in all these recipes.</p>
+                            <h3>WHAT TO MAKE WITH LEFTOVER CHICKEN</h3>
+                            <p>Got leftovers? We've got recipes. 18 delicious recipes using <span class="inlink">cooked chicken</span> (plus 9 bonus recipes!)</p>
                         </div>
                         <div class="mask-link">
-                            <span>Start Cooking!</span>
+                            <span>Leftovers Have Never Tasted Better!</span>
                         </div>
                     </a>
                 </div>
                 <div class="col-page col-sm-4 col-md-3">
-                    <a href="https://www.cdkitchen.com/recipes/ideas/buffalo-wing-everything/" class="bg-blox">
+                    <a href="/recipes/articles/view/579/1/National-Prime-Rib-Day.html" class="bg-blox">
                         <div class="img-blox">
-                           <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2017/10/10431-7777-s300.jpg" alt="Buffalo Wing Everything" data-pin-nopin="true" importance="low">
+                           <img loading="lazy" class="img-responsive" src="/images/articles/579.jpg" alt="National Prime Rib Day" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                            <h3>BUFFALO WING EVERYTHING</h3>
-                            <p>Love buffalo wings? Get that same <span class="inlink">hot, zippy flavor</span> in everything from deviled eggs to enchiladas. And of course: wings.</p>
+                            <h3>NATIONAL PRIME RIB DAY</h3>
+                            <p>Celebrate National Prime Rib Day on April 27th!</p>
                         </div>
                         <div class="mask-link">
-                            <span>Hot Stuff!</span>
+                            <span>See This Food Holiday</span>
                         </div>
                     </a>
                 </div>
                 <div class="col-page col-sm-4 col-md-3">
-                    <a href="/recipes/course/appetizers-snacks/asian-appetizers/" class="bg-blox">
+                    <a href="https://www.cdkitchen.com/recipes/ideas/applebees-copycats/" class="bg-blox">
                         <div class="img-blox">
-                             <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/images/cats/151/cat-151-300-1.jpg" alt="asian appetizers Recipes" data-pin-nopin="true" importance="low">
+                             <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2016/02/1320-4221-s300.jpg" alt="Applebee's Copycat Favorites" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                                <h3>ASIAN APPETIZERS RECIPES</h3>
-                            <p>Spring rolls, wontons, crab rangoon, pot stickers, and all your favorite Asian appetizers.</p>
+                                <h3>APPLEBEE'S COPYCAT FAVORITES</h3>
+                            <p>If you're a fan of the menu at this American chain of restaurants which serves a variety of foods such as <span class="inlink">burgers, steaks, pasta, and seafood</span> then you'll love this collection of copycat recipes. </p>
                         </div>
                         <div class="mask-link">
-                            <span>View Asian Appetizers Recipes</span>
+                            <span>Make Your Favorites At Home!</span>
                         </div>
                     </a>
                 </div>
                 <div class="hidden-sm col-page col-sm-4 col-md-3">
-             <a href="https://www.cdkitchen.com/recipes/ideas/red-velvet/" class="bg-blox">
+             <a href="/recipes/course/drinks/cocktails/" class="bg-blox">
                         <div class="img-blox">
-                             <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2016/04/62552-5488-s300.jpg" alt="Everything Red Velvet" data-pin-nopin="true" importance="low">
+                             <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/images/cats/218/cat-218-300-1.jpg" alt="cocktails Recipes" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                                     <h3>EVERYTHING RED VELVET</h3>
-                            <p>Delicious recipes for <span class="inlink">red velvet</span> cakes, cupcakes, and cheesecakes.</p>
+                                     <h3>COCKTAILS RECIPES</h3>
+                            <p>All your favorite bar cocktails (including some non-alcoholic versions). Martinis, cosmos, even jello shots. Cheers!</p>
                         </div>
                         <div class="mask-link">
-                                        <span>Rich, Red Velvet</span>
+                                        <span>View Cocktails Recipes</span>
                         </div>
                     </a>
                 </div>
@@ -587,87 +587,87 @@ if (window.top.location != window.location) {   window.top.location.replace(wind
 
             <div class="row-page row">
                 <div class="col-page col-sm-8 col-md-6">
-                    <a href="https://www.cdkitchen.com/recipes/ideas/cream-soup-dinner/" class="black bg-blox">
+                    <a href="/recipes/articles/view/577/1/National-Zucchini-Bread-Day.html" class="black bg-blox">
                         <div class="img-blox-main">
-                            <img loading="lazy" class="" src="https://cdn.cdkitchen.com/recipes/images/2016/02/101077-4451-mx.jpg" alt="Dinner Made Easy (With Cream Of Mushroom Soup!)" data-pin-nopin="true" importance="low">
+                            <img loading="lazy" class="" src="/images/articles/577.jpg" alt="National Zucchini Bread Day" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox-main">
-                            <h3>DINNER MADE EASY (WITH CREAM OF MUSHROOM SOUP!)</h3>
-                            <p>A can of <span class="inlink">cream of mushroom soup</span> can be a real dinner saver. It works great in casseroles and can turn into a sauce or gravy in a pinch.</p>
+                            <h3>NATIONAL ZUCCHINI BREAD DAY</h3>
+                            <p>Celebrate National Zucchini Bread Day on April 25th!</p>
                         </div>
                         <div class="mask-link">
-                            <span>These Recipes Are Soup-er!</span>
+                            <span>See This Food Holiday</span>
                         </div>
                     </a>
                 </div>
                 <div class="col-page col-sm-4 col-md-3">
-                    <a href="/cooking-tips/can-sizes.html" class="bg-blox">
+                    <a href="https://www.cdkitchen.com/recipes/ideas/ricotta-cheese/" class="bg-blox">
                         <div class="img-blox">
-                            <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/tips/can-sizes.jpg" alt="What The Heck Is a #2 Can?" data-pin-nopin="true" importance="low">
+                            <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2017/08/4164-7435-s300.jpg" alt="14 Delicious Ways To Use Ricotta Cheese" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                            <h3>WHAT THE HECK IS A #2 CAN?</h3>
-                            <p>#2, #303, what are these weird can sizes all about? More importantly, what can you substitute in place of them when you find them in a recipe?</p>
+                            <h3>14 DELICIOUS WAYS TO USE RICOTTA CHEESE</h3>
+                            <p>This Italian cheese is so versatile that it can be used in both <span class="inlink">sweet and savory</span> recipes from cheesecakes to lasagnas.</p>
                         </div>
                         <div class="mask-link">
-                            <span>Read More: What The Heck Is A #2 Can?</span>
+                            <span>Try These Recipes!</span>
                         </div>
                     </a>
                 </div>
                 <div class="col-page col-sm-4 col-md-3">
-                    <a href="https://www.cdkitchen.com/recipes/ideas/copycat-pizza/" class="bg-blox">
+                    <a href="/recipes/dish/beef/" class="bg-blox">
                         <div class="img-blox">
-                           <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2010/10/7545-1693-s300.jpg" alt="Copycat Pizzas" data-pin-nopin="true" importance="low">
+                           <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/images/cats/2898/cat-2898-300-1.jpg" alt="beef dishes Recipes" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                            <h3>COPYCAT PIZZAS</h3>
-                            <p>Pizza night is always a favorite, especially when you have <span class="inlink">great tasting pizza</span> from some of the most popular restaurants. </p>
+                            <h3>BEEF DISHES RECIPES</h3>
+                            <p>Everything beefy from roasts to goulash to beef wellington.</p>
                         </div>
                         <div class="mask-link">
-                            <span>Skip Delivery, Make These Amazing Pizzas At Home</span>
+                            <span>View Beef Dishes Recipes</span>
                         </div>
                     </a>
                 </div>
                 <div class="col-page col-sm-4 col-md-3">
-                    <a href="/cooking-tips/pastry-cream.html" class="bg-blox">
+                    <a href="/recipes/ingredient/beef/pot-roast/" class="bg-blox">
+                        <div class="img-blox">
+                             <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/images/cats/2497/cat-2497-300-1.jpg" alt="pot roast Recipes" data-pin-nopin="true" importance="low">
+                        </div>
+                        <div class="content-blox">
+                                <h3>POT ROAST RECIPES</h3>
+                            <p>Great for a family dinner. Many recipes for oven baked, in the slow cooker, or simmered on the stove top.</p>
+                        </div>
+                        <div class="mask-link">
+                            <span>View Pot Roast Recipes</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="hidden-sm col-page col-sm-4 col-md-3">
+             <a href="/cooking-tips/pastry-cream.html" class="bg-blox">
                         <div class="img-blox">
                              <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/cooking-tips/images/0/770-pastry-cream-1-lg.jpg" alt="Pastry Cream" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                                <h3>PASTRY CREAM</h3>
+                                     <h3>PASTRY CREAM</h3>
                             <p>A thick, egg and flour or cornstarch custard used in tarts, as a filling between cake layers, and in cream puffs, eclairs, profiteroles, and napoleons</p>
                         </div>
                         <div class="mask-link">
-                            <span>Read More: Pastry Cream</span>
+                                        <span>Read More: Pastry Cream</span>
                         </div>
                     </a>
                 </div>
                 <div class="hidden-sm col-page col-sm-4 col-md-3">
-             <a href="/recipes/course/drinks/cocktails/" class="bg-blox">
+                    <a href="https://www.cdkitchen.com/recipes/ideas/jack-daniels/" class="bg-blox">
                         <div class="img-blox">
-                             <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/images/cats/218/cat-218-300-1.jpg" alt="cocktails Recipes" data-pin-nopin="true" importance="low">
+                           <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/ideas/jack-daniels/jack-daniels-ideas.jpg" alt="Cooking With Jack Daniel's Whiskey" data-pin-nopin="true" importance="low">
                         </div>
                         <div class="content-blox">
-                                     <h3>COCKTAILS RECIPES</h3>
-                            <p>All your favorite bar cocktails (including some non-alcoholic versions). Martinis, cosmos, even jello shots. Cheers!</p>
-                        </div>
-                        <div class="mask-link">
-                                        <span>View Cocktails Recipes</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="hidden-sm col-page col-sm-4 col-md-3">
-                    <a href="https://www.cdkitchen.com/recipes/ideas/cooking-with-beer/" class="bg-blox">
-                        <div class="img-blox">
-                           <img loading="lazy" class="img-responsive" src="https://cdn.cdkitchen.com/recipes/images/2016/02/17439-4275-s300.jpg" alt="Cooking With Beer" data-pin-nopin="true" importance="low">
-                        </div>
-                        <div class="content-blox">
-                             <h3>COOKING WITH BEER</h3>
-                            <p><span class="inlink">Beer</span> makes batters better, meat more tender, and sauces more flavorful. </p>
+                             <h3>COOKING WITH JACK DANIEL'S WHISKEY</h3>
+                            <p>This <span class="inlink">iconic whiskey</span> is a "Jack of all trades" when it comes to cooking. Toss it in some pasta, as a savory dipping sauce, and even bake it into something sweet. </p>
 
                         </div>
                         <div class="mask-link">
-                               <span>Beer Will Make It Better!</span>
+                               <span>Get The Recipes For This </span>
                         </div>
                     </a>
                 </div>
@@ -773,7 +773,7 @@ if (window.top.location != window.location) {   window.top.location.replace(wind
     <!-- end:bottom-sidebar -->
     <footer id="punica-page-footer">
         <div class="wrapper clearfix">
-            <p id="copyright" class="pull-left">Copyright &copy; 1995-2024 . All Rights Reserved. CDKitchen, Inc. 24:04:25:12:41:57&nbsp;&nbsp; :C:<br></p>
+            <p id="copyright" class="pull-left">Copyright &copy; 1995-2024 . All Rights Reserved. CDKitchen, Inc. 24:04:25:14:50:55&nbsp;&nbsp; :C:<br></p>
         </div>
         <!-- end:wrapper -->
     </footer>

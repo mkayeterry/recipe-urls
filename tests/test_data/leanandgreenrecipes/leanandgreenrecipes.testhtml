@@ -1,38 +1,51 @@
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
 <head>
-<script type="15803357096e13110d35f262-text/javascript" src="https://app.termly.io/embed.min.js" data-auto-block="on" data-website-uuid="a1f0b477-c1a3-40db-b105-46b7cc209531"></script>
+<script type="661300774e22c937bd124680-text/javascript" src="https://app.termly.io/embed.min.js" data-auto-block="on" data-website-uuid="a1f0b477-c1a3-40db-b105-46b7cc209531"></script>
 <script type="text/javascript" src="//monu.delivery/site/4/7/9fc2c2-7493-4b67-b8b7-79c1d9835660.js" data-cfasync="false"></script>
 <meta charset="utf-8" />
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="15803357096e13110d35f262-text/javascript"></script>
-<script type="15803357096e13110d35f262-text/javascript">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="661300774e22c937bd124680-text/javascript"></script>
+<script type="661300774e22c937bd124680-text/javascript">
   (adsbygoogle = window.adsbygoogle || []).push({
     google_ad_client: "ca-pub-3030965157614076",
     enable_page_level_ads: true
   });
-</script><script async src="/sites/default/files/google_analytics/gtag.js?sc69ow" type="15803357096e13110d35f262-text/javascript"></script>
-<script type="15803357096e13110d35f262-text/javascript">window.google_analytics_uacct = "UA-130561802-4";window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("config", "UA-130561802-4", {"groups":"default","anonymize_ip":true,"page_path":location.pathname + location.search + location.hash,"link_attribution":true});</script>
+</script><script async src="/sites/default/files/google_analytics/gtag.js?sca1cq" type="661300774e22c937bd124680-text/javascript"></script>
+<script type="661300774e22c937bd124680-text/javascript">window.google_analytics_uacct = "UA-130561802-4";window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("config", "UA-130561802-4", {"groups":"default","anonymize_ip":true,"page_path":location.pathname + location.search + location.hash,"link_attribution":true});</script>
 <meta name="geo.region" content="US-TX" />
-<link rel="canonical" href="https://leanandgreenrecipes.net/recipes/" />
+<link rel="canonical" href="https://leanandgreenrecipes.net/" />
 <meta http-equiv="content-language" content="en" />
 <meta name="robots" content="index, follow" />
-<meta name="description" content="Use this simple search to browse some of the best lean and green recipes around!" />
+<link rel="shortlink" href="https://leanandgreenrecipes.net/" />
+<link rel="image_src" href="/sites/default/files/2021-03/Lean-and-Green-Recipies-Meal-Plan.jpg" />
+<meta name="rating" content="safe for kids" />
+<meta name="description" content="We have lean and green recipes in a variety of meal options that are both delicious and on the 5-1 Plan. Browse our easy to filter tools based upon cuisine and ingredients." />
+<meta property="og:site_name" content="Lean and Green Recipes" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://leanandgreenrecipes.net/" />
+<meta property="og:title" content="Lean and Green Recipes &amp; Meals for those on Plan" />
+<meta property="og:description" content="We have lean and green recipes in a variety of meal options that are both delicious and on the plan. Browse our easy to filter tools based upon cuisine and ingredients." />
+<meta property="og:image" content="https://leanandgreenrecipes.net/sites/default/files/2021-03/Lean-and-Green-Recipies-Meal-Plan.jpg" />
+<meta property="og:image:url" content="https://leanandgreenrecipes.net/sites/default/files/2021-03/Lean-and-Green-Recipies-Meal-Plan.jpg" />
+<meta property="og:image:secure_url" content="https://leanandgreenrecipes.net/sites/default/files/2021-03/Lean-and-Green-Recipies-Meal-Plan.jpg" />
 <meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
 <meta name="MobileOptimized" content="width" />
 <meta name="HandheldFriendly" content="true" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="shortcut icon" href="/sites/default/files/favicon-32x32.png" type="image/png" />
-<script src="/sites/default/files/google_tag/lean_green_counts/google_tag.script.js?sc69ow" defer type="15803357096e13110d35f262-text/javascript"></script>
-<script type="15803357096e13110d35f262-text/javascript">window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
-<title>Lean and Green Recipes Simple Search | Lean and Green Recipes</title>
-<link rel="stylesheet" media="all" href="/sites/default/files/css/css_jgtKvPkloP3blepPdgfTimZbtbtAuD5soFPOCXb3VMc.css" />
-<link rel="stylesheet" media="all" href="/sites/default/files/css/css_RteKJwjw7K_nYaQjk05Nxqyju0_RYL2FSaT0qmziQFw.css" />
+<link rel="alternate" hreflang="en" href="https://leanandgreenrecipes.net/lean-and-green-recipes-dedicated-helping-anyone-5-1-plan-find-recipes-and-meals-easily/" />
+<link rel="revision" href="https://leanandgreenrecipes.net/lean-and-green-recipes-dedicated-helping-anyone-5-1-plan-find-recipes-and-meals-easily/" />
+<script src="/sites/default/files/google_tag/lean_green_counts/google_tag.script.js?sca1cq" defer type="661300774e22c937bd124680-text/javascript"></script>
+<script type="661300774e22c937bd124680-text/javascript">window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+<title>Lean and Green Recipes &amp; Meals for those on Plan</title>
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_iE74U4O83kBvVNDhbGoDbdPkRVKmHubu-3t721TeHZ4.css" />
+<link rel="stylesheet" media="all" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_QRAUiWQLEdTN3OgHTHTv71G35_omyaXV4NoWHi56Kzw.css" />
 <!--[if lte IE 8]>
 <script src="/core/assets/vendor/html5shiv/html5shiv.min.js?v=3.7.3"></script>
 <![endif]-->
 </head>
-<body class="path-recipes">
+<body class="path-frontpage not-front page-node-type-page">
 <a href="#main-content" class="visually-hidden focusable skip-link">
 Skip to main content
 </a>
@@ -54,7 +67,7 @@ Skip to main content
 <div id="block-facebookgroupcode" class="block block-block-content block-block-contentc0716b9f-011c-4a72-be31-92e33bb0180d">
 <div class="content">
 <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="fb-root"></div>
-<script async defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v12.0&amp;appId=121785361022&amp;autoLogAppEvents=1" nonce="q20t1gPh" type="15803357096e13110d35f262-text/javascript"></script></div>
+<script async defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v12.0&amp;appId=121785361022&amp;autoLogAppEvents=1" nonce="q20t1gPh" type="661300774e22c937bd124680-text/javascript"></script></div>
 </div>
 </div>
 </div>
@@ -87,7 +100,7 @@ Skip to main content
 <h2 class="visually-hidden" id="block-restaurant-zymphonies-theme-main-menu-menu">Main navigation</h2>
 <ul class="sm menu-base-theme" id="main-menu" class="menu nav navbar-nav">
 <li>
-<a href="/" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+<a href="/" data-drupal-link-system-path="&lt;front&gt;" class="is-active">Home</a>
 </li>
 <li>
 <a href="/search/" data-drupal-link-system-path="search">Search</a>
@@ -296,25 +309,6 @@ z-index: 10000 !important;
 <div class="row">
 <div class="col-md-12">
 <div class="region region-highlighted">
-<div id="block-leanandgreenpretextadunit" class="block block-block-content block-block-contentf790ea72-bfa0-4983-ba8a-7390c8a55adb">
-<div class="content">
-<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-<div id="mmt-7e5e6786-1fca-42b9-a752-6ea3a29ea8be"> </div>
-<script type="text/javascript" data-cfasync="false">
-<!--//--><![CDATA[// ><!--
-$MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["7e5e6786-1fca-42b9-a752-6ea3a29ea8be"]); })
-//--><!]]>
-</script>
-<div id="mmt-4884c2e7-8c92-4413-85ff-7736f990f632"></div><script type="text/javascript" data-cfasync="false">
-<!--//--><![CDATA[// ><!--
-$MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["4884c2e7-8c92-4413-85ff-7736f990f632"]); }) 
-//--><!]]>
-</script>
-<p> </p>
-<div style="clear:both"> </div>
-</div>
-</div>
-</div>
 <div data-drupal-messages-fallback class="hidden"></div>
 </div>
 </div>
@@ -322,40 +316,10 @@ $MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $M
 </div>
 
 
-<div id="page-title">
-<div id="page-title-inner">
-<div class="container">
-<div class="row">
-<div class="col-md-12">
-<div class="region region-page-title">
-<div id="block-breadcrumbs-2" class="block block-system block-system-breadcrumb-block">
-<div class="content">
-<nav class="breadcrumb" role="navigation" aria-labelledby="system-breadcrumb">
-<h2 id="system-breadcrumb" class="visually-hidden">Breadcrumb</h2>
-<ol>
-<li>
-<a href="/">Home</a>
-</li>
-<li>
-<a href="/recipes/">Recipes</a>
-</li>
-</ol>
-</nav>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
 <div class="container">
 <div class="parallax-region">
 
-<div class="row">
-<div class="col-md-12"></div>
-</div>
 
 <div class="row layout">
 
@@ -366,219 +330,434 @@ $MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $M
 <div class="region region-content">
 <div id="block-restaurant-zymphonies-theme-content" class="block block-system block-system-main-block">
 <div class="content">
-<div class="views-element-container"><div class="js-view-dom-id-657fd933a905e26e52f5ea2588a17947ef20c8684153880d3b7bf8306a13c085">
+<article data-history-node-id="21" role="article" about="/lean-and-green-recipes-dedicated-helping-anyone-5-1-plan-find-recipes-and-meals-easily/" typeof="schema:WebPage" class="node node--type-page node--view-mode-full">
+<span property="schema:name" content="Lean and Green Recipes is Dedicated to Helping Anyone on the 5-in-1 Plan Find Recipes and Meals Easily!" class="hidden"></span>
+<div class="node__content">
+<div class="_none"><div class="w-100">
+<div class="layout row no-gutters layout-builder__layout">
+<div class="col-12">
+<div class="block block-views block-views-blockrecipe-images-node-view-block-3">
+<div class="content">
+<div class="views-element-container"><div class="js-view-dom-id-db7729fd602cf7b37274c63465780bff9736ce05039304387ee5830e79a19aba">
+<div class="views-row">
+<div class="views-field views-field-title"><span class="field-content"><h1 itemprop="name"><span class="h1-title">Lean and Green Recipes is Dedicated to Helping Anyone on the 5-in-1 Plan Find Recipes and Meals Easily!</span></h1></span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block block-block-content block-block-contentf790ea72-bfa0-4983-ba8a-7390c8a55adb">
+<div class="content">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+<div id="mmt-7e5e6786-1fca-42b9-a752-6ea3a29ea8be"> </div>
+<script type="text/javascript" data-cfasync="false">
+<!--//--><![CDATA[// ><!--
+$MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["7e5e6786-1fca-42b9-a752-6ea3a29ea8be"]); })
+//--><!]]>
+</script>
+<div id="mmt-4884c2e7-8c92-4413-85ff-7736f990f632"></div><script type="text/javascript" data-cfasync="false">
+<!--//--><![CDATA[// ><!--
+$MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["4884c2e7-8c92-4413-85ff-7736f990f632"]); }) 
+//--><!]]>
+</script>
+<p> </p>
+<div style="clear:both"> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="_none"><div class="w-100">
+<div class="layout row no-gutters layout-builder__layout">
+<div class="col-lg-9 col-md-9 col-12">
+<div class="block block-views block-views-blockrelated-cuisine-block-block-7">
+<div class="content">
+<div class="views-element-container"><div class="js-view-dom-id-be120f3267a0c7e821459fd3b19b99905a8152481a0f537510ff9c0c1609fcb5">
 <header>
-<h1>Lean and Green Recipes</h1>
+<h2 class="title">Pasta Recipes</h2>
 </header>
-<form class="views-exposed-form" data-drupal-selector="views-exposed-form-recipes-page-1" action="/recipes/" method="get" id="views-exposed-form-recipes-page-1" accept-charset="UTF-8">
-<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-field-recipe-category-target-id form-item-field-recipe-category-target-id">
-<label for="edit-field-recipe-category-target-id">Recipe category</label>
-<select data-drupal-selector="edit-field-recipe-category-target-id" multiple="multiple" name="field_recipe_category_target_id[]" id="edit-field-recipe-category-target-id" size="7" class="form-select"><option value="29">Accompaniment</option><option value="505">Beverage</option><option value="242">Breakfast</option><option value="30">Dessert</option><option value="31">Main course</option><option value="32">Snack</option><option value="33">Starter</option></select>
-</div>
-<div class="js-form-item form-item js-form-type-select form-type-select js-form-item-field-cuisine-target-id form-item-field-cuisine-target-id">
-<label for="edit-field-cuisine-target-id">Cuisine</label>
-<select data-drupal-selector="edit-field-cuisine-target-id" multiple="multiple" name="field_cuisine_target_id[]" id="edit-field-cuisine-target-id" size="9" class="form-select"><option value="86">American</option><option value="76">Chinese</option><option value="90">Cuban</option><option value="81">French</option><option value="80">Greek</option><option value="84">Indian</option><option value="87">Irish</option><option value="78">Italian</option><option value="79">Japanese</option><option value="88">Korean</option><option value="85">Mediterranean </option><option value="77">Mexican</option><option value="91">Other</option><option value="83">Spanish</option><option value="82">Thai</option><option value="89">Vietnamese</option></select>
-</div>
-<div class="js-form-item form-item js-form-type-entity-autocomplete form-type-entity-autocomplete js-form-item-field-tags-target-id form-item-field-tags-target-id">
-<label for="edit-field-tags-target-id">Ingredient</label>
-<input data-drupal-selector="edit-field-tags-target-id" class="form-autocomplete form-text" data-autocomplete-path="/entity_reference_autocomplete/taxonomy_term/default/QulJVAJGzXN0VEonFHMa3UAZxhnsaCFYmtI2vSxN3Fg" type="text" id="edit-field-tags-target-id" name="field_tags_target_id" value size="60" maxlength="128" />
-<div id="edit-field-tags-target-id--description" class="description">
-Optionally, filter below on main ingredients (tuna, shrimp, chicken, etc)
-</div>
-</div>
-<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-recipes" type="submit" id="edit-submit-recipes" value="Apply" class="button js-form-submit form-submit" />
-</div>
-</form>
-<div id="views-bootstrap-recipes-page-1" class="grid views-view-grid">
+<div id="views-bootstrap-related-cuisine-block-block-7" class="grid views-view-grid">
 <div class="row">
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/american/key-west-chicken/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-04/Key%20West%20Chicken.jpg?itok=kWLW6dx4 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-04/Key%20West%20Chicken.jpg?itok=piD9ySGp 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-04/Key%20West%20Chicken.jpg?itok=t7Nol3lf 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-04/Key%20West%20Chicken.jpg?itok=kWLW6dx4" alt="Key West Chicken" typeof="Image" />
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/lemon-chicken-spaghetti-squash-spinach-tomatoes-0/"> <img srcset="/sites/default/files/styles/263x263/public/2022-12/AdobeStock_295772847.jpeg?itok=tmPoAZuD 1x" src="/sites/default/files/styles/medium/public/2022-12/AdobeStock_295772847.jpeg?itok=VxFQfhEm" alt="Lemon Chicken Spaghetti Squash with Spinach &amp; Tomatoes" typeof="foaf:Image" />
 </a>
-<br/>
-Rating: <span class="fivestar-rating">5/5</span>
-<h2 class="recipe-card-title">Healthy Key West Chicken Recipe</h2>
-<p>This is a dish that we're sure you'll love. This Key West Chicken recipe is super easy and taste great! Just marinate, grill, then enjoy!</p>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/lemon-chicken-spaghetti-squash-spinach-tomatoes-0/" hreflang="en">Lemon Chicken Spaghetti Squash with Spinach &amp; Tomatoes</a></h3></div><div class="views-field views-field-body"><div class="field-content">Can't decide what to make? Try this Lemon Chicken Spaghetti Squash with Spinach &amp; Tomatoes recipe! It's sure to please even the pickiest of eaters!
 </div></div>
 </div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/italian/zucchini-lasagna/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-04/Zucchini%20Lasagna.jpeg?itok=l1tPmd6L 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-04/Zucchini%20Lasagna.jpeg?itok=1qlhmKBY 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-04/Zucchini%20Lasagna.jpeg?itok=DpTfJDxz 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-04/Zucchini%20Lasagna.jpeg?itok=l1tPmd6L" alt="Zucchini Lasagna" typeof="Image" />
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/pan-seared-scallops-and-zucchini-noodles-roasted-red-pepper-sauce/"> <img srcset="/sites/default/files/styles/263x263/public/2021-03/Pan-Seared%20Scallops%20and%20Zucchini%20Noodles%20with%20Roasted%20Red%20Pepper%20Sauce.jpg?itok=viEb-vNf 1x" src="/sites/default/files/styles/medium/public/2021-03/Pan-Seared%20Scallops%20and%20Zucchini%20Noodles%20with%20Roasted%20Red%20Pepper%20Sauce.jpg?itok=pdcr1Cv6" alt="Pan-Seared Scallops and Zucchini Noodles with Roasted Red Pepper Sauce" typeof="foaf:Image" />
 </a>
-<br/>
-Rating: <span class="fivestar-rating">3/5</span>
-<h2 class="recipe-card-title">Healthy Zucchini Lasagna Recipe</h2>
-<p>This Zucchini Lasagna recipe is the perfect way to satisfy your lasagna craving without the excessive fat and carbs. Light, delicious and 100% on plan!</p></div></div>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/pan-seared-scallops-and-zucchini-noodles-roasted-red-pepper-sauce/" hreflang="en">Pan-Seared Scallops and Zucchini Noodles with Roasted Red Pepper Sauce</a></h3></div><div class="views-field views-field-body"><div class="field-content">Scallops are an amazing option for those looking for a lighter protein, but are not big on fish.</div></div>
 </div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/italian/zucchini-spinach-manicotti/"> <img srcset="/sites/default/files/styles/3_2_small/public/2022-12/Zucchini%20Lasagna.jpeg?itok=GW07C-Oz 250w, /sites/default/files/styles/medium_3_2_600x400/public/2022-12/Zucchini%20Lasagna.jpeg?itok=jsMOeot0 600w, /sites/default/files/styles/large_3_2_768x512/public/2022-12/Zucchini%20Lasagna.jpeg?itok=y45GoEzP 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2022-12/Zucchini%20Lasagna.jpeg?itok=GW07C-Oz" alt="Zucchini Spinach Manicotti" typeof="Image" />
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/italian/chicken-zoodle-alfredo/"> <img srcset="/sites/default/files/styles/263x263/public/2022-12/AdobeStock_281497904.jpeg?itok=90g4wKBC 1x" src="/sites/default/files/styles/medium/public/2022-12/AdobeStock_281497904.jpeg?itok=JWqgVcmX" alt="Chicken Zoodle Alfredo" typeof="foaf:Image" />
 </a>
-<br/>
-Rating: <span class="fivestar-rating">4/5</span>
-<h2 class="recipe-card-title">Healthy Zucchini Spinach Manicotti Recipe</h2>
-<p>Manicotti is an Italian dish full of flavor, loaded with cheese and sauce.</div></div>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/italian/chicken-zoodle-alfredo/" hreflang="en">Chicken Zoodle Alfredo</a></h3></div><div class="views-field views-field-body"><div class="field-content"></div></div>
 </div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/italian/cheese-cauliflower-crust-pizza/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-03/AdobeStock_350826795.jpeg?itok=xrN03a3a 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-03/AdobeStock_350826795.jpeg?itok=b5ttpgGI 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-03/AdobeStock_350826795.jpeg?itok=NTBOUtVN 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-03/AdobeStock_350826795.jpeg?itok=xrN03a3a" alt="Cheese Cauliflower Crust Pizza" typeof="Image" />
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/creamy-spaghetti-squash-shrimp/"> <img srcset="/sites/default/files/styles/263x263/public/2021-07/Creamy%20Spaghetti%20Squash%20with%20Shrimp.jpg?itok=1AvACxGH 1x" src="/sites/default/files/styles/medium/public/2021-07/Creamy%20Spaghetti%20Squash%20with%20Shrimp.jpg?itok=Rm65JM4s" alt="Creamy Spaghetti Squash with Shrimp" typeof="foaf:Image" />
 </a>
-<br/>
-Rating: <span class="fivestar-rating">4/5</span>
-<h2 class="recipe-card-title">Healthy Cheese Cauliflower Crust Pizza Recipe</h2>
-<p>This Cheesy Cauliflower Crust pizza is no frills, but still taste great! Don't let the limited ingredients list fool you there is plenty of flavor in this lean and green favorite!</p>
-</div></div>
-</div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/other/ceviche-avocado-shrimp-salad/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-07/Ceviche%20Avocado%20Shrimp%20Salad.jpg?itok=6eyxG5WC 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-07/Ceviche%20Avocado%20Shrimp%20Salad.jpg?itok=iLv1lFce 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-07/Ceviche%20Avocado%20Shrimp%20Salad.jpg?itok=bCyOyMCr 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-07/Ceviche%20Avocado%20Shrimp%20Salad.jpg?itok=6eyxG5WC" alt="Ceviche Avocado Shrimp Salad" typeof="Image" />
-</a>
-<br/>
-Rating: <span class="fivestar-rating">5/5</span>
-<h2 class="recipe-card-title">Healthy Ceviche Avocado Shrimp Salad Recipe</h2>
-<p>This South American Ceviche Avocado Shrimp Salad dish is perfect for a refreshing and flavorful dish you can make in just a few minutes. </p>
-</div></div>
-</div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/italian/brown-white-mushroom-soup/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-06/Brown%20%26%20White%20Mushroom%20Soup.jpeg?itok=FqQokvOG 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-06/Brown%20%26%20White%20Mushroom%20Soup.jpeg?itok=rsrxgycA 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-06/Brown%20%26%20White%20Mushroom%20Soup.jpeg?itok=FeEdz5pj 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-06/Brown%20%26%20White%20Mushroom%20Soup.jpeg?itok=FqQokvOG" alt="Brown &amp; White Mushroom Soup" typeof="Image" />
-</a>
-<br/>
-Rating: <span class="fivestar-rating">4/5</span>
-<h2 class="recipe-card-title">Healthy Brown &amp; White Mushroom Soup Recipe</h2>
-<p>Nothing is better on cooler days than a nice warm cup of soup. This amazing Brown &amp; White Mushroom Soup is rich, creamy and completely on plan!</p>
-</div></div>
-</div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/american/cheesy-bacon-smothered-chicken/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-04/Cheesy%20Bacon%20Smothered%20Chicken.jpg?itok=XOE4bM_U 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-04/Cheesy%20Bacon%20Smothered%20Chicken.jpg?itok=sGGDBbt6 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-04/Cheesy%20Bacon%20Smothered%20Chicken.jpg?itok=JKk32ukX 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-04/Cheesy%20Bacon%20Smothered%20Chicken.jpg?itok=XOE4bM_U" alt="Cheesy Bacon Smothered Chicken" typeof="Image" />
-</a>
-<br/>
-Rating: <span class="fivestar-rating">4/5</span>
-<h2 class="recipe-card-title">Healthy Cheesy Bacon Smothered Chicken Recipe</h2>
-<p>What is not to like about this recipe!? This Cheesy Bacon Smothered Chicken recipe takes very little time and taste amazing! Our house can't get enough of it!</p>
-</div></div>
-</div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/american/roasted-turkey-mashed-cauliflower-steamed-green-beans/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-03/Roasted%20Turkey%20with%20Mashed%20Cauliflower%20%26%20Steamed%20Green%20Bean.jpeg?itok=pwKPKS7W 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-03/Roasted%20Turkey%20with%20Mashed%20Cauliflower%20%26%20Steamed%20Green%20Bean.jpeg?itok=aPHAjOF4 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-03/Roasted%20Turkey%20with%20Mashed%20Cauliflower%20%26%20Steamed%20Green%20Bean.jpeg?itok=thLoTYor 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-03/Roasted%20Turkey%20with%20Mashed%20Cauliflower%20%26%20Steamed%20Green%20Bean.jpeg?itok=pwKPKS7W" alt="Roasted Turkey with Mashed Cauliflower &amp; Steamed Green Beans" typeof="Image" />
-</a>
-<br/>
-Rating: <span class="fivestar-rating">5/5</span>
-<h2 class="recipe-card-title">Healthy Roasted Turkey with Mashed Cauliflower &amp; Steamed Green Beans Recipe</h2>
-<p>Turkey doesn't have to be served just for the holidays, it's a low fat healthy lean meat that almost everyone enjoys.</div></div>
-</div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/chinese/steamed-stuffed-mushrooms/"> <img srcset="/sites/default/files/styles/3_2_small/public/2022-12/AdobeStock_119677728.jpeg?itok=9HnDeQ10 250w, /sites/default/files/styles/medium_3_2_600x400/public/2022-12/AdobeStock_119677728.jpeg?itok=9XHW1PF9 600w, /sites/default/files/styles/large_3_2_768x512/public/2022-12/AdobeStock_119677728.jpeg?itok=x8QRVXJj 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2022-12/AdobeStock_119677728.jpeg?itok=9HnDeQ10" alt="Steamed Stuffed Mushrooms" typeof="Image" />
-</a>
-<br/>
-Rating: <span class="fivestar-rating">3/5</span>
-<h2 class="recipe-card-title">Healthy Steamed Stuffed Mushrooms Recipe</h2>
-<p>WOW! If you're here looking for a delicious and healthy recipe, then you've come to the right place.</div></div>
-</div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/italian/neapolitan-froyo-popsicles/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-05/Neopolitan%20Froyo%20Popsicles.jpg?itok=x8bpn0M7 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-05/Neopolitan%20Froyo%20Popsicles.jpg?itok=gxe6k27l 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-05/Neopolitan%20Froyo%20Popsicles.jpg?itok=2Qoskjrm 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-05/Neopolitan%20Froyo%20Popsicles.jpg?itok=x8bpn0M7" alt="Neapolitan Froyo Popsicles" typeof="Image" />
-</a>
-<br/>
-Rating: <span class="fivestar-rating">4/5</span>
-<h2 class="recipe-card-title">Healthy Neapolitan Froyo Popsicles Recipe</h2>
-<p>Are you ready for a summer treat? Then you have to try this Neapolitan Froyo Popsicles recipe hack! It's a nice treat to cool you down on those hot summer days.</p>
-</div></div>
-</div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/american/red-velvet-whoopie-pies/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-04/Red%20Velvet%20Whoopie%20Pies.jpg?itok=I06Jdgvr 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-04/Red%20Velvet%20Whoopie%20Pies.jpg?itok=GZmMN0Bm 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-04/Red%20Velvet%20Whoopie%20Pies.jpg?itok=cAQivcNM 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-04/Red%20Velvet%20Whoopie%20Pies.jpg?itok=I06Jdgvr" alt="Red Velvet Whoopie Pies" typeof="Image" />
-</a>
-<br/>
-Rating: <span class="fivestar-rating">4/5</span>
-<h2 class="recipe-card-title">Healthy Red Velvet Whoopie Pies Recipe</h2>
-<p>Nothing's better than a cream filled red velvet cake and this Red Velvet Whoopie Pies fueling hack will absolutely hit the spot!</p>
-<p>NEEDS:Regular or Heart Shaped Muffin Tin.</p>
-</div></div>
-</div>
-<div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2">
-<div class="views-field views-field-nothing"><div class="field-content recipe-page-card-height"> <a href="/recipes/chinese/blackened-shrimp-lettuce-wraps/"> <img srcset="/sites/default/files/styles/3_2_small/public/2021-03/blackened%20shrimp%20lettuce%20wraps.jpeg?itok=zrUUIsIS 250w, /sites/default/files/styles/medium_3_2_600x400/public/2021-03/blackened%20shrimp%20lettuce%20wraps.jpeg?itok=0kmA-I6C 600w, /sites/default/files/styles/large_3_2_768x512/public/2021-03/blackened%20shrimp%20lettuce%20wraps.jpeg?itok=n108d5QO 768w" sizes="100vw" src="/sites/default/files/styles/3_2_small/public/2021-03/blackened%20shrimp%20lettuce%20wraps.jpeg?itok=zrUUIsIS" alt="Blackened Shrimp Lettuce Wraps" typeof="Image" />
-</a>
-<br/>
-Rating: <span class="fivestar-rating">2/5</span>
-<h2 class="recipe-card-title">Healthy Blackened Shrimp Lettuce Wraps Recipe</h2>
-<p>We love almost anything with shrimp and this Blackened Shrimp Lettuce Wraps recipe is no exception to that rule! Amazing flavor, easy to prepare; light and full of texture.</p>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/creamy-spaghetti-squash-shrimp/" hreflang="en">Creamy Spaghetti Squash with Shrimp</a></h3></div><div class="views-field views-field-body"><div class="field-content">A great alternative to a shrimp alfredo, this Creamy Spaghetti Squash with Shrimp recipe can be made quickly if you have some leftover spaghetti squash and pre-cooked shrimp!
 </div></div>
 </div>
 </div>
 </div>
-<nav class="pager" role="navigation" aria-labelledby="pagination-heading">
-<h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
-<ul class="pager__items js-pager__items">
-<li class="pager__item is-active">
-<a href="?field_tags_target_id&amp;page=0" title="Current page">
-<span class="visually-hidden">
-Current page
-</span>1</a>
-</li>
-<li class="pager__item">
-<a href="?field_tags_target_id&amp;page=1" title="Go to page 2">
-<span class="visually-hidden">
-Page
-</span>2</a>
-</li>
-<li class="pager__item">
-<a href="?field_tags_target_id&amp;page=2" title="Go to page 3">
-<span class="visually-hidden">
-Page
-</span>3</a>
-</li>
-<li class="pager__item">
-<a href="?field_tags_target_id&amp;page=3" title="Go to page 4">
-<span class="visually-hidden">
-Page
-</span>4</a>
-</li>
-<li class="pager__item">
-<a href="?field_tags_target_id&amp;page=4" title="Go to page 5">
-<span class="visually-hidden">
-Page
-</span>5</a>
-</li>
-<li class="pager__item">
-<a href="?field_tags_target_id&amp;page=5" title="Go to page 6">
-<span class="visually-hidden">
-Page
-</span>6</a>
-</li>
-<li class="pager__item">
-<a href="?field_tags_target_id&amp;page=6" title="Go to page 7">
-<span class="visually-hidden">
-Page
-</span>7</a>
-</li>
-<li class="pager__item">
-<a href="?field_tags_target_id&amp;page=7" title="Go to page 8">
-<span class="visually-hidden">
-Page
-</span>8</a>
-</li>
-<li class="pager__item">
-<a href="?field_tags_target_id&amp;page=8" title="Go to page 9">
-<span class="visually-hidden">
-Page
-</span>9</a>
-</li>
-<li class="pager__item pager__item--ellipsis" role="presentation">&hellip;</li>
-<li class="pager__item pager__item--next">
-<a href="?field_tags_target_id&amp;page=1" title="Go to next page" rel="next">
-<span class="visually-hidden">Next page</span>
-<span aria-hidden="true">››</span>
-</a>
-</li>
-<li class="pager__item pager__item--last">
-<a href="?field_tags_target_id&amp;page=14" title="Go to last page">
-<span class="visually-hidden">Last page</span>
-<span aria-hidden="true">Last »</span>
-</a>
-</li>
-</ul>
-</nav>
-<footer>
-<p>A protein-rich low-carb diet can provide several benefits for weight loss. Firstly, a high protein intake can increase satiety, making it easier to stick to a calorie-controlled diet and reducing the likelihood of overeating. As protein requires more energy to digest than carbohydrates, it also boosts the metabolism, leading to an increase in the number of calories burned throughout the day.
-</p><p>
-In addition to these effects on energy balance, low-carb diets can also promote weight loss by reducing insulin resistance. Insulin is a hormone produced by the pancreas that regulates blood sugar levels. When we consume high amounts of carbohydrates, insulin levels rise, which can lead to weight gain and an increased risk of type 2 diabetes. By reducing carbohydrate intake, insulin levels decrease, helping to promote fat oxidation and encourage weight loss.
-</p><p>
-Finally, reducing carbohydrates can also help to preserve lean muscle mass during <a href="https://leanandgreenrecipes.net/what-is-th-5-in-1-plan/">weight loss</a>. When we lose weight, it is common to lose a proportion of muscle mass along with fat. However, consuming a diet that is high in protein can help to prevent this muscle loss, as protein is essential for muscle repair and growth. This, in turn, can help to maintain and even increase metabolism, promoting long-term weight loss success.</p>
-</footer>
 </div>
 </div>
+</div>
+</div>
+<div class="block block-views block-views-blockrecipes-cards--block-1">
+<h2 class="title">Latest</h2>
+<div class="content">
+<div class="views-element-container"><div class="bottom-widget js-view-dom-id-352236e9294e685eb3466c5af99ed1fca225dc73b671d828f47867eda7afb2d1">
+<header>
+<style>
+<!--/*--><![CDATA[/* ><!--*/
+
+.path-frontpage {
+text-align:left !important;
+}
+
+/*--><!]]>*/
+</style>
+</header>
+<div id="views-bootstrap-recipes-cards-block-1" class="grid views-view-grid">
+<div class="row">
+<div class="col-1 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+<div class="views-field views-field-field-recipe-image"><div class="field-content block-image"> <a href="/recipes/american/surf-turf-salad/"> <img srcset="/sites/default/files/styles/263x263/public/2022-12/AdobeStock_83874269.jpeg?itok=q0CXdymS 263w, /sites/default/files/styles/450x450/public/2022-12/AdobeStock_83874269.jpeg?itok=zYTmmLFU 420w, /sites/default/files/styles/large/public/2022-12/AdobeStock_83874269.jpeg?itok=a7mgL_Ev 480w" sizes="100vw" src="/sites/default/files/styles/large/public/2022-12/AdobeStock_83874269.jpeg?itok=a7mgL_Ev" alt="Surf &amp; Turf Salad" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content recipe-card-title"><a href="/recipes/american/surf-turf-salad/" hreflang="en">Surf &amp; Turf Salad</a></h3></div><div class="views-field views-field-body"><div class="field-content"><div>
+<p>If you're following, Keto, Lean and Green, or any other low-carb diet, you might try to find low-carb variations of the meals you usually love. One meal that's set at mealtime that many people can't seem to figure out how to recreate is Surf &amp; Turf!
+</div></div></div>
+</div>
+<div class="col-1 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+<div class="views-field views-field-field-recipe-image"><div class="field-content block-image"> <a href="/recipes/mexican/pork-tacos-or-tostada/"> <img srcset="/sites/default/files/styles/263x263/public/2022-12/cheese-taco.jpg?itok=yTWdYOYv 263w, /sites/default/files/styles/450x450/public/2022-12/cheese-taco.jpg?itok=nM7y0zvN 420w, /sites/default/files/styles/large/public/2022-12/cheese-taco.jpg?itok=vEnhzZA8 480w" sizes="100vw" src="/sites/default/files/styles/large/public/2022-12/cheese-taco.jpg?itok=vEnhzZA8" alt="Pork Tacos or Tostada" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content recipe-card-title"><a href="/recipes/mexican/pork-tacos-or-tostada/" hreflang="en">Pork Tacos or Tostada</a></h3></div><div class="views-field views-field-body"><div class="field-content"></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block block-layout-builder block-inline-blockbasic">
+<h2 class="title">Lean &amp; Green Recipes &amp; Fueling Hacks</h2>
+<div class="content">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div style="text-align:left"><p>We're working hard to compile the most comprehensive and easy-to-use list of <a href="https://leanandgreenrecipes.net/" alt="lean green meals">lean green meals</a> you'll find anywhere. These <a href="https://leanandgreenrecipes.net/" alt="lean and green recipes">lean and green recipes</a> and <a href="https://leanandgreenrecipes.net/" alt="lean and green meals">lean and green meals</a> have all been reviewed and are on plan.</p><p>
+Lean and green recipes are a vital part of staying on track for your weightloss efforts. In addition, the lean and green recipes are crafted by expert chef's and nutrionists so you know you're getting a meal that is both healthy and delicious!</p>
+</div></div>
+</div>
+</div>
+<div class="block block-block-content block-block-contentc0b6288a-ecf0-4b95-837f-0f93b20b84bb">
+<div class="content">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p> </p>
+
+<div id="mmt-36a42b50-567c-4ec0-9efd-b0abfa180a56"> </div>
+<script type="text/javascript" data-cfasync="false">
+<!--//--><![CDATA[// ><!--
+$MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["36a42b50-567c-4ec0-9efd-b0abfa180a56"]); })
+//--><!]]>
+</script>
+
+<div id="ezoic-pub-ad-placeholder-104"> </div>
+
+<p> </p>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-12">
+<div class="block block-block-content block-block-content3e1358bb-b461-4080-9907-e25f316c5e66">
+<div class="content">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p> </p>
+
+<div id="mmt-02c76507-d84e-48a3-b7b6-afd817c8ef59"> </div>
+<script type="text/javascript" data-cfasync="false">
+<!--//--><![CDATA[// ><!--
+$MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["02c76507-d84e-48a3-b7b6-afd817c8ef59"]); })
+//--><!]]>
+</script>
+
+<div id="ezoic-pub-ad-placeholder-110"> </div>
+
+<p> </p>
+</div>
+</div>
+</div>
+<div class="block block-views block-views-blockblog-blog-block">
+<h2 class="title">Recent blog posts</h2>
+<div class="content">
+<div class="views-element-container"><div class="js-view-dom-id-b58d684a8bb3ecf6f67cb684c34a4be47977e816a859a982b641be80f4cfd5c9">
+<div class="views-row">
+<div class="views-field views-field-field-image"><div class="field-content"><div>&nbsp;</div>
+<img src="/sites/default/files/styles/mini_thumbnail/public/2024-04/jez-timms-6JQMjhqpVhE-unsplash.jpg?itok=YfpsJASU" width="40" height="40" alt="Salami on a tray" typeof="Image" class="image-style-mini-thumbnail" />
+</div></div><div class="views-field views-field-created"><span class="field-content">04-21-24</span></div><div class="views-field views-field-title"><span class="field-content"><a href="/blog/chrissloan/how-meat-meals-can-fit-healthy-diet/" hreflang="en">How Meat Meals Can Fit into a Healthy Diet</a></span></div><div class="views-field views-field-body"><div class="field-content">Meat is a topic of ongoing debate within the realm of nutrition and health, presenting both benefits an</div></div>
+</div>
+<div class="views-row">
+<div class="views-field views-field-field-image"><div class="field-content"></div></div><div class="views-field views-field-created"><span class="field-content">04-13-24</span></div><div class="views-field views-field-title"><span class="field-content"><a href="/blog/chrissloan/how-save-email-pdf/" hreflang="en">How to Save an Email as a PDF</a></span></div><div class="views-field views-field-body"><div class="field-content">There are many simple ways to save emails as PDFs.</div></div>
+</div>
+<div class="views-row">
+<div class="views-field views-field-field-image"><div class="field-content"><div>&nbsp;</div>
+<img src="/sites/default/files/styles/mini_thumbnail/public/2024-03/eggs-1467286_1280.jpg?itok=DIyncXzX" width="40" height="40" alt="avocado toast" typeof="Image" class="image-style-mini-thumbnail" />
+</div></div><div class="views-field views-field-created"><span class="field-content">03-29-24</span></div><div class="views-field views-field-title"><span class="field-content"><a href="/blog/chrissloan/budget-friendly-student-breakfasts-how-not-waste-all-your-scholarship-food/" hreflang="en">Budget-Friendly Student Breakfasts: How Not to Waste All Your Scholarship on Food </a></span></div><div class="views-field views-field-body"><div class="field-content">College can be stressful because time is short.</div></div>
+</div>
+<div class="views-row">
+<div class="views-field views-field-field-image"><div class="field-content"><div>&nbsp;</div>
+<img src="/sites/default/files/styles/mini_thumbnail/public/2024-03/pexels-bulbfish-1143754.jpg?itok=oBrBadzN" width="40" height="40" alt="Vegan Culinary Guide For Kentucky Derby Recipes" typeof="Image" class="image-style-mini-thumbnail" />
+</div></div><div class="views-field views-field-created"><span class="field-content">03-26-24</span></div><div class="views-field views-field-title"><span class="field-content"><a href="/blog/chrissloan/vegan-culinary-guide-kentucky-derby-recipes/" hreflang="en">Vegan Culinary Guide For Kentucky Derby Recipes</a></span></div><div class="views-field views-field-body"><div class="field-content"></div></div>
+</div>
+<div class="more-link"><a href="/blog/">full blog</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="block block-block-content block-block-contentb54f9b14-0a81-477f-8bc2-021682984b67">
+<div class="content">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p></p>
+
+<div id="mmt-605be093-d279-425d-97e4-e9fc9f396fa9"> </div>
+<script type="text/javascript" data-cfasync="false">
+<!--//--><![CDATA[// ><!--
+$MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["605be093-d279-425d-97e4-e9fc9f396fa9"]); })
+//--><!]]>
+</script>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="_none"><div class="container-fluid">
+<div class="layout row no-gutters layout-builder__layout">
+<div class="col-12">
+<div class="block block-views block-views-blockrelated-cuisine-block-block-4">
+<div class="content">
+<div class="views-element-container"><div class="js-view-dom-id-12d2c2cf7e23a2d322308527731095280b874f31d97a3b67e738e6c4122d7b88">
+<header>
+<h2 class="title">Seafood Recipes</h2>
+</header>
+<div id="views-bootstrap-related-cuisine-block-block-4" class="grid views-view-grid">
+<div class="row">
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/grill-mates-swai-fish-eggplant-and-zucchini/"> <img srcset="/sites/default/files/styles/263x263/public/2021-05/Grill%20Mates%20Salmon%20with%20Eggplant%20and%20Zucchini.jpeg?itok=02dJ7CaL 1x" src="/sites/default/files/styles/medium/public/2021-05/Grill%20Mates%20Salmon%20with%20Eggplant%20and%20Zucchini.jpeg?itok=ctprlScZ" alt="Grill Mates Swai Fish with Eggplant and Zucchini" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/recipes/american/grill-mates-swai-fish-eggplant-and-zucchini/" hreflang="en">Grill Mates Swai Fish with Eggplant and Zucchini</a></span></div><div class="views-field views-field-body"><div class="field-content">Looking for a super healthy meal to make for dinner? Try this Grill Mates Swai Fish with Eggplant and Zucchini recipe! It's tasty and super easy to make.
+</div></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/greek/baked-swai-fish-tomatoes-feta/"> <img srcset="/sites/default/files/styles/263x263/public/2022-12/AdobeStock_327739090_1.jpeg?itok=xobPy9Rz 1x" src="/sites/default/files/styles/medium/public/2022-12/AdobeStock_327739090_1.jpeg?itok=NMesfMAZ" alt="Baked Swai Fish with Tomatoes &amp; Feta" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/recipes/greek/baked-swai-fish-tomatoes-feta/" hreflang="en">Baked Swai Fish with Tomatoes &amp; Feta</a></span></div><div class="views-field views-field-body"><div class="field-content">Swai Fish is always considered a leaner option and this wonderful Baked Swai Fish with Tomatoes &amp; Feta recipe will have you wondering why you don't eat leaner options more and more!
+</div></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/mexican/savory-cilantro-swai-fish/"> <img srcset="/sites/default/files/styles/263x263/public/2021-06/Savory%20Cilantro%20Salmon.jpg?itok=XRujfv73 1x" src="/sites/default/files/styles/medium/public/2021-06/Savory%20Cilantro%20Salmon.jpg?itok=SJSryhPw" alt="Savory Cilantro Swai Fish" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/recipes/mexican/savory-cilantro-swai-fish/" hreflang="en">Savory Cilantro Swai Fish</a></span></div><div class="views-field views-field-body"><div class="field-content">Swai Fish is my new go-to fish and I can't get enough of this flavorful Savory Cilantro Swai Fish recipe. Add it to your night for a new spin of flavors.</div></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/blackened-shrimp-bites/"> <img srcset="/sites/default/files/styles/263x263/public/2021-07/Blackened%20Shrimp%20Bites.jpeg?itok=HW4kEJWA 1x" src="/sites/default/files/styles/medium/public/2021-07/Blackened%20Shrimp%20Bites.jpeg?itok=PpF6Lo05" alt="Blackened Shrimp Bites" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><span class="field-content"><a href="/recipes/american/blackened-shrimp-bites/" hreflang="en">Blackened Shrimp Bites</a></span></div><div class="views-field views-field-body"><div class="field-content">A simple an easy little leanest option, this Blackened Shrimp Bites recipe is perfect for summer or anytime!
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block block-views block-views-blockblog-block-1">
+<div class="content">
+<div class="views-element-container"><div class="js-view-dom-id-4452cea57a42f2d1efae350c460bb620964aed9132dd1eab93b7afb93cef071d">
+<div>
+<div class="views-field views-field-nothing"><div class="field-content highlight-section"><div class="forest-green"><div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+<a href="https://leanandgreenrecipes.net/blog/chrissloan/how-meat-meals-can-fit-healthy-diet/" alt="How Meat Meals Can Fit into a Healthy Diet">
+<h3>How Meat Meals Can Fit into a Healthy Diet</h3><br/>
+<p id="isPasted">Meat is a topic of ongoing debate within the realm of nutrition and health, presenting both benefits and challenges.</p></a></div>
+<div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6"> <a href="/blog/chrissloan/how-meat-meals-can-fit-healthy-diet/"> <img srcset="/sites/default/files/styles/263x263/public/2024-04/jez-timms-6JQMjhqpVhE-unsplash.jpg?itok=dLw0XQ2l 263w, /sites/default/files/styles/450x450/public/2024-04/jez-timms-6JQMjhqpVhE-unsplash.jpg?itok=oznT66Ke 420w, /sites/default/files/styles/large/public/2024-04/jez-timms-6JQMjhqpVhE-unsplash.jpg?itok=OIEyvEMp 480w" sizes="100vw" src="/sites/default/files/styles/large/public/2024-04/jez-timms-6JQMjhqpVhE-unsplash.jpg?itok=OIEyvEMp" alt="Salami on a tray" typeof="Image" />
+</a>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="block block-views block-views-blockrelated-cuisine-block-block-3">
+<div class="content">
+<div class="views-element-container"><div class="js-view-dom-id-00eadf86afae5fd73f396a3d2c93b066d0281e3774d2c20bf7bddf8aea18241d">
+<div id="views-bootstrap-related-cuisine-block-block-3" class="grid views-view-grid">
+<div class="row">
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-image"><div class="field-content"></div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/blog/chrissloan/how-save-email-pdf/" hreflang="en">How to Save an Email as a PDF</a></h3></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-image"><div class="field-content"> <a href="/blog/chrissloan/budget-friendly-student-breakfasts-how-not-waste-all-your-scholarship-food/"> <img srcset="/sites/default/files/styles/263x263/public/2024-03/eggs-1467286_1280.jpg?itok=4OcB2wWB 1x" src="/sites/default/files/styles/medium/public/2024-03/eggs-1467286_1280.jpg?itok=ziAwTziI" alt="avocado toast" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/blog/chrissloan/budget-friendly-student-breakfasts-how-not-waste-all-your-scholarship-food/" hreflang="en">Budget-Friendly Student Breakfasts: How Not to Waste All Your Scholarship on Food </a></h3></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-image"><div class="field-content"> <a href="/blog/chrissloan/vegan-culinary-guide-kentucky-derby-recipes/"> <img srcset="/sites/default/files/styles/263x263/public/2024-03/pexels-bulbfish-1143754.jpg?itok=pBgagYZj 1x" src="/sites/default/files/styles/medium/public/2024-03/pexels-bulbfish-1143754.jpg?itok=KUpXN9T7" alt="Vegan Culinary Guide For Kentucky Derby Recipes" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/blog/chrissloan/vegan-culinary-guide-kentucky-derby-recipes/" hreflang="en">Vegan Culinary Guide For Kentucky Derby Recipes</a></h3></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-image"><div class="field-content"> <a href="/blog/chrissloan/7-most-popular-soft-drinks-will-blow-your-weight-loss-efforts/"> <img srcset="/sites/default/files/styles/263x263/public/2024-03/beverages-3105631_1280.jpg?itok=ovM2swlb 1x" src="/sites/default/files/styles/medium/public/2024-03/beverages-3105631_1280.jpg?itok=aYF5SCV5" alt="high calorie sodas" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/blog/chrissloan/7-most-popular-soft-drinks-will-blow-your-weight-loss-efforts/" hreflang="en">7 Most Popular Soft Drinks That Will Blow Your Weight Loss Efforts</a></h3></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="_none"><div class="w-100">
+<div class="layout row no-gutters layout-builder__layout">
+<div class="col-lg-9 col-md-9 col-12">
+<div class="block block-views block-views-blockrecipes-cards--block-2">
+<h2 class="title">Mexican</h2>
+<div class="content">
+<div class="views-element-container"><div class="js-view-dom-id-14e0b208cdf996ec8840c51eca5378fcde927ee3fd1f607117efc1cff509c8ff">
+<div id="views-bootstrap-recipes-cards-block-2" class="grid views-view-grid">
+<div class="row">
+<div class="col-1 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/mexican/pork-tacos-or-tostada/"> <img srcset="/sites/default/files/styles/263x263/public/2022-12/cheese-taco.jpg?itok=yTWdYOYv 263w, /sites/default/files/styles/450x450/public/2022-12/cheese-taco.jpg?itok=nM7y0zvN 420w, /sites/default/files/styles/large/public/2022-12/cheese-taco.jpg?itok=vEnhzZA8 480w" sizes="100vw" src="/sites/default/files/styles/large/public/2022-12/cheese-taco.jpg?itok=vEnhzZA8" alt="Pork Tacos or Tostada" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content recipe-card-title"><a href="/recipes/mexican/pork-tacos-or-tostada/" hreflang="en">Pork Tacos or Tostada</a></h3></div><div class="views-field views-field-body"><div class="field-content"></div></div>
+</div>
+<div class="col-1 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/mexican/savory-cilantro-swai-fish/"> <img srcset="/sites/default/files/styles/263x263/public/2021-06/Savory%20Cilantro%20Salmon.jpg?itok=XRujfv73 263w, /sites/default/files/styles/450x450/public/2021-06/Savory%20Cilantro%20Salmon.jpg?itok=l3Z5ONzb 420w, /sites/default/files/styles/large/public/2021-06/Savory%20Cilantro%20Salmon.jpg?itok=z1ToskfW 480w" sizes="100vw" src="/sites/default/files/styles/large/public/2021-06/Savory%20Cilantro%20Salmon.jpg?itok=z1ToskfW" alt="Savory Cilantro Swai Fish" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content recipe-card-title"><a href="/recipes/mexican/savory-cilantro-swai-fish/" hreflang="en">Savory Cilantro Swai Fish</a></h3></div><div class="views-field views-field-body"><div class="field-content">Swai Fish is my new go-to fish and I can't get enough of this flavorful Savory Cilantro Swai Fish recipe. Add it to your night for a new spin of flavors.</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-12">
+<div class="block block-block-content block-block-content644d1652-901a-4fc7-9a18-1ca49e3c6aeb">
+<h2 class="title">5-in-1 Plan Great Tools</h2>
+<div class="content">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p><iframe frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=leangreen05-20&amp;language=en_US&amp;marketplace=amazon&amp;region=US&amp;placement=B08BW2GHQP&amp;asins=B08BW2GHQP&amp;linkId=1711b8cdd86862256b1ac3f92317b931&amp;show_border=true&amp;link_opens_in_new_window=true" style="width:120px;height:240px;"></iframe><iframe frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=leangreen05-20&amp;language=en_US&amp;marketplace=amazon&amp;region=US&amp;placement=B07BTQGBFT&amp;asins=B07BTQGBFT&amp;linkId=c93149cf92ced590060b1036baf715ca&amp;show_border=true&amp;link_opens_in_new_window=true" style="width:120px;height:240px;"></iframe><iframe frameborder="0" marginheight="0" marginwidth="0" scrolling="no" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ss&amp;ref=as_ss_li_til&amp;ad_type=product_link&amp;tracking_id=leangreen05-20&amp;language=en_US&amp;marketplace=amazon&amp;region=US&amp;placement=B00GHX5HGG&amp;asins=B00GHX5HGG&amp;linkId=fce0c4857f1b856cd06831553fb33e20&amp;show_border=true&amp;link_opens_in_new_window=true" style="width:120px;height:240px;"></iframe><iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&amp;OneJS=1&amp;Operation=GetAdHtml&amp;MarketPlace=US&amp;source=ac&amp;ref=tf_til&amp;ad_type=product_link&amp;tracking_id=leangreen05-20&amp;marketplace=amazon&amp;region=US&amp;placement=B07S6F6LHQ&amp;asins=B07S6F6LHQ&amp;linkId=8da262ae045e2c31f73ec46967800cf9&amp;show_border=false&amp;link_opens_in_new_window=false&amp;price_color=333333&amp;title_color=0066c0&amp;bg_color=ffffff"></iframe></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="_none"><div class="container-fluid">
+<div class="layout row no-gutters layout-builder__layout">
+<div class="col-12">
+<div class="block block-views block-views-blockrelated-cuisine-block-block-5">
+<div class="content">
+<div class="views-element-container"><div class="js-view-dom-id-4573e811abe24d30dc7af6086a37884a0c999ad43d7c3cf2f0570f6f58ef83f7">
+<header>
+<h2 class="title">Vegetarian Recipes</h2>
+</header>
+<div id="views-bootstrap-related-cuisine-block-block-5" class="grid views-view-grid">
+<div class="row">
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/italian/vegetarian-meatballs-and-zucchini-noodles/"> <img srcset="/sites/default/files/styles/263x263/public/2021-02/Depositphotos_67665701_xl-2015.jpg?itok=tcaqnMGG 1x" src="/sites/default/files/styles/medium/public/2021-02/Depositphotos_67665701_xl-2015.jpg?itok=_kittjSM" alt="Turkey Meatball with Rao&#039;s Sauce and Zucchini Noodles" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/italian/vegetarian-meatballs-and-zucchini-noodles/" hreflang="en">Vegetarian Meatballs and Zucchini Noodles</a></h3></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/green-bean-lasagna/"> <img srcset="/sites/default/files/styles/263x263/public/2021-04/Green%20Bean%20Lasagna.jpeg?itok=98kq8qXq 1x" src="/sites/default/files/styles/medium/public/2021-04/Green%20Bean%20Lasagna.jpeg?itok=9HHtTGhv" alt="Green Bean Lasagna" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/green-bean-lasagna/" hreflang="en">Green Bean Lasagna</a></h3></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/french/dash-mini-waffle-maker-omelette/"> <img srcset="/sites/default/files/styles/263x263/public/2021-03/dash-mini-waffle-maker-omellete.jpg?itok=2FEzAZ6f 1x" src="/sites/default/files/styles/medium/public/2021-03/dash-mini-waffle-maker-omellete.jpg?itok=EPmoKS_e" alt="Dash Mini Waffle Maker Omelette" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/french/dash-mini-waffle-maker-omelette/" hreflang="en">Dash Mini Waffle Maker Omelette</a></h3></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/green-bean-casserole/"> <img srcset="/sites/default/files/styles/263x263/public/2021-03/Green%20Bean%20Casserole_0.jpg?itok=CCy-ozSU 1x" src="/sites/default/files/styles/medium/public/2021-03/Green%20Bean%20Casserole_0.jpg?itok=d15bcSzR" alt="Green Bean Casserole" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/green-bean-casserole/" hreflang="en">Green Bean Casserole</a></h3></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="_none"><div class="w-100">
+<div class="layout row no-gutters layout-builder__layout">
+<div class="col-lg-9 col-md-9 col-12">
+<div class="block block-views block-views-blockrecipes-cards--block-3">
+<h2 class="title">Italian</h2>
+<div class="content">
+<div class="views-element-container"><div class="js-view-dom-id-9410467e6a5aac3d2bbd74375c4f1ab8355344b7a2a519cd6d4f1c149dfc87cd">
+<div id="views-bootstrap-recipes-cards-block-3" class="grid views-view-grid">
+<div class="row">
+<div class="col-1 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/italian/chicken-zoodle-alfredo/"> <img srcset="/sites/default/files/styles/263x263/public/2022-12/AdobeStock_281497904.jpeg?itok=90g4wKBC 263w, /sites/default/files/styles/450x450/public/2022-12/AdobeStock_281497904.jpeg?itok=yA-J5qnf 420w, /sites/default/files/styles/large/public/2022-12/AdobeStock_281497904.jpeg?itok=Pt6jUULI 480w" sizes="100vw" src="/sites/default/files/styles/large/public/2022-12/AdobeStock_281497904.jpeg?itok=Pt6jUULI" alt="Chicken Zoodle Alfredo" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content recipe-card-title"><a href="/recipes/italian/chicken-zoodle-alfredo/" hreflang="en">Chicken Zoodle Alfredo</a></h3></div><div class="views-field views-field-body"><div class="field-content"></div></div>
+</div>
+<div class="col-1 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/italian/chicken-crust-veggie-pizza/"> <img srcset="/sites/default/files/styles/263x263/public/2021-12/Chicken%20Crust%20Veggie%20Pizza.jpg?itok=xKzMwArP 263w, /sites/default/files/styles/450x450/public/2021-12/Chicken%20Crust%20Veggie%20Pizza.jpg?itok=yypHi4kV 420w, /sites/default/files/styles/large/public/2021-12/Chicken%20Crust%20Veggie%20Pizza.jpg?itok=sdd6oU_E 480w" sizes="100vw" src="/sites/default/files/styles/large/public/2021-12/Chicken%20Crust%20Veggie%20Pizza.jpg?itok=sdd6oU_E" alt="Chicken Crust Veggie Pizza" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content recipe-card-title"><a href="/recipes/italian/chicken-crust-veggie-pizza/" hreflang="en">Chicken Crust Veggie Pizza</a></h3></div><div class="views-field views-field-body"><div class="field-content"></div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-3 col-12">
+<div class="block block-block-content block-block-contente3e80d6d-cc23-4542-9773-278035a69708">
+<h2 class="title">Meal Delivery Service</h2>
+<div class="content">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p></p>
+
+<div id="mmt-a2c29854-c3a7-40e8-9d0e-cc6284916a11"> </div>
+<script type="text/javascript" data-cfasync="false">
+<!--//--><![CDATA[// ><!--
+$MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["d827fdd1-2394-467f-af27-d6a425242c97"]); })
+//--><!]]>
+</script>
+<p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="_none"><div class="container">
+<div class="layout row layout-builder__layout">
+<div class="col-12">
+<div class="block block-layout-builder block-extra-field-blocknodepagecontent-moderation-control">
+<div class="content">
+</div>
+</div>
+<div class="block block-layout-builder block-extra-field-blocknodepagelinks">
+<div class="content">
+</div>
+</div>
+<div class="block block-layout-builder block-field-blocknodepagebody">
+<div class="content">
+<div property="schema:text" class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p>Learn more about how <a href="https://leanandgreenrecipes.net/what-is-th-5-in-1-plan/">this plan</a> works!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div><div class="node_view"></div>
+</div>
+</article>
 </div>
 </div>
 <div id="block-accessibilityblock" class="block block-block-content block-block-contentcc617ad8-ff39-4403-b565-0297dd1ee625">
@@ -599,7 +778,7 @@ color: white;
 }
 
 /*--><!]]>*/
-</style><script type="15803357096e13110d35f262-text/javascript">
+</style><script type="661300774e22c937bd124680-text/javascript">
 <!--//--><![CDATA[// ><!--
 
       (function(d){
@@ -656,6 +835,36 @@ Please ensure Javascript is enabled for purposes of
 
 
 
+<div class="footerwidget" id>
+<div class="container">
+<div class="parallax-region wow- bounceInUp">
+<div class="row">
+
+
+
+
+
+<div class="col-md-12">
+<div class="region region-footer-third">
+<div id="block-facebooksdk" class="block block-block-content block-block-content7d7f568b-c032-4bd1-979d-37c297d9ff5b">
+<div class="content">
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><div id="fb-root"> </div>
+<script async defer="defer" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v11.0&amp;appId=145501974088161&amp;autoLogAppEvents=1" nonce="3Eca0lwR" type="661300774e22c937bd124680-text/javascript"></script>
+<script type="661300774e22c937bd124680-text/javascript">
+<!--//--><![CDATA[// ><!--
+var abr_id = 2647;
+//--><!]]>
+</script>
+<script async src="https://cdn.abrankings.com/js/client.js" type="661300774e22c937bd124680-text/javascript"></script></div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
 
 
 
@@ -670,21 +879,16 @@ Please ensure Javascript is enabled for purposes of
 <div class="region region-user-menu">
 <div class="views-element-container block block-views block-views-blockrelated-cuisine-block-block-6" id="block-views-block-related-cuisine-block-block-6">
 <div class="content">
-<div><div class="js-view-dom-id-ec38d3ff2562869046471f0b34ae1f4f67b5941499781a5a961a8ed5dc9f70fd">
+<div><div class="js-view-dom-id-e4f251cbaec9767ba2bf9e8d85d2c780f25d2b3cf469a5754ab943e8a5f299ca">
 <header>
 <h2 class="title">Recipes We Love</h2>
 </header>
 <div id="views-bootstrap-related-cuisine-block-block-6" class="grid views-view-grid">
 <div class="row">
 <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
-<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/cuban/shredded-beef-stew-ropa-vieja/"> <img srcset="/sites/default/files/styles/263x263/public/2021-03/Shredded%20Beef%20Stew%20Ropa%20Vieja.jpeg?itok=f4gh5DKL 1x" src="/sites/default/files/styles/medium/public/2021-03/Shredded%20Beef%20Stew%20Ropa%20Vieja.jpeg?itok=7wf6GmVE" alt="Shredded Beef Stew Ropa Vieja" typeof="foaf:Image" />
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/white-chicken-chili/"> <img srcset="/sites/default/files/styles/263x263/public/2021-04/White%20Chicken%20Chili.jpeg?itok=WGla-ERD 1x" src="/sites/default/files/styles/medium/public/2021-04/White%20Chicken%20Chili.jpeg?itok=V1tWSN_N" alt="White Chicken Chili" typeof="foaf:Image" />
 </a>
-</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/cuban/shredded-beef-stew-ropa-vieja/" hreflang="en">Shredded Beef Stew: Ropa Vieja</a></h3></div>
-</div>
-<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
-<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/shrimp-scampi/"> <img srcset="/sites/default/files/styles/263x263/public/2021-03/Shrimp-Scampi.jpg?itok=KoYaEQsT 1x" src="/sites/default/files/styles/medium/public/2021-03/Shrimp-Scampi.jpg?itok=PC1YXND5" alt="Shrimp Scampi" typeof="foaf:Image" />
-</a>
-</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/shrimp-scampi/" hreflang="en">Shrimp Scampi</a></h3></div>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/white-chicken-chili/" hreflang="en">White Chicken Chili</a></h3></div>
 </div>
 <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
 <div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/grill-mates-swai-fish-eggplant-and-zucchini/"> <img srcset="/sites/default/files/styles/263x263/public/2021-05/Grill%20Mates%20Salmon%20with%20Eggplant%20and%20Zucchini.jpeg?itok=02dJ7CaL 1x" src="/sites/default/files/styles/medium/public/2021-05/Grill%20Mates%20Salmon%20with%20Eggplant%20and%20Zucchini.jpeg?itok=ctprlScZ" alt="Grill Mates Swai Fish with Eggplant and Zucchini" typeof="foaf:Image" />
@@ -692,9 +896,14 @@ Please ensure Javascript is enabled for purposes of
 </div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/grill-mates-swai-fish-eggplant-and-zucchini/" hreflang="en">Grill Mates Swai Fish with Eggplant and Zucchini</a></h3></div>
 </div>
 <div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
-<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/mediterranean/middle-eastern-salmon-tomato-cucumber-dill-salad/"> <img srcset="/sites/default/files/styles/263x263/public/2021-04/Middle%20Eastern%20Salmon%20with%20Tomao%2C%20Cucumber%2C%20%26%20Dill%20Salad.jpeg?itok=GuoVA-aX 1x" src="/sites/default/files/styles/medium/public/2021-04/Middle%20Eastern%20Salmon%20with%20Tomao%2C%20Cucumber%2C%20%26%20Dill%20Salad.jpeg?itok=nmWeqqyO" alt="Middle Eastern Salmon with Tomato, Cucumber, &amp; Dill Salad" typeof="foaf:Image" />
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/turkey-meatloaf-fennel/"> <img srcset="/sites/default/files/styles/263x263/public/2021-03/Turkey-Meatloaf.jpg?itok=6x4ONv7X 1x" src="/sites/default/files/styles/medium/public/2021-03/Turkey-Meatloaf.jpg?itok=kpJqWTIe" alt="Turkey Meatloaf with Fennel" typeof="foaf:Image" />
 </a>
-</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/mediterranean/middle-eastern-salmon-tomato-cucumber-dill-salad/" hreflang="en">Middle Eastern Salmon with Tomato, Cucumber, &amp; Dill Salad</a></h3></div>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/turkey-meatloaf-fennel/" hreflang="en">Turkey Meatloaf with Fennel</a></h3></div>
+</div>
+<div class="col-6 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xs-6 col-sm-3 col-3 col-xl-3 col-m-3 col-lg-3">
+<div class="views-field views-field-field-recipe-image"><div class="field-content"> <a href="/recipes/american/one-pan-lemon-pepper-salmon-garlic-parmesan-asparagus/"> <img srcset="/sites/default/files/styles/263x263/public/2021-03/salmon-asparagus.jpg?itok=Q_v74OTR 1x" src="/sites/default/files/styles/medium/public/2021-03/salmon-asparagus.jpg?itok=v6GJ01Dt" alt="One-Pan Lemon Pepper Salmon with Garlic Parmesan Asparagus" typeof="foaf:Image" />
+</a>
+</div></div><div class="views-field views-field-title"><h3 class="field-content"><a href="/recipes/american/one-pan-lemon-pepper-salmon-garlic-parmesan-asparagus/" hreflang="en">One-Pan Lemon Pepper Salmon with Garlic Parmesan Asparagus</a></h3></div>
 </div>
 </div>
 </div>
@@ -715,14 +924,14 @@ Please ensure Javascript is enabled for purposes of
 </nav>
 <div id="block-skimlinksblock" class="block block-block-content block-block-contente2ebaa3c-8b23-4acf-a7de-dfcf8d447029">
 <div class="content">
-<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><script type="15803357096e13110d35f262-text/javascript" src="https://s.skimresources.com/js/193111X1670495.skimlinks.js"></script>
+<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><script type="661300774e22c937bd124680-text/javascript" src="https://s.skimresources.com/js/193111X1670495.skimlinks.js"></script>
 </div>
 </div>
 </div>
 <div id="block-lowestadspaceforfootersticker" class="block block-block-content block-block-contentf310eeb6-65c0-4910-aec2-92b29ff70360">
 <div class="content">
 <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
-<div id="mmt-acc8e5eb-c8af-4f82-bca7-5b0012dee9ba"> </div>
+<div id="mmt-acc8e5eb-c8af-4f82-bca7-5b0012dee9ba"> </div>
 <script type="text/javascript" data-cfasync="false">
 <!--//--><![CDATA[// ><!--
 $MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $MMT.display.slots.push(["acc8e5eb-c8af-4f82-bca7-5b0012dee9ba"]); })
@@ -743,49 +952,29 @@ $MMT = window.$MMT || {}; $MMT.cmd = $MMT.cmd || [];$MMT.cmd.push(function(){ $M
 </div>
 </div>
 </div>
-<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"recipes","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"addtoany\/addtoany,core\/drupal.autocomplete,core\/html5shiv,core\/picturefill,extlink\/drupal.extlink,google_analytics\/google_analytics,restaurant_zymphonies_theme\/bootstrap,restaurant_zymphonies_theme\/flexslider,restaurant_zymphonies_theme\/fontawesome,restaurant_zymphonies_theme\/global-components,restaurant_zymphonies_theme\/owl,restaurant_zymphonies_theme\/smartmenus,simple_popup_blocks\/simple_popup_blocks,system\/base,views\/views.module","theme":"restaurant_zymphonies_theme","theme_token":null},"ajaxTrustedUrl":{"\/recipes\/":true},"data":{"extlink":{"extTarget":false,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":null}},"google_analytics":{"account":"UA-130561802-4","trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true,"trackDomainMode":1,"trackUrlFragments":true},"simple_popup_blocks":{"settings":[{"identifier":"block-newslettersignupblock","uid":"newsletter_signup","type":"0","css_selector":"1","layout":"4","visit_counts":"0","overlay":"1","trigger_method":"0","trigger_selector":"#custom-css-id","enable_escape":"1","delay":"3","minimize":"0","close":"1","use_time_frequency":"1","time_frequency":"604800","show_minimized_button":"0","width":"400","cookie_expiry":"0","status":"1","trigger_width":""}]},"user":{"uid":0,"permissionsHash":"e58286aa8cca75283e456ec9f78dfdc5cc869846276096f6903edd2403ea61a7"}}</script>
-<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.5.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/misc/drupalSettingsLoader.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/misc/drupal.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/misc/drupal.init.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/data-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/disable-selection-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/form-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/labels-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/jquery-1-7-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/scroll-parent-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/tabbable-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/unique-id-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/version-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/escape-selector-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/focusable-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/ie-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/keycode-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/plugin-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/safe-active-element-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/safe-blur-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/picturefill/picturefill.min.js?v=3.0.3" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/widget-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/misc/autocomplete.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="//assets.pinterest.com/js/pinit.js" data-pin-hover="1" async defer type="15803357096e13110d35f262-text/javascript"></script>
-<script src="https://static.addtoany.com/menu/page.js" async type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/modules/contrib/addtoany/js/addtoany.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/modules/contrib/extlink/extlink.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/modules/google_analytics/js/google_analytics.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/modules/simple_popup_blocks/js/simple_popup_blocks.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/misc/progress.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/modules/responsive_image/js/responsive_image.ajax.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/misc/ajax.js?v=8.9.20" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/themes/contrib/restaurant_zymphonies_theme2/includes/bootstrap/js/bootstrap.min.js?v=1.x" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/themes/contrib/restaurant_zymphonies_theme2/includes/flexslider/js/jquery.flexslider-min.js?v=1.x" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/themes/contrib/restaurant_zymphonies_theme2/includes/smartmenus/jquery.smartmenus.min.js?v=1.x" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/themes/contrib/restaurant_zymphonies_theme2/includes/owl/owl.carousel.min.js?v=1.x" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/themes/contrib/restaurant_zymphonies_theme2/js/custom.js?sc69ow" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/matchMedia/matchMedia.min.js?v=0.2.0" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/position-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/widgets/menu-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/core/assets/vendor/jquery.ui/ui/widgets/autocomplete-min.js?v=1.12.1" type="15803357096e13110d35f262-text/javascript"></script>
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="15803357096e13110d35f262-|49" defer></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v55bfa2fee65d44688e90c00735ed189a1713218998793" integrity="sha512-FIKRFRxgD20moAo96hkZQy/5QojZDAbyx0mQ17jEGHCJc/vi0G2HXLtofwD7Q3NmivvP9at5EVgbRqOaOQb+Rg==" data-cf-beacon='{"rayId":"8770122cd9990cb5","version":"2024.3.0","token":"66850ab95e7e49f494087bbf02a5f81e"}' crossorigin="anonymous"></script>
-</body>
+<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/21","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"addtoany\/addtoany,bootstrap_styles\/plugin.background_color.build,bootstrap_styles\/plugin.border.build,bootstrap_styles\/plugin.margin.build,bootstrap_styles\/plugin.padding.build,bootstrap_styles\/plugin.scroll_effects.build,bootstrap_styles\/plugin.text_alignment.build,bootstrap_styles\/plugin.text_color.build,classy\/node,core\/html5shiv,core\/picturefill,extlink\/drupal.extlink,google_analytics\/google_analytics,media\/filter.caption,printable\/entity-links,restaurant_zymphonies_theme\/bootstrap,restaurant_zymphonies_theme\/flexslider,restaurant_zymphonies_theme\/fontawesome,restaurant_zymphonies_theme\/global-components,restaurant_zymphonies_theme\/owl,restaurant_zymphonies_theme\/smartmenus,simple_popup_blocks\/simple_popup_blocks,system\/base,views\/views.module","theme":"restaurant_zymphonies_theme","theme_token":null},"ajaxTrustedUrl":[],"data":{"extlink":{"extTarget":false,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":true,"extExclude":"","extInclude":"","extCssExclude":"","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"mailto","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":null}},"google_analytics":{"account":"UA-130561802-4","trackOutbound":true,"trackMailto":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":true,"trackDomainMode":1,"trackUrlFragments":true},"simple_popup_blocks":{"settings":[{"identifier":"block-newslettersignupblock","uid":"newsletter_signup","type":"0","css_selector":"1","layout":"4","visit_counts":"0","overlay":"1","trigger_method":"0","trigger_selector":"#custom-css-id","enable_escape":"1","delay":"3","minimize":"0","close":"1","use_time_frequency":"1","time_frequency":"604800","show_minimized_button":"0","width":"400","cookie_expiry":"0","status":"1","trigger_width":""}]},"user":{"uid":0,"permissionsHash":"e58286aa8cca75283e456ec9f78dfdc5cc869846276096f6903edd2403ea61a7"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.5.1" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/core/assets/vendor/jquery-once/jquery.once.min.js?v=2.2.3" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/core/misc/drupal.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/core/misc/drupal.init.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/core/assets/vendor/picturefill/picturefill.min.js?v=3.0.3" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="//assets.pinterest.com/js/pinit.js" data-pin-hover="1" async defer type="661300774e22c937bd124680-text/javascript"></script>
+<script src="https://static.addtoany.com/menu/page.js" async type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/modules/contrib/addtoany/js/addtoany.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/modules/google_analytics/js/google_analytics.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/modules/simple_popup_blocks/js/simple_popup_blocks.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/core/misc/progress.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/core/modules/responsive_image/js/responsive_image.ajax.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/core/misc/ajax.js?v=8.9.20" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/themes/contrib/restaurant_zymphonies_theme2/includes/bootstrap/js/bootstrap.min.js?v=1.x" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/themes/contrib/restaurant_zymphonies_theme2/includes/flexslider/js/jquery.flexslider-min.js?v=1.x" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/themes/contrib/restaurant_zymphonies_theme2/includes/smartmenus/jquery.smartmenus.min.js?v=1.x" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/themes/contrib/restaurant_zymphonies_theme2/includes/owl/owl.carousel.min.js?v=1.x" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/themes/contrib/restaurant_zymphonies_theme2/js/custom.js?sca1cq" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/modules/contrib/bootstrap_styles/js/plugins/scroll_effects/build.js?v=1.x" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/core/assets/vendor/matchMedia/matchMedia.min.js?v=0.2.0" type="661300774e22c937bd124680-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="661300774e22c937bd124680-|49" defer></script><script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'87a0ca89b8bc2b5e',t:'MTcxNDA3Mzg4My4yODYwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html>

@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en-US" class="no-js">
 <head>
@@ -205,7 +204,7 @@ var permutivePageSchema = {"category":[],"tags":[],"classifications_watson":{"ke
 <script type='text/plain' class='optanon-category-C0004' async="async" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js?ver=1.0.0" id="gam-gpt-js"></script>
 <script type="text/javascript" id="ad-stack-js-extra">
 /* <![CDATA[ */
-var tmbi_ad_data = {"global_targeting":{"property":"6178","siteId":"toh","pageType":"homepage","url":"\/","keywords":"nokeywords","category":"misc","topic":"misc","pt":"homepage","platform":"desktop","theme":"new","video":"false","contentID":"201581574786","afc":"no"},"breakpoint":{"large_screen":1024,"desktop":769,"tablet":481,"mobile":0},"offset":{"mobile":"500","desktop":"600"},"viewport_offset":{"mobile":"","desktop":""},"options":{"dfp_property":"6178","dfp_site_id":"toh","dfp_platform":"desktop","dfp_content_id_default":"20158","dfp_prearticle_desktop_height":"","dfp_prearticle_mobile_height":"270","dfp_content_desktop_height":"","dfp_content_mobile_height":"270","dfp_lazy_load_offset_article":"600","dfp_lazy_load_offset_article_mobile":"500","dfp_lazy_load_offset_category":"600","dfp_lazy_load_offset_category_mobile":"500","dfp_lazy_load_offset_homepage":"600","dfp_lazy_load_offset_homepage_mobile":"500","dfp_lazy_load_offset_listicle":"600","dfp_lazy_load_offset_listicle_mobile":"500","dfp_lazy_load_offset_recipedetail":"600","dfp_lazy_load_offset_recipedetail_mobile":"500","dfp_lazy_load_offset_videocategory":"600","dfp_lazy_load_offset_videocategory_mobile":"500","dfp_lazy_load_viewport_offset_article":"","dfp_lazy_load_viewport_offset_article_mobile":"","dfp_lazy_load_viewport_offset_category":"","dfp_lazy_load_viewport_offset_category_mobile":"","dfp_lazy_load_viewport_offset_homepage":"","dfp_lazy_load_viewport_offset_homepage_mobile":"","dfp_lazy_load_viewport_offset_listicle":"150","dfp_lazy_load_viewport_offset_listicle_mobile":"150","dfp_lazy_load_viewport_offset_recipedetail":"","dfp_lazy_load_viewport_offset_recipedetail_mobile":"","dfp_lazy_load_viewport_offset_videocategory":"","dfp_lazy_load_viewport_offset_videocategory_mobile":"","dfp_tracking_code_id":"utm, trkid","dfp_newsletter_tracking_id":" _cmp, _ebid, _emid, _ehid","dfp_exclude_ad_slot_article":"","dfp_exclude_ad_slot_article_mobile":"","dfp_exclude_ad_slot_category":"","dfp_exclude_ad_slot_category_mobile":"","dfp_exclude_ad_slot_homepage":"","dfp_exclude_ad_slot_homepage_mobile":"","dfp_exclude_ad_slot_listicle":"","dfp_exclude_ad_slot_listicle_mobile":"","dfp_exclude_ad_slot_recipedetail":"","dfp_exclude_ad_slot_recipedetail_mobile":"","dfp_exclude_ad_slot_videocategory":"","dfp_exclude_ad_slot_videocategory_mobile":"","dfp_exclude_pages":"764080,951492","dfp_refresh_ad_status_mobile":"1","dfp_refresh_ad_inview_status_mobile":"1","dfp_refresh_ad_timer_mobile":"30","dfp_refresh_ad_count_mobile":"150","dfp_refresh_ad_pause_status_mobile":"1","dfp_refresh_ad_status_desktop":"1","dfp_refresh_ad_inview_status_desktop":"1","dfp_refresh_ad_timer_desktop":"30","dfp_refresh_ad_count_desktop":"150","dfp_refresh_ad_pause_status_desktop":"1","dfp_prevent_refresh_slot":"","dfp_prevent_refresh_all_slots":"","bx_xchange_script_id":"934"},"tracking_codes":["utm"," trkid"],"newsletter_tracking_codes":[" _cmp"," _ebid"," _emid"," _ehid"],"ad_unit_three":"homepage","video_content":"homepage","_gfc":"","block_refresh":""};
+var tmbi_ad_data = {"global_targeting":{"property":"6178","siteId":"toh","pageType":"homepage","url":"\/","keywords":"nokeywords","category":"misc","topic":"misc","pt":"homepage","platform":"desktop","theme":"new","video":"false","contentID":"201581574786","afc":"no"},"breakpoint":{"large_screen":1024,"desktop":769,"tablet":481,"mobile":0},"offset":{"mobile":"500","desktop":"600"},"viewport_offset":{"mobile":"","desktop":""},"options":{"dfp_property":"6178","dfp_site_id":"toh","dfp_platform":"desktop","dfp_content_id_default":"20158","dfp_prearticle_desktop_height":"","dfp_prearticle_mobile_height":"270","dfp_content_desktop_height":"","dfp_content_mobile_height":"270","dfp_lazy_load_offset_article":"600","dfp_lazy_load_offset_article_mobile":"500","dfp_lazy_load_offset_category":"600","dfp_lazy_load_offset_category_mobile":"500","dfp_lazy_load_offset_homepage":"600","dfp_lazy_load_offset_homepage_mobile":"500","dfp_lazy_load_offset_listicle":"600","dfp_lazy_load_offset_listicle_mobile":"500","dfp_lazy_load_offset_recipedetail":"600","dfp_lazy_load_offset_recipedetail_mobile":"500","dfp_lazy_load_offset_videocategory":"600","dfp_lazy_load_offset_videocategory_mobile":"500","dfp_lazy_load_viewport_offset_article":"","dfp_lazy_load_viewport_offset_article_mobile":"","dfp_lazy_load_viewport_offset_category":"","dfp_lazy_load_viewport_offset_category_mobile":"","dfp_lazy_load_viewport_offset_homepage":"","dfp_lazy_load_viewport_offset_homepage_mobile":"","dfp_lazy_load_viewport_offset_listicle":"250","dfp_lazy_load_viewport_offset_listicle_mobile":"250","dfp_lazy_load_viewport_offset_recipedetail":"","dfp_lazy_load_viewport_offset_recipedetail_mobile":"","dfp_lazy_load_viewport_offset_videocategory":"","dfp_lazy_load_viewport_offset_videocategory_mobile":"","dfp_tracking_code_id":"utm, trkid","dfp_newsletter_tracking_id":" _cmp, _ebid, _emid, _ehid","dfp_exclude_ad_slot_article":"","dfp_exclude_ad_slot_article_mobile":"","dfp_exclude_ad_slot_category":"","dfp_exclude_ad_slot_category_mobile":"","dfp_exclude_ad_slot_homepage":"","dfp_exclude_ad_slot_homepage_mobile":"","dfp_exclude_ad_slot_listicle":"","dfp_exclude_ad_slot_listicle_mobile":"","dfp_exclude_ad_slot_recipedetail":"","dfp_exclude_ad_slot_recipedetail_mobile":"","dfp_exclude_ad_slot_videocategory":"","dfp_exclude_ad_slot_videocategory_mobile":"","dfp_exclude_pages":"764080,951492","dfp_refresh_ad_status_mobile":"1","dfp_refresh_ad_inview_status_mobile":"1","dfp_refresh_ad_timer_mobile":"30","dfp_refresh_ad_count_mobile":"150","dfp_refresh_ad_pause_status_mobile":"1","dfp_refresh_ad_status_desktop":"1","dfp_refresh_ad_inview_status_desktop":"1","dfp_refresh_ad_timer_desktop":"30","dfp_refresh_ad_count_desktop":"150","dfp_refresh_ad_pause_status_desktop":"1","dfp_prevent_refresh_slot":"","dfp_prevent_refresh_all_slots":"","bx_xchange_script_id":"934"},"tracking_codes":["utm"," trkid"],"newsletter_tracking_codes":[" _cmp"," _ebid"," _emid"," _ehid"],"ad_unit_three":"homepage","video_content":"homepage","_gfc":"","block_refresh":""};
 var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 /* ]]> */
 </script>
@@ -708,9 +707,9 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 					<div id="magazine-subscription-wrapper" class="header-cmu-ad-wrapper">
 						<div id="header-2021-cmu-ad-wrapper">
 				<div class="header-2021-cmu-ad">
-					<div class="ad-container-wrapper  dfp-ad-widget"><div id="ad6622289738dfd" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_top_right" data-ad-sizes="130x31,385x97,260x68" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[130,31]],"tablet":[[130,31]],"desktop":[[385,97],[260,68]],"large_screen":[[385,97],[260,68]]}' data-ad-targeting='{"pos":"cm_top_right"}' data-ad-exclude-header-bidding="1" data-ad-exclude-lazy-loading="1" data-ad-exclude-ad-refresh="1"></div></div>				</div>
+					<div class="ad-container-wrapper  dfp-ad-widget"><div id="ad6629ea65cf41c" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_top_right" data-ad-sizes="130x31,385x97,260x68" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[130,31]],"tablet":[[130,31]],"desktop":[[385,97],[260,68]],"large_screen":[[385,97],[260,68]]}' data-ad-targeting='{"pos":"cm_top_right"}' data-ad-exclude-header-bidding="1" data-ad-exclude-lazy-loading="1" data-ad-exclude-ad-refresh="1"></div></div>				</div>
 									<div class="subscription-flyout-ad" id="subscription-flyout" aria-hidden="true">
-						<div class="ad-container-wrapper  dfp-ad-widget"><div id="ad662228974f6ad" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_flyout" data-ad-sizes="440x285,440x480,200x148,200x190" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[200,148],[200,190]],"tablet":[[200,148],[200,190]],"desktop":[[440,285],[440,480]],"large_screen":[[440,285],[440,480]]}' data-ad-targeting='{"pos":"cm_flyout"}' data-ad-exclude-header-bidding="1" data-ad-exclude-ad-refresh="1"></div></div>					</div>
+						<div class="ad-container-wrapper  dfp-ad-widget"><div id="ad6629ea65db5bd" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_flyout" data-ad-sizes="440x285,440x480,200x148,200x190" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[200,148],[200,190]],"tablet":[[200,148],[200,190]],"desktop":[[440,285],[440,480]],"large_screen":[[440,285],[440,480]]}' data-ad-targeting='{"pos":"cm_flyout"}' data-ad-exclude-header-bidding="1" data-ad-exclude-ad-refresh="1"></div></div>					</div>
 							</div>
 		</div>
 		
@@ -742,11 +741,11 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 																																																																																	
 										
 																																																							
-																																				
+																																																							
 																																				
 																															<div class="hero-block col col-left">
 							<div class="col-left-wrapper"><div class="item">
-								<div class="img-wrapper video-post"><a  data-name="How to Make Cauliflower Soup" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/cauliflower-soup/"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Cauliflower-Soup_EXPS_FT24_19731_JR_0214_7.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"><div class="overlay-icon">
+								<div class="img-wrapper video-post"><a  data-name="How to Make Potato Kugel" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/potato-kugel/"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Potato-Kugel_EXPS_TOHAM25_173351_DR_04_11_02b.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"><div class="overlay-icon">
 												<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
 													<path d="M10.9223 6.1247C11.1786 6.28185 11.358 6.51758 11.4606 6.7795C11.5631 7.06761 11.5631 7.35572 11.4606 7.61764C11.358 7.90575 11.1786 8.11528 10.9223 8.27243L1.89972 13.7203C1.6434 
 													13.8775 1.36145 13.9299 1.07949 13.8775C0.771903 13.8251 0.541213 13.6941 0.336154 13.4584C0.131096 13.2489 0.0541992 12.9608 0.0541992 12.6465V1.75066C0.0541992 1.41017 0.156728 1.12206 0.361787 0.912522C0.566845 0.702987 0.797535 0.572028 1.10512 0.519644C1.38708 0.46726 1.6434 0.519644 1.89972 0.676795L10.9223 6.1247Z" fill="white" />
@@ -758,11 +757,11 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 									<div class="category">
 										<a  data-name="Recipes" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/" class="category-title">Recipes</a>
 									</div>
-									<p class="content-title"><a  data-name="How to Make Cauliflower Soup" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/cauliflower-soup/">How to Make Cauliflower Soup</a></p>
-									<a  data-name="Lindsay D. Mattison" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/lindsay-mattison/" class="author">By Lindsay D. Mattison</a>
+									<p class="content-title"><a  data-name="How to Make Potato Kugel" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/potato-kugel/">How to Make Potato Kugel</a></p>
+									<a  data-name="Taste of Home Editors" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/tohapi/" class="author">By Taste of Home Editors</a>
 								</div>
 							</div><div class="item">
-								<div class="img-wrapper video-post"><a  data-name="47 Slider Recipes Perfect for a Party" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/slider-recipes/"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2021/03/Sloppy-Joe-Slider-Bake_EXPS_FT24_258849_EC_012524_3.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"><div class="overlay-icon">
+								<div class="img-wrapper video-post"><a  data-name="80 Make-Ahead Brunch Recipes" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/make-ahead-brunch-recipes/"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2020/12/Peanut-Butter-and-Jelly-Overnight-Oats-_EXPS_RC20_253830_E09_09_2b-25.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"><div class="overlay-icon">
 												<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
 													<path d="M10.9223 6.1247C11.1786 6.28185 11.358 6.51758 11.4606 6.7795C11.5631 7.06761 11.5631 7.35572 11.4606 7.61764C11.358 7.90575 11.1786 8.11528 10.9223 8.27243L1.89972 13.7203C1.6434 
 													13.8775 1.36145 13.9299 1.07949 13.8775C0.771903 13.8251 0.541213 13.6941 0.336154 13.4584C0.131096 13.2489 0.0541992 12.9608 0.0541992 12.6465V1.75066C0.0541992 1.41017 0.156728 1.12206 0.361787 0.912522C0.566845 0.702987 0.797535 0.572028 1.10512 0.519644C1.38708 0.46726 1.6434 0.519644 1.89972 0.676795L10.9223 6.1247Z" fill="white" />
@@ -772,25 +771,25 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 
 								<div class="text-wrapper">
 									<div class="category">
-										<a  data-name="Comfort Food" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/cooking-style/comfort-food/" class="category-title">Comfort Food</a>
+										<a  data-name="Brunch" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/meal-types/brunch/" class="category-title">Brunch</a>
 									</div>
-									<p class="content-title"><a  data-name="47 Slider Recipes Perfect for a Party" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/slider-recipes/">47 Slider Recipes Perfect for a Party</a></p>
-									<a  data-name="Caroline Stanko" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/cstanko/" class="author">By Caroline Stanko</a>
+									<p class="content-title"><a  data-name="80 Make-Ahead Brunch Recipes" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/make-ahead-brunch-recipes/">80 Make-Ahead Brunch Recipes</a></p>
+									<a  data-name="Kelsey Mueller" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/kmueller/" class="author">By Kelsey Mueller</a>
 								</div>
 							</div></div>
 						</div><div class="hero-block col col-middle">
-							<div class="item video-post"><a  data-name="42 Best Salmon Recipes to Make Again and Again" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/salmon-recipes/"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2021/08/Bourbon-Glazed-Salmon_EXPS_FT21_171148_F_0615_1.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"><div class="overlay-icon">
+							<div class="item video-post"><a  data-name="50 Super Satisfying Cheap and Healthy Meals" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/cheap-healthy-meals/"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/12/Veggie-Cashew-Stir-Fry_EXPS_THFM19_133126_E09_28_7b-21.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"><div class="overlay-icon">
 										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
 											<path d="M10.9223 6.1247C11.1786 6.28185 11.358 6.51758 11.4606 6.7795C11.5631 7.06761 11.5631 7.35572 11.4606 7.61764C11.358 7.90575 11.1786 8.11528 10.9223 8.27243L1.89972 13.7203C1.6434 
 											13.8775 1.36145 13.9299 1.07949 13.8775C0.771903 13.8251 0.541213 13.6941 0.336154 13.4584C0.131096 13.2489 0.0541992 12.9608 0.0541992 12.6465V1.75066C0.0541992 1.41017 0.156728 1.12206 0.361787 0.912522C0.566845 0.702987 0.797535 0.572028 1.10512 0.519644C1.38708 0.46726 1.6434 0.519644 1.89972 0.676795L10.9223 6.1247Z" fill="white" />
 										</svg>
 									</div></a>
 								<div class="category">
-									<a  data-name="Salmon" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/ingredients/fish-seafood/salmon/" class="category-title">Salmon</a>
+									<a  data-name="Healthy Eating" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/health-wellness/healthy-eating/" class="category-title">Healthy Eating</a>
 									<p class="content-title hero-spot-text">
-										<a  data-name="42 Best Salmon Recipes to Make Again and Again" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/salmon-recipes/">42 Best Salmon Recipes to Make Again and Again</a>
+										<a  data-name="50 Super Satisfying Cheap and Healthy Meals" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/cheap-healthy-meals/">50 Super Satisfying Cheap and Healthy Meals</a>
 									</p>
-									<a  data-name="Kelsey Mueller" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/kmueller/" class="author">By Kelsey Mueller</a>
+									<a  data-name="Nicole Doster" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/ndoster/" class="author">By Nicole Doster</a>
 								</div>
 							</div>
 						</div><div class="hero-block col col-right">
@@ -810,13 +809,18 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 								<a  data-name="Peggy Woodward, RDN" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/peggy-woodward/" class="author">By Peggy Woodward, RDN</a>
 							</div>
 						</div>	<div class="item">
-							<div class="img-wrapper"><a  data-name="Can You Freeze Cheese?" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/article/can-you-freeze-cheese/"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2024/02/Can-You-Freeze-Cheese_TOHDFS24_FoodStorage_Cheese_FT_P2_MD_03_15_7b.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"></a>
+							<div class="img-wrapper video-post"><a  data-name="10 Mistakes You Might Be Making with Eggs" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/mistakes-you-might-be-making-with-eggs/"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2019/07/woman-whisking-eggs-wipped-glass-bowl-shutterstock_1017173872.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"><div class="overlay-icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
+												<path d="M10.9223 6.1247C11.1786 6.28185 11.358 6.51758 11.4606 6.7795C11.5631 7.06761 11.5631 7.35572 11.4606 7.61764C11.358 7.90575 11.1786 8.11528 10.9223 8.27243L1.89972 13.7203C1.6434 
+												13.8775 1.36145 13.9299 1.07949 13.8775C0.771903 13.8251 0.541213 13.6941 0.336154 13.4584C0.131096 13.2489 0.0541992 12.9608 0.0541992 12.6465V1.75066C0.0541992 1.41017 0.156728 1.12206 0.361787 0.912522C0.566845 0.702987 0.797535 0.572028 1.10512 0.519644C1.38708 0.46726 1.6434 0.519644 1.89972 0.676795L10.9223 6.1247Z" fill="white" />
+											</svg>
+										</div></a>
 							</div>
 							<div class="float-right">
 								<div class="category">
-									<a  data-name="Ingredients" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/ingredients/" class="category-title">Ingredients</a>
+									<a  data-name="Test Kitchen Tips" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/test-kitchen/test-kitchen-tips/" class="category-title">Test Kitchen Tips</a>
 								</div>
-								<p class="content-title"><a  data-name="Can You Freeze Cheese?" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/article/can-you-freeze-cheese/">Can You Freeze Cheese?</a></p>
+								<p class="content-title"><a  data-name="10 Mistakes You Might Be Making with Eggs" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/mistakes-you-might-be-making-with-eggs/">10 Mistakes You Might Be Making with Eggs</a></p>
 								<a  data-name="Sarah Kosalos" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/skosalos/" class="author">By Sarah Kosalos</a>
 							</div>
 						</div>	<div class="item">
@@ -830,14 +834,14 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 								<a  data-name="Rosemary Siefert" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/rosie-siefert/" class="author">By Rosemary Siefert</a>
 							</div>
 						</div>	<div class="item">
-							<div class="img-wrapper"><a  data-name="6 Best Flavored Coffee Brands for Tasty Morning Brews" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/best-flavored-coffee/"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2024/04/6-Best-Flavored-Coffee-Brands-for-Tasty-Morning-Brews_Emily-Way_01_PKedit_FT.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"></a>
+							<div class="img-wrapper"><a  data-name="The 25 Best College Care Packages" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/college-care-packages/"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2024/04/The-25-Best-College-Care-Packages_FT_via-Amazon.com-a.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"></a>
 							</div>
 							<div class="float-right">
 								<div class="category">
 									<a  data-name="Stuff We Love" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/stuff-we-love/" class="category-title">Stuff We Love</a>
 								</div>
-								<p class="content-title"><a  data-name="6 Best Flavored Coffee Brands for Tasty Morning Brews" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/best-flavored-coffee/">6 Best Flavored Coffee Brands for Tasty Morning Brews</a></p>
-								<a  data-name="Emily Way" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/emily-way/" class="author">By Emily Way</a>
+								<p class="content-title"><a  data-name="The 25 Best College Care Packages" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/college-care-packages/">The 25 Best College Care Packages</a></p>
+								<a  data-name="skyword system user" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/skyword/" class="author">By skyword system user</a>
 							</div>
 						</div></div>
 					</div>			</div>
@@ -1054,16 +1058,16 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 	<div class="section-header">
 		<div class="section-title">
 			<h2>
-									<a href="https://www.tasteofhome.com/holidays-events/seasonal/spring/" data-name="Spring Recipes" data-position="Seasonal Module" data-module="Content Engagement">
-								Spring Recipes									</a>			</h2>
+									<a href="https://www.tasteofhome.com/holidays-events/events-gatherings/kentucky-derby/" data-name="Kentucky Derby" data-position="Seasonal Module" data-module="Content Engagement">
+								Kentucky Derby									</a>			</h2>
 		</div>
 		<div class="line"><span></span><span></span></div>
 	</div>
 	
 			<div class="seasonal-wrp"><div class="seasonal-block">
 					<div class="seasonal-inner">
-						<a href="https://www.tasteofhome.com/collection/spring-recipes-that-will-impress-any-guest/" data-name=" 77 Fresh and Vibrant Spring Recipes" data-position="Seasonal Module" data-module="Content Engagement">
-							<div class="seasonal-img-wrp non-video-post"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Asparagus-Ham-Dinner_EXPS_THAM17_14208_B11_08_5b-5.jpg?resize=522%2C522&#038;w=680" alt="77 Fresh and Vibrant Spring Recipes" data-recalc-dims="1" />
+						<a href="https://www.tasteofhome.com/collection/kentucky-derby-themed-party/" data-name=" Throw the Perfect Kentucky Derby Party" data-position="Seasonal Module" data-module="Content Engagement">
+							<div class="seasonal-img-wrp non-video-post"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2019/04/TOHAM21_PU5323_B11_09_1b-3x2-1-scaled-e1647277155861.jpg?resize=522%2C522&#038;w=680" alt="Throw the Perfect Kentucky Derby Party" data-recalc-dims="1" />
 								<div class="overlay-icon">
 									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
 										<path d="M10.9223 6.1247C11.1786 6.28185 11.358 6.51758 11.4606 6.7795C11.5631 7.06761 11.5631 7.35572 11.4606 7.61764C11.358 7.90575 11.1786 8.11528 10.9223 8.27243L1.89972 13.7203C1.6434 13.8775 1.36145 13.9299 1.07949 13.8775C0.771903 13.8251 0.541213 13.6941 0.336154 13.4584C0.131096 13.2489 0.0541992 12.9608 0.0541992 12.6465V1.75066C0.0541992 1.41017 0.156728 1.12206 0.361787 0.912522C0.566845 0.702987 0.797535 0.572028 1.10512 0.519644C1.38708 0.46726 1.6434 0.519644 1.89972 0.676795L10.9223 6.1247Z" fill="white"></path>
@@ -1071,14 +1075,14 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 								</div>
 							</div>
 							<div class="seasonal-info">
-								77 Fresh and Vibrant Spring Recipes
+								Throw the Perfect Kentucky Derby Party
 							</div>
 						</a>
 					</div>
 				</div><div class="seasonal-block">
 					<div class="seasonal-inner">
-						<a href="https://www.tasteofhome.com/collection/spring-recipes-that-will-impress-any-guest/" data-name=" Strawberry Desserts to Swoon Over" data-position="Seasonal Module" data-module="Content Engagement">
-							<div class="seasonal-img-wrp non-video-post"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Special-Stuffed-Strawberries_EXPS_HCA20_22373_E03_13_8b-2.jpg?resize=522%2C522&#038;w=680" alt="Strawberry Desserts to Swoon Over" data-recalc-dims="1" />
+						<a href="https://www.tasteofhome.com/collection/kentucky-derby-recipes/" data-name=" 40 Recipes for Your Derby Day Buffet" data-position="Seasonal Module" data-module="Content Engagement">
+							<div class="seasonal-img-wrp non-video-post"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Benedictine-Spread_EXPS_FT24_33280_EC_020124_2.jpg?resize=522%2C522&#038;w=680" alt="40 Recipes for Your Derby Day Buffet" data-recalc-dims="1" />
 								<div class="overlay-icon">
 									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
 										<path d="M10.9223 6.1247C11.1786 6.28185 11.358 6.51758 11.4606 6.7795C11.5631 7.06761 11.5631 7.35572 11.4606 7.61764C11.358 7.90575 11.1786 8.11528 10.9223 8.27243L1.89972 13.7203C1.6434 13.8775 1.36145 13.9299 1.07949 13.8775C0.771903 13.8251 0.541213 13.6941 0.336154 13.4584C0.131096 13.2489 0.0541992 12.9608 0.0541992 12.6465V1.75066C0.0541992 1.41017 0.156728 1.12206 0.361787 0.912522C0.566845 0.702987 0.797535 0.572028 1.10512 0.519644C1.38708 0.46726 1.6434 0.519644 1.89972 0.676795L10.9223 6.1247Z" fill="white"></path>
@@ -1086,32 +1090,32 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 								</div>
 							</div>
 							<div class="seasonal-info">
-								Strawberry Desserts to Swoon Over
+								40 Recipes for Your Derby Day Buffet
 							</div>
 						</a>
 					</div>
 				</div><div class="seasonal-block"><div class="item">
-					<a href="https://www.tasteofhome.com/collection/salmon-recipes/" data-name=" 55 Salmon Recipes for Spring Dinners" data-position="Seasonal Module" data-module="Content Engagement">
-						<div class="img-wrapper non-video-post"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2018/06/Pan-Seared-Salmon-with-Dill-Sauce_EXPS_FT23_133878_ST_1117_1.jpg?resize=522%2C522&#038;w=680" alt="55 Salmon Recipes for Spring Dinners" data-recalc-dims="1" />
+					<a href="https://www.tasteofhome.com/recipes/mint-julep/" data-name=" Make Mint Juleps" data-position="Seasonal Module" data-module="Content Engagement">
+						<div class="img-wrapper non-video-post"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/EXPS_THVP24_33278_MR_02_21_24_MintJulep_1.jpg?resize=522%2C522&#038;w=680" alt="Make Mint Juleps" data-recalc-dims="1" />
 						</div>
 						<div class="float-right">
-							55 Salmon Recipes for Spring Dinners
+							Make Mint Juleps
 						</div>
 					</a>
 				</div><div class="item">
-					<a href="https://www.tasteofhome.com/article/how-to-cook-asparagus/" data-name=" 9 Ways to Cook Asparagus" data-position="Seasonal Module" data-module="Content Engagement">
-						<div class="img-wrapper non-video-post"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2016/09/roasted-asparagus-1.jpg?resize=522%2C522&#038;w=680" alt="9 Ways to Cook Asparagus" data-recalc-dims="1" />
+					<a href="https://www.tasteofhome.com/recipes/favorite-pecan-pie-bars/" data-name=" Serve the Best Pecan Pie Bars" data-position="Seasonal Module" data-module="Content Engagement">
+						<div class="img-wrapper non-video-post"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Favorite-Pecan-Pie-Bars_EXPS_FT23_539_EC_110823_3.jpg?resize=522%2C522&#038;w=680" alt="Serve the Best Pecan Pie Bars" data-recalc-dims="1" />
 						</div>
 						<div class="float-right">
-							9 Ways to Cook Asparagus
+							Serve the Best Pecan Pie Bars
 						</div>
 					</a>
 				</div><div class="item">
-					<a href="https://www.tasteofhome.com/recipes/old-fashioned-carrot-cake-with-cream-cheese-frosting/" data-name=" Make Old-Fashioned Carrot Cake" data-position="Seasonal Module" data-module="Content Engagement">
-						<div class="img-wrapper non-video-post"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Old-Fashioned-Carrot-Cake-with-Cream-Cheese-Frosting_EXPS_MCSMZ17_14593_D01_05_7b-13.jpg?resize=522%2C522&#038;w=680" alt="Make Old-Fashioned Carrot Cake" data-recalc-dims="1" />
+					<a href="https://www.tasteofhome.com/collection/kentucky-derby-desserts/" data-name=" Fun and Festive Kentucky Derby Desserts" data-position="Seasonal Module" data-module="Content Engagement">
+						<div class="img-wrapper non-video-post"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2021/10/Banana-Pudding-Cake_EXPS_FT21_63227_F_0824_1.jpg?resize=522%2C522&#038;w=680" alt="Fun and Festive Kentucky Derby Desserts" data-recalc-dims="1" />
 						</div>
 						<div class="float-right">
-							Make Old-Fashioned Carrot Cake
+							Fun and Festive Kentucky Derby Desserts
 						</div>
 					</a>
 				</div></div></div>
@@ -1122,7 +1126,7 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 		<div class="container">
 			<div class="section-header">
 				<h2><a 
-				href="https://www.tasteofhome.com/holidays-events/holidays/passover/"  data-name="Passover Recipes" data-position="4-Slot Module B" data-module="Content Engagement"  >Passover Recipes</a></h2>
+				href="https://www.tasteofhome.com/recipes/cooking-style/baking/"  data-name="Baking" data-position="4-Slot Module B" data-module="Content Engagement"  >Baking</a></h2>
 									<div class="line">
 						<span></span>
 						<span></span>
@@ -1131,9 +1135,9 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 			<div class="slot-module-wrp">
 								<div class="slot-module-block">
 						<div class="slot-inner">
-							<a href="https://www.tasteofhome.com/collection/classic-passover-recipes/"  data-name="44 Passover Recipes" data-position="4-Slot Module B" data-module="Content Engagement"  >
+							<a href="https://www.tasteofhome.com/recipes/easy-fresh-strawberry-pie/"  data-name="Easy Fresh Strawberry Pie" data-position="4-Slot Module B" data-module="Content Engagement"  >
 								<div class="slot-img-wrp 
-								video-post								"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/exps49415_CW163681C12_11_4b.jpg?resize=522%2C522&#038;w=680" alt="Lemon Dessert" data-recalc-dims="1">
+								video-post								"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Easy-Fresh-Strawberry-Pie_EXPS_TOHJJ24_34179_DR_11_15_4b.jpg?resize=522%2C522&#038;w=680" alt="Lemon Dessert" data-recalc-dims="1">
 
 																		<div class="overly-icon">
 										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14"
@@ -1146,15 +1150,15 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 									
 								</div>
 								<div class="slot-info">
-									44 Passover Recipes								</div>
+									Easy Fresh Strawberry Pie								</div>
 							</a>
 						</div>
 					</div>
 									<div class="slot-module-block">
 						<div class="slot-inner">
-							<a href="https://www.tasteofhome.com/recipes/matzo-ball-soup/"  data-name="Matzo Ball Soup" data-position="4-Slot Module B" data-module="Content Engagement"  >
+							<a href="https://www.tasteofhome.com/recipes/german-chocolate-cake/"  data-name="German Chocolate Cake" data-position="4-Slot Module B" data-module="Content Engagement"  >
 								<div class="slot-img-wrp 
-								video-post								"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2020/01/Matzo-Ball-Soup_EXPS_TOHAM25_41673_DR_04_10_09b.jpg?resize=522%2C522&#038;w=680" alt="Lemon Dessert" data-recalc-dims="1">
+								video-post								"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/German-Chocolate-Cake_EXPS_TOHX24_3229_P2_MD_11_08_4b.jpg?resize=522%2C522&#038;w=680" alt="Lemon Dessert" data-recalc-dims="1">
 
 																		<div class="overly-icon">
 										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14"
@@ -1167,28 +1171,15 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 									
 								</div>
 								<div class="slot-info">
-									Matzo Ball Soup								</div>
+									German Chocolate Cake								</div>
 							</a>
 						</div>
 					</div>
 									<div class="slot-module-block">
 						<div class="slot-inner">
-							<a href="https://www.tasteofhome.com/recipes/charoset/"  data-name="Charoset" data-position="4-Slot Module B" data-module="Content Engagement"  >
+							<a href="https://www.tasteofhome.com/recipes/focaccia/"  data-name="Focaccia" data-position="4-Slot Module B" data-module="Content Engagement"  >
 								<div class="slot-img-wrp 
-																"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Charoset_EXPS_FT24_187133_ST_0124_4.jpg?resize=522%2C522&#038;w=680" alt="Lemon Dessert" data-recalc-dims="1">
-
-									
-								</div>
-								<div class="slot-info">
-									Charoset								</div>
-							</a>
-						</div>
-					</div>
-									<div class="slot-module-block">
-						<div class="slot-inner">
-							<a href="https://www.tasteofhome.com/collection/passover-desserts/"  data-name="30 Family-Favorite Passover Desserts" data-position="4-Slot Module B" data-module="Content Engagement"  >
-								<div class="slot-img-wrp 
-								video-post								"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2019/11/Passover-Rainbow-Cookies_EXPS_TOHAM20_245372_B11_13_6b_RMS.jpg?resize=522%2C522&#038;w=680" alt="Lemon Dessert" data-recalc-dims="1">
+								video-post								"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2021/07/Focaccia_EXPS_CWFM22_263640_E10_05_5b.jpg?resize=522%2C522&#038;w=680" alt="Lemon Dessert" data-recalc-dims="1">
 
 																		<div class="overly-icon">
 										<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14"
@@ -1201,7 +1192,20 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 									
 								</div>
 								<div class="slot-info">
-									30 Family-Favorite Passover Desserts								</div>
+									Focaccia								</div>
+							</a>
+						</div>
+					</div>
+									<div class="slot-module-block">
+						<div class="slot-inner">
+							<a href="https://www.tasteofhome.com/recipes/boston-cream-doughnuts/"  data-name="Boston Cream Doughnuts" data-position="4-Slot Module B" data-module="Content Engagement"  >
+								<div class="slot-img-wrp 
+																"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2024/02/Boston-Cream-Doughnuts-_EXPS_FT23_274054_EC_120823_14.jpg?resize=522%2C522&#038;w=680" alt="Lemon Dessert" data-recalc-dims="1">
+
+									
+								</div>
+								<div class="slot-info">
+									Boston Cream Doughnuts								</div>
 							</a>
 						</div>
 					</div>
@@ -1218,7 +1222,7 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 
 			<div class="most-popular-wrapper">
 				<div class="most-popular-item active">
-					<div class="img-wrapper"><a  data-name="Creamy Spinach Chicken Dinner" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/creamy-spinach-chicken-dinner/"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Creamy-Spinach-Chicken-Dinner_EXPS_FT24_40982_JR_0228_1.jpg?resize=350%2C350&#038;w=680" alt="Most Popular" data-recalc-dims="1">
+					<div class="img-wrapper"><a  data-name="Lemon Tiramisu" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/lemon-tiramisu/"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2020/03/Lemon-misu_EXPS_FT20_209650_F_0221_1-10.jpg?resize=350%2C350&#038;w=680" alt="Most Popular" data-recalc-dims="1">
 															<div class="overlay-icon">
 									<svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14" fill="none">
 										<path d="M10.9223 6.1247C11.1786 6.28185 11.358 6.51758 11.4606 6.7795C11.5631 7.06761 11.5631 7.35572 11.4606 7.61764C11.358 7.90575 11.1786 8.11528 10.9223 8.27243L1.89972 13.7203C1.6434
@@ -1229,7 +1233,7 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 					</div>
 					<div class="most-popular-detail">
 						<span class="number">1</span>
-						<a  data-name="Creamy Spinach Chicken Dinner" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/creamy-spinach-chicken-dinner/">Creamy Spinach Chicken Dinner</a>
+						<a  data-name="Lemon Tiramisu" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/lemon-tiramisu/">Lemon Tiramisu</a>
 					</div>
 				</div>
 				<div class="most-popular-item-wrapper">
@@ -1237,8 +1241,8 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 						<div class="most-popular-item ">
 							<div class="most-popular-detail">
 								<span class="number">2</span>
-								<a  data-name="Creamy Chicken and Mushroom Rice Casserole" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/creamy-chicken-and-mushroom-rice-casserole/">
-									Creamy Chicken and Mushroom Rice Casserole								</a>
+								<a  data-name="Salsa Verde Chicken Casserole" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/salsa-verde-chicken-casserole/">
+									Salsa Verde Chicken Casserole								</a>
 							</div>
 						</div>
 
@@ -1246,8 +1250,8 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 						<div class="most-popular-item ">
 							<div class="most-popular-detail">
 								<span class="number">3</span>
-								<a  data-name="Balsamic Roasted Chicken Thighs with Root Vegetables" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/balsamic-roasted-chicken-thighs-with-root-vegetables/">
-									Balsamic Roasted Chicken Thighs with Root Vegetables								</a>
+								<a  data-name="10 Things You Shouldn’t Touch at All-You-Can-Eat Buffets" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/things-you-shouldnt-touch-at-all-you-can-eat-buffets/">
+									10 Things You Shouldn’t Touch at All-You-Can-Eat Buffets								</a>
 							</div>
 						</div>
 
@@ -1255,8 +1259,8 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 						<div class="most-popular-item  most-popular-mobile-hide">
 							<div class="most-popular-detail">
 								<span class="number">4</span>
-								<a  data-name="Rhubarb Upside-Down Cake" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/rhubarb-upside-down-cake/">
-									Rhubarb Upside-Down Cake								</a>
+								<a  data-name="Pesto Parmesan Tilapia" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/pesto-parmesan-tilapia/">
+									Pesto Parmesan Tilapia								</a>
 							</div>
 						</div>
 
@@ -1264,8 +1268,8 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 						<div class="most-popular-item  most-popular-mobile-hide">
 							<div class="most-popular-detail">
 								<span class="number">5</span>
-								<a  data-name="Pineapple Shrimp Fried Rice" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/pineapple-shrimp-fried-rice/">
-									Pineapple Shrimp Fried Rice								</a>
+								<a  data-name="Nicoise Salad" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/nicoise-salad/">
+									Nicoise Salad								</a>
 							</div>
 						</div>
 
@@ -1273,8 +1277,8 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 						<div class="most-popular-item  most-popular-mobile-hide">
 							<div class="most-popular-detail">
 								<span class="number">6</span>
-								<a  data-name="90 Best Spinach Recipes" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/superfood-spinach-recipes/">
-									90 Best Spinach Recipes								</a>
+								<a  data-name="Best Lasagna Soup" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/best-lasagna-soup/">
+									Best Lasagna Soup								</a>
 							</div>
 						</div>
 
@@ -1282,8 +1286,8 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 						<div class="most-popular-item  most-popular-mobile-hide">
 							<div class="most-popular-detail">
 								<span class="number">7</span>
-								<a  data-name="51 Easy &#038; Healthy Dinner Ideas Ready in 30 Minutes" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/30-healthy-dinner-recipes-ready-in-30-minutes/">
-									51 Easy &#038; Healthy Dinner Ideas Ready in 30 Minutes								</a>
+								<a  data-name="Baked Mac and Cheese" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/baked-mac-and-cheese/">
+									Baked Mac and Cheese								</a>
 							</div>
 						</div>
 
@@ -1345,17 +1349,17 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 			<div class="slot-module-wrp editorial-product">
 									<div class="slot-module-block">
 						<div class="slot-inner">
-							<a href="https://www.tasteofhome.com/collection/mothers-day-flowers/"  data-name="18 Mother&#8217;s Day Flowers That Will Knock Her Socks Off" data-position="Editorial Product" data-module="Content Engagement"  >
-								<div class="slot-img-wrp"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2024/02/20-Mothers-Day-Flowers-That-Will-Knock-Her-Socks-Off_FT.jpg?resize=350%2C350&#038;w=680" alt="20 Mother's Day Flowers That Will Knock Her Socks Off" data-recalc-dims="1" />
+							<a href="https://www.tasteofhome.com/collection/mothers-day-flowers/"  data-name="21 Mother&#8217;s Day Flowers That Will Knock Her Socks Off" data-position="Editorial Product" data-module="Content Engagement"  >
+								<div class="slot-img-wrp"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2024/04/21-Mothers-Day-Flowers-That-Will-Knock-Her-Socks-Off_FT_via-amazon.com_.jpg?resize=350%2C350&#038;w=680" alt="21 Mother's Day Flowers That Will Knock Her Socks Off Ft Via Amazon.com" data-recalc-dims="1" />
 																	</div>
-								<div class="slot-info">18 Mother&#8217;s Day Flowers That Will Knock Her Socks Off</div>
+								<div class="slot-info">21 Mother&#8217;s Day Flowers That Will Knock Her Socks Off</div>
 							</a>
 						</div>
 					</div>
 									<div class="slot-module-block">
 						<div class="slot-inner">
 							<a href="https://www.tasteofhome.com/collection/mothers-day-gifts/"  data-name="53 Mother&#8217;s Day Gifts for Every Type of Mom" data-position="Editorial Product" data-module="Content Engagement"  >
-								<div class="slot-img-wrp"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2024/02/59-Mothers-Day-Gifts-for-Every-Type-of-Mom_FT_via-amazon.com_.jpg?resize=350%2C350&#038;w=680" alt="59 Mother's Day Gifts For Every Type Of Mom Ft Via Amazon.com" data-recalc-dims="1" />
+								<div class="slot-img-wrp"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2024/04/53-Mothers-Day-Gifts-for-Every-Type-of-Mom_via-merchant-5_KSedit_FT.gif?resize=350%2C350&#038;w=680" alt="53 Mothers Day Gifts For Every Type Of Mom" data-recalc-dims="1" />
 																	</div>
 								<div class="slot-info">53 Mother&#8217;s Day Gifts for Every Type of Mom</div>
 							</a>
@@ -1382,7 +1386,7 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 							</div>
 		</div>
 	<br />
-<div class="cm-product" aria-hidden="true"><div class="container"><div class="more-product-wrapper"><div class="ad-container-wrapper  dfp-ad-widget"><div id="ad66222898815f4" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_homepage_feature" data-ad-sizes="" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[1,1]],"tablet":[[1,1]],"desktop":[[1,1]],"large_screen":[[1,1]]}' data-ad-targeting='{"pos":"cm_homepage_feature"}' data-ad-exclude-header-bidding="1" data-ad-exclude-ad-refresh="1"></div></div></div></div></div></div>
+<div class="cm-product" aria-hidden="true"><div class="container"><div class="more-product-wrapper"><div class="ad-container-wrapper  dfp-ad-widget"><div id="ad6629ea667d769" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_homepage_feature" data-ad-sizes="" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[1,1]],"tablet":[[1,1]],"desktop":[[1,1]],"large_screen":[[1,1]]}' data-ad-targeting='{"pos":"cm_homepage_feature"}' data-ad-exclude-header-bidding="1" data-ad-exclude-ad-refresh="1"></div></div></div></div></div></div>
 </section>
 <p>	<section class="slot-module">
 		<div class="container">
@@ -1496,7 +1500,7 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 			<div class="slot-module-wrp">
 								<div class="slot-module-block">
 						<div class="slot-inner">
-							<a href="https://www.tasteofhome.com/collection/easy-dinner-ideas/"  data-name="70 Easy Dinner Ideas Your Family Will Love" data-position="4-Slot Module D" data-module="Content Engagement"  >
+							<a href="https://www.tasteofhome.com/collection/easy-dinner-ideas/"  data-name="65 Easy Dinner Ideas Your Family Will Love" data-position="4-Slot Module D" data-module="Content Engagement"  >
 								<div class="slot-img-wrp 
 								video-post								"><img decoding="async" src="https://www.tasteofhome.com/wp-content/uploads/2018/01/Chimichangas_EXPS_TOHFM21_3277_E09_22_10b-44.jpg?resize=522%2C522&#038;w=680" alt="Lemon Dessert" data-recalc-dims="1">
 
@@ -1511,7 +1515,7 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 									
 								</div>
 								<div class="slot-info">
-									70 Easy Dinner Ideas Your Family Will Love								</div>
+									65 Easy Dinner Ideas Your Family Will Love								</div>
 							</a>
 						</div>
 					</div>
@@ -1846,7 +1850,7 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 	</main><!-- #primary -->
 
 	<div class="sticky-bottom-ad">
-		<div class="ad-container-wrapper  desktop-hide dfp-ad-widget"><div id="ad662228993ace4" class="ad " data-ad-slot-name="/homepage/oop" data-ad-sizes="" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[320,50],[300,50],[1,1]],"tablet":"","desktop":"","large_screen":""}' data-ad-targeting='{"pos":"oop","location":"oop","tf":"btf"}' data-ad-exclude-lazy-loading="1"></div></div>	</div>
+		<div class="ad-container-wrapper  desktop-hide dfp-ad-widget"><div id="ad6629ea674a9e5" class="ad " data-ad-slot-name="/homepage/oop" data-ad-sizes="" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[320,50],[300,50],[1,1]],"tablet":"","desktop":"","large_screen":""}' data-ad-targeting='{"pos":"oop","location":"oop","tf":"btf"}' data-ad-exclude-lazy-loading="1"></div></div>	</div>
 <footer class="footer">
 	<div class="container">
 			<div class="footer-left-container">
@@ -2207,6 +2211,5 @@ var logged_in_user_data = {"strings":{"logout":"Log Out"}};
 <li id="menu-item-677238" class="hide-if-logged-in login-class menu-item menu-item-type-custom menu-item-object-custom"><a data-analytics-metrics='{"name":"Log In \/ Join","module":"header","position":"main navigation"}' href="https://www.tasteofhome.com/my-account/">Log In / Join</a></li>
 <li id="menu-item-1589496" class="menu-item menu-item-type-custom menu-item-object-custom"><a data-analytics-metrics='{"name":"Recipe Box","module":"header","position":"main navigation"}' href="https://www.tasteofhome.com/recipe-box/">Recipe Box</a></li>
 </ul></div>	</div>
-<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'87701565eaca4d12',t:'MTcxMzU2MzE0Ny4yMDgwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v55bfa2fee65d44688e90c00735ed189a1713218998793" integrity="sha512-FIKRFRxgD20moAo96hkZQy/5QojZDAbyx0mQ17jEGHCJc/vi0G2HXLtofwD7Q3NmivvP9at5EVgbRqOaOQb+Rg==" data-cf-beacon='{"rayId":"87701565eaca4d12","version":"2024.3.0","token":"f2d25776e6b34e96a255a5888ef2fd88"}' crossorigin="anonymous"></script>
-</body>
+<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'87a0d4967e1b2f63',t:'MTcxNDA3NDI5NC44MjIwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html>

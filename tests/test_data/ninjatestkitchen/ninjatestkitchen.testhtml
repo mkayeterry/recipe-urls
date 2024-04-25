@@ -187,7 +187,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <main class="main">
 	<div class="b-recipes-carousel">
 		<div class="b-recipes-carousel__wrap">
-			<div class="slider" data-id="56a17">
+			<div class="slider" data-id="766cf">
 				
 							<div>
 								<div class="position-relative">
@@ -532,6 +532,226 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						
 	<div class="recipe-card">
 		<a class="recipe-card__link"
+		   href="https://ninjatestkitchen.eu/recipe/mint-chocolate-milkshake/"
+		   aria-label="Mint Chocolate Milkshake">
+			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/04/21173952/mint-chocolate-milkshake-landscape-2-700x400.jpg)">
+				
+					
+	<div class="recipe-author">
+		<figure class="mb-0 mr-2">
+			<img decoding="async" class="img-roundel img-fluid"
+			     alt="Greens of the Stone Age"
+			     width="50"
+			     height="50"
+			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg"
+			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-100x100.jpg 2x"/>
+		</figure>
+		<h6 class="mb-0">
+			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
+				Recipe by			</span>
+			<span class="text-uppercase glossary-ignore">Greens of the Stone Age</span></h6>
+	</div>
+				</header>
+
+			
+			<div class="recipe-card__content">
+									<h6 class="text-uppercase mb-0 color-primary">Desserts, Drinks, Vegan</h6>
+									<h4 class="color-black">Mint Chocolate Milkshake</h4>
+					
+	<ul class="recipe-info">
+		<li>
+							<span class="recipe-info__key glossary-translate">Time</span>
+				<span class="recipe-info__value">5 mins</span>
+					</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Serves</span>
+			<span class="recipe-info__value">1</span>
+		</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Skill</span>
+			<span class="recipe-info__value">Easy</span>
+		</li>
+	</ul>
+				</div>
+		</a>
+					<button class="btn btn-icon btn-bookmark"
+	        aria-label="Log in to bookmark recipe"
+	        type="button"
+	        data-bookmark="10343"
+	        data-toggle="modal"
+	        data-target="#loginModal"></button>
+		</div>
+
+						</div>
+										<div class="col-12 col-md-6 col-lg-4">
+						
+	<div class="recipe-card">
+		<a class="recipe-card__link"
+		   href="https://ninjatestkitchen.eu/recipe/gluten-free-sweet-and-sour-chicken-balls/"
+		   aria-label="Gluten-Free Sweet and Sour Chicken Balls">
+			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/04/21172619/gluten-free-sweet-and-sour-chicken-balls-landscape-2-700x400.jpg)">
+				
+					
+	<div class="recipe-author">
+		<figure class="mb-0 mr-2">
+			<img decoding="async" class="img-roundel img-fluid"
+			     alt="Greens of the Stone Age"
+			     width="50"
+			     height="50"
+			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg"
+			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-100x100.jpg 2x"/>
+		</figure>
+		<h6 class="mb-0">
+			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
+				Recipe by			</span>
+			<span class="text-uppercase glossary-ignore">Greens of the Stone Age</span></h6>
+	</div>
+				</header>
+
+			
+			<div class="recipe-card__content">
+									<h6 class="text-uppercase mb-0 color-primary">Meat, Sides</h6>
+									<h4 class="color-black">Gluten-Free Sweet and Sour Chicken Balls</h4>
+					
+	<ul class="recipe-info">
+		<li>
+							<span class="recipe-info__key glossary-translate">Time</span>
+				<span class="recipe-info__value">27 mins</span>
+					</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Serves</span>
+			<span class="recipe-info__value">15</span>
+		</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Skill</span>
+			<span class="recipe-info__value">Medium</span>
+		</li>
+	</ul>
+				</div>
+		</a>
+					<button class="btn btn-icon btn-bookmark"
+	        aria-label="Log in to bookmark recipe"
+	        type="button"
+	        data-bookmark="10338"
+	        data-toggle="modal"
+	        data-target="#loginModal"></button>
+		</div>
+
+						</div>
+										<div class="col-12 col-md-6 col-lg-4">
+						
+	<div class="recipe-card">
+		<a class="recipe-card__link"
+		   href="https://ninjatestkitchen.eu/recipe/cheese-buldak/"
+		   aria-label="Cheese Buldak">
+			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/04/21170845/cheese-buldak-landscape-1-700x400.jpg)">
+				
+					
+	<div class="recipe-author">
+		<figure class="mb-0 mr-2">
+			<img decoding="async" class="img-roundel img-fluid"
+			     alt="Greens of the Stone Age"
+			     width="50"
+			     height="50"
+			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg"
+			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-100x100.jpg 2x"/>
+		</figure>
+		<h6 class="mb-0">
+			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
+				Recipe by			</span>
+			<span class="text-uppercase glossary-ignore">Greens of the Stone Age</span></h6>
+	</div>
+				</header>
+
+			
+			<div class="recipe-card__content">
+									<h6 class="text-uppercase mb-0 color-primary">Mains, Meat</h6>
+									<h4 class="color-black">Cheese Buldak</h4>
+					
+	<ul class="recipe-info">
+		<li>
+							<span class="recipe-info__key glossary-translate">Time</span>
+				<span class="recipe-info__value">1h 20 mins</span>
+					</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Serves</span>
+			<span class="recipe-info__value">6</span>
+		</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Skill</span>
+			<span class="recipe-info__value">Easy</span>
+		</li>
+	</ul>
+				</div>
+		</a>
+					<button class="btn btn-icon btn-bookmark"
+	        aria-label="Log in to bookmark recipe"
+	        type="button"
+	        data-bookmark="10333"
+	        data-toggle="modal"
+	        data-target="#loginModal"></button>
+		</div>
+
+						</div>
+										<div class="col-12 col-md-6 col-lg-4">
+						
+	<div class="recipe-card">
+		<a class="recipe-card__link"
+		   href="https://ninjatestkitchen.eu/recipe/carrot-cake-protein-smoothie/"
+		   aria-label="Carrot Cake Protein Smoothie">
+			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/04/21161945/carrot-cake-protein-smoothie-landscape-1-700x400.jpg)">
+				
+					
+	<div class="recipe-author">
+		<figure class="mb-0 mr-2">
+			<img decoding="async" class="img-roundel img-fluid"
+			     alt="Greens of the Stone Age"
+			     width="50"
+			     height="50"
+			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg"
+			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-100x100.jpg 2x"/>
+		</figure>
+		<h6 class="mb-0">
+			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
+				Recipe by			</span>
+			<span class="text-uppercase glossary-ignore">Greens of the Stone Age</span></h6>
+	</div>
+				</header>
+
+			
+			<div class="recipe-card__content">
+									<h6 class="text-uppercase mb-0 color-primary">Desserts, Drinks, Vegan</h6>
+									<h4 class="color-black">Carrot Cake Protein Smoothie</h4>
+					
+	<ul class="recipe-info">
+		<li>
+							<span class="recipe-info__key glossary-translate">Time</span>
+				<span class="recipe-info__value">5 mins</span>
+					</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Serves</span>
+			<span class="recipe-info__value">1</span>
+		</li>
+		<li>
+			<span class="recipe-info__key glossary-translate">Skill</span>
+			<span class="recipe-info__value">Easy</span>
+		</li>
+	</ul>
+				</div>
+		</a>
+					<button class="btn btn-icon btn-bookmark"
+	        aria-label="Log in to bookmark recipe"
+	        type="button"
+	        data-bookmark="10328"
+	        data-toggle="modal"
+	        data-target="#loginModal"></button>
+		</div>
+
+						</div>
+										<div class="col-12 col-md-6 col-lg-4">
+						
+	<div class="recipe-card">
+		<a class="recipe-card__link"
 		   href="https://ninjatestkitchen.eu/recipe/gluten-free-vegan-rocky-road/"
 		   aria-label="Gluten-Free Vegan Rocky Road">
 			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/04/16174935/gluten-free-vegan-rocky-road-landscape-2-700x400.jpg)">
@@ -638,226 +858,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 
 						</div>
-										<div class="col-12 col-md-6 col-lg-4">
-						
-	<div class="recipe-card">
-		<a class="recipe-card__link"
-		   href="https://ninjatestkitchen.eu/recipe/lemon-and-honey-caramels/"
-		   aria-label="Lemon and Honey Caramels">
-			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/04/16155148/lemon-and-honey-caramels-landscape-3-700x400.jpg)">
-				
-					
-	<div class="recipe-author">
-		<figure class="mb-0 mr-2">
-			<img decoding="async" class="img-roundel img-fluid"
-			     alt="Greens of the Stone Age"
-			     width="50"
-			     height="50"
-			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg"
-			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170124/Georgie-profile-picsquare-100x100.jpg 2x"/>
-		</figure>
-		<h6 class="mb-0">
-			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
-				Recipe by			</span>
-			<span class="text-uppercase glossary-ignore">Greens of the Stone Age</span></h6>
-	</div>
-				</header>
-
-			
-			<div class="recipe-card__content">
-									<h6 class="text-uppercase mb-0 color-primary">Desserts, Vegan, Vegetarian</h6>
-									<h4 class="color-black">Lemon and Honey Caramels</h4>
-					
-	<ul class="recipe-info">
-		<li>
-							<span class="recipe-info__key glossary-translate">Time</span>
-				<span class="recipe-info__value">4 hours</span>
-					</li>
-		<li>
-			<span class="recipe-info__key glossary-translate">Serves</span>
-			<span class="recipe-info__value">78</span>
-		</li>
-		<li>
-			<span class="recipe-info__key glossary-translate">Skill</span>
-			<span class="recipe-info__value">Medium</span>
-		</li>
-	</ul>
-				</div>
-		</a>
-					<button class="btn btn-icon btn-bookmark"
-	        aria-label="Log in to bookmark recipe"
-	        type="button"
-	        data-bookmark="10197"
-	        data-toggle="modal"
-	        data-target="#loginModal"></button>
-		</div>
-
-						</div>
-										<div class="col-12 col-md-6 col-lg-4">
-						
-	<div class="recipe-card">
-		<a class="recipe-card__link"
-		   href="https://ninjatestkitchen.eu/recipe/crispy-parmesan-broccoli/"
-		   aria-label="Crispy Parmesan Broccoli">
-			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/04/07180911/crispy-parmesan-broccoli-landscape-1-700x400.jpg)">
-				
-					
-	<div class="recipe-author">
-		<figure class="mb-0 mr-2">
-			<img decoding="async" class="img-roundel img-fluid"
-			     alt="Ninja Kitchen"
-			     width="50"
-			     height="50"
-			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-50x50.jpg"
-			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-100x100.jpg 2x"/>
-		</figure>
-		<h6 class="mb-0">
-			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
-				Recipe by			</span>
-			<span class="text-uppercase glossary-ignore">Ninja Kitchen</span></h6>
-	</div>
-				</header>
-
-			
-			<div class="recipe-card__content">
-									<h6 class="text-uppercase mb-0 color-primary">Sides, Vegetarian</h6>
-									<h4 class="color-black">Crispy Parmesan Broccoli</h4>
-					
-	<ul class="recipe-info">
-		<li>
-							<span class="recipe-info__key glossary-translate">Time</span>
-				<span class="recipe-info__value">25 mins</span>
-					</li>
-		<li>
-			<span class="recipe-info__key glossary-translate">Serves</span>
-			<span class="recipe-info__value">8</span>
-		</li>
-		<li>
-			<span class="recipe-info__key glossary-translate">Skill</span>
-			<span class="recipe-info__value">Easy</span>
-		</li>
-	</ul>
-				</div>
-		</a>
-					<button class="btn btn-icon btn-bookmark"
-	        aria-label="Log in to bookmark recipe"
-	        type="button"
-	        data-bookmark="10304"
-	        data-toggle="modal"
-	        data-target="#loginModal"></button>
-		</div>
-
-						</div>
-										<div class="col-12 col-md-6 col-lg-4">
-						
-	<div class="recipe-card">
-		<a class="recipe-card__link"
-		   href="https://ninjatestkitchen.eu/recipe/prosciutto-wrapped-cod-with-roasted-mediterranean-veg-quinoa/"
-		   aria-label="Prosciutto-Wrapped Cod With Roasted Mediterranean Veg &amp; Quinoa">
-			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/04/07174813/prosciutto-wrapped-cod-with-roasted-mediterranean-veg-and-quinoa-landscape-2-700x400.jpg)">
-				
-					
-	<div class="recipe-author">
-		<figure class="mb-0 mr-2">
-			<img decoding="async" class="img-roundel img-fluid"
-			     alt="Ninja Kitchen"
-			     width="50"
-			     height="50"
-			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-50x50.jpg"
-			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-100x100.jpg 2x"/>
-		</figure>
-		<h6 class="mb-0">
-			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
-				Recipe by			</span>
-			<span class="text-uppercase glossary-ignore">Ninja Kitchen</span></h6>
-	</div>
-				</header>
-
-			
-			<div class="recipe-card__content">
-									<h6 class="text-uppercase mb-0 color-primary">Mains, Meat</h6>
-									<h4 class="color-black">Prosciutto-Wrapped Cod With Roasted Mediterranean Veg &amp; Quinoa</h4>
-					
-	<ul class="recipe-info">
-		<li>
-							<span class="recipe-info__key glossary-translate">Time</span>
-				<span class="recipe-info__value">30 mins</span>
-					</li>
-		<li>
-			<span class="recipe-info__key glossary-translate">Serves</span>
-			<span class="recipe-info__value">6</span>
-		</li>
-		<li>
-			<span class="recipe-info__key glossary-translate">Skill</span>
-			<span class="recipe-info__value">Medium</span>
-		</li>
-	</ul>
-				</div>
-		</a>
-					<button class="btn btn-icon btn-bookmark"
-	        aria-label="Log in to bookmark recipe"
-	        type="button"
-	        data-bookmark="10300"
-	        data-toggle="modal"
-	        data-target="#loginModal"></button>
-		</div>
-
-						</div>
-										<div class="col-12 col-md-6 col-lg-4">
-						
-	<div class="recipe-card">
-		<a class="recipe-card__link"
-		   href="https://ninjatestkitchen.eu/recipe/greek-falafel-with-creamy-spinach-orzo/"
-		   aria-label="Greek Falafel With Creamy Spinach Orzo">
-			<header class="recipe-card__header" style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2024/04/07173146/green-falafel-with-creamy-spinach-orzo-landscape-8-700x400.jpg)">
-				
-					
-	<div class="recipe-author">
-		<figure class="mb-0 mr-2">
-			<img decoding="async" class="img-roundel img-fluid"
-			     alt="Ninja Kitchen"
-			     width="50"
-			     height="50"
-			     src="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-50x50.jpg"
-			     srcset="https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-50x50.jpg 1x, https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/07/31170122/Ninja-logo-square-100x100.jpg 2x"/>
-		</figure>
-		<h6 class="mb-0">
-			<span class="font-weight-normal mb-1 mb-md-0 glossary-translate">
-				Recipe by			</span>
-			<span class="text-uppercase glossary-ignore">Ninja Kitchen</span></h6>
-	</div>
-				</header>
-
-			
-			<div class="recipe-card__content">
-									<h6 class="text-uppercase mb-0 color-primary">Mains, Vegetarian</h6>
-									<h4 class="color-black">Greek Falafel With Creamy Spinach Orzo</h4>
-					
-	<ul class="recipe-info">
-		<li>
-							<span class="recipe-info__key glossary-translate">Time</span>
-				<span class="recipe-info__value">30 mins</span>
-					</li>
-		<li>
-			<span class="recipe-info__key glossary-translate">Serves</span>
-			<span class="recipe-info__value">6</span>
-		</li>
-		<li>
-			<span class="recipe-info__key glossary-translate">Skill</span>
-			<span class="recipe-info__value">Easy</span>
-		</li>
-	</ul>
-				</div>
-		</a>
-					<button class="btn btn-icon btn-bookmark"
-	        aria-label="Log in to bookmark recipe"
-	        type="button"
-	        data-bookmark="10296"
-	        data-toggle="modal"
-	        data-target="#loginModal"></button>
-		</div>
-
-						</div>
 								</div>
 			<div class="row justify-content-center">
 				<div class="col-auto">
@@ -881,7 +881,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 		<div class="b-collections-carousel__wrap">
 			<div class="slider"
-			     data-id="95169"
+			     data-id="06616"
 			     data-items-lg="2">
 				
 				
@@ -968,7 +968,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							   aria-label="View collection">
 								<div class="b-collections-carousel__item-image"
 								     style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/05/14075849/Grilled-Breakfast-510x600.jpg)">
-									<span class="b-collections-carousel__item-count h6 mb-0 text-uppercase">309 <span class="glossary-translate">recipes</span></span>
+									<span class="b-collections-carousel__item-count h6 mb-0 text-uppercase">312 <span class="glossary-translate">recipes</span></span>
 								</div>
 								<div class="b-collections-carousel__item-text">
 									<div class="mb-8">
@@ -987,7 +987,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							   aria-label="View collection">
 								<div class="b-collections-carousel__item-image"
 								     style="background-image: url(https://sharkninja-cookingcircle.s3.eu-west-1.amazonaws.com/wp-content/uploads/2020/12/31135452/Sweet-Sour-Tofu-510x600.jpg)">
-									<span class="b-collections-carousel__item-count h6 mb-0 text-uppercase">264 <span class="glossary-translate">recipes</span></span>
+									<span class="b-collections-carousel__item-count h6 mb-0 text-uppercase">266 <span class="glossary-translate">recipes</span></span>
 								</div>
 								<div class="b-collections-carousel__item-text">
 									<div class="mb-8">
@@ -1124,7 +1124,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 		<div class="b-contributors-carousel__wrap">
 			<div class="slider"
-			     data-id="83a88"
+			     data-id="96b22"
 			     data-items="1"
 			     data-items-md="3"
 			     data-items-lg="5">
@@ -1251,7 +1251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			
 			<button type="button" class="btn btn-primary btn-outline btn-min-width ajax-send glossary-translate" 
 				data-ajaxaction="listrak_contact" 
-				data-nonce="c18e1ac51d" 
+				data-nonce="d677c6aa43" 
 				data-sendfields="1"
 				data-sendtrigger="wp_listrak_signup_sending"
 				data-sendtriggerparams=".marketing-subscribe__form"
@@ -1397,7 +1397,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												data-loginaction="vnmLogin_loginOrRegister"
 												data-register="Complete Registration"
 												data-login="Log in"
-												data-ajaxaction="vnmLogin_loginOrRegister" 												data-nonce="81d41272ef"
+												data-ajaxaction="vnmLogin_loginOrRegister" 												data-nonce="e8fa9feb64"
 												data-sendfields="1" 
 												data-sendtrigger="vnm_login_logging_in" 
 												data-sendtriggerparams=".modal-login__column" 

@@ -858,6 +858,15 @@ We make videos, recipes, and nutrition articles to make you feel excited and s
 <div id="main-articles" class="not-mobile">
 <div class="row ">
 <div class="col col-main">
+<a href="/article/how-to-reduce-food-waste-107">
+<div class="article-img-container">
+<img class="card-img" alt="image of " src="https://cdn.pickuplimes.com/cache/84/27/84275f0bd5af6ba2aa77a32007ec4201.jpg">
+</div>
+<h3 class="and_sub" style="padding-top: 1rem;"> How to Reduce Food Waste</h3>
+<h3 class="subtitle">7 tips</h3>
+</a>
+</div>
+<div class="col col-main">
 <a href="/article/the-nourish-method-212">
 <div class="article-img-container">
 <img class="card-img" alt="image of " src="https://cdn.pickuplimes.com/cache/c0/6a/c06ad3b1fcafb5e0fd20bf911147e571.jpg">
@@ -900,15 +909,6 @@ We make videos, recipes, and nutrition articles to make you feel excited and s
 </div>
 <h3 class="and_sub" style="padding-top: 1rem;"> Bloating</h3>
 <h3 class="subtitle">tips to beat discomfort</h3>
-</a>
-</div>
-<div class="col col-main">
-<a href="/article/why-youre-always-tired-106">
-<div class="article-img-container">
-<img class="card-img" alt="image of " src="https://cdn.pickuplimes.com/cache/d0/86/d08644144486fdd609ff9a0359de2e36.jpg">
-</div>
-<h3 class="and_sub" style="padding-top: 1rem;"> Why You&#39;re Always Tired</h3>
-<h3 class="subtitle">+ how food can fix it!</h3>
 </a>
 </div>
 </div>
@@ -1000,6 +1000,15 @@ We make videos, recipes, and nutrition articles to make you feel excited and s
 </ol>
 <div class="carousel-inner row w-100 mx-auto" role="listbox">
 <div class="carousel-item active">
+<a href="/article/how-to-reduce-food-waste-107">
+<img loading="lazy" class="card-img mx-auto d-block" alt="image of " src="https://cdn.pickuplimes.com/cache/84/27/84275f0bd5af6ba2aa77a32007ec4201.jpg">
+<div style="height: 8rem; overflow: visible;">
+<h3 class="and_sub" style="padding-top: 1rem;"> How to Reduce Food Waste</h3>
+<h3 class="subtitle">7 tips</h3>
+</div>
+</a>
+</div>
+<div class="carousel-item ">
 <a href="/article/the-nourish-method-212">
 <img loading="lazy" class="card-img mx-auto d-block" alt="image of " src="https://cdn.pickuplimes.com/cache/c0/6a/c06ad3b1fcafb5e0fd20bf911147e571.jpg">
 <div style="height: 8rem; overflow: visible;">
@@ -1041,15 +1050,6 @@ We make videos, recipes, and nutrition articles to make you feel excited and s
 <div style="height: 8rem; overflow: visible;">
 <h3 class="and_sub" style="padding-top: 1rem;"> Bloating</h3>
 <h3 class="subtitle">tips to beat discomfort</h3>
-</div>
-</a>
-</div>
-<div class="carousel-item ">
-<a href="/article/why-youre-always-tired-106">
-<img loading="lazy" class="card-img mx-auto d-block" alt="image of " src="https://cdn.pickuplimes.com/cache/d0/86/d08644144486fdd609ff9a0359de2e36.jpg">
-<div style="height: 8rem; overflow: visible;">
-<h3 class="and_sub" style="padding-top: 1rem;"> Why You&#39;re Always Tired</h3>
-<h3 class="subtitle">+ how food can fix it!</h3>
 </div>
 </a>
 </div>

@@ -97,7 +97,7 @@
     
   
 <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false","rua.isuxp":"false","rua.texp":"norulematch"}]);</script>
-                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="SQQ6J-MS2G2-ZFAMA-2TTB7-72K6R",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"SQQ6J-MS2G2-ZFAMA-2TTB7-72K6R",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="jqmbj5qxezysczrc35da-f-a4721abb7-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"37","ak.cp":"1068635","ak.ai":parseInt("635712",10),"ak.ol":"0","ak.cr":29,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"64daf881","ak.r":36658,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.bpcip":"76.24.20.0","ak.cport":50361,"ak.gh":"23.38.113.29","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1713561414","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==fcYVc81fJesmJ0uO6EiZ8CX5t8THfeNt2bdI/CGn6ubIPtQWYZtC9hhm4Ut4npttQX3dCSQL7N+XBPtZIKKeFCW28nWSFORXqonr3xoLOlZHPdIxKJW6ydViIkib3pvgHwOxP/UFlez+tPp/neFo/ZqH1utJtqjLE3XYEirY9dWenuLNEejJyLL1cOp/WkJD44VlBy/+sb32fzVQAZcPuYacby8pPmuFDaauvAWo7tw+6QsgLeCUVqk/zmIh4Tr65XDOxsE5VKoPHMTTMZT1kDc8CrkU0DA4AVJN35bUbA8kb7cyxZV/nbZ1vdFCflACiYyldVQXYLhEIUWsHGEERzgOboLnAREaDmenDcDJ/3MfrKbjExzhC/6CDG3i78Bkc8+jrgNMZe/rc0G6/KCqWOq/a4IQS9jCwxuO0DqXIJ0=","ak.pv":"59","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+                              <script>!function(a){var e="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")a.BOOMR_config=a.BOOMR_config||{},a.BOOMR_config.PageParams=a.BOOMR_config.PageParams||{},a.BOOMR_config.PageParams.pci=!0,e="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="SQQ6J-MS2G2-ZFAMA-2TTB7-72K6R",function(){function n(e){a.BOOMR_onload=e&&e.timeStamp||(new Date).getTime()}if(!a.BOOMR||!a.BOOMR.version&&!a.BOOMR.snippetExecuted){a.BOOMR=a.BOOMR||{},a.BOOMR.snippetExecuted=!0;var i,_,o,r=document.createElement("iframe");if(a[t])a[t]("load",n,!1);else if(a.attachEvent)a.attachEvent("onload",n);r.src="javascript:void(0)",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="width:0;height:0;border:0;display:none;",o=document.getElementsByTagName("script")[0],o.parentNode.insertBefore(r,o);try{_=r.contentWindow.document}catch(O){i=document.domain,r.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",_=r.contentWindow.document}_.open()._l=function(){var a=this.createElement("script");if(i)this.domain=i;a.id="boomr-if-as",a.src=e+"SQQ6J-MS2G2-ZFAMA-2TTB7-72K6R",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(a)},_.write("<bo"+'dy onload="document._l();">'),_.close()}}(),"".length>0)if(a&&"performance"in a&&a.performance&&"function"==typeof a.performance.setResourceTimingBufferSize)a.performance.setResourceTimingBufferSize();!function(){if(BOOMR=a.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var e=""=="true"?1:0,t="",n="xc53c3nn32rb4zrkwela-f-085109c5a-clientnsv4-s.akamaihd.net",i="false"=="true"?2:1,_={"ak.v":"37","ak.cp":"1068635","ak.ai":parseInt("635712",10),"ak.ol":"0","ak.cr":35,"ak.ipv":4,"ak.proto":"http/1.1","ak.rid":"64130e1","ak.r":40286,"ak.a2":e,"ak.m":"a","ak.n":"essl","ak.bpcip":"184.187.177.0","ak.cport":58810,"ak.gh":"23.220.166.30","ak.quicv":"","ak.tlsv":"tls1.3","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1714073878","ak.ak":"hOBiQwZUYzCg5VSAfCLimQ==PORPHLicriwj9HRT7WD7AGmhuHjfAfP8MLZhjxVLT89zKK+ipfwG9bVvxBSxLNuAvkeUKq6Drp0ek0EQUZkwnj4UUuKsWxBa/ZvDc+L2lTfWFyxjw+WX8xHNWhBrWAdR63Kz1PXiIqB15opZp8P2M8WzTKDY53+KSFXQj2l7Q3qIySY+d9sXZBlKJbTxEhvI3KZxnnrrRYGYJnNG0IoE8oR0kjwhhwiSFSHS8N+UVeEE8jUCLSLxODkwtXzFRP1cgkXcg9XCUcUOy+WtyU8mjat4Z0zaC/YlVD4XTSB9fokZ8BpfIi4dk/qVfnraIGr4eEW8Y4UubSALRQDpTt2eJtJH0xPBxnIRcTSnQbv22wrnvw0cerwX2buzEJ4BqLiqPG2fFRiCRacswOmgci38sZl43NCvXq/szAv2K3VOdWY=","ak.pv":"59","ak.dpoabenc":"","ak.tf":i};if(""!==t)_["ak.ruds"]=t;var o={i:!1,av:function(e){var t="http.initiator";if(e&&(!e[t]||"spa_hard"===e[t]))_["ak.feo"]=void 0!==a.aFeoApplied?1:0,BOOMR.addVar(_)},rv:function(){var a=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t","ak.tf"];BOOMR.removeVar(a)}};BOOMR.plugins.AK={akVars:_,akDNSPreFetchDomain:n,init:function(){if(!o.i){var a=BOOMR.subscribe;a("before_beacon",o.av,null,null),a("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
   <body class="frontpage page-node-type-bricks-page has-promo-banner">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M867KWL"
@@ -113,13 +113,13 @@
   <header class="header" role="banner">
       <div class="region region-promo-bar">
     
-  
 
-<div id="block-standardpromobanner" class="block block-block-content block-block-content4f566a07-78b0-483e-9a83-f09f3e7229fb block--block-content--promo-banner promo-banner--alert--alt">
-  <div class="alert alert--alt">
+
+<div id="block-standardpromobanner" class="block block-block-content block-block-content4f566a07-78b0-483e-9a83-f09f3e7229fb block--block-content--promo-banner">
+  <div class="alert ">
     <div class="promo-banner__content">
-              <a href="https://shop.kingarthurbaking.com/current-promotions">
-          <span><strong>Free shipping on orders of $75+</strong> &mdash; limited time only</span>
+              <a href="https://shop.kingarthurbaking.com/collections/mothers-day">
+          <span>🌷 <strong>The best gifts for mom</strong> &mdash; shop now</span>
         </a>
           </div>
 
@@ -1658,9 +1658,9 @@
         <ul class="list--inline trending-terms">
                     <li><a href="/search?query=sourdough#recipe_index">sourdough</a></li>
                     <li><a href="/search?query=s#recipe_index">s</a></li>
-                    <li><a href="/search?query=c#recipe_index">c</a></li>
+                    <li><a href="/search?query=nonstick%20pan%20liners#recipe_index">nonstick pan liners</a></li>
                     <li><a href="/search?query=b#recipe_index">b</a></li>
-                    <li><a href="/search?query=pizza#recipe_index">pizza</a></li>
+                    <li><a href="/search?query=c#recipe_index">c</a></li>
                   </ul>
       </div>
           </div>
@@ -1677,36 +1677,31 @@
   </div>
 </div>
   
-        
-        
 
-<div class="brick brick--type--cta-wide-text brick--id--7196 brick--cta-wide-text brick--cta-bakers-hotline cta cta--bakers-hotline cta--wide-text graphic-quote-display fullbleed-logo">
-  <div class="cta__content">
-    <div class="cta__text">
-              <span class="eyebrow">  Be the change
-</span>
-      
-              <h3 class="heading">  2023 impact report
-</h3>
-      
-              <div class="cta--wide-text__quotation">
-            <p>We're committed to bettering the world through baking.</p>
+<div class="brick brick--type--cta-card-wide brick--id--10041 brick--cta-card-wide cta cta--card-wide orientation-left">
+  <div class="cta__image">
+              <picture>
+                  <source srcset="/sites/default/files/styles/card_wide/public/2023-01/Group-Biscuits_Hero_0420.jpg?itok=al72g1i9 1x, /sites/default/files/styles/card_wide_2x/public/2023-01/Group-Biscuits_Hero_0420.jpg?itok=pHZB0eTi 2x" media="(min-width: 480px)" type="image/jpeg" width="900" height="400"/>
+              <source srcset="/sites/default/files/styles/card_wide_sm/public/2023-01/Group-Biscuits_Hero_0420.jpg?itok=qLov_soO 1x, /sites/default/files/styles/card_wide_sm_2x/public/2023-01/Group-Biscuits_Hero_0420.jpg?itok=wQOeDCxd 2x" type="image/jpeg" width="480" height="213"/>
+                  <img loading="lazy" src="/sites/default/files/styles/card_wide/public/2023-01/Group-Biscuits_Hero_0420.jpg?itok=al72g1i9" width="900" height="400" alt="" />
 
-        </div>
-      
-      
-              <div class="cta__buttons">
-          <a href="/impact/impact-report" class="btn btn--secondary">See the report</a>
-        </div>
-          </div>
+  </picture>
+
+
+
+
+
   </div>
 
-  <div class="cta__image">
-                <img src="/sites/default/files/2024-03/BFGK%20Baltimore%20MD-9%205.jpg" width="1340" height="1084" alt="Hands hold fresh greens" loading="lazy" />
+  <div class="cta__content">
+          <span class="eyebrow">  biscuit bliss
+</span>
+    
+    <h3 class="heading">  Our 12 best biscuit recipes
+</h3>
 
-
-
-
+    
+          <a href="/recipes/collections/biscuit-recipes" class="btn btn--secondary">Find your favorite</a>
       </div>
 </div>
   
@@ -1834,9 +1829,9 @@
 <div class="brick brick--type--cta-card-wide brick--id--4776 brick--cta-card-wide cta cta--card-wide orientation-right">
   <div class="cta__image">
               <picture>
-                  <source srcset="/sites/default/files/styles/card_wide/public/2024-04/Oatmeal-Cream-Pie-Bars_0715.jpg?itok=IwtNlzNv 1x, /sites/default/files/styles/card_wide_2x/public/2024-04/Oatmeal-Cream-Pie-Bars_0715.jpg?itok=6111QIpi 2x" media="(min-width: 480px)" type="image/jpeg" width="900" height="400"/>
-              <source srcset="/sites/default/files/styles/card_wide_sm/public/2024-04/Oatmeal-Cream-Pie-Bars_0715.jpg?itok=ScqVu4hz 1x, /sites/default/files/styles/card_wide_sm_2x/public/2024-04/Oatmeal-Cream-Pie-Bars_0715.jpg?itok=srBba1bY 2x" type="image/jpeg" width="480" height="213"/>
-                  <img loading="lazy" src="/sites/default/files/styles/card_wide/public/2024-04/Oatmeal-Cream-Pie-Bars_0715.jpg?itok=IwtNlzNv" width="900" height="400" alt="" />
+                  <source srcset="/sites/default/files/styles/card_wide/public/2024-04/Easy-Everyday-Olive-Oil-Cake_0164.jpg?itok=en4DggLk 1x, /sites/default/files/styles/card_wide_2x/public/2024-04/Easy-Everyday-Olive-Oil-Cake_0164.jpg?itok=_2tNRIEp 2x" media="(min-width: 480px)" type="image/jpeg" width="900" height="400"/>
+              <source srcset="/sites/default/files/styles/card_wide_sm/public/2024-04/Easy-Everyday-Olive-Oil-Cake_0164.jpg?itok=0wbje-Or 1x, /sites/default/files/styles/card_wide_sm_2x/public/2024-04/Easy-Everyday-Olive-Oil-Cake_0164.jpg?itok=lfA6dVfk 2x" type="image/jpeg" width="480" height="213"/>
+                  <img loading="lazy" src="/sites/default/files/styles/card_wide/public/2024-04/Easy-Everyday-Olive-Oil-Cake_0164.jpg?itok=en4DggLk" width="900" height="400" alt="" />
 
   </picture>
 
@@ -1850,11 +1845,11 @@
           <span class="eyebrow">  Bake of the Week
 </span>
     
-    <h3 class="heading">  Oatmeal Cream Pie Bars
+    <h3 class="heading">  Everyday Olive Oil Cake
 </h3>
 
     
-          <a href="/recipes/oatmeal-cream-pie-bars-recipe" class="btn btn--secondary">Get the recipe</a>
+          <a href="/recipes/everyday-olive-oil-cake-recipe" class="btn btn--secondary">Get the recipe</a>
       </div>
 </div>
 

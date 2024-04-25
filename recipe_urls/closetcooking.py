@@ -10,6 +10,7 @@ class ClosetCookingScraper(AbstractScraper):
             "best-of",
             "ecookbook",
             "index",
+            "recipes", 
             "#",
         ]
     ]

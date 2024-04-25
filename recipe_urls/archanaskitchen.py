@@ -16,6 +16,7 @@ class ArchanasKitchenScraper(AbstractScraper):
             "collections",
             "contact",
             "dinner",
+            "home", 
             "ideas",
             "lunch",
             "meal",

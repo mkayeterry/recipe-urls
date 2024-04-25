@@ -8,11 +8,17 @@ class DomesticateMeScraper(AbstractScraper):
         re.compile(pattern)
         for pattern in [
             "category",
+            "classes", 
             "contact",
+            "dude", 
+            "faq", 
+            "gift", 
             "library",
             "press",
             "policy",
             "recipes",
+            "sides", 
+            "search", 
             "serena",
             "shop",
             "work-with-me",

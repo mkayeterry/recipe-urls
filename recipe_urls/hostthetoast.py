@@ -8,6 +8,7 @@ class HostTheToastScraper(AbstractScraper):
         re.compile(pattern)
         for pattern in [
             "about-us",
+            "how-to"
         ]
     ]
 
