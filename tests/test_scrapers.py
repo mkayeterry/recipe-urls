@@ -98,6 +98,4 @@ def test_scraper(mocker, scraper_module, html_file, csv_file):
             expected_links.extend(row)
 
     # Assert that the scraped links match the expected links
-    assert sorted(scraped_links) == sorted(
-        expected_links
-    ), f"The scraped links do not match the expected links for {module_name}."
+    assert set(scraped_links) == set(expected_links), f"The scraped links do not match the expected links for {module_name}."

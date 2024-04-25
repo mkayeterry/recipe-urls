@@ -16,7 +16,7 @@
 <!-- This website is patched against a big problem not solved from WordPress 2.5+ to date -->
 
 <script>!function(){"use strict";function e(e){const t=e.match(/((?=([a-z0-9._!#$%+^&*()[\]<>-]+))\2@[a-z0-9._-]+\.[a-z0-9._-]+)/gi);return t?t[0]:""}function t(t){return e(a(t.toLowerCase()))}function a(e){return e.replace(/\s/g,"")}async function n(e){const t={sha256Hash:"",sha1Hash:""};if(!("msCrypto"in window)&&"https:"===location.protocol&&"crypto"in window&&"TextEncoder"in window){const a=(new TextEncoder).encode(e),[n,s]=await Promise.all([o("SHA-256",a),o("SHA-1",a)]);t.sha256Hash=n,t.sha1Hash=s}return t}async function o(e,t){const a=await crypto.subtle.digest(e,t);return Array.from(new Uint8Array(a)).map(e=>("00"+e.toString(16)).slice(-2)).join("")}function s(e){let t=!0;return Object.keys(e).forEach(a=>{0===e[a].length&&(t=!1)}),t}function i(e,t,a){e.splice(t,1);const n="?"+e.join("&")+a.hash;history.replaceState(null,"",n)}var r={checkEmail:e,validateEmail:t,trimInput:a,hashEmail:n,hasHashes:s,removeEmailAndReplaceHistory:i,detectEmails:async function(){const e=new URL(window.location.href),a=Array.from(e.searchParams.entries()).map(e=>`${e[0]}=${e[1]}`);let o,r;if(a.forEach((e,t)=>{const a=decodeURIComponent(e),[n,s]=a.split("=");"adt_ei"===n&&(o={value:s,index:t}),"adt_eih"===n&&(r={value:s,index:t})}),o)t(o.value)&&n(o.value).then(e=>{if(s(e)){const t={value:e,created:Date.now()};localStorage.setItem("adt_ei",JSON.stringify(t)),localStorage.setItem("adt_emsrc","url")}});else if(r){const e={value:{sha256Hash:r.value,sha1Hash:""},created:Date.now()};localStorage.setItem("adt_ei",JSON.stringify(e)),localStorage.setItem("adt_emsrc","urlh")}o&&i(a,o.index,e),r&&i(a,r.index,e)}};const{detectEmails:c}=r;c()}();
-</script><title>Eat, Live, Run &#8211; Celebrating life, one crumb at a time</title>
+</script><title>Recipe Journal &#8211; Eat, Live, Run</title>
 <meta name='robots' content='max-image-preview:large' />
 
 <script data-no-optimize="1" data-cfasync="false">
@@ -45,6 +45,7 @@
 <link rel='dns-prefetch' href='//fonts.googleapis.com' />
 <link rel="alternate" type="application/rss+xml" title="Eat, Live, Run &raquo; Feed" href="https://www.eatliverun.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Eat, Live, Run &raquo; Comments Feed" href="https://www.eatliverun.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Eat, Live, Run &raquo; Recipe Journal Comments Feed" href="https://www.eatliverun.com/recipes/feed/" />
 <script type="text/javascript">
 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s6655.pcdn.co\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.2"}};
@@ -86,8 +87,12 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='sprout_spoon_respon-css' href='https://s6655.pcdn.co/wp-content/themes/sprout-spoon/css/responsive.css?ver=6.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='solopine-fonts-css' href='//fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C600%2C700%2C400italic%2C700italic%7CCrimson+Text%3A400%2C700%2C700italic%2C400italic%26subset%3Dlatin%2Clatin-ext&#038;ver=1.0.0' type='text/css' media='all' />
 <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#source=googleanalytics-wordpress#product=ga&amp;property=58a69a1e13d0b400116d057e" id="googleanalytics-platform-sharethis-js"></script>
-<link rel="https://api.w.org/" href="https://www.eatliverun.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.eatliverun.com/xmlrpc.php?rsd" />
+<link rel="https://api.w.org/" href="https://www.eatliverun.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.eatliverun.com/wp-json/wp/v2/pages/16347" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.eatliverun.com/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 6.5.2" />
+<link rel="canonical" href="https://www.eatliverun.com/recipes/" />
+<link rel='shortlink' href='https://www.eatliverun.com/?p=16347' />
+<link rel="alternate" type="application/json+oembed" href="https://www.eatliverun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.eatliverun.com%2Frecipes%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.eatliverun.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.eatliverun.com%2Frecipes%2F&#038;format=xml" />
 <style type="text/css">.eafl-disclaimer-small{font-size:.8em}.eafl-disclaimer-smaller{font-size:.6em}</style>    <style type="text/css">
 	
 																																		
@@ -134,7 +139,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 	
 </head>
 
-<body class="home blog">
+<body class="page-template-default page page-id-16347">
 	
 	<div id="wrapper">
 	
@@ -147,7 +152,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 								
 				<div id="logo">
 											
-													<h1><a href="https://www.eatliverun.com/"><img src="https://s6655.pcdn.co/wp-content/uploads/2017/01/elrlogonew.png" alt="Eat, Live, Run" /></a></h1>
+													<h2><a href="https://www.eatliverun.com/"><img src="https://s6655.pcdn.co/wp-content/uploads/2017/01/elrlogonew.png" alt="Eat, Live, Run" /></a></h2>
 												
 									</div>
 				
@@ -166,13 +171,13 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			<div class="container">
 				
 				<div id="nav-wrapper">
-					<ul id="menu-primarynav" class="menu"><li id="menu-item-53501" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-53501"><a href="http://www.eatliverun.com" aria-current="page">Home</a></li>
+					<ul id="menu-primarynav" class="menu"><li id="menu-item-53501" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-53501"><a href="http://www.eatliverun.com">Home</a></li>
 <li id="menu-item-53502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-53502"><a href="https://www.eatliverun.com/about/">About</a>
 <ul class="sub-menu">
 	<li id="menu-item-53843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-53843"><a href="https://www.eatliverun.com/work-with-us/">Work with Us</a></li>
 </ul>
 </li>
-<li id="menu-item-53505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-53505"><a href="https://www.eatliverun.com/recipes/">Recipes</a>
+<li id="menu-item-53505" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-16347 current_page_item menu-item-has-children menu-item-53505"><a href="https://www.eatliverun.com/recipes/" aria-current="page">Recipes</a>
 <ul class="sub-menu">
 	<li id="menu-item-53666" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-53666"><a href="https://www.eatliverun.com/category/recipes-2/main-course-2/">Main Courses</a>
 	<ul class="sub-menu">
@@ -247,583 +252,626 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 			</div>
 			
 		</nav>	
-			<div class="featured-area">
-	
 	<div class="container">
 		
-				
-				
-		<div class="feat-item" style="background-image:url(https://s6655.pcdn.co/wp-content/uploads/2013/10/overnight-oats-6802.jpg)">
-			<a class="feat-url" href="https://www.eatliverun.com/the-one-the-only-overnight-oatmeal/"></a>
-			
-						<div class="feat-overlay">
-				<div class="feat-inner">
-					<span class="cat"><a href="https://www.eatliverun.com/category/recipes-2/breakfast-recipes-2/" rel="category tag">Breakfast</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/" rel="category tag">Recipes</a></span>					<h2><a href="https://www.eatliverun.com/the-one-the-only-overnight-oatmeal/">The One, the Only, Overnight Oatmeal</a></h2>				</div>
-			</div>
-						
-		</div>
-		
-				
-				
-		<div class="feat-item" style="background-image:url(https://s6655.pcdn.co/wp-content/uploads/2013/02/turkey-taco-casserole-8101-2.jpg)">
-			<a class="feat-url" href="https://www.eatliverun.com/turkey-taco-casserole/"></a>
-			
-						<div class="feat-overlay">
-				<div class="feat-inner">
-					<span class="cat"><a href="https://www.eatliverun.com/category/recipes-2/main-course-2/" rel="category tag">Main Course</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/" rel="category tag">Recipes</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/turkey-recipes-2/" rel="category tag">Turkey</a></span>					<h2><a href="https://www.eatliverun.com/turkey-taco-casserole/">Turkey Taco Casserole</a></h2>				</div>
-			</div>
-						
-		</div>
-		
-				
-				
-		<div class="feat-item" style="background-image:url(https://s6655.pcdn.co/wp-content/uploads/2017/10/JB_Feb_2017-11-1080x720.jpg)">
-			<a class="feat-url" href="https://www.eatliverun.com/ten-baby-items-actually-recommend/"></a>
-			
-						<div class="feat-overlay">
-				<div class="feat-inner">
-					<span class="cat"><a href="https://www.eatliverun.com/category/behind-the-butter-3/" rel="category tag">Behind The Butter</a></span>					<h2><a href="https://www.eatliverun.com/ten-baby-items-actually-recommend/">17 Baby Items I (Actually) Recommend</a></h2>				</div>
-			</div>
-						
-		</div>
-		
-			
-	</div>
-	
-</div>		
-	
-		<div class="container">
-		<div class="home-widget">
-			<div id="mc4wp_form_widget-2" class="widget widget_mc4wp_form_widget"><h4 class="widget-title">Newsletter</h4><script>(function() {
-	window.mc4wp = window.mc4wp || {
-		listeners: [],
-		forms: {
-			on: function(evt, cb) {
-				window.mc4wp.listeners.push(
-					{
-						event   : evt,
-						callback: cb
-					}
-				);
-			}
-		}
-	}
-})();
-</script><!-- Mailchimp for WordPress v4.9.12 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-53961" method="post" data-id="53961" data-name="Newsletter" ><div class="mc4wp-form-fields"><div class="subscribe-box">
- 
-    <div class="subscribe-text">
-      <h4>Never Miss a Recipe!</h4>
-      <p>Sign up and receive the latest posts via email.</p>
-    </div>
-    <div class="subscribe-form">
-      <input type="email" name="EMAIL" placeholder="Your email address" required />
-      <input type="submit" value="Subscribe" />
-    </div>
-</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1714070593" /><input type="hidden" name="_mc4wp_form_id" value="53961" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>		</div>
-	</div>
-		
-	<div class="container">
-	
 		<div id="content">
 		
-			<div id="main" >
-					
-								
-										
-										
-													<article id="post-60489" class="post-60489 post type-post status-publish format-standard has-post-thumbnail hentry category-homeschool tag-homeschool">
-	
-	<div class="post-header">
-		
-				<span class="cat"><a href="https://www.eatliverun.com/category/homeschool/" rel="category tag">Homeschool</a></span>
-				
-					<h2><a href="https://www.eatliverun.com/homeschooling-2020-2021-update/">Homeschooling 2020/2021 Update</a></h2>
-				
-	</div>
-	
+			<div id="main">
 			
 								
+					<article id="post-16347" class="sp_page post-16347 page type-page status-publish hentry">
+	
+		<div class="post-header">
+		
+		<h1>Recipe Journal</h1>
+		
+	</div>
+		
 		
 	<div class="post-entry">
 		
+		<p><a href="http://www.eatliverun.com/recipes/img_1161/" rel="attachment wp-att-28693"><img fetchpriority="high" decoding="async" class="aligncenter size-large wp-image-28693" title="IMG_1161" alt="" src="https://s6655.pcdn.co/wp-content/uploads/2010/08/IMG_1161-560x560.jpg" width="560" height="560" srcset="https://s6655.pcdn.co/wp-content/uploads/2010/08/IMG_1161-560x560.jpg 560w, https://s6655.pcdn.co/wp-content/uploads/2010/08/IMG_1161-150x150.jpg 150w, https://s6655.pcdn.co/wp-content/uploads/2010/08/IMG_1161-300x300.jpg 300w, https://s6655.pcdn.co/wp-content/uploads/2010/08/IMG_1161-200x200.jpg 200w, https://s6655.pcdn.co/wp-content/uploads/2010/08/IMG_1161.jpg 1024w" sizes="(max-width: 560px) 100vw, 560px" /></a><strong>Main Dishes</strong></p>
+<p><em>pasta:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/linguine-with-shrimp-and-tomato-cream-sauce/">Linguine with Shrimp and Tomato Cream Sauce</a></li>
+<li><a href="http://www.eatliverun.com/breakfast-recipes/engagement-scampi/">Engagement Scampi</a></li>
+<li><a href="http://www.eatliverun.com/adams-famous-spaghetti/">Adam&#8217;s Famous Spaghetti </a></li>
+<li><a href="http://www.eatliverun.com/meyer-lemon-spaghetti-with-asparagus/">Meyer Lemon Spaghetti with Asparagus</a></li>
+<li><a href="http://www.eatliverun.com/green-goddess-pasta/">Green Goddess Pasta</a></li>
+<li><a href="http://www.eatliverun.com/zucchini-pasta/">Zucchini Pasta </a></li>
+<li><a href="http://www.eatliverun.com/farro-risotto-with-mushrooms-and-sweet-corn/">Farro &#8220;Risotto&#8221; with Mushrooms and Sweet Corn</a></li>
+<li><a href="http://www.eatliverun.com/dairy-free-stuffed-shells/">Dairy-Free Stuffed Shells</a></li>
+<li><a href="http://www.eatliverun.com/try-it-fresh/">Homemade Goat Cheese Ravioli</a></li>
+<li><a href="http://www.eatliverun.com/peanut-soba-noodle-bowls/">Peanut Soba Noodle Bowls</a></li>
+<li><a href="http://www.eatliverun.com/happy-as-a-clam/">Linguine with Clams</a></li>
+<li><a href="http://www.eatliverun.com/penne-with-white-beans-and-spinach/">Penne with White Beans and Spinach</a></li>
+<li><a href="http://www.eatliverun.com/butternut-squash-gnocchi-with-browned-butter-and-fried-sage/">Butternut Squash Gnocchi with Browned Butter and Fried Sage</a></li>
+<li><a href="http://www.eatliverun.com/lightened-up-creamy-cajun-chicken-pasta/">Lightened Up Creamy Cajun Chicken Pasta</a></li>
+<li><a href="http://www.eatliverun.com/three-cheese-beet-ravioli/">Three Cheese Beet Ravioli</a></li>
+<li><a href="http://www.eatliverun.com/mediterranean-orzo-mac-cheese/">Mediterranean Orzo Mac &amp; Cheese</a></li>
+<li><a href="http://www.eatliverun.com/creamy-chicken-and-mushroom-pasta-skillet/">Creamy Chicken and Mushroom Pasta Skillet</a></li>
+<li><a href="http://www.eatliverun.com/barbecue-chicken-pasta/">Barbecue Chicken Pasta</a></li>
+<li><a href="http://www.eatliverun.com/cheesy-spinach-stuffed-shells/">Cheesy Spinach Stuffed Shells</a></li>
+<li><a href="http://www.eatliverun.com/scallop-linguine/">Scallop Linguine </a></li>
+<li><a href="http://www.eatliverun.com/spaghetti-with-meat-sauce/">Spaghetti with Meat Sauce</a></li>
+<li><a href="http://www.eatliverun.com/quick-sesame-soba-noodles/">Quick Sesame Soba Noodles</a></li>
+<li><a href="http://www.eatliverun.com/mediterranean-shrimp-tortellini/">Mediterranean Shrimp Tortellini</a></li>
+<li><a href="http://www.eatliverun.com/spaghetti-allarrabiata/">Spaghetti All&#8217;Arrabiata </a></li>
+<li><a href="http://www.eatliverun.com/beet-pesto-pasta-giveaway/">Beet Pesto Pasta</a></li>
+</ul>
+<p><em>poultry:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/chicken-noodle-soup-casserole/">Chicken Noodle Soup Casserole</a></li>
+<li><a href="http://www.eatliverun.com/chicken-street-tacos/">Chicken Street Tacos</a></li>
+<li><a href="http://www.eatliverun.com/30-minute-lemon-brown-sugar-chicken/">30 Minute Lemon Brown Sugar Chicken</a></li>
+<li><a href="http://www.eatliverun.com/chicken-noodle-soup-casserole/">Chicken Noodle Soup Casserole</a></li>
+<li><a href="http://www.eatliverun.com/chicken-tikka-masala/">Chicken Tikka Masala</a></li>
+<li><a href="http://www.eatliverun.com/delicious-chinese-food-at-home/">Chicken and Bok Choy Stir-Fry</a></li>
+<li><a href="http://www.eatliverun.com/let-me-feed-you-a-meatball">Turkey Meatballs with Homemade Tomato Sauce</a></li>
+<li><a href="http://www.eatliverun.com/moms-know-best/">Chicken and Green Chili Enchiladas</a></li>
+<li><a href="http://www.eatliverun.com/chicken-pot-pie-with-puff-pastry-crust/">Chicken Pot Pie with Puff Pastry Crust</a></li>
+<li><a href="http://www.eatliverun.com/ginger-honey-cashew-chicken/">Ginger Honey Cashew Chicken</a></li>
+<li><a href="http://www.eatliverun.com/famous-barbecue-pulled-chicken">My Mom&#8217;s Famous Barbecue Pulled Chicken</a></li>
+<li><a href="http://www.eatliverun.com/chicken-n-biscuits-to-fix-your-life/">Southern Comfort Chicken and Biscuits</a></li>
+<li><a href="http://www.eatliverun.com/chicken-parmesan-with-a-twist/">Chicken Parmesan with a Twist</a></li>
+<li><a href="http://www.eatliverun.com/chicken-and-almonds/">Down Home Buttermilk Fried Chicken</a></li>
+<li><a href="http://www.eatliverun.com/spinach-feta-turkey-burgers/">Spinach Feta Turkey Burgers</a></li>
+<li><a href="http://www.eatliverun.com/chicken-paprika-with-homemade-dumplings/">Chicken Paprika with Homemade Dumplings</a></li>
+<li><a href="http://www.eatliverun.com/kicked-up-turkey-meatloaf/">Kicked up Turkey Meatloaf</a></li>
+<li><a href="http://www.eatliverun.com/arroz-con-pollo/">Arroz con Pollo</a></li>
+<li><a href="http://www.eatliverun.com/turkey-fajita-burgers-with-grilled-tomatillo-salsa/">Turkey Fajita Burgers with Grilled Tomatillo Salsa</a></li>
+<li><a href="http://www.eatliverun.com/tomato-and-feta-stuffed-chicken-breasts/">Tomato and Feta Stuffed Chicken Breasts</a></li>
+<li><a href="http://www.eatliverun.com/pinot-grigio-chicken-with-honey-citrus-glaze/">Pinot Grigio Chicken with Honey Citrus Glaze</a></li>
+<li><a href="http://www.eatliverun.com/thai-red-curry-chicken/">Thai Red Curry Chicken</a></li>
+<li><a href="http://www.eatliverun.com/turkey-taco-casserole/">Weeknight Turkey Taco Casserole</a></li>
+<li><a href="http://www.eatliverun.com/indian-spiced-chicken-burgers/">Indian Spiced Chicken Burgers</a></li>
+<li><a href="http://www.eatliverun.com/turkey-stuffed-cabbage-rolls/">Turkey Stuffed Cabbage Rolls</a></li>
+</ul>
+<p><em>pork &amp; beef:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/beef-tenderloin-with-apricot-and-olives/">Beef Tenderloin with Apricot and Olives</a></li>
+<li><a href="http://www.eatliverun.com/beef-stroganoff-with-gnocchi/">Beef Stroganoff with Gnocchi</a></li>
+<li><a href="http://www.eatliverun.com/delicious-chinese-food-at-home/">Cantonese-style Beef with Carrot and Daikon</a></li>
+<li><a href="http://www.eatliverun.com/cookin-creole/">Hot &amp; Spicy Jambalaya </a></li>
+<li><a href="http://www.eatliverun.com/steak-and-veggie-kabobs-with-creamy-avocado-dipping-sauce/">Steak &amp; Veggie Kabobs with Creamy Avocado Dipping Sauce</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-beef-carnitas-tacos/">Crock Pot Beef Carnitas Tacos</a></li>
+<li><a href="http://www.eatliverun.com/steak-gorgonzola-and-cherry-tomato-pizza/">Steak, Gorgonzola and Cherry Tomato Pizza</a></li>
+<li><a href="http://www.eatliverun.com/beer-brats-with-caramelized-onions/">Beer Brats with Caramelized Onions</a></li>
+<li><a href="http://www.eatliverun.com/mini-meatballs-in-pinot-noir-sauce/">Mini Meatballs in Pinot Noir Sauce</a></li>
+<li><a href="http://www.eatliverun.com/pork-chops-with-grilled-nectarines-caramelized-onions-and-gorgonzola-cheese/">Pork Chops with Grilled Nectarines, Caramelized Onions and Gorgonzola Cheese</a></li>
+<li><a href="http://www.eatliverun.com/shredded-beef-enchiladas/">Shredded Beef Enchiladas</a></li>
+</ul>
+<p><em>seafood:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/in-a-hurry-shrimp-n-grits/">In a Hurry Shrimp n&#8217; Grits</a></li>
+<li><a href="http://www.eatliverun.com/shrimp-tacos-with-grilled-poblano-and-avocado-salsa/">Shrimp Tacos with Grilled Poblano and Avocado Salsa</a></li>
+<li><a href="http://www.eatliverun.com/adams-cedar-plank-smoked-salmon/">Adam&#8217;s Cedar Plank Smoked Salmon</a></li>
+<li><a href="http://www.eatliverun.com/ten-minute-shrimp-and-goat-cheese-quesadillas/">10 Minute Shrimp and Goat Cheese Quesadillas</a></li>
+<li><a href="http://www.eatliverun.com/authentic-shrimp-fried-rice/">Shrimp Fried Rice</a></li>
+<li><a href="http://www.eatliverun.com/sweet-and-spicy-glazed-salmon-sandwiches/">Sweet and Spicy Glazed Salmon Sandwiches</a></li>
+<li><a href="http://www.eatliverun.com/seafood-risotto/">Seafood Risotto</a></li>
+<li><a href="http://www.eatliverun.com/how-to-make-shrimp-etouffee/">Shrimp Etouffee </a></li>
+<li><a href="http://www.eatliverun.com/shrimp-enchiladas-verde/">Shrimp Enchiladas Verde</a></li>
+<li><a href="http://www.eatliverun.com/smoked-salmon-quesadillas-with-creamy-chipotle-cilantro-sauce/">Smoked Salmon Quesadillas with Creamy Chipotle Cilantro Sauce</a></li>
+<li><a href="http://www.eatliverun.com/foil-baked-fish-with-summer-veggies/">Foil-Baked Fish with Summer Veggies</a></li>
+<li><a href="http://www.eatliverun.com/grilled-balsamic-salmon-kabobs/">Grilled Balsamic Salmon Kabobs</a></li>
+<li><a href="http://www.eatliverun.com/shrimp-and-rice-casserole/">Shrimp and Rice Casserole </a></li>
+<li><a href="http://www.eatliverun.com/salmon-honey-teriyaki/">Salmon Honey Teriyaki</a></li>
+<li><a href="http://www.eatliverun.com/cajun-shrimp-quiche/">Cajun Shrimp Quiche</a></li>
+<li><a href="http://www.eatliverun.com/mediterranean-baked-salmon/">Mediterranean Baked Salmon</a></li>
+<li><a href="http://www.eatliverun.com/grilled-salmon-with-chardonnay-sauce/">Grilled Salmon with Chardonnay Sauce</a></li>
+<li><a href="http://www.eatliverun.com/italian-tuna-salad/">Italian Tuna Salad</a></li>
+<li><a href="http://www.eatliverun.com/spicy-thai-shrimp-skillet/">Spicy Thai Shrimp Skillet</a></li>
+</ul>
+<p><em>pizzas, flatbreads &amp; savory tarts:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/homemade-pizza-two-ways/">Classic Margarita pizza with Mushrooms and Goat Cheese</a></li>
+<li><a href="http://www.eatliverun.com/barbecue-chickpea-pizza-with-gouda-and-caramelized-onions/">Barbecue Chickpea Pizza with Caramelized Onions and Gouda Cheese</a></li>
+<li><a href="http://www.eatliverun.com/focaccia-with-caramelized-onions-blue-cheese-and-pear/">Focaccia with Caramelized Onions, Blue Cheese and Pear</a></li>
+<li><a href="http://www.eatliverun.com/goat-cheese-fig-and-bacon-flatbreads/">Goat Cheese, Bacon and Fig Flatbreads</a></li>
+<li><a href="http://www.eatliverun.com/a-leeky-tart/">Goat Cheese and Leek Tart</a></li>
+<li><a href="http://www.eatliverun.com/cheesy-zucchini-pizza/">Cheesy Zucchini Pizza</a></li>
+<li><a href="http://www.eatliverun.com/deep-dish-pizza-at-home/">Deep Dish Pizza</a></li>
+<li><a href="http://www.eatliverun.com/the-path-to-pissaladiere/">Pissaladiere (Provincial Onion Tart)</a></li>
+<li><a href="http://www.eatliverun.com/homemade-pizza-two-ways/">Pear Gorgonzola Flatbread with Balsamic Drizzle</a></li>
+<li><a href="http://www.eatliverun.com/butternut-squash-pizza-with-gruyere-and-arugula/">Butternut Squash Pizza with Gruyere and Arugula</a></li>
+<li><a href="http://www.eatliverun.com/kale-and-three-cheese-calzones/">Kale and Three Cheese Calzones</a></li>
+<li><a href="http://www.eatliverun.com/quick-n-easy-mexican-pizzas/">Quick n&#8217; Easy Mexican Pizzas</a></li>
+</ul>
+<p><em>chilies and soups:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/you-can-always-go-home/">Homestyle Turkey Chili</a></li>
+<li><a href="http://www.eatliverun.com/worlds-best-vegetarian-chil/">Vegan Black Bean Chili</a></li>
+<li><a href="http://www.eatliverun.com/black-eyed-pea-stew/">Black Eyed Pea Stew</a></li>
+<li><a href="http://www.eatliverun.com/chicken-tortilla-soup/">Chicken Tortilla Soup</a></li>
+<li><a href="http://www.eatliverun.com/classic-split-pea-soup/">Classic Split Pea Soup</a></li>
+<li><a href="http://www.eatliverun.com/grilled-cheese-and-creamy-tomato-soup/">Creamy Tomato Soup</a></li>
+<li><a href="http://www.eatliverun.com/carrot-ginger-soup/">Carrot Ginger Soup</a></li>
+<li><a href="http://www.eatliverun.com/babaganoush-soup/">Babaganoush Soup </a></li>
+<li><a href="http://www.eatliverun.com/creamy-white-chicken-chili/">Creamy White Chicken Chili</a></li>
+<li><a href="http://www.eatliverun.com/just-when-you-thought-you-were-sick-of-squash/">Spicy Acorn Squash Bisque</a></li>
+<li><a href="http://www.eatliverun.com/curried-butternut-and-red-lentil-soup/">Curried Butternut and Red Lentil Soup</a></li>
+<li><a href="http://www.eatliverun.com/kale-and-white-bean-soup-with-golden-beets-and-spicy-sausage/">Kale and White Bean Soup with Golden Beets and Spicy Sausage</a></li>
+<li><a href="http://www.eatliverun.com/broccoli-cheddar-and-potato-soup/">Broccoli, Cheddar and Potato Soup</a></li>
+<li><a href="http://www.eatliverun.com/the-soup-that-will-cure-things/">Tom Kha Gai (Thai Coconut Soup)</a></li>
+<li><a href="http://www.eatliverun.com/coconut-curried-sweet-potato-soup/">Coconut Curried Sweet Potato Soup</a></li>
+<li><a href="http://www.eatliverun.com/springtime-minestrone/">Springtime Minestrone Soup</a></li>
+<li><a href="http://www.eatliverun.com/greek-alphabet-stoup/">Greek Vegetable &#8220;Stoup&#8221;</a></li>
+<li><a href="http://www.eatliverun.com/tortellini-and-heirloom-bean-soup/">Tortellini and Heirloom Bean Soup</a></li>
+<li><a href="http://www.eatliverun.com/asian-chicken-noodle-soup/">Asian Chicken Noodle Soup</a></li>
+<li><a href="http://www.eatliverun.com/fire-pot-soup/">Fire-Pot Soup</a></li>
+<li><a href="http://www.eatliverun.com/creamy-chicken-tortellini-soup-with-kale/">Creamy Chicken Tortellini Soup with Kale</a></li>
+<li><a href="http://www.eatliverun.com/roasted-root-vegetable-bisque/">Roasted Root Vegetable Bisque</a></li>
+<li><a href="http://www.eatliverun.com/quick-chicken-chickpea-soup/">Quick Chickpea Chicken Soup</a></li>
+<li><a href="http://www.eatliverun.com/beef-stew-with-merlot/">Beef Stew with Merlot</a></li>
+<li><a href="http://www.eatliverun.com/creamy-zucchini-and-rice-soup/">Creamy Zucchini and Rice Soup</a></li>
+<li><a href="http://www.eatliverun.com/homemade-chicken-broth-crock-pot-and-stove-top/">Homemade Chicken Broth Recipe {Stove Top and Crock Pot Versions}</a></li>
+<li><a href="http://www.eatliverun.com/winter-minestrone/">Winter Minestrone</a></li>
+<li><a href="http://www.eatliverun.com/creamy-potato-soup/">Creamy Potato Soup</a></li>
+<li><a href="http://www.eatliverun.com/my-moms-chicken-noodle-soup-with-cheddar-chive-biscuits/">My Mom&#8217;s Chicken Noodle Soup with Cheddar Chive Biscuits</a></li>
+<li><a href="http://www.eatliverun.com/pumpkin-curry-bisque/">Pumpkin Curry Bisque</a></li>
+</ul>
+<p><em>vegetarian main dishes:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/easy-peasy-jambalaya/">Vegan Jambalaya</a></li>
+<li><a href="http://www.eatliverun.com/the-grand-finale/">Vegan Lentil Walnut Loaf</a></li>
+<li><a href="http://www.eatliverun.com/boyfriend-approved-spicy-black-bean-burgers/">Boyfriend-Approved Spicy Black Bean Burgers</a></li>
+<li><a href="http://www.eatliverun.com/vegetable-soft-tacos-with-chipotle-sour-cream/">Vegetable Soft Tacos with Chipotle Sour Cream</a></li>
+<li><a href="http://www.eatliverun.com/whats-cooking-tonight/">Channa Masala</a></li>
+<li><a href="http://www.eatliverun.com/frittata-on-my-mind/">Roasted Broccoli and Corn Frittata</a></li>
+<li><a href="http://www.eatliverun.com/vegetarian-yellow-curry/">Vegetarian Yellow Curry </a></li>
+<li><a href="http://www.eatliverun.com/lentils-in-the-kitchen/">Simple Red Lentil Daal</a></li>
+<li><a href="http://www.eatliverun.com/thai-red-curry-with-kabocha-squash/">Red Thai Curry with Kabocha Squash</a></li>
+<li><a href="http://www.eatliverun.com/baked-polenta-with-mushrooms-gorgonzola-cheese-and-tomato-sauce/">Baked Polenta with Mushrooms, Gorgonzola Cheese and Tomato Sauce</a></li>
+<li><a href="http://www.eatliverun.com/gingery-red-lentils-rice/">Gingery Lentils &amp; Rice</a></li>
+<li><a href="http://www.eatliverun.com/winter-vegetable-pot-pies/">Winter Vegetable Pot Pies</a></li>
+<li><a href="http://www.eatliverun.com/hoppin-john/">Hoppin&#8217; John</a></li>
+<li><a href="http://www.eatliverun.com/spicy-lentils-with-sweet-potatoes-and-kale/">Spicy Lentils with Sweet Potatoes and Kale</a></li>
+<li><a href="http://www.eatliverun.com/spinach-and-cheese-quinoa-casserole/">Spinach and Cheese Quinoa Casserole</a></li>
+<li><a href="http://www.eatliverun.com/dinner-on-the-cheap-rice-bean-casserole-with-guacamole/">Rice and Bean Casserole</a></li>
+<li><a href="http://www.eatliverun.com/roasted-cauliflower-frittata/">Roasted Cauliflower Frittata </a></li>
+</ul>
+<p><em>sandwiches:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/gaullois-sandwich/">Gaullois Sandwich (Toasted Ham and Brie with Pecans and Sun-dried Tomatoes)</a></li>
+<li><a href="http://www.eatliverun.com/roased-veggie-and-goat-cheese-pitas/">Roasted Veggie and Goat Cheese Pitas</a></li>
+<li><a href="http://www.eatliverun.com/sweet-and-spicy-glazed-salmon-sandwiches/">Sweet and Spicy Glazed Salmon Sandwiches</a></li>
+<li><a href="http://www.eatliverun.com/roasted-portabella-and-goat-cheese-sammies/">Roasted Portabella and Goat Cheese Sammies</a></li>
+<li><a href="http://www.eatliverun.com/simple-egg-salad-sandwiches/">Simple Egg Salad Sandwiches</a></li>
+<li><a href="http://www.eatliverun.com/tofu-banh-mi/">Tofu Banh Mi</a></li>
+<li><a href="http://www.eatliverun.com/plant-burgers/">Plant Burgers</a></li>
+<li><a href="http://www.eatliverun.com/portobello-burgers-with-basil-goat-cheese-spread-and-camera-bag-winner/">Grilled Portobello Burgers with Basil Goat Cheese Spread</a></li>
+<li><a href="http://www.eatliverun.com/turkey-salad-lettuce-wraps/">Turkey Salad Lettuce Wraps</a></li>
+<li><a href="http://www.eatliverun.com/falafel-bean-patties/">Falafel Bean Patties</a></li>
+</ul>
+<p><em>Crock Pot:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/crock-pot-lentil-sweet-potato-soup/">Crock Pot Lentil Sweet Potato Soup</a></li>
+<li><a href="http://www.eatliverun.com/slow-cooker-black-beans/">Slow Cooked Cuban Black Beans</a></li>
+<li><a href="http://www.eatliverun.com/sweet-spicy-crock-pot-ribs/">Sweet n&#8217; Spicy Crock Pot Ribs</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-beef-carnitas-tacos/">Crock Pot Beef Carnitas Tacos</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-tex-mex-chicken-lettuce-wraps/">Crock Pot Tex-Mex Chicken Lettuce Wraps</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-chicken-rice-and-green-chile-casserole/">Crock Pot Chicken, Rice and Green Chile Casserole</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-beef-and-butternut-squash-stew/">Crock Pot Beef and Butternut Squash Stew</a></li>
+<li><a href="http://www.eatliverun.com/slow-cooker-beef-short-ribs-in-cabernet-sauce/">Slow Cooker Beef Short Ribs in Cabernet Sauce</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-spinach-lasagna/">Crock Pot Spinach Lasagna</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-pork-and-apples/">Crock Pot Pork and Apples</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-moroccan-stew/">Slow Cooker Veggie Moroccan Stew</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-root-beer-pulled-chicken/">Crock Pot Root Beer Pulled Chicken</a></li>
+<li><a href="http://www.eatliverun.com/zesty-crock-pot-chicken-and-potato-stew/">Zesty Crock Pot Chicken and Potato Stew</a></li>
+<li><a href="http://www.eatliverun.com/crock-pot-creamy-chicken-tortilla-soup/">Creamy Crock Pot Chicken Tortilla Soup</a></li>
+</ul>
+<p><strong>Appetizers and Snacks<br />
+</strong></p>
+<ul>
+<li><a href="http://www.eatliverun.com/buffalo-chicken-wontons/">Buffalo Chicken Wontons</a></li>
+<li><a href="http://www.eatliverun.com/buffalo-chicken-dip/">Buffalo Chicken Dip</a></li>
+<li><a href="http://www.eatliverun.com/cheddar-wafers/">Cheddar Wafers</a></li>
+<li><a href="http://www.eatliverun.com/jalapeno-cheddar-hummus/">Jalapeno Cheddar Hummus</a></li>
+<li><a href="http://www.eatliverun.com/pizza-rolls/">Pizza Rolls</a></li>
+<li><a href="http://www.eatliverun.com/yogi-trail-mix-bars/">Yogi Trail Mix Bars</a></li>
+<li><a href="http://www.eatliverun.com/the-only-guacamole-recipe-youll-ever-need/">The Only Guacamole Recipe You&#8217;ll Ever Need</a></li>
+<li><a href="http://www.eatliverun.com/soft-baked-fig-cereal-bars-2/">Soft Baked Fig Cereal Bars</a></li>
+<li><a href="http://www.eatliverun.com/black-bean-and-sweet-potato-quesadillas/">Black Bean &amp; Sweet Potato Quesadillas</a></li>
+<li><a href="http://www.eatliverun.com/spicy-guacamole-hummus-party-toasts/">Spicy Guacamole Hummus Party Toasts</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-chip-quinoa-trail-mix-balls/">Quinoa Chocolate Chip Trail Mix Bars</a></li>
+<li><a href="http://www.eatliverun.com/grilled-brie-with-honey-and-trail-mix/">Grilled Brie with Honey and Trail Mix</a></li>
+<li><a href="http://www.eatliverun.com/sweet-smokin-hot-mango-chipote-guacamole-giveaway/">Mango Chipotle Guacamole</a></li>
+<li><a href="http://www.eatliverun.com/garlicky-eggplant-and-greek-yogurt-dip/">Garlicky Eggplant and Greek Yogurt Dip</a></li>
+<li><a href="http://www.eatliverun.com/incredibly-good-basic-hummus/">Incredibly Good {Basic} Hummus </a></li>
+</ul>
+<p><strong>Salads &amp; Sides</strong></p>
+<p><em>salads:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/mediterranean-quinoa-salad/">Mediterranean Quinoa Salad</a></li>
+<li><a href="http://www.eatliverun.com/spicy-asian-slaw/">Spicy Crunchy Asian Slaw</a></li>
+<li><a href="http://www.eatliverun.com/wheat-berry-salad-with-corn-and-smoked-mozzarella/">Wheat Berry Salad with Corn and Smoked Mozzarella </a></li>
+<li><a href="http://www.eatliverun.com/old-fashioned-potato-salad/">Old Fashioned Potato Salad</a></li>
+<li><a href="http://www.eatliverun.com/tofu-greek-salad/">Tofu Greek Salad</a></li>
+<li><a href="http://www.eatliverun.com/whole-wheat-mediterranean-pasta-salad/">Whole Wheat Mediterranean Pasta Salad</a></li>
+<li><a href="http://www.eatliverun.com/jicama-mango-salad-with-zesty-lime-vinaigrette/">Mango Jicama Salad with Zesty Lime Vinaigrette </a></li>
+<li><a href="http://www.eatliverun.com/my-soul-shall-sing/">Classic Caprese Salad</a></li>
+<li><a href="http://www.eatliverun.com/end-of-innocence/">Chickpea &amp; Veggie Medley</a></li>
+<li><a href="http://www.eatliverun.com/dr-mom/">Quinoa, Corn &amp; Lentil Salad</a></li>
+<li><a href="http://www.eatliverun.com/sonoma-chicken-salad/">Sonoma Chicken Salad</a></li>
+<li><a href="http://www.eatliverun.com/chickpea-mango-and-cucumber-salad/">Chickpea, Mango &amp; Cucumber Salad</a></li>
+<li><a href="http://www.eatliverun.com/black-bean-quinoa-and-citrus-salad/">Black Bean, Quinoa and Citrus Salad</a></li>
+<li><a href="http://www.eatliverun.com/harvest-salad-for-one/">Fall Harvest Salad</a></li>
+<li><a href="http://www.eatliverun.com/kale-salad-with-walnuts-and-feta/">Kale Salad with Walnuts and Feta</a></li>
+<li><a href="http://www.eatliverun.com/my-favorite-salad/">My Favorite &#8220;Lunch&#8221; Salad</a></li>
+<li><a href="http://www.eatliverun.com/kale-salad-with-oranges-almonds-and-avocado-the-detox-salad/">Kale Salad with Avocado, Almonds and Oranges (the &#8220;detox&#8221; salad)</a></li>
+<li><a href="http://www.eatliverun.com/couscous-tabbouleh-salad/">Couscous Tabbouleh Salad</a></li>
+<li><a href="http://www.eatliverun.com/grilled-peach-chicken-goat-cheese-salad-with-honey-white-balsamic-dressing/">Grilled Peach, Chicken and Goat Cheese Salad with Honey White Balsamic Dressing</a></li>
+<li><a href="http://www.eatliverun.com/summer-fattoush-salad/">Summer Fattoush Salad</a></li>
+<li><a href="http://www.eatliverun.com/kale-and-brussels-sprouts-salad/">Kale and Brussels Sprouts Salad</a></li>
+<li><a href="http://www.eatliverun.com/southwestern-chicken-and-spaghetti-squash-salad/">Southwestern Chicken and Spaghetti Squash Salad</a></li>
+<li><a href="http://www.eatliverun.com/black-bean-sweet-corn-and-mango-salad/">Black Bean, Sweet Corn and Mango Salad</a></li>
+<li><a href="http://www.eatliverun.com/greek-chickpea-pasta-salad/">Greek Chickpea Pasta Salad</a></li>
+<li><a href="http://www.eatliverun.com/roasted-butternut-squash-and-arugula-salad-with-ginger-orange-vinaigrette/">Roasted Butternut Squash and Arugula Salad with Ginger Orange Vinaigrette </a></li>
+<li><a href="http://www.eatliverun.com/roasted-winter-vegetable-salad/">Roasted Winter Vegetable Salad</a></li>
+</ul>
+<p><em>vegetable sides:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/caramelized-brussels-sprouts/">Caramelized Brussels Sprouts</a></li>
+<li><a href="http://www.eatliverun.com/southwestern-baked-corn/">Southwestern Baked Corn</a></li>
+<li><a href="http://www.eatliverun.com/twice-baked-potatoes-with-cheddar-and-bacon/">Twice Baked Potatoes with Bacon and Cheddar</a></li>
+<li><a href="http://www.eatliverun.com/mashed-potatoes-with-mushroom-gravy/">Mashed Potatoes with Mushroom Gravy</a></li>
+<li><a href="http://www.eatliverun.com/rustic-mushroom-sourdough-stuffing/">Rustic Mushroom Sourdough Stuffing</a></li>
+<li><a href="http://www.eatliverun.com/spicy-roasted-cauliflower/">Spicy Roasted Cauliflower</a></li>
+<li><a href="http://www.eatliverun.com/brussels-sprouts-with-bacon-dried-cherries-and-israeli-couscous/">Brussels Sprouts with Bacon, Dried Cherries and Israeli Couscous</a></li>
+<li><a href="http://www.eatliverun.com/roasted-carrots-with-honey-ginger-glaze/">Roasted Carrots with Honey Ginger Glaze</a></li>
+<li><a href="http://www.eatliverun.com/classic-potatoes-au-gratin/">Classic Potatoes au Gratin</a></li>
+<li><a href="http://www.eatliverun.com/roasted-parsnip-fries-with-lemongrass-ginger-creme-fraiche/">Roasted Parsnip Fries with Lemongrass Ginger Creme Fraiche</a></li>
+<li><a href="http://www.eatliverun.com/thai-stuffed-avocados/">Thai Stuffed Avocados</a></li>
+<li><a href="http://www.eatliverun.com/grilled-corn-with-poblano-lime-crema-and-other-4th-of-july-recipes/">Grilled Corn with Poblano Lime Crema </a></li>
+<li><a href="http://www.eatliverun.com/broccoli-wild-rice-casserole/">Broccoli and Wild Rice Casserole</a></li>
+</ul>
+<p><em>beans, rice &amp; quinoa:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/cuban-black-beans/">Cuban Black Beans</a></li>
+<li><a href="http://www.eatliverun.com/breakfast-recipes/homemade-baked-beans/">Homemade Baked Beans</a></li>
+<li><a href="http://www.eatliverun.com/moms-sweet-and-spicy-barbecue-beans/">Mom&#8217;s Sweet and Spicy Barbecue Beans</a></li>
+<li><a href="http://www.eatliverun.com/how-to-make-super-creamy-risotto-at-home/">Mushroom Risott</a>o</li>
+<li><a href="http://www.eatliverun.com/almost-perfect-vegetable-fried-rice/">Almost Perfect Vegetable Fried Rice</a></li>
+<li><a href="http://www.eatliverun.com/rooibos-quinoa-with-dried-blueberries-and-coconut/">Rooibos Quinoa with Coconut and Dried Blueberries </a></li>
+<li><a href="http://www.eatliverun.com/wild-rice-with-caramelized-shallots-cranberries-and-pecans/">Wild Rice with Caramelized Shallots, Pecans and Cranberries</a></li>
+<li><a href="http://www.eatliverun.com/red-beans-and-rice/">Red Beans n&#8217; Rice</a></li>
+<li><a href="http://www.eatliverun.com/simple-quinoa-fried-rice/">Simple Quinoa Fried Rice</a></li>
+<li><a href="http://www.eatliverun.com/quinoa-tabbouli/">Quinoa Tabbouli</a></li>
+</ul>
+<p><strong>Breads Galore</strong></p>
+<p><em>muffins &amp; scones:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/blackberry-orange-muffins/">Blackberry Orange Muffins</a></li>
+<li><a href="http://www.eatliverun.com/just-put-the-butter-on-the-chocolate/">Double Chocolate Muffins</a></li>
+<li><a href="http://www.eatliverun.com/cinnamon-toast-muffins/">Cinnamon Toast Muffins</a></li>
+<li><a href="http://www.eatliverun.com/carrot-cake-muffin-bars/">Carrot Cake Muffin Bars</a></li>
+<li><a href="http://www.eatliverun.com/banana-mango-muffins/">Mango Banana Muffins</a></li>
+<li><a href="http://www.eatliverun.com/late-summer-zucchini-muffins/">Late Summer Zucchini Muffins</a></li>
+<li><a href="http://www.eatliverun.com/whole-grain-strawberry-pop-tart-scones/">Whole Grain Strawberry Pop Tart Scones</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-chip-apricot-scones/">Chocolate Chip Apricot Scones</a></li>
+<li><a href="http://www.eatliverun.com/pecan-pumpkin-raisin-scones/">Pecan Pumpkin Raisin Scones</a></li>
+<li><a href="http://www.eatliverun.com/a-fifteen-minute-success/">Fifteen Minute Oatmeal Scones</a></li>
+<li><a href="http://www.eatliverun.com/vegan-dark-chocolate-stuffed-scones/">Vegan Dark Chocolate Stuffed Scones</a></li>
+<li><a href="http://www.eatliverun.com/coconut-blueberry-muffin-tops/">Coconut Blueberry Muffin Tops</a></li>
+<li><a href="http://www.eatliverun.com/triple-berry-oat-muffins-with-cinnamon-streusel/">Triple Berry Oat Muffins with Cinnamon Streusel </a></li>
+<li><a href="http://www.eatliverun.com/whole-wheat-pumpkin-spice-muffins/">Whole Wheat Pumpkin Spice Muffins</a></li>
+</ul>
+<p><em>quickbreads &amp; crackers:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/apple-spice-bread-with-apple-cider-glaze/">Apple Spice Bread with Apple Cider Glaze</a></li>
+<li><a href="http://www.eatliverun.com/cinnamon-walnut-bread-with-honey-butter/">Cinnamon Walnut Quick Bread</a></li>
+<li><a href="http://www.eatliverun.com/cranberry-walnut-orange-bread/">Cranberry Walnut Orange Bread</a></li>
+<li><a href="http://www.eatliverun.com/green-chili-cheddar-cheese-cornbread/">Green Chili Cheddar Cheese Cornbread</a></li>
+<li><a href="http://www.eatliverun.com/cheddar-wafers/">Cheddar Wafers</a></li>
+<li><a href="http://www.eatliverun.com/coconut-chai-coffee-cake/">Coconut Chai Coffee Cake</a></li>
+<li><a href="http://www.eatliverun.com/lemon-blueberry-muffin-bread/">Lemon Blueberry Muffin Bread</a></li>
+<li><a href="http://www.eatliverun.com/honey-pecan-tea-bread/">Honey Pecan Tea Bread</a></li>
+</ul>
+<p><em>yeast breads, rolls and pizza dough:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/peanut-butter-sandwich-bread/">Peanut Butter Sandwich Bread</a></li>
+<li><a href="http://www.eatliverun.com/whole-wheat-cinnamon-swirl-bread/">Whole Wheat Cinnamon Swirl Bread</a></li>
+<li><a href="http://www.eatliverun.com/walnut-potato-rolls-with-honey-butter/">Walnut Potato Rolls with Honey Butter</a></li>
+<li><a href="http://www.eatliverun.com/vegan-pumpkin-cinnamon-rolls/">Vegan Pumpkin Cinnamon Rolls</a></li>
+<li><a href="http://www.eatliverun.com/christmas-tree-rolls/">Christmas Tree Cinnamon Rolls</a></li>
+<li><a href="http://www.eatliverun.com/breakfast-recipes/beginners-rolls/">Beginner&#8217;s Rolls</a></li>
+<li><a href="http://www.eatliverun.com/cardamom-sweet-rolls-and-my-pastry-plight/">Cardamom Sweet Rolls</a></li>
+<li><a href="http://www.eatliverun.com/roasted-garlic-naan-bread/">Roasted Garlic Naan Bread</a></li>
+<li><a href="http://www.eatliverun.com/harvest-focaccia">Harvest Focaccia</a></li>
+<li><a href="http://www.eatliverun.com/breakfast-recipes/the-best-pizza-dough/">The Best Pizza Dough</a></li>
+<li><a href="www.eatliverun.com/homemade-hamburger-buns/">Homemade Hamburger Buns</a></li>
+<li><a href="http://www.eatliverun.com/oatmeal-sandwich-bread/">Oatmeal Sandwich Bread</a></li>
+<li><a href="http://www.eatliverun.com/st-lucia-buns/">St. Lucia Buns {Lussekatter}</a></li>
+<li><a href="http://www.eatliverun.com/sweet-potato-cinnamon-rolls/">Sweet Potato Cinnamon Rolls</a></li>
+<li><a href="http://www.eatliverun.com/coconut-orange-sweet-rolls/">Coconut Orange Sweet Rolls</a></li>
+</ul>
+<p><em>doughnuts:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/its-all-happening-baked-spice-doughnuts/">Baked Spice Doughnuts</a></li>
+<li><a href="http://www.eatliverun.com/glazed-cake-doughnuts/">Glazed Cake Doughnuts</a></li>
+<li><a href="http://www.eatliverun.com/rum-cake-doughnuts/">Rum Cake Doughnuts</a></li>
+<li><a href="http://www.eatliverun.com/oven-baked-beignets/">Oven Baked Beignets</a></li>
+<li><a href="http://www.eatliverun.com/baked-apple-cider-donuts/">Baked Apple Cider Doughnuts</a></li>
+</ul>
+<p><strong>Drinks</strong></p>
+<ul>
+<li><a href="http://www.eatliverun.com/quick-and-easy-nutella-hot-chocolate/">Quick and Easy Nutella Hot Chocolate</a></li>
+<li><a href="http://www.eatliverun.com/peanut-butter-hot-chocolate/">Peanut Butter Hot Chocolate</a></li>
+<li><a href="http://www.eatliverun.com/homemade-chai-lattes/">Homemade Chai Tea Lattes</a></li>
+<li><a href="../breakfast-recipes/virgin-sangria/">Virgin Sangria</a></li>
+<li><a href="http://www.eatliverun.com/strawberry-agua-fresca/">Strawberry Agua Fresca</a></li>
+<li><a href="http://www.eatliverun.com/egg-creams/">Old Fashioned Egg Creams</a></li>
+<li><a href="../blackberry-margaritas/">Blackberry Margaritas</a></li>
+<li><a href="http://www.eatliverun.com/chai-shakes/">Chai Shakes</a></li>
+<li><a href="http://www.eatliverun.com/green-tea-smoothies/">Green Tea Smoothies</a></li>
+<li><a href="http://www.eatliverun.com/frozen-mango-lassis/">Frozen Mango Lassis</a></li>
+<li><a href="http://www.eatliverun.com/sparkling-blueberry-lemonade/">Sparkling Blueberry Lemonade</a></li>
+<li><a href="http://www.eatliverun.com/pomegranate-sangria/">Pomegranate Sangria</a></li>
+<li><a href="http://www.eatliverun.com/la-paloma/">La Paloma</a></li>
+<li><a href="http://www.eatliverun.com/cool-n-creamy-cantaloupe-smoothies/">Cool n&#8217; Creamy Cantaloupe Smoothies</a></li>
+<li><a href="http://www.eatliverun.com/blood-orange-italian-soda/">Blood Orange Italian Soda</a></li>
+<li><a href="http://www.eatliverun.com/fresh-cherry-mojitos/">Fresh Cherry Mojitos</a></li>
+<li><a href="http://www.eatliverun.com/may-favorites/">Strawberry Rhubarb Margaritas</a></li>
+<li><a href="http://www.eatliverun.com/blueberry-mojitos/">Blueberry Mojitos</a></li>
+<li><a href="http://www.eatliverun.com/cranberry-margaritas/">Cranberry Margaritas</a></li>
+<li><a href="http://www.eatliverun.com/blueberry-mint-spritzers/">Blueberry Mint Spritzers</a></li>
+<li><a href="http://www.eatliverun.com/spicy-grapefruit-margaritas/">Spicy Grapefruit Margaritas</a></li>
+<li><a href="http://www.eatliverun.com/the-ultimate-spinach-smoothie-popeye-went-on-vacation-to-thailand/">The Ultimate Spinach Smoothie {Popeye Went on Vacation to Thailand}</a></li>
+<li><a href="http://www.eatliverun.com/apple-pie-milkshakes/">Apple Pie Milkshakes</a></li>
+</ul>
+<p><strong>Breakfast</strong></p>
+<ul>
+<li><a href="http://www.eatliverun.com/whole-wheat-butternut-squash-pancakes">Whole Wheat Butternut Squash Pancakes</a></li>
+<li><a href="http://www.eatliverun.com/sweet-potato-latkes/">Sweet Potato Latkes</a></li>
+<li><a href="http://www.eatliverun.com/my-new-favorite-breakfast/">Migas</a></li>
+<li><a href="http://www.eatliverun.com/skillet-baked-eggs-with-goat-cheese-and-grape-tomatoes/">Skillet Baked Eggs with Goat Cheese and Grape Tomatoes</a></li>
+<li><a href="http://www.eatliverun.com/double-banana-chocolate-chip-breakfast-bars/">Double Banana Chocolate Chip Breakfast Bars</a></li>
+<li><a href="http://www.eatliverun.com/elvis-granola/">Elvis Granola (chocolate peanut butter granola)</a></li>
+<li><a href="http://www.eatliverun.com/my-new-favorite-breakfast/">Migas</a></li>
+<li><a href="http://www.eatliverun.com/breakfast-quesadillas/">Breakfast Quesadillas </a></li>
+<li><a href="http://www.eatliverun.com/baked-stuffed-apples-with-dried-cherries-and-walnuts">Baked Stuffed Apples with Dried Cherries and Walnuts</a></li>
+<li><a href="http://www.eatliverun.com/apricot-vanilla-breakfast-porridge/">Apricot Vanilla Breakfast Porridge</a></li>
+<li><a href="http://www.eatliverun.com/homemade-smore-pop-tarts/">Homemade S&#8217;more Pop Tarts</a></li>
+<li><a href="http://www.eatliverun.com/southwestern-sweet-potato-breakfast-skillet/">Southwestern Sweet Potato Breakfast Skillet</a></li>
+<li><a href="http://www.eatliverun.com/lemon-cornmeal-pancakes-with-strawberry-sauce/">Lemon Cornmeal Pancakes with Strawberry Sauce</a></li>
+<li><a href="http://www.eatliverun.com/maple-nut-baked-oatmeal/">Maple Nut Baked Oatmeal</a></li>
+<li><a href="http://www.eatliverun.com/coffee-pancakes/">Coffee Pancakes</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-chip-pistachio-breakfast-cookies/">Chocolate Chip Pistachio Breakfast Cookies</a></li>
+<li><a href="http://www.eatliverun.com/whole-wheat-banana-waffles/">Whole Wheat Banana Waffles</a></li>
+<li><a href="http://www.eatliverun.com/oat-and-amaranth-granola/">Oat and Amaranth Granola</a></li>
+<li><a href="http://www.eatliverun.com/the-one-the-only-overnight-oatmeal/">Overnight Oatmeal</a></li>
+</ul>
+<p><strong>Cupcakes and Cakes</strong></p>
+<p><em><strong>cakes:</strong></em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/eat-your-veggies-whole-wheat-walnut-ginger-carrot-cake/">Whole Wheat Walnut Ginger Carrot Cake with Coconut Frosting</a></li>
+<li><a href="http://www.eatliverun.com/triple-layer-chocolate-birthday-cake/">Triple Layer Chocolate Cake with Chocolate Frosting</a></li>
+<li><a href="http://www.eatliverun.com/pear-cardamom-upside-down-cake/">Pear Cardamom Upside Down Cake</a></li>
+<li><a href="http://www.eatliverun.com/greek-yogurt-cheesecake-with-peaches-and-honey/">Greek Yogurt Cheesecake </a></li>
+<li><a href="http://www.eatliverun.com/chocolate-pudding-dump-cake/">Chocolate Pudding Dump Cake</a></li>
+<li><a href="http://www.eatliverun.com/pumpkin-cheesecake-bites/">Pumpkin Cheesecake Bites</a></li>
+<li><a href="http://www.eatliverun.com/peanut-butter-cake-with-salted-chocolate-ganache/">Peanut Butter Cake with Vegan Salted Chocolate Ganache</a></li>
+<li><a href="http://www.eatliverun.com/candy-corn-cake-pops-and-meeting-bakerella/">Candy Corn Cake Pops</a></li>
+<li><a href="http://www.eatliverun.com/brown-sugar-chocolate-chip-loaf-cake-the-cake-that-almost-wasnt/">Brown Sugar Chocolate Chip Loaf Cake</a></li>
+<li><a href="http://www.eatliverun.com/a-pumpkin-roll-for-almanzo/">Pumpkin Roll with Cream Cheese Frosting</a></li>
+<li><a href="http://www.eatliverun.com/lemon-blackberry-cake-sandwiches/">Lemon Blackberry Cake Sandwiches</a></li>
+<li><a href="http://www.eatliverun.com/all-occasion-yellow-cake/">All Occasion Yellow Cake</a></li>
+<li><a href="http://www.eatliverun.com/kindred-spirits/">Hazelnut Spice Cake with Cinnamon Glaze</a></li>
+<li><a href="http://www.eatliverun.com/grumpy-ginger-cake/">Grumpy Ginger Cake</a></li>
+<li><a href="http://www.eatliverun.com/a-bohemian-wedding-cake/">Bohemian Wedding Cake (Pumpkin Spice Walnut Cake)</a></li>
+<li><a href="http://www.eatliverun.com/vegan-double-chocolate-cake-with-brown-sugar-7-minute-frosting/">Vegan Double Chocolate Cake with Brown Sugar 7-Minute Frosting</a></li>
+<li><a href="http://www.eatliverun.com/lemon-olive-oil-cake-2/">Lemon Olive Oil Cake</a></li>
+<li><a href="http://www.eatliverun.com/whole-wheat-applesauce-loaf-cake/">Whole Wheat Applesauce Loaf Cake</a></li>
+<li><a href="http://www.eatliverun.com/mint-chocolate-candy-cane-cake/">Mint Chocolate Candy Cane Cake</a></li>
+<li><a href="http://www.eatliverun.com/carrot-cake-loaf-with-thick-cream-cheese-frosting/">Carrot Cake Loaf with Thick Cream Cheese Frosting</a></li>
+<li><a href="http://www.eatliverun.com/dulce-de-leche-loaf-cake/">Dulce de Leche Loaf Cake</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-cake-with-pinot-noir-frosting/">Chocolate Cake with Pinot Noir Frosting</a></li>
+<li><a href="http://www.eatliverun.com/vanilla-bean-pavlova-with-honey-cream-and-berries/">Vanilla Bean Pavlova with Honey Cream and Berries</a></li>
+<li><a href="http://www.eatliverun.com/lemon-poppy-seed-yogurt-cake/">Lemon Poppy Seed Yogurt Cake</a></li>
+<li><a href="http://www.eatliverun.com/my-great-grandmas-gingerbread/">My Great Grandma&#8217;s Gingerbread</a></li>
+</ul>
+<p><em>cupcakes:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/vegan-chocolate-cupcakes-with-chai-buttercream/">Vegan Chocolate Cupcakes with Chai Tea Buttercream</a></li>
+<li><a href="http://www.eatliverun.com/banana-bread-cupcakes-with-cream-cheese-frosting/">Banana Bread Cupcakes with Cream Cheese Frosting</a></li>
+<li><a href="http://www.eatliverun.com/pumpkin-cupcakes-with-cream-cheese-frosting/">Pumpkin Cupcakes with Cream Cheese Frosting</a></li>
+<li><a href="http://www.eatliverun.com/tiramisu-cupcakes/">Tiramisu Cupcakes</a></li>
+<li><a href="http://www.eatliverun.com/devils-food-cup-layer-cakes/">Devil&#8217;s Food Cup-Layer-Cakes</a></li>
+<li><a href="../buttermilk-chocolate-cupcakes/">Buttermilk Chocolate Cupcakes</a></li>
+<li><a href="http://www.eatliverun.com/a-certain-pumpkin-baked-good/">Pumpkin Whoopie Pies</a></li>
+<li><a href="http://www.eatliverun.com/mini-flourless-chocolate-cakes-with-buttercream-frosting/">Mini Flourless Chocolate Cakes with Buttercream Frosting</a></li>
+<li><a href="http://www.eatliverun.com/personal-sized-chocolate-icebox-cakes/">Personal Sized Chocolate Icebox Cakes</a></li>
+<li><a href="http://www.eatliverun.com/funfetti-cupcakes-with-vanilla-bean-buttercream/">Funfetti Cupcakes with Vanilla Bean Buttercream</a></li>
+<li><a href="http://www.eatliverun.com/strawberry-cupcakes-with-fresh-strawberry-frosting/">Fresh Strawberry Cupcakes with Strawberry Frosting</a></li>
+<li><a href="http://www.eatliverun.com/pistachio-pudding-cupcakes/">Pistachio Pudding Cupcakes</a></li>
+<li><a href="http://www.eatliverun.com/shredded-baklava-cups/">Shredded Baklava Cups</a></li>
+<li><a href="http://www.eatliverun.com/fresh-cherry-limeade-cupcakes/">Fresh Cherry Limeade Cupcakes</a></li>
+</ul>
+<p><strong>Pies, Crisps and Cobblers<br />
+</strong></p>
+<ul>
+<li><a href="../apple-pie-for-one/">Apple Pie For One</a></li>
+<li><a href="../peachy-keen/">Lattice Topped Peach Pie</a></li>
+<li><a href="http://www.eatliverun.com/gingered-peach-and-blackberry-cobbler/">Gingered Peach and Blackberry Cobbler</a></li>
+<li><a href="../welcoming-august/">Blueberry Crisp</a></li>
+<li><a href="http://www.eatliverun.com/mixed-berry-hand-pies/">Mixed Berry Hand Pies</a></li>
+<li><a href="../cinnamon-pear-dumplings-with-ginger-tea-syrup/">Cinnamon Pear Dumplings with Ginger Tea Syrup</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-walnut-torte">Chocolate Walnut Torte</a></li>
+<li><a href="http://www.eatliverun.com/blood-orange-tarts/">Blood Orange Tart (with homemade citrus curd)</a></li>
+<li><a href="http://www.eatliverun.com/no-bake-black-bottom-pudding-pie/">No-Bake Black Bottom Pudding Pie</a></li>
+<li><a href="http://www.eatliverun.com/vegan-blueberry-almond-tart/">Vegan Blueberry Almond Tart</a></li>
+<li><a href="http://www.eatliverun.com/old-fashioned-chocolate-chip-pie-and-nespresso-winner/">Chocolate Chip Marshmallow Pie</a></li>
+<li><a href="http://www.eatliverun.com/deep-dish-salted-chocolate-chip-cookie-pie/">Deep Dish Salted Chocolate Chip Cookie Pie</a></li>
+<li><a href="http://www.eatliverun.com/snickers-pie/">Lightened Up Snickers Pie</a></li>
+<li><a href="http://www.eatliverun.com/no-bake-chocolate-kahlua-pecan-pie/">No-Bake Chocolate Kahlua Pecan Pie</a></li>
+<li><a href="http://www.eatliverun.com/whole-wheat-apricot-crostata/">Whole Wheat Apricot Crostata</a></li>
+<li><a href="http://www.eatliverun.com/raspberry-jam-crostata/">Raspberry Jam Crostata</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-bourbon-pecan-pie/">Chocolate Bourbon Pecan Pie</a></li>
+<li><a href="http://www.eatliverun.com/apple-pie-panini/">Apple Pie Panini</a></li>
+</ul>
+<p><strong>Puddings, Custards + Ice Cream<br />
+</strong></p>
+<ul>
+<li><a href="../old-fashioned-banana-pudding/">Old Fashioned Banana Pudding</a></li>
+<li><a href="http://www.eatliverun.com/blackberry-bread-pudding/">Blackberry Bread Pudding</a></li>
+<li><a href="../lavender-chai-panna-cotta/">Lavender Chai Panna Cotta</a></li>
+<li><a href="http://www.eatliverun.com/vegan-chocolate-pudding/">Vegan Chocolate Pudding</a></li>
+<li><a href="http://www.eatliverun.com/blender-clafoutis/">Blender Clafoutis</a></li>
+<li><a href="http://www.eatliverun.com/chai-vanilla-bean-pots-de-creme/">Chai Vanilla Bean Pots de Creme</a></li>
+<li><a href="http://www.eatliverun.com/sweet-tea-tiramisu/">Sweet Tea Tiramisu</a></li>
+<li><a href="http://www.eatliverun.com/blueberry-maple-frozen-greek-yogurt/">Blueberry Maple Frozen Greek Yogurt</a></li>
+<li><a href="http://www.eatliverun.com/homemade-peanut-butter-cup-ice-cream/">Homemade Peanut Butter Cup Ice Cream</a></li>
+</ul>
+<p><strong>Cookies, Brownies &amp; Bars</strong></p>
+<p><em>cookies:</em><strong><br />
+</strong></p>
+<ul>
+<li><a href="http://www.eatliverun.com/diy-wal-mart-crack-cookies">Wal-Mart Crack Cookies</a> (Huge, soft sugar cookies)</li>
+<li><a href="http://www.eatliverun.com/vegan-holiday-sugar-cookies/">Vegan Holiday Sugar Cookies</a></li>
+<li><a href="http://www.eatliverun.com/classic-linzer-cookies/">Classic Linzer Cookies</a></li>
+<li><a href="http://www.eatliverun.com/double-chocolate-fudge-cookies/">Double Chocolate Fudge Cookies</a></li>
+<li><a href="http://www.eatliverun.com/oatmeal-cream-pies-with-cinnamon-buttercream/">Oatmeal Cream Pies with Cinnamon Buttercream</a></li>
+<li><a href="http://www.eatliverun.com/hot-cross-cookies/">Hot Cross Cookies for Easter</a></li>
+<li><a href="http://www.eatliverun.com/loaded-oatmeal-cookies/">Loaded Oatmeal Cookies</a></li>
+<li><a href="http://www.eatliverun.com/dark-chocolate-pistachio-biscotti/">Dark Chocolate Pistachio Biscotti</a></li>
+<li><a href="http://www.eatliverun.com/mint-milano-cookies/">Mint Milano Cookies</a></li>
+<li><a href="http://www.eatliverun.com/no-bake-chocolate-peanut-butter-cookies/">No-Bake Chocolate Peanut Butter Cookies</a></li>
+<li><a href="http://www.eatliverun.com/homemade-snickerdoodle-mix/">Snickerdoodles </a></li>
+<li><a href="http://www.eatliverun.com/soft-white-filled-cookies/">Soft White Filled Cookies</a></li>
+<li><a href="http://www.eatliverun.com/fancy-slice-n-bake-checkerboard-cookies/">Fancy Slice n&#8217; Bake Checkerboard Cookies</a></li>
+<li><a href="http://www.eatliverun.com/pfeffernusse-ice-cream-sandwiches/">Pfefferneusse Ice Cream Sandwiches</a></li>
+<li><a href="http://www.eatliverun.com/pecan-fingers/">Pecan Fingers (Mexican Wedding Cakes)</a></li>
+<li><a href="http://www.eatliverun.com/whole-wheat-fig-newtons/">Whole Wheat Fig Newtons</a></li>
+<li><a href="http://www.eatliverun.com/chewy-caramel-apple-chip-cookies/">Chewy Caramel Apple Chip Cookies</a></li>
+<li><a href="http://www.eatliverun.com/fudge-striped-shortbread-cookies/">Fudge Striped Shortbread Cookies</a></li>
+<li><a href="http://www.eatliverun.com/perfect-chocolate-chip-cookies/">BethT&#8217;s Perfect Chocolate Chip Cookies</a></li>
+<li><a href="http://www.eatliverun.com/my-favorite-chocolate-chip-cookies/">My Favorite Chocolate Chip Cookies (the chewy kind!)</a></li>
+<li><a href="http://www.eatliverun.com/big-soft-sesame-cookies/">Big Soft Sesame Cookies</a></li>
+<li><a href="http://www.eatliverun.com/arlettes-triple-ginger-biscotti/">Arlette&#8217;s Triple Ginger Biscotti</a></li>
+<li><a href="http://www.eatliverun.com/sunflower-chip-cookies/">Sunflower Chip Cookies</a></li>
+<li><a href="http://www.eatliverun.com/memories-of-meringue/">Meringue Kisses</a></li>
+<li><a href="http://www.eatliverun.com/old-fashioned-gingerbread-cookies-with-a-twist/">Old Fashioned Gingerbread Cookies</a></li>
+<li><a href="http://www.eatliverun.com/long-wintermolasses-cookies/">Long Winter Molasses Cookies</a></li>
+<li><a href="http://www.eatliverun.com/old-fashioned-charm/">Old Fashioned Sugar Cookies</a></li>
+<li><a href="http://www.eatliverun.com/video-411-raspberry-rose-macaroons/">Raspberry Rose Macaroons</a></li>
+<li><a href="http://www.eatliverun.com/maple-pecan-bites/">Maple Pecan Bites</a></li>
+<li><a href="http://www.eatliverun.com/persimmon-spice-cookies/">Persimmon Spice Cookies</a></li>
+<li><a href="http://www.eatliverun.com/homemade-chocolate-covered-mint-oreos/">Homemade Chocolate Covered Mint Oreos</a></li>
+<li><a href="http://www.eatliverun.com/chewy-peppermint-mocha-cookies/">Chewy Peppermint Mocha Cookies</a></li>
+<li><a href="http://www.eatliverun.com/mint-chip-ice-cream-sandwiches/">Mint Chip Ice Cream Sandwiches</a></li>
+<li><a href="http://www.eatliverun.com/giant-chai-tea-frosted-cookies/">Giant Chai Tea Frosted Cookies</a></li>
+<li><a href="http://www.eatliverun.com/hello-dolly-bars/">Hello Dolly Bars</a></li>
+<li><a href="http://www.eatliverun.com/banana-pudding-sandwich-cookies-with-homemade-vanilla-wafers/">Banana Pudding Sandwich Cookies with Homemade Vanilla Wafers</a></li>
+<li><a href="http://www.eatliverun.com/salted-caramel-chocolate-cookie-bars/">Salted Caramel Chocolate Cookie Bars</a></li>
+<li><a href="http://www.eatliverun.com/biscoff-chocolate-chip-cookies/">Biscoff Chocolate Chip Cookies</a></li>
+<li><a href="http://www.eatliverun.com/avocado-chocolate-chip-cookies/">Avocado Chocolate Chip Cookies</a></li>
+<li><a href="http://www.eatliverun.com/thin-mint-cookies/">Vegan Thin Mint Cookies</a></li>
+<li><a href="http://www.eatliverun.com/toasted-coconut-cookie-bars/">Toasted Coconut Cookie Bars</a></li>
+<li><a href="http://www.eatliverun.com/jam-crumb-bars/">Jam Crumb Bars</a></li>
+<li><a href="http://www.eatliverun.com/whole-wheat-cranberry-pecan-biscotti/">Whole Wheat Cranberry Pecan Biscotti</a></li>
+<li><a href="http://www.eatliverun.com/blueberry-almond-sugar-cookies/">Blueberry Almond Sugar Cookies</a></li>
+<li><a href="http://www.eatliverun.com/whole-wheat-peanut-butter-oatmeal-cookies/">Whole Wheat Peanut Butter Oatmeal Cookies</a></li>
+<li><a href="http://www.eatliverun.com/double-chocolate-fudge-cookies/">Double Chocolate Fudge Cookies</a></li>
+<li><a href="http://www.eatliverun.com/toffee-squares/">Toffee Squares</a></li>
+<li><a href="http://www.eatliverun.com/soft-baked-peppermint-white-chocolate-cookies/">Soft Baked Peppermint White Chocolate Cookies</a></li>
+</ul>
+<p><em>brownies:</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/triple-layer-mint-smore-brownies/">Triple Layer Mint S&#8217;more Brownies</a></li>
+<li><a href="http://www.eatliverun.com/heath-bar-blondies/">Heath Bar Blondies</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-chip-peanut-butter-swirl-blondies/">Chocolate Chip Peanut Butter Swirl Blondies</a></li>
+<li><a href="http://www.eatliverun.com/lazy-girls-chocolate-chip-blondies/">Lazy Girl&#8217;s Chocolate Chip Blondies</a></li>
+<li><a href="http://www.eatliverun.com/salted-fudge-brownies/">Salted Fudge Brownies</a></li>
+<li><a href="http://www.eatliverun.com/fudgy-mint-chocolate-brownies/">Fudgy Mint Brownies</a></li>
+<li><a href="http://www.eatliverun.com/whiskey-walnut-blondies/">Whiskey Walnut Blondies</a></li>
+<li><a href="http://www.eatliverun.com/butternut-spice-blondies/">Butternut Spice Blondies</a></li>
+</ul>
+<p><strong>Frostings and Candies</strong></p>
+<ul>
+<li><a href="http://www.eatliverun.com/breakfast-recipes/marshmallows/">Homemade Marshmallows </a></li>
+<li><a href="../basking-in-buttercream/">Brown Sugar Italian Buttercream</a></li>
+<li><a href="http://www.eatliverun.com/make-your-own-caramel-sauce/">Homemade Caramel Sauce</a></li>
+<li><a href="http://www.eatliverun.com/oh-baby/">Oh Baby Bars</a> (homemade peanut butter cups)</li>
+<li><a href="http://www.eatliverun.com/divine-intervention/">Divinity</a></li>
+<li><a href="http://www.eatliverun.com/valentines-day-truffles/">3 Ingredient Chocolate Truffles</a></li>
+<li><a href="http://www.eatliverun.com/make-your-own-peppermint-patties/">Homemade Peppermint Patties</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-covered-orange-peel/">Chocolate Covered Orange Peel</a></li>
+<li><a href="http://www.eatliverun.com/mexican-hot-chocolate-puppy-chow/">Mexican Hot Chocolate Puppy Chow</a></li>
+</ul>
+<p><strong>Fruit Desserts</strong></p>
+<ul>
+<li><a href="http://www.eatliverun.com/baked-stuffed-apples-with-dried-cherries-and-walnuts">Baked Stuffed Apples with Dried Cherries and Walnuts</a></li>
+<li><a href="http://www.eatliverun.com/big-sur-lemon-bars/">Big Sur Lemon Bars</a></li>
+<li><a href="http://www.eatliverun.com/roasted-peaches-with-goat-cheese-and-honey/">Roasted Peaches with Goat Cheese and Honey</a></li>
+<li><a href="http://www.eatliverun.com/creamy-lime-squares/">Creamy Lime Squares</a></li>
+<li><a href="http://www.eatliverun.com/raspberry-meringue-parfaits/">Raspberry Meringue Parfaits</a></li>
+<li><a href="http://www.eatliverun.com/moscato-strawberry-shortcakes/">Moscato Strawberry Shortcakes</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-dipped-oranges/">Chocolate Dipped Oranges</a></li>
+</ul>
+<p><strong>Miscellaneous</strong></p>
+<ul>
+<li><a href="http://www.eatliverun.com/a-good-egg/">How to Poach an Egg</a></li>
+<li><a href="http://www.eatliverun.com/classic-pesto/">Classic Pesto</a></li>
+<li><a href="http://www.eatliverun.com/oil-free-pesto/">Oil-Free Pesto</a> (low fat)</li>
+<li><a href="http://www.eatliverun.com/quick-easy-butternut-butter/">Quick &amp; Easy Butternut Squash Butter</a></li>
+<li><a href="http://www.eatliverun.com/butternut-me-up/">Butternut Squash: A Tutorial</a></li>
+<li><a href="http://www.eatliverun.com/celebrate-with-squash/">Kabocha Squash: A Tutorial</a></li>
+<li><a href="http://www.eatliverun.com/wannabe">Spaghetti Squash: A Tutorial</a></li>
+<li><a href="http://www.eatliverun.com/success/">Miraval Granola</a></li>
+<li><a href="http://www.eatliverun.com/earl-gray-peach-preserves/">Earl Gray Peach Preserves</a></li>
+<li><a href="http://www.eatliverun.com/homemade-ice-cream-without-an-ice-cream-maker/">Homemade Ice Cream without an Ice Cream Maker</a></li>
+<li><a href="http://www.eatliverun.com/bourbon-vanilla-cranberry-sauce/">Bourbon Vanilla Cranberry Sauce</a></li>
+<li><a href="http://www.eatliverun.com/merlot-hot-fudge-sauce/">Merlot Hot Fudge Sauce</a></li>
+</ul>
+<p><strong>Videos:</strong></p>
+<ul>
+<li><a href="http://www.eatliverun.com/youre-invited/">Hosting a Virtual Dinner Party</a></li>
+<li><a href="http://www.eatliverun.com/video-411-raspberry-rose-macaroons/">How to Bake Raspberry Rose Macaroons</a></li>
+</ul>
+<p><strong>Recipe Box Challenge</strong></p>
+<p><em>In 2006, I stumbled across my great grandmother&#8217;s old orange box of faded recipe cards, most from when she owned a tiny bakery during World War Two.  Recently, I&#8217;ve started a project where I am baking my way through each of her recipes, adapting if need be and documenting the process. Join me for a nostalgic Crisco and graham cracker crumb-filled journey!</em></p>
+<ul>
+<li><a href="http://www.eatliverun.com/chocolate-peanut-butter-mounds-bars/">Chocolate Peanut Butter Mounds Bars</a></li>
+<li><a href="http://www.eatliverun.com/old-fashioned-apple-dumplings/">Old Fashioned Apple Dumplings</a></li>
+<li><a href="http://www.eatliverun.com/buttercrust-rolls/">Buttercrust Rolls</a></li>
+<li><a href="http://www.eatliverun.com/soda-cracker-torte/">Soda Cracker Torte</a></li>
+<li><a href="http://www.eatliverun.com/jumble-brownies/">Jumble Brownies</a></li>
+<li><a href="http://www.eatliverun.com/graham-cracker-torte/">Graham Cracker Torte</a></li>
+<li><a href="http://www.eatliverun.com/ginger-cremes/">Ginger Cremes</a></li>
+<li><a href="http://www.eatliverun.com/no-bake-rocky-road-bars/">No-Bake Rocky Road &#8220;S&#8217;mores&#8221; Bars</a></li>
+<li><a href="http://www.eatliverun.com/almond-applesauce-bread/">Almond Applesauce Bread</a></li>
+<li><a href="http://www.eatliverun.com/flaky-crescent-rolls-for-thanksgivin/">Flaky French Crescent Rolls</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-angel-nut-pie/">Chocolate Nut Angel Pie</a></li>
+<li><a href="http://www.eatliverun.com/buche-de-noel/">Mocha Cake Roll</a> (or <em>Buche de Noel)</em></li>
+<li><a href="http://www.eatliverun.com/french-silk-chocolate-pie-with-hazelnut-crust/">French Silk Chocolate Pie with Hazelnut Crust</a></li>
+<li><a href="http://www.eatliverun.com/oatmeal-raisin-drop-cookies/">Oatmeal Raisin Drop Cookies</a></li>
+<li><a href="http://www.eatliverun.com/mint-chocolate-stuffed-cookies-and-a-giveaway/">Mint Chocolate Stuffed Cookies</a></li>
+<li><a href="http://www.eatliverun.com/chocolate-spice-cake-with-chocolate-cinnamon-frosting/">Chocolate Spice Cake with Cinnamon Buttercream Frosting</a></li>
+</ul>
+		
 				
-							
-				
-<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="800" height="1067" src="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0646-800x1067.jpg" alt="" class="wp-image-60491" srcset="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0646-800x1067.jpg 800w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0646-225x300.jpg 225w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0646-768x1024.jpg 768w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0646-1152x1536.jpg 1152w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0646-1536x2048.jpg 1536w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0646-1080x1440.jpg 1080w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0646-scaled.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
+	</div>
+	
+		<div class="post-meta">
+		
+		<div class="post-share">
+			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/recipes/"><i class="fa fa-facebook"></i></a>
+			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Recipe+Journal&url=https://www.eatliverun.com/recipes/"><i class="fa fa-twitter"></i></a>
+						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/recipes/&media=&description=Recipe+Journal"><i class="fa fa-pinterest"></i></a>
+			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/recipes/"><i class="fa fa-google-plus"></i></a>
+		</div>
+		
+	</div>
+		
+	<div class="post-comments" id="comments">
+	
+	<div class='comments'></div><div id='comments_pagination'></div>
 
-
-
-<p>Well guys, we are now a little over a month in our first homeschool year! I wanted to write this post as an update because, as I was saying on Instagram, you can&#8217;t really know what is going to work or what you&#8217;re even going to do until you just <em>start</em>. This reminds me of knitting, which I learned how to do during this pandemic season. I would have these lofty plans in my head and then get all the materials I needed for a new project (that was probably way too advanced for my newbie self). The hardest part was always STARTING. I didn&#8217;t know what I was doing at all but I just started anyway &#8212; I just dove in and learned as I knit. Homeschooling is sort of like that for me, I think.</p>
-
-
-
-<p>So, if you read my previous blog post you know I had these grand plans to teach allllll these subjects and was even writing my own curriculum to go along with it. Okay well, real life &#8212; that worked for maybe four days. Well, it&#8217;s not that it didn&#8217;t work, it&#8217;s just that it was way too much for all of us. I spent my mornings anxiously trying to fit it all in and feeling stressed. </p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" width="800" height="1067" src="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0654-800x1067.jpg" alt="" class="wp-image-60492" srcset="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0654-800x1067.jpg 800w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0654-225x300.jpg 225w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0654-768x1024.jpg 768w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0654-1152x1536.jpg 1152w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0654-1536x2048.jpg 1536w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0654-1080x1440.jpg 1080w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0654-scaled.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
-
-
-
-<p>Grayson loved it but I have two other little kids to think about, too. It got to the point where I just needed to be more flexible and adapt our curriculum to, basically, be <strong>less.</strong> I actually realized through this experience that I can really only do half of what I think I can do. And you know what? That is okay. That&#8217;s where we are at right now. If doing less makes me a less stressed out mom and my kids are still happy and learning, I count that as a win.  Right now, my two year old literally doesn&#8217;t let me do read alouds on the couch or teach math while he is awake (and destroying things). While that&#8217;s annoying, I know it&#8217;s only for a season. We can work with this! </p>
-
-
-
-<figure class="wp-block-image size-large"><img decoding="async" width="800" height="1067" src="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0620-1-800x1067.jpg" alt="" class="wp-image-60493" srcset="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0620-1-800x1067.jpg 800w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0620-1-225x300.jpg 225w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0620-1-768x1024.jpg 768w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0620-1-1152x1536.jpg 1152w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0620-1-1536x2048.jpg 1536w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0620-1-1080x1440.jpg 1080w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0620-1-scaled.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
-
-
-
-<p>So, here&#8217;s what we found to really work for us. Every morning, we have what we call <strong>Morning Time</strong>. It&#8217;s when we all gather around the table and soak in our beauty for the day (while the two year old throws rice and beans on the floor and the four year old does play-doh). Morning Time right now is literally only ten minutes. I&#8217;m okay with that. Every morning we sing a hymn, read the Ology, sometimes do some scripture copywork and work on our memory work. Right now, we are memorizing Ephesians 6: 10-20. We also have been following the Classical Conversations history memory &#8220;jingles&#8221; via the app (<em>&#8220;In 1620 the piiiiiiilgrims sailed from Plymouth, England and signed the Mayflower compact&#8230;.&#8221;</em>). It&#8217;s quite catchy and we all have been very much enjoying it! Then, after that, we sometimes listen to a piece of classical music, sometimes look at an art print, sometimes paint, sometimes read a poem, sometimes I read from a picture book&#8230;whatever works for the day.</p>
-
-
-
-<p>After trying a few different things we finally decided to go with the literature and project based curriculum for elementary students, <a href="https://www.thepeacefulpreschool.com/the-playful-pioneers-2?rq=2.0">The Playful Pioneers</a>, from <a href="https://www.thepeacefulpreschool.com/">Peaceful Press</a>. It&#8217;s all early American history that uses either the Little House on the Prairie books or the Little Britches books (we chose the latter since we already have read laura ingalls wilder last year) as a spine. After trying a few different things, I can safely say this curriculum is AMAZING. We all love it. It&#8217;s really just read alouds and projects, which my kids thrive on. This curriculum covers us for history, science, geography and language arts. I just add in math (<a href="https://simplycharlottemason.com/store/charlotte-mason-elementary-arithmetic-series-book-1/">here&#8217;s</a> what we use) and it&#8217;s a complete day. </p>
-
-
-
-<p>Playful Pioneers is also super family friendly because you can just adapt it for the ages of your kids. It&#8217;s also <em>very</em> flexible. I teach &#8220;morning time&#8221; right when we start school (little kids at the table with their sensory activities like playdoh, rice bins or lots of snacks), then we take a break. When we come back, we do some table time work. Grayson works on his copywork for the day and does some phonics from an Explode the Code book, which he loves. We take another longer break then later, after lunch when Brooks takes a nap, I teach reading, math and we work on labeling our US map according to what we are currently studying. At night right before bed, we do the &#8220;big&#8221; read aloud for the day from Little Britches (it&#8217;s a great book but not appropriate for toddlers or preschoolers. It&#8217;s like a step up from Little House on the Prairie). </p>
-
-
-
-<p>Playful Pioneers teaches American history through amazing living books, which I have Grayson narrate back when I read them. Once a week he works in his narration notebook, where he narrates, I write and then he illustrates his own narration. </p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="800" height="1067" src="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0630-800x1067.jpg" alt="" class="wp-image-60494" srcset="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0630-800x1067.jpg 800w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0630-225x300.jpg 225w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0630-768x1024.jpg 768w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0630-1152x1536.jpg 1152w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0630-1536x2048.jpg 1536w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0630-1080x1440.jpg 1080w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0630-scaled.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
-
-
-
-<p>That&#8217;s about it! I went from thinking &#8220;I had to do school ONLY in the morning and be done by lunch&#8221; to spacing it out throughout the day because that&#8217;s what works right now. We are also planning on joining a co-op next month so that will be our school day one day a week. </p>
-
-
-
-<p>It is exhausting, to say the least. I rarely have time for myself these days and at 1pm I literally shove my kids in their rooms with their books on tape so I can take a short breather with a cup of tea. However, the self sacrifice is worth it because I see how much my kids LOVE learning! It is a joy to learn alongside them. Grayson tells me frequently that school is his favorite part of the day and I would have to agree. </p>
-
-
-
-<p>As Charlotte Mason said, &#8220;<em>Education is an atmosphere, a discipline and a life&#8221;.</em> </p>
-
-
-
-<p>I think I will post again at the end of our term in December and provide another update. In the meantime, feel free to follow along in our crazy days on Instagram, as I&#8217;ve been sharing more and more frequently there. </p>
-
-
-
-<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="800" height="1067" src="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0637-800x1067.jpg" alt="" class="wp-image-60495" srcset="https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0637-800x1067.jpg 800w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0637-225x300.jpg 225w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0637-768x1024.jpg 768w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0637-1152x1536.jpg 1152w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0637-1536x2048.jpg 1536w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0637-1080x1440.jpg 1080w, https://s6655.pcdn.co/wp-content/uploads/2020/09/IMG_0637-scaled.jpg 1920w" sizes="(max-width: 800px) 100vw, 800px" /></figure>
-
-
-
-<p>Blessings, friends! </p>
-
-
-
-<p></p>
-				
-					
-				
-				
+</div> <!-- end comments div -->	
+</article>						
 								
-	</div>
-	
-		
-	<div class="post-meta">
-		
-		<div class="meta-info">
-			<span class="meta-text"><a href="https://www.eatliverun.com/homeschooling-2020-2021-update/">September 24, 2020</a></span> 
-			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
-		
-				<div class="meta-comments">
-			<a href="https://www.eatliverun.com/homeschooling-2020-2021-update/#comments">10 <i class="fa fa-comment-o"></i></a>		</div>
-				
-				<div class="post-share">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/homeschooling-2020-2021-update/"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Homeschooling+2020%2F2021+Update&url=https://www.eatliverun.com/homeschooling-2020-2021-update/"><i class="fa fa-twitter"></i></a>
-						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/homeschooling-2020-2021-update/&media=https://www.eatliverun.com/wp-content/uploads/2020/09/IMG_0646-scaled.jpg&description=Homeschooling+2020%2F2021+Update"><i class="fa fa-pinterest"></i></a>
-			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/homeschooling-2020-2021-update/"><i class="fa fa-google-plus"></i></a>
-		</div>
-				
-	</div>
-		
-		
-				
-		
-				
-		
-</article>												
-						
-						
-										
-										
-													<article id="post-60200" class="list-item post-60200 post type-post status-publish format-standard has-post-thumbnail hentry category-behind-the-butter-3">
-		
-	<div class="post-img">
-		<a href="https://www.eatliverun.com/our-charlotte-mason-homeschool/"><img width="350" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2020/07/IMG_0038-2-350x460.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
-	</div>
-	
-	<div class="list-content">
-	
-		<div class="post-header">
-						<span class="cat"><a href="https://www.eatliverun.com/category/behind-the-butter-3/" rel="category tag">Behind The Butter</a></span>
-						<h2><a href="https://www.eatliverun.com/our-charlotte-mason-homeschool/">Our Charlotte Mason Homeschool, Fall 2020</a></h2>
-		</div>
-		
-		<div class="post-entry">
-							
-			<p>I am happy to share our homeschool plans for this coming year! We are not homeschooling because of COVID 19. Actually, we had made the decision to homeschool the&hellip;</p>
-							
-		</div>
-		
-			
-	<div class="post-meta">
-		
-		<div class="meta-info">
-			<span class="meta-text"><a href="https://www.eatliverun.com/our-charlotte-mason-homeschool/">July 31, 2020</a></span> 
-			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
-		
-				<div class="meta-comments">
-			<a href="https://www.eatliverun.com/our-charlotte-mason-homeschool/#comments">21 <i class="fa fa-comment-o"></i></a>		</div>
-				
-				<div class="post-share">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/our-charlotte-mason-homeschool/"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Our+Charlotte+Mason+Homeschool%2C+Fall+2020&url=https://www.eatliverun.com/our-charlotte-mason-homeschool/"><i class="fa fa-twitter"></i></a>
-						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/our-charlotte-mason-homeschool/&media=https://www.eatliverun.com/wp-content/uploads/2020/07/IMG_0038-2-scaled.jpg&description=Our+Charlotte+Mason+Homeschool%2C+Fall+2020"><i class="fa fa-pinterest"></i></a>
-			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/our-charlotte-mason-homeschool/"><i class="fa fa-google-plus"></i></a>
-		</div>
-				
-	</div>
-		
-	</div>
-		
-</article>												
-						
-						
-										
-										
-													<article id="post-56665" class="list-item post-56665 post type-post status-publish format-standard has-post-thumbnail hentry category-behind-the-butter-3 tag-birth-stories tag-brooks-beaugh tag-motherhood">
-		
-	<div class="post-img">
-		<a href="https://www.eatliverun.com/welcome-brooks-monroe-birth-story/"><img width="350" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2018/11/julialorraine-32-350x460.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
-	</div>
-	
-	<div class="list-content">
-	
-		<div class="post-header">
-						<span class="cat"><a href="https://www.eatliverun.com/category/behind-the-butter-3/" rel="category tag">Behind The Butter</a></span>
-						<h2><a href="https://www.eatliverun.com/welcome-brooks-monroe-birth-story/">Welcome Brooks Monroe (a birth story)</a></h2>
-		</div>
-		
-		<div class="post-entry">
-							
-			<p>On October 25th, we joyfully welcomed the arrival of our third son into the world, Brooks Monroe Beaugh! I truly can&#8217;t believe that my water has broken on my&hellip;</p>
-							
-		</div>
-		
-			
-	<div class="post-meta">
-		
-		<div class="meta-info">
-			<span class="meta-text"><a href="https://www.eatliverun.com/welcome-brooks-monroe-birth-story/">November 27, 2018</a></span> 
-			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
-		
-				<div class="meta-comments">
-			<a href="https://www.eatliverun.com/welcome-brooks-monroe-birth-story/#comments">23 <i class="fa fa-comment-o"></i></a>		</div>
-				
-				<div class="post-share">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/welcome-brooks-monroe-birth-story/"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Welcome+Brooks+Monroe+%28a+birth+story%29&url=https://www.eatliverun.com/welcome-brooks-monroe-birth-story/"><i class="fa fa-twitter"></i></a>
-						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/welcome-brooks-monroe-birth-story/&media=https://www.eatliverun.com/wp-content/uploads/2018/11/julialorraine-32.jpg&description=Welcome+Brooks+Monroe+%28a+birth+story%29"><i class="fa fa-pinterest"></i></a>
-			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/welcome-brooks-monroe-birth-story/"><i class="fa fa-google-plus"></i></a>
-		</div>
-				
-	</div>
-		
-	</div>
-		
-</article>												
-						
-						
-										
-										
-													<article id="post-56548" class="list-item post-56548 post type-post status-publish format-standard has-post-thumbnail hentry category-behind-the-butter-3 tag-baby-number-3 tag-freezer-meals">
-		
-	<div class="post-img">
-		<a href="https://www.eatliverun.com/stocking-freezer-baby-number-three/"><img width="350" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2018/10/IMG_1257-e1538509965859-350x460.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
-	</div>
-	
-	<div class="list-content">
-	
-		<div class="post-header">
-						<span class="cat"><a href="https://www.eatliverun.com/category/behind-the-butter-3/" rel="category tag">Behind The Butter</a></span>
-						<h2><a href="https://www.eatliverun.com/stocking-freezer-baby-number-three/">Stocking the Freezer for Baby Number Three</a></h2>
-		</div>
-		
-		<div class="post-entry">
-							
-			<p>Hey everyone! Prepare yourselves for a long, photo-heavy blog post. 😉 So many of you have been asking what I made in advance for after the baby is born.&hellip;</p>
-							
-		</div>
-		
-			
-	<div class="post-meta">
-		
-		<div class="meta-info">
-			<span class="meta-text"><a href="https://www.eatliverun.com/stocking-freezer-baby-number-three/">October 2, 2018</a></span> 
-			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
-		
-				<div class="meta-comments">
-			<a href="https://www.eatliverun.com/stocking-freezer-baby-number-three/#comments">22 <i class="fa fa-comment-o"></i></a>		</div>
-				
-				<div class="post-share">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/stocking-freezer-baby-number-three/"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Stocking+the+Freezer+for+Baby+Number+Three&url=https://www.eatliverun.com/stocking-freezer-baby-number-three/"><i class="fa fa-twitter"></i></a>
-						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/stocking-freezer-baby-number-three/&media=https://www.eatliverun.com/wp-content/uploads/2018/10/IMG_1257-e1538509965859.jpg&description=Stocking+the+Freezer+for+Baby+Number+Three"><i class="fa fa-pinterest"></i></a>
-			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/stocking-freezer-baby-number-three/"><i class="fa fa-google-plus"></i></a>
-		</div>
-				
-	</div>
-		
-	</div>
-		
-</article>												
-						
-						
-										
-										
-													<article id="post-56444" class="list-item post-56444 post type-post status-publish format-standard has-post-thumbnail hentry category-behind-the-butter-3 tag-baby-stuff tag-birth tag-mama tag-real-life">
-		
-	<div class="post-img">
-		<a href="https://www.eatliverun.com/preparing-birth-third-time-around/"><img width="350" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2018/08/lukebirth-205-350x460.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
-	</div>
-	
-	<div class="list-content">
-	
-		<div class="post-header">
-						<span class="cat"><a href="https://www.eatliverun.com/category/behind-the-butter-3/" rel="category tag">Behind The Butter</a></span>
-						<h2><a href="https://www.eatliverun.com/preparing-birth-third-time-around/">How I am Preparing for Birth the Third Time Around</a></h2>
-		</div>
-		
-		<div class="post-entry">
-							
-			<p>Hey guys! I love reading about birth so I thought this would be a nice idea for a post. I get a lot of questions on how I am&hellip;</p>
-							
-		</div>
-		
-			
-	<div class="post-meta">
-		
-		<div class="meta-info">
-			<span class="meta-text"><a href="https://www.eatliverun.com/preparing-birth-third-time-around/">August 31, 2018</a></span> 
-			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
-		
-				<div class="meta-comments">
-			<a href="https://www.eatliverun.com/preparing-birth-third-time-around/#comments">36 <i class="fa fa-comment-o"></i></a>		</div>
-				
-				<div class="post-share">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/preparing-birth-third-time-around/"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20How+I+am+Preparing+for+Birth+the+Third+Time+Around&url=https://www.eatliverun.com/preparing-birth-third-time-around/"><i class="fa fa-twitter"></i></a>
-						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/preparing-birth-third-time-around/&media=https://www.eatliverun.com/wp-content/uploads/2018/08/lukebirth-205.jpg&description=How+I+am+Preparing+for+Birth+the+Third+Time+Around"><i class="fa fa-pinterest"></i></a>
-			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/preparing-birth-third-time-around/"><i class="fa fa-google-plus"></i></a>
-		</div>
-				
-	</div>
-		
-	</div>
-		
-</article>												
-						
-						
-										
-										
-													<article id="post-56427" class="list-item post-56427 post type-post status-publish format-standard has-post-thumbnail hentry category-cakes-2 category-recipes-2 category-seasonal-ingredients category-seasonal-recipes tag-cake tag-dessert tag-entertaining tag-ice-cream tag-summer">
-		
-	<div class="post-img">
-		<a href="https://www.eatliverun.com/classic-chocolate-vanilla-ice-cream-cake/"><img width="350" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2018/08/IMG_0263-350x460.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
-	</div>
-	
-	<div class="list-content">
-	
-		<div class="post-header">
-						<span class="cat"><a href="https://www.eatliverun.com/category/recipes-2/cakes-2/" rel="category tag">Cakes</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/" rel="category tag">Recipes</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/seasonal-ingredients/" rel="category tag">Seasonal Ingredients</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/seasonal-recipes/" rel="category tag">Seasonal Recipes</a></span>
-						<h2><a href="https://www.eatliverun.com/classic-chocolate-vanilla-ice-cream-cake/">Classic Chocolate Vanilla Ice Cream Cake</a></h2>
-		</div>
-		
-		<div class="post-entry">
-							
-			<p>Have you always wanted to make an ice cream cake but the idea of actually DOING it seemed intimating to you?! Yup. Me, too. I love ice cream cakes&hellip;</p>
-							
-		</div>
-		
-			
-	<div class="post-meta">
-		
-		<div class="meta-info">
-			<span class="meta-text"><a href="https://www.eatliverun.com/classic-chocolate-vanilla-ice-cream-cake/">August 29, 2018</a></span> 
-			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
-		
-				<div class="meta-comments">
-			<a href="https://www.eatliverun.com/classic-chocolate-vanilla-ice-cream-cake/#comments">20 <i class="fa fa-comment-o"></i></a>		</div>
-				
-				<div class="post-share">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/classic-chocolate-vanilla-ice-cream-cake/"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Classic+Chocolate+Vanilla+Ice+Cream+Cake&url=https://www.eatliverun.com/classic-chocolate-vanilla-ice-cream-cake/"><i class="fa fa-twitter"></i></a>
-						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/classic-chocolate-vanilla-ice-cream-cake/&media=https://www.eatliverun.com/wp-content/uploads/2018/08/IMG_0263.jpg&description=Classic+Chocolate+Vanilla+Ice+Cream+Cake"><i class="fa fa-pinterest"></i></a>
-			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/classic-chocolate-vanilla-ice-cream-cake/"><i class="fa fa-google-plus"></i></a>
-		</div>
-				
-	</div>
-		
-	</div>
-		
-</article>												
-						
-						
-										
-										
-													<article id="post-56393" class="list-item post-56393 post type-post status-publish format-standard has-post-thumbnail hentry category-drinks-2 category-recipes-2 category-seasonal-ingredients category-seasonal-recipes tag-banana tag-non-dairy tag-smoothie tag-strawberry">
-		
-	<div class="post-img">
-		<a href="https://www.eatliverun.com/dairy-free-strawberry-banana-smoothie/"><img width="350" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2018/08/IMG_0248-350x460.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
-	</div>
-	
-	<div class="list-content">
-	
-		<div class="post-header">
-						<span class="cat"><a href="https://www.eatliverun.com/category/recipes-2/drinks-2/" rel="category tag">Drinks</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/" rel="category tag">Recipes</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/seasonal-ingredients/" rel="category tag">Seasonal Ingredients</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/seasonal-recipes/" rel="category tag">Seasonal Recipes</a></span>
-						<h2><a href="https://www.eatliverun.com/dairy-free-strawberry-banana-smoothie/">Dairy-Free Strawberry Banana Smoothie</a></h2>
-		</div>
-		
-		<div class="post-entry">
-							
-			<p>Here comes a recipe for all of my dairy-free friends out there! I&#8217;ve had requests for more dairy-free options, and while I&#8217;m not dairy-free myself, I&#8217;m happy to oblige.&hellip;</p>
-							
-		</div>
-		
-			
-	<div class="post-meta">
-		
-		<div class="meta-info">
-			<span class="meta-text"><a href="https://www.eatliverun.com/dairy-free-strawberry-banana-smoothie/">August 22, 2018</a></span> 
-			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
-		
-				<div class="meta-comments">
-			<a href="https://www.eatliverun.com/dairy-free-strawberry-banana-smoothie/#comments">6 <i class="fa fa-comment-o"></i></a>		</div>
-				
-				<div class="post-share">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/dairy-free-strawberry-banana-smoothie/"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Dairy-Free+Strawberry+Banana+Smoothie&url=https://www.eatliverun.com/dairy-free-strawberry-banana-smoothie/"><i class="fa fa-twitter"></i></a>
-						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/dairy-free-strawberry-banana-smoothie/&media=https://www.eatliverun.com/wp-content/uploads/2018/08/IMG_0248.jpg&description=Dairy-Free+Strawberry+Banana+Smoothie"><i class="fa fa-pinterest"></i></a>
-			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/dairy-free-strawberry-banana-smoothie/"><i class="fa fa-google-plus"></i></a>
-		</div>
-				
-	</div>
-		
-	</div>
-		
-</article>												
-						
-						
-										
-										
-													<article id="post-56381" class="list-item post-56381 post type-post status-publish format-standard has-post-thumbnail hentry category-behind-the-butter-3 tag-cookbooks">
-		
-	<div class="post-img">
-		<a href="https://www.eatliverun.com/my-favorite-cookbooks/"><img width="350" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2018/08/IMG_0528-350x460.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
-	</div>
-	
-	<div class="list-content">
-	
-		<div class="post-header">
-						<span class="cat"><a href="https://www.eatliverun.com/category/behind-the-butter-3/" rel="category tag">Behind The Butter</a></span>
-						<h2><a href="https://www.eatliverun.com/my-favorite-cookbooks/">My Favorite Cookbooks</a></h2>
-		</div>
-		
-		<div class="post-entry">
-							
-			<p>I get asked quite often about what my latest favorite cookbooks are since as much as I love developing recipes, that sometimes feels like a job to me. What&hellip;</p>
-							
-		</div>
-		
-			
-	<div class="post-meta">
-		
-		<div class="meta-info">
-			<span class="meta-text"><a href="https://www.eatliverun.com/my-favorite-cookbooks/">August 14, 2018</a></span> 
-			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
-		
-				<div class="meta-comments">
-			<a href="https://www.eatliverun.com/my-favorite-cookbooks/#comments">19 <i class="fa fa-comment-o"></i></a>		</div>
-				
-				<div class="post-share">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/my-favorite-cookbooks/"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20My+Favorite+Cookbooks&url=https://www.eatliverun.com/my-favorite-cookbooks/"><i class="fa fa-twitter"></i></a>
-						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/my-favorite-cookbooks/&media=https://www.eatliverun.com/wp-content/uploads/2018/08/IMG_0528.jpg&description=My+Favorite+Cookbooks"><i class="fa fa-pinterest"></i></a>
-			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/my-favorite-cookbooks/"><i class="fa fa-google-plus"></i></a>
-		</div>
-				
-	</div>
-		
-	</div>
-		
-</article>												
-						
-						
-										
-										
-													<article id="post-56320" class="list-item post-56320 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes-2 category-seafood category-seasonal-ingredients category-seasonal-recipes tag-quick-and-easy tag-seafood tag-weeknight-meals">
-		
-	<div class="post-img">
-		<a href="https://www.eatliverun.com/roasted-halibut-cherry-tomatoes-olives/"><img width="350" height="460" src="https://s6655.pcdn.co/wp-content/uploads/2018/08/IMG_0205-350x460.jpg" class="attachment-sprout_spoon_misc-thumb size-sprout_spoon_misc-thumb wp-post-image" alt="" decoding="async" loading="lazy" /></a>
-	</div>
-	
-	<div class="list-content">
-	
-		<div class="post-header">
-						<span class="cat"><a href="https://www.eatliverun.com/category/recipes-2/" rel="category tag">Recipes</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/seafood/" rel="category tag">Seafood</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/seasonal-ingredients/" rel="category tag">Seasonal Ingredients</a><span>/</span> <a href="https://www.eatliverun.com/category/recipes-2/seasonal-recipes/" rel="category tag">Seasonal Recipes</a></span>
-						<h2><a href="https://www.eatliverun.com/roasted-halibut-cherry-tomatoes-olives/">Roasted Halibut with Cherry Tomatoes and Olives</a></h2>
-		</div>
-		
-		<div class="post-entry">
-							
-			<p>This recipe speaks my love language.&nbsp; I have always been partial to light, Mediterranean flavors and the only thing missing here is a big glass of cold Rose. 😉&hellip;</p>
-							
-		</div>
-		
-			
-	<div class="post-meta">
-		
-		<div class="meta-info">
-			<span class="meta-text"><a href="https://www.eatliverun.com/roasted-halibut-cherry-tomatoes-olives/">August 6, 2018</a></span> 
-			<span class="by">By</span> <span class="meta-text"><a href="https://www.eatliverun.com/author/jenna-2/" title="Posts by jenna" rel="author">jenna</a></span>		</div>
-		
-				<div class="meta-comments">
-			<a href="https://www.eatliverun.com/roasted-halibut-cherry-tomatoes-olives/#comments">5 <i class="fa fa-comment-o"></i></a>		</div>
-				
-				<div class="post-share">
-			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://www.eatliverun.com/roasted-halibut-cherry-tomatoes-olives/"><i class="fa fa-facebook"></i></a>
-			<a target="_blank" href="https://twitter.com/intent/tweet?text=Check%20out%20this%20article:%20Roasted+Halibut+with+Cherry+Tomatoes+and+Olives&url=https://www.eatliverun.com/roasted-halibut-cherry-tomatoes-olives/"><i class="fa fa-twitter"></i></a>
-						<a data-pin-do="none" target="_blank" href="https://pinterest.com/pin/create/button/?url=https://www.eatliverun.com/roasted-halibut-cherry-tomatoes-olives/&media=https://www.eatliverun.com/wp-content/uploads/2018/08/IMG_0205.jpg&description=Roasted+Halibut+with+Cherry+Tomatoes+and+Olives"><i class="fa fa-pinterest"></i></a>
-			<a target="_blank" href="https://plus.google.com/share?url=https://www.eatliverun.com/roasted-halibut-cherry-tomatoes-olives/"><i class="fa fa-google-plus"></i></a>
-		</div>
-				
-	</div>
-		
-	</div>
-		
-</article>												
-						
-						
 								
-								
-						
-	<div class="pagination ">
-		
-		<div class="older"><a href="https://www.eatliverun.com/page/2/" >Older Posts <i class="fa fa-angle-right"></i></a></div>
-		<div class="newer"></div>
-		
-	</div>
-					
-					
-							
 			</div>
 
 <aside id="sidebar">
@@ -1141,7 +1189,7 @@ On this site, you'll find a collection of my favorite recipes and stories. I'm a
 		}
 	}
 })();
-</script><!-- Mailchimp for WordPress v4.9.12 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-2" class="mc4wp-form mc4wp-form-53961" method="post" data-id="53961" data-name="Newsletter" ><div class="mc4wp-form-fields"><div class="subscribe-box">
+</script><!-- Mailchimp for WordPress v4.9.12 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-53961" method="post" data-id="53961" data-name="Newsletter" ><div class="mc4wp-form-fields"><div class="subscribe-box">
  
     <div class="subscribe-text">
       <h4>Never Miss a Recipe!</h4>
@@ -1151,7 +1199,7 @@ On this site, you'll find a collection of my favorite recipes and stories. I'm a
       <input type="email" name="EMAIL" placeholder="Your email address" required />
       <input type="submit" value="Subscribe" />
     </div>
-</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1714070593" /><input type="hidden" name="_mc4wp_form_id" value="53961" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-2" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>	
+</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1714083829" /><input type="hidden" name="_mc4wp_form_id" value="53961" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>	
 </aside>			
 			<!-- END CONTENT -->
 			</div>
@@ -1216,6 +1264,7 @@ var eafl_public = {"home_url":"https:\/\/www.eatliverun.com\/","ajax_url":"https
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/jQuery.print.js?ver=6.5.2" id="print-js"></script>
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/fitvids.js?ver=6.5.2" id="fitvids-js"></script>
 <script type="text/javascript" src="https://s6655.pcdn.co/wp-content/themes/sprout-spoon/js/solopine.js?ver=6.5.2" id="sprout_spoon_scripts-js"></script>
+<script type="text/javascript" src="https://s6655.pcdn.co/wp-includes/js/comment-reply.min.js?ver=6.5.2" id="comment-reply-js" async="async" data-wp-strategy="async"></script>
 <script type="text/javascript" defer src="https://s6655.pcdn.co/wp-content/plugins/mailchimp-for-wp/assets/js/forms.js?ver=4.9.12" id="mc4wp-forms-api-js"></script>
 <script>!function(){"use strict";!function(e){if(-1===e.cookie.indexOf("__adblocker")){e.cookie="__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";var t=new XMLHttpRequest;t.open("GET","https://ads.adthrive.com/abd/abd.js",!0),t.onreadystatechange=function(){if(XMLHttpRequest.DONE===t.readyState)if(200===t.status){var a=e.createElement("script");a.innerHTML=t.responseText,e.getElementsByTagName("head")[0].appendChild(a)}else{var n=new Date;n.setTime(n.getTime()+3e5),e.cookie="__adblocker=true; expires="+n.toUTCString()+"; path=/"}},t.send()}}(document)}();
 </script><script>!function(){"use strict";var e;e=document,function(){var t,n;function r(){var t=e.createElement("script");t.src="https://cafemedia-com.videoplayerhub.com/galleryplayer.js",e.head.appendChild(t)}function a(){var t=e.cookie.match("(^|[^;]+)\\s*__adblocker\\s*=\\s*([^;]+)");return t&&t.pop()}function c(){clearInterval(n)}return{init:function(){var e;"true"===(t=a())?r():(e=0,n=setInterval((function(){100!==e&&"false"!==t||c(),"true"===t&&(r(),c()),t=a(),e++}),50))}}}().init()}();

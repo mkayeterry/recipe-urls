@@ -263,29 +263,6 @@ var wcpayAssets = {"url":"https:\/\/bluejeanchef.com\/site\/addons\/woocommerce-
 							<div class="feed-container">
 									<div class="card recipe-card" itemscope itemtype="http://schema.org/BlogPosting">
 				<div class="thumb-container">
-			<a href="https://bluejeanchef.com/recipes/apple-dutch-baby-pancake/">
-				<picture><source type="image/jpeg" data-srcset="https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-320x400.jpg 1x, https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-480x600.jpg 2x"><img itemprop="image" content="https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-320x400.jpg" data-src="https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-320x400.jpg" class="lazyload" alt="Apple Dutch Baby Pancake" nopin="nopin"></picture>			</a>
-		</div>
-		
-		<span class="category"><a href="/recipes" class="recipe-cooking-method-filter" data-cooking-method="19" href="javascript:void(0)">Stovetop &amp; Oven</a></span>		<span class="title " itemprop="headline name">
-			<a href="https://bluejeanchef.com/recipes/apple-dutch-baby-pancake/" itemprop="mainEntityOfPage">
-				Apple Dutch Baby Pancake			</a>
-		</span>
-
-		<meta itemprop="author" content="Meredith Laurence">									
-		<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-			<meta itemprop="name" content="Blue Jean Chef">
-			<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-				<link itemprop="url" href="https://bluejeanchef.com/site/themes/default_theme/assets/images/logo.png">
-			</div>
-			<meta itemprop="url" content="https://bluejeanchef.com">
-		</div>
-		
-		<meta itemprop="datePublished" content="2023-09-13T09:00:01-04:00">
-		<meta itemprop="dateModified" content="2023-09-03T11:47:01-04:00">
-	</div>
-	<div class="card recipe-card" itemscope itemtype="http://schema.org/BlogPosting">
-				<div class="thumb-container">
 			<a href="https://bluejeanchef.com/recipes/chunky-broccoli-cheddar-soup/">
 				<picture><source type="image/jpeg" data-srcset="https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-320x400.jpg 1x, https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-480x600.jpg 2x"><img itemprop="image" content="https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-320x400.jpg" data-src="https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-320x400.jpg" class="lazyload" alt="Chunky Broccoli Cheddar Soup" nopin="nopin"></picture>			</a>
 		</div>
@@ -306,6 +283,29 @@ var wcpayAssets = {"url":"https:\/\/bluejeanchef.com\/site\/addons\/woocommerce-
 		
 		<meta itemprop="datePublished" content="2023-10-04T09:00:45-04:00">
 		<meta itemprop="dateModified" content="2023-09-26T15:18:13-04:00">
+	</div>
+	<div class="card recipe-card" itemscope itemtype="http://schema.org/BlogPosting">
+				<div class="thumb-container">
+			<a href="https://bluejeanchef.com/recipes/apple-dutch-baby-pancake/">
+				<picture><source type="image/jpeg" data-srcset="https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-320x400.jpg 1x, https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-480x600.jpg 2x"><img itemprop="image" content="https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-320x400.jpg" data-src="https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-320x400.jpg" class="lazyload" alt="Apple Dutch Baby Pancake" nopin="nopin"></picture>			</a>
+		</div>
+		
+		<span class="category"><a href="/recipes" class="recipe-cooking-method-filter" data-cooking-method="19" href="javascript:void(0)">Stovetop &amp; Oven</a></span>		<span class="title " itemprop="headline name">
+			<a href="https://bluejeanchef.com/recipes/apple-dutch-baby-pancake/" itemprop="mainEntityOfPage">
+				Apple Dutch Baby Pancake			</a>
+		</span>
+
+		<meta itemprop="author" content="Meredith Laurence">									
+		<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+			<meta itemprop="name" content="Blue Jean Chef">
+			<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+				<link itemprop="url" href="https://bluejeanchef.com/site/themes/default_theme/assets/images/logo.png">
+			</div>
+			<meta itemprop="url" content="https://bluejeanchef.com">
+		</div>
+		
+		<meta itemprop="datePublished" content="2023-09-13T09:00:01-04:00">
+		<meta itemprop="dateModified" content="2023-09-03T11:47:01-04:00">
 	</div>
 							</div>
 						</div>
@@ -947,5 +947,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 Page Caching using Disk: Enhanced 
 Minified using Disk
 
-Served from: bluejeanchef.com @ 2024-04-25 14:34:49 by W3 Total Cache
+Served from: bluejeanchef.com @ 2024-04-25 18:32:52 by W3 Total Cache
 -->

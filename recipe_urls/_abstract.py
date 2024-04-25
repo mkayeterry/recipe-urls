@@ -63,7 +63,7 @@ class AbstractScraper:
 
     def filter_links(self, href_links: List[str]) -> List[str]:
         
-        unique_links = {self.cancat_base_url(link) for link in href_links if self.is_recipe_link(link)}
+        unique_links = {self.get_canonical_url(link) for link in href_links if self.is_recipe_link(link)}
         return list(unique_links)
 
 
@@ -75,12 +75,19 @@ class AbstractScraper:
         return False
         
 
-    def cancat_base_url(self, link: str) -> str:
+    def get_canonical_url(self, link: str) -> str:
 
-        parsed_url = urlparse(self.base_url).scheme + '://' + urlparse(self.base_url).netloc
+        canonical_url = self.soup.find("link", {"rel": "canonical", "href": True})
 
-        if parsed_url in link:
+        if not canonical_url:
             return link
 
-        else:
-            return parsed_url + link
+        canonical_href = canonical_url["href"]
+        
+        if canonical_href in link:
+            return link
+
+        elif canonical_href not in link:
+            return canonical_href[:-1] + link
+            
+

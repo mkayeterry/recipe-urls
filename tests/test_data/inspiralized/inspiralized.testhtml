@@ -1736,7 +1736,7 @@ love to all the parents out there 😘">
 
 			})(jQuery);
 		</script>
-			<link rel="stylesheet" href="/wp-content/mu-plugins/mpp.css?1714067266">
+			<link rel="stylesheet" href="/wp-content/mu-plugins/mpp.css?1714080530">
 	<script>window.wprm_recipes = {"recipe-120991":{"type":"food","name":"Pesto and Brussels Sprouts Cavatappi with Shrimp","servings":"4","rating":{"count":0,"total":0,"average":0}}}</script><!-- Instagram Feed JS -->
 <script type="text/javascript">
 var sbiajaxurl = "https://inspiralized.com/wp-admin/admin-ajax.php";
@@ -1902,4 +1902,4 @@ var form_submission_helpers = {"ajax_url":"https:\/\/inspiralized.com\/wp-admin\
 </script><script>!function(){"use strict";var e;e=document,function(){var t,n;function r(){var t=e.createElement("script");t.src="https://cafemedia-com.videoplayerhub.com/galleryplayer.js",e.head.appendChild(t)}function a(){var t=e.cookie.match("(^|[^;]+)\\s*__adblocker\\s*=\\s*([^;]+)");return t&&t.pop()}function c(){clearInterval(n)}return{init:function(){var e;"true"===(t=a())?r():(e=0,n=setInterval((function(){100!==e&&"false"!==t||c(),"true"===t&&(r(),c()),t=a(),e++}),50))}}}().init()}();
 </script><!-- Hi there! Copyright 2021 Dan Miller Coding -->
 </body>
-</html><!-- WP Fastest Cache file was created in 1.4915161132812 seconds, on 25-04-24 13:47:47 -->
+</html><!-- WP Fastest Cache file was created in 0.48424005508423 seconds, on 25-04-24 17:28:50 -->

@@ -1,4 +1,4 @@
-__version__ = "0.1.3"
+__version__ = "0.2.0"
 
 from typing import Optional
 from recipe_urls._abstract import AbstractScraper
@@ -241,5 +241,6 @@ def scrape_html(html: str, base_url: str | None = None) -> Optional[AbstractScra
         raise ValueError(f"Failed to scrape {base_url} with provided HTML: {str(e)}") from None
 
 __all__ = [
-    'scrape_urls'
+    'scrape_urls', 
+    'scrape_html'
 ]
