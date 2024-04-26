@@ -2,7 +2,9 @@
 
 ## Overview
 
-`recipe-urls` is a Python package designed to gather recipe URLs from a given base URL.
+`recipe-urls` is a Python package designed to gather recipe URLs from a given base URL or from provided html content.
+
+<br>
 
 ## Installation
 
@@ -13,7 +15,7 @@ pip install recipe-urls
 ## Usage
 
 ```python
-from recipe_urls import scrape_urls
+from recipe_urls import scrape_urls, scrape_html
 ```
 
 ## Example usage
@@ -23,8 +25,16 @@ base_urls = ['https://bakingmischief.com', 'https://www.allrecipes.com/recipes/8
 compiled_recipe_links = []
 
 for base_url in base_urls:
-    scrape = scrape_urls(base_url)
-    compiled_recipe_links.extend(scrape)
+    scraped_links = scrape_urls(base_url)
+    compiled_recipe_links.extend(scraped_links)
+```
+```python
+input_html = [baking_mischief_html, all_recipes_html]
+compiled_recipe_links = []
+
+for html_content in input_html:
+    scraped_links = scrape_html(html) # optionally, scrape_html(html, base_url)
+    compiled_recipe_links.extend(scraped_links)
 ```
 
 ## Supported Websites
