@@ -147,6 +147,14 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
             # Returns the most frequently occurring domain that matches the known origins
             return max(set(relevant_links), key=relevant_links.count)
 
+        canonical_href = soup.find("link", {"rel": "canonical", "href": True})
+
+        if canonical_href:
+            canonical_domain = extract_base_domain(urlparse(canonical_href["href"]).hostname)
+            
+            if canonical_domain in SITE_ORIGINS:
+                return canonical_domain
+
         else:
             raise ValueError("Site origin not found in HTML content.")
     

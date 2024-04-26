@@ -40,7 +40,7 @@
     
     
 <script type="application/ld+json">
-    {"@context":"https://schema.org","@graph":[{"itemListElement":[{"position":1,"name":"Recipes and Crafts","item":"com.adobe.cq.wcm.core.components.internal.link.LinkImpl@3f11e104","@type":"ListItem"},{"position":2,"name":"Recipes","item":"com.adobe.cq.wcm.core.components.internal.link.LinkImpl@1acd4bc7","@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Recipes","description":"From cupcakes to brownies to breakfast treats, explore our best dessert recipes and find new ways to incorporate Hershey Candy in the kitchen.","publisher":{"name":"HERSHEY\u0027S","url":"www.hersheyland.com","@type":"Organization"},"speakable":{"name":"Recipes","xPath":["/html/head/title","/html/head/meta[@name\u003d\u0027description\u0027]/@content"],"url":"https://www.hersheyland.com/recipes.html","@type":"SpeakableSpecification"},"@type":"WebPage"}]}
+    {"@context":"https://schema.org","@graph":[{"itemListElement":[{"position":1,"name":"Recipes and Crafts","item":"com.adobe.cq.wcm.core.components.internal.link.LinkImpl@3ded1a78","@type":"ListItem"},{"position":2,"name":"Recipes","item":"com.adobe.cq.wcm.core.components.internal.link.LinkImpl@225ac38b","@type":"ListItem"}],"@type":"BreadcrumbList"},{"name":"Recipes","description":"From cupcakes to brownies to breakfast treats, explore our best dessert recipes and find new ways to incorporate Hershey Candy in the kitchen.","publisher":{"name":"HERSHEY\u0027S","url":"www.hersheyland.com","@type":"Organization"},"speakable":{"name":"Recipes","xPath":["/html/head/title","/html/head/meta[@name\u003d\u0027description\u0027]/@content"],"url":"https://www.hersheyland.com/recipes.html","@type":"SpeakableSpecification"},"@type":"WebPage"}]}
 </script>
 
     

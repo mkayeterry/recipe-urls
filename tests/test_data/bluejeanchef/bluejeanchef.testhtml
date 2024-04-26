@@ -162,7 +162,7 @@ var wcpayAssets = {"url":"https:\/\/bluejeanchef.com\/site\/addons\/woocommerce-
 							<li class="sublink"><small>Cooking Methods</small></li>
 							<li class="sublink"><a class="nav-cooking-method" data-cooking-method="19" href="https://bluejeanchef.com/recipes/">Stovetop &amp; Oven</a></li><li class="sublink"><a class="nav-cooking-method" data-cooking-method="20" href="https://bluejeanchef.com/recipes/">Air Fryer</a></li><li class="sublink"><a class="nav-cooking-method" data-cooking-method="21" href="https://bluejeanchef.com/recipes/">Pressure Cooker</a></li><li class="sublink"><a class="nav-cooking-method" data-cooking-method="22" href="https://bluejeanchef.com/recipes/">Slow Cooker</a></li><li class="sublink"><a class="nav-cooking-method" data-cooking-method="23" href="https://bluejeanchef.com/recipes/">Sous Vide</a></li><li class="sublink"><a class="nav-cooking-method" data-cooking-method="1648" href="https://bluejeanchef.com/recipes/">No Bake</a></li><li class="sublink"><a class="nav-cooking-method" data-cooking-method="1668" href="https://bluejeanchef.com/recipes/">Grill</a></li>
 							<li class="sublink"><small>Courses</small></li>
-							<li class="sublink"><a class="nav-course" data-course="24" href="https://bluejeanchef.com/recipes/">Appetizers/Snacks</a></li><li class="sublink"><a class="nav-course" data-course="25" href="https://bluejeanchef.com/recipes/">Soups</a></li><li class="sublink"><a class="nav-course" data-course="26" href="https://bluejeanchef.com/recipes/">Salads</a></li><li class="sublink"><a class="nav-course" data-course="27" href="https://bluejeanchef.com/recipes/">Sandwiches</a></li><li class="sublink"><a class="nav-course" data-course="28" href="https://bluejeanchef.com/recipes/">Entrées</a></li><li class="sublink"><a class="nav-course" data-course="29" href="https://bluejeanchef.com/recipes/">Side Dishes</a></li><li class="sublink"><a class="nav-course" data-course="30" href="https://bluejeanchef.com/recipes/">Sauces</a></li><li class="sublink"><a class="nav-course" data-course="31" href="https://bluejeanchef.com/recipes/">Desserts/Sweets</a></li><li class="sublink"><a class="nav-course" data-course="32" href="https://bluejeanchef.com/recipes/">Beverages</a></li>
+							<li class="sublink"><a class="nav-course" data-course="29" href="https://bluejeanchef.com/recipes/">Side Dishes</a></li><li class="sublink"><a class="nav-course" data-course="30" href="https://bluejeanchef.com/recipes/">Sauces</a></li><li class="sublink"><a class="nav-course" data-course="31" href="https://bluejeanchef.com/recipes/">Desserts/Sweets</a></li><li class="sublink"><a class="nav-course" data-course="32" href="https://bluejeanchef.com/recipes/">Beverages</a></li><li class="sublink"><a class="nav-course" data-course="24" href="https://bluejeanchef.com/recipes/">Appetizers/Snacks</a></li><li class="sublink"><a class="nav-course" data-course="25" href="https://bluejeanchef.com/recipes/">Soups</a></li><li class="sublink"><a class="nav-course" data-course="26" href="https://bluejeanchef.com/recipes/">Salads</a></li><li class="sublink"><a class="nav-course" data-course="27" href="https://bluejeanchef.com/recipes/">Sandwiches</a></li><li class="sublink"><a class="nav-course" data-course="28" href="https://bluejeanchef.com/recipes/">Entrées</a></li>
 							<li class="sublink"><small>Collections</small></li>
 							<li class="sublink"><a class="nav-collection" data-collection="2597" href="https://bluejeanchef.com/recipes/">Quick and Easy</a></li><li class="sublink"><a class="nav-collection" data-collection="33" href="https://bluejeanchef.com/recipes/">Chicken</a></li><li class="sublink"><a class="nav-collection" data-collection="34" href="https://bluejeanchef.com/recipes/">Beef</a></li><li class="sublink"><a class="nav-collection" data-collection="35" href="https://bluejeanchef.com/recipes/">Seafood</a></li><li class="sublink"><a class="nav-collection" data-collection="36" href="https://bluejeanchef.com/recipes/">Pork</a></li><li class="sublink"><a class="nav-collection" data-collection="39" href="https://bluejeanchef.com/recipes/">Vegetarian</a></li><li class="sublink"><a class="nav-collection" data-collection="38" href="https://bluejeanchef.com/recipes/">Pasta</a></li><li class="sublink"><a class="nav-collection" data-collection="40" href="https://bluejeanchef.com/recipes/">Vegan</a></li><li class="sublink"><a class="nav-collection" data-collection="41" href="https://bluejeanchef.com/recipes/">Breakfast/Brunch</a></li><li class="sublink"><a class="nav-collection" data-collection="42" href="https://bluejeanchef.com/recipes/">Gluten Free</a></li>						</ul>
 					</div>
@@ -263,29 +263,6 @@ var wcpayAssets = {"url":"https:\/\/bluejeanchef.com\/site\/addons\/woocommerce-
 							<div class="feed-container">
 									<div class="card recipe-card" itemscope itemtype="http://schema.org/BlogPosting">
 				<div class="thumb-container">
-			<a href="https://bluejeanchef.com/recipes/chunky-broccoli-cheddar-soup/">
-				<picture><source type="image/jpeg" data-srcset="https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-320x400.jpg 1x, https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-480x600.jpg 2x"><img itemprop="image" content="https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-320x400.jpg" data-src="https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-320x400.jpg" class="lazyload" alt="Chunky Broccoli Cheddar Soup" nopin="nopin"></picture>			</a>
-		</div>
-		
-		<span class="category"><a href="/recipes" class="recipe-cooking-method-filter" data-cooking-method="19" href="javascript:void(0)">Stovetop &amp; Oven</a></span>		<span class="title " itemprop="headline name">
-			<a href="https://bluejeanchef.com/recipes/chunky-broccoli-cheddar-soup/" itemprop="mainEntityOfPage">
-				Chunky Broccoli Cheddar Soup			</a>
-		</span>
-
-		<meta itemprop="author" content="Meredith Laurence">									
-		<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-			<meta itemprop="name" content="Blue Jean Chef">
-			<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-				<link itemprop="url" href="https://bluejeanchef.com/site/themes/default_theme/assets/images/logo.png">
-			</div>
-			<meta itemprop="url" content="https://bluejeanchef.com">
-		</div>
-		
-		<meta itemprop="datePublished" content="2023-10-04T09:00:45-04:00">
-		<meta itemprop="dateModified" content="2023-09-26T15:18:13-04:00">
-	</div>
-	<div class="card recipe-card" itemscope itemtype="http://schema.org/BlogPosting">
-				<div class="thumb-container">
 			<a href="https://bluejeanchef.com/recipes/apple-dutch-baby-pancake/">
 				<picture><source type="image/jpeg" data-srcset="https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-320x400.jpg 1x, https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-480x600.jpg 2x"><img itemprop="image" content="https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-320x400.jpg" data-src="https://bluejeanchef.com/uploads/2023/07/Apple-Dutch-Baby-1280-9609-320x400.jpg" class="lazyload" alt="Apple Dutch Baby Pancake" nopin="nopin"></picture>			</a>
 		</div>
@@ -307,6 +284,29 @@ var wcpayAssets = {"url":"https:\/\/bluejeanchef.com\/site\/addons\/woocommerce-
 		<meta itemprop="datePublished" content="2023-09-13T09:00:01-04:00">
 		<meta itemprop="dateModified" content="2023-09-03T11:47:01-04:00">
 	</div>
+	<div class="card recipe-card" itemscope itemtype="http://schema.org/BlogPosting">
+				<div class="thumb-container">
+			<a href="https://bluejeanchef.com/recipes/chunky-broccoli-cheddar-soup/">
+				<picture><source type="image/jpeg" data-srcset="https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-320x400.jpg 1x, https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-480x600.jpg 2x"><img itemprop="image" content="https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-320x400.jpg" data-src="https://bluejeanchef.com/uploads/2023/07/Broccoli-Cheddar-Soup-1280-9576-320x400.jpg" class="lazyload" alt="Chunky Broccoli Cheddar Soup" nopin="nopin"></picture>			</a>
+		</div>
+		
+		<span class="category"><a href="/recipes" class="recipe-cooking-method-filter" data-cooking-method="19" href="javascript:void(0)">Stovetop &amp; Oven</a></span>		<span class="title " itemprop="headline name">
+			<a href="https://bluejeanchef.com/recipes/chunky-broccoli-cheddar-soup/" itemprop="mainEntityOfPage">
+				Chunky Broccoli Cheddar Soup			</a>
+		</span>
+
+		<meta itemprop="author" content="Meredith Laurence">									
+		<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+			<meta itemprop="name" content="Blue Jean Chef">
+			<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+				<link itemprop="url" href="https://bluejeanchef.com/site/themes/default_theme/assets/images/logo.png">
+			</div>
+			<meta itemprop="url" content="https://bluejeanchef.com">
+		</div>
+		
+		<meta itemprop="datePublished" content="2023-10-04T09:00:45-04:00">
+		<meta itemprop="dateModified" content="2023-09-26T15:18:13-04:00">
+	</div>
 							</div>
 						</div>
 						<div class="medium-box right">
@@ -321,7 +321,7 @@ var wcpayAssets = {"url":"https:\/\/bluejeanchef.com\/site\/addons\/woocommerce-
 									<span class="section-title">Courses</span>
 									<hr>
 									<ul class="sub-menu">
-										<li><a class="nav-course" data-course="24" href="https://bluejeanchef.com/recipes/">Appetizers/Snacks</a></li><li><a class="nav-course" data-course="25" href="https://bluejeanchef.com/recipes/">Soups</a></li><li><a class="nav-course" data-course="26" href="https://bluejeanchef.com/recipes/">Salads</a></li><li><a class="nav-course" data-course="27" href="https://bluejeanchef.com/recipes/">Sandwiches</a></li><li><a class="nav-course" data-course="28" href="https://bluejeanchef.com/recipes/">Entrées</a></li><li><a class="nav-course" data-course="29" href="https://bluejeanchef.com/recipes/">Side Dishes</a></li><li><a class="nav-course" data-course="30" href="https://bluejeanchef.com/recipes/">Sauces</a></li><li><a class="nav-course" data-course="31" href="https://bluejeanchef.com/recipes/">Desserts/Sweets</a></li><li><a class="nav-course" data-course="32" href="https://bluejeanchef.com/recipes/">Beverages</a></li>									</ul>
+										<li><a class="nav-course" data-course="29" href="https://bluejeanchef.com/recipes/">Side Dishes</a></li><li><a class="nav-course" data-course="30" href="https://bluejeanchef.com/recipes/">Sauces</a></li><li><a class="nav-course" data-course="31" href="https://bluejeanchef.com/recipes/">Desserts/Sweets</a></li><li><a class="nav-course" data-course="32" href="https://bluejeanchef.com/recipes/">Beverages</a></li><li><a class="nav-course" data-course="24" href="https://bluejeanchef.com/recipes/">Appetizers/Snacks</a></li><li><a class="nav-course" data-course="25" href="https://bluejeanchef.com/recipes/">Soups</a></li><li><a class="nav-course" data-course="26" href="https://bluejeanchef.com/recipes/">Salads</a></li><li><a class="nav-course" data-course="27" href="https://bluejeanchef.com/recipes/">Sandwiches</a></li><li><a class="nav-course" data-course="28" href="https://bluejeanchef.com/recipes/">Entrées</a></li>									</ul>
 								</div>
 								<div class="nav-group">
 									<span class="section-title">Collections</span>
@@ -947,5 +947,5 @@ Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3
 Page Caching using Disk: Enhanced 
 Minified using Disk
 
-Served from: bluejeanchef.com @ 2024-04-25 18:32:52 by W3 Total Cache
+Served from: bluejeanchef.com @ 2024-04-26 12:34:21 by W3 Total Cache
 -->

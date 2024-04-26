@@ -32,42 +32,7 @@
 <link rel='dns-prefetch' href='//use.typekit.net'>
 <link rel='dns-prefetch' href='//ads.adthrive.com'>
 <link rel='dns-prefetch' href='//c.slickstream.com'>
-<style data-no-optimize="1" data-cfasync="false">
-	.adthrive-ad {
-		margin-top: 10px;
-		margin-bottom: 10px;
-		text-align: center;
-		overflow-x: visible;
-		clear: both;
-		line-height: 0;
-	}
-	body.archive .adthrive-content,
-body.search .adthrive-content {
-   flex:0 0 100%;
-}
-
-body:not(.adthrive-device-phone) .adthrive-recipe {
-float:right;
-clear:right;
-margin-left:10px;
-}
-
-body.adthrive-device-phone .adthrive-content {
-margin-bottom:15px;
-}
-
-div[id^="cls-video"] {
-margin-bottom: 20px;
-}
-
-.adthrive-content, .adthrive-recipe {
-min-height: 350px !important;
-}
-
-.adthrive-content {
-margin-bottom: 20px!important;
-}
-</style>
+<style data-no-optimize="1" data-cfasync="false"></style>
 <script data-no-optimize="1" data-cfasync="false">
 	window.adthriveCLS = {
 		enabledLocations: ['Content', 'Recipe'],
@@ -96,7 +61,7 @@ margin-bottom: 20px!important;
 </script>
 <link rel="dns-prefetch" href="https://ads.adthrive.com/"><link rel="preconnect" href="https://ads.adthrive.com/"><link rel="preconnect" href="https://ads.adthrive.com/" crossorigin>
 	<!-- This site is optimized with the Yoast SEO Premium plugin v22.5 (Yoast SEO v22.5) - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Outstanding Vegan Recipes | Rainbow Plant Life</title><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/rpl_logo1.svg" as="image" /><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/icon-facebook.svg" as="image" /><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/icon-instagram.svg" as="image" /><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/icon-pinterest.svg" as="image" /><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/icon-youtube.svg" as="image" /><link rel='preload' href='https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/URWGeometric-Bold/font.woff2' as='font' type='font/woff2' crossorigin><link rel='preload' href='https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/Handelson-Three/font.woff2' as='font' type='font/woff2' crossorigin><link rel='preload' href='https://use.typekit.net/hpc4fxw.css' as='style' crossorigin onload="this.rel='stylesheet';this.removeAttribute('onload');">
+	<title>Outstanding Vegan Recipes | Rainbow Plant Life</title><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/rpl_logo1.svg" as="image" /><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/icon-facebook.svg" as="image" /><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/icon-instagram.svg" as="image" /><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/icon-pinterest.svg" as="image" /><link rel="preload" href="https://rainbowplantlife.com/wp-content/uploads/2020/09/icon-youtube.svg" as="image" /><link rel='preload' href='https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/URWGeometric-Bold/font.woff2' as='font' type='font/woff2' crossorigin><link rel='preload' href='https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/Handelson-Three/font.woff2' as='font' type='font/woff2' crossorigin><link rel='preload' href='https://use.typekit.net/hpc4fxw.css' as='style' crossorigin onload="this.rel='stylesheet';this.removeAttribute('onload');"><link rel="preload" as="font" href="https://use.typekit.net/af/ebcd51/00000000000000007735a081/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&#038;fvd=n7&#038;v=3" crossorigin><link rel="preload" as="font" href="https://use.typekit.net/af/1db03a/00000000000000007735a08e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&#038;fvd=n4&#038;v=3" crossorigin><link rel="preload" as="font" href="https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/URWGeometric-Bold/font.woff2" crossorigin><link rel="preload" as="font" href="https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/URWGeometric-Regular/font.woff2" crossorigin><link rel="preload" as="font" href="https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/Handelson-Three/font.woff2" crossorigin><style id="wpr-usedcss">div[id^=cls-video]{margin-bottom:20px}@font-face{font-family:europa;src:url("https://use.typekit.net/af/ebcd51/00000000000000007735a081/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/ebcd51/00000000000000007735a081/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/ebcd51/00000000000000007735a081/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:700;font-stretch:normal}@font-face{font-family:europa;src:url("https://use.typekit.net/af/1db03a/00000000000000007735a08e/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/1db03a/00000000000000007735a08e/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/1db03a/00000000000000007735a08e/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");font-display:swap;font-style:normal;font-weight:400;font-stretch:normal}:root{--comment-rating-star-color:#343434}:root{--wprm-popup-font-size:16px;--wprm-popup-background:#fff;--wprm-popup-title:#000;--wprm-popup-content:#444;--wprm-popup-button-background:#5a822b;--wprm-popup-button-text:#fff}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}:where(.wp-block-calendar table:not(.has-background) th){background:#ddd}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}:where(.wp-block-post-comments input[type=submit]){border:none}:where(.wp-block-cover-image:not(.has-text-color)),:where(.wp-block-cover:not(.has-text-color)){color:#fff}:where(.wp-block-cover-image.is-light:not(.has-text-color)),:where(.wp-block-cover.is-light:not(.has-text-color)){color:#000}.wp-block-embed{overflow-wrap:break-word}.wp-block-embed iframe{max-width:100%}.wp-block-embed__wrapper{position:relative}:where(.wp-block-file){margin-bottom:1.5em}:where(.wp-block-file__button){border-radius:2em;display:inline-block;padding:.5em 1em}:where(.wp-block-file__button):is(a):active,:where(.wp-block-file__button):is(a):focus,:where(.wp-block-file__button):is(a):hover,:where(.wp-block-file__button):is(a):visited{box-shadow:none;color:#fff;opacity:.85;text-decoration:none}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment)){line-height:1.1}:where(.wp-block-latest-comments:not([style*=line-height] .wp-block-latest-comments__comment-excerpt p)){line-height:1.8}ul{box-sizing:border-box}:where(.wp-block-navigation.has-background .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation.has-background .wp-block-navigation-submenu a:not(.wp-element-button)){padding:.5em 1em}:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-item a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu a:not(.wp-element-button)),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-navigation-submenu button.wp-block-navigation-item__content),:where(.wp-block-navigation .wp-block-navigation__submenu-container .wp-block-pages-list__item button.wp-block-navigation-item__content){padding:.5em 1em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}:where(.wp-block-post-excerpt){margin-bottom:var(--wp--style--block-gap);margin-top:var(--wp--style--block-gap)}:where(.wp-block-preformatted.has-background){padding:1.25em 2.375em}:where(.wp-block-pullquote){margin:0 0 1em}:where(.wp-block-search__button){border:1px solid #ccc;padding:6px 10px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper){border:1px solid #949494;box-sizing:border-box;padding:4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input{border:none;border-radius:0;padding:0 4px}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) .wp-block-search__input:focus{outline:0}:where(.wp-block-search__button-inside .wp-block-search__inside-wrapper) :where(.wp-block-search__button){padding:4px 8px}:where(.wp-block-term-description){margin-bottom:var(--wp--style--block-gap);margin-top:var(--wp--style--block-gap)}:where(pre.wp-block-verse){font-family:inherit}.entry-content{counter-reset:footnotes}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}#html .arve,.arve{display:block;margin-bottom:1.5em;width:100%}#html .arve:after,.arve:after{clear:both;content:"";display:table}#html .arve [hidden],#html .arve[hidden],.arve [hidden],.arve[hidden]{display:none}#html .arve-inner,.arve-inner{display:block;margin:0;padding:0;width:auto}#html .arve-embed,.arve-embed{display:block;margin:0;max-height:100vh;overflow:hidden;padding:0;position:relative;width:100%}#html .arve-embed--has-aspect-ratio,.arve-embed--has-aspect-ratio{aspect-ratio:16/9}#html .arve-embed--has-aspect-ratio:after,.arve-embed--has-aspect-ratio:after{clear:both;content:"";display:block}#html .arve-ar,.arve-ar{display:block}#html .arve-iframe,#html .arve-play-btn,#html .arve-thumbnail,.arve-iframe,.arve-play-btn,.arve-thumbnail{border:0;bottom:0;height:100%;left:0;margin:0;padding:0;position:absolute;top:0;width:100%}#html .arve-video,.arve-video{height:auto;margin:0;padding:0;width:100%}@supports(aspect-ratio:16/9){#html .arve-ar,#html .arve-embed--has-aspect-ratio:after,.arve-ar,.arve-embed--has-aspect-ratio:after{display:none}}@keyframes bp-fadein{0%{opacity:.01}to{opacity:1}}@keyframes bp-bar{0%{transform:translateX(-100%)}to{transform:translateX(0)}}@keyframes bp-o{0%{transform:rotate(0)}to{transform:rotate(1turn)}}.bp-wrap{contain:strict;position:fixed;touch-action:none;z-index:999;-webkit-tap-highlight-color:transparent}.bp-wrap,.bp-wrap>div:first-child{height:100%;left:0;top:0;width:100%}.bp-wrap>div:first-child{animation:.48s cubic-bezier(.215,.61,.355,1) bp-fadein;background:rgba(0,0,0,.75);position:absolute}.bp-vid audio{bottom:14px;height:50px;left:14px;position:absolute;width:calc(100% - 28px)}.bp-inner{display:flex;height:100%;left:0;position:absolute;top:0;width:100%}.bp-html{display:contents}.bp-html>:first-child{margin:auto}.bp-img-wrap{contain:strict;height:100%;left:0;position:absolute;top:0;width:100%}.bp-img-wrap .bp-canzoom{cursor:zoom-in}.bp-img-wrap .bp-drag{cursor:grabbing}.bp-close{contain:layout size}.bp-img{background-size:100% 100%;left:50%;position:absolute;top:50%;-webkit-user-select:none;-moz-user-select:none;user-select:none}.bp-img div,.bp-img img{height:100%;left:0;position:absolute;top:0;width:100%}.bp-img .bp-o{display:none}.bp-zoomed .bp-img:not(.bp-drag){cursor:grab}.bp-zoomed .bp-cap{animation:none!important;opacity:0}.bp-zoomed.bp-small .bp-controls{opacity:0}.bp-controls,.bp-zoomed.bp-small .bp-controls button{pointer-events:none}.bp-controls{animation:.3s bp-fadein;height:100%;left:0;position:absolute;text-align:left;top:0;transition:opacity .3s;width:100%}.bp-controls button{background:rgba(0,0,0,.15);border:0;contain:content;cursor:pointer;opacity:.9;pointer-events:auto;position:absolute;transition:all .1s}.bp-controls button:hover{background-color:rgba(0,0,0,.2);opacity:1}.bp-controls svg{fill:#fff}.bp-count{color:hsla(0,0%,100%,.9);height:50px;line-height:1;margin:16px;position:absolute;width:100px}.bp-next,.bp-prev{border-radius:3px 0 0 3px;height:64px;margin-top:-32px;right:0;top:50%;width:58px}.bp-next:hover:before,.bp-prev:hover:before{transform:translateX(-2px)}.bp-next:before,.bp-prev:before{content:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 24 24%27%3E%3Cpath d=%27m8.59 16.34 4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z%27/%3E%3C/svg%3E");left:7px;position:absolute;top:9px;transition:all .2s;width:46px}.bp-prev{left:0;right:auto;transform:scalex(-1)}.bp-x{border-radius:0 0 0 3px;height:55px;right:0;top:0;width:58px}.bp-x:before{content:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 fill=%27%23fff%27 viewBox=%270 0 32 32%27%3E%3Cpath d=%27m24 10-2-2-6 6-6-6-2 2 6 6-6 6 2 2 6-6 6 6 2-2-6-6z%27/%3E%3C/svg%3E");position:absolute;right:10px;top:8px;width:37px}.bp-if,.bp-vid{background:#000;background-size:100% 100%;margin:auto;position:relative}.bp-if div,.bp-if iframe,.bp-if video,.bp-vid div,.bp-vid iframe,.bp-vid video{border:0;height:100%;left:0;position:absolute;top:0;width:100%}.bp-load{background-size:100% 100%;display:flex;overflow:hidden;z-index:1}.bp-bar{animation:4s both bp-bar;background:hsla(0,0%,100%,.9);border-radius:0 3px 3px 0;height:3px;left:0;position:absolute;top:0;transform:translateX(-100%);width:100%}.bp-o,.bp-o:after{border-radius:50%;height:90px;width:90px}.bp-o{animation:1s linear infinite bp-o;border:10px solid hsla(0,0%,100%,.2);border-left-color:hsla(0,0%,100%,.9);margin:auto}.bp-cap{animation:.2s bp-fadein;background:rgba(9,9,9,.8);border-radius:4px;bottom:2%;color:hsla(0,0%,100%,.9);display:table;left:50%;line-height:1.3;max-width:95%;padding:.6em 1.2em;position:absolute;transform:translateX(-50%);transition:opacity .3s;width:fit-content;width:-moz-fit-content}.bp-cap a{color:inherit}.bp-inline{position:absolute}.bp-lock{overflow-y:hidden}.bp-lock body{overflow:scroll}.bp-noclose .bp-x{display:none}.bp-noclose:not(.bp-zoomed){touch-action:pan-y}.bp-noclose:not(.bp-zoomed) .bp-img-wrap{cursor:zoom-in}@media(prefers-reduced-motion){.bp-wrap *{animation-duration:0s!important}}@media(max-width:500px){.bp-x{height:47px;width:47px}.bp-x:before{right:6px;top:6px;width:34px}.bp-next,.bp-prev{height:54px;margin-top:-27px;width:45px}.bp-next:before,.bp-prev:before{left:2px;top:7px;width:43px}.bp-o,.bp-o:after{border-width:6px;height:60px;width:60px}.bp-count{margin:12px 10px}}#html .arve-overflow-hidden,.arve-overflow-hidden{overflow:hidden}#html .arve-play-btn,#html .arve-play-btn:focus,#html .arve-play-btn:hover,.arve-play-btn,.arve-play-btn:focus,.arve-play-btn:hover{background-color:transparent;background-image:none;background-position:50%;background-repeat:no-repeat;border:none;border-radius:0;cursor:pointer;margin:0;padding:0;text-align:center;vertical-align:middle}#html .arve--clicked .arve-play-btn,.arve--clicked .arve-play-btn{display:none}#html .arve-play-svg,.arve-play-svg{display:inline;pointer-events:none}#html .arve-play-btn svg circle,#html .arve-play-btn svg path,.arve-play-btn svg circle,.arve-play-btn svg path{transition:fill .5s cubic-bezier(.4,0,1,1),fill-opacity .5s cubic-bezier(.4,0,1,1)}#html .arve-play-btn:hover .arve-play-svg circle,#html .arve-play-btn:hover .arve-play-svg path,.arve-play-btn:hover .arve-play-svg circle,.arve-play-btn:hover .arve-play-svg path{transition:fill .5s cubic-bezier(0,0,.2,1),fill-opacity .5s cubic-bezier(0,0,.2,1)}#html .arve-play-btn:hover .arve-play-svg--youtube path:first-child,.arve-play-btn:hover .arve-play-svg--youtube path:first-child{fill:#cc181e;fill-opacity:1}#html .arve-title,.arve-title{background-image:linear-gradient(0deg,rgba(0,0,0,.75),transparent);bottom:0;color:#fff;left:0;margin:0;overflow:hidden;padding:1em;position:absolute;right:0;text-overflow:ellipsis;white-space:nowrap}#html .arve-thumbnail,.arve-thumbnail{-o-object-fit:cover;object-fit:cover;transition-duration:.7s;transition-property:transform,filter}#html .arve-hover-effect-darken:hover .arve-thumbnail,.arve-hover-effect-darken:hover .arve-thumbnail{filter:brightness(80%)}#html .arve--clicked[data-mode=lazyload] .arve-play-btn,#html .arve--clicked[data-mode=lazyload] .arve-thumbnail,#html .arve--clicked[data-mode=lazyload] .arve-title,#html .arve--clicked[data-mode=lightbox] .arve-play-btn,#html .arve--clicked[data-mode=lightbox] .arve-thumbnail,#html .arve--clicked[data-mode=lightbox] .arve-title,.arve--clicked[data-mode=lazyload] .arve-play-btn,.arve--clicked[data-mode=lazyload] .arve-thumbnail,.arve--clicked[data-mode=lazyload] .arve-title,.arve--clicked[data-mode=lightbox] .arve-play-btn,.arve--clicked[data-mode=lightbox] .arve-thumbnail,.arve--clicked[data-mode=lightbox] .arve-title{display:none}.bp-load{background-position:50%;background-size:cover}@media screen and (max-width:1249px){body #outer-wrapper{overflow:hidden!important}}.wprm-recipe-ingredients-container,.wprm-recipe-instructions-container{counter-reset:wprm-advanced-list-counter}.no-js .wprm-private-notes-container,.no-js .wprm-recipe-private-notes-header{display:none}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,section{display:block}h1{font-size:2em;margin:.67em 0}a{background-color:transparent;-webkit-text-decoration-skip:objects}strong{font-weight:inherit}strong{font-weight:bolder}sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}template{display:none}[hidden]{display:none}@font-face{font-display:swap;font-family:URWGeometric;src:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/URWGeometric-Bold/font.woff2') format('woff2'),url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/URWGeometric-Bold/font.woff') format('woff');font-weight:700}@font-face{font-display:swap;font-family:URWGeometric;src:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/URWGeometric-Regular/font.woff2') format('woff2'),url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/URWGeometric-Regular/font.woff') format('woff')}@font-face{font-display:swap;font-family:Handelson-Three;src:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/Handelson-Three/font.woff2') format('woff2'),url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/fonts/Handelson-Three/font.woff') format('woff')}*,:after,:before{box-sizing:border-box}.container:after{content:'';display:table;clear:both}@media (max-width:375px){.container{padding-left:20px!important;padding-right:20px!important}}img{max-width:100%;height:auto;vertical-align:middle}#outer-wrapper{overflow:hidden}.aside{float:right;width:26%;word-wrap:break-word}@media (max-width:991px){.aside{float:none;width:98%;margin-top:50px}}.container{max-width:1195px;margin:0 auto;box-sizing:border-box;padding:0 20px}.container-large{max-width:960px;margin:0 auto;box-sizing:border-box;position:relative}iframe{max-width:100%}ul{list-style:disc}ul{padding-left:1.5em;margin-top:0}ul ul{margin:2% 0 2% 4.5%}li{margin-bottom:1%}input[type=email],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=url],select,textarea{padding:10px 20px;background-color:#fff;border:none;font-family:Europa,sans-serif;font-size:18px;line-height:30px;color:#000;border-radius:0;box-shadow:none;box-sizing:border-box;-webkit-appearance:none;-moz-appearance:none;outline:0}input[type=email]:-webkit-autofill,input[type=number]:-webkit-autofill,input[type=password]:-webkit-autofill,input[type=search]:-webkit-autofill,input[type=tel]:-webkit-autofill,input[type=text]:-webkit-autofill,input[type=url]:-webkit-autofill,select:-webkit-autofill,textarea:-webkit-autofill{-webkit-box-shadow:0 0 0 30px #fff inset}textarea{min-height:100px}select:not([multiple]){padding-right:26px;-webkit-appearance:none;-moz-appearance:none;background-image:url(data:image/svg+xml;base64,PHN2ZwogICAgICAgIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICAgICAgICB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIKICAgICAgICB3aWR0aD0iNjBweCIgaGVpZ2h0PSI0MHB4Ij4KICAgIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgIGZpbGw9InJnYigxNjEsIDE2MSwgMTYxKSIKICAgICAgICAgIGQ9Ik0wLjAwMCwwLjAwMCBMNjAuMDAwLDAuMDAwIEwzMC4wMDAsNDAuMDAwIEwwLjAwMCwwLjAwMCBaIi8+Cjwvc3ZnPg==);background-position:98.5% 50%;background-repeat:no-repeat;background-size:10px}select:not([multiple]):-moz-focusring{color:transparent;text-shadow:0 0 0 #000}select:not([multiple]) option:not(:checked){color:#000}label,legend{display:block;margin-bottom:10px}fieldset{padding:0;border-width:0}input[type=checkbox],input[type=radio]{display:inline}::placeholder{opacity:1}:focus::placeholder{opacity:.15}form br{display:none}.button,button,input[type=button],input[type=submit]{display:inline-block;color:#fff;background-color:#f28320;border:none;cursor:pointer;box-sizing:border-box;padding:11px 20px 7px;font-family:URWGeometric,OurArial-Condensed;font-size:18px;font-weight:700;text-align:center;text-decoration:none;text-transform:uppercase;line-height:25px;letter-spacing:1.71px;transition:background-color .3s ease;border-radius:0}.button:focus,.button:hover,button:focus,button:hover,input[type=button]:focus,input[type=button]:hover,input[type=submit]:focus,input[type=submit]:hover{outline:0;background-color:#de4226;color:#fff}.button:active,button:active,input[type=button]:active,input[type=submit]:active{outline:0}fieldset,input,select,textarea{margin-bottom:3.5%}form,table,ul{margin-bottom:5%}html{outline:0!important;font-size:100%;-webkit-text-size-adjust:100%;font-variant-ligatures:none;-webkit-font-variant-ligatures:none;text-rendering:optimizeLegibility;-moz-osx-font-smoothing:grayscale;font-smoothing:antialiased;-webkit-font-smoothing:antialiased}body{font-family:Europa,sans-serif;font-size:21px;line-height:30px;color:#000}@media (max-width:991px){body{font-size:18px;line-height:24px}}body a{color:#d3006c;text-decoration:none}body a:hover{color:#a31f5c}h1{font-family:URWGeometric,OurArial-Condensed;font-size:60px;font-weight:700;line-height:62px;text-transform:uppercase;letter-spacing:1.28px;margin:0}h2{font-family:URWGeometric,OurArial-Condensed;font-size:40px;font-weight:700;line-height:48px;margin:0 0 10px}@media (max-width:991px){h1{font-size:40px;line-height:46px;letter-spacing:.8px}h2{font-size:30px;line-height:36px}}h3{font-family:URWGeometric,OurArial-Condensed;font-size:24px;font-weight:700;line-height:30px;margin:0 0 10px}@media (max-width:991px){h3{font-size:18px;line-height:21px}}h4{font-family:URWGeometric,OurArial-Condensed;font-size:24px;font-weight:700;line-height:33px;text-transform:uppercase;letter-spacing:2px;margin:0 0 10px}@media (max-width:991px){h4{font-size:18px;line-height:25px;letter-spacing:2.25px}}p{margin-top:0}p:not(:last-child){margin-bottom:30px}sup{top:-.8em}sup{font-size:55%}.script-green{color:#6c933e;font-family:Handelson-Three,serif;font-size:40px;line-height:54px;border-bottom:2px solid #6c933e}.script-green:hover{color:#24592b;border-color:#24592b}.script-orange{color:#f28320;font-family:Handelson-Three,serif;font-size:40px;line-height:54px;border-bottom:2px solid #f28320}.script-orange:hover{color:#de4226;border-color:#de4226}.script-pink{color:#d3006c;font-family:Handelson-Three,serif;font-size:40px;line-height:54px;border-bottom:2px solid #d3006c}.script-pink:hover{color:#a31f5c;border-color:#a31f5c}#header-wrapper{width:100%;padding:20px 0 10px;margin-bottom:20px}.header-inner{display:flex;justify-content:space-between;align-items:center;position:relative}.header-inner:after{display:none}.header-tools{display:flex;flex-direction:column;justify-content:center;margin-top:30px}.header-tools form{margin:15px 0;display:none;width:100%}.header-tools form input[type=text]{font-size:14px;line-height:24px;padding:5px 10px;margin:0;width:calc(100% - 34px)}.header-tools form input[type=submit]{margin-bottom:0;width:34px;height:34px;text-indent:-9999px;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/icon-search-white.svg') no-repeat #6c933e;background-size:24px 24px;background-position:50% 50%}.header-tools form input[type=submit]:hover{background-color:#f28320}@media (max-width:991px){.script-green,.script-orange,.script-pink{font-size:30px}.header-tools{display:none;text-align:left;position:absolute;top:-50px;left:0;width:100%;background-color:#e9efe2;padding:35px 65px;z-index:5}.header-tools form{display:flex;order:2}}.header-social{display:flex;justify-content:flex-end;margin-bottom:30px}.header-social a{display:inline-block;border:none;margin-left:17px}.header-social a:focus,.header-social a:hover{opacity:.3}.header-social a:active{opacity:.6}.header-social .header-subscribe{font-family:Handelson-Three,serif;font-size:32px;line-height:32px;color:#6c933e}.header-nav{display:flex}.logo{align-self:center;max-width:40%}@media (max-width:991px){.header-social{flex-wrap:wrap;order:3;justify-content:flex-start}.header-social a:first-child{margin-left:0}.header-social .header-subscribe{order:-1;margin:0 0 10px;width:100%}.header-nav{order:1}.logo{max-width:100%;margin:0 20px}.logo img{height:57px}}.menu-trigger{width:28px;height:17px;margin-top:20px;z-index:10;display:none}.menu-trigger input[type=checkbox]{display:none}.menu-trigger label{margin:0;width:28px;height:17px;position:relative;cursor:pointer}.menu-trigger label span{text-indent:-9999px;position:absolute;display:block;width:28px;height:1px;background-color:#000;transition:all .2s ease-out}.menu-trigger label:after,.menu-trigger label:before{display:block;position:absolute;top:10px;content:'';width:28px;height:1px;background-color:#000;transform:rotateZ(0);transition:all .3s ease-out}.menu-trigger label:before{top:-10px;transform-origin:left}.menu-trigger label:after{top:10px;transform-origin:left}.menu-trigger #menu-toggle:checked~label span{opacity:0}.menu-trigger #menu-toggle:checked~label:before{width:29px;transform:rotateZ(43deg)}.menu-trigger #menu-toggle:checked~label:after{width:29px;transform:rotateZ(-43deg)}.header-inner .menu-main-menu-container{position:relative;margin-right:20px}.header-inner .menu-main-menu-container:after{position:absolute;display:block;content:'';width:1px;height:22px;background-color:#000;top:-1px;right:0}#menu-main-menu,#menu-mobile-menu{margin:0;padding:0;list-style:none;font-family:URWGeometric,OurArial-Condensed;font-size:18px;font-weight:600;line-height:24px;letter-spacing:1.4px;text-transform:uppercase}#menu-main-menu li,#menu-mobile-menu li{display:inline-block;justify-content:center;position:relative;margin-right:20px}#menu-main-menu li:hover:after,#menu-mobile-menu li:hover:after{display:block;content:'';width:100%;height:1px;background-color:#000;position:absolute;bottom:-3px}#menu-main-menu a,#menu-mobile-menu a{color:#000;border:none}#menu-main-menu .sub-menu,#menu-mobile-menu .sub-menu{display:none;position:absolute;left:-20px;padding:0;margin:0;padding:20px;background-color:#fff;min-width:200px;z-index:100}#menu-main-menu .sub-menu li,#menu-mobile-menu .sub-menu li{margin-right:0;margin-bottom:10px}#menu-main-menu .sub-menu li:last-child,#menu-mobile-menu .sub-menu li:last-child{margin-bottom:0}@media (max-width:991px){.menu-trigger{display:block}.header-inner .menu-main-menu-container{display:none}#menu-main-menu,#menu-mobile-menu{display:none;font-size:16px;line-height:36px;letter-spacing:1px}#menu-main-menu li,#menu-mobile-menu li{width:100%;text-align:left;justify-content:flex-start;margin-bottom:0}#menu-main-menu li:hover:after,#menu-mobile-menu li:hover:after{display:none}#menu-main-menu .sub-menu,#menu-mobile-menu .sub-menu{position:static;margin:0 0 0 2px;padding:0 0 0 15px;border-left:1px solid #000;background-color:transparent}#menu-main-menu .sub-menu li,#menu-mobile-menu .sub-menu li{font-size:14px;line-height:18px;margin-bottom:0}}#menu-main-menu li:hover>.sub-menu{display:block}#menu-mobile-menu{display:none}.search-trigger{width:21px;height:24px;transform:translateY(-2px)}.search-trigger input[type=checkbox]{display:none}.search-trigger label{margin:0;width:21px;height:24px;position:relative;cursor:pointer;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/icon-search.svg') no-repeat}.search-trigger label span{visibility:hidden}.search-trigger--mobile{display:none}@media (max-width:991px){#menu-mobile-menu{display:block}.search-trigger{display:none}.search-trigger--mobile{display:block}}.search-trigger--mobile label{transform:translateY(5px);background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/icon-search-mobile.svg') no-repeat;background-size:100% 100%}.site-search{position:absolute;left:15px;top:152px;width:calc(100% - 30px);display:none;z-index:10;padding:30px 0;background-color:#e9efe2}.site-search form{max-width:670px;margin:0 auto;display:flex}.site-search input[type=text]{width:calc(100% - 56px);margin-bottom:0}.site-search input[type=submit]{margin-bottom:0;width:50px;height:50px;text-indent:-9999px;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/icon-search-white.svg') no-repeat #6c933e;background-position:50% 50%}.site-search input[type=submit]:hover{background-color:#f28320}.site-search .search-close{display:block;width:26px;height:26px;text-indent:-9999px;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/icon-close.svg') no-repeat;position:absolute;right:25px;top:50%;transform:translateY(-50%)}@media (max-width:991px){.site-search{top:77px}.site-search form{max-width:calc(100vw - 96px)}.site-search .search-close{display:none}}.site-footer{padding:65px 0;margin-top:90px;background-color:#510e3e;font-size:14px;line-height:18px;color:#fff;position:relative}.site-footer:after{display:block;content:'';width:215px;height:383px;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/footer-illustration.svg') no-repeat;position:absolute;right:35px;top:-90px}.site-footer a{color:#fff!important}.site-footer .footer-social{text-align:center}.site-footer .footer-social a{display:inline-block;color:#fff;transform:scale(1.56);filter:brightness(100);margin-left:30px}.site-footer .footer-social a:first-child{margin-left:0}.site-footer .menu{margin:35px auto 0;padding:0;list-style:none;font-family:URWGeometric,OurArial-Condensed;font-size:18px;font-weight:600;line-height:24px;letter-spacing:1.4px;text-transform:uppercase;text-align:center}.site-footer .menu li{display:inline-block;justify-content:center;position:relative;margin-right:20px}.site-footer .menu li:hover:after{display:block;content:'';width:100%;height:1px;background-color:#fff;position:absolute;bottom:-3px}.site-footer .menu .sub-menu{display:none}.site-footer .copyright:before{display:block;content:'';height:1px;width:245px;background-color:#fff;margin:30px auto}.site-footer .footer-extra-links{text-align:center;font-family:URWGeometric,OurArial-Condensed;font-size:16px;font-weight:600}.site-footer .footer-extra-links a:not(:last-child){margin-right:35px}#creditslide{position:fixed;padding:65px 0 70px;width:100%;bottom:-290px;z-index:9999999;text-align:center;transition:.2s ease-in-out all;background-color:#500e3e}#creditslide #credit-close{position:absolute;top:25px;right:25px;height:15px;width:15px;content:'';cursor:pointer;background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzU3cHgiIGhlaWdodD0iMzU3cHgiIHZpZXdCb3g9IjAgMCAzNTcgMzU3IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCA1NC4xICg3NjQ5MCkgLSBodHRwczovL3NrZXRjaGFwcC5jb20gLS0+CiAgICA8dGl0bGU+aW1hZ2U8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iaW1hZ2UiIGZpbGw9IiNGRkZGRkYiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxwb2x5Z29uIGlkPSJQYXRoIiBwb2ludHM9IjM1NyAzNS43IDMyMS4zIDAgMTc4LjUgMTQyLjggMzUuNyAwIDAgMzUuNyAxNDIuOCAxNzguNSAwIDMyMS4zIDM1LjcgMzU3IDE3OC41IDIxNC4yIDMyMS4zIDM1NyAzNTcgMzIxLjMgMjE0LjIgMTc4LjUiPjwvcG9seWdvbj4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==);background-position:97% 50%;background-repeat:no-repeat;background-size:15px}#creditslide .container>*{display:inline-block;vertical-align:top;width:32%;padding:0 1%}#creditslide .callout-std{line-height:1.5}#creditslide .callout-std span{display:table;margin:0 auto;color:#fff}#creditslide .callout-std a{color:#d3006c;text-decoration:none}#creditslide .callout-std a:hover{color:#a31f5c}#credit-trigger{cursor:pointer}#creditslide.credit-open{bottom:0}.page-section{margin:0 0 60px;clear:both}.page-section.featured-posts{margin-bottom:0}@media (max-width:991px){.site-footer:after{width:162px;height:214px;background-size:100% 100%;right:-30px;top:-115px}.page-section{margin:0 0 30px}}.archive-title,.woocommerce .entry-title{text-align:center;margin:0 60px 20px;text-transform:none}.archive-title span,.woocommerce .entry-title span{display:block;margin-bottom:25px}@media (max-width:991px){.archive-title,.woocommerce .entry-title{margin:0 0 20px}}.woocommerce .entry-title{margin-bottom:30px}.section-title{text-align:center;margin:0 0 15px}.post-grid{display:flex;flex-flow:row wrap}.post-grid article{text-align:center;flex-grow:0;flex-shrink:0;flex-basis:calc(25% - 15px);margin-bottom:40px}.post-grid article:nth-child(4n-2){margin-left:20px;margin-right:20px}.post-grid article:nth-child(4n-1){margin-right:20px}@media (max-width:650px){#creditslide{padding-bottom:40px}#creditslide .container>*{width:48%}#creditslide .container>*{width:100%;margin-bottom:30px}.post-grid article{flex-basis:calc(50% - 8px);margin-bottom:20px}.post-grid article:nth-child(4n-2){margin-left:0;margin-right:0}.post-grid article:nth-child(4n-1){margin-right:0}.post-grid article:nth-child(2n){margin-left:15px}}.post-grid article a{color:#000}.post-grid article .entry-title{margin:15px 0 0}.post-grid article .entry-categories{margin-top:15px;font-family:URWGeometric,OurArial-Condensed;font-size:12px;line-height:16px;letter-spacing:1.5px;text-transform:uppercase}.post-grid article .entry-categories a{display:inline-block;border-bottom:1px solid #000}.recipe-filter__reset{position:absolute;bottom:0;left:50%;transform:translateX(-50%) translateY(50%)}.recipe-filter__dropdown{flex-basis:32%;padding:0 15px;background-color:#fff;border-bottom:1px solid #bfc0be;border-left:1px solid #bfc0be;position:relative}.recipe-filter__dropdown>span{display:block;cursor:pointer;font-family:URWGeometric,OurArial-Condensed;font-weight:700;font-size:21px;height:50px;line-height:54px;letter-spacing:1.17px;text-transform:uppercase;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/icon-arrow-down.svg') 100% 50% no-repeat}.recipe-filter__dropdown>span.open{background-image:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/icon-arrow-up.svg')}.recipe-filter__dropdown>span.open .recipe-filter__loader{opacity:1}.recipe-filter__dropdown .recipe-filter__loader{transform:scale(.8) translateY(5px);opacity:0}.recipe-filter__dropdown .facetwp-facet{display:none;font-size:18px;position:absolute;width:calc(100% + 1px);padding:0 15px 10px;left:-1px;background-color:#fff;border-left:1px solid #bfc0be;border-bottom:1px solid #bfc0be;z-index:5}.home .image-content.image-left{position:relative}.home .image-content.image-left .image-content__content p{padding-right:30px}.home .image-content.image-left:before{display:block;content:'';width:117px;height:140px;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/section-decor-orange.svg') no-repeat;position:absolute;top:-60px;right:30px;transform:rotate(-10deg)}@media (max-width:991px){.post-grid article .entry-categories{font-size:10px;line-height:13px;letter-spacing:1.25px}.recipe-filter__reset{display:none}.recipe-filter__dropdown{width:100%;padding:0 15px;margin-bottom:15px}.recipe-filter__dropdown>span{font-size:18px;letter-spacing:1px;height:44px;line-height:48px}.home .image-content.image-left:before{display:none}}.home .image-content.image-left:after{display:block;content:'';width:142px;height:203px;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/section-decor-pear.svg') no-repeat;position:absolute;bottom:-95px;left:-70px;transform:rotate(-25deg)}.home .image-content.image-right{position:relative}.home .image-content.image-right .image-content__content{padding-left:100px;padding-right:40px}@media (max-width:991px){.home .image-content.image-left:after{width:95px;height:134px;background-size:100%;bottom:-55px;left:-30px}.home .image-content.image-right .image-content__content{padding-left:35px;padding-right:35px}}.home .image-content.image-right:before{display:block;content:'';width:125px;height:199px;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/section-decor-beet.svg') no-repeat;position:absolute;top:130px;left:-60px;transform:rotate(5deg)}.gallery{margin-bottom:40px;display:grid;grid-gap:10px}.wp-block-embed{margin-left:0;margin-right:0;max-width:100%}.wp-block-embed .wp-block-embed__wrapper{position:relative;padding-top:56.25%}.wp-block-embed:before{content:'';display:block}.wp-block-embed iframe{position:absolute;top:0;right:0;bottom:0;left:0;width:100%;height:100%;max-width:100%}.image-content{margin-bottom:80px}@media (max-width:991px){.home .image-content.image-right:before{width:76px;height:121px;background-size:100%;top:-90px;left:-10px}.image-content{margin-bottom:40px}}.image-content__wrapper{display:flex}.image-content__photo{background-size:cover;background-position:50% 50%}@media (max-width:650px){.image-content__wrapper{flex-direction:column}.image-content__photo{flex:0 auto!important;height:117vw;order:2}}.image-content__content{padding:85px 65px;flex-grow:1;flex-shrink:0}@media (max-width:650px){.image-content__content{padding:45px 35px;font-size:18px;line-height:24px}}.image-content.image-right .image-content__photo{order:2}.video-feature__wrapper{margin-bottom:30px}.video-feature__content{max-width:860px;margin:0 auto;font-size:24px;line-height:32px}.newsletter .gform_wrapper{margin:0!important}.newsletter.newsletter--large{display:flex;padding:50px 70px 50px 100px;background-color:#e9efe2;position:relative}.newsletter.newsletter--large:before{display:block;content:'';width:117px;height:151px;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/section-decor-apple.svg') no-repeat;transform:rotate(-20deg);position:absolute;bottom:-22px;left:-42px;z-index:2}.newsletter.newsletter--large input[type=submit]{background-color:#6c933e}.newsletter.newsletter--large input[type=submit]:focus,.newsletter.newsletter--large input[type=submit]:hover{background-color:#24592b}.newsletter.newsletter--large .newsletter__wrapper{display:flex;align-items:center}.newsletter.newsletter--large .newsletter__book{margin-right:45px}.newsletter.newsletter--large .newsletter__content .newsletter__book{margin-bottom:30px;display:none}.newsletter.newsletter--large .newsletter__heading{font-size:40px;line-height:40px;text-transform:uppercase;font-family:URWGeometric,OurArial-Condensed;margin-bottom:15px}.newsletter.newsletter--large .newsletter__heading span{display:inline-block;font-family:Handelson-Three,serif;font-size:67px;line-height:40px;text-transform:none;font-weight:400;margin-right:5px}@media (max-width:991px){.video-feature__content{font-size:18px;line-height:24px}.newsletter.newsletter--large:before{bottom:32%;left:-48px;transform:rotate(-20deg) scale(.7)}.newsletter.newsletter--large .newsletter__content .newsletter__book{display:block}.newsletter.newsletter--large{padding:25px 20px}.newsletter.newsletter--large .newsletter__wrapper{display:block;text-align:center;margin:0 auto}.newsletter.newsletter--large .newsletter__book{display:none;margin-right:0}.newsletter.newsletter--large .newsletter__heading{font-size:24px;line-height:40px}.newsletter.newsletter--large .newsletter__heading span{font-size:45px}}.newsletter.newsletter--small{padding:35px 55px 35px 200px;background-color:#fbf5e5;font-size:18px;line-height:24px;position:relative}.newsletter.newsletter--small:before{display:block;content:'';width:139px;height:160px;background:url('https://rainbowplantlife.com/wp-content/themes/rpl/_static/images/section-decor-broccoli.svg') no-repeat;position:absolute;left:50px;top:49px}@media (max-width:650px){.newsletter.newsletter--small{margin-top:50px}}.newsletter.newsletter--small .newsletter__content h3,.newsletter.newsletter--small .newsletter__content p{display:inline-block}@media (max-width:991px){.newsletter.newsletter--small:before{width:98px;height:111px;background-size:100%;top:-45px;left:-40px}.newsletter.newsletter--small{padding:20px}.newsletter.newsletter--small .newsletter__content{font-size:16px;line-height:21px;text-align:center}.newsletter.newsletter--small .newsletter__content h3,.newsletter.newsletter--small .newsletter__content p{display:block}}.newsletter.newsletter--small .newsletter__heading{font-size:34px;line-height:40px;text-transform:uppercase;font-family:URWGeometric,OurArial-Condensed;margin-bottom:15px}.newsletter.newsletter--small .newsletter__heading span{display:inline-block;font-family:Handelson-Three,serif;font-size:60px;line-height:40px;text-transform:none;font-weight:400;margin-right:5px}.newsletter .gform_wrapper form,.newsletter form{display:flex;margin:0;justify-content:space-between}.newsletter .gform_wrapper form .gform_fields,.newsletter form .gform_fields{display:flex}.newsletter .gform_wrapper form .gform_fields li.gfield,.newsletter form .gform_fields li.gfield{margin:0 13px 0 0;padding:0;width:100%}.newsletter .gform_wrapper form .gform_fields .ginput_container,.newsletter form .gform_fields .ginput_container{margin:0!important}.newsletter .gform_wrapper form .gform_footer,.newsletter form .gform_footer{padding:0!important;margin:0!important;width:auto}.newsletter .gform_wrapper form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),.newsletter .gform_wrapper form input[type=email],.newsletter .gform_wrapper form input[type=text],.newsletter form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]),.newsletter form input[type=email],.newsletter form input[type=text]{background-color:#fff;font-family:Europa,sans-serif;font-size:18px;color:#000!important;padding:6px 17px 7px;margin:0 13px 0 0;width:100%}.newsletter .gform_wrapper form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file])::placeholder,.newsletter .gform_wrapper form input[type=email]::placeholder,.newsletter .gform_wrapper form input[type=text]::placeholder,.newsletter form input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file])::placeholder,.newsletter form input[type=email]::placeholder,.newsletter form input[type=text]::placeholder{color:#000!important}.newsletter .gform_wrapper form input[type=submit],.newsletter form input[type=submit]{font-size:18px!important;margin:0}.logos__wrapper{display:flex;justify-content:space-between}.logos__wrapper img{height:45px}@media (max-width:1024px){.logos__wrapper{flex-wrap:wrap;justify-content:center}.logos__wrapper img{height:35px;margin:0 10px 20px}}@media (max-width:991px){.newsletter.newsletter--small .newsletter__heading{font-size:24px}.newsletter.newsletter--small .newsletter__heading span{font-size:45px}.newsletter .gform_wrapper form,.newsletter form{display:block}.newsletter .gform_wrapper form input,.newsletter form input{text-align:center;width:100%!important;margin:0 0 10px!important}.newsletter .gform_wrapper form .gform_fields,.newsletter form .gform_fields{display:block}.newsletter .gform_wrapper form .gform_fields li.gfield,.newsletter form .gform_fields li.gfield{margin:0}.logos__wrapper img{height:25px;margin:0 10px 20px}}#menu-main-menu .sub-menu,#menu-mobile-menu .sub-menu{min-width:250px}#menu-main-menu .sub-menu li,#menu-mobile-menu .sub-menu li{display:block}p.date{margin-bottom:0}:root{--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem)}:root{--global-palette1:#3182CE;--global-palette2:#2B6CB0;--global-palette3:#1A202C;--global-palette4:#2D3748;--global-palette5:#4A5568;--global-palette6:#718096;--global-palette7:#EDF2F7;--global-palette8:#F7FAFC;--global-palette9:#ffffff}body{--comment-rating-star-color:#000000}body{--wprm-popup-font-size:16px}body{--wprm-popup-background:#ffffff}body{--wprm-popup-title:#000000}body{--wprm-popup-content:#444444}body{--wprm-popup-button-background:#444444}body{--wprm-popup-button-text:#ffffff}@media screen and (max-width:767px){body .logo img{height:57px}header{min-height:107px!important}.container{padding:0 20px!important}}ul#menu-main-menu a[href*=web-stories]{display:none}.home h1.archive-title{display:none}.logo img{height:122px;width:100%}.logo{max-width:35%}header img.social-icon{max-width:16px;height:100%;width:100%}.footer-social img{max-width:25px;width:100%;height:100%}.site-footer .footer-extra-links a:not(:last-child){margin-right:15px}.footer-extra-links{margin-top:10px}@media only screen and (min-width:992px){.aside{min-width:300px}}#creditslide{bottom:-360px}@media screen and (max-width:991px){.logo{max-width:60%}.home h3.entry-title{font-size:20px;line-height:1.1}}#header-wrapper{padding:30px 0 0}@media screen and (min-width:991px){#header-wrapper{padding:20px 0 10px}}.logo img{height:122px}body .perfmatters-lazy-css-bg:not([data-ll-status=entered]),body .perfmatters-lazy-css-bg:not([data-ll-status=entered]) *,body .perfmatters-lazy-css-bg:not([data-ll-status=entered])::after,body .perfmatters-lazy-css-bg:not([data-ll-status=entered])::before{background-image:none!important;will-change:transform;transition:opacity 25ms ease-in,transform 25ms ease-in!important}.adthrive-device-phone .adthrive-sticky-content{height:450px!important;margin-bottom:100px!important}.adthrive-sticky-container{position:relative;display:flex;flex-direction:column;justify-content:flex-start;align-items:center;min-height:250px!important;margin:10px 0;background-color:#fafafa;padding-bottom:0}.gform_legacy_markup_wrapper{margin-bottom:16px;margin-top:16px;max-width:100%}.gform_legacy_markup_wrapper form{text-align:left;max-width:100%;margin:0 auto}.gform_legacy_markup_wrapper *,.gform_legacy_markup_wrapper :after,.gform_legacy_markup_wrapper :before{box-sizing:border-box!important}.gform_legacy_markup_wrapper h1,.gform_legacy_markup_wrapper h2,.gform_legacy_markup_wrapper h3{font-weight:400;border:none;background:0 0}.gform_legacy_markup_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){font-size:inherit;font-family:inherit;padding:5px 4px;letter-spacing:normal}.gform_legacy_markup_wrapper input[type=image]{border:none!important;padding:0!important;width:auto!important}.gform_legacy_markup_wrapper textarea{font-size:inherit;font-family:inherit;letter-spacing:normal;padding:6px 8px;line-height:1.5;resize:none}.gform_legacy_markup_wrapper select{line-height:1.5}.gform_legacy_markup_wrapper ul.gform_fields{margin:0!important;list-style-type:none;display:block}.gform_legacy_markup_wrapper ul,html>body .entry ul{text-indent:0}.gform_legacy_markup_wrapper form li,.gform_legacy_markup_wrapper li{margin-left:0!important;list-style-type:none!important;list-style-image:none!important;list-style:none!important;overflow:visible}.gform_legacy_markup_wrapper ul li.gfield{clear:both}.gform_legacy_markup_wrapper ul li:after,.gform_legacy_markup_wrapper ul li:before,.gform_legacy_markup_wrapper ul.gform_fields{padding:0;margin:0;overflow:visible}.gform_legacy_markup_wrapper select{font-size:inherit;font-family:inherit;letter-spacing:normal}.gform_legacy_markup_wrapper select option{padding:2px;display:block}.gform_legacy_markup_wrapper .inline{display:inline!important}.gform_legacy_markup_wrapper label.gfield_label,.gform_legacy_markup_wrapper legend.gfield_label{font-weight:700;font-size:inherit}.gform_legacy_markup_wrapper .top_label .gfield_label,.gform_legacy_markup_wrapper legend.gfield_label{display:-moz-inline-stack;display:inline-block;line-height:1.3;clear:both}body .gform_legacy_markup_wrapper .top_label div.ginput_container{margin-top:8px}.gform_legacy_markup_wrapper .hidden_label .gfield_label{clip:rect(1px,1px,1px,1px);position:absolute!important;height:1px;width:1px;overflow:hidden}.gform_legacy_markup_wrapper li.hidden_label input{margin-top:12px}.gform_legacy_markup_wrapper input.medium,.gform_legacy_markup_wrapper select.medium{width:100%}.gform_legacy_markup_wrapper textarea.medium{height:120px;width:100%}.gform_legacy_markup_wrapper .description{font-size:.813em;line-height:inherit;clear:both;font-family:inherit;letter-spacing:normal}.gform_legacy_markup_wrapper .description{padding:0 16px 0 0}.gform_legacy_markup_wrapper .gfield_required{color:#790000;margin-left:4px}.gform_legacy_markup_wrapper div#error{margin-bottom:25px}.gform_legacy_markup_wrapper li.gfield fieldset{margin:0;padding:0;display:block;position:relative;width:100%}.gform_legacy_markup_wrapper li.gfield fieldset>*{width:auto}.gform_legacy_markup_wrapper li.gfield fieldset legend.gfield_label{width:100%;line-height:32px}.gform_legacy_markup_wrapper .gform_footer{padding:16px 0 10px;margin:16px 0 0;clear:both;width:100%}.gform_legacy_markup_wrapper .gform_footer input.button,.gform_legacy_markup_wrapper .gform_footer input[type=submit]{font-size:1em;width:100%;margin:0 0 16px}.gform_legacy_markup_wrapper .gform_footer input[type=image]{padding:0;width:auto!important;background:0 0!important;border:none!important;margin:0 auto 16px!important;display:block;max-width:100%}.gform_legacy_markup_wrapper .gform_hidden,.gform_legacy_markup_wrapper input.gform_hidden,.gform_legacy_markup_wrapper input[type=hidden]{display:none!important;max-height:1px!important;overflow:hidden}body .gform_legacy_markup_wrapper ul li.gfield{margin-top:16px;padding-top:0}@media only screen and (max-width:641px){.gform_legacy_markup_wrapper input:not([type=radio]):not([type=checkbox]):not([type=image]):not([type=file]){line-height:2;min-height:2rem}.gform_legacy_markup_wrapper textarea{line-height:1.5}.gform_legacy_markup_wrapper .ginput_container span:not(.ginput_price){margin-bottom:8px;display:block}}@media only screen and (min-width:641px){.gform_legacy_markup_wrapper .gform_body{width:100%}.gform_legacy_markup_wrapper ul.gform_fields:not(.top_label) .gfield_label{float:left;width:29%;padding-right:16px;margin-bottom:16px}.gform_legacy_markup_wrapper .top_label input.medium,.gform_legacy_markup_wrapper .top_label select.medium{width:calc(50% - 8px)}.gform_legacy_markup_wrapper textarea.medium{height:160px;width:100%}.gform_legacy_markup_wrapper .gform_footer input.button,.gform_legacy_markup_wrapper .gform_footer input[type=image],.gform_legacy_markup_wrapper .gform_footer input[type=submit]{display:-moz-inline-stack;display:inline-block}.gform_legacy_markup_wrapper .gform_footer input[type=image]{vertical-align:middle}.gform_legacy_markup_wrapper .gform_footer input.button,.gform_legacy_markup_wrapper .gform_footer input[type=submit]{font-size:1em;width:auto;margin:0 16px 0 0}.gform_legacy_markup_wrapper ul.gform_fields li.gfield{padding-right:16px}.gform_legacy_markup_wrapper .gform_footer:not(.top_label){padding:16px 0 10px;margin-left:29%;width:70%}html:not([dir=rtl]) .gform_legacy_markup_wrapper ul.gform_fields:not(.top_label) .ginput_container:not(.ginput_container_time):not(.ginput_container_date){width:70%;margin-left:29%}}.gform_legacy_markup_wrapper.gf_browser_chrome select{padding:2px 0 2px 3px}.entry .gform_legacy_markup_wrapper.gf_browser_chrome ul li:after,.entry .gform_legacy_markup_wrapper.gf_browser_chrome ul li:before,.gform_legacy_markup_wrapper.gf_browser_chrome ul li:after,.gform_legacy_markup_wrapper.gf_browser_chrome ul li:before{content:none}.gform_legacy_markup_wrapper.gf_browser_chrome ul.gform_fields li.gfield select{margin-left:1px}.gform_legacy_markup_wrapper.gf_browser_chrome ul.gform_fields li.gfield input[type=radio]{margin-left:1px}.gform_legacy_markup_wrapper.gf_browser_chrome select[multiple=multiple]{height:auto!important}</style>
 	<meta name="description" content="Rainbow Plant Life is a vegan food and lifestyle website that features wildly flavorful recipes that will please vegans and non-vegans alike." />
 	<link rel="canonical" href="https://rainbowplantlife.com/" />
 	<meta property="og:locale" content="en_US" />
@@ -106,7 +71,7 @@ margin-bottom: 20px!important;
 	<meta property="og:url" content="https://rainbowplantlife.com/" />
 	<meta property="og:site_name" content="Rainbow Plant Life" />
 	<meta property="article:publisher" content="https://www.facebook.com/rainbowplantlife" />
-	<meta property="article:modified_time" content="2024-04-25T18:11:16+00:00" />
+	<meta property="article:modified_time" content="2024-04-25T18:11:18+00:00" />
 	<meta property="og:image" content="https://rainbowplantlife.com/wp-content/uploads/2021/09/updated-naan-photo-for-cover-image-1-of-1-1.jpg" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="1500" />
@@ -114,7 +79,7 @@ margin-bottom: 20px!important;
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="twitter:title" content="Rainbow Plant Life - Outstanding Vegan Recipes" />
 	<meta name="twitter:description" content="Rainbow Plant Life is a vegan food and lifestyle website that features wildly flavorful recipes that will please vegans and non-vegans alike." />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://rainbowplantlife.com/","url":"https://rainbowplantlife.com/","name":"Outstanding Vegan Recipes | Rainbow Plant Life","isPartOf":{"@id":"https://rainbowplantlife.com/#website"},"about":{"@id":"https://rainbowplantlife.com/#organization"},"datePublished":"2020-09-16T17:50:45+00:00","dateModified":"2024-04-25T18:11:16+00:00","description":"Rainbow Plant Life is a vegan food and lifestyle website that features wildly flavorful recipes that will please vegans and non-vegans alike.","breadcrumb":{"@id":"https://rainbowplantlife.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://rainbowplantlife.com/"]}]},{"@type":"BreadcrumbList","@id":"https://rainbowplantlife.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Outstanding Vegan Recipes"}]},{"@type":"WebSite","@id":"https://rainbowplantlife.com/#website","url":"https://rainbowplantlife.com/","name":"Rainbow Plant Life","description":"Master vegan cooking at home.","publisher":{"@id":"https://rainbowplantlife.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://rainbowplantlife.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://rainbowplantlife.com/#organization","name":"Rainbow Plant Life","url":"https://rainbowplantlife.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://rainbowplantlife.com/#/schema/logo/image/","url":"https://rainbowplantlife.com/wp-content/uploads/2021/08/RPL-Logo-SQUARE.png","contentUrl":"https://rainbowplantlife.com/wp-content/uploads/2021/08/RPL-Logo-SQUARE.png","width":453,"height":453,"caption":"Rainbow Plant Life"},"image":{"@id":"https://rainbowplantlife.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/rainbowplantlife","https://www.instagram.com/rainbowplantlife/","https://pinterest.com/rainbowplantlife/","https://www.youtube.com/channel/UCDbZvuDA_tZ6XP5wKKFuemQ"]}]}</script>
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://rainbowplantlife.com/","url":"https://rainbowplantlife.com/","name":"Outstanding Vegan Recipes | Rainbow Plant Life","isPartOf":{"@id":"https://rainbowplantlife.com/#website"},"about":{"@id":"https://rainbowplantlife.com/#organization"},"datePublished":"2020-09-16T17:50:45+00:00","dateModified":"2024-04-25T18:11:18+00:00","description":"Rainbow Plant Life is a vegan food and lifestyle website that features wildly flavorful recipes that will please vegans and non-vegans alike.","breadcrumb":{"@id":"https://rainbowplantlife.com/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://rainbowplantlife.com/"]}]},{"@type":"BreadcrumbList","@id":"https://rainbowplantlife.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Outstanding Vegan Recipes"}]},{"@type":"WebSite","@id":"https://rainbowplantlife.com/#website","url":"https://rainbowplantlife.com/","name":"Rainbow Plant Life","description":"Master vegan cooking at home.","publisher":{"@id":"https://rainbowplantlife.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://rainbowplantlife.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://rainbowplantlife.com/#organization","name":"Rainbow Plant Life","url":"https://rainbowplantlife.com/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://rainbowplantlife.com/#/schema/logo/image/","url":"https://rainbowplantlife.com/wp-content/uploads/2021/08/RPL-Logo-SQUARE.png","contentUrl":"https://rainbowplantlife.com/wp-content/uploads/2021/08/RPL-Logo-SQUARE.png","width":453,"height":453,"caption":"Rainbow Plant Life"},"image":{"@id":"https://rainbowplantlife.com/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/rainbowplantlife","https://www.instagram.com/rainbowplantlife/","https://pinterest.com/rainbowplantlife/","https://www.youtube.com/channel/UCDbZvuDA_tZ6XP5wKKFuemQ"]}]}</script>
 	<meta name="google-site-verification" content="0m8IBv8DmoYmNbb3VmhQDWIT_Y1lhxBWOI9g4s0KSd8" />
 	<!-- / Yoast SEO Premium plugin. -->
 
@@ -122,32 +87,24 @@ margin-bottom: 20px!important;
 <link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />
 <link rel='dns-prefetch' href='//cdn.jsdelivr.net' />
 
-<link rel="stylesheet" href="https://use.typekit.net/hpc4fxw.css"><link rel="alternate" type="application/rss+xml" title="Rainbow Plant Life &raquo; Stories Feed" href="https://rainbowplantlife.com/web-stories/feed/"><!-- rainbowplantlife.com is managing ads with Advanced Ads 1.52.1 --><!--noptimize--><script id="rainb-ready" type="pmdelayedscript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">
+<link rel="alternate" type="application/rss+xml" title="Rainbow Plant Life &raquo; Stories Feed" href="https://rainbowplantlife.com/web-stories/feed/"><!-- rainbowplantlife.com is managing ads with Advanced Ads 1.52.1 --><!--noptimize--><script id="rainb-ready" type="pmdelayedscript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">
 			window.advanced_ads_ready=function(e,a){a=a||"complete";var d=function(e){return"interactive"===a?"loading"!==e:"complete"===e};d(document.readyState)?e():document.addEventListener("readystatechange",(function(a){d(a.target.readyState)&&e()}),{once:"interactive"===a})},window.advanced_ads_ready_queue=window.advanced_ads_ready_queue||[];		</script>
-		<!--/noptimize--><link rel='stylesheet' id='wprm-public-css' href='https://rainbowplantlife.com/wp-content/plugins/wp-recipe-maker/dist/public-modern.css?ver=9.3.1-b-modified-1712085271' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-block-library-css' href='https://rainbowplantlife.com/wp-includes/css/dist/block-library/style.min.css?ver=6.5.2' type='text/css' media='all' />
-<style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
-.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}
+		<!--/noptimize-->
 
-</style>
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-</style>
-<link rel='stylesheet' id='arve-main-css' href='https://rainbowplantlife.com/wp-content/plugins/advanced-responsive-video-embedder/build/main.css?ver=65e39613de04e27403b1-b-modified-1712085192' type='text/css' media='all' />
-<link rel='stylesheet' id='arve-pro-css' href='https://rainbowplantlife.com/wp-content/plugins/arve-pro/build/main.css?ver=1c38def9e648dd1a889b-b-modified-1709576005' type='text/css' media='all' />
-<link rel='stylesheet' id='YSFA-css' href='https://rainbowplantlife.com/wp-content/plugins/faq-schema-block-to-accordion/assets/css/style.min.css?ver=1.0.5-b-modified-1680635734' type='text/css' media='all' />
-<link rel='stylesheet' id='novashare-css-css' href='https://rainbowplantlife.com/wp-content/plugins/novashare/css/style.min.css?ver=1.4.9-b-modified-1712684725' type='text/css' media='all' />
-<link rel='stylesheet' id='rpl-numbered-list-block-patterns-css' href='https://rainbowplantlife.com/wp-content/plugins/rpl-numbered-list-block-patterns/public/css/rpl-numbered-list-block-patterns-public.css?ver=1.0.0-b-modified-1663338091' type='text/css' media='all' />
-<link rel='stylesheet' id='rpl-site-changes-css' href='https://rainbowplantlife.com/wp-content/plugins/rpl-site-changes/public/css/rpl-site-changes-public.css?ver=1.0.6-b-modified-1705135248' type='text/css' media='all' />
-<link rel='stylesheet' id='stcr-style-css' href='https://rainbowplantlife.com/wp-content/plugins/subscribe-to-comments-reloaded/includes/css/stcr-style.css?ver=-b-modified-1706030544' type='text/css' media='all' />
-<link rel='stylesheet' id='wprmp-public-css' href='https://rainbowplantlife.com/wp-content/plugins/wp-recipe-maker-premium/dist/public-pro.css?ver=9.3.1-b-modified-1712085288' type='text/css' media='all' />
-<link rel='stylesheet' id='normalize-css' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css?ver=7.0.0' type='text/css' media='all' />
-<link rel='stylesheet' id='stylesheet-css' href='https://rainbowplantlife.com/wp-content/themes/rpl/style.css?b-modified=1675271244&#038;ver=1' type='text/css' media='all' />
-<link rel='stylesheet' id='vanilla-styles-css' href='https://rainbowplantlife.com/wp-content/themes/rpl/vanilla-style.css?ver=1-b-modified-1620849176' type='text/css' media='all' />
-<style id='kadence-blocks-global-variables-inline-css' type='text/css'>
-:root {--global-kb-font-size-sm:clamp(0.8rem, 0.73rem + 0.217vw, 0.9rem);--global-kb-font-size-md:clamp(1.1rem, 0.995rem + 0.326vw, 1.25rem);--global-kb-font-size-lg:clamp(1.75rem, 1.576rem + 0.543vw, 2rem);--global-kb-font-size-xl:clamp(2.25rem, 1.728rem + 1.63vw, 3rem);--global-kb-font-size-xxl:clamp(2.5rem, 1.456rem + 3.26vw, 4rem);--global-kb-font-size-xxxl:clamp(2.75rem, 0.489rem + 7.065vw, 6rem);}:root {--global-palette1: #3182CE;--global-palette2: #2B6CB0;--global-palette3: #1A202C;--global-palette4: #2D3748;--global-palette5: #4A5568;--global-palette6: #718096;--global-palette7: #EDF2F7;--global-palette8: #F7FAFC;--global-palette9: #ffffff;}
-</style>
+<style id='safe-svg-svg-icon-style-inline-css' type='text/css'></style>
+<style id='classic-theme-styles-inline-css' type='text/css'></style>
+
+
+
+
+
+
+
+
+
+
+
+<style id='kadence-blocks-global-variables-inline-css' type='text/css'></style>
 <script type="text/javascript" src="https://rainbowplantlife.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script type="text/javascript" src="https://rainbowplantlife.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer></script>
 <script type="pmdelayedscript" src="https://rainbowplantlife.com/wp-content/plugins/rpl-site-changes/public/js/rpl-site-changes-public.js?ver=1.0.6-b-modified-1704274503" id="rpl-site-changes-js" data-perfmatters-type="text/javascript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1"></script>
@@ -186,7 +143,7 @@ var aa_loadmore_params = {"ajaxurl":"https:\/\/rainbowplantlife.com\/wp-admin\/a
 				})(window, document, "clarity", "script", "kd25njxaeq");
 		</script>
 		
-<!-- [slickstream] Page Generated at: 4/25/2024, 6:11:18 PM UTC -->
+<!-- [slickstream] Page Generated at: 4/26/2024, 10:13:19 AM UTC -->
 <!-- [slickstream] Using cached page boot data: slick_page_boot_4bb74f54260262c1cfc985825b00ddd9 -->
 <!-- [slickstream] Page Boot Data: -->
 <script class='slickstream-script'>
@@ -194,7 +151,7 @@ var aa_loadmore_params = {"ajaxurl":"https:\/\/rainbowplantlife.com\/wp-admin\/a
     "slickstream";
     const win = window;
     win.$slickBoot = win.$slickBoot || {};
-    win.$slickBoot.d = {"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714069048303,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05,"v2":{"phone":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714069048303,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05},"tablet":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714069048303,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05},"desktop":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714069048303,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05},"unknown":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714069048303,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.84\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05}}};
+    win.$slickBoot.d = {"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714127128478,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05,"v2":{"phone":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714127128478,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05},"tablet":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714127128478,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05},"desktop":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714127128478,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05},"unknown":{"placeholders":[],"bootTriggerTimeout":250,"bestBy":1714127128478,"epoch":1712945110630,"siteCode":"U3TBUR4Q","services":{"engagementCacheableApiDomain":"https:\/\/c01f.app.slickstream.com\/","engagementNonCacheableApiDomain":"https:\/\/c01b.app.slickstream.com\/","engagementResourcesDomain":"https:\/\/c01f.app.slickstream.com\/","storyCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyNonCacheableApiDomain":"https:\/\/stories.slickstream.com\/","storyResourcesDomain":"https:\/\/stories.slickstream.com\/","websocketUri":"wss:\/\/c01b-wss.app.slickstream.com\/socket?site=U3TBUR4Q"},"bootUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/boot-loader.js","appUrl":"https:\/\/c.slickstream.com\/app\/2.13.85\/app.js","adminUrl":"","allowList":["rainbowplantlife.com"],"abTests":[{"_id":"661ed0c1707a16fbce5e07a6","id":"2bd4fe2d-48a4-4082-b64c-09de9a45e998","type":"feature-switches","feature":"email-capture","fraction":25,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553093,"updatedAt":1713295553093,"devices":["desktop","phone"]},{"_id":"661ed0c186c5449696fea953","id":"7fe6c1f9-1ef9-4191-bce1-05481d0f54d5","type":"feature-switches","feature":"heart-fluttering","fraction":90,"startDate":1713333600000,"endDate":1714111200000,"includeSites":null,"excludeSites":["R5MAV0Z7","H0C6SBKF","9J3AXZ8B","UGS2VGHL","9LUFT7H6","TH98WLES","UTESX23V","VWHMMQZH","J9LCGELD","KBPNSKP5","LXTCTVZR","MR6141R5","H5PR7HJQ","188YWALQ","8EL02J60","MZ02ZNGF","NS6YK5H7","TPDSH95N","L8EAVD26","QCZ3H7Z7","L9LWDWR9","VUWHN67V","L7T65V6E","2M100P02","717PL89C","MK33XNMR","03XXE0QN","6DNFWRY3","P49MPDD8","QQ2GT249","F9T6P4AS","HG1JRBRE","JA1YSFU7","KWC2J25C","YWZPSMNX","6ERGB664","TRF11T5M","APWM5SG8","UEZP9P70","BX1S81NB","YNW7K84Q","KSMD07P2","TUKDXTE5","A5PEEJV7","VVLCUEGX","H45AS4KF","7NL4ZU6P","A3N6MZ45","03W1KUFU","RL5Q09CR","HJGYF938","CZL2W79Z","0AZMTWJJ","8BB5593U","PYQK73ZF","MGD9RQF2","UM5PVDTR","KWGH5P0M","YTTURXH1","M4RA4P87","PWBR5SR0","MAR7TZHH","HLGNPQ2Z","FQ1PDT4Z","1UKE2G1S","MY8VYZB5","6ZXSY5UT","TX0RQ5ZZ","1FMA936N","9ED5GMCM","HC3E36C0","ASFHPXBJ","6RXV2XQ4","ZCCPQJ62","89B7Z58W","LHA4XEV3","UELT7CLV","482DFTZQ","EVRZF23V","CPTHKD1B","29T7AWS6","CYCBEYZM","NW41N695","5520822S","M69FLGY8","7YPPXP8Z","0PG5A2ZU","Z3CL4E5J"],"addedAt":1713295553237,"updatedAt":1713295553237,"devices":["desktop","phone"]}],"prebidSamplingRate":0.05}}};
     win.$slickBoot.s = 'plugin';
     win.$slickBoot._bd = performance.now();
 })();
@@ -211,7 +168,7 @@ var aa_loadmore_params = {"ajaxurl":"https:\/\/rainbowplantlife.com\/wp-admin\/a
 <!-- [slickstream] END Bootloader -->
 <!-- [slickstream] Page Metadata: -->
 <meta property="slick:wppostid" content="70" />
-<script type="application/x-slickstream+json">{"@context":"https://slickstream.com","@graph":[{"@type":"Plugin","version":"1.4.3"},{"@type":"Site","name":"Rainbow Plant Life","url":"https://rainbowplantlife.com","description":"Master vegan cooking at home.","atomUrl":"https://rainbowplantlife.com/feed/atom/","rtl":false},{"@type":"WebPage","@id":70,"isFront":true,"isHome":false,"isCategory":false,"isTag":false,"isSingular":true,"date":"2020-09-16T17:50:45+00:00","modified":"2024-04-25T18:11:16+00:00","title":"Outstanding Vegan Recipes","pageType":"home","postType":"page","author":"Nisha","taxonomies":[]}]}</script>
+<script type="application/x-slickstream+json">{"@context":"https://slickstream.com","@graph":[{"@type":"Plugin","version":"1.4.3"},{"@type":"Site","name":"Rainbow Plant Life","url":"https://rainbowplantlife.com","description":"Master vegan cooking at home.","atomUrl":"https://rainbowplantlife.com/feed/atom/","rtl":false},{"@type":"WebPage","@id":70,"isFront":true,"isHome":false,"isCategory":false,"isTag":false,"isSingular":true,"date":"2020-09-16T17:50:45+00:00","modified":"2024-04-25T18:11:18+00:00","title":"Outstanding Vegan Recipes","pageType":"home","postType":"page","author":"Nisha","taxonomies":[]}]}</script>
 <!-- [slickstream] END Page Metadata -->
 <script class='slickstream-script'>
 (function() {
@@ -221,258 +178,7 @@ var aa_loadmore_params = {"ajaxurl":"https:\/\/rainbowplantlife.com\/wp-admin\/a
         console.warn('[slickstream] WARNING: WP-Rocket is deferring one or more Slickstream scripts. This may cause undesirable behavior, such as increased CLS scores.');
     }
 })();
-</script><style type="text/css"> .tippy-box[data-theme~="wprm"] { background-color: #333333; color: #FFFFFF; } .tippy-box[data-theme~="wprm"][data-placement^="top"] > .tippy-arrow::before { border-top-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="bottom"] > .tippy-arrow::before { border-bottom-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="left"] > .tippy-arrow::before { border-left-color: #333333; } .tippy-box[data-theme~="wprm"][data-placement^="right"] > .tippy-arrow::before { border-right-color: #333333; } .tippy-box[data-theme~="wprm"] a { color: #FFFFFF; } .wprm-comment-rating svg { width: 26px !important; height: 26px !important; } img.wprm-comment-rating { width: 130px !important; height: 26px !important; } body { --comment-rating-star-color: #000000; } body { --wprm-popup-font-size: 16px; } body { --wprm-popup-background: #ffffff; } body { --wprm-popup-title: #000000; } body { --wprm-popup-content: #444444; } body { --wprm-popup-button-background: #444444; } body { --wprm-popup-button-text: #ffffff; }</style><style type="text/css">.wprm-glossary-term {color: #5A822B;text-decoration: underline;cursor: help;}</style><style type="text/css">.wprm-recipe-template-snippet-rpl {
-    font-family: inherit; /*wprm_font_family type=font*/
-    font-size: 1em; /*wprm_font_size type=font_size*/
-    text-align: left; /*wprm_text_align type=align*/
-    margin-top: 0px; /*wprm_margin_top type=size*/
-    margin-bottom: 15px; /*wprm_margin_bottom type=size*/
-}
-
-.wprm-recipe-template-snippet-rpl p.wprm-text.wprm-block-text-normal {
-    font-size: 11px;
-    font-family: "URWGeometric", serif;
-    letter-spacing: 1.5px;
-    line-height: 21px;
-}
-
-.wprm-recipe-template-snippet-rpl .wprm-recipe-rating .wprm-rating-star.wprm-rating-star-full svg * {
-	fill: #f28320;
-}
-
-.wprm-recipe-template-snippet-rpl .wprm-recipe .wprm-recipe-rating .wprm-recipe-rating-details {
-    margin-top: 0;
-    letter-spacing: 1.5px;
-    font-size: 12px;
-    margin-left: 0;
-}
-
-.entry-header .wprm-recipe .wprm-recipe-rating .wprm-recipe-rating-details {
-	display: block;
-    margin-left: 0;
-    font-family: "URWGeometric", serif;
-}
-
-.entry-header .wprm-recipe .wprm-recipe-rating {
-	margin-top: 0;
-}
-
-.wprm-recipe-template-snippet-rpl .wprm-recipe .wprm-recipe-rating {
-	margin-top: 0;
-}
-
-.wprm-recipe-template-snippet-rpl .wprm-recipe-rating svg {
-	width: 1em;
-    height: 1em;
-}
-
-.top-third-star-ratings {
-	padding-top: 10px;
-}
-
-@media (min-width: 1025px){
-	.wprm-recipe-template-snippet-rpl p.wprm-text.wprm-block-text-normal {
-    	font-size: 16px;
-        padding-top: 0;
-    }
-    
-    .entry-header .wprm-recipe-rating-details.wprm-block-text-normal {
-     	font-size: 16px;
-	}
-    
-    .top-third-wrapper {
-    	display: flex;
-    }
-    
-    .entry-header .wprm-recipe-meta-container {
-    	flex-basis: initial !important;
-    }
-    
-    .top-third-star-ratings {
-    	margin-top: 30px;
-        padding-top: 0;
-        margin-bottom: 15px;
-        border-left: 1px solid #000000;
-        padding-left: 15px;
-    }
-    
-    .entry-header .wprm-recipe-meta-container {
-    	flex-wrap: nowrap;
-    }
-    
-    .entry-header .wprm-recipe-block-container.wprm-recipe-block-container-inline.wprm-block-text-normal.wprm-recipe-time-container.wprm-recipe-custom-time-container {
-		border-right: 1px solid #000000;
-		padding-right: 15px;
-	}
-    
-    .entry-header {
-    	flex-wrap: nowrap;
-    }
-
-}.wprm-recipe-template-rainbow-plant-life-v2 {
-    margin: 20px auto;
-    background-color: #faf5e7; /*wprm_background type=color*/
-    font-family: inherit; /*wprm_main_font_family type=font*/
-    font-size: 18px; /*wprm_main_font_size type=font_size*/
-    line-height: 30px; /*wprm_main_line_height type=font_size*/
-    color: #000000; /*wprm_main_text type=color*/
-    max-width: 780px; /*wprm_max_width type=size*/
-    padding: 40px 50px !important;
-}
-.wprm-recipe-template-rainbow-plant-life-v2 a {
-    color: #c21d6b; /*wprm_link type=color*/
-}
-.wprm-recipe-template-rainbow-plant-life-v2 p, .wprm-recipe-template-rainbow-plant-life-v2 li {
-    font-family: inherit; /*wprm_main_font_family type=font*/
-    font-size: 1em !important;
-    line-height: 30px; /*wprm_main_line_height type=font_size*/
-}
-.wprm-recipe-template-rainbow-plant-life-v2 li {
-    margin: 0 0 0 32px !important;
-    padding: 0 !important;
-}
-
-.wprm-recipe .wprm-recipe-instructions li {
-margin: 0 0 0 32px !important
-}
-.rtl .wprm-recipe-template-rainbow-plant-life-v2 li {
-    margin: 0 32px 0 0 !important;
-}
-.wprm-recipe-template-rainbow-plant-life-v2 ol, .wprm-recipe-template-rainbow-plant-life-v2 ul {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-.wprm-recipe-template-rainbow-plant-life-v2 br {
-    display: none;
-}
-.wprm-recipe-template-rainbow-plant-life-v2 .wprm-recipe-name,
-.wprm-recipe-template-rainbow-plant-life-v2 .wprm-recipe-header {
-    font-family: URWGeometric; /*wprm_header_font_family type=font*/
-    color: #000000; /*wprm_header_text type=color*/
-    line-height: 1.1em; /*wprm_header_line_height type=font_size*/
-}
-.wprm-recipe-template-rainbow-plant-life-v2 h1,
-.wprm-recipe-template-rainbow-plant-life-v2 h2,
-.wprm-recipe-template-rainbow-plant-life-v2 h3,
-.wprm-recipe-template-rainbow-plant-life-v2 h4,
-.wprm-recipe-template-rainbow-plant-life-v2 h5,
-.wprm-recipe-template-rainbow-plant-life-v2 h6 {
-    font-family: URWGeometric; /*wprm_header_font_family type=font*/
-    color: #000000; /*wprm_header_text type=color*/
-    line-height: 1.1em; /*wprm_header_line_height type=font_size*/
-    margin: 0 !important;
-    padding: 0 !important;
-}
-.wprm-recipe-template-rainbow-plant-life-v2 .wprm-recipe-header {
-    margin-top: 1.2em !important;
-}
-.wprm-recipe-template-rainbow-plant-life-v2 h1 {
-    font-size: 48px; /*wprm_h1_size type=font_size*/
-}
-.wprm-recipe-template-rainbow-plant-life-v2 h2 {
-    font-size: 48px; /*wprm_h2_size type=font_size*/
-}
-.wprm-recipe-template-rainbow-plant-life-v2 h3 {
-    font-size: 32px; /*wprm_h3_size type=font_size*/
-}
-.wprm-recipe-template-rainbow-plant-life-v2 h4 {
-    font-size: 16px; /*wprm_h4_size type=font_size*/
-}
-.wprm-recipe-template-rainbow-plant-life-v2 h5 {
-    font-size: 16px; /*wprm_h5_size type=font_size*/
-}
-.wprm-recipe-template-rainbow-plant-life-v2 h6 {
-    font-size: 16px; /*wprm_h6_size type=font_size*/
-}.wprm-recipe-template-rainbow-plant-life-v2 {
-	border-style: solid; /*wprm_border_style type=border*/
-	border-width: 0px; /*wprm_border_width type=size*/
-	border-color: #faf5e7; /*wprm_border type=color*/
-	border-radius: 0px; /*wprm_border_radius type=size*/
-	padding: 10px;
-}
-
-ul.wprm-advanced-list li:before {
-margin-top: 4px; 
-}
-
-.wprm-nutrition-label-container {font-size: .8em; }
-
-
-.wprm-recipe-template-rainbow-plant-life-v2 .wrap-collabsible {
-  margin-bottom: 1.2rem 0;
-}
-
-.wprm-recipe-template-rainbow-plant-life-v2 input[type='checkbox'] {
-  display: none;
-}
-
-.wprm-recipe-template-rainbow-plant-life-v2 .lbl-toggle {
-  display: block;
-  text-align: left;
-  padding: 0;
-  cursor: pointer;
-  border-radius: 7px;
-  transition: max-height 0.25s ease-out;
-}
-
-.wprm-recipe-template-rainbow-plant-life-v2 .lbl-toggle:hover {
-  color: #c21d6b;
-}
-
-.wprm-recipe-template-rainbow-plant-life-v2 .lbl-toggle::before {
-  content: ' ';
-  display: inline-block;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 5px solid currentColor;
-  vertical-align: middle;
-  margin-right: .7rem;
-  transform: translateY(-2px);
-  transition: transform .1s ease-out;
-}
-
-.wprm-recipe-template-rainbow-plant-life-v2 .toggle:checked + .lbl-toggle::before {
-  transform: rotate(90deg) translateX(-3px);
-}
-
-.wprm-recipe-template-rainbow-plant-life-v2 .collapsible-content {
-  max-height: 0px;
-  overflow: hidden;
-  transition: max-height .25s ease-in-out;
-}
-
-.wprm-recipe-template-rainbow-plant-life-v2 .toggle:checked + .lbl-toggle + .collapsible-content {
-  max-height: 100vh;
-}
-
-.wprm-recipe-template-rainbow-plant-life-v2 .toggle:checked + .lbl-toggle {
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.wprm-recipe-template-rainbow-plant-life-v2 .collapsible-content .content-inner {
-  padding: 0;
-}
-
-
-body .wprm-checkbox-container label::before {
-    margin-top: 4px  !important;
-}
-
-.wprm-recipe-equipment li .wprm-checkbox-container, .wprm-recipe-ingredients li .wprm-checkbox-container, .wprm-recipe-instructions li .wprm-checkbox-container {
-    left: -14px  !important;
-}
-
-body .wprm-recipe .wprm-recipe-ingredients li {
-    margin-left: 32px !important;
-}
-
-@media screen and (max-width:767px) {
-   body .wprm-recipe-template-rainbow-plant-life-v2 {
-        padding-left: 20px !important;
-        padding-right: 20px !important;
-    }
-}</style><script type="pmdelayedscript" data-perfmatters-type="text/javascript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">
+</script><style type="text/css"></style><style type="text/css"></style><style type="text/css"></style><script type="pmdelayedscript" data-perfmatters-type="text/javascript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">
 		var advadsCfpQueue = [];
 		var advadsCfpAd = function( adID ){
 			if ( 'undefined' == typeof advadsProCfp ) { advadsCfpQueue.push( adID ) } else { advadsProCfp.addElement( adID ) }
@@ -503,346 +209,8 @@ g.now.bind(g);var p=function(a){var b=window.location.href;return a.some(functio
 this.reasons.add("video_tag"))}catch(c){D.error("ClsDisableAds","checkCommandQueue",c)}}a.prototype.checkCommandQueue=function(){var b=this;this.adthrive&&this.adthrive.cmd&&this.adthrive.cmd.forEach(function(c){c=c.toString();var d=b.extractAPICall(c,"disableAds");d&&b.disableAllAds(b.extractPatterns(d));(d=b.extractAPICall(c,"disableContentAds"))&&b.disableContentAds(b.extractPatterns(d));(c=b.extractAPICall(c,"disablePlaylistPlayers"))&&b.disablePlaylistPlayers(b.extractPatterns(c))})};a.prototype.extractPatterns=
 function(b){b=b.match(/["'](.*?)['"]/g);if(null!==b)return b.map(function(c){return c.replace(/["']/g,"")})};a.prototype.extractAPICall=function(b,c){b=b.match(new RegExp(c+"\\((.*?)\\)","g"));return null!==b?b[0]:!1};a.prototype.disableAllAds=function(b){if(!b||p(b))this.all=!0,this.reasons.add("all_page")};a.prototype.disableContentAds=function(b){if(!b||p(b))this.recipe=this.content=!0,this.locations.add("Content"),this.locations.add("Recipe"),this.reasons.add("content_plugin")};a.prototype.disablePlaylistPlayers=
 function(b){if(!b||p(b))this.video=!0,this.locations.add("Video"),this.reasons.add("video_page")};a.prototype.urlHasEmail=function(b){return b?null!==/([A-Z0-9._%+-]+(@|%(25)*40)[A-Z0-9.-]+\.[A-Z]{2,})/i.exec(b):!1};return a}();if(m=window.adthriveCLS)m.disableAds=new g(window.adthrive);n.ClsDisableAds=g;Object.defineProperty(n,"__esModule",{value:!0});return n}({})
-</script>		<style type="text/css" id="wp-custom-css">
-			
-/* CSS for new cookbook page */
-
-.page-id-38935 .bvg-h3, 
-.page-id-38935 h3 {
-font-size:32px;
-text-align:center;
-margin-bottom:40px;
-
-}
-
-
-.page-id-38935 .cookbook-logos__wrapper {
-justify-content: space-evenly;
-}
-
-.page-id-38935 .cookbook-logos__single{
-flex-basis: calc(33% - 10px);
-}
-
-.page-id-38935 .cookbook-logos__single img {
-width:100%;
-}
-
-/* added by Jamison of NP to adjust the font-size on new cookbook page */
-.page-id-38935 .bvf-heading {
-font-size:30px;
-}
-
-
-/* added by Jamison of Np on 3.5.2024 to align the items on the new cookbook page */
-.page-id-38935 .features-list__image{
-width:50%;
-min-width:30%;
-}
-
-.page-id-38935 .features-list__content {
-width:70%;
-}
-.page-id-38935 .features-list__single{
-align-items:center;
-}
-@media screen and (max-width: 600px){
-
-
-.page-id-38935 .bvf-heading {
-font-size:26px;
-line-height:1.5;
-}
-.bvg-h3 {
-line-height: 1.3;
-}
-.page-id-38935 .features-list__image {
-min-width:40%;
-width:70%;
-}
-}
-
-
-/*End of CSS for Cookbook page */
-
-
-
-
-/*design experiments*/
-.content-area p{margin-bottom: 20px;
-}
-.content-area h2 {margin-bottom: 15px;}
-.content-area h2 {line-height:44px;}
-.content-area h3 {margin-bottom:8px; 
-	color: #3d3d3d;
-}
-
-.content-area .wp-block-gallery.has-nested-images figure.wp-block-image:not(#individual-image) {
-	margin-bottom: 8px;
-}
-
-.content-area .wp-block-image img {
-	margin-bottom: 8px;
-}
-
-@media screen and (max-width: 767px) {
-	body .logo img {
-    height: 57px;
-}
-	
-	h1.archive-title.archive-title--small {
-		font-size: 34px;
-			line-height: 1.2;
-	}
-	.content-area h2 {
-		font-size: 32px;
-		line-height: 35.2px;
-		margin-bottom: 8px;
-	}
-	
-	.content-area h3 {
-		font-size: 22px;
-		line-height: 24.2px;
-		margin-bottom: 10px;
-		color: #3d3d3d;
-	}
-	.content-area p {
-		margin-bottom: 16px;
-	}
-	/* mobile header CLS fix */
-	header {
-		min-height: 107px !important;
-	}
-	.container {
-		padding: 0 20px !important;
-	}
-}
-
-/*remove web stories link from header*/
-ul#menu-main-menu a[href*="web-stories"] {
-    display: none;
-}
-
-/*helpers*/
-.font-urwgeometric {
-	font-family: "URWGeometric", serif;
-}
-
-/*home*/
-.home h1.archive-title {
-    display: none;
-}
-
-/*Core Web Vitals Fixes*/
-
-.logo img {
-    height: 122px;
-    width: 100%;
-}
-
-.entry-header {
-	margin-bottom: 45px;
-}
-
-.logo {
-	max-width: 35%;
-}
-
-header img.social-icon {
-    max-width: 16px;
-    height: 100%;
-    width: 100%;
-}
-
-.fshare img, .tshare img {
-	max-width: 40px;
-	height: 100%;
-	width: 100%;
-}
-
-.pshare a {
-	width: 50px;
-	height: 20px;
-}
-
-
-.footer-social img {
-    max-width: 25px;
-    width: 100%;
-    height: 100%;
-}
-
-@media screen and (max-width:991px) {
-	.logo {
-		max-width: 60%;
-	}
-}
-
-/*posts*/
-body .entry-header .entry-summary .post-meta {
-    text-transform: capitalize;
-}
-
-body p.fd-lm {
-			font-style: unset;
-}
-
-.post-meta-by {
-	text-transform: lowercase;
-}
-
-/*footer*/
-.site-footer .footer-extra-links a:not(:last-child) {
-    margin-right: 15px;
-}
-
-.footer-extra-links {
-    margin-top: 10px;
-}
-
-/*plugins*/
-.wp-block-yoast-faq-block .schema-faq-question, .wp-block-yoast-faq-block p.schema-faq-answer {
-    font-size: 21px !important;
-} 
-
-@media screen and (max-width: 991px) {
-.wp-block-yoast-faq-block .schema-faq-question, .wp-block-yoast-faq-block p.schema-faq-answer {
-    font-size: 18px !important;
-    line-height: 24px !important;
-}
-}
-
-/***Mediavine Sidebar Fix***/
-@media only screen and (min-width: 992px) {
-  .content-area {
-    max-width: calc(100% - 360px);
-  }
-  .aside {
-    min-width: 300px;
-  }
-}
-/* End Mediavine Adjustment */
-
-/*Subscribe to comments*/
-.form-submit {
-	padding-top: 15px;
-}
-
-.comment-form-subscriptions {
-	font-size: 18px;
-	line-height: 1.4;
-}
-
-.comment-form-subscriptions label {
-	display: block !important;
-}
-.comment-form-subscriptions 
-input[type="checkbox"] {
-	width: 13px !important;
-	margin-bottom: 5px !important;
-	margin-right: 5px;
-
-}
-
-.stcr-subscription-list label {
-    display: inline;
-    margin-left: 10px;
-}
-
-#subscribe-reloaded-title-p {
-    font-size: 22px !important;
-}
-
-/*Subscribe to comments*/
-
-/* FD - Breadcrumb size */
-#breadcrumbs {
-	font-size: 18px;
-}
-
-/* FD - Fix posts with negative top margin */
-.entry-content.jpibfi_container {
-		margin-top: 0;
-}
-
-/* FD - Footer updates */
-
-#creditslide {
-	bottom: -360px;
-}
-
-/* NerdPress post header layout change - 8-23-21 HL */
-@media only screen and (max-width: 650px) {
-	.entry-header .entry-summary {
-		order: 0;
-	}
-	.entry-header .entry-image {
-		order: 1;
-	}
-}
-
-/*theme customizations*/
-@media screen and (max-width: 991px) {
-
-	.home	h3.entry-title, .archive h3.entry-title {
-		font-size: 20px;
-    line-height: 1.1;
-	}
-	
-}
-
-/*NerdPress CLS fix - min width & height 
-
-.entry-featured .entry-detials article:first-child{
-	min-width: 500px;
-	min-height: 300px;
-}
-*/
-
-/*NerdPress add gallery margins*/
-
-.wp-block-gallery {
-	margin: 0 0 1.5em;
-}
-
-/*NerdPress list spacing 11-29-23*/
-
-.content-area ol li, .content-area ul li{
-	margin-bottom:  13px;
-}
-
-#header-wrapper {
-	padding: 30px 0 0;
-}
-
-@media screen and (min-width: 991px){
-	#header-wrapper {
-	padding: 20px 0 10px;
-  }
-}
-
-/* NerdPress Edits to make h3s in content bigger PC March 22nd 2024*/
-
-.content-area h3 { 
-	 font-size: 27px; 
-}
-
-@media screen and (max-width: 767px) {
-	.content-area h3 {
-		line-height: 30px;
-	}
-}
-
-/* NerdPress WooCommerce Product Image Fix - 12/14/23 */
-img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.perfmatters-lazy.entered.pmloaded:first-of-type, .attachment-woocommerce_thumbnail:first-of-type, .woocommerce ul.products li.product img, .woocommerce-page ul.products li.product img {
-	object-fit: contain;
-	height: 250px !important;
-}
-
-.logo img {
-	height: 122px;
-}		</style>
-		<noscript><style>.perfmatters-lazy[data-src]{display:none !important;}</style></noscript><style>body .perfmatters-lazy-css-bg:not([data-ll-status=entered]),body .perfmatters-lazy-css-bg:not([data-ll-status=entered]) *,body .perfmatters-lazy-css-bg:not([data-ll-status=entered])::before,body .perfmatters-lazy-css-bg:not([data-ll-status=entered])::after{background-image:none!important;will-change:transform;transition:opacity 0.025s ease-in,transform 0.025s ease-in!important;}</style></head>
+</script>		<style type="text/css" id="wp-custom-css"></style>
+		<noscript><style>.perfmatters-lazy[data-src]{display:none !important;}</style></noscript><style></style></head>
 
 <body class="home page-template page-template-_templates page-template-template-flex page-template-_templatestemplate-flex-php page page-id-70 theme-rpl cp_aff_false page-homepage autoplay-video">
 <div id="outer-wrapper">
@@ -996,20 +364,6 @@ img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.perfmatters-lazy
 			Every Way to Use a Can of Chickpeas		</a>
 	</h3>
 
-</article><article class="entry entry-archive post-31191 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-dinner category-side-dishes season-fall season-spring season-summer season-winter diet-nut-free">
-	
-			<div class="entry-image perfmatters-lazy-css-bg">
-			<a href="https://rainbowplantlife.com/braised-tofu/"><img width="546" height="688" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;546&#039;%20height=&#039;688&#039;%20viewBox=&#039;0%200%20546%20688&#039;%3E%3C/svg%3E" class="attachment-grid size-grid perfmatters-lazy" alt="braised tofu in a bowl." decoding="async" data-src="https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-546x688.jpg" data-srcset="https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-546x688.jpg 546w, https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-150x188.jpg 150w" data-sizes="(max-width: 546px) 100vw, 546px" /><noscript><img width="546" height="688" src="https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-546x688.jpg" class="attachment-grid size-grid" alt="braised tofu in a bowl." decoding="async" srcset="https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-546x688.jpg 546w, https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-150x188.jpg 150w" sizes="(max-width: 546px) 100vw, 546px" /></noscript></a>
-		</div>
-	
-	<div class="entry-categories">
-		<a href="https://rainbowplantlife.com/category/recipes/dinner/" title="Dinner">Dinner</a>	</div>
-	
-	<h3 class="entry-title">
-		<a href="https://rainbowplantlife.com/braised-tofu/">
-			Braised Tofu		</a>
-	</h3>
-
 </article><article class="entry entry-archive post-31482 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-dessert season-spring season-summer diet-nut-free">
 	
 			<div class="entry-image perfmatters-lazy-css-bg">
@@ -1024,6 +378,20 @@ img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.perfmatters-lazy
 			Incredible Vegan Lemon Cake		</a>
 	</h3>
 
+</article><article class="entry entry-archive post-31191 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-dinner category-side-dishes season-fall season-spring season-summer season-winter diet-nut-free">
+	
+			<div class="entry-image perfmatters-lazy-css-bg">
+			<a href="https://rainbowplantlife.com/braised-tofu/"><img width="546" height="688" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;546&#039;%20height=&#039;688&#039;%20viewBox=&#039;0%200%20546%20688&#039;%3E%3C/svg%3E" class="attachment-grid size-grid perfmatters-lazy" alt="braised tofu in a bowl." decoding="async" data-src="https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-546x688.jpg" data-srcset="https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-546x688.jpg 546w, https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-150x188.jpg 150w" data-sizes="(max-width: 546px) 100vw, 546px" /><noscript><img width="546" height="688" src="https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-546x688.jpg" class="attachment-grid size-grid" alt="braised tofu in a bowl." decoding="async" srcset="https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-546x688.jpg 546w, https://rainbowplantlife.com/wp-content/uploads/2023/03/braisedtofuHero-1-150x188.jpg 150w" sizes="(max-width: 546px) 100vw, 546px" /></noscript></a>
+		</div>
+	
+	<div class="entry-categories">
+		<a href="https://rainbowplantlife.com/category/recipes/dinner/" title="Dinner">Dinner</a>	</div>
+	
+	<h3 class="entry-title">
+		<a href="https://rainbowplantlife.com/braised-tofu/">
+			Braised Tofu		</a>
+	</h3>
+
 </article>			</section>
 
 
@@ -1035,8 +403,8 @@ img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.perfmatters-lazy
 										<div class="newsletter__content">
 						<h3 class="newsletter__heading"><span>hungry</span> for more?</h3>
 						<p class="p1"><span class="s1">Sign up for free weekly recipes and get a copy of my free recipe ebook. </span></p>
-												<style type="text/css">/* Styling for Tablets */@media only screen and ( max-width: 800px ) and ( min-width:481px ) {}/* Styling for phones */@media only screen and ( max-width: 480px ) {}/*Option to add custom CSS */</style><script type="pmdelayedscript" data-perfmatters-type="text/javascript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1"></script>
-                <div class='gf_browser_safari gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='0' id='gform_wrapper_1' ><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/' data-formid='1' novalidate>
+												<style type="text/css"></style><script type="pmdelayedscript" data-perfmatters-type="text/javascript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1"></script>
+                <div class='gf_browser_gecko gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='0' id='gform_wrapper_1' ><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/' data-formid='1' novalidate>
                         <div class='gform-body gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><li id="field_1_1" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_1_1" ><label class='gfield_label gform-field-label' for='input_1_1'>Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='medium'    placeholder='Name' aria-required="true" aria-invalid="false"   /> </div></li><li id="field_1_2" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_1_2" ><label class='gfield_label gform-field-label' for='input_1_2'>Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
                             <input name='input_2' id='input_1_2' type='email' value='' class='medium'   placeholder='Email' aria-required="true" aria-invalid="false"  />
                         </div></li></ul></div>
@@ -1051,7 +419,7 @@ img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.perfmatters-lazy
             <input type='hidden' name='gform_field_values' value='' />
             
         </div>
-                        <p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="49"/><script type="pmdelayedscript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        <p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_1" name="ak_js" value="178"/><script type="pmdelayedscript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">document.getElementById( "ak_js_1" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
                         </div>
 		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
 		                <script type="pmdelayedscript" data-perfmatters-type="text/javascript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">
@@ -1069,7 +437,7 @@ img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.perfmatters-lazy
 				<h4 class="section-title">The Latest</h4>
 				<div class="post-grid">
 					<!--fwp-loop-->
-<article class="entry entry-archive post-39536 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-dinner category-vegan-soup season-fall season-winter season-spring diet-gluten-free diet-nut-free">
+<article class="entry entry-archive post-39536 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-dinner category-vegan-soup season-winter season-spring season-fall diet-nut-free diet-gluten-free">
 	
 			<div class="entry-image perfmatters-lazy-css-bg">
 			<a href="https://rainbowplantlife.com/lemony-chickpea-soup/"><img width="546" height="688" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;546&#039;%20height=&#039;688&#039;%20viewBox=&#039;0%200%20546%20688&#039;%3E%3C/svg%3E" class="attachment-grid size-grid perfmatters-lazy" alt="person holding bowl and dipping spoon into chickpea soup on a table." decoding="async" data-src="https://rainbowplantlife.com/wp-content/uploads/2024/04/Lemony-Chickpea-Soup-hero-4-546x688.jpg" /><noscript><img width="546" height="688" src="https://rainbowplantlife.com/wp-content/uploads/2024/04/Lemony-Chickpea-Soup-hero-4-546x688.jpg" class="attachment-grid size-grid" alt="person holding bowl and dipping spoon into chickpea soup on a table." decoding="async" /></noscript></a>
@@ -1083,7 +451,7 @@ img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.perfmatters-lazy
 			Lemony Chickpea Soup		</a>
 	</h3>
 
-</article><article class="entry entry-archive post-39413 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-vegan-breakfast season-summer season-fall season-winter season-spring diet-nut-free">
+</article><article class="entry entry-archive post-39413 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-vegan-breakfast season-winter season-spring season-summer season-fall diet-nut-free">
 	
 			<div class="entry-image perfmatters-lazy-css-bg">
 			<a href="https://rainbowplantlife.com/vegan-french-toast/"><img width="546" height="688" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;546&#039;%20height=&#039;688&#039;%20viewBox=&#039;0%200%20546%20688&#039;%3E%3C/svg%3E" class="attachment-grid size-grid perfmatters-lazy" alt="Side view of someone pouring maple syrup on two slices of vegan french toast." decoding="async" data-src="https://rainbowplantlife.com/wp-content/uploads/2024/04/French-Toast-cover-photo-1-of-1-546x688.jpg" /><noscript><img width="546" height="688" src="https://rainbowplantlife.com/wp-content/uploads/2024/04/French-Toast-cover-photo-1-of-1-546x688.jpg" class="attachment-grid size-grid" alt="Side view of someone pouring maple syrup on two slices of vegan french toast." decoding="async" /></noscript></a>
@@ -1111,7 +479,7 @@ img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.perfmatters-lazy
 			Noodle Salad with Rainbow Veggies		</a>
 	</h3>
 
-</article><article class="entry entry-archive post-38866 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-dinner season-spring season-summer season-fall diet-gluten-free">
+</article><article class="entry entry-archive post-38866 post type-post status-publish format-standard has-post-thumbnail hentry category-recipes category-dinner season-summer season-fall season-spring diet-gluten-free">
 	
 			<div class="entry-image perfmatters-lazy-css-bg">
 			<a href="https://rainbowplantlife.com/baked-peanut-tofu/"><img width="546" height="688" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;546&#039;%20height=&#039;688&#039;%20viewBox=&#039;0%200%20546%20688&#039;%3E%3C/svg%3E" class="attachment-grid size-grid perfmatters-lazy" alt="baked peanut tofu with broccolini and edamame on top of brown rice on a ceramic plate." decoding="async" data-src="https://rainbowplantlife.com/wp-content/uploads/2024/02/Baked-peanut-tofu-546x688.jpg" data-srcset="https://rainbowplantlife.com/wp-content/uploads/2024/02/Baked-peanut-tofu-546x688.jpg 546w, https://rainbowplantlife.com/wp-content/uploads/2024/02/Baked-peanut-tofu-150x188.jpg 150w" data-sizes="(max-width: 546px) 100vw, 546px" /><noscript><img width="546" height="688" src="https://rainbowplantlife.com/wp-content/uploads/2024/02/Baked-peanut-tofu-546x688.jpg" class="attachment-grid size-grid" alt="baked peanut tofu with broccolini and edamame on top of brown rice on a ceramic plate." decoding="async" srcset="https://rainbowplantlife.com/wp-content/uploads/2024/02/Baked-peanut-tofu-546x688.jpg 546w, https://rainbowplantlife.com/wp-content/uploads/2024/02/Baked-peanut-tofu-150x188.jpg 150w" sizes="(max-width: 546px) 100vw, 546px" /></noscript></a>
@@ -1151,15 +519,15 @@ img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail.perfmatters-lazy
 			<section class="page-section video-feature">
 				<h4 class="section-title">In My Kitchen</h4>
 				<div class="video-feature__wrapper container-large">
-					<div class="arve arve-hover-effect-darken" data-mode="lazyload" data-oembed="1" data-provider="youtube" id="arve-youtube-1epfvez-91q662a9cc6c65d9266588788" style="max-width:940px;" data-reset-after-played data-grow data-fullscreen="disabled" data-volume="100">
+					<div class="arve arve-hover-effect-darken" data-mode="lazyload" data-oembed="1" data-provider="youtube" id="arve-youtube-1epfvez-91q662b7e3f61564105629671" style="max-width:940px;" data-reset-after-played data-grow data-fullscreen="disabled" data-volume="100">
 <span class="arve-inner">
 <span class="arve-embed arve-embed--has-aspect-ratio">
-<span class="arve-ar" style="padding-top:56.250000%"></span><noscript class="arve-noscript"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="arve-iframe fitvidsignore" data-arve="arve-youtube-1epfvez-91q662a9cc6c65d9266588788" data-src-no-ap="https://www.youtube.com/embed/1EpfvEz-91Q?feature=oembed&amp;rel=0&amp;controls=1&amp;showinfo=0&amp;mute=1&amp;autoplay=0&amp;enablejsapi=1" frameborder="0" height="528.75" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups allow-popups-to-escape-sandbox" scrolling="no" src="https://www.youtube.com/embed/1EpfvEz-91Q?feature=oembed&#038;rel=0&#038;controls=1&#038;showinfo=0&#038;mute=1&#038;autoplay=1&#038;enablejsapi=1" width="940" title="Budget Friendly Meal Prep ~ $2 Meals"></iframe>
+<span class="arve-ar" style="padding-top:56.250000%"></span><noscript class="arve-noscript"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="arve-iframe fitvidsignore" data-arve="arve-youtube-1epfvez-91q662b7e3f61564105629671" data-src-no-ap="https://www.youtube.com/embed/1EpfvEz-91Q?feature=oembed&amp;rel=0&amp;controls=1&amp;showinfo=0&amp;mute=1&amp;autoplay=0&amp;enablejsapi=1" frameborder="0" height="528.75" sandbox="allow-scripts allow-same-origin allow-presentation allow-popups allow-popups-to-escape-sandbox" scrolling="no" src="https://www.youtube.com/embed/1EpfvEz-91Q?feature=oembed&#038;rel=0&#038;controls=1&#038;showinfo=0&#038;mute=1&#038;autoplay=1&#038;enablejsapi=1" width="940" title="Budget Friendly Meal Prep ~ $2 Meals"></iframe>
 </noscript><img alt="Budget Friendly Meal Prep ~ $2 Meals" src="https://i.ytimg.com/vi/1EpfvEz-91Q/hqdefault.jpg" srcset="https://i.ytimg.com/vi/1EpfvEz-91Q/mqdefault.jpg 320w, https://i.ytimg.com/vi/1EpfvEz-91Q/hqdefault.jpg 480w, https://i.ytimg.com/vi/1EpfvEz-91Q/sddefault.jpg 640w, https://i.ytimg.com/vi/1EpfvEz-91Q/maxresdefault.jpg 1280w" class="arve-thumbnail" loading="lazy" width="480" height="360">
 <h5 class="arve-title">
 Budget Friendly Meal Prep ~ $2 Meals
 </h5>
-<button role="button" type="button" class="arve-play-btn arve-play-btn--youtube" data-target="#arve-youtube-1epfvez-91q662a9cc6c65d9266588788" aria-label="Play video">
+<button role="button" type="button" class="arve-play-btn arve-play-btn--youtube" data-target="#arve-youtube-1epfvez-91q662b7e3f61564105629671" aria-label="Play video">
 <svg class="arve-play-svg arve-play-svg--youtube" focusable="false" aria-hidden="true" width="68" viewBox="0 0 68 48" xmlns="http://www.w3.org/2000/svg">
 	<path fill="#1f1f1e" fill-opacity="0.81" d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z"></path>
 	<path fill="#fff" d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" ></path>
@@ -1171,7 +539,7 @@ Budget Friendly Meal Prep ~ $2 Meals
 </span>
 
 </span>
-<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@id":"https:\/\/rainbowplantlife.com\/#arve-youtube-1epfvez-91q662a9cc6c65d9266588788","type":"VideoObject","embedURL":"https:\/\/www.youtube.com\/embed\/1EpfvEz-91Q?feature=oembed&rel=0&controls=1&showinfo=0&mute=1&autoplay=1&enablejsapi=1","name":"Budget Friendly Meal Prep ~ $2 Meals","thumbnailUrl":"https:\/\/i.ytimg.com\/vi\/1EpfvEz-91Q\/hqdefault.jpg","uploadDate":"2020-09-16T17:50:45+00:00","author":"Rainbow Plant Life","description":"Budget Friendly Meal Prep ~ $2 Meals -  video"}</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@id":"https:\/\/rainbowplantlife.com\/#arve-youtube-1epfvez-91q662b7e3f61564105629671","type":"VideoObject","embedURL":"https:\/\/www.youtube.com\/embed\/1EpfvEz-91Q?feature=oembed&rel=0&controls=1&showinfo=0&mute=1&autoplay=1&enablejsapi=1","name":"Budget Friendly Meal Prep ~ $2 Meals","thumbnailUrl":"https:\/\/i.ytimg.com\/vi\/1EpfvEz-91Q\/hqdefault.jpg","uploadDate":"2020-09-16T17:50:45+00:00","author":"Rainbow Plant Life","description":"Budget Friendly Meal Prep ~ $2 Meals -  video"}</script>
 </div>
 				</div>
 				<div class="video-feature__content">
@@ -1229,8 +597,8 @@ And to say thanks, you’ll also get a free ebook featuring my top recipes!</p>
 													<div class="newsletter__book">
 								<img width="210" height="287" src="data:image/svg+xml,%3Csvg%20xmlns=&#039;http://www.w3.org/2000/svg&#039;%20width=&#039;210&#039;%20height=&#039;287&#039;%20viewBox=&#039;0%200%20210%20287&#039;%3E%3C/svg%3E" alt class="perfmatters-lazy" data-src="https://rainbowplantlife.com/wp-content/uploads/2020/12/Copy-of-Ebook-Design-Draft-2-1.png" /><noscript><img width="210" height="287" src="https://rainbowplantlife.com/wp-content/uploads/2020/12/Copy-of-Ebook-Design-Draft-2-1.png" alt=""></noscript>
 							</div>
-												<style type="text/css">/* Styling for Tablets */@media only screen and ( max-width: 800px ) and ( min-width:481px ) {}/* Styling for phones */@media only screen and ( max-width: 480px ) {}/*Option to add custom CSS */</style>
-                <div class='gf_browser_safari gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='1' id='gform_wrapper_1' ><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/' data-formid='1' novalidate>
+												<style type="text/css"></style>
+                <div class='gf_browser_gecko gform_wrapper gform_legacy_markup_wrapper gform-theme--no-framework' data-form-theme='legacy' data-form-index='1' id='gform_wrapper_1' ><form method='post' enctype='multipart/form-data' target='gform_ajax_frame_1' id='gform_1'  action='/' data-formid='1' novalidate>
                         <div class='gform-body gform_body'><ul id='gform_fields_1' class='gform_fields top_label form_sublabel_below description_below'><li id="field_1_1" class="gfield gfield--type-text gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_1_1" ><label class='gfield_label gform-field-label' for='input_1_1'>Name<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_text'><input name='input_1' id='input_1_1' type='text' value='' class='medium'    placeholder='Name' aria-required="true" aria-invalid="false"   /> </div></li><li id="field_1_2" class="gfield gfield--type-email gfield_contains_required field_sublabel_below gfield--no-description field_description_below hidden_label gfield_visibility_visible"  data-js-reload="field_1_2" ><label class='gfield_label gform-field-label' for='input_1_2'>Email<span class="gfield_required"><span class="gfield_required gfield_required_asterisk">*</span></span></label><div class='ginput_container ginput_container_email'>
                             <input name='input_2' id='input_1_2' type='email' value='' class='medium'   placeholder='Email' aria-required="true" aria-invalid="false"  />
                         </div></li></ul></div>
@@ -1245,7 +613,7 @@ And to say thanks, you’ll also get a free ebook featuring my top recipes!</p>
             <input type='hidden' name='gform_field_values' value='' />
             
         </div>
-                        <p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_2" name="ak_js" value="29"/><script type="pmdelayedscript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">document.getElementById( "ak_js_2" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
+                        <p style="display: none !important;" class="akismet-fields-container" data-prefix="ak_"><label>&#916;<textarea name="ak_hp_textarea" cols="45" rows="8" maxlength="100"></textarea></label><input type="hidden" id="ak_js_2" name="ak_js" value="91"/><script type="pmdelayedscript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">document.getElementById( "ak_js_2" ).setAttribute( "value", ( new Date() ).getTime() );</script></p></form>
                         </div>
 		                <iframe style='display:none;width:0px;height:0px;' src='about:blank' name='gform_ajax_frame_1' id='gform_ajax_frame_1' title='This iframe contains the logic required to handle Ajax powered Gravity Forms.'></iframe>
 		                <script type="pmdelayedscript" data-perfmatters-type="text/javascript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">
@@ -1446,13 +814,13 @@ jQuery(document).ready(function( $ ) {
 	});
 	$( ".image-block-wrapper" ).css( "padding-bottom", "20px" );
 });
-</script><link rel='stylesheet' id='gforms_reset_css-css' href='https://rainbowplantlife.com/wp-content/plugins/gravityforms/legacy/css/formreset.min.css?ver=2.8.7-b-modified-1712684695' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_formsmain_css-css' href='https://rainbowplantlife.com/wp-content/plugins/gravityforms/legacy/css/formsmain.min.css?ver=2.8.7-b-modified-1712684695' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_ready_class_css-css' href='https://rainbowplantlife.com/wp-content/plugins/gravityforms/legacy/css/readyclass.min.css?ver=2.8.7-b-modified-1712684695' type='text/css' media='all' />
-<link rel='stylesheet' id='gforms_browsers_css-css' href='https://rainbowplantlife.com/wp-content/plugins/gravityforms/legacy/css/browsers.min.css?ver=2.8.7-b-modified-1712684695' type='text/css' media='all' />
+</script>
+
+
+
 <script type="pmdelayedscript" id="wprm-public-js-extra" data-perfmatters-type="text/javascript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1">
 /* <![CDATA[ */
-var wprm_public = {"endpoints":{"analytics":"https:\/\/rainbowplantlife.com\/wp-json\/wp-recipe-maker\/v1\/analytics","manage":"https:\/\/rainbowplantlife.com\/wp-json\/wp-recipe-maker\/v1\/manage"},"settings":{"features_comment_ratings":true,"template_color_comment_rating":"#000000","instruction_media_toggle_default":"on","video_force_ratio":false,"analytics_enabled":false,"google_analytics_enabled":false,"print_new_tab":true},"post_id":"70","home_url":"https:\/\/rainbowplantlife.com\/","print_slug":"wprm_print","permalinks":"\/%postname%\/","ajax_url":"https:\/\/rainbowplantlife.com\/wp-admin\/admin-ajax.php","nonce":"2062a462aa","api_nonce":"51622e5241","translations":[]};
+var wprm_public = {"endpoints":{"analytics":"https:\/\/rainbowplantlife.com\/wp-json\/wp-recipe-maker\/v1\/analytics","manage":"https:\/\/rainbowplantlife.com\/wp-json\/wp-recipe-maker\/v1\/manage"},"settings":{"features_comment_ratings":true,"template_color_comment_rating":"#000000","instruction_media_toggle_default":"on","video_force_ratio":false,"analytics_enabled":false,"google_analytics_enabled":false,"print_new_tab":true},"post_id":"70","home_url":"https:\/\/rainbowplantlife.com\/","print_slug":"wprm_print","permalinks":"\/%postname%\/","ajax_url":"https:\/\/rainbowplantlife.com\/wp-admin\/admin-ajax.php","nonce":"4eeeec9687","api_nonce":"e2553c038b","translations":[]};
 /* ]]> */
 </script>
 <script type="pmdelayedscript" src="https://rainbowplantlife.com/wp-content/plugins/wp-recipe-maker/dist/public-modern.js?ver=9.3.1-b-modified-1712085271" id="wprm-public-js" data-perfmatters-type="text/javascript" data-cfasync="false" data-no-optimize="1" data-no-defer="1" data-no-minify="1" data-rocketlazyloadscript="1"></script>

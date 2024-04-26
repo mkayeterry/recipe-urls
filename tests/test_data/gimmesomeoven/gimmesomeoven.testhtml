@@ -222,7 +222,7 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link data-minify="1" rel='stylesheet' id='custom-mobile-header-style-css' href='https://www.gimmesomeoven.com/wp-content/cache/min/1/wp-content/themes/gimmesomeoven2019/mobile-header/mobile-header-style.css?ver=1713798802' type='text/css' media='all' />
 <link rel="https://api.w.org/" href="https://www.gimmesomeoven.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.gimmesomeoven.com/xmlrpc.php?rsd" />
 
-<!-- [slickstream] Page Generated at: 4/25/2024, 6:08:21 PM UTC -->
+<!-- [slickstream] Page Generated at: 4/26/2024, 4:41:29 PM UTC -->
 <!-- [slickstream] Using cached page boot data: slick_page_boot_39ed7ed80f5c86afd6c534f9b5cb90e8 -->
 <!-- [slickstream] Page Boot Data: -->
 <script class='slickstream-script'>
@@ -565,7 +565,7 @@ e));return document.getElementById(c)};a.prototype.locationEnabled=function(b){r
 	
 	<div class="postmeta">
 		<span class="postdate">April 25, 2024</span>
-		<span class="ccount"><a href="https://www.gimmesomeoven.com/ginger-coconut-potsticker-soup/#respond">0 Comments &raquo;</a></span>
+		<span class="ccount"><a href="https://www.gimmesomeoven.com/ginger-coconut-potsticker-soup/#comments">1 Comment &raquo;</a></span>
 	</div>
 	
 	<p class="excerpt">This delicious ginger coconut potsticker soup recipe is quick and easy to make with your choice of frozen potstickers and veggies. It&#8217;s a cold...</p>
@@ -587,7 +587,7 @@ e));return document.getElementById(c)};a.prototype.locationEnabled=function(b){r
 	
 	<div class="postmeta">
 		<span class="postdate">April 19, 2024</span>
-		<span class="ccount"><a href="https://www.gimmesomeoven.com/marry-me-chickpeas-and-orzo/#comments">6 Comments &raquo;</a></span>
+		<span class="ccount"><a href="https://www.gimmesomeoven.com/marry-me-chickpeas-and-orzo/#comments">7 Comments &raquo;</a></span>
 	</div>
 	
 	<p class="excerpt">This one-pot chickpeas and orzo dish is simmered in a creamy garlic sauce with sun-dried tomatoes, basil and spinach. So delicious and ready to...</p>
@@ -631,7 +631,7 @@ e));return document.getElementById(c)};a.prototype.locationEnabled=function(b){r
 	
 	<div class="postmeta">
 		<span class="postdate">April 15, 2024</span>
-		<span class="ccount"><a href="https://www.gimmesomeoven.com/lavender-syrup-recipe/#comments">3 Comments &raquo;</a></span>
+		<span class="ccount"><a href="https://www.gimmesomeoven.com/lavender-syrup-recipe/#comments">4 Comments &raquo;</a></span>
 	</div>
 	
 	<p class="excerpt">Homemade lavender syrup is easy to make with 3 ingredients and can be used in everything from lattes to cocktails, lemonade, baked goods and...</p>
@@ -1193,10 +1193,10 @@ var RocketPreloadLinksConfig = {"excludeUris":"\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$
 <script type="rocketlazyloadscript" data-rocket-type="text/javascript" data-rocket-src="https://www.gimmesomeoven.com/wp-content/plugins/optinmonster/assets/dist/js/helper.min.js?ver=2.16.0" id="optinmonster-wp-helper-js" defer></script>
 		<script type="text/javascript">var omapi_localized = {
 			ajax: 'https://www.gimmesomeoven.com/wp-admin/admin-ajax.php?optin-monster-ajax-route=1',
-			nonce: '6cc0d64d61',
+			nonce: '0a8258e36f',
 			slugs:
 			{"quygkjqxobtarksm22c3":{"slug":"quygkjqxobtarksm22c3","mailpoet":false},"ty73ttbzvfodjailia4u":{"slug":"ty73ttbzvfodjailia4u","mailpoet":false},"yhmgjibv5wdssh4u7kek":{"slug":"yhmgjibv5wdssh4u7kek","mailpoet":false},"i0t0mkbhtt0lv8buhqvx":{"slug":"i0t0mkbhtt0lv8buhqvx","mailpoet":false}}		};</script>
-				<script type="rocketlazyloadscript" data-rocket-type="text/javascript">var omapi_data = {"object_id":0,"object_key":"","object_type":"","term_ids":[],"wp_json":"https:\/\/www.gimmesomeoven.com\/wp-json","wc_active":false,"edd_active":false,"nonce":"e5799904f3"};</script>
+				<script type="rocketlazyloadscript" data-rocket-type="text/javascript">var omapi_data = {"object_id":0,"object_key":"","object_type":"","term_ids":[],"wp_json":"https:\/\/www.gimmesomeoven.com\/wp-json","wc_active":false,"edd_active":false,"nonce":"0e1779743e"};</script>
 		<script>!function(){"use strict";!function(e){if(-1===e.cookie.indexOf("__adblocker")){e.cookie="__adblocker=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/";var t=new XMLHttpRequest;t.open("GET","https://ads.adthrive.com/abd/abd.js",!0),t.onreadystatechange=function(){if(XMLHttpRequest.DONE===t.readyState)if(200===t.status){var a=e.createElement("script");a.innerHTML=t.responseText,e.getElementsByTagName("head")[0].appendChild(a)}else{var n=new Date;n.setTime(n.getTime()+3e5),e.cookie="__adblocker=true; expires="+n.toUTCString()+"; path=/"}},t.send()}}(document)}();
 </script><script type="rocketlazyloadscript">!function(){"use strict";var e;e=document,function(){var t,n;function r(){var t=e.createElement("script");t.src="https://cafemedia-com.videoplayerhub.com/galleryplayer.js",e.head.appendChild(t)}function a(){var t=e.cookie.match("(^|[^;]+)\\s*__adblocker\\s*=\\s*([^;]+)");return t&&t.pop()}function c(){clearInterval(n)}return{init:function(){var e;"true"===(t=a())?r():(e=0,n=setInterval((function(){100!==e&&"false"!==t||c(),"true"===t&&(r(),c()),t=a(),e++}),50))}}}().init()}();
 </script><script>window.lazyLoadOptions=[{elements_selector:"img[data-lazy-src],.rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,callback_loaded:function(element){if(element.tagName==="IFRAME"&&element.dataset.rocketLazyload=="fitvidscompatible"){if(element.classList.contains("lazyloaded")){if(typeof window.jQuery!="undefined"){if(jQuery.fn.fitVids){jQuery(element).parent().fitVids()}}}}}},{elements_selector:".rocket-lazyload",data_src:"lazy-src",data_srcset:"lazy-srcset",data_sizes:"lazy-sizes",class_loading:"lazyloading",class_loaded:"lazyloaded",threshold:300,}];window.addEventListener('LazyLoad::Initialized',function(e){var lazyLoadInstance=e.detail.instance;if(window.MutationObserver){var observer=new MutationObserver(function(mutations){var image_count=0;var iframe_count=0;var rocketlazy_count=0;mutations.forEach(function(mutation){for(var i=0;i<mutation.addedNodes.length;i++){if(typeof mutation.addedNodes[i].getElementsByTagName!=='function'){continue}
@@ -1208,4 +1208,4 @@ if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_c
 
 
 </body></html>
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1714068501 -->
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

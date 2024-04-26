@@ -187,7 +187,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <main class="main">
 	<div class="b-recipes-carousel">
 		<div class="b-recipes-carousel__wrap">
-			<div class="slider" data-id="80cb7">
+			<div class="slider" data-id="0d567">
 				
 							<div>
 								<div class="position-relative">
@@ -881,7 +881,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 		<div class="b-collections-carousel__wrap">
 			<div class="slider"
-			     data-id="33b1f"
+			     data-id="6c5fc"
 			     data-items-lg="2">
 				
 				
@@ -1124,7 +1124,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 		<div class="b-contributors-carousel__wrap">
 			<div class="slider"
-			     data-id="ddd78"
+			     data-id="5a0c4"
 			     data-items="1"
 			     data-items-md="3"
 			     data-items-lg="5">
@@ -1251,7 +1251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			
 			<button type="button" class="btn btn-primary btn-outline btn-min-width ajax-send glossary-translate" 
 				data-ajaxaction="listrak_contact" 
-				data-nonce="d677c6aa43" 
+				data-nonce="423673560c" 
 				data-sendfields="1"
 				data-sendtrigger="wp_listrak_signup_sending"
 				data-sendtriggerparams=".marketing-subscribe__form"
@@ -1397,7 +1397,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 												data-loginaction="vnmLogin_loginOrRegister"
 												data-register="Complete Registration"
 												data-login="Log in"
-												data-ajaxaction="vnmLogin_loginOrRegister" 												data-nonce="e8fa9feb64"
+												data-ajaxaction="vnmLogin_loginOrRegister" 												data-nonce="b95eb46516"
 												data-sendfields="1" 
 												data-sendtrigger="vnm_login_logging_in" 
 												data-sendtriggerparams=".modal-login__column" 

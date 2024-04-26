@@ -1308,7 +1308,7 @@ gtag("config", "GT-5MJLH9W");
 		</div>
 	</div>
 	<script id="wpzoom-rcb-block-script-js-extra">
-var wpzoomRecipeCard = {"pluginURL":"https:\/\/goodfooddiscoveries.com\/wp-content\/plugins\/recipe-card-blocks-by-wpzoom-pro\/","homeURL":"https:\/\/goodfooddiscoveries.com\/","defaultCookMode":"","permalinks":"\/%postname%\/","permalink":"https:\/\/goodfooddiscoveries.com\/","ajax_url":"https:\/\/goodfooddiscoveries.com\/wp-admin\/admin-ajax.php","nonce":"492609e36f","api_nonce":"b091296bde","strings":{"loading-gallery-media":"Loading gallery media"}};
+var wpzoomRecipeCard = {"pluginURL":"https:\/\/goodfooddiscoveries.com\/wp-content\/plugins\/recipe-card-blocks-by-wpzoom-pro\/","homeURL":"https:\/\/goodfooddiscoveries.com\/","defaultCookMode":"","permalinks":"\/%postname%\/","permalink":"https:\/\/goodfooddiscoveries.com\/","ajax_url":"https:\/\/goodfooddiscoveries.com\/wp-admin\/admin-ajax.php","nonce":"c150b42335","api_nonce":"610170c145","strings":{"loading-gallery-media":"Loading gallery media"}};
 </script>
 <script src="https://goodfooddiscoveries.com/wp-content/plugins/recipe-card-blocks-by-wpzoom-pro/dist/assets/js/script.js?ver=5.5.2" id="wpzoom-rcb-block-script-js"></script>
 <script src="https://goodfooddiscoveries.com/wp-content/plugins/recipe-card-blocks-by-wpzoom-pro/dist/assets/js/nosleep.min.js?ver=5.5.2" id="wpzoom-rcb-block-no-sleep-js"></script>
@@ -1329,13 +1329,13 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 <script src="https://goodfooddiscoveries.com/wp-includes/js/dist/api-fetch.min.js?ver=0fa4dabf8bf2c7adf21a" id="wp-api-fetch-js"></script>
 <script id="wp-api-fetch-js-after">
 wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "https://goodfooddiscoveries.com/wp-json/" ) );
-wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "b091296bde" );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "610170c145" );
 wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
 wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
 wp.apiFetch.nonceEndpoint = "https://goodfooddiscoveries.com/wp-admin/admin-ajax.php?action=rest-nonce";
 </script>
 <script id="ultp-script-js-extra">
-var ultp_data_frontend = {"url":"https:\/\/goodfooddiscoveries.com\/wp-content\/plugins\/ultimate-post\/","ajax":"https:\/\/goodfooddiscoveries.com\/wp-admin\/admin-ajax.php","security":"4e053bb709","home_url":"https:\/\/goodfooddiscoveries.com"};
+var ultp_data_frontend = {"url":"https:\/\/goodfooddiscoveries.com\/wp-content\/plugins\/ultimate-post\/","ajax":"https:\/\/goodfooddiscoveries.com\/wp-admin\/admin-ajax.php","security":"6c36bfbb83","home_url":"https:\/\/goodfooddiscoveries.com"};
 </script>
 <script src="https://goodfooddiscoveries.com/wp-content/plugins/ultimate-post/assets/js/ultp.min.js?ver=3.2.2" id="ultp-script-js"></script>
 <script id="kadence-navigation-js-extra">
@@ -1579,4 +1579,4 @@ var complianz = {"prefix":"cmplz_","user_banner_id":"1","set_cookies":[],"block_
 </html>
 
 
-<!-- Page cached by LiteSpeed Cache 6.1 on 2024-04-25 18:26:05 -->
+<!-- Page cached by LiteSpeed Cache 6.1 on 2024-04-26 16:43:28 -->

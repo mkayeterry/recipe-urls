@@ -707,9 +707,9 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 					<div id="magazine-subscription-wrapper" class="header-cmu-ad-wrapper">
 						<div id="header-2021-cmu-ad-wrapper">
 				<div class="header-2021-cmu-ad">
-					<div class="ad-container-wrapper  dfp-ad-widget"><div id="ad6629e40f7c8e1" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_top_right" data-ad-sizes="130x31,385x97,260x68" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[130,31]],"tablet":[[130,31]],"desktop":[[385,97],[260,68]],"large_screen":[[385,97],[260,68]]}' data-ad-targeting='{"pos":"cm_top_right"}' data-ad-exclude-header-bidding="1" data-ad-exclude-lazy-loading="1" data-ad-exclude-ad-refresh="1"></div></div>				</div>
+					<div class="ad-container-wrapper  dfp-ad-widget"><div id="ad662ae9ec8d4b7" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_top_right" data-ad-sizes="130x31,385x97,260x68" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[130,31]],"tablet":[[130,31]],"desktop":[[385,97],[260,68]],"large_screen":[[385,97],[260,68]]}' data-ad-targeting='{"pos":"cm_top_right"}' data-ad-exclude-header-bidding="1" data-ad-exclude-lazy-loading="1" data-ad-exclude-ad-refresh="1"></div></div>				</div>
 									<div class="subscription-flyout-ad" id="subscription-flyout" aria-hidden="true">
-						<div class="ad-container-wrapper  dfp-ad-widget"><div id="ad6629e40f7f864" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_flyout" data-ad-sizes="440x285,440x480,200x148,200x190" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[200,148],[200,190]],"tablet":[[200,148],[200,190]],"desktop":[[440,285],[440,480]],"large_screen":[[440,285],[440,480]]}' data-ad-targeting='{"pos":"cm_flyout"}' data-ad-exclude-header-bidding="1" data-ad-exclude-ad-refresh="1"></div></div>					</div>
+						<div class="ad-container-wrapper  dfp-ad-widget"><div id="ad662ae9ec92060" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_flyout" data-ad-sizes="440x285,440x480,200x148,200x190" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[200,148],[200,190]],"tablet":[[200,148],[200,190]],"desktop":[[440,285],[440,480]],"large_screen":[[440,285],[440,480]]}' data-ad-targeting='{"pos":"cm_flyout"}' data-ad-exclude-header-bidding="1" data-ad-exclude-ad-refresh="1"></div></div>					</div>
 							</div>
 		</div>
 		
@@ -834,14 +834,14 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 								<a  data-name="Rosemary Siefert" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/rosie-siefert/" class="author">By Rosemary Siefert</a>
 							</div>
 						</div>	<div class="item">
-							<div class="img-wrapper"><a  data-name="The 25 Best College Care Packages" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/college-care-packages/"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2024/04/The-25-Best-College-Care-Packages_FT_via-Amazon.com-a.jpg?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"></a>
+							<div class="img-wrapper"><a  data-name="10 Best Food Gift Baskets, Tested and Reviewed by Our Editors" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/best-food-gift-baskets/"><img decoding="async" class="float-left" src="https://www.tasteofhome.com/wp-content/uploads/2024/04/10-Best-Food-Gift-Baskets-and-Care-Packages_GIF_Emily-Way2_Caitlyn-Fitzpatrick_01_YVedit.gif?resize=522%2C522&#038;w=680" alt="Hero" data-recalc-dims="1"></a>
 							</div>
 							<div class="float-right">
 								<div class="category">
 									<a  data-name="Stuff We Love" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/stuff-we-love/" class="category-title">Stuff We Love</a>
 								</div>
-								<p class="content-title"><a  data-name="The 25 Best College Care Packages" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/college-care-packages/">The 25 Best College Care Packages</a></p>
-								<a  data-name="skyword system user" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/skyword/" class="author">By skyword system user</a>
+								<p class="content-title"><a  data-name="10 Best Food Gift Baskets, Tested and Reviewed by Our Editors" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/best-food-gift-baskets/">10 Best Food Gift Baskets, Tested and Reviewed by Our Editors</a></p>
+								<a  data-name="Emily Way" data-position="Hero Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/author/emily-way/" class="author">By Emily Way</a>
 							</div>
 						</div></div>
 					</div>			</div>
@@ -1259,8 +1259,8 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 						<div class="most-popular-item  most-popular-mobile-hide">
 							<div class="most-popular-detail">
 								<span class="number">4</span>
-								<a  data-name="Pesto Parmesan Tilapia" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/pesto-parmesan-tilapia/">
-									Pesto Parmesan Tilapia								</a>
+								<a  data-name="We Went to 9 Places to Find the Best Fast-Food Ice Cream" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/best-fast-food-ice-cream/">
+									We Went to 9 Places to Find the Best Fast-Food Ice Cream								</a>
 							</div>
 						</div>
 
@@ -1277,8 +1277,8 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 						<div class="most-popular-item  most-popular-mobile-hide">
 							<div class="most-popular-detail">
 								<span class="number">6</span>
-								<a  data-name="Best Lasagna Soup" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/best-lasagna-soup/">
-									Best Lasagna Soup								</a>
+								<a  data-name="The Best Hot Dogs for Summer BBQs, According to Our Pro Grillers" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/collection/best-hot-dog-brands/">
+									The Best Hot Dogs for Summer BBQs, According to Our Pro Grillers								</a>
 							</div>
 						</div>
 
@@ -1286,8 +1286,8 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 						<div class="most-popular-item  most-popular-mobile-hide">
 							<div class="most-popular-detail">
 								<span class="number">7</span>
-								<a  data-name="Baked Mac and Cheese" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/baked-mac-and-cheese/">
-									Baked Mac and Cheese								</a>
+								<a  data-name="Best Lasagna Soup" data-position="Most Popular Module" data-module="Content Engagement"  href="https://www.tasteofhome.com/recipes/best-lasagna-soup/">
+									Best Lasagna Soup								</a>
 							</div>
 						</div>
 
@@ -1386,7 +1386,7 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 							</div>
 		</div>
 	<br />
-<div class="cm-product" aria-hidden="true"><div class="container"><div class="more-product-wrapper"><div class="ad-container-wrapper  dfp-ad-widget"><div id="ad6629e40fee6a3" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_homepage_feature" data-ad-sizes="" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[1,1]],"tablet":[[1,1]],"desktop":[[1,1]],"large_screen":[[1,1]]}' data-ad-targeting='{"pos":"cm_homepage_feature"}' data-ad-exclude-header-bidding="1" data-ad-exclude-ad-refresh="1"></div></div></div></div></div></div>
+<div class="cm-product" aria-hidden="true"><div class="container"><div class="more-product-wrapper"><div class="ad-container-wrapper  dfp-ad-widget"><div id="ad662ae9ed0966e" class="ad no-ad-text" data-ad-slot-name="/homepage/cm_homepage_feature" data-ad-sizes="" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[1,1]],"tablet":[[1,1]],"desktop":[[1,1]],"large_screen":[[1,1]]}' data-ad-targeting='{"pos":"cm_homepage_feature"}' data-ad-exclude-header-bidding="1" data-ad-exclude-ad-refresh="1"></div></div></div></div></div></div>
 </section>
 <p>	<section class="slot-module">
 		<div class="container">
@@ -1850,7 +1850,7 @@ var tmbi_non_targeting_data = {"advertisement_word":"Advertisement"};
 	</main><!-- #primary -->
 
 	<div class="sticky-bottom-ad">
-		<div class="ad-container-wrapper  desktop-hide dfp-ad-widget"><div id="ad6629e41044320" class="ad " data-ad-slot-name="/homepage/oop" data-ad-sizes="" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[320,50],[300,50],[1,1]],"tablet":"","desktop":"","large_screen":""}' data-ad-targeting='{"pos":"oop","location":"oop","tf":"btf"}' data-ad-exclude-lazy-loading="1"></div></div>	</div>
+		<div class="ad-container-wrapper  desktop-hide dfp-ad-widget"><div id="ad662ae9ed52b42" class="ad " data-ad-slot-name="/homepage/oop" data-ad-sizes="" data-ad-threshold="100" data-ad-responsive-sizes='{"mobile":[[320,50],[300,50],[1,1]],"tablet":"","desktop":"","large_screen":""}' data-ad-targeting='{"pos":"oop","location":"oop","tf":"btf"}' data-ad-exclude-lazy-loading="1"></div></div>	</div>
 <footer class="footer">
 	<div class="container">
 			<div class="footer-left-container">
@@ -2211,5 +2211,5 @@ var logged_in_user_data = {"strings":{"logout":"Log Out"}};
 <li id="menu-item-677238" class="hide-if-logged-in login-class menu-item menu-item-type-custom menu-item-object-custom"><a data-analytics-metrics='{"name":"Log In \/ Join","module":"header","position":"main navigation"}' href="https://www.tasteofhome.com/my-account/">Log In / Join</a></li>
 <li id="menu-item-1589496" class="menu-item menu-item-type-custom menu-item-object-custom"><a data-analytics-metrics='{"name":"Recipe Box","module":"header","position":"main navigation"}' href="https://www.tasteofhome.com/recipe-box/">Recipe Box</a></li>
 </ul></div>	</div>
-<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'87a1d5cd69e478ec',t:'MTcxNDA4NDgzMC4zMzMwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+<script>(function(){if (!document.body) return;var js = "window['__CF$cv$params']={r:'87a80a2fbbaa2eef',t:'MTcxNDE0OTg5MC41NDUwMDA='};_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js',document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html>
