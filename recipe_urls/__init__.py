@@ -212,6 +212,7 @@ SCRAPERS = {
     Whole30Scraper.host(): Whole30Scraper
 }
 
+
 def scrape_urls(base_url: str) -> Optional[AbstractScraper]:
     
     try:
@@ -225,6 +226,7 @@ def scrape_urls(base_url: str) -> Optional[AbstractScraper]:
 
     except Exception as e:
         raise ValueError(f"Failed to scrape {base_url}. {str(e)}") from None
+
 
 def scrape_html(html: str, base_url: str | None = None) -> Optional[AbstractScraper]:
 
@@ -243,6 +245,7 @@ def scrape_html(html: str, base_url: str | None = None) -> Optional[AbstractScra
 
     except Exception as e:
         raise ValueError(f"Failed to scrape HTML content. {str(e)}") from None
+        
         
 __all__ = [
     'scrape_urls', 
