@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="taxonomyScTemplate_1-0" class="comp taxonomyScTemplate html mntl-html no-js taxlevel-2 taxlevel-2" data-ab="99,99,99,99,99,99,99,99,99,99,99" data-mm-transactional-resource-version="1.8.2" data-mm-ads-resource-version="1.2.41" data-foodandwine-resource-version="2.53.0" data-mantle-resource-version="4.0.300" data-mm-digital-issues-resource-version="1.18.2" lang="en" data-tracking-container="true" data-resource-version="2.53.0"><!--
+<html id="taxonomyScTemplate_1-0" class="comp taxonomyScTemplate html mntl-html no-js taxlevel-2 taxlevel-2" data-ab="99,99,99,99,99,99,99,99,99,99,99,99,99" data-mm-transactional-resource-version="1.8.2" data-mm-ads-resource-version="1.2.41" data-foodandwine-resource-version="2.53.0" data-mantle-resource-version="4.0.300" data-mm-digital-issues-resource-version="1.18.2" lang="en" data-tracking-container="true" data-resource-version="2.53.0"><!--
 <globe-environment environment="k8s-prod" application="foodandwine" dataCenter="us-west-1"/>
 -->
 <head class="loc head">
@@ -120,10 +120,10 @@ display: none;
 #onetrust-consent-sdk:not(.show-banner) #onetrust-banner-sdk {
 display: none;
 }</style>
-<script type="text/javascript" data-glb-js="top" src="/static/2.53.0/cache/eNp9klFuwyAMQC80xB02TfuqVE25AAEndUNwhk2r9vSDqFrTya0UIsJ72MbEsjhBb2eXJIL1NC-UIAnb6C5UxB65PsYfwE9v9lE-Nul6YbxCNSgNOP5Xbl8Re37UMQlkBi9ISYtLLkBQgCeaEFghRTCi6GxI5hUONL_kJ0iBspVDJqlLijHXiekzuGmherR7kJacKLgUzpjgeZZN4z3nYX0peZbSc-kV8LHb31cplAhrw7-79zaeIcnOT3XyeYJt0ZtzuUsP2u6vfdeGhkrCnwKGI4lpl6054vIIgmk07AaIyKJZ7I0LrJEMteICXau_RvlTNm2sO5s5LqL10Y1gTgjnF_cwyrz-cRH9ZOSW6RfzbDJ0.min.js"></script>
+<script type="text/javascript" data-glb-js="top" src="/static/2.53.0/cache/eNp9klFuwyAMQC80xB02TfuqVE29AAEndUNwhk2q9vSDqFrTya0UIsJ72NjBsjhBbyeXJIL1NM2UIAnb6C5UxJ64PsYfwY9v9lE-Nel6YbxCNSj1OPxXbl8RO37UMQlkBi9ISYtLLkBQgCcaEVghRTCi6KxP5hUONL3kC6RA2coxk9QlxZjqxHQZ3DhTLe0epCUnCi6FMyZ4nmXTeM-5X19Knrl0XDoFfOz291UKJcLa8O_DexvPkGTnxzr5XGB76E1d7tKBttuFHUhGz4cWArLmfO0PbWioJPwpYDiSmHYhNEdcHkAwDYZdDxFZNIu9cYE1kqFWVWA9YI3yp2xaXXc2c5hF67UbwCwI5xf_apBpvZUR_WjklukXNpxAIg.min.js"></script>
 <script type="text/javascript">
 window.Mntl = window.Mntl || {};
-window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('acd4c72ec627ab84653e32cc785e4dc7', true);(function() {
+window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('dfbae0eabefaf5ea2bbe250a9776168f', true);(function() {
 Mntl.utilities.onLoad(function() {
 const geolocationResponse = {};
 const externalJS = {
@@ -168,7 +168,7 @@ scriptTimeout: 3000
 window.Mntl = window.Mntl || {};
 Mntl.RTB = Mntl.RTB || {};
 Mntl.RTB.setUseConsentManagement(true);
-Mntl.RTB.setUseLiveRamp(false);
+Mntl.RTB.setUseLiveRamp(true);
 Mntl.RTB.setUseGDPREnforcement(false);
 Mntl.RTB.setUseXandrS2S(false);
 Mntl.RTB.setUserIdAuctionDelay(500);
@@ -178,7 +178,7 @@ Mntl.RTB.Plugins.amazon.amazonConfigs = {"mapTaxValues":{"tax1":"faw_food","tax2
 Mntl.RTB.Plugins.prebid.setPriceGranularity({"buckets":[{"max":"20","increment":"0.05"},{"max":"70","increment":"1"}]});
 Mntl.RTB.initVideoBidders([{ type: 'amazon', id: '3446' }, { type: 'prebid', id: 'true' } ]);
 Mntl.RTB.initDisplayAndOutstreamBidders([{ type: "amazon", id: '3446'},{ type: "msg", id: 'true'},{ type: "ixid", id: 'true'},{ type: "prebid", id: 'true'}]);
-Mntl.RTB.Plugins.prebid.setConfig({"leaderboardac\/tier3":[{"bidder":"appnexus","params":{"placementId":"21060414","type":"display"}},{"bidder":"ix","params":{"siteId":"1005851","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479300","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21978","useNewFormat":true,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441344","type":"display"}}],"square-fixed\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479303","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441346","type":"display"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}},{"bidder":"trustx","params":{"uid":"21981","useNewFormat":true,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060417","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}}],"leaderboard-fixed\/tier2":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441338","type":"display"}},{"bidder":"ix","params":{"siteId":"1005849","type":"display"}},{"bidder":"trustx","params":{"uid":"21973","useNewFormat":true,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060408","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479295","type":"display"}}],"square-fixed\/tier2":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060418","type":"display"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479304","type":"display"}},{"bidder":"trustx","params":{"uid":"21982","useNewFormat":true,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441348","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}}],"leaderboard-fixed\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441336","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060407","type":"display"}},{"bidder":"trustx","params":{"uid":"21972","useNewFormat":true,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005849","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479294","type":"display"}}],"leaderboardac\/tier2":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441342","type":"display"}},{"bidder":"ix","params":{"siteId":"1005851","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060411","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21975","useNewFormat":true,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479297","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}}],"square-fixed\/tier3":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060419","type":"display"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441350","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479305","type":"display"}},{"bidder":"trustx","params":{"uid":"21983","useNewFormat":true,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}}],"preroll":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441358","type":"instream"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479313","type":"instream"}},{"bidder":"trustx","params":{"uid":"22481","useNewFormat":true,"type":"instream"}},{"bidder":"ix","params":{"siteId":"1005855","type":"instream"}},{"bidder":"appnexus","params":{"placementId":"21060428","type":"instream"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"instream"}},{"bidder":"roundel","params":{"siteId":578566,"type":"instream"}},{"bidder":"criteo","params":{"networkId":7764,"type":"instream"}}],"square-fixed\/tier4":[{"bidder":"appnexus","params":{"placementId":"21060420","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441352","type":"display"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479306","type":"display"}},{"bidder":"trustx","params":{"uid":"21984","useNewFormat":true,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}}],"leaderboard-fixed\/tier3":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479296","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060409","type":"display"}},{"bidder":"trustx","params":{"uid":"21974","useNewFormat":true,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005849","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441340","type":"display"}}],"leaderboardfooter-flex\/tier2":[{"bidder":"appnexus","params":{"placementId":"21060414","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441344","type":"display"}},{"bidder":"ix","params":{"siteId":"1005852","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479300","type":"display"}},{"bidder":"trustx","params":{"uid":"21978","useNewFormat":true,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}}],"leaderboardfooter-flex\/tier1":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"trustx","params":{"uid":"21975","useNewFormat":true,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441342","type":"display"}},{"bidder":"ix","params":{"siteId":"1005852","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479297","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060411","type":"display"}}],"leaderboardfooter-flex\/tier4":[{"bidder":"appnexus","params":{"placementId":"21060414","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441344","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005852","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479300","type":"display"}},{"bidder":"trustx","params":{"uid":"21978","useNewFormat":true,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}}],"leaderboardfooter-flex\/tier3":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"trustx","params":{"uid":"21975","useNewFormat":true,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441342","type":"display"}},{"bidder":"ix","params":{"siteId":"1005852","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479297","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060411","type":"display"}}],"square-flex\/tier1":[{"bidder":"trustx","params":{"uid":"21985","useNewFormat":true,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060421","type":"display"}},{"bidder":"ix","params":{"siteId":"1005854","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479307","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441354","type":"display"}}],"square-flex\/tier2":[{"bidder":"appnexus","params":{"placementId":"21060425","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441356","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479310","type":"display"}},{"bidder":"ix","params":{"siteId":"1005854","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21988","useNewFormat":true,"type":"display"}}],"leaderboard-flex\/tier2":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441344","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060414","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005850","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479300","type":"display"}},{"bidder":"trustx","params":{"uid":"21978","useNewFormat":true,"type":"display"}}],"leaderboard-flex\/tier1":[{"bidder":"trustx","params":{"uid":"21975","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060411","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441342","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479297","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005850","type":"display"}}]});
+Mntl.RTB.Plugins.prebid.setConfig({"leaderboardac\/tier3":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441344","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060414","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21978","useNewFormat":true,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005851","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479300","type":"display"}}],"leaderboard-fixed\/tier2":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479295","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441338","type":"display"}},{"bidder":"ix","params":{"siteId":"1005849","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21973","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060408","type":"display"}}],"square-fixed\/tier1":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060417","type":"display"}},{"bidder":"trustx","params":{"uid":"21981","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441346","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479303","type":"display"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}}],"leaderboardac\/tier2":[{"bidder":"trustx","params":{"uid":"21975","useNewFormat":true,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479297","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060411","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441342","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005851","type":"display"}}],"leaderboard-fixed\/tier1":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479294","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005849","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060407","type":"display"}},{"bidder":"trustx","params":{"uid":"21972","useNewFormat":true,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441336","type":"display"}}],"square-fixed\/tier2":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441348","type":"display"}},{"bidder":"trustx","params":{"uid":"21982","useNewFormat":true,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479304","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060418","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}}],"square-fixed\/tier3":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479305","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441350","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21983","useNewFormat":true,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060419","type":"display"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}}],"leaderboard-fixed\/tier3":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441340","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"trustx","params":{"uid":"21974","useNewFormat":true,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479296","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005849","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060409","type":"display"}}],"square-fixed\/tier4":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479306","type":"display"}},{"bidder":"trustx","params":{"uid":"21984","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441352","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060420","type":"display"}},{"bidder":"ix","params":{"siteId":"1005853","type":"display"}}],"preroll":[{"bidder":"criteo","params":{"networkId":7764,"type":"instream"}},{"bidder":"trustx","params":{"uid":"22481","useNewFormat":true,"type":"instream"}},{"bidder":"ix","params":{"siteId":"1005855","type":"instream"}},{"bidder":"appnexus","params":{"placementId":"21060428","type":"instream"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479313","type":"instream"}},{"bidder":"roundel","params":{"siteId":578566,"type":"instream"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"instream"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441358","type":"instream"}}],"leaderboardfooter-flex\/tier2":[{"bidder":"ix","params":{"siteId":"1005852","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479300","type":"display"}},{"bidder":"trustx","params":{"uid":"21978","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060414","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441344","type":"display"}}],"leaderboardfooter-flex\/tier1":[{"bidder":"ix","params":{"siteId":"1005852","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479297","type":"display"}},{"bidder":"trustx","params":{"uid":"21975","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060411","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441342","type":"display"}}],"leaderboardfooter-flex\/tier4":[{"bidder":"ix","params":{"siteId":"1005852","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479300","type":"display"}},{"bidder":"trustx","params":{"uid":"21978","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060414","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441344","type":"display"}}],"leaderboardfooter-flex\/tier3":[{"bidder":"ix","params":{"siteId":"1005852","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479297","type":"display"}},{"bidder":"trustx","params":{"uid":"21975","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060411","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441342","type":"display"}}],"square-flex\/tier1":[{"bidder":"ix","params":{"siteId":"1005854","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479307","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441354","type":"display"}},{"bidder":"trustx","params":{"uid":"21985","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060421","type":"display"}}],"square-flex\/tier2":[{"bidder":"ix","params":{"siteId":"1005854","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"trustx","params":{"uid":"21988","useNewFormat":true,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479310","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441356","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060425","type":"display"}}],"leaderboard-flex\/tier2":[{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"trustx","params":{"uid":"21978","useNewFormat":true,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441344","type":"display"}},{"bidder":"ix","params":{"siteId":"1005850","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479300","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060414","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}}],"leaderboard-flex\/tier1":[{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3479297","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426748","zoneId":"2441342","type":"display"}},{"bidder":"ix","params":{"siteId":"1005850","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21975","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060411","type":"display"}}]});
 Mntl.RTB.Plugins.prebid.setUserIdConfig({"liveIntentPublisherId":"45726"});
 Mntl.RTB.setLatencyBuffer(0);
 (function(){
@@ -186,9 +186,9 @@ const pageTargeting = {
 customSeries: ''
 ,abtest: 'lcid1'
 ,tax0: 'Food &amp; Wine'
-,rid: 'ne8c9b73fbc99419ca33b4bff3e69ee5116'
+,rid: 'n8495b94d5f9e4c6783827da401ce522516'
 ,custom: ''
-,sid: 'ne8c9b73fbc99419ca33b4bff3e69ee5116'
+,sid: 'n8495b94d5f9e4c6783827da401ce522516'
 }
 ;
 const baseSlotTargeting = {
@@ -245,7 +245,7 @@ domain: 'www.foodandwine.com',
 templateName: 'taxonomysc',
 isMobile: false,
 dfpId: '3865',
-publisherProvidedId: '5146f24c-ed25-4430-916f-8d56a5d29271',
+publisherProvidedId: 'f8a2536f-d7f5-485a-a272-11af1099f783',
 singleRequest: false,
 useLmdFormat: true,
 useOxygen: true,
@@ -271,7 +271,7 @@ displayOnConsent: true,
 adsToCollapse: ['leaderboard*','square*']
 };
 if (Mntl.AdMetrics) {
-Mntl.AdMetrics.init("6399886", "ne8c9b73fbc99419ca33b4bff3e69ee5116", initialSlots.map(slot => slot.config.id), Date.now());
+Mntl.AdMetrics.init("6399886", "n8495b94d5f9e4c6783827da401ce522516", initialSlots.map(slot => slot.config.id), Date.now());
 } else {
 Mntl.AdMetrics = { pushMetrics: () => {} };
 }
@@ -315,25 +315,31 @@ event: 'ab-proctor',
 : "useFloorSearch | active | search API flooring system | 1"
 ,
 "99-4"
-: "prebidVideoUsePlcmt | active | Pass plcmt | 1"
-,
-"99-5"
 : "fiftyPercentAdRefresh | active | Ads refresh when 50% in view | 1"
 ,
-"99-6"
+"99-5"
 : "useConsentManagement | noEnforcement | use Consent Management Module with no enforcement | 1"
 ,
-"99-7"
-: "scAdsScript | active | Sc-ads.js is loaded in mantle inside listScCommerceTemplates. Sc-ads.js stops loading through commerce | 1"
-,
-"99-8"
+"99-6"
 : "recipescDesktopAdRefresh | active | active, right rail ads timed refresh active | 1"
 ,
-"99-9"
+"99-7"
 : "gamVideoUsePlcmt | active | Pass plcmt | 1"
 ,
-"99-10"
+"99-8"
 : "liveIntentConnectedIdTest | control | LiveIntent ConnectedID is enabled | 0"
+,
+"99-9"
+: "orion | active | Active | 1"
+,
+"99-10"
+: "prebidVideoUsePlcmt | active | Pass plcmt | 1"
+,
+"99-11"
+: "useLiveRamp | active | active | 1"
+,
+"99-12"
+: "scAdsScript | active | Sc-ads.js is loaded in mantle inside listScCommerceTemplates. Sc-ads.js stops loading through commerce | 1"
 }
 });
 window.dataLayer.push({
@@ -413,7 +419,7 @@ window.addEventListener(event[0], event[1], { once: true });
 });
 })(Mntl.fnUtilities || {}, Mntl.CMP);window.dataLayer = window.dataLayer || [];
 (function() {
-var pageViewDataAsJSON = {"country":"US","description":"Whether you&#39;re looking for easy weeknight recipes, seasonal dishes, vegetarian recipes, or gourmet classics, our guide to recipes has you covered from breakfast through dessert (and plenty in between).","title":"Food & Wine Tested Recipes" || document.title || '',"viewType":"LANDING","authorId":"156569","templateName":"TAXONOMYSC","contentGroup":"Other","revenueGroup":"","documentId":6399886,"authorNames":"Food & Wine Editors","templateId":"140","muid":"5146f24c-ed25-4430-916f-8d56a5d29271","lastEditingAuthorId":"251546","lastEditingUserId":"165816105477097","fullUrl":"https://www.foodandwine.com/recipes" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"ne8c9b73fbc99419ca33b4bff3e69ee5116","internalRequestId":"ne8c9b73fbc99419ca33b4bff3e69ee5116","hid":"","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.0.300","commerceVersion":"","primaryTaxonomyIds":"6361217|7499700|6399886","primaryTaxonomyNames":"Food &amp; Wine|Food|Recipes"};
+var pageViewDataAsJSON = {"country":"US","description":"Whether you&#39;re looking for easy weeknight recipes, seasonal dishes, vegetarian recipes, or gourmet classics, our guide to recipes has you covered from breakfast through dessert (and plenty in between).","title":"Food & Wine Tested Recipes" || document.title || '',"viewType":"LANDING","authorId":"156569","contentGroup":"Other","revenueGroup":"","templateName":"TAXONOMYSC","documentId":6399886,"authorNames":"Food & Wine Editors","templateId":"140","muid":"f8a2536f-d7f5-485a-a272-11af1099f783","lastEditingAuthorId":"251546","lastEditingUserId":"165816105477097","fullUrl":"https://www.foodandwine.com/recipes" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n8495b94d5f9e4c6783827da401ce522516","internalRequestId":"n8495b94d5f9e4c6783827da401ce522516","hid":"","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.0.300","commerceVersion":"","primaryTaxonomyIds":"6361217|7499700|6399886","primaryTaxonomyNames":"Food &amp; Wine|Food|Recipes"};
 var scrolledPageData = {};
 var scrolledDocOrdinal;
 var scrolledPage;
@@ -465,379 +471,379 @@ Mntl.PageView.init(pageViewDataAsJSON);
 {
 "@type": "ListItem"
 ,"position": 1
-,"url": "https://www.foodandwine.com/oxtail-soup-8639619"
+,"url": "https://www.foodandwine.com/potato-soup-recipes-8639059"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 2
-,"url": "https://www.foodandwine.com/asparagus-salad-with-smoky-sweet-gremolata-8635521"
+,"url": "https://www.foodandwine.com/oxtail-soup-8639619"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 3
-,"url": "https://www.foodandwine.com/crab-omelet-8633423"
+,"url": "https://www.foodandwine.com/asparagus-salad-with-smoky-sweet-gremolata-8635521"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 4
-,"url": "https://www.foodandwine.com/mandu-8639320"
+,"url": "https://www.foodandwine.com/crab-omelet-8633423"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 5
-,"url": "https://www.foodandwine.com/gluten-free-recipes-8638743"
+,"url": "https://www.foodandwine.com/mandu-8639320"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 6
-,"url": "https://www.foodandwine.com/sweet-and-sour-glazed-carrots-8635505"
+,"url": "https://www.foodandwine.com/gluten-free-recipes-8638743"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 7
-,"url": "https://www.foodandwine.com/burgoo-8639155"
+,"url": "https://www.foodandwine.com/sweet-and-sour-glazed-carrots-8635505"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 8
-,"url": "https://www.foodandwine.com/carrots-with-whipped-feta-8631428"
+,"url": "https://www.foodandwine.com/burgoo-8639155"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 9
-,"url": "https://www.foodandwine.com/chicken-bone-broth-8638822"
+,"url": "https://www.foodandwine.com/carrots-with-whipped-feta-8631428"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 10
-,"url": "https://www.foodandwine.com/eggplant-parmesan-sandwiches-8638598"
+,"url": "https://www.foodandwine.com/chicken-bone-broth-8638822"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 11
-,"url": "https://www.foodandwine.com/grilled-steak-recipes-8637788"
+,"url": "https://www.foodandwine.com/eggplant-parmesan-sandwiches-8638598"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 12
-,"url": "https://www.foodandwine.com/bourbon-balls-8638117"
+,"url": "https://www.foodandwine.com/grilled-steak-recipes-8637788"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 13
-,"url": "https://www.foodandwine.com/collard-greens-recipes-8634518"
+,"url": "https://www.foodandwine.com/bourbon-balls-8638117"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 14
-,"url": "https://www.foodandwine.com/carne-adovada-8637796"
+,"url": "https://www.foodandwine.com/collard-greens-recipes-8634518"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 15
-,"url": "https://www.foodandwine.com/weeknight-chicken-pot-pie-8633466"
+,"url": "https://www.foodandwine.com/carne-adovada-8637796"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 16
-,"url": "https://www.foodandwine.com/blue-crab-recipes-8637152"
+,"url": "https://www.foodandwine.com/weeknight-chicken-pot-pie-8633466"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 17
-,"url": "https://www.foodandwine.com/yu-choy-with-garlic-sauce-8634742"
+,"url": "https://www.foodandwine.com/blue-crab-recipes-8637152"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 18
-,"url": "https://www.foodandwine.com/green-goddess-pasta-salad-8636030"
+,"url": "https://www.foodandwine.com/yu-choy-with-garlic-sauce-8634742"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 19
-,"url": "https://www.foodandwine.com/chicken-tortellini-alfredo-8635773"
+,"url": "https://www.foodandwine.com/green-goddess-pasta-salad-8636030"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 20
-,"url": "https://www.foodandwine.com/fried-pickle-dip-8635375"
+,"url": "https://www.foodandwine.com/chicken-tortellini-alfredo-8635773"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 21
-,"url": "https://www.foodandwine.com/iraqi-jewish-food-8546993"
+,"url": "https://www.foodandwine.com/fried-pickle-dip-8635375"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 22
-,"url": "https://www.foodandwine.com/bamya-recipe-stewed-okra-8546971"
+,"url": "https://www.foodandwine.com/iraqi-jewish-food-8546993"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 23
-,"url": "https://www.foodandwine.com/tbeet-recipe-8431758"
+,"url": "https://www.foodandwine.com/bamya-recipe-stewed-okra-8546971"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 24
-,"url": "https://www.foodandwine.com/iraqi-kubba-8546415"
+,"url": "https://www.foodandwine.com/tbeet-recipe-8431758"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 25
-,"url": "https://www.foodandwine.com/mhasha-stuffed-vegetables-8431271"
+,"url": "https://www.foodandwine.com/iraqi-kubba-8546415"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 26
-,"url": "https://www.foodandwine.com/walnut-baklava-8546975"
+,"url": "https://www.foodandwine.com/mhasha-stuffed-vegetables-8431271"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 27
-,"url": "https://www.foodandwine.com/quiche-recipes-8634046"
+,"url": "https://www.foodandwine.com/walnut-baklava-8546975"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 28
-,"url": "https://www.foodandwine.com/ramp-recipes-8624595"
+,"url": "https://www.foodandwine.com/quiche-recipes-8634046"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 29
-,"url": "https://www.foodandwine.com/whipped-feta-dips-8630668"
+,"url": "https://www.foodandwine.com/ramp-recipes-8624595"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 30
-,"url": "https://www.foodandwine.com/shrimp-fra-diavolo-8630771"
+,"url": "https://www.foodandwine.com/whipped-feta-dips-8630668"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 31
-,"url": "https://www.foodandwine.com/red-pepper-feta-dip-8630484"
+,"url": "https://www.foodandwine.com/shrimp-fra-diavolo-8630771"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 32
-,"url": "https://www.foodandwine.com/lobster-pasta-with-corn-and-tomatoes-8630264"
+,"url": "https://www.foodandwine.com/red-pepper-feta-dip-8630484"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 33
-,"url": "https://www.foodandwine.com/hanetsuki-gyoza-8630156"
+,"url": "https://www.foodandwine.com/lobster-pasta-with-corn-and-tomatoes-8630264"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 34
-,"url": "https://www.foodandwine.com/chocolate-chess-pie-8630137"
+,"url": "https://www.foodandwine.com/hanetsuki-gyoza-8630156"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 35
-,"url": "https://www.foodandwine.com/chicken-caesar-wrap-8629671"
+,"url": "https://www.foodandwine.com/chocolate-chess-pie-8630137"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 36
-,"url": "https://www.foodandwine.com/dolmas-8629581"
+,"url": "https://www.foodandwine.com/chicken-caesar-wrap-8629671"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 37
-,"url": "https://www.foodandwine.com/chess-pie-8629016"
+,"url": "https://www.foodandwine.com/dolmas-8629581"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 38
-,"url": "https://www.foodandwine.com/bannock-8628342"
+,"url": "https://www.foodandwine.com/chess-pie-8629016"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 39
-,"url": "https://www.foodandwine.com/english-muffin-bread-8627577"
+,"url": "https://www.foodandwine.com/bannock-8628342"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 40
-,"url": "https://www.foodandwine.com/clams-casino-8624915"
+,"url": "https://www.foodandwine.com/english-muffin-bread-8627577"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 41
-,"url": "https://www.foodandwine.com/pasta-e-ceci-8624315"
+,"url": "https://www.foodandwine.com/clams-casino-8624915"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 42
-,"url": "https://www.foodandwine.com/spanikopita-pie-8624306"
+,"url": "https://www.foodandwine.com/pasta-e-ceci-8624315"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 43
-,"url": "https://www.foodandwine.com/gyro-recipe-8624179"
+,"url": "https://www.foodandwine.com/spanikopita-pie-8624306"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 44
-,"url": "https://www.foodandwine.com/seafood-lasagna-8623653"
+,"url": "https://www.foodandwine.com/gyro-recipe-8624179"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 45
-,"url": "https://www.foodandwine.com/espresso-martini-pie-8623091"
+,"url": "https://www.foodandwine.com/seafood-lasagna-8623653"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 46
-,"url": "https://www.foodandwine.com/spinach-lasagna-8622852"
+,"url": "https://www.foodandwine.com/espresso-martini-pie-8623091"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 47
-,"url": "https://www.foodandwine.com/cheesy-masala-corn-pizza-8609061"
+,"url": "https://www.foodandwine.com/spinach-lasagna-8622852"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 48
-,"url": "https://www.foodandwine.com/basic-indian-pizza-dough-8608816"
+,"url": "https://www.foodandwine.com/cheesy-masala-corn-pizza-8609061"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 49
-,"url": "https://www.foodandwine.com/achari-paneer-pizza-8609056"
+,"url": "https://www.foodandwine.com/basic-indian-pizza-dough-8608816"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 50
-,"url": "https://www.foodandwine.com/five-ingredient-recipes-8621623"
+,"url": "https://www.foodandwine.com/achari-paneer-pizza-8609056"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 51
-,"url": "https://www.foodandwine.com/skillet-lasagna-8622275"
+,"url": "https://www.foodandwine.com/five-ingredient-recipes-8621623"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 52
-,"url": "https://www.foodandwine.com/porchetta-8622167"
+,"url": "https://www.foodandwine.com/skillet-lasagna-8622275"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 53
-,"url": "https://www.foodandwine.com/easy-soy-sauce-ramen-8621688"
+,"url": "https://www.foodandwine.com/porchetta-8622167"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 54
-,"url": "https://www.foodandwine.com/steak-au-poivre-pasta-8621647"
+,"url": "https://www.foodandwine.com/easy-soy-sauce-ramen-8621688"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 55
-,"url": "https://www.foodandwine.com/proposal-chicken-parmesan-8621589"
+,"url": "https://www.foodandwine.com/steak-au-poivre-pasta-8621647"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 56
-,"url": "https://www.foodandwine.com/pie-bar-recipes-8621171"
+,"url": "https://www.foodandwine.com/proposal-chicken-parmesan-8621589"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 57
-,"url": "https://www.foodandwine.com/pumpkin-puree-recipes-8620969"
+,"url": "https://www.foodandwine.com/pie-bar-recipes-8621171"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 58
-,"url": "https://www.foodandwine.com/sauteed-ramps-8601282"
+,"url": "https://www.foodandwine.com/pumpkin-puree-recipes-8620969"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 59
-,"url": "https://www.foodandwine.com/dirty-martini-dip-8620589"
+,"url": "https://www.foodandwine.com/sauteed-ramps-8601282"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 60
-,"url": "https://www.foodandwine.com/zucchini-risotto-with-shrimp-8609524"
+,"url": "https://www.foodandwine.com/dirty-martini-dip-8620589"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 61
-,"url": "https://www.foodandwine.com/vegetarian-cassoulet-8603660"
+,"url": "https://www.foodandwine.com/zucchini-risotto-with-shrimp-8609524"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 62
-,"url": "https://www.foodandwine.com/tuscan-gnocchi-8609520"
+,"url": "https://www.foodandwine.com/vegetarian-cassoulet-8603660"
 }
 ,
 {
 "@type": "ListItem"
 ,"position": 63
-,"url": "https://www.foodandwine.com/cashew-chicken-8603663"
+,"url": "https://www.foodandwine.com/tuscan-gnocchi-8609520"
 }
 ,
 {
@@ -3805,7 +3811,34 @@ alt="Crispy Snacking Okra"
 <div class="card__byline mntl-card__byline " data-byline="By Ari Miller"></div>
 <div id="card__description_32-0" class="comp card__description mntl-block type--rabbit" data-card-description="Ari Miller's crispy okra recipe roasts okra pods with fresh citrus juice, herbs, and flaky sea salt. Roast okra in the oven before charring in a cast-iron skillet for a crunchy result you can eat by hand."></div> </div>
 </a></div></div></div><div class="loc fixedContent"><section id="mntl-document-spotlight_1-0" class="comp mntl-document-spotlight mntl-three-post--taxsc mntl-three-post mntl-block" data-tracking-container="true"><h2 id="mntl-three-post__title_1-0" class="comp mntl-three-post__title mntl-text-block type--giraffe">Explore Recipes</h2>
-<div id="mntl-three-post__inner_1-0" class="comp mntl-three-post__inner mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_41-0" class="comp mntl-card-list-items mntl-document-card mntl-card card--image-top card card--no-image" data-doc-id="8639619" data-tax-levels href="https://www.foodandwine.com/oxtail-soup-8639619" data-ordinal="1">
+<div id="mntl-three-post__inner_1-0" class="comp mntl-three-post__inner mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_41-0" class="comp mntl-card-list-items mntl-document-card mntl-card card--image-top card card--no-image" data-doc-id="8639059" data-tax-levels href="https://www.foodandwine.com/potato-soup-recipes-8639059" data-ordinal="1">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.4%;">
+<img
+data-src="https://www.foodandwine.com/thmb/4UoQOAcyiF0Yb3ZrbQncIzJpC1k=/364x242/filters:no_upscale():max_bytes(150000):strip_icc()/Silken-Turnip-and-Potato-Soup-FT-RECIPE1123-0f75a0df77bd45a4b3e1c1d2c2e3603a.jpg"
+width="364"
+height="242"
+alt="Silken Turnip and Potato Soup"
+class="lazyload card__img universal-image__image"
+data-expand="300"
+/>
+<noscript>
+<img
+src="https://www.foodandwine.com/thmb/4UoQOAcyiF0Yb3ZrbQncIzJpC1k=/364x242/filters:no_upscale():max_bytes(150000):strip_icc()/Silken-Turnip-and-Potato-Soup-FT-RECIPE1123-0f75a0df77bd45a4b3e1c1d2c2e3603a.jpg"
+width="364"
+height="242"
+class="img--noscript card__img universal-image__image"
+alt="Silken Turnip and Potato Soup"
+/>
+</noscript>
+</div></div>
+</div>
+<div class="card__content " data-tag="Potatoes">
+<div class="card__header"></div>
+<span class="card__title"><span class="card__title-text ">12 Potato Soup Recipes With Broccoli, Cheddar, Dashi, and More</span></span>
+<div class="card__byline mntl-card__byline " data-byline="By Ashley Day"></div>
+</div>
+</a>
+<a id="mntl-card-list-items_42-0" class="comp mntl-card-list-items mntl-document-card mntl-card card--image-top card card--no-image" data-doc-id="8639619" data-tax-levels href="https://www.foodandwine.com/oxtail-soup-8639619" data-ordinal="2">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.4%;">
 <img
 data-src="https://www.foodandwine.com/thmb/WNGU5qYJYUGM3aPtn1Mom6cZWao=/364x242/filters:no_upscale():max_bytes(150000):strip_icc()/Oxtail-soup-FT-RECIPE0424-001136ec7bf249fa92aa72cb2f220bcd.jpeg"
@@ -3831,6 +3864,28 @@ alt="Oxtail Soup"
 <span class="card__title"><span class="card__title-text ">Oxtail Soup</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Liz Mervosh"></div>
 <div id="mntl-recipe-card-meta_11-0" class="comp mntl-recipe-card-meta">
+<div id="mntl-recipe-star-rating_8-0" class="comp mntl-recipe-star-rating">
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+</div>
 <div class="mntl-recipe-card-meta__time">
 <svg class="icon icon-time "
 >
@@ -3842,7 +3897,7 @@ alt="Oxtail Soup"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_42-0" class="comp mntl-card-list-items mntl-document-card mntl-card card--image-top card card--no-image" data-doc-id="8635521" data-tax-levels href="https://www.foodandwine.com/asparagus-salad-with-smoky-sweet-gremolata-8635521" data-ordinal="2">
+<a id="mntl-card-list-items_43-0" class="comp mntl-card-list-items mntl-document-card mntl-card card--image-top card card--no-image" data-doc-id="8635521" data-tax-levels href="https://www.foodandwine.com/asparagus-salad-with-smoky-sweet-gremolata-8635521" data-ordinal="3">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.4%;">
 <img
 data-src="https://www.foodandwine.com/thmb/qPczzKrbxNWFYdFC-4nEJpLYOCo=/364x242/filters:no_upscale():max_bytes(150000):strip_icc()/Asparagus-Salad-with-Smoky-Sweet-Gremolata-FT-MAG-RECIPE-0424-34b3b14b5bbf459d8df2d14d4a0d104f.jpg"
@@ -3878,22 +3933,26 @@ alt="Asparagus Salad with Smoky- Sweet Gremolata"
 </span>
 </div>
 </div> </div>
-</a>
-<a id="mntl-card-list-items_43-0" class="comp mntl-card-list-items mntl-document-card mntl-card card--image-top card card--no-image" data-doc-id="8633423" data-tax-levels href="https://www.foodandwine.com/crab-omelet-8633423" data-ordinal="3">
-<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.4%;">
+</a></div>
+<div id="foodandwine-leaderboard-fixed-lazy_1-0" class="comp foodandwine-leaderboard-fixed-lazy mm-ads-leaderboard-fixed-lazy mm-ads-leaderboard-fixed mm-ads-gpt-adunit has-right-label leaderboard js-lazy-ad gpt leaderboard dynamic">
+<div id="leaderboard-fixed" class="wrapper"
+data-type="leaderboard" data-pos="atf" data-priority="99" data-sizes="[[728, 90]]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></section>
+<div id="mntl-taxonomysc-article-list-group_1-0" class="comp mntl-taxonomysc-article-list-group mntl-block"><div id="tax-sc__recirc-list-container_1-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_1-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_44-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8633423" data-tax-levels href="https://www.foodandwine.com/crab-omelet-8633423" data-ordinal="1">
+<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
-data-src="https://www.foodandwine.com/thmb/xpFqFfj_3ATOXlhbxEbiy1Qt3uI=/364x242/filters:no_upscale():max_bytes(150000):strip_icc()/Crab-Omelet-FT-MAG-RECIPE-0524-6de775d54fe44eebbff0efd90ae5e072.jpg"
-width="364"
-height="242"
+data-src="https://www.foodandwine.com/thmb/zi86JrLY2NyqZRlcL5EXq-qhk6k=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Crab-Omelet-FT-MAG-RECIPE-0524-6de775d54fe44eebbff0efd90ae5e072.jpg"
+width="282"
+height="188"
 alt="Crab Omelet"
 class="lazyload card__img universal-image__image"
 data-expand="300"
 />
 <noscript>
 <img
-src="https://www.foodandwine.com/thmb/xpFqFfj_3ATOXlhbxEbiy1Qt3uI=/364x242/filters:no_upscale():max_bytes(150000):strip_icc()/Crab-Omelet-FT-MAG-RECIPE-0524-6de775d54fe44eebbff0efd90ae5e072.jpg"
-width="364"
-height="242"
+src="https://www.foodandwine.com/thmb/zi86JrLY2NyqZRlcL5EXq-qhk6k=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Crab-Omelet-FT-MAG-RECIPE-0524-6de775d54fe44eebbff0efd90ae5e072.jpg"
+width="282"
+height="188"
 class="img--noscript card__img universal-image__image"
 alt="Crab Omelet"
 />
@@ -3915,12 +3974,8 @@ alt="Crab Omelet"
 </span>
 </div>
 </div> </div>
-</a></div>
-<div id="foodandwine-leaderboard-fixed-lazy_1-0" class="comp foodandwine-leaderboard-fixed-lazy mm-ads-leaderboard-fixed-lazy mm-ads-leaderboard-fixed mm-ads-gpt-adunit has-right-label leaderboard js-lazy-ad gpt leaderboard dynamic">
-<div id="leaderboard-fixed" class="wrapper"
-data-type="leaderboard" data-pos="atf" data-priority="99" data-sizes="[[728, 90]]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
-</div></section>
-<div id="mntl-taxonomysc-article-list-group_1-0" class="comp mntl-taxonomysc-article-list-group mntl-block"><div id="tax-sc__recirc-list-container_1-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_1-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_44-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8639320" data-tax-levels href="https://www.foodandwine.com/mandu-8639320" data-ordinal="1">
+</a>
+<a id="mntl-card-list-items_45-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8639320" data-tax-levels href="https://www.foodandwine.com/mandu-8639320" data-ordinal="2">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/8lKBfeeH0kbhecdFvoMsfRydzKg=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Mandu-FT-RECIPE-0424-78ff8542e33a488abef00e011e7a63c4.jpg"
@@ -3946,6 +4001,28 @@ alt="Mandu"
 <span class="card__title"><span class="card__title-text ">Mandu</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Beverly Kim"></div>
 <div id="mntl-recipe-card-meta_14-0" class="comp mntl-recipe-card-meta">
+<div id="mntl-recipe-star-rating_9-0" class="comp mntl-recipe-star-rating">
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+</div>
 <div class="mntl-recipe-card-meta__time">
 <svg class="icon icon-time "
 >
@@ -3957,7 +4034,7 @@ alt="Mandu"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_45-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8638743" data-tax-levels href="https://www.foodandwine.com/gluten-free-recipes-8638743" data-ordinal="2">
+<a id="mntl-card-list-items_46-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8638743" data-tax-levels href="https://www.foodandwine.com/gluten-free-recipes-8638743" data-ordinal="3">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/c33EFtQz4vq5v67UHzVUa_iWgNM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Cha-Kroeung-FT-RECIPE1023-8be2a71ebdaa4813976d04961bdf790f.jpg"
@@ -3984,7 +4061,7 @@ alt="Cha Kroeung (Khmer Chicken Stir-Fry)"
 <div class="card__byline mntl-card__byline " data-byline="By Jodie Kautzmann"></div>
 </div>
 </a>
-<a id="mntl-card-list-items_46-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8635505" data-tax-levels href="https://www.foodandwine.com/sweet-and-sour-glazed-carrots-8635505" data-ordinal="3">
+<a id="mntl-card-list-items_47-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8635505" data-tax-levels href="https://www.foodandwine.com/sweet-and-sour-glazed-carrots-8635505" data-ordinal="4">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/IAarzG7b9FwVnv_LN-EXaL3vjwY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Sweet-and-Sour-Glazed-Carrots-FT-MAG-RECIPE-0424-1cefa122ba574b59acb3e4ca1e0dde97.jpg"
@@ -4021,7 +4098,7 @@ alt="Sweet-and-Sour Glazed Carrots"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_47-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8639155" data-tax-levels href="https://www.foodandwine.com/burgoo-8639155" data-ordinal="4">
+<a id="mntl-card-list-items_48-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8639155" data-tax-levels href="https://www.foodandwine.com/burgoo-8639155" data-ordinal="5">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/1xHz03XgZhoZEKUNa8EmpgKSD5s=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Burgoo-FT-RECIPE0424-6c7106008e33453593817bcd0fe41c4f.jpg"
@@ -4047,7 +4124,7 @@ alt="Burgoo"
 <span class="card__title"><span class="card__title-text ">Burgoo</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Liz Mervosh"></div>
 <div id="mntl-recipe-card-meta_16-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_8-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_10-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -4080,7 +4157,7 @@ alt="Burgoo"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_48-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8631428" data-tax-levels href="https://www.foodandwine.com/carrots-with-whipped-feta-8631428" data-ordinal="5">
+<a id="mntl-card-list-items_49-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8631428" data-tax-levels href="https://www.foodandwine.com/carrots-with-whipped-feta-8631428" data-ordinal="6">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/ltsWrPnl9wAYdB7q1SySjk1JQpM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Spiced-Carrot-Spread-FT-MAG-RECIPE-0524-19ad56bfc4ff42af978d263be3893c4a.jpg"
@@ -4117,7 +4194,7 @@ alt="Spiced Carrot Spread"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_49-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8638822" data-tax-levels href="https://www.foodandwine.com/chicken-bone-broth-8638822" data-ordinal="6">
+<a id="mntl-card-list-items_50-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8638822" data-tax-levels href="https://www.foodandwine.com/chicken-bone-broth-8638822" data-ordinal="7">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/158e4NFyLDnTy4p9uJzfBCoRCrU=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Chicken-Bone-Broth-FT-Recipe0424-dd858b5f8a344c58bda781cf51b87622.jpg"
@@ -4143,7 +4220,7 @@ alt="Chicken Bone Broth"
 <span class="card__title"><span class="card__title-text ">Chicken Bone Broth</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Marianne Williams"></div>
 <div id="mntl-recipe-card-meta_18-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_9-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_11-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -4176,7 +4253,7 @@ alt="Chicken Bone Broth"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_50-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8638598" data-tax-levels href="https://www.foodandwine.com/eggplant-parmesan-sandwiches-8638598" data-ordinal="7">
+<a id="mntl-card-list-items_51-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8638598" data-tax-levels href="https://www.foodandwine.com/eggplant-parmesan-sandwiches-8638598" data-ordinal="8">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/qYdAH15NL6wt-u2qwu5OiUI4rpU=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Eggplant-Parmesan-Sandwiches-FT-Recipe-0424-668fcd3c1d8348ea834fad6e7c48613f.jpg"
@@ -4202,7 +4279,7 @@ alt="Eggplant Parmesan Sandwiches"
 <span class="card__title"><span class="card__title-text ">Eggplant Parmesan Sandwiches</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Marianne Williams"></div>
 <div id="mntl-recipe-card-meta_19-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_10-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_12-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -4235,7 +4312,7 @@ alt="Eggplant Parmesan Sandwiches"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_51-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8637788" data-tax-levels href="https://www.foodandwine.com/grilled-steak-recipes-8637788" data-ordinal="8">
+<a id="mntl-card-list-items_52-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8637788" data-tax-levels href="https://www.foodandwine.com/grilled-steak-recipes-8637788" data-ordinal="9">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/AeuBc5DnHFvARPLly4br1abb0cA=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Carne-Asada-Clasica-FT-RECIPE0623-9e3fbbc0ec1d42fda2ae0cfeb935d896.jpg"
@@ -4262,7 +4339,7 @@ alt="Carne Asada ClÃ¡sica"
 <div class="card__byline mntl-card__byline " data-byline="By Jodie Kautzmann"></div>
 </div>
 </a>
-<a id="mntl-card-list-items_52-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8638117" data-tax-levels href="https://www.foodandwine.com/bourbon-balls-8638117" data-ordinal="9">
+<a id="mntl-card-list-items_53-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8638117" data-tax-levels href="https://www.foodandwine.com/bourbon-balls-8638117" data-ordinal="10">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/75DmUuK2mSsjluRBmC_nueAsuJs=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Bourbon-balls-FT-RECIPE0424-4736aae009f14c3ca33905e6f8390491.jpg"
@@ -4299,7 +4376,7 @@ alt="Bourbon Balls"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_53-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8634518" data-tax-levels href="https://www.foodandwine.com/collard-greens-recipes-8634518" data-ordinal="10">
+<a id="mntl-card-list-items_54-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8634518" data-tax-levels href="https://www.foodandwine.com/collard-greens-recipes-8634518" data-ordinal="11">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/LUz3IXyYjqNFYJENclXVzfplzUE=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/vegan-collards-FT-RECIPE0222-77bb20db7b744768885f30ce78a296be.jpg"
@@ -4326,7 +4403,7 @@ alt="Vegan collards at Boricua Soul"
 <div class="card__byline mntl-card__byline " data-byline="By Kat Kinsman"></div>
 </div>
 </a>
-<a id="mntl-card-list-items_54-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8637796" data-tax-levels href="https://www.foodandwine.com/carne-adovada-8637796" data-ordinal="11">
+<a id="mntl-card-list-items_55-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8637796" data-tax-levels href="https://www.foodandwine.com/carne-adovada-8637796" data-ordinal="12">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/vzUdz4Rq2hIlukBUCFzNw2KgkZs=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Carne-Adovada-FT-RECIPE0424-8301aae3e57f4cada95347c706324244.jpg"
@@ -4352,7 +4429,7 @@ alt="Carne Adovada"
 <span class="card__title"><span class="card__title-text ">Carne Adovada</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Jasmine Smith"></div>
 <div id="mntl-recipe-card-meta_21-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_11-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_13-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -4384,8 +4461,12 @@ alt="Carne Adovada"
 </span>
 </div>
 </div> </div>
-</a>
-<a id="mntl-card-list-items_55-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8633466" data-tax-levels href="https://www.foodandwine.com/weeknight-chicken-pot-pie-8633466" data-ordinal="12">
+</a></div>
+<div id="tax-sc-native-ad--tablet-pc_1-0" class="comp tax-sc-native-ad--tablet-pc mm-ads-native-fluid mm-ads-native " style="--native-ad-height: auto"><div id="mm-ads-native__adunit_1-0" class="comp mm-ads-native__adunit mm-ads-gpt-dynamic-adunit mm-ads-gpt-adunit scads-to-load gpt native dynamic">
+<div id="native" class="wrapper"
+data-type="native" data-pos="native" data-priority="4" data-sizes="[[1, 3],&quot;fluid&quot;]" data-rtb="false" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div></div>
+<div id="tax-sc__recirc-list-container_2-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_2-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_56-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8633466" data-tax-levels href="https://www.foodandwine.com/weeknight-chicken-pot-pie-8633466" data-ordinal="1">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/CAdc5k-kE_-Ke9go6OpglxHNvi4=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Weeknight-Chicken-Pot-Pie-FT-MAG-RECIPE-0524-e757c419d3ac4916a071ed27e2635fdf.jpg"
@@ -4421,12 +4502,8 @@ alt="Weeknight Chicken Pot Pie"
 </span>
 </div>
 </div> </div>
-</a></div>
-<div id="tax-sc-native-ad--tablet-pc_1-0" class="comp tax-sc-native-ad--tablet-pc mm-ads-native-fluid mm-ads-native " style="--native-ad-height: auto"><div id="mm-ads-native__adunit_1-0" class="comp mm-ads-native__adunit mm-ads-gpt-dynamic-adunit mm-ads-gpt-adunit scads-to-load gpt native dynamic">
-<div id="native" class="wrapper"
-data-type="native" data-pos="native" data-priority="4" data-sizes="[[1, 3],&quot;fluid&quot;]" data-rtb="false" data-wait-for-third-party="false" data-targeting="{}"></div>
-</div></div></div>
-<div id="tax-sc__recirc-list-container_2-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_2-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_56-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8637152" data-tax-levels href="https://www.foodandwine.com/blue-crab-recipes-8637152" data-ordinal="1">
+</a>
+<a id="mntl-card-list-items_57-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8637152" data-tax-levels href="https://www.foodandwine.com/blue-crab-recipes-8637152" data-ordinal="2">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/JDHwcVxGh0xesR2i9pLCj154NhA=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Crispy-Salt-and-Pepper-Soft-Shell-Crabs-FT-RECIPE0623-77878da832d54a08b6d7181bfc0812ec.jpg"
@@ -4453,7 +4530,7 @@ alt="Crispy Salt-and-Pepper Soft Shell Crabs"
 <div class="card__byline mntl-card__byline " data-byline="By Ashley Day"></div>
 </div>
 </a>
-<a id="mntl-card-list-items_57-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8634742" data-tax-levels href="https://www.foodandwine.com/yu-choy-with-garlic-sauce-8634742" data-ordinal="2">
+<a id="mntl-card-list-items_58-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8634742" data-tax-levels href="https://www.foodandwine.com/yu-choy-with-garlic-sauce-8634742" data-ordinal="3">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/mCCM6M6LGxFF4Qn-_bm0IBsRZF0=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Yu-Choy-with-Garlic-Sauce-FT-MAG-RECIPE-0424-c9390df1e1c24dea959fb07c34b79d08.jpg"
@@ -4490,7 +4567,7 @@ alt="Yu Choy with Garlic Sauce"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_58-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8636030" data-tax-levels href="https://www.foodandwine.com/green-goddess-pasta-salad-8636030" data-ordinal="3">
+<a id="mntl-card-list-items_59-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8636030" data-tax-levels href="https://www.foodandwine.com/green-goddess-pasta-salad-8636030" data-ordinal="4">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/2WOb__PWvgCtfF9az9RPBPdfMls=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Green-Goddess-Pasta-Salad-FT-BLOG0424-74a7a11527014f74865c0107b31620f3.jpg"
@@ -4516,7 +4593,7 @@ alt="Green Goddess Pasta Salad"
 <span class="card__title"><span class="card__title-text ">Green Goddess Pasta Salad</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Melissa Gray"></div>
 <div id="mntl-recipe-card-meta_24-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_12-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_14-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -4549,7 +4626,7 @@ alt="Green Goddess Pasta Salad"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_59-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8635773" data-tax-levels href="https://www.foodandwine.com/chicken-tortellini-alfredo-8635773" data-ordinal="4">
+<a id="mntl-card-list-items_60-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8635773" data-tax-levels href="https://www.foodandwine.com/chicken-tortellini-alfredo-8635773" data-ordinal="5">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/zwS3V9uEcY7ctwSWJyo5jnn70wA=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Chicken-Tortellini-Alfredo-FT-Recipe0424-e2e33347253a4545b9e069b58422db3e.jpg"
@@ -4575,7 +4652,7 @@ alt="Chicken Tortellini Alfredo"
 <span class="card__title"><span class="card__title-text ">Chicken Tortellini Alfredo</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Marianne Williams"></div>
 <div id="mntl-recipe-card-meta_25-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_13-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_15-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -4608,7 +4685,7 @@ alt="Chicken Tortellini Alfredo"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_60-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8635375" data-tax-levels href="https://www.foodandwine.com/fried-pickle-dip-8635375" data-ordinal="5">
+<a id="mntl-card-list-items_61-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8635375" data-tax-levels href="https://www.foodandwine.com/fried-pickle-dip-8635375" data-ordinal="6">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/qh5e4n_aqekLV0lKGbcfGz4VIf8=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Fried-Pickle-Dip-FT-BLOG0424-252719db4e3a42bfbb78d1bb8d03b94d.jpg"
@@ -4634,7 +4711,7 @@ alt="Fried Pickle Dip"
 <span class="card__title"><span class="card__title-text ">Fried Pickle Dip</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Melissa Gray"></div>
 <div id="mntl-recipe-card-meta_26-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_14-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_16-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -4667,7 +4744,7 @@ alt="Fried Pickle Dip"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_61-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8546993" data-tax-levels href="https://www.foodandwine.com/iraqi-jewish-food-8546993" data-ordinal="6">
+<a id="mntl-card-list-items_62-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8546993" data-tax-levels href="https://www.foodandwine.com/iraqi-jewish-food-8546993" data-ordinal="7">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/ZASKwdFQvNCUOviv8qwaky-ofY4=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/An-Iraqi-Jewish-Feast-FT-MAG0224-abbe088b685342a6a2625a3f4b616901.jpg"
@@ -4694,7 +4771,7 @@ alt="An Iraqi Jewish Feast"
 <div class="card__byline mntl-card__byline " data-byline="By Lucy Simon"></div>
 </div>
 </a>
-<a id="mntl-card-list-items_62-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8546971" data-tax-levels href="https://www.foodandwine.com/bamya-recipe-stewed-okra-8546971" data-ordinal="7">
+<a id="mntl-card-list-items_63-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8546971" data-tax-levels href="https://www.foodandwine.com/bamya-recipe-stewed-okra-8546971" data-ordinal="8">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/m_3DXuDkA-JSliW7lCaOPtnfztQ=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Bamia-Okra-Stewed-In-Tomato-Sauce-FT-RECIPE0224-2c4c813682fe424b84f16431ab027cce.jpg"
@@ -4731,7 +4808,7 @@ alt="Bamia"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_63-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8431758" data-tax-levels href="https://www.foodandwine.com/tbeet-recipe-8431758" data-ordinal="8">
+<a id="mntl-card-list-items_64-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8431758" data-tax-levels href="https://www.foodandwine.com/tbeet-recipe-8431758" data-ordinal="9">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/jjAZ9CZ_7qFW8PqGL0QUYjk1Uu8=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Tebit-Chicken-Baked-in-Rice-FT-RECIPE0224-271d4bf6bb4f45fba7315293b49351c2.jpg"
@@ -4757,7 +4834,7 @@ alt="Tebit"
 <span class="card__title"><span class="card__title-text ">Tebit (Chicken Baked in Rice)</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Doris Sheena Zilkha"></div>
 <div id="mntl-recipe-card-meta_28-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_15-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_17-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -4790,7 +4867,7 @@ alt="Tebit"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_64-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8546415" data-tax-levels href="https://www.foodandwine.com/iraqi-kubba-8546415" data-ordinal="9">
+<a id="mntl-card-list-items_65-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8546415" data-tax-levels href="https://www.foodandwine.com/iraqi-kubba-8546415" data-ordinal="10">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/zwSnnyqDJOCzqvx2KB8GvY-3SmA=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Kubba-Patata-Lamb-Stuffed-Potato-Patties-FT-RECIPE0224-6a3d20ce45474404b20288a2e4f0d7a1.jpg"
@@ -4827,7 +4904,7 @@ alt="Kubba Patata"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_65-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8431271" data-tax-levels href="https://www.foodandwine.com/mhasha-stuffed-vegetables-8431271" data-ordinal="10">
+<a id="mntl-card-list-items_66-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8431271" data-tax-levels href="https://www.foodandwine.com/mhasha-stuffed-vegetables-8431271" data-ordinal="11">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/IH8UK-UnYZBuyAjEjLvdjalR5lA=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Mhasha-Sweet-and-Sour-Stuffed-Vegetables-FT-BLOG0224-67f7e2ddf0444660bb62b7cc942fe083.jpg"
@@ -4864,7 +4941,7 @@ alt="Mâhasha"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_66-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8546975" data-tax-levels href="https://www.foodandwine.com/walnut-baklava-8546975" data-ordinal="11">
+<a id="mntl-card-list-items_67-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8546975" data-tax-levels href="https://www.foodandwine.com/walnut-baklava-8546975" data-ordinal="12">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/ZPdR3eMXhjpGEE72edQ_lz-lmq4=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Iraqi-Baklava-FT-RECIPE0224-bc9ee4e589e7410789b36bc3d25fcbc9.jpg"
@@ -4900,8 +4977,12 @@ alt="Iraqi Baklava"
 </span>
 </div>
 </div> </div>
-</a>
-<a id="mntl-card-list-items_67-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8634046" data-tax-levels href="https://www.foodandwine.com/quiche-recipes-8634046" data-ordinal="12">
+</a></div>
+<div id="foodandwine-leaderboard-fixed-lazy_2-0" class="comp foodandwine-leaderboard-fixed-lazy mm-ads-leaderboard-fixed-lazy mm-ads-leaderboard-fixed mm-ads-gpt-adunit has-right-label leaderboard js-lazy-ad gpt leaderboard dynamic">
+<div id="leaderboard-fixed" class="wrapper"
+data-type="leaderboard" data-pos="atf" data-priority="99" data-sizes="[[728, 90]]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div>
+<div id="tax-sc__recirc-list-container_3-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_3-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_68-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8634046" data-tax-levels href="https://www.foodandwine.com/quiche-recipes-8634046" data-ordinal="1">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/9wPIGxJPZb14hvmgw3rP6F5W6F8=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Over-the-top-mushroom-quiche-FT-RECIPE0224-95311a622d85495c8536ddb7b5c08f9e.jpg"
@@ -4927,12 +5008,8 @@ alt="Over the Top Mushroom Quiche"
 <span class="card__title"><span class="card__title-text ">12 Delicious Quiche Recipes for Brunch and Beyond</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Jodie Kautzmann"></div>
 </div>
-</a></div>
-<div id="foodandwine-leaderboard-fixed-lazy_2-0" class="comp foodandwine-leaderboard-fixed-lazy mm-ads-leaderboard-fixed-lazy mm-ads-leaderboard-fixed mm-ads-gpt-adunit has-right-label leaderboard js-lazy-ad gpt leaderboard dynamic">
-<div id="leaderboard-fixed" class="wrapper"
-data-type="leaderboard" data-pos="atf" data-priority="99" data-sizes="[[728, 90]]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
-</div></div>
-<div id="tax-sc__recirc-list-container_3-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_3-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_68-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624595" data-tax-levels href="https://www.foodandwine.com/ramp-recipes-8624595" data-ordinal="1">
+</a>
+<a id="mntl-card-list-items_69-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624595" data-tax-levels href="https://www.foodandwine.com/ramp-recipes-8624595" data-ordinal="2">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/ht2mDD2P4aoADDhzzZwsvRAHOdI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/ramps-with-crispy-potatoes-FT-MAG-RECIPE-0424-998d520615f147e494cc3769c15b58f6.jpg"
@@ -4959,7 +5036,7 @@ alt="ramps with crispy potatoes"
 <div class="card__byline mntl-card__byline " data-byline="By Jodie Kautzmann"></div>
 </div>
 </a>
-<a id="mntl-card-list-items_69-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630668" data-tax-levels href="https://www.foodandwine.com/whipped-feta-dips-8630668" data-ordinal="2">
+<a id="mntl-card-list-items_70-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630668" data-tax-levels href="https://www.foodandwine.com/whipped-feta-dips-8630668" data-ordinal="3">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/u16-o0oIwee-P4JJHcG7xRXvKds=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/10-Minute-Snacks-Red-Pepper-Dip-FT-BLOG0923-be9e9f01e4e745da8d4b368f2b698a77.jpg"
@@ -4986,7 +5063,7 @@ alt="Easy 10 Minute Snacks "
 <div class="card__byline mntl-card__byline " data-byline="By Breana Lai Killeen, M.P.H, RD"></div>
 </div>
 </a>
-<a id="mntl-card-list-items_70-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630771" data-tax-levels href="https://www.foodandwine.com/shrimp-fra-diavolo-8630771" data-ordinal="3">
+<a id="mntl-card-list-items_71-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630771" data-tax-levels href="https://www.foodandwine.com/shrimp-fra-diavolo-8630771" data-ordinal="4">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/R7WfuU9sCcqeun_0cKIV-d0H0Ng=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Shrimp-Fra-Diavolo-FT-Recipe0424-41a821d0032f4d8b8bcb8e66e7bef816.jpg"
@@ -5012,7 +5089,7 @@ alt="Shrimp Fra Diavolo"
 <span class="card__title"><span class="card__title-text ">Shrimp Fra Diavolo</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Anna Theoktisto"></div>
 <div id="mntl-recipe-card-meta_32-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_16-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_18-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5045,7 +5122,7 @@ alt="Shrimp Fra Diavolo"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_71-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630484" data-tax-levels href="https://www.foodandwine.com/red-pepper-feta-dip-8630484" data-ordinal="4">
+<a id="mntl-card-list-items_72-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630484" data-tax-levels href="https://www.foodandwine.com/red-pepper-feta-dip-8630484" data-ordinal="5">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/u16-o0oIwee-P4JJHcG7xRXvKds=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/10-Minute-Snacks-Red-Pepper-Dip-FT-BLOG0923-be9e9f01e4e745da8d4b368f2b698a77.jpg"
@@ -5071,7 +5148,7 @@ alt="Red pepper and whipped feat dip in a bowl, surrounded by pita bread slices,
 <span class="card__title"><span class="card__title-text ">Roasted Red Pepper Feta Dip</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Chandra Ram"></div>
 <div id="mntl-recipe-card-meta_33-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_17-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_19-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5104,7 +5181,7 @@ alt="Red pepper and whipped feat dip in a bowl, surrounded by pita bread slices,
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_72-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630264" data-tax-levels href="https://www.foodandwine.com/lobster-pasta-with-corn-and-tomatoes-8630264" data-ordinal="5">
+<a id="mntl-card-list-items_73-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630264" data-tax-levels href="https://www.foodandwine.com/lobster-pasta-with-corn-and-tomatoes-8630264" data-ordinal="6">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/vPhnRtS2zDEE9krAU7I2SboAPCw=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Lobster-Pasta-FT-RECIPE0424-0830dd2d62284de09368c8172a6e92fa.jpg"
@@ -5130,7 +5207,7 @@ alt="Lobster Pasta"
 <span class="card__title"><span class="card__title-text ">Lobster Pasta with Corn and Tomatoes</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Anna Theoktisto"></div>
 <div id="mntl-recipe-card-meta_34-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_18-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_20-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5163,7 +5240,7 @@ alt="Lobster Pasta"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_73-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630156" data-tax-levels href="https://www.foodandwine.com/hanetsuki-gyoza-8630156" data-ordinal="6">
+<a id="mntl-card-list-items_74-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630156" data-tax-levels href="https://www.foodandwine.com/hanetsuki-gyoza-8630156" data-ordinal="7">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/2T-t33yF7wMmhseI8qw623jRlVY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Hanetsuki-Gyoza-FT-RECIPE1223-1dd2d9bdc3c54b3e879ec48150044110.jpg"
@@ -5189,7 +5266,7 @@ alt="Hanetsuki Gyoza"
 <span class="card__title"><span class="card__title-text ">Hanetsuki Gyoza (Dumplings with “Wings”)</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Sylvan Mishima Brackett"></div>
 <div id="mntl-recipe-card-meta_35-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_19-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_21-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5222,7 +5299,7 @@ alt="Hanetsuki Gyoza"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_74-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630137" data-tax-levels href="https://www.foodandwine.com/chocolate-chess-pie-8630137" data-ordinal="7">
+<a id="mntl-card-list-items_75-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8630137" data-tax-levels href="https://www.foodandwine.com/chocolate-chess-pie-8630137" data-ordinal="8">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/ehJmh0_ZW2djlQFtvZxb1WIaDjE=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Chocolate-Chess-Pie-FT-RECIPE0424-7d1dd06b63584417aff7bc635316293b.jpg"
@@ -5248,7 +5325,7 @@ alt="Chocolate Chess Pie"
 <span class="card__title"><span class="card__title-text ">Chocolate Chess Pie</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Nicole Hopper"></div>
 <div id="mntl-recipe-card-meta_36-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_20-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_22-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5281,7 +5358,7 @@ alt="Chocolate Chess Pie"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_75-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8629671" data-tax-levels href="https://www.foodandwine.com/chicken-caesar-wrap-8629671" data-ordinal="8">
+<a id="mntl-card-list-items_76-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8629671" data-tax-levels href="https://www.foodandwine.com/chicken-caesar-wrap-8629671" data-ordinal="9">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/I1Kbf0jujT5STFOA6p0agZtGuaM=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Chicken-Caesar-Wrap-FT-RECIPE0424-05116d367a9245988f805672ac3bebc2.jpg"
@@ -5307,7 +5384,7 @@ alt="Chicken Caesar Wrap"
 <span class="card__title"><span class="card__title-text ">Chicken Caesar Wrap</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Renu Dhar"></div>
 <div id="mntl-recipe-card-meta_37-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_21-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_23-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5340,7 +5417,7 @@ alt="Chicken Caesar Wrap"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_76-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8629581" data-tax-levels href="https://www.foodandwine.com/dolmas-8629581" data-ordinal="9">
+<a id="mntl-card-list-items_77-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8629581" data-tax-levels href="https://www.foodandwine.com/dolmas-8629581" data-ordinal="10">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/RuBWIaxTuTFVL1LUm7i_65MKAew=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Dolmas-FT-RECIPE0923-b43f57dc073b408bb163ca45aa3a8708.jpg"
@@ -5377,7 +5454,7 @@ alt="Dolmas"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_77-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8629016" data-tax-levels href="https://www.foodandwine.com/chess-pie-8629016" data-ordinal="10">
+<a id="mntl-card-list-items_78-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8629016" data-tax-levels href="https://www.foodandwine.com/chess-pie-8629016" data-ordinal="11">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/DHD9TrVWOP42vzDSd-zkHUe3db8=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Chess-Pie-FT-RECIPE0424-3a1115469f434f9e99a3bccfc3fd5a82.jpg"
@@ -5403,7 +5480,7 @@ alt="Chess Pie"
 <span class="card__title"><span class="card__title-text ">Chess Pie</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Nicole Hopper"></div>
 <div id="mntl-recipe-card-meta_39-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_22-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_24-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5436,7 +5513,7 @@ alt="Chess Pie"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_78-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8628342" data-tax-levels href="https://www.foodandwine.com/bannock-8628342" data-ordinal="11">
+<a id="mntl-card-list-items_79-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8628342" data-tax-levels href="https://www.foodandwine.com/bannock-8628342" data-ordinal="12">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/gB7OEWqezmUiKoWLEmeTjMkZV2U=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Bannock-FT-RECIPE0923-13cca1f8e31049b9a1edfeb7b88b009d.jpg"
@@ -5472,8 +5549,12 @@ alt="Bannock"
 </span>
 </div>
 </div> </div>
-</a>
-<a id="mntl-card-list-items_79-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8627577" data-tax-levels href="https://www.foodandwine.com/english-muffin-bread-8627577" data-ordinal="12">
+</a></div>
+<div id="foodandwine-leaderboard-fixed-lazy_3-0" class="comp foodandwine-leaderboard-fixed-lazy mm-ads-leaderboard-fixed-lazy mm-ads-leaderboard-fixed mm-ads-gpt-adunit has-right-label leaderboard js-lazy-ad gpt leaderboard dynamic">
+<div id="leaderboard-fixed" class="wrapper"
+data-type="leaderboard" data-pos="atf" data-priority="99" data-sizes="[[728, 90]]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div>
+<div id="tax-sc__recirc-list-container_4-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_4-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_80-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8627577" data-tax-levels href="https://www.foodandwine.com/english-muffin-bread-8627577" data-ordinal="1">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/eEO7YgZlzBAUV0GmbMfNLQs7YpY=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/English-Muffin-Bread-FT-RECIPE0124-9391b7ffcf7b4f3abf4c323bacc2ac9e.jpg"
@@ -5499,6 +5580,28 @@ alt="English Muffin Bread"
 <span class="card__title"><span class="card__title-text ">English Muffin Bread</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Anna Theoktisto"></div>
 <div id="mntl-recipe-card-meta_41-0" class="comp mntl-recipe-card-meta">
+<div id="mntl-recipe-star-rating_25-0" class="comp mntl-recipe-star-rating">
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
+</svg>
+<svg class="icon icon-star-half "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star-half"></use>
+</svg>
+<svg class="icon icon-star-empty "
+>
+<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star-empty"></use>
+</svg>
+</div>
 <div class="mntl-recipe-card-meta__time">
 <svg class="icon icon-time "
 >
@@ -5509,12 +5612,8 @@ alt="English Muffin Bread"
 </span>
 </div>
 </div> </div>
-</a></div>
-<div id="foodandwine-leaderboard-fixed-lazy_3-0" class="comp foodandwine-leaderboard-fixed-lazy mm-ads-leaderboard-fixed-lazy mm-ads-leaderboard-fixed mm-ads-gpt-adunit has-right-label leaderboard js-lazy-ad gpt leaderboard dynamic">
-<div id="leaderboard-fixed" class="wrapper"
-data-type="leaderboard" data-pos="atf" data-priority="99" data-sizes="[[728, 90]]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
-</div></div>
-<div id="tax-sc__recirc-list-container_4-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_4-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_80-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624915" data-tax-levels href="https://www.foodandwine.com/clams-casino-8624915" data-ordinal="1">
+</a>
+<a id="mntl-card-list-items_81-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624915" data-tax-levels href="https://www.foodandwine.com/clams-casino-8624915" data-ordinal="2">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/o_YzaFSFmL6_X9r14ErhvBh6Afg=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Clams-Casino-FT-RECIPE1223-9228a84d3fd04884a4dca7945bb3d25b.jpg"
@@ -5540,7 +5639,7 @@ alt="Clams Casino"
 <span class="card__title"><span class="card__title-text ">Clams Casino</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Catherine Jessee"></div>
 <div id="mntl-recipe-card-meta_42-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_23-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_26-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5573,7 +5672,7 @@ alt="Clams Casino"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_81-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624315" data-tax-levels href="https://www.foodandwine.com/pasta-e-ceci-8624315" data-ordinal="2">
+<a id="mntl-card-list-items_82-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624315" data-tax-levels href="https://www.foodandwine.com/pasta-e-ceci-8624315" data-ordinal="3">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/zvBen0LdjA5jfe67OpcmoJeQ90Q=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Pasta-e-Ceci-FT-RECIPE0124-27dfb146e41a47c3b7f0bacc2ce46643.jpg"
@@ -5599,7 +5698,7 @@ alt="Pasta e Ceci"
 <span class="card__title"><span class="card__title-text ">Pasta e Ceci (Pasta with Chickpeas)</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Craig Ruff"></div>
 <div id="mntl-recipe-card-meta_43-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_24-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_27-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5632,7 +5731,7 @@ alt="Pasta e Ceci"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_82-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624306" data-tax-levels href="https://www.foodandwine.com/spanikopita-pie-8624306" data-ordinal="3">
+<a id="mntl-card-list-items_83-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624306" data-tax-levels href="https://www.foodandwine.com/spanikopita-pie-8624306" data-ordinal="4">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/4-B6vQEDnbZtQIglO2YUXs2kx14=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Spanakopita-Pie-FT-RECIPE0424-0f95e0c2e4894aeaab8ff1d3327fdedf.jpg"
@@ -5658,7 +5757,7 @@ alt="Spanakopita pie"
 <span class="card__title"><span class="card__title-text ">Spanikopita Pie</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Elizabeth Mervosh"></div>
 <div id="mntl-recipe-card-meta_44-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_25-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_28-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5691,7 +5790,7 @@ alt="Spanakopita pie"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_83-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624179" data-tax-levels href="https://www.foodandwine.com/gyro-recipe-8624179" data-ordinal="4">
+<a id="mntl-card-list-items_84-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8624179" data-tax-levels href="https://www.foodandwine.com/gyro-recipe-8624179" data-ordinal="5">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/hH2e1SMv5N_QVJ_YGClpQBo5vuE=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Gyros-FT-RECIPE1023-e892c23e0a20476ea12f07f3ec0f3fc6.jpg"
@@ -5728,7 +5827,7 @@ alt="Gyros"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_84-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8623653" data-tax-levels href="https://www.foodandwine.com/seafood-lasagna-8623653" data-ordinal="5">
+<a id="mntl-card-list-items_85-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8623653" data-tax-levels href="https://www.foodandwine.com/seafood-lasagna-8623653" data-ordinal="6">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/Zlf6Tq147jL-qst6NfVMA0K4CLE=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Seafood-Lasagna-FT-RECIPE0424-01-ca95710a8ea5463ebf1654b5eee7d7c3.jpg"
@@ -5754,7 +5853,7 @@ alt="Seafood lasagna and a couple of glasses of wine. "
 <span class="card__title"><span class="card__title-text ">Seafood Lasagna</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Anna Theoktisto"></div>
 <div id="mntl-recipe-card-meta_46-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_26-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_29-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5787,7 +5886,7 @@ alt="Seafood lasagna and a couple of glasses of wine. "
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_85-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8623091" data-tax-levels href="https://www.foodandwine.com/espresso-martini-pie-8623091" data-ordinal="6">
+<a id="mntl-card-list-items_86-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8623091" data-tax-levels href="https://www.foodandwine.com/espresso-martini-pie-8623091" data-ordinal="7">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/iXLD8brTUP90Hscv6B2pO8f-__E=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Espresso-Martini-Pie-FT-RECIPE00424-01-b558df5244bf4be297db839632bd5b4a.jpg"
@@ -5813,7 +5912,7 @@ alt="A slice of espresso martini pie on a plate."
 <span class="card__title"><span class="card__title-text ">Espresso Martini Pie Is Chocolatey, Boozy, and Irresistible</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Nicole Hopper"></div>
 <div id="mntl-recipe-card-meta_47-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_27-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_30-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5846,7 +5945,7 @@ alt="A slice of espresso martini pie on a plate."
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_86-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8622852" data-tax-levels href="https://www.foodandwine.com/spinach-lasagna-8622852" data-ordinal="7">
+<a id="mntl-card-list-items_87-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8622852" data-tax-levels href="https://www.foodandwine.com/spinach-lasagna-8622852" data-ordinal="8">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/DYXVEno3-j5kUzIqQqGjmVqLWJk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Spinach-Lasagna-FT-Recipe0324-9ec261eb04a1438bb44eec135422e468.jpg"
@@ -5872,7 +5971,7 @@ alt="Spinach Lasagna"
 <span class="card__title"><span class="card__title-text ">Spinach Lasagna</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Jasmine Smith"></div>
 <div id="mntl-recipe-card-meta_48-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_28-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_31-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -5905,7 +6004,7 @@ alt="Spinach Lasagna"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_87-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8609061" data-tax-levels href="https://www.foodandwine.com/cheesy-masala-corn-pizza-8609061" data-ordinal="8">
+<a id="mntl-card-list-items_88-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8609061" data-tax-levels href="https://www.foodandwine.com/cheesy-masala-corn-pizza-8609061" data-ordinal="9">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/r0H3A6KHiRS-lidIZccoLlXz7Go=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/cheesy-masala-corn-pizza-FT-MAG-RECIPE-0324-401efbdb2d154a0c841159a8e3086e29.jpg"
@@ -5942,7 +6041,7 @@ alt="cheesy masala corn pizza"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_88-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8608816" data-tax-levels href="https://www.foodandwine.com/basic-indian-pizza-dough-8608816" data-ordinal="9">
+<a id="mntl-card-list-items_89-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8608816" data-tax-levels href="https://www.foodandwine.com/basic-indian-pizza-dough-8608816" data-ordinal="10">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/k2Z7X7mEtkA1SYswrroQ4rTKLuE=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/basic-Indian-pizza-dough-FT-MAG-RECIPE-0324-9d15aefd38054790804862e16b017546.jpg"
@@ -5979,7 +6078,7 @@ alt="basic Indian pizza dough"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_89-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8609056" data-tax-levels href="https://www.foodandwine.com/achari-paneer-pizza-8609056" data-ordinal="10">
+<a id="mntl-card-list-items_90-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8609056" data-tax-levels href="https://www.foodandwine.com/achari-paneer-pizza-8609056" data-ordinal="11">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/JwMdjI0mJJRQ8-Nc_ZAfl2P2vow=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/achari-paneer-pizza_FT-MAG-RECIPE-0324-d84f4716e7f649ecab907d01471a8f89.jpg"
@@ -6016,7 +6115,7 @@ alt="achari paneer pizza"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_90-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621623" data-tax-levels href="https://www.foodandwine.com/five-ingredient-recipes-8621623" data-ordinal="11">
+<a id="mntl-card-list-items_91-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621623" data-tax-levels href="https://www.foodandwine.com/five-ingredient-recipes-8621623" data-ordinal="12">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/wgGcQIgkxDQYB69FhJWoeQbz968=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Panko-Breaded-Pork-Chops-FT-RECIPE0822-2000-98a8ee5b1a6c4491843d54afcd360932.jpg"
@@ -6042,8 +6141,12 @@ alt="Panko-Breaded Pork Chops"
 <span class="card__title"><span class="card__title-text ">33 Five-Ingredient Recipes for Effortless Dinners and Desserts</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Food & Wine Editors"></div>
 </div>
-</a>
-<a id="mntl-card-list-items_91-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8622275" data-tax-levels href="https://www.foodandwine.com/skillet-lasagna-8622275" data-ordinal="12">
+</a></div>
+<div id="foodandwine-leaderboard-fixed-lazy_4-0" class="comp foodandwine-leaderboard-fixed-lazy mm-ads-leaderboard-fixed-lazy mm-ads-leaderboard-fixed mm-ads-gpt-adunit has-right-label leaderboard js-lazy-ad gpt leaderboard dynamic">
+<div id="leaderboard-fixed" class="wrapper"
+data-type="leaderboard" data-pos="atf" data-priority="99" data-sizes="[[728, 90]]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
+</div></div>
+<div id="tax-sc__recirc-list-container_5-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_5-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_92-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8622275" data-tax-levels href="https://www.foodandwine.com/skillet-lasagna-8622275" data-ordinal="1">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/UYLjApPaoJoSHCWG77Iq_6xJMas=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Skillet-Lasagna-FT-RECIPE0124-2068dc56cd614cdd9ac3fd183fa0380f.jpg"
@@ -6069,7 +6172,7 @@ alt="Skillet Lasagna"
 <span class="card__title"><span class="card__title-text ">Skillet Lasagna</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Craig Ruff"></div>
 <div id="mntl-recipe-card-meta_52-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_29-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_32-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -6101,12 +6204,8 @@ alt="Skillet Lasagna"
 </span>
 </div>
 </div> </div>
-</a></div>
-<div id="foodandwine-leaderboard-fixed-lazy_4-0" class="comp foodandwine-leaderboard-fixed-lazy mm-ads-leaderboard-fixed-lazy mm-ads-leaderboard-fixed mm-ads-gpt-adunit has-right-label leaderboard js-lazy-ad gpt leaderboard dynamic">
-<div id="leaderboard-fixed" class="wrapper"
-data-type="leaderboard" data-pos="atf" data-priority="99" data-sizes="[[728, 90]]" data-rtb="true" data-wait-for-third-party="false" data-targeting="{}"></div>
-</div></div>
-<div id="tax-sc__recirc-list-container_5-0" class="comp tax-sc__recirc-list-container mntl-block"><div id="tax-sc__recirc-list_5-0" class="comp tax-sc__recirc-list card-list mntl-universal-card-list mntl-document-card-list mntl-card-list mntl-block" data-chunk="36"><a id="mntl-card-list-items_92-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8622167" data-tax-levels href="https://www.foodandwine.com/porchetta-8622167" data-ordinal="1">
+</a>
+<a id="mntl-card-list-items_93-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8622167" data-tax-levels href="https://www.foodandwine.com/porchetta-8622167" data-ordinal="2">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/wPXTkML6qfKono8XdnXLZqvBqpw=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Porchetta-FT-RECIPE-0324-f40395c0c4324417a37dbe708962310a.jpg"
@@ -6132,7 +6231,7 @@ alt="An image of a porchetta on a wooden cutting board with meat carving tools."
 <span class="card__title"><span class="card__title-text ">Porchetta</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Anna Theoktisto"></div>
 <div id="mntl-recipe-card-meta_53-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_30-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_33-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -6165,7 +6264,7 @@ alt="An image of a porchetta on a wooden cutting board with meat carving tools."
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_93-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621688" data-tax-levels href="https://www.foodandwine.com/easy-soy-sauce-ramen-8621688" data-ordinal="2">
+<a id="mntl-card-list-items_94-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621688" data-tax-levels href="https://www.foodandwine.com/easy-soy-sauce-ramen-8621688" data-ordinal="3">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/CAU4pSXs85TbQKSWyIrPXD2qDec=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Soy-Sauce-Ramen-FT-RECIPE1223-1a550b939c71456f8691a05bd25bafb5.jpg"
@@ -6191,7 +6290,7 @@ alt="Soy Sauce Ramen"
 <span class="card__title"><span class="card__title-text ">Easy Soy Sauce Ramen</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Ria McClenny"></div>
 <div id="mntl-recipe-card-meta_54-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_31-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_34-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -6224,7 +6323,7 @@ alt="Soy Sauce Ramen"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_94-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621647" data-tax-levels href="https://www.foodandwine.com/steak-au-poivre-pasta-8621647" data-ordinal="3">
+<a id="mntl-card-list-items_95-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621647" data-tax-levels href="https://www.foodandwine.com/steak-au-poivre-pasta-8621647" data-ordinal="4">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/EzlbvlP5ZJvQjtumrkBVrpNF9i4=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Steak-au-Poivre-FT-RECIPE1223-b9e12f1637304f57ab92124fa126f5e9.jpg"
@@ -6250,7 +6349,7 @@ alt="Steak au Poivre Noodles"
 <span class="card__title"><span class="card__title-text ">Steak au Poivre Pasta</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Nicole Hopper"></div>
 <div id="mntl-recipe-card-meta_55-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_32-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_35-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -6283,7 +6382,7 @@ alt="Steak au Poivre Noodles"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_95-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621589" data-tax-levels href="https://www.foodandwine.com/proposal-chicken-parmesan-8621589" data-ordinal="4">
+<a id="mntl-card-list-items_96-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621589" data-tax-levels href="https://www.foodandwine.com/proposal-chicken-parmesan-8621589" data-ordinal="5">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/vTy3WXriCHPPNtC2huvmXcRwyUI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Proposal-Chicken-Parm-FT-RECIPE0324-24bded11aacc4bd6ae4c43000d2cb1c0.jpg"
@@ -6309,7 +6408,7 @@ alt="Proposal Chicken Parm"
 <span class="card__title"><span class="card__title-text ">If You Love Marry Me Chicken, You’ll Say Yes to Proposal Chicken Parmesan</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Nicole Hopper"></div>
 <div id="mntl-recipe-card-meta_56-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_33-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_36-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -6342,7 +6441,7 @@ alt="Proposal Chicken Parm"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_96-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621171" data-tax-levels href="https://www.foodandwine.com/pie-bar-recipes-8621171" data-ordinal="5">
+<a id="mntl-card-list-items_97-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8621171" data-tax-levels href="https://www.foodandwine.com/pie-bar-recipes-8621171" data-ordinal="6">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/FbYrVpPZ05A1fjXM0crkp8PBkaU=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-pecan-pie-bars-hero-93acee91c4394d75ab1a1a24cf63850d.jpg"
@@ -6369,7 +6468,7 @@ alt="Pecan Pie Bars"
 <div class="card__byline mntl-card__byline " data-byline="By Food & Wine Editors"></div>
 </div>
 </a>
-<a id="mntl-card-list-items_97-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8620969" data-tax-levels href="https://www.foodandwine.com/pumpkin-puree-recipes-8620969" data-ordinal="6">
+<a id="mntl-card-list-items_98-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8620969" data-tax-levels href="https://www.foodandwine.com/pumpkin-puree-recipes-8620969" data-ordinal="7">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/ITlp-iMLlwvnrboyN_0Snn7tlOk=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Creamy-Pumpkin-Pasta-FT-RECIPE1023-ffc59e8ec44f49c98c3996c54d1ca58c.jpg"
@@ -6396,7 +6495,7 @@ alt="Creamy Pumpkin Pasta"
 <div class="card__byline mntl-card__byline " data-byline="By Food & Wine Editors"></div>
 </div>
 </a>
-<a id="mntl-card-list-items_98-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8601282" data-tax-levels href="https://www.foodandwine.com/sauteed-ramps-8601282" data-ordinal="7">
+<a id="mntl-card-list-items_99-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8601282" data-tax-levels href="https://www.foodandwine.com/sauteed-ramps-8601282" data-ordinal="8">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/ht2mDD2P4aoADDhzzZwsvRAHOdI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/ramps-with-crispy-potatoes-FT-MAG-RECIPE-0424-998d520615f147e494cc3769c15b58f6.jpg"
@@ -6433,7 +6532,7 @@ alt="ramps with crispy potatoes"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_99-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8620589" data-tax-levels href="https://www.foodandwine.com/dirty-martini-dip-8620589" data-ordinal="8">
+<a id="mntl-card-list-items_100-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8620589" data-tax-levels href="https://www.foodandwine.com/dirty-martini-dip-8620589" data-ordinal="9">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/yyS5EcvG8AcTa95-SQtd22Ph7zI=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Dirty-Martini-Dip-FT-Recipe0324-86a8375ac2d6474fb113cac61909a0d2.jpg"
@@ -6459,7 +6558,7 @@ alt="Dirty Martini Dip"
 <span class="card__title"><span class="card__title-text ">Your Next Party Needs Dirty Martini Dip</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Nicole Hopper"></div>
 <div id="mntl-recipe-card-meta_58-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_34-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_37-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -6492,7 +6591,7 @@ alt="Dirty Martini Dip"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_100-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8609524" data-tax-levels href="https://www.foodandwine.com/zucchini-risotto-with-shrimp-8609524" data-ordinal="9">
+<a id="mntl-card-list-items_101-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8609524" data-tax-levels href="https://www.foodandwine.com/zucchini-risotto-with-shrimp-8609524" data-ordinal="10">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/pRNozTj4Bnh9yfDArQ7DSb2IZ20=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Risotto-with-Zucchini-and-Shrimp-FT-MAG-RECIPE-0424-ec5200e1f7844bdc988de2d8434f672b.jpg"
@@ -6518,7 +6617,7 @@ alt="risotto with zucchini and shrimp"
 <span class="card__title"><span class="card__title-text ">Rich Zucchini Risotto with Shrimp Brings Tuscany to the Table</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Cinzia Merli"></div>
 <div id="mntl-recipe-card-meta_59-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_35-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_38-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -6551,7 +6650,7 @@ alt="risotto with zucchini and shrimp"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_101-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8603660" data-tax-levels href="https://www.foodandwine.com/vegetarian-cassoulet-8603660" data-ordinal="10">
+<a id="mntl-card-list-items_102-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8603660" data-tax-levels href="https://www.foodandwine.com/vegetarian-cassoulet-8603660" data-ordinal="11">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/86VREx14FtHMdjEZnP0TPderQ6k=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/white-bean-and-mushroom-cassoulet-FT-MAG-RECIPE-0324-0b23f05d65394233ae100f41075a6e20.jpg"
@@ -6577,7 +6676,7 @@ alt="white bean and mushroom cassoulet"
 <span class="card__title"><span class="card__title-text ">White Bean and Mushroom Cassoulet Is a Comforting, Slow-Cooked Supper</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Lidey Heuck"></div>
 <div id="mntl-recipe-card-meta_60-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_36-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_39-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -6610,7 +6709,7 @@ alt="white bean and mushroom cassoulet"
 </div>
 </div> </div>
 </a>
-<a id="mntl-card-list-items_102-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8609520" data-tax-levels href="https://www.foodandwine.com/tuscan-gnocchi-8609520" data-ordinal="11">
+<a id="mntl-card-list-items_103-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8609520" data-tax-levels href="https://www.foodandwine.com/tuscan-gnocchi-8609520" data-ordinal="12">
 <div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
 <img
 data-src="https://www.foodandwine.com/thmb/xl5yS0tsA-pUlpyPUlIVStxYyZw=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/Gnocchi-with-Asparagus-and-Pancetta-FT-MAG-RECIPE-0424-0c702b286eae4de289f90ea127a85291.jpg"
@@ -6636,7 +6735,7 @@ alt="gnocchi with asparagus and pancetta"
 <span class="card__title"><span class="card__title-text ">Gnocchi Asparagi e Pancetta (Tuscan Gnocchi with Asparagus and Pancetta)</span></span>
 <div class="card__byline mntl-card__byline " data-byline="By Cinzia Merli"></div>
 <div id="mntl-recipe-card-meta_61-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_37-0" class="comp mntl-recipe-star-rating">
+<div id="mntl-recipe-star-rating_40-0" class="comp mntl-recipe-star-rating">
 <svg class="icon icon-star "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
@@ -6665,65 +6764,6 @@ alt="gnocchi with asparagus and pancetta"
 </svg>
 <span class="mntl-recipe-card-meta__time-text type--rabbit">
 1 hr 55 mins
-</span>
-</div>
-</div> </div>
-</a>
-<a id="mntl-card-list-items_103-0" class="comp mntl-card-list-items mntl-document-card mntl-card card card--no-image" data-doc-id="8603663" data-tax-levels href="https://www.foodandwine.com/cashew-chicken-8603663" data-ordinal="12">
-<div class="loc card__top"><div class="card__media mntl-universal-image card__media universal-image__container"><div class="img-placeholder" style="padding-bottom:66.6%;">
-<img
-data-src="https://www.foodandwine.com/thmb/2l7p3qHfnslx0C678pywoy6k-Hw=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/cashew-chicken-FT-MAG-RECIPE-0324-3312078d523b414aa645a6cce7546338.jpg"
-width="282"
-height="188"
-alt="cashew chicken"
-class="lazyload card__img universal-image__image"
-data-expand="300"
-/>
-<noscript>
-<img
-src="https://www.foodandwine.com/thmb/2l7p3qHfnslx0C678pywoy6k-Hw=/282x188/filters:no_upscale():max_bytes(150000):strip_icc()/cashew-chicken-FT-MAG-RECIPE-0324-3312078d523b414aa645a6cce7546338.jpg"
-width="282"
-height="188"
-class="img--noscript card__img universal-image__image"
-alt="cashew chicken"
-/>
-</noscript>
-</div></div>
-</div>
-<div class="card__content " data-tag="Chicken Main Course">
-<div class="card__header"></div>
-<span class="card__title"><span class="card__title-text ">Have Homemade Cashew Chicken on the Table in an Hour</span></span>
-<div class="card__byline mntl-card__byline " data-byline="By Liz Mervosh"></div>
-<div id="mntl-recipe-card-meta_62-0" class="comp mntl-recipe-card-meta">
-<div id="mntl-recipe-star-rating_38-0" class="comp mntl-recipe-star-rating">
-<svg class="icon icon-star "
->
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
-</svg>
-<svg class="icon icon-star "
->
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
-</svg>
-<svg class="icon icon-star "
->
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
-</svg>
-<svg class="icon icon-star "
->
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
-</svg>
-<svg class="icon icon-star "
->
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-star"></use>
-</svg>
-</div>
-<div class="mntl-recipe-card-meta__time">
-<svg class="icon icon-time "
->
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-time"></use>
-</svg>
-<span class="mntl-recipe-card-meta__time-text type--rabbit">
-1 hr
 </span>
 </div>
 </div> </div>
@@ -7122,7 +7162,7 @@ window.Mntl.externalizeLinks.addPlugin(window?.Trx?.amazonAffiliateTagger);
 window.Mntl.externalizeLinks.init();window.Mntl.affiliateLinkRewriter.setMappings( {
 DOC_ID: '6399886'
 ,SITE: 'foodandwine'
-,REQUEST_ID: 'ne8c9b73fbc99419ca33b4bff3e69ee5116'
+,REQUEST_ID: 'n8495b94d5f9e4c6783827da401ce522516'
 }
 );
 (function (Mntl) {

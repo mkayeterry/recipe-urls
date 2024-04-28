@@ -87,7 +87,7 @@ adHandler.cmd.push(function () {
         adHandler.service.setTargeting("keywords", []);
         adHandler.service.setTargeting("pageType", "");
         adHandler.service.setTargeting("pageId", "frontpage");
-        adHandler.service.setTargeting("referer", "https://www.google.com/");
+        adHandler.service.setTargeting("referer", "https://eatsmarter.com/");
         adHandler.service.setTargeting("URL", window.location.pathname.substr(0,40));
     adHandler.service.setTargeting("Domain", "com");
     adHandler.service.setTargeting("cd2", "HOMEPAGE");
@@ -239,7 +239,7 @@ Criteo.events.push(function() {
   <label for="edit-pass">Password <span class="form-required" title="This field is required.">*</span></label>
  <input placeholder="Password*" type="password" id="edit-pass" name="pass" size="15" maxlength="128" class="form-text required" />
 </div>
-<div class="password-forgotten-link"><span class="masked-link " data-link="/user/password" title="Request new password via e-mail.">Password forgotten?</span></div><input type="hidden" name="form_build_id" value="form-7SURHdCvHIv0hITDWhjIhmov47yG-HP3qUajRULA454" />
+<div class="password-forgotten-link"><span class="masked-link " data-link="/user/password" title="Request new password via e-mail.">Password forgotten?</span></div><input type="hidden" name="form_build_id" value="form-AiuAv7YbGvBOhcFG8W40rvzh9V17IZeN_rWHNIzN93E" />
 <input type="hidden" name="form_id" value="user_login_block" />
 <div class="form-actions form-wrapper" id="edit-actions"><input class="user-form-button form-submit" type="submit" id="edit-submit" name="op" value="Log in" /><div class="login-separator form-wrapper" id="">or</div><div class="social-login-container form-wrapper" id="edit-social-login-container"><div class="form-item form-type-item">
  <div class="social-login-button fb-connect-login" data-id="facebook"><span class="icon fa fa-facebook"></span>
@@ -251,7 +251,7 @@ Criteo.events.push(function() {
 <div id="edit-apple-login-link" class="form-item form-type-item">
  <div class="social-login-button apple-login" data-id="apple"><img class="apple-login-icon" src="/sites/all/modules/custom/eatsmarter_social_action/images/apple_logo_black.svg" /><span class="apple-login-text">Sign in with Apple</span></div>
 </div>
-</div></div></div></form><form action="/" method="post" id="openid-connect-login-form" accept-charset="UTF-8"><div><input type="submit" id="edit-openid-connect-client-apple-login" name="apple" value="Log in with Apple" class="form-submit" /><input type="submit" id="edit-openid-connect-client-facebook-login" name="facebook" value="Log in with Facebook" class="form-submit" /><input type="submit" id="edit-openid-connect-client-google-login" name="google" value="Log in with Google" class="form-submit" /><input type="hidden" name="form_build_id" value="form-_gcqPCWAjruUjKJwYbGSPlwUVs1u3-WPyD7NTYy9lJY" />
+</div></div></div></form><form action="/" method="post" id="openid-connect-login-form" accept-charset="UTF-8"><div><input type="submit" id="edit-openid-connect-client-apple-login" name="apple" value="Log in with Apple" class="form-submit" /><input type="submit" id="edit-openid-connect-client-facebook-login" name="facebook" value="Log in with Facebook" class="form-submit" /><input type="submit" id="edit-openid-connect-client-google-login" name="google" value="Log in with Google" class="form-submit" /><input type="hidden" name="form_build_id" value="form-nUnHEWqWpgaaJMiMoUvlrsBrGDvZYlvp3AAqKYjYp6E" />
 <input type="hidden" name="form_id" value="openid_connect_login_form" />
 </div></form></li></ul></li><li class=""><div class="masked-link" data-link="/user/register">Register</div></li></ul>  </div>
 </div><div class="header-elements-wrapper-mobile hidden-desktop"><div class="navigation">
@@ -280,7 +280,7 @@ Criteo.events.push(function() {
 <div class="form-item form-type-textfield form-item-fulltext">
  <input name="ft" placeholder="Search" type="text" id="edit-fulltext" value="" size="60" maxlength="128" class="form-text" />
 </div>
-<input type="submit" id="edit-submit-button" name="op" value="search" class="form-submit" /><input type="reset" class="search-form-reset" value="X"><div class="reset-value">X</div><input type="hidden" name="form_build_id" value="form-_drMjKJ2VhbIsiOy6Ajy_5CB_MWEnvUAaIVmUpKkWuw" />
+<input type="submit" id="edit-submit-button" name="op" value="search" class="form-submit" /><input type="reset" class="search-form-reset" value="X"><div class="reset-value">X</div><input type="hidden" name="form_build_id" value="form-XT_xZwKDQMa79hTK9rfBIhcP9_nR0U8ZV2Q40PWU0Ms" />
 <input type="hidden" name="form_id" value="eatsmarter_search_search_form" />
 <i class="search-magnifier"></i>
 </div></form></div><div class="main-menu"><ul class="menu"><li class="first expanded depth-1"><a href="/recipes/seasonal/spring" title="Spring" class="link-depth-1" rel="follow">Spring</a><div class="flyout"><ul class="menu"><li class="first depth-2"><a href="/recipes/seasonal/spring" title="Spring Recipes" class="link-depth-2" rel="follow">Spring Recipes</a></li>
@@ -473,15 +473,7 @@ Criteo.events.push(function() {
               <div class="link-container">
           <table class="search-result-arrow-layout">
             <tr>
-              <td><a href="/recipes/ingredients/olive-oil-recipes" title="olive oil recipes" rel="follow">olive oil</a></td>
-              <td class="search-result-arrow">&#x2196;</td>
-            </tr>
-          </table>
-        </div>
-              <div class="link-container">
-          <table class="search-result-arrow-layout">
-            <tr>
-              <td><a href="/recipes/ingredients/pepper-recipes" title="pepper recipes" rel="follow">pepper</a></td>
+              <td><a href="/recipes/cooking/meat/beef" title="Beef recipes" rel="follow">Beef</a></td>
               <td class="search-result-arrow">&#x2196;</td>
             </tr>
           </table>
@@ -497,7 +489,7 @@ Criteo.events.push(function() {
               <div class="link-container">
           <table class="search-result-arrow-layout">
             <tr>
-              <td><a href="/recipes/cooking/meat/beef" title="Beef recipes" rel="follow">Beef</a></td>
+              <td><a href="/recipes/ingredients/tomato-recipes" title="Tomato recipes" rel="follow">Tomato</a></td>
               <td class="search-result-arrow">&#x2196;</td>
             </tr>
           </table>
@@ -505,7 +497,15 @@ Criteo.events.push(function() {
               <div class="link-container">
           <table class="search-result-arrow-layout">
             <tr>
-              <td><a href="/recipes/ingredients/thyme-recipes" title="thyme recipes" rel="follow">thyme</a></td>
+              <td><a href="/recipes/ingredients/pepper-recipes" title="pepper recipes" rel="follow">pepper</a></td>
+              <td class="search-result-arrow">&#x2196;</td>
+            </tr>
+          </table>
+        </div>
+              <div class="link-container">
+          <table class="search-result-arrow-layout">
+            <tr>
+              <td><a href="/recipes/ingredients/olive-oil-recipes" title="olive oil recipes" rel="follow">olive oil</a></td>
               <td class="search-result-arrow">&#x2196;</td>
             </tr>
           </table>
@@ -527,7 +527,7 @@ Criteo.events.push(function() {
       <div class="link-container">
         <table class="search-result-arrow-layout">
           <tr>
-            <td><a href="/recipes/blueberry-cinnamon-mocktails" rel="follow">Blueberry Cinnamon Mocktails</a></td>
+            <td><a href="/recipes/avocado-strawberry-toast" rel="follow">Avocado Strawberry Toast</a></td>
             <td class="search-result-arrow">&#x2196;</td>
           </tr>
         </table>
@@ -801,6 +801,64 @@ and free online cookbooks!</h1>
 <div class="dynamic-list-carousel-next"></div>
 <div  class="odd first last cols-3 dynamic-list-carousel es-list tiles-container" data-cycle-slides=".tile" data-cycle-fx="carousel" data-cycle-carousel-fluid="true" data-cycle-carousel-visible="3" data-cycle-timeout="0" data-cycle-swipe="true" data-cycle-carousel-hops="3">
   <div class="tile">
+<a class="teaser-wrapper-link" href="/recipes/cookbooks/favorite-tofu-recipes" title="Favorite Tofu Recipes recipes" rel="follow">
+<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
+      <div class="teaser-left">
+      <picture  title="Favorite Tofu Recipes recipes">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Favorite Tofu Recipes recipes" title="Favorite Tofu Recipes recipes" />
+</picture><div class="recipe-counter-container"><div class="recipe-counter">35 recipes</div>
+</div>    </div><div class="teaser-right">
+        
+    
+          <div class="title">
+        Favorite Tofu Recipes      </div>
+    
+    
+          <div class="teasertext short">
+        A great meat alternative      </div>
+    
+    
+          </div>
+</div>
+</a>
+</div><div class="tile">
+<a class="teaser-wrapper-link" href="/recipes/cookbooks/hummus-recipes" title="Hummus Recipes recipes" rel="follow">
+<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
+      <div class="teaser-left">
+      <picture  title="Hummus Recipes recipes">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/chile-hummus-629724.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/chile-hummus-629724.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/chile-hummus-629724.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/chile-hummus-629724.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/chile-hummus-629724.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/chile-hummus-629724.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/chile-hummus-629724.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Hummus Recipes recipes" title="Hummus Recipes recipes" />
+</picture><div class="recipe-counter-container"><div class="recipe-counter">25 recipes</div>
+</div>    </div><div class="teaser-right">
+        
+    
+          <div class="title">
+        Hummus Recipes      </div>
+    
+    
+          <div class="teasertext short">
+        Chickpeas are packed full of protein      </div>
+    
+    
+          </div>
+</div>
+</a>
+</div><div class="tile">
 <a class="teaser-wrapper-link" href="/recipes/cookbooks/recipes-with-arugula" title="Recipes with Arugula recipes" rel="follow">
 <div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
       <div class="teaser-left">
@@ -1786,64 +1844,6 @@ and free online cookbooks!</h1>
           </div>
 </div>
 </a>
-</div><div class="tile">
-<a class="teaser-wrapper-link" href="/recipes/cookbooks/favorite-tofu-recipes" title="Favorite Tofu Recipes recipes" rel="follow">
-<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
-      <div class="teaser-left">
-      <picture  title="Favorite Tofu Recipes recipes">
-<!--[if IE 9]><video style="display: none;"><![endif]-->
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
-<!--[if IE 9]></video><![endif]-->
-<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/b5bc5738-1236-417d-b21a-5860bfd3a7a7_0.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Favorite Tofu Recipes recipes" title="Favorite Tofu Recipes recipes" />
-</picture><div class="recipe-counter-container"><div class="recipe-counter">35 recipes</div>
-</div>    </div><div class="teaser-right">
-        
-    
-          <div class="title">
-        Favorite Tofu Recipes      </div>
-    
-    
-          <div class="teasertext short">
-        A great meat alternative      </div>
-    
-    
-          </div>
-</div>
-</a>
-</div><div class="tile">
-<a class="teaser-wrapper-link" href="/recipes/cookbooks/hummus-recipes" title="Hummus Recipes recipes" rel="follow">
-<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
-      <div class="teaser-left">
-      <picture  title="Hummus Recipes recipes">
-<!--[if IE 9]><video style="display: none;"><![endif]-->
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/chile-hummus-629724.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/chile-hummus-629724.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/chile-hummus-629724.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/chile-hummus-629724.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/chile-hummus-629724.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/chile-hummus-629724.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
-<!--[if IE 9]></video><![endif]-->
-<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/chile-hummus-629724.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Hummus Recipes recipes" title="Hummus Recipes recipes" />
-</picture><div class="recipe-counter-container"><div class="recipe-counter">25 recipes</div>
-</div>    </div><div class="teaser-right">
-        
-    
-          <div class="title">
-        Hummus Recipes      </div>
-    
-    
-          <div class="teasertext short">
-        Chickpeas are packed full of protein      </div>
-    
-    
-          </div>
-</div>
-</a>
 </div></div>
 </div>
 
@@ -1913,6 +1913,64 @@ We now have a new proprietary health score on a lot of our recipes that is cal
 <div class="dynamic-list-carousel-next"></div>
 <div  class="odd first last cols-3 dynamic-list-carousel es-list tiles-container" data-cycle-slides=".tile" data-cycle-fx="carousel" data-cycle-carousel-fluid="true" data-cycle-carousel-visible="3" data-cycle-timeout="0" data-cycle-swipe="true" data-cycle-carousel-hops="3">
   <div class="tile">
+<a class="teaser-wrapper-link" href="/recipes/cookbooks/editors-favorite-snacks-and-appetizers" title="Editors Favorite Snacks and Appetizers recipes" rel="follow">
+<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
+      <div class="teaser-left">
+      <picture  title="Editors Favorite Snacks and Appetizers recipes">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Editors Favorite Snacks and Appetizers recipes" title="Editors Favorite Snacks and Appetizers recipes" />
+</picture><div class="recipe-counter-container"><div class="recipe-counter">30 recipes</div>
+</div>    </div><div class="teaser-right">
+        
+    
+          <div class="title">
+        Editors Favorite Snacks and Appetizers      </div>
+    
+    
+          <div class="teasertext short">
+        A collection of our favorites      </div>
+    
+    
+          </div>
+</div>
+</a>
+</div><div class="tile">
+<a class="teaser-wrapper-link" href="/recipes/cookbooks/editors-favorite-desserts-and-sweets" title="Editors Favorite Desserts and Sweets recipes" rel="follow">
+<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
+      <div class="teaser-left">
+      <picture  title="Editors Favorite Desserts and Sweets recipes">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/chia-pudding-with-berries-674065.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Editors Favorite Desserts and Sweets recipes" title="Editors Favorite Desserts and Sweets recipes" />
+</picture><div class="recipe-counter-container"><div class="recipe-counter">30 recipes</div>
+</div>    </div><div class="teaser-right">
+        
+    
+          <div class="title">
+        Editors Favorite Desserts and Sweets      </div>
+    
+    
+          <div class="teasertext short">
+        We&#039;ve picked our favorite sweet treats      </div>
+    
+    
+          </div>
+</div>
+</a>
+</div><div class="tile">
 <a class="teaser-wrapper-link" href="/recipes/cookbooks/editors-favorite-breakfast-recipes" title="Editors Favorite Breakfast Recipes recipes" rel="follow">
 <div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
       <div class="teaser-left">
@@ -2023,64 +2081,6 @@ We now have a new proprietary health score on a lot of our recipes that is cal
     
           <div class="teasertext short">
         Favorite soups from our editors      </div>
-    
-    
-          </div>
-</div>
-</a>
-</div><div class="tile">
-<a class="teaser-wrapper-link" href="/recipes/cookbooks/editors-favorite-snacks-and-appetizers" title="Editors Favorite Snacks and Appetizers recipes" rel="follow">
-<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
-      <div class="teaser-left">
-      <picture  title="Editors Favorite Snacks and Appetizers recipes">
-<!--[if IE 9]><video style="display: none;"><![endif]-->
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
-<!--[if IE 9]></video><![endif]-->
-<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/6d64bb95-28be-4caa-91e4-91575fa150cb_0.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Editors Favorite Snacks and Appetizers recipes" title="Editors Favorite Snacks and Appetizers recipes" />
-</picture><div class="recipe-counter-container"><div class="recipe-counter">30 recipes</div>
-</div>    </div><div class="teaser-right">
-        
-    
-          <div class="title">
-        Editors Favorite Snacks and Appetizers      </div>
-    
-    
-          <div class="teasertext short">
-        A collection of our favorites      </div>
-    
-    
-          </div>
-</div>
-</a>
-</div><div class="tile">
-<a class="teaser-wrapper-link" href="/recipes/cookbooks/editors-favorite-desserts-and-sweets" title="Editors Favorite Desserts and Sweets recipes" rel="follow">
-<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
-      <div class="teaser-left">
-      <picture  title="Editors Favorite Desserts and Sweets recipes">
-<!--[if IE 9]><video style="display: none;"><![endif]-->
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/chia-pudding-with-berries-674065.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
-<!--[if IE 9]></video><![endif]-->
-<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/chia-pudding-with-berries-674065.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Editors Favorite Desserts and Sweets recipes" title="Editors Favorite Desserts and Sweets recipes" />
-</picture><div class="recipe-counter-container"><div class="recipe-counter">30 recipes</div>
-</div>    </div><div class="teaser-right">
-        
-    
-          <div class="title">
-        Editors Favorite Desserts and Sweets      </div>
-    
-    
-          <div class="teasertext short">
-        We&#039;ve picked our favorite sweet treats      </div>
     
     
           </div>
@@ -2609,6 +2609,64 @@ We now have a new proprietary health score on a lot of our recipes that is cal
 <div class="dynamic-list-carousel-next"></div>
 <div  class="odd first last cols-3 dynamic-list-carousel es-list tiles-container" data-cycle-slides=".tile" data-cycle-fx="carousel" data-cycle-carousel-fluid="true" data-cycle-carousel-visible="3" data-cycle-timeout="0" data-cycle-swipe="true" data-cycle-carousel-hops="3">
   <div class="tile">
+<a class="teaser-wrapper-link" href="/recipes/cookbooks/what-am-i-cooking-today" title="What Am I Cooking Today? recipes" rel="follow">
+<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
+      <div class="teaser-left">
+      <picture  title="What Am I Cooking Today? recipes">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/salmon-steaks-with-lime-yogurt-674151_0.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="What Am I Cooking Today? recipes" title="What Am I Cooking Today? recipes" />
+</picture><div class="recipe-counter-container"><div class="recipe-counter">30 recipes</div>
+</div>    </div><div class="teaser-right">
+        
+    
+          <div class="title">
+        What Am I Cooking Today?      </div>
+    
+    
+          <div class="teasertext short">
+        Let&#039;s get in the kitchen!      </div>
+    
+    
+          </div>
+</div>
+</a>
+</div><div class="tile">
+<a class="teaser-wrapper-link" href="/recipes/cookbooks/make-your-own-pizza" title="Make Your Own Pizza recipes" rel="follow">
+<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
+      <div class="teaser-left">
+      <picture  title="Make Your Own Pizza recipes">
+<!--[if IE 9]><video style="display: none;"><![endif]-->
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/fig-pizza-557830.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/fig-pizza-557830.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/fig-pizza-557830.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/fig-pizza-557830.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/fig-pizza-557830.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/fig-pizza-557830.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
+<!--[if IE 9]></video><![endif]-->
+<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/fig-pizza-557830.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Make Your Own Pizza recipes" title="Make Your Own Pizza recipes" />
+</picture><div class="recipe-counter-container"><div class="recipe-counter">24 recipes</div>
+</div>    </div><div class="teaser-right">
+        
+    
+          <div class="title">
+        Make Your Own Pizza      </div>
+    
+    
+          <div class="teasertext short">
+        Simple and versatile ideas for making your own pizza.      </div>
+    
+    
+          </div>
+</div>
+</a>
+</div><div class="tile">
 <a class="teaser-wrapper-link" href="/recipes/cookbooks/family-dinner" title="Family Dinner recipes" rel="follow">
 <div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
       <div class="teaser-left">
@@ -2690,64 +2748,6 @@ We now have a new proprietary health score on a lot of our recipes that is cal
     
           <div class="teasertext short">
         Healthy Choices      </div>
-    
-    
-          </div>
-</div>
-</a>
-</div><div class="tile">
-<a class="teaser-wrapper-link" href="/recipes/cookbooks/what-am-i-cooking-today" title="What Am I Cooking Today? recipes" rel="follow">
-<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
-      <div class="teaser-left">
-      <picture  title="What Am I Cooking Today? recipes">
-<!--[if IE 9]><video style="display: none;"><![endif]-->
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/salmon-steaks-with-lime-yogurt-674151_0.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
-<!--[if IE 9]></video><![endif]-->
-<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/salmon-steaks-with-lime-yogurt-674151_0.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="What Am I Cooking Today? recipes" title="What Am I Cooking Today? recipes" />
-</picture><div class="recipe-counter-container"><div class="recipe-counter">30 recipes</div>
-</div>    </div><div class="teaser-right">
-        
-    
-          <div class="title">
-        What Am I Cooking Today?      </div>
-    
-    
-          <div class="teasertext short">
-        Let&#039;s get in the kitchen!      </div>
-    
-    
-          </div>
-</div>
-</a>
-</div><div class="tile">
-<a class="teaser-wrapper-link" href="/recipes/cookbooks/make-your-own-pizza" title="Make Your Own Pizza recipes" rel="follow">
-<div class="teaser teaser-search-result teaser-field_collection_item-field_manual_teasers teaser-node-gallery" >
-      <div class="teaser-left">
-      <picture  title="Make Your Own Pizza recipes">
-<!--[if IE 9]><video style="display: none;"><![endif]-->
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/fig-pizza-557830.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/fig-pizza-557830.jpg 1x" data-aspectratio="300/225" media="(min-width: 481px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225-webp/public/fig-pizza-557830.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/300x225/public/fig-pizza-557830.jpg 1x" data-aspectratio="300/225" media="(max-width: 320px)" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338-webp/public/fig-pizza-557830.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/fig-pizza-557830.jpg 1x" data-aspectratio="450/338" media="(max-width: 480px)" />
-<!--[if IE 9]></video><![endif]-->
-<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/450x338/public/fig-pizza-557830.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="450" height="338" alt="Make Your Own Pizza recipes" title="Make Your Own Pizza recipes" />
-</picture><div class="recipe-counter-container"><div class="recipe-counter">24 recipes</div>
-</div>    </div><div class="teaser-right">
-        
-    
-          <div class="title">
-        Make Your Own Pizza      </div>
-    
-    
-          <div class="teasertext short">
-        Simple and versatile ideas for making your own pizza.      </div>
     
     
           </div>
@@ -3116,34 +3116,34 @@ We now have a new proprietary health score on a lot of our recipes that is cal
   
   
   <div class="pane-content">
-          <a class="teaser-wrapper-link" href="/recipes/blueberry-cinnamon-mocktails" title="Blueberry Cinnamon Mocktails recipe" rel="follow">
+          <a class="teaser-wrapper-link" href="/recipes/avocado-strawberry-toast" title="Avocado Strawberry Toast recipe" rel="follow">
 <div class="teaser teaser-medium teaser-node-recipe" >
       <div class="teaser-left">
-      <span class="cookbook_link_placeholder" data-rnid="667357"></span>
-<picture  title="Blueberry Cinnamon Mocktails recipe">
+      <span class="cookbook_link_placeholder" data-rnid="666903"></span>
+<picture  title="Avocado Strawberry Toast recipe">
 <!--[if IE 9]><video style="display: none;"><![endif]-->
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/200x150-webp/public/blueberry-cinnamon-mocktails-667357.jpg 1x" data-aspectratio="200/150" media="(min-width: 1px /* webp */)" type="image/webp" />
-<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/200x150/public/blueberry-cinnamon-mocktails-667357.jpg 1x" data-aspectratio="200/150" media="(min-width: 1px)" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/200x150-webp/public/avocado-strawberry-toast-666903.jpg 1x" data-aspectratio="200/150" media="(min-width: 1px /* webp */)" type="image/webp" />
+<source data-srcset="https://images.eatsmarter.com/sites/default/files/styles/200x150/public/avocado-strawberry-toast-666903.jpg 1x" data-aspectratio="200/150" media="(min-width: 1px)" />
 <!--[if IE 9]></video><![endif]-->
-<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/200x150/public/blueberry-cinnamon-mocktails-667357.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="200" height="150" alt="Blueberry Cinnamon Mocktails recipe" title="Blueberry Cinnamon Mocktails recipe" />
+<img  class="lazyload" data-aspectratio="" data-src="https://images.eatsmarter.com/sites/default/files/styles/200x150/public/avocado-strawberry-toast-666903.jpg" src="https://images.eatsmarter.com/sites/all/modules/custom/eatsmarter_image/images/image_placeholder.gif" width="200" height="150" alt="Avocado Strawberry Toast recipe" title="Avocado Strawberry Toast recipe" />
 </picture>    </div><div class="teaser-right">
             <div class="information-container">
-              <div class="premium-badge">Light And Refreshing</div>
+              <div class="premium-badge">Brain Food</div>
     
     
           <div class="title">
-        Blueberry Cinnamon Mocktails      </div>
+        Avocado Strawberry Toast      </div>
     
     
     
     
                   <div class="teaser-rating">
           <div class="clearfix fivestar-average-stars"><div class="fivestar-static-item"><div class="form-item form-type-item">
- <div class="fivestar-default"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><span class="rating">5</span><div class="star star-1 star-odd star-first on"></div><div class="star star-2 star-even on"></div><div class="star star-3 star-odd on"></div><div class="star star-4 star-even on"></div><div class="star star-5 star-odd star-last on"></div></div></div>
+ <div class="fivestar-default"><div class="fivestar-widget-static fivestar-widget-static-vote fivestar-widget-static-5 clearfix"><span class="rating">4.9</span><div class="star star-1 star-odd star-first on"></div><div class="star star-2 star-even on"></div><div class="star star-3 star-odd on"></div><div class="star star-4 star-even on"></div><div class="star star-5 star-odd star-last on"></div></div></div>
 <div class="description"><div class="fivestar-summary fivestar-summary-"></div></div>
 </div>
 </div></div>            <div class="rating-count">
-              (5)
+              (10)
             </div>
         </div>
             </div>
@@ -3152,13 +3152,13 @@ We now have a new proprietary health score on a lot of our recipes that is cal
         <hr />
                   <div>
             <i class="fa fa-clock-o"></i>
-            <p  class="preparation-wait">5 mins</p>          </div>
+            <p  class="preparation-wait">15 mins</p>          </div>
         
                   <div>
             <i class="fa fa-balance-scale"></i>
-            <p  class="calories">46 calories</p>          </div>
+            <p  class="calories">366 calories</p>          </div>
         
-                  <div class="health-score-teaser"><div class="health-score-image-container health-score-7-8"></div>75</div>              </div>
+                  <div class="health-score-teaser"><div class="health-score-image-container health-score-7-8"></div>85</div>              </div>
           </div>
 </div>
 </a>
@@ -3740,33 +3740,36 @@ We now have a new proprietary health score on a lot of our recipes that is cal
   
   
   <div class="pane-content">
-          <div class="item-list"><ul class="tag-cloud-list"><li class="tag-cloud-list-item weight-9 first"><a href="/recipes/ingredients/lemon-recipes" title="lemon recipes" rel="follow">lemon</a></li>
-<li class="tag-cloud-list-item weight-3"><a href="/recipes/ingredients/apple-recipes" title="Apple recipes" rel="follow">Apple</a></li>
-<li class="tag-cloud-list-item weight-6"><a href="/recipes/ingredients/honey-recipes" title="honey recipes" rel="follow">honey</a></li>
-<li class="tag-cloud-list-item weight-3"><a href="/recipes/cooking/cheese" title="Cheese recipes" rel="follow">Cheese</a></li>
-<li class="tag-cloud-list-item weight-5"><a href="/recipes/ingredients/orange-recipes" title="Orange recipes" rel="follow">Orange</a></li>
-<li class="tag-cloud-list-item weight-1"><a href="/recipes/ingredients/kohlrabi-recipes" title="Kohlrabi recipes" rel="follow">Kohlrabi</a></li>
-<li class="tag-cloud-list-item weight-5"><a href="/recipes/ingredients/beans-recipes" title="Beans recipes" rel="follow">Beans</a></li>
-<li class="tag-cloud-list-item weight-7"><a href="/recipes/ingredients/egg-recipes" title="egg recipes" rel="follow">egg</a></li>
-<li class="tag-cloud-list-item weight-10"><a href="/recipes/ingredients/pepper-recipes" title="pepper recipes" rel="follow">pepper</a></li>
-<li class="tag-cloud-list-item weight-7"><a href="/recipes/cooking/salad" title="Salad recipes" rel="follow">Salad</a></li>
-<li class="tag-cloud-list-item weight-2"><a href="/recipes/ingredients/garlic-recipes-1" title="garlic recipes" rel="follow">garlic</a></li>
-<li class="tag-cloud-list-item weight-1"><a href="/recipes/ingredients/parmesan-recipes" title="Parmesan recipes" rel="follow">Parmesan</a></li>
-<li class="tag-cloud-list-item weight-1"><a href="/recipes/ingredients/salmon-recipes" title="Salmon recipes" rel="follow">Salmon</a></li>
-<li class="tag-cloud-list-item weight-6"><a href="/recipes/ingredients/milk-recipes" title="milk recipes" rel="follow">milk</a></li>
-<li class="tag-cloud-list-item weight-2"><a href="/recipes/regional/asian/thai" title="Thai recipes" rel="follow">Thai</a></li>
-<li class="tag-cloud-list-item weight-4"><a href="/recipes/course/breakfast" title="Breakfast recipes" rel="follow">Breakfast</a></li>
-<li class="tag-cloud-list-item weight-8"><a href="/recipes/cooking/fish" title="Fish recipes" rel="follow">Fish</a></li>
-<li class="tag-cloud-list-item weight-7"><a href="/recipes/ingredients/carrot-recipes" title="carrot recipes" rel="follow">carrot</a></li>
-<li class="tag-cloud-list-item weight-8"><a href="/recipes/ingredients/thyme-recipes" title="thyme recipes" rel="follow">thyme</a></li>
-<li class="tag-cloud-list-item weight-6"><a href="/recipes/ingredients/sugar-recipes" title="sugar recipes" rel="follow">sugar</a></li>
-<li class="tag-cloud-list-item weight-1"><a href="/recipes/ingredients/marzipan-recipes" title="Marzipan recipes" rel="follow">Marzipan</a></li>
-<li class="tag-cloud-list-item weight-8"><a href="/recipes/cooking/meat/beef" title="Beef recipes" rel="follow">Beef</a></li>
-<li class="tag-cloud-list-item weight-2"><a href="/recipes/cooking/meat/poultry/chicken" title="Chicken recipes" rel="follow">Chicken</a></li>
-<li class="tag-cloud-list-item weight-2"><a href="/recipes/ingredients/pistachio-recipes" title="Pistachio recipes" rel="follow">Pistachio</a></li>
-<li class="tag-cloud-list-item weight-10"><a href="/recipes/ingredients/olive-oil-recipes" title="olive oil recipes" rel="follow">olive oil</a></li>
-<li class="tag-cloud-list-item weight-3"><a href="/recipes/ingredients/olive-recipes" title="Olive recipes" rel="follow">Olive</a></li>
-<li class="tag-cloud-list-item weight-7 last"><a href="/recipes/ingredients/tomato-recipes" title="Tomato recipes" rel="follow">Tomato</a></li>
+          <div class="item-list"><ul class="tag-cloud-list"><li class="tag-cloud-list-item weight-5 first"><a href="/recipes/ingredients/egg-recipes" title="egg recipes" rel="follow">egg</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/ingredients/wheat-recipes" title="Wheat recipes" rel="follow">Wheat</a></li>
+<li class="tag-cloud-list-item weight-1"><a href="/recipes/ingredients/leek-recipes" title="Leek recipes" rel="follow">Leek</a></li>
+<li class="tag-cloud-list-item weight-10"><a href="/recipes/ingredients/lemon-recipes" title="lemon recipes" rel="follow">lemon</a></li>
+<li class="tag-cloud-list-item weight-7"><a href="/recipes/ingredients/pepper-recipes" title="pepper recipes" rel="follow">pepper</a></li>
+<li class="tag-cloud-list-item weight-8"><a href="/recipes/ingredients/tomato-recipes" title="Tomato recipes" rel="follow">Tomato</a></li>
+<li class="tag-cloud-list-item weight-6"><a href="/recipes/cooking/fish" title="Fish recipes" rel="follow">Fish</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/ingredients/radicchio-recipes" title="Radicchio recipes" rel="follow">Radicchio</a></li>
+<li class="tag-cloud-list-item weight-5"><a href="/recipes/ingredients/milk-recipes" title="milk recipes" rel="follow">milk</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/ingredients/sugar-recipes" title="sugar recipes" rel="follow">sugar</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/menu/dessert" title="Dessert recipes" rel="follow">Dessert</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/ingredients/paprika-recipes" title="paprika recipes" rel="follow">paprika</a></li>
+<li class="tag-cloud-list-item weight-4"><a href="/recipes/ingredients/beans-recipes" title="Beans recipes" rel="follow">Beans</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/cooking/salad/potato-salad" title="Potato Salad recipes" rel="follow">Potato Salad</a></li>
+<li class="tag-cloud-list-item weight-1"><a href="/recipes/ingredients/horseradish-recipes" title="Horseradish recipes" rel="follow">Horseradish</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/ingredients/orange-recipes" title="Orange recipes" rel="follow">Orange</a></li>
+<li class="tag-cloud-list-item weight-4"><a href="/recipes/menu/side-dish/gnocchi" title="Gnocchi recipes" rel="follow">Gnocchi</a></li>
+<li class="tag-cloud-list-item weight-5"><a href="/recipes/ingredients/thyme-recipes" title="thyme recipes" rel="follow">thyme</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/ingredients/beet-recipes" title="Beet recipes" rel="follow">Beet</a></li>
+<li class="tag-cloud-list-item weight-5"><a href="/recipes/cooking/salad" title="Salad recipes" rel="follow">Salad</a></li>
+<li class="tag-cloud-list-item weight-3"><a href="/recipes/ingredients/garlic-recipes-1" title="garlic recipes" rel="follow">garlic</a></li>
+<li class="tag-cloud-list-item weight-1"><a href="/recipes/course/breakfast" title="Breakfast recipes" rel="follow">Breakfast</a></li>
+<li class="tag-cloud-list-item weight-10"><a href="/recipes/cooking/meat/beef" title="Beef recipes" rel="follow">Beef</a></li>
+<li class="tag-cloud-list-item weight-5"><a href="/recipes/ingredients/honey-recipes" title="honey recipes" rel="follow">honey</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/ingredients/parmesan-recipes" title="Parmesan recipes" rel="follow">Parmesan</a></li>
+<li class="tag-cloud-list-item weight-4"><a href="/recipes/ingredients/olive-recipes" title="Olive recipes" rel="follow">Olive</a></li>
+<li class="tag-cloud-list-item weight-2"><a href="/recipes/course/lunch" title="Lunch recipes" rel="follow">Lunch</a></li>
+<li class="tag-cloud-list-item weight-6"><a href="/recipes/ingredients/carrot-recipes" title="carrot recipes" rel="follow">carrot</a></li>
+<li class="tag-cloud-list-item weight-6"><a href="/recipes/ingredients/olive-oil-recipes" title="olive oil recipes" rel="follow">olive oil</a></li>
+<li class="tag-cloud-list-item weight-2 last"><a href="/recipes/special/cooking-for-kids/baby-food" title="Baby Food recipes" rel="follow">Baby Food</a></li>
 </ul></div><a href="/recipes/recipe-categories" rel="follow">Show all recipe categories</a>      </div>
 
   
@@ -4187,7 +4190,7 @@ function loadVGWort(){if(typeof executeVGWort==='function')executeVGWort()};
 <script src="https://eatsmarter.com/sites/default/files/advagg_js/js___MJw2PT1ivF2J7YvpQerOdcO1KwcBveti-y_OHDbFQg__8vBIEW1wMYAhMWXU6A6bBbLPRfde4MuovS8v7f6RPvo__4rZR3hzk4v0aGc9cQfWDV87AbU3UWsBEJCAtyrVJvUI.js"></script>
 <script>
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"eatsmarter","theme_token":"0BEEJJwiR9ir6FLbLi4RfxxaRfBt4AohoxUNOTF7OCE","css":{"modules\/system\/system.messages.css":1,"sites\/all\/modules\/contrib\/picture\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.menu.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"styles":1,"sites\/all\/modules\/contrib\/comment_notify\/comment_notify.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/eatsmarter\/plugins\/layouts\/frontpage-template\/panel-frontpage-template.css":1,"public:\/\/ctools\/css\/bd7181ae5e7c92dddf372ec2b5e3cbdd.css":1,"sites\/all\/libraries\/slick\/slick.css":1,"sites\/all\/themes\/eatsmarter\/js\/slick\/slick_custom.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"public:\/\/ctools\/css\/f7888d606ae555b4cd41996e4f63ed7d.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/css\/youtube\/stylesheets\/youtube_widget.css":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/css\/bmi_calculator\/stylesheets\/bmi_calculator.css":1,"sites\/all\/themes\/eatsmarter\/plugins\/layouts\/site-template\/panel-site-template.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.min.css":1,"sites\/all\/modules\/contrib\/hide_submit\/css\/hide_submit.css":1,"sites\/all\/themes\/eatsmarter\/compass\/stylesheets\/eatsmarter-all.css":1,"sites\/all\/themes\/eatsmarter\/compass\/stylesheets\/desktop.css":1},"js":{"\/sites\/all\/libraries\/jquery\/jquery-3.7.1.min.js":1,"\/sites\/all\/libraries\/jquery-migrate\/jquery-migrate-3.4.1.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/contrib\/picture\/lazysizes\/lazysizes.min.js":1,"\/sites\/all\/libraries\/jquery-ui\/jquery-ui.min.js":1,"sites\/all\/modules\/contrib\/picture\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.min.js":1,"misc\/ui\/jquery.ui.position-1.13.0-backport.js":1,"sites\/all\/modules\/contrib\/scroll_button\/js\/scroll_button.js":1,"misc\/form-single-submit.js":1,"sites\/all\/modules\/contrib\/comment_notify\/comment_notify.js":1,"sites\/all\/modules\/contrib\/entityreference\/js\/entityreference.js":1,"sites\/all\/libraries\/picturefill\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/modules\/contrib\/fivestar\/js\/fivestar.js":1,"sites\/all\/modules\/contrib\/hide_submit\/js\/hide_submit.js":1,"sites\/all\/themes\/eatsmarter\/js\/base.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_position.js":1,"sites\/all\/modules\/custom\/eatsmarter_cookbook\/assets\/js\/eatsmarter_cookbook\/main.js":1,"sites\/all\/libraries\/cycle2\/build\/jquery.cycle2.min.js":1,"sites\/all\/libraries\/cycle2\/build\/plugin\/jquery.cycle2.carousel.min.js":1,"sites\/all\/libraries\/cycle2\/build\/plugin\/jquery.cycle2.swipe.min.js":1,"sites\/all\/modules\/custom\/dynamic_list\/dynamic_list_carousel.js":1,"sites\/all\/modules\/custom\/eatsmarter_analytics\/js\/eatsmarter_analytics.js":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/js\/smooth_scrolling\/smooth_scrolling.js":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_recipe\/assets\/js\/eatsmarter_recipe.js":1,"sites\/all\/libraries\/underscore\/underscore-umd-min.js":1,"sites\/all\/libraries\/backbone\/backbone-min.js":1,"sites\/all\/modules\/custom\/eatsmarter_extra_panes\/plugins\/content_types\/header_pane\/header.js":1,"sites\/all\/modules\/custom\/eatsmarter_search\/js\/search_as_you_type.js":1,"sites\/all\/modules\/custom\/eatsmarter_menu\/js\/menu-teasers.js":1,"sites\/all\/libraries\/jquery.dropdown\/jquery.dropdown.js":1,"sites\/all\/libraries\/jquery.sticky\/jquery.sticky.js":1,"sites\/all\/themes\/eatsmarter\/js\/outbound.js":1,"sites\/all\/libraries\/slick\/slick.js":1,"sites\/all\/themes\/eatsmarter\/js\/slick\/slick_custom.js":1,"sites\/all\/modules\/custom\/eatsmarter_advertisement\/assets\/js\/eatsmarter_advertisement.js":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/js\/youtube\/youtube_widget.js":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/js\/bmi_calculator\/bmi_calculator.js":1,"sites\/all\/modules\/custom\/eatsmarter_menu\/js\/eatsmarter_menu.js":1,"sites\/all\/libraries\/polyfills\/matchMedia\/matchMedia.js":1,"sites\/all\/libraries\/polyfills\/matchMedia\/matchMedia.addListener.js":1,"sites\/all\/themes\/eatsmarter\/js\/responsive.js":1}},"eatsmarter_multidomain":{"domain":"eatsmarter_com"},"dynamic_list":{"carouselSelector":".dynamic-list-carousel","carouselWrapperSelector":".dynamic-list-carousel-wrapper","carouselPrevSelector":".dynamic-list-carousel-prev","carouselNextSelector":".dynamic-list-carousel-next"},"eatsmarter_cookbook":{"content":[],"linkDrafts":{"delete":"\u003Ci class=\u0022cookbook-link cookbook-link-remove fa fa-heart-o\u0022 data-rnid=\u0022\u0022 data-href=\u0022\/my-cookbook\/remove\/%7Beatsmarter_cookbook_recipe_id_placeholder%7D\/ajax\u0022 title=\u0022Remove from cookbook\u0022 \/\u003E\n","anonymous":"\u003Ci class=\u0022cookbook-link cookbook-link-add fa fa-heart-o\u0022 data-rnid=\u0022\u0022 data-href=\u0022\/user?destination=my-cookbook\/check\/%7Beatsmarter_cookbook_recipe_id_placeholder%7D\/frontpage\u0022 title=\u0022Copy to cookbook\u0022 \/\u003E\n","add":"\u003Ci class=\u0022cookbook-link cookbook-link-add fa fa-heart-o\u0022 data-rnid=\u0022\u0022 data-href=\u0022\/my-cookbook\/add\/%7Beatsmarter_cookbook_recipe_id_placeholder%7D\/ajax\u0022 title=\u0022Copy to cookbook\u0022 \/\u003E\n"},"notesForm":"my-cookbook\/get-notes-form\/","returnTo":"frontpage","user":"anonymous","recipeIdPlaceholder":"{eatsmarter_cookbook_recipe_id_placeholder}"},"base_url":"https:\/\/eatsmarter.com","eatsmarter_advertisement":{"showAdFree":false},"eatsmarter_article":{"newsletter2go_backend_endpoint":"\/eatsmarter_newsletter2go\/ajax\/submit","show_newsletter_form":false},"eatsmarter_search_post":[],"scroll_button":{"buttons":{"bot":0,"top":1},"color":{"bg":"#ffffff","hv":"#ffffff"},"css":"fa fa-chevron-circle-up","distance":"400","duration":400,"offset":{"x":"80","y":"2"},"position":"float","speed":"slow","title":""},"hide_submit":{"hide_submit_status":true,"hide_submit_method":"disable","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Processing...","hide_submit_indicator_style":"expand-left","hide_submit_spinner_color":"#000","hide_submit_spinner_lines":12,"hide_submit_hide_fx":0,"hide_submit_reset_time":5000},"urlIsAjaxTrusted":{"\/frontpage?destination=frontpage":true,"\/":true},"throbber":{"src":"\/sites\/all\/modules\/custom\/eatsmarter_search\/images\/throbber.gif"},"eatsmarter":{"logoReducedHeaderUrl":"\/sites\/all\/themes\/eatsmarter\/logo-reduced-header.png"},"theme":{"mobile_media_query":"screen and (min-width: 768px)"}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"eatsmarter","theme_token":"WnnvqaHhx4aq5WtswcmeX-X6NTWGsLD3E6zV4IaXNKM","css":{"modules\/system\/system.messages.css":1,"sites\/all\/modules\/contrib\/picture\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.menu.css":1,"misc\/ui\/jquery.ui.autocomplete.css":1,"styles":1,"sites\/all\/modules\/contrib\/comment_notify\/comment_notify.css":1,"modules\/comment\/comment.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/picture\/picture_wysiwyg.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/themes\/eatsmarter\/plugins\/layouts\/frontpage-template\/panel-frontpage-template.css":1,"public:\/\/ctools\/css\/bd7181ae5e7c92dddf372ec2b5e3cbdd.css":1,"sites\/all\/libraries\/slick\/slick.css":1,"sites\/all\/themes\/eatsmarter\/js\/slick\/slick_custom.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/flexible\/flexible.css":1,"public:\/\/ctools\/css\/f7888d606ae555b4cd41996e4f63ed7d.css":1,"sites\/all\/modules\/contrib\/panels\/plugins\/layouts\/onecol\/onecol.css":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/css\/youtube\/stylesheets\/youtube_widget.css":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/css\/bmi_calculator\/stylesheets\/bmi_calculator.css":1,"sites\/all\/themes\/eatsmarter\/plugins\/layouts\/site-template\/panel-site-template.css":1,"sites\/all\/libraries\/fontawesome\/css\/font-awesome.min.css":1,"sites\/all\/modules\/contrib\/hide_submit\/css\/hide_submit.css":1,"sites\/all\/themes\/eatsmarter\/compass\/stylesheets\/eatsmarter-all.css":1,"sites\/all\/themes\/eatsmarter\/compass\/stylesheets\/desktop.css":1},"js":{"\/sites\/all\/libraries\/jquery\/jquery-3.7.1.min.js":1,"\/sites\/all\/libraries\/jquery-migrate\/jquery-migrate-3.4.1.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_browser.js":1,"sites\/all\/modules\/contrib\/picture\/lazysizes\/lazysizes.min.js":1,"\/sites\/all\/libraries\/jquery-ui\/jquery-ui.min.js":1,"sites\/all\/modules\/contrib\/picture\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.min.js":1,"misc\/ui\/jquery.ui.position-1.13.0-backport.js":1,"sites\/all\/modules\/contrib\/scroll_button\/js\/scroll_button.js":1,"misc\/form-single-submit.js":1,"sites\/all\/modules\/contrib\/comment_notify\/comment_notify.js":1,"sites\/all\/modules\/contrib\/entityreference\/js\/entityreference.js":1,"sites\/all\/libraries\/picturefill\/picturefill.min.js":1,"sites\/all\/modules\/contrib\/picture\/picture.min.js":1,"sites\/all\/modules\/contrib\/fivestar\/js\/fivestar.js":1,"sites\/all\/modules\/contrib\/hide_submit\/js\/hide_submit.js":1,"sites\/all\/themes\/eatsmarter\/js\/base.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_position.js":1,"sites\/all\/modules\/custom\/eatsmarter_cookbook\/assets\/js\/eatsmarter_cookbook\/main.js":1,"sites\/all\/libraries\/cycle2\/build\/jquery.cycle2.min.js":1,"sites\/all\/libraries\/cycle2\/build\/plugin\/jquery.cycle2.carousel.min.js":1,"sites\/all\/libraries\/cycle2\/build\/plugin\/jquery.cycle2.swipe.min.js":1,"sites\/all\/modules\/custom\/dynamic_list\/dynamic_list_carousel.js":1,"sites\/all\/modules\/custom\/eatsmarter_analytics\/js\/eatsmarter_analytics.js":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/js\/smooth_scrolling\/smooth_scrolling.js":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_recipe\/assets\/js\/eatsmarter_recipe.js":1,"sites\/all\/libraries\/underscore\/underscore-umd-min.js":1,"sites\/all\/libraries\/backbone\/backbone-min.js":1,"sites\/all\/modules\/custom\/eatsmarter_extra_panes\/plugins\/content_types\/header_pane\/header.js":1,"sites\/all\/modules\/custom\/eatsmarter_search\/js\/search_as_you_type.js":1,"sites\/all\/modules\/custom\/eatsmarter_menu\/js\/menu-teasers.js":1,"sites\/all\/libraries\/jquery.dropdown\/jquery.dropdown.js":1,"sites\/all\/libraries\/jquery.sticky\/jquery.sticky.js":1,"sites\/all\/themes\/eatsmarter\/js\/outbound.js":1,"sites\/all\/libraries\/slick\/slick.js":1,"sites\/all\/themes\/eatsmarter\/js\/slick\/slick_custom.js":1,"sites\/all\/modules\/custom\/eatsmarter_advertisement\/assets\/js\/eatsmarter_advertisement.js":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/js\/youtube\/youtube_widget.js":1,"sites\/all\/modules\/custom\/eatsmarter_node\/modules\/eatsmarter_article\/assets\/js\/bmi_calculator\/bmi_calculator.js":1,"sites\/all\/modules\/custom\/eatsmarter_menu\/js\/eatsmarter_menu.js":1,"sites\/all\/libraries\/polyfills\/matchMedia\/matchMedia.js":1,"sites\/all\/libraries\/polyfills\/matchMedia\/matchMedia.addListener.js":1,"sites\/all\/themes\/eatsmarter\/js\/responsive.js":1}},"eatsmarter_multidomain":{"domain":"eatsmarter_com"},"dynamic_list":{"carouselSelector":".dynamic-list-carousel","carouselWrapperSelector":".dynamic-list-carousel-wrapper","carouselPrevSelector":".dynamic-list-carousel-prev","carouselNextSelector":".dynamic-list-carousel-next"},"eatsmarter_cookbook":{"content":[],"linkDrafts":{"delete":"\u003Ci class=\u0022cookbook-link cookbook-link-remove fa fa-heart-o\u0022 data-rnid=\u0022\u0022 data-href=\u0022\/my-cookbook\/remove\/%7Beatsmarter_cookbook_recipe_id_placeholder%7D\/ajax\u0022 title=\u0022Remove from cookbook\u0022 \/\u003E\n","anonymous":"\u003Ci class=\u0022cookbook-link cookbook-link-add fa fa-heart-o\u0022 data-rnid=\u0022\u0022 data-href=\u0022\/user?destination=my-cookbook\/check\/%7Beatsmarter_cookbook_recipe_id_placeholder%7D\/frontpage\u0022 title=\u0022Copy to cookbook\u0022 \/\u003E\n","add":"\u003Ci class=\u0022cookbook-link cookbook-link-add fa fa-heart-o\u0022 data-rnid=\u0022\u0022 data-href=\u0022\/my-cookbook\/add\/%7Beatsmarter_cookbook_recipe_id_placeholder%7D\/ajax\u0022 title=\u0022Copy to cookbook\u0022 \/\u003E\n"},"notesForm":"my-cookbook\/get-notes-form\/","returnTo":"frontpage","user":"anonymous","recipeIdPlaceholder":"{eatsmarter_cookbook_recipe_id_placeholder}"},"base_url":"https:\/\/eatsmarter.com","eatsmarter_advertisement":{"showAdFree":false},"eatsmarter_article":{"newsletter2go_backend_endpoint":"\/eatsmarter_newsletter2go\/ajax\/submit","show_newsletter_form":false},"eatsmarter_search_post":[],"scroll_button":{"buttons":{"bot":0,"top":1},"color":{"bg":"#ffffff","hv":"#ffffff"},"css":"fa fa-chevron-circle-up","distance":"400","duration":400,"offset":{"x":"80","y":"2"},"position":"float","speed":"slow","title":""},"hide_submit":{"hide_submit_status":true,"hide_submit_method":"disable","hide_submit_css":"hide-submit-disable","hide_submit_abtext":"","hide_submit_atext":"","hide_submit_hide_css":"hide-submit-processing","hide_submit_hide_text":"Processing...","hide_submit_indicator_style":"expand-left","hide_submit_spinner_color":"#000","hide_submit_spinner_lines":12,"hide_submit_hide_fx":0,"hide_submit_reset_time":5000},"urlIsAjaxTrusted":{"\/frontpage?destination=frontpage":true,"\/":true},"throbber":{"src":"\/sites\/all\/modules\/custom\/eatsmarter_search\/images\/throbber.gif"},"eatsmarter":{"logoReducedHeaderUrl":"\/sites\/all\/themes\/eatsmarter\/logo-reduced-header.png"},"theme":{"mobile_media_query":"screen and (min-width: 768px)"}});
 //--><!]]>
 </script>
 <script src="https://eatsmarter.com/sites/default/files/advagg_js/js__EsB9vmkosljY29UCFjp2RJujykNce77d548Jhhuf8YE__eQc1ljDsja8aEyhzDNGNA4Cf0CeErs5q388quoHggmA__4rZR3hzk4v0aGc9cQfWDV87AbU3UWsBEJCAtyrVJvUI.js"></script>

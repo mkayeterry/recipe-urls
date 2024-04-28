@@ -14,7 +14,8 @@ class FifteenSpatulasScraper(AbstractScraper):
             "press", 
             "policy", 
             "side", 
-            "terms"
+            "terms", 
+            "travel"
         ]
     ]
 

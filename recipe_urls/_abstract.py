@@ -3,6 +3,7 @@ import requests
 from requests.exceptions import HTTPError, RequestException
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
+from recipe_urls._utils import extract_base_domain, concat_host
 
 
 class AbstractScraper:
@@ -58,42 +59,15 @@ class AbstractScraper:
         except (TypeError, AttributeError) as e:
             raise ValueError(f"Failed to extract href links: {e}") from e
 
-        return self.filter_links(href_links)
+        unique_links = {concat_host(link, self.base_url, self.soup) for link in href_links 
+                            if self.RECIPE_PATTERN and self.RECIPE_PATTERN.search(link) 
+                            and not any(pattern.search(link) for pattern in self.UNWANTED_PATTERNS)}
 
-
-    def filter_links(self, href_links: List[str]) -> List[str]:
-        
-        unique_links = {self.concat_host(link) for link in href_links if self.is_recipe_link(link)}
         return list(unique_links)
 
-
-    def is_recipe_link(self, link: str) -> bool:
-
-        if self.RECIPE_PATTERN and self.RECIPE_PATTERN.search(link):
-            return not any(pattern.search(link) for pattern in self.UNWANTED_PATTERNS)
-
-        return False
         
 
-    def concat_host(self, link: str) -> str:
-        if self.base_url:
-            base_parsed = urlparse(self.base_url)
-            base_domain = f"{base_parsed.scheme}://{base_parsed.netloc}"
 
-            if base_parsed.netloc in link:
-                return link
-            else:
-                return base_domain + link
 
-        canonical_url = self.soup.find("link", {"rel": "canonical", "href": True})
 
-        if not canonical_url:
-            return link
-
-        canonical_parsed = urlparse(canonical_url["href"])
-        canonical_domain = f"{canonical_parsed.scheme}://{canonical_parsed.netloc}"
-
-        return link if canonical_domain in link else canonical_domain + link
-
-            
 
