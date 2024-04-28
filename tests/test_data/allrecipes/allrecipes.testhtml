@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="homeTemplate_1-0" class="comp homeTemplate html mntl-html no-js taxlevel-0 " data-ab="99,99,99,99,99,99,99,99,77,99,99,99,58,79,99,99,64,63" data-mm-transactional-resource-version="1.6.10" data-mm-ads-resource-version="1.2.41" data-mantle-resource-version="4.0.306" data-mm-digital-issues-resource-version="1.18.2" lang="en" data-tracking-container="true" data-resource-version="2.29.0" data-allrecipes-resource-version="2.29.0"><!--
+<html id="homeTemplate_1-0" class="comp homeTemplate html mntl-html no-js taxlevel-0 " data-ab="99,99,99,99,99,99,99,99,77,99,99,99,99,58,78,99,99,64,63" data-mm-transactional-resource-version="1.6.10" data-mm-ads-resource-version="1.2.41" data-mantle-resource-version="4.0.306" data-mm-digital-issues-resource-version="1.18.2" lang="en" data-tracking-container="true" data-resource-version="2.29.0" data-allrecipes-resource-version="2.29.0"><!--
 <globe-environment environment="k8s-prod" application="allrecipes" dataCenter="us-west-1"/>
 -->
 <head class="loc head">
@@ -119,10 +119,10 @@ display: none;
 #onetrust-consent-sdk:not(.show-banner) #onetrust-banner-sdk {
 display: none;
 }</style>
-<script type="text/javascript" data-glb-js="top" src="/static/2.29.0/cache/eNp9kuFuhCAMgF9ohHfYsuzXksviCyBWrydSR4uL9_QDc9l5S89EDPJ9tLRoWZygt5OLEsB6mmaKEIVtcCtlsRcuj_Fn8OOLfZQvVbqujFcoBsUeh__K7Stgy486RoHE4AUpanHJddApwBONCKyQLBhQdNZHc4Q7mg75ArGjZOWcSMqSYkxlYtoEbpyplHYPUpgLIYHHuVT9NMmu755Tv72UNHNuObcKePs83VepywG2fn81r3U8Q5KcH8vkfYH9mXdlubUFbffHqalDQznidwbDgcTUu9YccWkAwTgYdj0EZNEs9sZ1rJEE5cQZmnr-EuVP2bWx7KzmMIvWRzeAWRB-Du5hkGn74QL60cgt0y-tpDIK.min.js"></script>
+<script type="text/javascript" data-glb-js="top" src="/static/2.29.0/cache/eNp9klFuwyAMQC80xB02TfuqVE29gANO6obgDJtO7elHompNJ69SiAjvYWMHLwpKwU-QNaEPPM2cMav4BBeu6k_SHheOGMYX_yifFul6EbpiMzj3NPxVbl-JOnnUKSsWwaDE2YrLEDEaIDCPhGKQqpRIbdZn9wxHnp7yM-bIxeuxsLYlw5jaxHUFYZy5lXYP0hikVDDQ3Kr-N8mm70FKv76MNHPtpHYGeNvt76sca8K135-H12X8h7RAGNvk_YzbM2_KgkuH1m6IO9RCQQ5LCCyW87E_LMNCNdNXRSeJ1S33wXIUyoBKeXACPSYStSwJDqJYpGCrquJ6wBblV9m0uu1czGFWq9cwoDsTfj_5V4NO66VMFEant0w_4d0_uA.min.js"></script>
 <script type="text/javascript">
 window.Mntl = window.Mntl || {};
-window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('9fb862bd788c6410ddb0063f6471178a', true);(function() {
+window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('ea55d059fb926b990ec4e399b52fed1f', true);(function() {
 Mntl.utilities.onLoad(function() {
 const geolocationResponse = {};
 const externalJS = {
@@ -167,7 +167,7 @@ scriptTimeout: 3000
 window.Mntl = window.Mntl || {};
 Mntl.RTB = Mntl.RTB || {};
 Mntl.RTB.setUseConsentManagement(true);
-Mntl.RTB.setUseLiveRamp(false);
+Mntl.RTB.setUseLiveRamp(true);
 Mntl.RTB.setUseGDPREnforcement(false);
 Mntl.RTB.setUseXandrS2S(false);
 Mntl.RTB.setUserIdAuctionDelay(500);
@@ -177,7 +177,7 @@ Mntl.RTB.Plugins.amazon.amazonConfigs = {"mapTaxValues":{"tax1":"null","tax2":"n
 Mntl.RTB.Plugins.prebid.setPriceGranularity({"buckets":[{"max":"20","increment":"0.05"},{"max":"70","increment":"1"}]});
 Mntl.RTB.initVideoBidders([{ type: 'amazon', id: '3446' }, { type: 'prebid', id: 'true' } ]);
 Mntl.RTB.initDisplayAndOutstreamBidders([{ type: "amazon", id: '3446'},{ type: "msg", id: 'true'},{ type: "ixid", id: 'true'},{ type: "prebid", id: 'true'}]);
-Mntl.RTB.Plugins.prebid.setConfig({"leaderboardac\/tier3":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060085","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478949","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"ix","params":{"siteId":"1005788","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440840","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"trustx","params":{"uid":"21637","useNewFormat":true,"type":"display"}}],"square-fixed\/tier1":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440842","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21640","useNewFormat":true,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005790","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478952","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060088","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}}],"leaderboard-fixed\/tier2":[{"bidder":"appnexus","params":{"placementId":"21060080","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440834","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478944","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005786","type":"display"}},{"bidder":"trustx","params":{"uid":"21632","useNewFormat":true,"type":"display"}}],"square-fixed\/tier2":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440844","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060089","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478953","type":"display"}},{"bidder":"ix","params":{"siteId":"1005790","type":"display"}},{"bidder":"trustx","params":{"uid":"21641","useNewFormat":true,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}}],"leaderboard-fixed\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060079","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478943","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005786","type":"display"}},{"bidder":"trustx","params":{"uid":"21631","useNewFormat":true,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440832","type":"display"}}],"leaderboardac\/tier2":[{"bidder":"trustx","params":{"uid":"21634","useNewFormat":true,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478946","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440838","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"ix","params":{"siteId":"1005788","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060082","type":"display"}}],"square-fixed\/tier3":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440846","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060090","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"ix","params":{"siteId":"1005790","type":"display"}},{"bidder":"trustx","params":{"uid":"21642","useNewFormat":true,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478954","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}}],"square-fixed\/tier4":[{"bidder":"appnexus","params":{"placementId":"21060091","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"ix","params":{"siteId":"1005790","type":"display"}},{"bidder":"trustx","params":{"uid":"21643","useNewFormat":true,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478955","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440848","type":"display"}}],"leaderboard-fixed\/tier3":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440836","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060081","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478945","type":"display"}},{"bidder":"trustx","params":{"uid":"21633","useNewFormat":true,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005786","type":"display"}}],"preroll":[{"bidder":"trustx","params":{"uid":"345600","useNewFormat":true,"type":"instream"}},{"bidder":"ix","params":{"siteId":"1005792","type":"instream"}},{"bidder":"appnexus","params":{"placementId":"24425890","type":"instream"}},{"bidder":"roundel","params":{"siteId":578566,"type":"instream"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"instream"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440854","type":"instream"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"4297343","type":"instream"}},{"bidder":"criteo","params":{"networkId":7764,"type":"instream"}}],"leaderboardfooter-flex\/tier2":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440840","type":"display"}},{"bidder":"trustx","params":{"uid":"21637","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060085","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478949","type":"display"}},{"bidder":"ix","params":{"siteId":"1005789","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}}],"leaderboardfooter-flex\/tier1":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478946","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21634","useNewFormat":true,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440838","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060082","type":"display"}},{"bidder":"ix","params":{"siteId":"1005789","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}}],"leaderboardfooter-flex\/tier4":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440840","type":"display"}},{"bidder":"trustx","params":{"uid":"21637","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060085","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478949","type":"display"}},{"bidder":"ix","params":{"siteId":"1005789","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}}],"leaderboardfooter-flex\/tier3":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478946","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21634","useNewFormat":true,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440838","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060082","type":"display"}},{"bidder":"ix","params":{"siteId":"1005789","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}}],"square-flex\/tier1":[{"bidder":"trustx","params":{"uid":"21644","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060092","type":"display"}},{"bidder":"ix","params":{"siteId":"1005791","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478956","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440850","type":"display"}}],"square-flex\/tier2":[{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478959","type":"display"}},{"bidder":"ix","params":{"siteId":"1005791","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440852","type":"display"}},{"bidder":"trustx","params":{"uid":"21647","useNewFormat":true,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060095","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}}],"leaderboard-flex\/tier2":[{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005787","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478949","type":"display"}},{"bidder":"trustx","params":{"uid":"21637","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060085","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440840","type":"display"}}],"leaderboard-flex\/tier1":[{"bidder":"trustx","params":{"uid":"21634","useNewFormat":true,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478946","type":"display"}},{"bidder":"ix","params":{"siteId":"1005787","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060082","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440838","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}}]});
+Mntl.RTB.Plugins.prebid.setConfig({"leaderboardac\/tier3":[{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478949","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060085","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440840","type":"display"}},{"bidder":"trustx","params":{"uid":"21637","useNewFormat":true,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005788","type":"display"}}],"leaderboard-fixed\/tier2":[{"bidder":"ix","params":{"siteId":"1005786","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21632","useNewFormat":true,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478944","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060080","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440834","type":"display"}}],"square-fixed\/tier1":[{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478952","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440842","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060088","type":"display"}},{"bidder":"trustx","params":{"uid":"21640","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"ix","params":{"siteId":"1005790","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}}],"leaderboardac\/tier2":[{"bidder":"appnexus","params":{"placementId":"21060082","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440838","type":"display"}},{"bidder":"trustx","params":{"uid":"21634","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478946","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005788","type":"display"}}],"leaderboard-fixed\/tier1":[{"bidder":"ix","params":{"siteId":"1005786","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"trustx","params":{"uid":"21631","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478943","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440832","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060079","type":"display"}}],"square-fixed\/tier2":[{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060089","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440844","type":"display"}},{"bidder":"trustx","params":{"uid":"21641","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478953","type":"display"}},{"bidder":"ix","params":{"siteId":"1005790","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}}],"square-fixed\/tier3":[{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"trustx","params":{"uid":"21642","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060090","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440846","type":"display"}},{"bidder":"ix","params":{"siteId":"1005790","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478954","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}}],"preroll":[{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"4297343","type":"instream"}},{"bidder":"roundel","params":{"siteId":578566,"type":"instream"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"instream"}},{"bidder":"trustx","params":{"uid":"345600","useNewFormat":true,"type":"instream"}},{"bidder":"appnexus","params":{"placementId":"24425890","type":"instream"}},{"bidder":"ix","params":{"siteId":"1005792","type":"instream"}},{"bidder":"criteo","params":{"networkId":7764,"type":"instream"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440854","type":"instream"}}],"square-fixed\/tier4":[{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"trustx","params":{"uid":"21643","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060091","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440848","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478955","type":"display"}},{"bidder":"ix","params":{"siteId":"1005790","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}}],"leaderboard-fixed\/tier3":[{"bidder":"ix","params":{"siteId":"1005786","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"trustx","params":{"uid":"21633","useNewFormat":true,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478945","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060081","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440836","type":"display"}}],"leaderboardfooter-flex\/tier2":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440840","type":"display"}},{"bidder":"trustx","params":{"uid":"21637","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060085","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005789","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478949","type":"display"}}],"leaderboardfooter-flex\/tier1":[{"bidder":"appnexus","params":{"placementId":"21060082","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478946","type":"display"}},{"bidder":"ix","params":{"siteId":"1005789","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440838","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"trustx","params":{"uid":"21634","useNewFormat":true,"type":"display"}}],"leaderboardfooter-flex\/tier4":[{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440840","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21637","useNewFormat":true,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060085","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005789","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478949","type":"display"}}],"leaderboardfooter-flex\/tier3":[{"bidder":"appnexus","params":{"placementId":"21060082","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478946","type":"display"}},{"bidder":"ix","params":{"siteId":"1005789","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440838","type":"display"}},{"bidder":"trustx","params":{"uid":"21634","useNewFormat":true,"type":"display"}}],"square-flex\/tier1":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478956","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060092","type":"display"}},{"bidder":"trustx","params":{"uid":"21644","useNewFormat":true,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005791","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440850","type":"display"}}],"square-flex\/tier2":[{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478959","type":"display"}},{"bidder":"trustx","params":{"uid":"21647","useNewFormat":true,"type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440852","type":"display"}},{"bidder":"ix","params":{"siteId":"1005791","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060095","type":"display"}}],"leaderboard-flex\/tier2":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"ix","params":{"siteId":"1005787","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478949","type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060085","type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440840","type":"display"}},{"bidder":"trustx","params":{"uid":"21637","useNewFormat":true,"type":"display"}}],"leaderboard-flex\/tier1":[{"bidder":"roundel","params":{"siteId":382319,"type":"display"}},{"bidder":"appnexus","params":{"placementId":"21060082","type":"display"}},{"bidder":"pubmatic","params":{"publisherId":"158139","adSlot":"3478946","type":"display"}},{"bidder":"ttd","params":{"supplySourceId":"dotdash","publisherId":"1","type":"display"}},{"bidder":"trustx","params":{"uid":"21634","useNewFormat":true,"type":"display"}},{"bidder":"ix","params":{"siteId":"1005787","type":"display"}},{"bidder":"criteo","params":{"networkId":7764,"type":"display"}},{"bidder":"rubicon","params":{"accountId":"7499","siteId":"426712","zoneId":"2440838","type":"display"}}]});
 Mntl.RTB.Plugins.prebid.setUserIdConfig({"liveIntentPublisherId":"443"});
 Mntl.RTB.setLatencyBuffer(0);
 (function(){
@@ -185,9 +185,9 @@ const pageTargeting = {
 customSeries: ''
 ,abtest: 'lcid1'
 ,tax0: 'Allrecipes'
-,rid: 'n09801a70707e4d30862d352303000ebd16'
+,rid: 'ne841fd194ed749d0a6d0291e74942c8616'
 ,custom: ''
-,sid: 'n09801a70707e4d30862d352303000ebd16'
+,sid: 'ne841fd194ed749d0a6d0291e74942c8616'
 }
 ;
 const baseSlotTargeting = {
@@ -270,7 +270,7 @@ domain: 'www.allrecipes.com',
 templateName: 'taxonomy',
 isMobile: false,
 dfpId: '3865',
-publisherProvidedId: 'e80cd89e-ef13-4ecb-89a1-84dc125a2fe6',
+publisherProvidedId: 'ce81761d-8ceb-4cda-a369-b82461965081',
 singleRequest: false,
 useLmdFormat: true,
 useOxygen: true,
@@ -296,7 +296,7 @@ displayOnConsent: true,
 adsToCollapse: ['leaderboard*','square*']
 };
 if (Mntl.AdMetrics) {
-Mntl.AdMetrics.init("6502448", "n09801a70707e4d30862d352303000ebd16", initialSlots.map(slot => slot.config.id), Date.now());
+Mntl.AdMetrics.init("6502448", "ne841fd194ed749d0a6d0291e74942c8616", initialSlots.map(slot => slot.config.id), Date.now());
 } else {
 Mntl.AdMetrics = { pushMetrics: () => {} };
 }
@@ -358,21 +358,24 @@ event: 'ab-proctor',
 : "liveIntentConnectedIdTest | control | LiveIntent ConnectedID is enabled | 0"
 ,
 "99-10"
-: "rtbTracking | control | | 0"
+: "orion | active | Active | 1"
 ,
 "99-11"
 : "prebidVideoUsePlcmt | active | Pass plcmt | 1"
 ,
+"99-12"
+: "useLiveRamp | active | active | 1"
+,
 "58"
 : "holdPrimaryVideo | control | Enable immediate sticky | 0"
 ,
-"79"
-: "recipeCard | active | active: Show decision block on short recipes and Recipe Card on long recipes | 1"
-,
-"99-14"
-: "scAdsScript | active | Sc-ads.js is loaded in mantle inside listScCommerceTemplates. Sc-ads.js stops loading through commerce | 1"
+"78"
+: "recipeCard | control | control: Only show decision block | 0"
 ,
 "99-15"
+: "scAdsScript | active | Sc-ads.js is loaded in mantle inside listScCommerceTemplates. Sc-ads.js stops loading through commerce | 1"
+,
+"99-16"
 : "enableAdLazyOffsetIntro1 | active | updates lazy offset for intro1 ad in recipes | 1"
 ,
 "64"
@@ -459,7 +462,7 @@ window.addEventListener(event[0], event[1], { once: true });
 });
 })(Mntl.fnUtilities || {}, Mntl.CMP);window.dataLayer = window.dataLayer || [];
 (function() {
-var pageViewDataAsJSON = {"country":"US","title":"Allrecipes | Recipes, How-Tos, Videos and More" || document.title || '',"templateName":"TAXONOMY","documentId":6502448,"authorNames":"Allrecipes Editorial Team","authorId":"1015024","templateId":"100","muid":"e80cd89e-ef13-4ecb-89a1-84dc125a2fe6","lastEditingAuthorId":"1015024","lastEditingUserId":"164512785787773","viewType":"HOME","contentGroup":"Other","revenueGroup":"","fullUrl":"https://www.allrecipes.com/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n09801a70707e4d30862d352303000ebd16","internalRequestId":"n09801a70707e4d30862d352303000ebd16","hid":"","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.0.306","commerceVersion":"","primaryTaxonomyIds":"6502448","primaryTaxonomyNames":"Allrecipes","description":"Everyday recipes with ratings and reviews by home cooks like you. Find easy dinner ideas, healthy recipes, plus helpful cooking tips and techniques."};
+var pageViewDataAsJSON = {"country":"US","description":"Everyday recipes with ratings and reviews by home cooks like you. Find easy dinner ideas, healthy recipes, plus helpful cooking tips and techniques.","title":"Allrecipes | Recipes, How-Tos, Videos and More" || document.title || '',"authorId":"1015024","templateName":"TAXONOMY","documentId":6502448,"contentGroup":"Other","viewType":"HOME","revenueGroup":"","templateId":"100","muid":"ce81761d-8ceb-4cda-a369-b82461965081","lastEditingAuthorId":"1015024","lastEditingUserId":"164512785787773","authorNames":"Allrecipes Editorial Team","fullUrl":"https://www.allrecipes.com/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"ne841fd194ed749d0a6d0291e74942c8616","internalRequestId":"ne841fd194ed749d0a6d0291e74942c8616","hid":"","experienceTypeName":"","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.0.306","commerceVersion":"","primaryTaxonomyIds":"6502448","primaryTaxonomyNames":"Allrecipes"};
 var scrolledPageData = {};
 var scrolledDocOrdinal;
 var scrolledPage;
@@ -2382,7 +2385,7 @@ alt="A bowl of seasoned ground beef on brown rice garnished with green onion"
 />
 </noscript>
 </div></div>
-<div id="card__save_1-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_1-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6649921" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_1-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_1-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6649921" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -2443,7 +2446,7 @@ alt="honey glazed chicken served over rice"
 />
 </noscript>
 </div></div>
-<div id="card__save_2-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_2-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6664220" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_2-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_2-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6664220" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -2477,7 +2480,7 @@ alt="honey glazed chicken served over rice"
 </svg>
 </div>
 <div class="mntl-recipe-card-meta__rating-count-number">
-567
+568
 <span class="mntl-recipe-card-meta__rating-count-text">
 Ratings
 </span>
@@ -2502,7 +2505,7 @@ class="img--noscript card__img universal-image__image"
 />
 </noscript>
 </div></div>
-<div id="card__save_3-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_3-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6572453" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_3-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_3-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6572453" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -2563,7 +2566,7 @@ alt="mid angle looking at a plate of sliced pork chops and a side of broccoli"
 />
 </noscript>
 </div></div>
-<div id="card__save_4-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_4-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6664334" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_4-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_4-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6664334" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -2624,7 +2627,7 @@ alt="overhead view of a full bowl of creamy macaroni and cheese topped with blac
 />
 </noscript>
 </div></div>
-<div id="card__save_5-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_5-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6651079" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_5-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_5-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6651079" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -2683,7 +2686,7 @@ class="img--noscript card__img universal-image__image"
 />
 </noscript>
 </div></div>
-<div id="card__save_6-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_6-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6576601" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_6-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_6-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6576601" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -2717,7 +2720,7 @@ class="img--noscript card__img universal-image__image"
 </svg>
 </div>
 <div class="mntl-recipe-card-meta__rating-count-number">
-16
+17
 <span class="mntl-recipe-card-meta__rating-count-text">
 Ratings
 </span>
@@ -2752,7 +2755,7 @@ Please fill out this field.
 </span>
 </div>
 </div></div> </div>
-<div id="related-category-search__category-tags_1-0" class="comp related-category-search__category-tags recipe-related-category-tags" data-click-tracked="freemarker.template.FalseTemplateBooleanModel@51947941">
+<div id="related-category-search__category-tags_1-0" class="comp related-category-search__category-tags recipe-related-category-tags" data-click-tracked="freemarker.template.FalseTemplateBooleanModel@a82c9ef">
 <div id="category-tag__list-title_1-0" class="comp category-tag__list-title mntl-text-block">Popular Searches</div>
 <ul class="category-tag__list">
 <li class="category-tag"><a
@@ -3662,7 +3665,7 @@ alt="a Passover Apple Cake on a white plate"
 />
 </noscript>
 </div></div>
-<div id="card__save_7-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_7-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6738955" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_7-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_7-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6738955" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -3843,7 +3846,7 @@ alt="a chocolate cheesecake decorated with powdered sugar and white and dark cho
 />
 </noscript>
 </div></div>
-<div id="card__save_8-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_8-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6572999" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_8-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_8-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6572999" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -3904,7 +3907,7 @@ alt="Maccaroni-tuna salad with sliced egg on top in bowl"
 />
 </noscript>
 </div></div>
-<div id="card__save_9-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_9-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6569653" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_9-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_9-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6569653" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -3965,7 +3968,7 @@ alt="stacked gochujang chili paste sugar cookies on wire rack"
 />
 </noscript>
 </div></div>
-<div id="card__save_10-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_10-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="8622049" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_10-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_10-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="8622049" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -4026,7 +4029,7 @@ alt="sliced pork chop plated with pineapple salsa and chile marinade sauce"
 />
 </noscript>
 </div></div>
-<div id="card__save_11-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_11-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="8623640" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_11-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_11-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="8623640" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -4059,7 +4062,7 @@ alt="Meringue on top of shortbread and lemon curd"
 />
 </noscript>
 </div></div>
-<div id="card__save_12-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_12-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6581066" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_12-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_12-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6581066" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>
@@ -4120,7 +4123,7 @@ alt="chicken shawarma on top of lettuce, tomatoes, and red onion with white dres
 />
 </noscript>
 </div></div>
-<div id="card__save_13-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_13-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6564549" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@24b9e622">
+<div id="card__save_13-0" class="comp card__save mntl-save mntl-block"><button id="mntl-save__link_13-0" class="comp mntl-save__link mntl-button" data-scroll-to-save="true" data-click-tracked="false" data-check-on-load="false" data-doc-id="6564549" data-tracking-on="card" data-sign-in="/authentication/login?regSource=3833&relativeRedirectUrl=" aria-label="Save Recipe" bookmarksRegsource="com.about.mantle.model.ConfigValue@4667fe81">
 <svg class="icon save-icon-favorite mntl-button__icon "
 >
 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#save-icon-favorite"></use>

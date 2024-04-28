@@ -39,7 +39,7 @@ def test_get_site_origin_errors(url, expected_exception):
 def test_get_site_origin_success(url):
 
     parsed_url = urlparse(url)
-    domain = parsed_url.hostname
-    normalized_domain = extract_base_domain(domain)
+    domain = parsed_url.hostname if not None else parsed_url.netloc
+    normalized_domain = domain.lower()
 
     assert get_site_origin(url) == normalized_domain, f"ValueError: URL '{normalized_domain}' is not supported."

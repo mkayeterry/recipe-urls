@@ -51,22 +51,13 @@ def find_class(module, base_name):
     )
 
 
-# def strip_domain_from_urls(urls):
-#     stripped_urls = []
-#     for url in urls:
-#         path_parts = url.split("://")[-1].split("/")[1:]
-#         path = "/" + "/".join(path_parts)
-#         stripped_urls.append(path)
-#     return stripped_urls
-
-
 @pytest.mark.parametrize(
     "scraper_module, html_file, csv_file",
     [
         (module, html, csv)
         for module in get_scraper_modules()
         for html, csv in get_test_files()
-        if module[0] in os.path.basename(html)
+        if module[0] == os.path.basename(html)[:-9]
     ],
 )
 def test_scraper(mocker, scraper_module, html_file, csv_file):
@@ -78,7 +69,7 @@ def test_scraper(mocker, scraper_module, html_file, csv_file):
         html_content = file.read()
 
     # Instantiate the scraper using the HTML content
-    scraper = scraper_class(html=html_content)
+    scraper = scraper_class(base_url=None, html=html_content)
 
     # Manually set the soup if not already set in the constructor
     if not hasattr(scraper, "soup"):
@@ -86,9 +77,6 @@ def test_scraper(mocker, scraper_module, html_file, csv_file):
 
     # Perform the scraping
     scraped_links = scraper.scrape()
-
-    # # Strip the domain from scraped links dynamically
-    # scraped_links = strip_domain_from_urls(scraped_links)
 
     # Load expected results
     expected_links = []

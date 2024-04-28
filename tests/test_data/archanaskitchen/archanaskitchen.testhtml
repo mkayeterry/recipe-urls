@@ -6,7 +6,7 @@
 <html class="no-js" lang="en" >
 <!--<![endif]-->
 	<head>
-  <link rel="next" href="/home/page-2" />
+  <link rel="next" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=24&amp;view=frontpage" />
 <link href="https://www.archanaskitchen.com/" rel="canonical" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,7 +63,16 @@
 		<script type="text/javascript" src="/media/ak-pressmag-2/js/ak_js_1.0.8.js?v=1.0.8"></script>
 					<!-- <script src="/templates/ak-pressmag-2/js/jquery.typewriter.min.js" type="text/javascript"></script> -->
 				
-					<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3840954459677867" crossorigin="anonymous"></script>						
+					<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3840954459677867" crossorigin="anonymous"></script>				
+					<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9CRW966LNM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9CRW966LNM');
+</script>						
 
 					<script type="text/javascript">
 				/*const isPaytmContainer = () => {
@@ -118,8 +127,8 @@ const testVar = () => {
 	<meta name="description" content="Find 1000s of simple, delicious indian and world recipes with easy step by step instructions, videos, photographs and guides to make everyday cooking easy." />
 	
 	<title>Archana's Kitchen - Simple Recipes &amp; Cooking Ideas</title>
-	<link href="/?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
-	<link href="/?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+	<link href="/index.php?option=com_akrecipes&amp;format=feed&amp;lang=en&amp;type=rss&amp;view=frontpage" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="/index.php?option=com_akrecipes&amp;format=feed&amp;lang=en&amp;type=atom&amp;view=frontpage" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
 	<link href="https://www.archanaskitchen.com/images/akfavicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
 	<style type="text/css">
 
@@ -392,25 +401,6 @@ fbq('track', 'PageView');
 				</div>
 			</li>
 							<li class="media mb-2">
-				<a href="/mangalorean-chicken-ghee-roast-recipe">						
-											
-					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/1-Author/sibyl_sunitha/Mangalorean_Chicken_Ghee_Roast_Recipe__200x160.jpg" alt="Mangalorean Chicken Ghee Roast Recipe" />
-											
-					
-
-
-				</a>
-				<div class="media-body">					
-					<a href="/mangalorean-chicken-ghee-roast-recipe" title="Mangalorean Chicken Ghee Roast Recipe" >
-						<h6 class="recipe-title">Mangalorean Chicken Ghee Roast Recipe</h6>
-					</a>					
-					<span class="author-name">By 
-						<a href="/archana-s-kitchen" title="Archana's Kitchen" >
-							Archana's Kitchen						</a>
-					</span>
-				</div>
-			</li>
-							<li class="media mb-2">
 				<a href="/video-recipe-vegetarian-thai-green-curry">						
 												<div class="video_image_container">
 											
@@ -425,6 +415,25 @@ fbq('track', 'PageView');
 				<div class="media-body">					
 					<a href="/video-recipe-vegetarian-thai-green-curry" title="Vegetarian Thai Green Curry Recipe" >
 						<h6 class="recipe-title">Vegetarian Thai Green Curry Recipe</h6>
+					</a>					
+					<span class="author-name">By 
+						<a href="/archana-doshi" title="Archana Doshi" >
+							Archana Doshi						</a>
+					</span>
+				</div>
+			</li>
+							<li class="media mb-2">
+				<a href="/spaghetti-pasta-recipe-in-creamy-tomato-sauce-kids-recipes-made-with-del-monte">						
+											
+					<img class="mr-3 module-image-100" src="/imgcache/images/archanaskitchen/10-Brands/DelMonte-KidsRecipes/Spaghetti_Pasta_Recipe_In_Creamy_Tomato_Sauce_-_Kids_Recipes_Made_With_Del_Monte-3_200x160.jpg" alt="Easy Spaghetti Recipe In Creamy Tomato Sauce  | Vegetarian & Kid Friendly" />
+											
+					
+
+
+				</a>
+				<div class="media-body">					
+					<a href="/spaghetti-pasta-recipe-in-creamy-tomato-sauce-kids-recipes-made-with-del-monte" title="Easy Spaghetti Recipe In Creamy Tomato Sauce  | Vegetarian & Kid Friendly" >
+						<h6 class="recipe-title">Easy Spaghetti Recipe In Creamy Tomato Sauce  | Vegetarian & Kid Friendly</h6>
 					</a>					
 					<span class="author-name">By 
 						<a href="/archana-doshi" title="Archana Doshi" >
@@ -466,6 +475,257 @@ fbq('track', 'PageView');
 		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
 		<div class="ak_frontpage_item mb-2 col-md-3">			
 			
+<div class="ak_frontpage_article blog card h-100 shadow-sm ">
+	<a itemprop="url" href="/dinner-recipes-dinner-ideas-kathirikai-rasavangi-dondakaya-uli-karam-kura-keerai-masiyal-foxtail-quinoa-rice">
+		<div class="article-image">
+			<img itemprop="image" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2024/Dinner_Series_Dinner_Recipes_Archanas_Kitchen_Keerai_Masiyal_Kathirikkai_Rasavangi_Dondakaya_Ulu_Karam_poriyal_quinoa_foxtail_millet_rice_video_recipe_400x320.jpg" alt="Dinner Recipes | Dinner Ideas - Kathirikai Rasavangi, Dondakaya Uli Karam Kura, Keerai Masiyal & Foxtail Quinoa Rice"></img>
+		</div>
+	</a>
+	<div class="card-body">
+		<a class="article-title" href="/dinner-recipes-dinner-ideas-kathirikai-rasavangi-dondakaya-uli-karam-kura-keerai-masiyal-foxtail-quinoa-rice" title="Dinner Recipes | Dinner Ideas - Kathirikai Rasavangi, Dondakaya Uli Karam Kura, Keerai Masiyal & Foxtail Quinoa Rice">
+			<h3>Dinner Recipes | Dinner Ideas - Kathirikai Rasavangi, Dondakaya Uli Karam Kura, Keerai Masiyal & Foxtail Quinoa Rice</h3>
+		</a>
+		<div class="article_author mb-2">
+				<span>By
+					<a href="/archana-doshi">
+						<span itemprop="author">Archana Doshi</span>
+					</a>
+				</span>
+		</div>
+
+	</div>
+</div>		</div>
+				
+
+		
+							
+
+		
+		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
+		<div class="ak_frontpage_item mb-2 col-md-3">			
+			
+<div class="ak_frontpage_article blog card h-100 shadow-sm ">
+	<a itemprop="url" href="/rajasthani-feast-jaisalmer-chole-baingan-bharta-amla-pickle-puri-salad-and-shrikand-with-mangoes">
+		<div class="article-image">
+			<img itemprop="image" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2024/Meal_idea_dinner_idea_jaisalmer_chole_baingan_bharta_amla_pickle_puri_2_400x320.jpg" alt="Rajasthani Feast: Jaisalmer Chole, Baingan Bharta, Amla Pickle, Puri, Salad and Shrikand with Mangoes"></img>
+		</div>
+	</a>
+	<div class="card-body">
+		<a class="article-title" href="/rajasthani-feast-jaisalmer-chole-baingan-bharta-amla-pickle-puri-salad-and-shrikand-with-mangoes" title="Rajasthani Feast: Jaisalmer Chole, Baingan Bharta, Amla Pickle, Puri, Salad and Shrikand with Mangoes">
+			<h3>Rajasthani Feast: Jaisalmer Chole, Baingan Bharta, Amla Pickle, Puri, Salad and Shrikand with Mangoes</h3>
+		</a>
+		<div class="article_author mb-2">
+				<span>By
+					<a href="/archana-doshi">
+						<span itemprop="author">Archana Doshi</span>
+					</a>
+				</span>
+		</div>
+
+	</div>
+</div>		</div>
+				
+
+		
+							
+
+		
+		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
+		<div class="ak_frontpage_item mb-2 col-md-3">			
+			
+<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
+
+	<a itemprop="url" href="/plain-paratha-tawa-paratha-recipe">
+		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/Extras/Tawa_Paratha_Recipe-7956_400x320.jpg" alt="Tawa Paratha Recipe - Plain Paratha"></img> -->
+		<div class="recipe-image">
+			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/Extras/Tawa_Paratha_Recipe-7956_400x320.jpg"></img>
+					</div>
+	</a>
+	<div class="card-body">
+
+
+		<a class="recipe-title" href="/plain-paratha-tawa-paratha-recipe">
+			<h3><span itemprop="name">Tawa Paratha Recipe - Plain Paratha</span></h3>
+		</a>
+		<div class="recipe_author mb-2">
+
+			<div class="catRecipeAuthorNameDate">
+				<span>By
+					<a href="/archana-doshi">
+						<span itemprop="author">Archana Doshi</span>
+					</a>
+				</span>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+
+	</div>
+</div>		</div>
+				
+
+		
+							
+
+		
+		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
+		<div class="ak_frontpage_item mb-2 col-md-3">			
+			
+<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
+
+	<a itemprop="url" href="/corn-cheese-balls-recipe">
+		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/1-Author/Pooja_Thakur/Corn_cheese_balls_400x320.jpg" alt="Corn Cheese Balls Recipe"></img> -->
+		<div class="recipe-image">
+			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/1-Author/Pooja_Thakur/Corn_cheese_balls_400x320.jpg"></img>
+					</div>
+	</a>
+	<div class="card-body">
+
+
+		<a class="recipe-title" href="/corn-cheese-balls-recipe">
+			<h3><span itemprop="name">Corn Cheese Balls Recipe</span></h3>
+		</a>
+		<div class="recipe_author mb-2">
+
+			<div class="catRecipeAuthorNameDate">
+				<span>By
+					<a href="/pooja-thakur">
+						<span itemprop="author">Pooja Thakur</span>
+					</a>
+				</span>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+
+	</div>
+</div>		</div>
+					</div><!-- end row -->
+				
+
+		
+								
+			<div class="row akrow cols-4 row-1"><!-- begin row -->
+				
+
+		
+		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
+		<div class="ak_frontpage_item mb-2 col-md-3">			
+			
+<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
+
+	<a itemprop="url" href="/karwar-style-muga-ambat-recipe">
+		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/4-may/Karwar_Style_Muga_Ambat_Recipe_green_moong_lentil_coocnut_curry-1_400x320.jpg" alt="Karwar Style Muga Ambat Recipe (Moong Sprouts in Coconut Curry)"></img> -->
+		<div class="recipe-image">
+			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2017/4-may/Karwar_Style_Muga_Ambat_Recipe_green_moong_lentil_coocnut_curry-1_400x320.jpg"></img>
+					</div>
+	</a>
+	<div class="card-body">
+
+
+		<a class="recipe-title" href="/karwar-style-muga-ambat-recipe">
+			<h3><span itemprop="name">Karwar Style Muga Ambat Recipe (Moong Sprouts in Coconut Curry)</span></h3>
+		</a>
+		<div class="recipe_author mb-2">
+
+			<div class="catRecipeAuthorNameDate">
+				<span>By
+					<a href="/archana-s-kitchen">
+						<span itemprop="author">Archana's Kitchen</span>
+					</a>
+				</span>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+
+	</div>
+</div>		</div>
+				
+
+		
+							
+
+		
+		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
+		<div class="ak_frontpage_item mb-2 col-md-3">			
+			
+<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
+
+	<a itemprop="url" href="/kharbyaali-masale-khara-a-north-karnataka-spice-powder">
+		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2016/1-Archana/Kharbyaali_Masale_Khara_recipe_A_North_Karnataka_Spice_Powder-1_400x320.jpg" alt="Kharbyaali Masale Khara Recipe - North Karnataka Sambar Powder"></img> -->
+		<div class="recipe-image">
+			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2016/1-Archana/Kharbyaali_Masale_Khara_recipe_A_North_Karnataka_Spice_Powder-1_400x320.jpg"></img>
+					</div>
+	</a>
+	<div class="card-body">
+
+
+		<a class="recipe-title" href="/kharbyaali-masale-khara-a-north-karnataka-spice-powder">
+			<h3><span itemprop="name">Kharbyaali Masale Khara Recipe - North Karnataka Sambar Powder</span></h3>
+		</a>
+		<div class="recipe_author mb-2">
+
+			<div class="catRecipeAuthorNameDate">
+				<span>By
+					<a href="/archana-s-kitchen">
+						<span itemprop="author">Archana's Kitchen</span>
+					</a>
+				</span>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+
+	</div>
+</div>		</div>
+				
+
+		
+							
+
+		
+		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
+		<div class="ak_frontpage_item mb-2 col-md-3">			
+			
+<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
+
+	<a itemprop="url" href="/sweet-corn-spring-onion-momo-recipe-sweet-corn-dumplings">
+		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/April-09/Corn_And_Spring_Onion_Momo_Recipe_Dimsum-7_400x320.jpg" alt="Sweet Corn Spring Onion Momo Recipe - Sweet Corn Dumplings"></img> -->
+		<div class="recipe-image">
+			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2018/April-09/Corn_And_Spring_Onion_Momo_Recipe_Dimsum-7_400x320.jpg"></img>
+					</div>
+	</a>
+	<div class="card-body">
+
+
+		<a class="recipe-title" href="/sweet-corn-spring-onion-momo-recipe-sweet-corn-dumplings">
+			<h3><span itemprop="name">Sweet Corn Spring Onion Momo Recipe - Sweet Corn Dumplings</span></h3>
+		</a>
+		<div class="recipe_author mb-2">
+
+			<div class="catRecipeAuthorNameDate">
+				<span>By
+					<a href="/archana-s-kitchen">
+						<span itemprop="author">Archana's Kitchen</span>
+					</a>
+				</span>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+
+	</div>
+</div>		</div>
+				
+
+		
+							
+
+		
+		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
+		<div class="ak_frontpage_item mb-2 col-md-3">			
+			
 <div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
 
 	<a itemprop="url" href="/tamil-nadu-style-kothamali-aval-upma-recipe-coriander-poha-recipe">
@@ -495,10 +755,13 @@ fbq('track', 'PageView');
 
 	</div>
 </div>		</div>
+					</div><!-- end row -->
 				
 
 		
-							
+								
+			<div class="row akrow cols-4 row-2"><!-- begin row -->
+				
 
 		
 		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
@@ -609,13 +872,10 @@ fbq('track', 'PageView');
 
 	</div>
 </div>		</div>
-					</div><!-- end row -->
 				
 
 		
-								
-			<div class="row akrow cols-4 row-1"><!-- begin row -->
-				
+							
 
 		
 		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
@@ -650,10 +910,13 @@ fbq('track', 'PageView');
 
 	</div>
 </div>		</div>
+					</div><!-- end row -->
 				
 
 		
-							
+								
+			<div class="row akrow cols-4 row-3"><!-- begin row -->
+				
 
 		
 		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
@@ -764,13 +1027,10 @@ fbq('track', 'PageView');
 
 	</div>
 </div>		</div>
-					</div><!-- end row -->
 				
 
 		
-								
-			<div class="row akrow cols-4 row-2"><!-- begin row -->
-				
+							
 
 		
 		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
@@ -805,10 +1065,13 @@ fbq('track', 'PageView');
 
 	</div>
 </div>		</div>
+					</div><!-- end row -->
 				
 
 		
-							
+								
+			<div class="row akrow cols-4 row-4"><!-- begin row -->
+				
 
 		
 		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
@@ -910,13 +1173,10 @@ fbq('track', 'PageView');
 
 	</div>
 </div>		</div>
-					</div><!-- end row -->
 				
 
 		
-								
-			<div class="row akrow cols-4 row-3"><!-- begin row -->
-				
+							
 
 		
 		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
@@ -951,10 +1211,13 @@ fbq('track', 'PageView');
 
 	</div>
 </div>		</div>
+					</div><!-- end row -->
 				
 
 		
-							
+								
+			<div class="row akrow cols-4 row-5"><!-- begin row -->
+				
 
 		
 		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
@@ -1056,13 +1319,10 @@ fbq('track', 'PageView');
 
 	</div>
 </div>		</div>
-					</div><!-- end row -->
 				
 
 		
-								
-			<div class="row akrow cols-4 row-4"><!-- begin row -->
-				
+							
 
 		
 		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
@@ -1088,266 +1348,6 @@ fbq('track', 'PageView');
 
 	</div>
 </div>		</div>
-				
-
-		
-							
-
-		
-		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
-		<div class="ak_frontpage_item mb-2 col-md-3">			
-			
-<div class="ak_frontpage_article blog card h-100 shadow-sm ">
-	<a itemprop="url" href="/125-one-dish-vegetarian-dinner-recipe-ideas-a-global-gastronomic-journey-for-effortless-everyday-cooking-entertaining">
-		<div class="article-image">
-			<img itemprop="image" src="/imgcache/images/archanaskitchen/0-Archanas-Kitchen-Recipes/2024/125_one_dish_vegetarian_dinner_Recipes_ideas_collection_italian_mexican_asian_thai_chinese_continental_400x320.jpg" alt="125 One-Dish Vegetarian Dinner Recipe Ideas: A Global Gastronomic Journey for Effortless Everyday Cooking & Entertaining"></img>
-		</div>
-	</a>
-	<div class="card-body">
-		<a class="article-title" href="/125-one-dish-vegetarian-dinner-recipe-ideas-a-global-gastronomic-journey-for-effortless-everyday-cooking-entertaining" title="125 One-Dish Vegetarian Dinner Recipe Ideas: A Global Gastronomic Journey for Effortless Everyday Cooking & Entertaining">
-			<h3>125 One-Dish Vegetarian Dinner Recipe Ideas: A Global Gastronomic Journey for Effortless Everyday Cooking & Entertaining</h3>
-		</a>
-		<div class="article_author mb-2">
-				<span>By
-					<a href="/archana-doshi">
-						<span itemprop="author">Archana Doshi</span>
-					</a>
-				</span>
-		</div>
-
-	</div>
-</div>		</div>
-				
-
-		
-							
-
-		
-		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
-		<div class="ak_frontpage_item mb-2 col-md-3">			
-			
-<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
-
-	<a itemprop="url" href="/curd-oats-recipe">
-		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/1-Author/Nithya_Anantham/Curd_Oats_Recipe_400x320.jpg" alt="Curd Oats Recipe"></img> -->
-		<div class="recipe-image">
-			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/1-Author/Nithya_Anantham/Curd_Oats_Recipe_400x320.jpg"></img>
-					</div>
-	</a>
-	<div class="card-body">
-
-
-		<a class="recipe-title" href="/curd-oats-recipe">
-			<h3><span itemprop="name">Curd Oats Recipe</span></h3>
-		</a>
-		<div class="recipe_author mb-2">
-
-			<div class="catRecipeAuthorNameDate">
-				<span>By
-					<a href="/nithya-anantham">
-						<span itemprop="author">Nithya Anantham</span>
-					</a>
-				</span>
-			</div>
-			<div class="clearfix"></div>
-
-		</div>
-
-	</div>
-</div>		</div>
-				
-
-		
-							
-
-		
-		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
-		<div class="ak_frontpage_item mb-2 col-md-3">			
-			
-<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
-
-	<a itemprop="url" href="/andhra-style-pindi-miriyam-recipe">
-		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/1-Author/nithya.anantham/Andhra_Style_Pindi_Miriyam_Recipe__400x320.jpg" alt="Andhra Style Pindi Miriyam Recipe "></img> -->
-		<div class="recipe-image">
-			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/1-Author/nithya.anantham/Andhra_Style_Pindi_Miriyam_Recipe__400x320.jpg"></img>
-					</div>
-	</a>
-	<div class="card-body">
-
-
-		<a class="recipe-title" href="/andhra-style-pindi-miriyam-recipe">
-			<h3><span itemprop="name">Andhra Style Pindi Miriyam Recipe </span></h3>
-		</a>
-		<div class="recipe_author mb-2">
-
-			<div class="catRecipeAuthorNameDate">
-				<span>By
-					<a href="/nithya-anantham">
-						<span itemprop="author">Nithya Anantham</span>
-					</a>
-				</span>
-			</div>
-			<div class="clearfix"></div>
-
-		</div>
-
-	</div>
-</div>		</div>
-					</div><!-- end row -->
-				
-
-		
-								
-			<div class="row akrow cols-4 row-5"><!-- begin row -->
-				
-
-		
-		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
-		<div class="ak_frontpage_item mb-2 col-md-3">			
-			
-<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
-
-	<a itemprop="url" href="/bow-tie-pasta-with-baby-spinach-recipe">
-		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/1-Author/ruby_pathak-yahoo.com/Bow_Tie_Pasta_With_Baby_Spinach_And_Mustard_Flower_400x320.jpg" alt="Bow Tie Pasta With Baby Spinach Recipe"></img> -->
-		<div class="recipe-image">
-			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/1-Author/ruby_pathak-yahoo.com/Bow_Tie_Pasta_With_Baby_Spinach_And_Mustard_Flower_400x320.jpg"></img>
-					</div>
-	</a>
-	<div class="card-body">
-
-
-		<a class="recipe-title" href="/bow-tie-pasta-with-baby-spinach-recipe">
-			<h3><span itemprop="name">Bow Tie Pasta With Baby Spinach Recipe</span></h3>
-		</a>
-		<div class="recipe_author mb-2">
-
-			<div class="catRecipeAuthorNameDate">
-				<span>By
-					<a href="/ruby-pathak">
-						<span itemprop="author">RUBY PATHAK</span>
-					</a>
-				</span>
-			</div>
-			<div class="clearfix"></div>
-
-		</div>
-
-	</div>
-</div>		</div>
-				
-
-		
-							
-
-		
-		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
-		<div class="ak_frontpage_item mb-2 col-md-3">			
-			
-<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
-
-	<a itemprop="url" href="/buckwheat-crepes-with-fruit-compote-recipe">
-		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/1-Author/Monika_Manchanda/Buckwheat_Crepes_with_fruit_compote_400x320.jpg" alt="Buckwheat Crepe Recipe with Fruit Compote"></img> -->
-		<div class="recipe-image">
-			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/1-Author/Monika_Manchanda/Buckwheat_Crepes_with_fruit_compote_400x320.jpg"></img>
-					</div>
-	</a>
-	<div class="card-body">
-
-
-		<a class="recipe-title" href="/buckwheat-crepes-with-fruit-compote-recipe">
-			<h3><span itemprop="name">Buckwheat Crepe Recipe with Fruit Compote</span></h3>
-		</a>
-		<div class="recipe_author mb-2">
-
-			<div class="catRecipeAuthorNameDate">
-				<span>By
-					<a href="/monika-manchanda">
-						<span itemprop="author">Monika Manchanda</span>
-					</a>
-				</span>
-			</div>
-			<div class="clearfix"></div>
-
-		</div>
-
-	</div>
-</div>		</div>
-				
-
-		
-							
-
-		
-		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
-		<div class="ak_frontpage_item mb-2 col-md-3">			
-			
-<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
-
-	<a itemprop="url" href="/karnataka-special-huli-tovve-recipe">
-		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/1-Author/Madhuri_Aggarwal/HuliTovve_400x320.jpg" alt="Karnataka Special Huli Tovve Recipe"></img> -->
-		<div class="recipe-image">
-			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/1-Author/Madhuri_Aggarwal/HuliTovve_400x320.jpg"></img>
-					</div>
-	</a>
-	<div class="card-body">
-
-
-		<a class="recipe-title" href="/karnataka-special-huli-tovve-recipe">
-			<h3><span itemprop="name">Karnataka Special Huli Tovve Recipe</span></h3>
-		</a>
-		<div class="recipe_author mb-2">
-
-			<div class="catRecipeAuthorNameDate">
-				<span>By
-					<a href="/madhuri-aggarwal">
-						<span itemprop="author">Madhuri Aggarwal</span>
-					</a>
-				</span>
-			</div>
-			<div class="clearfix"></div>
-
-		</div>
-
-	</div>
-</div>		</div>
-				
-
-		
-							
-
-		
-		<!-- <div class="ak_frontpage_item col-md-3" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"> -->
-		<div class="ak_frontpage_item mb-2 col-md-3">			
-			
-<div class="ak_frontpage_recipe ak_recipe_blog card h-100 shadow-sm  " itemprop="itemListElement" itemscope itemtype="http://schema.org/Recipe">
-
-	<a itemprop="url" href="/maachli-jaisamandi-recipe-rajasthani-style-fish-in-creamy-gravy">
-		<!-- <img itemprop="image" src="/imgcache/images/archanaskitchen/1-Author/ruby_pathak-yahoo.com/Maachli_Jaisamandi_400x320.jpg" alt="Maachli Jaisamandi Recipe - Rajasthani Style Fish In Creamy Gravy"></img> -->
-		<div class="recipe-image">
-			<img itemprop="image" class="img-fluid" src="/imgcache/images/archanaskitchen/1-Author/ruby_pathak-yahoo.com/Maachli_Jaisamandi_400x320.jpg"></img>
-					</div>
-	</a>
-	<div class="card-body">
-
-
-		<a class="recipe-title" href="/maachli-jaisamandi-recipe-rajasthani-style-fish-in-creamy-gravy">
-			<h3><span itemprop="name">Maachli Jaisamandi Recipe - Rajasthani Style Fish In Creamy Gravy</span></h3>
-		</a>
-		<div class="recipe_author mb-2">
-
-			<div class="catRecipeAuthorNameDate">
-				<span>By
-					<a href="/ruby-pathak">
-						<span itemprop="author">RUBY PATHAK</span>
-					</a>
-				</span>
-			</div>
-			<div class="clearfix"></div>
-
-		</div>
-
-	</div>
-</div>		</div>
 					</div><!-- end row -->
 				
 
@@ -1359,9 +1359,9 @@ fbq('track', 'PageView');
 		<input type="hidden" name="boxchecked" value="0"/>
 		<input type="hidden" name="filter_order" value=""/>
 		<input type="hidden" name="filter_order_Dir" value=""/>
-		<input type="hidden" name="6a70570137a2bfe8f424132d30980e5d" value="1" />	<!-- </form> -->
+		<input type="hidden" name="2e6046040b3d4990a5b2e13c38a103b1" value="1" />	<!-- </form> -->
 	<div class="pagination">
-<ul class="pagination"><li class="disabled page-item"><a class="page-link"><i class="fa fa-angle-double-left"></i></a></li><li class="disabled  page-item"><a class="page-link"><i class="fa fa-angle-left"></i></a></li><li class="active d-none d-sm-block  page-item"><a class="page-link">1</a></li><li class="d-none d-sm-block"><a title="2" href="/home/page-2" class="page-link">2</a></li><li class="d-none d-sm-block"><a title="3" href="/home/page-3" class="page-link">3</a></li><li class="d-none d-sm-block"><a title="4" href="/home/page-4" class="page-link">4</a></li><li class="d-none d-sm-block"><a title="5" href="/home/page-5" class="page-link">...</a></li><li class="d-none d-sm-block"><a title="6" href="/home/page-6" class="page-link">6</a></li><li class="d-none d-sm-block"><a title="7" href="/home/page-7" class="page-link">7</a></li><li class="d-none d-sm-block"><a title="8" href="/home/page-8" class="page-link">8</a></li><li class="d-none d-sm-block"><a title="9" href="/home/page-9" class="page-link">9</a></li><li class="d-none d-sm-block"><a title="10" href="/home/page-10" class="page-link">10</a></li><li class="page-item"><a title="Next" href="/home/page-2" class="page-link">Next <i class="fa fa-angle-right"></i></a><a id="next_1" href="/home/page-2"</a></li><li class="page-item"><a title="End" href="/home/page-423" class="page-link">Last <i class="fa fa-angle-double-right"></i></a></li></ul>
+<ul class="pagination"><li class="disabled page-item"><a class="page-link"><i class="fa fa-angle-double-left"></i></a></li><li class="disabled  page-item"><a class="page-link"><i class="fa fa-angle-left"></i></a></li><li class="active d-none d-sm-block  page-item"><a class="page-link">1</a></li><li class="d-none d-sm-block"><a title="2" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=24&amp;view=frontpage" class="page-link">2</a></li><li class="d-none d-sm-block"><a title="3" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=48&amp;view=frontpage" class="page-link">3</a></li><li class="d-none d-sm-block"><a title="4" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=72&amp;view=frontpage" class="page-link">4</a></li><li class="d-none d-sm-block"><a title="5" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=96&amp;view=frontpage" class="page-link">...</a></li><li class="d-none d-sm-block"><a title="6" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=120&amp;view=frontpage" class="page-link">6</a></li><li class="d-none d-sm-block"><a title="7" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=144&amp;view=frontpage" class="page-link">7</a></li><li class="d-none d-sm-block"><a title="8" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=168&amp;view=frontpage" class="page-link">8</a></li><li class="d-none d-sm-block"><a title="9" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=192&amp;view=frontpage" class="page-link">9</a></li><li class="d-none d-sm-block"><a title="10" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=216&amp;view=frontpage" class="page-link">10</a></li><li class="page-item"><a title="Next" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=24&amp;view=frontpage" class="page-link">Next <i class="fa fa-angle-right"></i></a><a id="next_1" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=24&amp;view=frontpage"</a></li><li class="page-item"><a title="End" href="/index.php?option=com_akrecipes&amp;lang=en&amp;limit=24&amp;limitstart=10128&amp;view=frontpage" class="page-link">Last <i class="fa fa-angle-double-right"></i></a></li></ul>
 <input type="hidden" name="limitstart" value="0" />
 </div>		
 
@@ -1476,15 +1476,13 @@ fbq('track', 'PageView');
 			});
 		</script> -->
 
-					<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9CRW966LNM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		<script type="text/javascript">
+			jQuery( document ).ready(function() {
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			});
+		</script>
 
-  gtag('config', 'G-9CRW966LNM');
-</script>					
+	
 
 					<script type="text/javascript">
 				// script for ingredient names

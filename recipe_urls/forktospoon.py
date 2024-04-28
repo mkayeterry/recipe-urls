@@ -16,6 +16,7 @@ class ForkToSpoonScraper(AbstractScraper):
             "recipes", 
             "weekly",
             "what",
+            "recipe-type"
         ]
     ]
 
