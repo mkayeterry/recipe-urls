@@ -230,6 +230,10 @@ def scrape_html(html: str, base_url: str | None = None) -> Optional[AbstractScra
 
     try:
         origin = get_site_origin(base_url, html=html)
+
+        if not origin:
+            raise ValueError(f"Base URL was not extracted from HTML content. Please provide a base URL.")
+
         scraper_class = SCRAPERS.get(origin)
 
         if not scraper_class:

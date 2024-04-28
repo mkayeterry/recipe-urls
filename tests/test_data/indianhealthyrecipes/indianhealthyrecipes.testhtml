@@ -53,7 +53,7 @@
 <style id='kadence-blocks-global-variables-inline-css'></style>
 <style id='kadence_blocks_css-inline-css'></style>
 <style id='rocket-lazyload-inline-css'>
-.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:var(--wpr-bg-f4904b85-37fd-4c3a-b821-c0d0adcb53e2) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
+.rll-youtube-player{position:relative;padding-bottom:56.23%;height:0;overflow:hidden;max-width:100%;}.rll-youtube-player:focus-within{outline: 2px solid currentColor;outline-offset: 5px;}.rll-youtube-player iframe{position:absolute;top:0;left:0;width:100%;height:100%;z-index:100;background:0 0}.rll-youtube-player img{bottom:0;display:block;left:0;margin:auto;max-width:100%;width:100%;position:absolute;right:0;top:0;border:none;height:auto;-webkit-transition:.4s all;-moz-transition:.4s all;transition:.4s all}.rll-youtube-player img:hover{-webkit-filter:brightness(75%)}.rll-youtube-player .play{height:100%;width:100%;left:0;top:0;position:absolute;background:var(--wpr-bg-61c394bd-b9fd-4f68-8c44-01a0405b438f) no-repeat center;background-color: transparent !important;cursor:pointer;border:none;}.wp-embed-responsive .wp-has-aspect-ratio .rll-youtube-player{position:absolute;padding-bottom:0;width:100%;height:100%;top:0;bottom:0;left:0;right:0}
 </style>
 <script type="rocketlazyloadscript" data-rocket-src="https://www.indianhealthyrecipes.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <script type="rocketlazyloadscript" data-rocket-src="https://www.indianhealthyrecipes.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js" defer></script>
@@ -116,9 +116,9 @@ gtag('config', 'UA-37355559-2');
 
 <noscript><style id="rocket-lazyload-nojs-css">.rll-youtube-player, [data-lazy-src]{display:none !important;}</style></noscript><style id="wpr-lazyload-bg-container"></style><style id="wpr-lazyload-bg-exclusion"></style>
 <noscript>
-<style id="wpr-lazyload-bg-nostyle">.rll-youtube-player .play{--wpr-bg-f4904b85-37fd-4c3a-b821-c0d0adcb53e2: url('https://www.indianhealthyrecipes.com/wp-content/plugins/wp-rocket/assets/img/youtube.png');}</style>
+<style id="wpr-lazyload-bg-nostyle">.rll-youtube-player .play{--wpr-bg-61c394bd-b9fd-4f68-8c44-01a0405b438f: url('https://www.indianhealthyrecipes.com/wp-content/plugins/wp-rocket/assets/img/youtube.png');}</style>
 </noscript>
-<script type="application/javascript">const rocket_pairs = [{"selector":".rll-youtube-player .play","style":".rll-youtube-player .play{--wpr-bg-f4904b85-37fd-4c3a-b821-c0d0adcb53e2: url('https:\/\/www.indianhealthyrecipes.com\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png');}","hash":"f4904b85-37fd-4c3a-b821-c0d0adcb53e2","url":"https:\/\/www.indianhealthyrecipes.com\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png"}]; const rocket_excluded_pairs = [];</script></head>
+<script type="application/javascript">const rocket_pairs = [{"selector":".rll-youtube-player .play","style":".rll-youtube-player .play{--wpr-bg-61c394bd-b9fd-4f68-8c44-01a0405b438f: url('https:\/\/www.indianhealthyrecipes.com\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png');}","hash":"61c394bd-b9fd-4f68-8c44-01a0405b438f","url":"https:\/\/www.indianhealthyrecipes.com\/wp-content\/plugins\/wp-rocket\/assets\/img\/youtube.png"}]; const rocket_excluded_pairs = [];</script></head>
 
 <body class="home page-template-default page page-id-128877 wp-custom-logo wp-embed-responsive no-anchor-scroll footer-on-bottom hide-focus-outline link-style-standard content-title-style-hide content-width-fullwidth content-style-boxed content-vertical-padding-show non-transparent-header mobile-non-transparent-header">
 <div id="wrapper" class="site wp-site-blocks">
@@ -610,7 +610,7 @@ gtag('config', 'UA-37355559-2');
 .wp-container-core-columns-is-layout-1.wp-container-core-columns-is-layout-1{flex-wrap:nowrap;}
 </style>
 <script id="pt-cv-content-views-script-js-extra">
-var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"4ec37be2fb","is_admin":"","is_mobile":"","ajaxurl":"https:\/\/www.indianhealthyrecipes.com\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw==","is_mobile_tablet":"","sf_no_post_found":"No posts found.","lf__separator":","};
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"4ec37be2fb","is_admin":"","is_mobile":"1","ajaxurl":"https:\/\/www.indianhealthyrecipes.com\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw==","is_mobile_tablet":"1","sf_no_post_found":"No posts found.","lf__separator":","};
 var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
 </script>
 <script type="rocketlazyloadscript" data-minify="1" data-rocket-src="https://www.indianhealthyrecipes.com/wp-content/cache/min/1/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?ver=1713659436" id="pt-cv-content-views-script-js" defer></script>
@@ -662,7 +662,7 @@ var MailPoetForm = {"ajax_url":"https:\/\/www.indianhealthyrecipes.com\/wp-admin
 				</svg></span></div></form>			</div>
 		</div>
 	</div>
-				<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="pt-cv-custom-script-8f110cc40q">
+				<script type="rocketlazyloadscript" data-rocket-type="text/javascript" id="pt-cv-custom-script-9a8e62ddgi">
 			(function($){$(function(){ 
 window.cvp_lazy_on_required = true;
  });}(jQuery));			</script>
@@ -804,4 +804,4 @@ if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_c
 
 <!-- Performance optimized by Redis Object Cache. Learn more: https://wprediscache.com -->
 
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1714329137 -->

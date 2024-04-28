@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html id="taxonomyScTemplate_1-0" class="comp taxonomyScTemplate html mntl-html no-js taxlevel-1 taxlevel-1" data-ab="99,99,99,99,99,99,99,99,99,99,99,99,99,99,99" data-mm-transactional-resource-version="1.6.9" data-mm-ads-resource-version="1.2.41" data-eatingwell-resource-version="2.26.0" data-mantle-resource-version="4.0.300" data-mm-digital-issues-resource-version="1.18.2" lang="en" data-tracking-container="true" data-resource-version="2.26.0"><!--
+<html id="taxonomyScTemplate_1-0" class="comp taxonomyScTemplate html mntl-html no-js taxlevel-1 taxlevel-1" data-ab="99,99,99,99,99,99,99,99,99,99,99,99,99,99" data-mm-transactional-resource-version="1.6.9" data-mm-ads-resource-version="1.2.41" data-eatingwell-resource-version="2.26.0" data-mantle-resource-version="4.0.300" data-mm-digital-issues-resource-version="1.18.2" lang="en" data-tracking-container="true" data-resource-version="2.26.0"><!--
 <globe-environment environment="k8s-prod" application="eatingwell" dataCenter="us-west-1"/>
 -->
 <head class="loc head">
@@ -123,7 +123,7 @@ display: none;
 <script type="text/javascript" data-glb-js="top" src="/static/2.26.0/cache/eNp9kmFuwyAMhS80xB02TftVqZpyAUKc1A3BGTap0tMPompNJ7cSIIf3YZtHLIsT9HZyUQJYT9NMEaKwDW6lLPbMZRh_Aj--2Uf4XKHryniFQlDscfiP3L4CtvyIYxRIDF6QopaXXAedIniiEYEVJQsGFF3ro3kldzS91BeIHSUrp0RSthRiKoFpE7hxpnK1e5KiQQnicIEQnhfZ-e459duilJlzy7lVhI_D8b5LXQ6w-f3dvNf5TJLk_FiCzwX2Pe-u5dYWtNNfx6ZOTcoRfzIYDiSmvrXGiEsDVFcMux4CsmgUe-M61pQEpeMMTe2_ZPlDdjaWk5UcZtF8dAOYBeHy4h0GmbYfLqAfjdwq_QK74jIS.min.js"></script>
 <script type="text/javascript">
 window.Mntl = window.Mntl || {};
-window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('63248b6adc8670f0abaeb8bf65507ae7', true);(function() {
+window.Mntl.csrf = window.Mntl.csrf || window.Mntl.csrfInit('92190d3f325f9c4dfa7bc1056a53365c', true);(function() {
 Mntl.utilities.onLoad(function() {
 const geolocationResponse = {};
 const externalJS = {
@@ -187,9 +187,9 @@ const pageTargeting = {
 customSeries: ''
 ,abtest: 'lcid1'
 ,tax0: 'EatingWell'
-,rid: 'n1429c206e1654637a1715a43206a24c816'
+,rid: 'na98b33ad414a4d5c90c4c9e3cb0d806920'
 ,custom: ''
-,sid: 'n1429c206e1654637a1715a43206a24c816'
+,sid: 'na98b33ad414a4d5c90c4c9e3cb0d806920'
 }
 ;
 const baseSlotTargeting = {
@@ -250,7 +250,7 @@ domain: 'www.eatingwell.com',
 templateName: 'taxonomysc',
 isMobile: false,
 dfpId: '3865',
-publisherProvidedId: '23eeeb65-9170-4df5-8034-c18116122623',
+publisherProvidedId: '0e6bcc12-55b2-4178-a372-d31221de33ad',
 singleRequest: false,
 useLmdFormat: true,
 useOxygen: true,
@@ -276,7 +276,7 @@ displayOnConsent: true,
 adsToCollapse: ['leaderboard*','square*']
 };
 if (Mntl.AdMetrics) {
-Mntl.AdMetrics.init("7186545", "n1429c206e1654637a1715a43206a24c816", initialSlots.map(slot => slot.config.id), Date.now());
+Mntl.AdMetrics.init("7186545", "na98b33ad414a4d5c90c4c9e3cb0d806920", initialSlots.map(slot => slot.config.id), Date.now());
 } else {
 Mntl.AdMetrics = { pushMetrics: () => {} };
 }
@@ -341,15 +341,12 @@ event: 'ab-proctor',
 : "rtbTracking | newevents | | 2"
 ,
 "99-11"
-: "orion | control | Control | 0"
-,
-"99-12"
 : "prebidVideoUsePlcmt | active | Pass plcmt | 1"
 ,
-"99-13"
+"99-12"
 : "useLiveRamp | active | active | 1"
 ,
-"99-14"
+"99-13"
 : "scAdsScript | active | Sc-ads.js is loaded in mantle inside listScCommerceTemplates. Sc-ads.js stops loading through commerce | 1"
 }
 });
@@ -430,7 +427,7 @@ window.addEventListener(event[0], event[1], { once: true });
 });
 })(Mntl.fnUtilities || {}, Mntl.CMP);window.dataLayer = window.dataLayer || [];
 (function() {
-var pageViewDataAsJSON = {"country":"US","description":"Healthy, delicious recipes, including quick dinner, easy lunch ideas, snacks, breakfast, soup and more, from the food and nutrition experts at EatingWell.","title":"Healthy Recipes" || document.title || '',"viewType":"LANDING","authorId":"1017870","contentGroup":"Other","revenueGroup":"","templateName":"TAXONOMYSC","documentId":7186545,"authorNames":"EatingWell Editors","templateId":"140","muid":"23eeeb65-9170-4df5-8034-c18116122623","lastEditingAuthorId":"1017870","lastEditingUserId":"164675782740518","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.0.300","commerceVersion":"","primaryTaxonomyIds":"6744898|7186545","primaryTaxonomyNames":"EatingWell|Healthy Recipes","fullUrl":"https://www.eatingwell.com/recipes/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"n1429c206e1654637a1715a43206a24c816","internalRequestId":"n1429c206e1654637a1715a43206a24c816","hid":"","experienceTypeName":""};
+var pageViewDataAsJSON = {"country":"US","description":"Healthy, delicious recipes, including quick dinner, easy lunch ideas, snacks, breakfast, soup and more, from the food and nutrition experts at EatingWell.","title":"Healthy Recipes" || document.title || '',"viewType":"LANDING","authorId":"1017870","contentGroup":"Other","revenueGroup":"","templateName":"TAXONOMYSC","documentId":7186545,"authorNames":"EatingWell Editors","templateId":"140","muid":"0e6bcc12-55b2-4178-a372-d31221de33ad","lastEditingAuthorId":"1017870","lastEditingUserId":"164675782740518","recircDocIdsFooter":"","euTrafficFlag":false,"isGoogleBot":false,"mantleVersion":"4.0.300","commerceVersion":"","primaryTaxonomyIds":"6744898|7186545","primaryTaxonomyNames":"EatingWell|Healthy Recipes","fullUrl":"https://www.eatingwell.com/recipes/" + location.hash,"experienceType":"single page","entryType":"direct","excludeFromComscore":false,"internalSessionId":"na98b33ad414a4d5c90c4c9e3cb0d806920","internalRequestId":"na98b33ad414a4d5c90c4c9e3cb0d806920","hid":"","experienceTypeName":""};
 var scrolledPageData = {};
 var scrolledDocOrdinal;
 var scrolledPage;
@@ -5577,7 +5574,7 @@ window.Mntl.externalizeLinks.addPlugin(window?.Trx?.amazonAffiliateTagger);
 window.Mntl.externalizeLinks.init();window.Mntl.affiliateLinkRewriter.setMappings( {
 DOC_ID: '7186545'
 ,SITE: 'eatingwell'
-,REQUEST_ID: 'n1429c206e1654637a1715a43206a24c816'
+,REQUEST_ID: 'na98b33ad414a4d5c90c4c9e3cb0d806920'
 }
 );
 (function (Mntl) {

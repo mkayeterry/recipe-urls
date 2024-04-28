@@ -42,7 +42,7 @@
 				var mi_version = '8.26.0';
 				var mi_track_user = true;
 				var mi_no_track_reason = '';
-								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/forktospoon.com\/category\/recipes\/"};
+								var MonsterInsightsDefaultLocations = {"page_location":"https:\/\/forktospoon.com\/category\/recipes\/","page_referrer":"https:\/\/forktospoon.com\/"};
 				if ( typeof MonsterInsightsPrivacyGuardFilter === 'function' ) {
 					var MonsterInsightsLocations = (typeof MonsterInsightsExcludeQuery === 'object') ? MonsterInsightsPrivacyGuardFilter( MonsterInsightsExcludeQuery ) : MonsterInsightsPrivacyGuardFilter( MonsterInsightsDefaultLocations );
 				} else {
@@ -980,4 +980,4 @@ window.FWP_HTTP = {"get":[],"uri":"category\/recipes","url_vars":{"course":["rec
 </script>
 </body>
 </html>
-<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1714319788 -->
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me -->

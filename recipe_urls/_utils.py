@@ -110,7 +110,6 @@ SITE_ORIGINS = [
 def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) -> Optional[str]:
 
     if base_url:
-        print(f'**** base_url provided = {base_url}')
 
         if not isinstance(base_url, str):
             raise ValueError("URL format must be of type string.")
@@ -196,8 +195,7 @@ def extract_base_domain(soup: BeautifulSoup) -> dict:
         return base_domain
     
     else:
-        raise ValueError(f"Base URL was not extracted from HTML content, please provide a base URL.")
-
+        raise ValueError(f"Base URL was not extracted from HTML content. Please provide a base URL.")
 
 
 

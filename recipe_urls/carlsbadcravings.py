@@ -8,6 +8,7 @@ class CarlsbadCravingsScraper(AbstractScraper):
         re.compile(pattern)
         for pattern in [
             "contact",
+            "how-to", 
             "latest",
             "privacy",
         ]
