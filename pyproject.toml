@@ -32,7 +32,8 @@ readme = "README.md"
 [project.optional-dependencies]
 test = [
   "pytest",
-  "pip-tools"
+  "pip-tools", 
+  "mocker"
 ]
 dev = ["black"]
 
