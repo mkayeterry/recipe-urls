@@ -146,7 +146,6 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
         raise ValueError("Either base_url or html must be provided.")
 
 
-
 def extract_base_domain(soup: BeautifulSoup) -> dict:
 
     base_domain = {}
@@ -196,7 +195,6 @@ def extract_base_domain(soup: BeautifulSoup) -> dict:
     
     else:
         raise ValueError(f"Base URL was not extracted from HTML content. Please provide a base URL.")
-
 
 
 def concat_host(link: str, base_url: str, soup: BeautifulSoup) -> str:
