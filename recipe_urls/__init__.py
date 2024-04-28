@@ -228,7 +228,7 @@ def scrape_urls(base_url: str) -> Optional[AbstractScraper]:
         raise ValueError(f"Failed to scrape {base_url}. {str(e)}") from None
 
 
-def scrape_html(html: str, base_url: str | None = None) -> Optional[AbstractScraper]:
+def scrape_html(html: str, base_url: Optional[str] = None) -> Optional[AbstractScraper]:
 
     try:
         origin = get_site_origin(base_url, html=html)
