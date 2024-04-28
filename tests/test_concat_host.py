@@ -3,6 +3,8 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse
 from recipe_urls._utils import concat_host
 
+
+@pytest.fixture
 def sample_soup():
     # Sample HTML content for testing extract_base_domain function
     sample_html = """
