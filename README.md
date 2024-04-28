@@ -2,7 +2,7 @@
 
 ## Overview
 
-`recipe-urls` is a Python package designed to gather recipe URLs from a given base URL or from provided html content.
+`recipe-urls` is a Python package designed to gather recipe URLs from a given base URL or from provided HTML content.
 
 <br>
 
