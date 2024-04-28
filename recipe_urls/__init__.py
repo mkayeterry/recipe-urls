@@ -246,8 +246,7 @@ def scrape_html(html: str, base_url: str | None = None) -> Optional[AbstractScra
     except Exception as e:
         raise ValueError(f"Failed to scrape HTML content. {str(e)}") from None
         
-    
-        
+
 __all__ = [
     'scrape_urls', 
     'scrape_html'
