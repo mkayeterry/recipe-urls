@@ -13,7 +13,7 @@ class AbstractScraper:
     def __init__(self, base_url: Optional[str] = None, html: Optional[str] = None):
         self.base_url = base_url
         if html:
-            soup = BeautifulSoup(html, "lxml")
+            soup = BeautifulSoup(html, "html.parser")
         else:
             try:
                 response = requests.get(
@@ -24,7 +24,7 @@ class AbstractScraper:
                 )
                 response.raise_for_status()
                 html = response.content
-                soup = BeautifulSoup(html, "lxml")
+                soup = BeautifulSoup(html, "html.parser")
             except HTTPError as e:
                 if e.response.status_code == 403:
                     raise Exception(
