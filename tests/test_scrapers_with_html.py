@@ -1,6 +1,6 @@
-import pytest
 import csv
 import os
+import pytest
 from bs4 import BeautifulSoup
 from importlib import import_module
 
@@ -21,24 +21,25 @@ def get_scraper_modules():
 def get_test_files():
     for dirpath, dirnames, filenames in os.walk(CONFIG["test_dir"]):
         html_file = next((f for f in filenames if f.endswith(".testhtml")), None)
-        exp_output_file = next((f for f in filenames if f.endswith("_exp_output.csv")), None)
+        exp_output_file = next(
+            (f for f in filenames if f.endswith("_exp_output.csv")), None
+        )
         if html_file and exp_output_file:
-            yield (os.path.join(dirpath, html_file), os.path.join(dirpath, exp_output_file))
+            yield (
+                os.path.join(dirpath, html_file),
+                os.path.join(dirpath, exp_output_file),
+            )
 
 
-def load_html(file_path):
-    try:
-        with open(file_path, "r") as file:
-            return BeautifulSoup(file.read(), "html.parser")
-    except Exception as e:
-        print(f"Error loading HTML file {file_path}: {e}")
-        raise
-
-
-def format_class_name(module_name):
-    parts = module_name.split("_")
-    class_name = "".join(part.capitalize() for part in parts) + "Scraper"
-    return class_name
+def load_base_url(dirpath):
+    base_url_file = next(
+        (f for f in os.listdir(dirpath) if f.endswith("_base_url.csv")), None
+    )
+    if base_url_file:
+        with open(os.path.join(dirpath, base_url_file), newline="") as csvfile:
+            reader = csv.reader(csvfile)
+            for row in reader:
+                return row[0]
 
 
 def find_class(module, base_name):
@@ -64,16 +65,15 @@ def test_scraper(mocker, scraper_module, html_file, exp_output_file):
     module_name, module = scraper_module
     scraper_class = find_class(module, module_name)
 
+    # Determine the base URL from the associated CSV file
+    base_url = load_base_url(os.path.dirname(html_file))
+
     # Read the HTML content from the file
     with open(html_file, "r") as file:
         html_content = file.read()
 
-    # Instantiate the scraper using the HTML content
-    scraper = scraper_class(base_url=None, html=html_content)
-
-    # Manually set the soup if not already set in the constructor
-    if not hasattr(scraper, "soup"):
-        scraper.soup = BeautifulSoup(html_content, "html.parser")
+    # Instantiate the scraper using the HTML content and the loaded base URL
+    scraper = scraper_class(base_url=base_url, html=html_content)
 
     # Perform the scraping
     scraped_links = scraper.scrape()
@@ -86,4 +86,6 @@ def test_scraper(mocker, scraper_module, html_file, exp_output_file):
             expected_links.extend(row)
 
     # Assert that the scraped links match the expected links
-    assert set(scraped_links) == set(expected_links), f"The scraped links do not match the expected links for {module_name}."
+    assert set(scraped_links) == set(
+        expected_links
+    ), f"The scraped links do not match the expected links for {module_name}."
