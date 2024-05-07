@@ -107,7 +107,9 @@ SITE_ORIGINS = [
 ]
 
 
-def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) -> Optional[str]:
+def get_site_origin(
+    base_url: Optional[str] = None, html: Optional[str] = None
+) -> Optional[str]:
     if base_url:
         if not isinstance(base_url, str):
             raise ValueError("URL format must be of type string.")
@@ -124,7 +126,7 @@ def get_site_origin(base_url: Optional[str] = None, html: Optional[str] = None) 
     elif html:
         soup = BeautifulSoup(html, "html.parser")
         base_domain = extract_base_domain(soup)
-        return base_domain['hostname']
+        return base_domain["hostname"]
     else:
         raise ValueError("Either base_url or html must be provided.")
 
