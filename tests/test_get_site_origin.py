@@ -31,3 +31,16 @@ def test_get_site_origin_errors(url, expected_exception):
     with pytest.raises(Exception) as e:  # Catching general Exception to pass TypeError and ValueError
         get_site_origin(url)
     assert str(e.value) == expected_exception
+
+@pytest.mark.parametrize("url", [
+    f"https://{domain}" for domain in SITE_ORIGINS
+])
+
+
+def test_get_site_origin_success(url):
+
+    parsed_url = urlparse(url)
+    domain = parsed_url.hostname if not None else parsed_url.netloc
+    normalized_domain = domain.lower()
+
+    assert get_site_origin(url) == normalized_domain, f"ValueError: URL '{normalized_domain}' is not supported."
